@@ -15,3 +15,5 @@ data-store/*
 .env.*
 .vercel
 *.zip
+"*.log"  
+"build-log.txt"  
