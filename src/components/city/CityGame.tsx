@@ -367,7 +367,7 @@ export function CityGame({ city }: { city: CityData }) {
       </main>
 
       {/* 模态框组 */}
-      {modal === "chain" && <IndustryChainModal city={city} open onClose={() => setModal(null)} />}
+      {modal === "chain" && <IndustryChainModal city={city} year={year} onYearChange={setYear} open onClose={() => setModal(null)} />}
       {modal === "diag" && <DiagnosisModal city={city} open onClose={() => setModal(null)} />}
       {modal === "migra" && <MigrationModal city={city} year={year} open onClose={() => setModal(null)} />}
       {modal === "space" && <SpaceMapModal city={city} year={year} open onClose={() => setModal(null)} />}
