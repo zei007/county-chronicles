@@ -1,0 +1,62 @@
+# Pages — GitHub Pages 静态导出部署（全自动云端发布）
+# 游戏本体/地图/存档/挑战完全可用；API 路由（排行榜/云同步）在纯静态托管下停用，前端自动降级离线模式
+name: Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: 安装依赖
+        run: npm ci
+
+      - name: 暂移 API 路由（静态导出不支持文件存储路由）
+        run: |
+          mv src/app/api /tmp/api-backup
+          echo "API routes moved out"
+
+      - name: 静态导出（basePath=/county-chronicles）
+        env:
+          STATIC_EXPORT: "1"
+          NEXT_PUBLIC_BASE_PATH: /county-chronicles
+        run: npm run build
+
+      - name: 检查导出产物
+        run: |
+          test -f out/index.html
+          test -d out/geo
+          echo "pages: $(find out -name 'index.html' | wc -l)"
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: out
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

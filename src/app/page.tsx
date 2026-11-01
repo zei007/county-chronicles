@@ -13,7 +13,7 @@ import { Badge } from "@/components/ui/badge";
 import { Progress } from "@/components/ui/misc";
 import { loadProgress, type ProgressData } from "@/lib/progress";
 import { audio } from "@/lib/audio";
-import { fmtPop } from "@/lib/utils";
+import { fmtPop, BASE_PATH } from "@/lib/utils";
 import { Map as MapIcon, Swords, Trophy, BookOpen, RotateCcw, Sparkles, Info, X, PlayCircle, Medal } from "lucide-react";
 import * as Dialog from "@/components/ui/dialog";
 
@@ -45,7 +45,7 @@ export default function HomePage() {
   // 县长排行榜 Top10（服务不可达时静默降级为离线模式）
   React.useEffect(() => {
     let alive = true;
-    fetch("/api/leaderboard")
+    fetch(`${BASE_PATH}/api/leaderboard`)
       .then((r) => (r.ok ? r.json() : Promise.reject(new Error(String(r.status)))))
       .then((d) => { if (alive) setBoard(Array.isArray(d.entries) ? d.entries : []); })
       .catch(() => { if (alive) setBoard([]); });

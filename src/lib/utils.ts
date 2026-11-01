@@ -1,6 +1,9 @@
 import { clsx, type ClassValue } from "clsx";
 import { twMerge } from "tailwind-merge";
 
+/** 部署子路径（GitHub Pages 静态导出时由构建环境注入，如 /county-chronicles；默认空 = 根路径部署） */
+export const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
+
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }

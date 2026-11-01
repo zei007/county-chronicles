@@ -19,7 +19,7 @@ import { recordSim, saveSimState, clearSimState, loadProgress, recordChallenge, 
 import { onSimFinished, onChallengeStars } from "@/lib/achievements";
 import { SIM_CHALLENGES, evaluateChallenge } from "@/lib/engine/challenges";
 import { audio } from "@/lib/audio";
-import { fmtPop, fmtGdp, fmtPct, fmtNum } from "@/lib/utils";
+import { fmtPop, fmtGdp, fmtPct, fmtNum, BASE_PATH } from "@/lib/utils";
 import { ArrowLeft, ChevronRight, Landmark, TrendingUp, Leaf, HeartHandshake, Boxes, PiggyBank, RotateCcw, Send } from "lucide-react";
 
 const POLICY_META: { key: keyof SimPolicyInput; label: string; icon: React.ReactNode; desc: string; color: string }[] = [
@@ -427,7 +427,7 @@ function LeaderboardSubmit(props: { cityKey: string; cityName: string; score: nu
   const submit = async () => {
     setStatus("sending");
     try {
-      const res = await fetch("/api/leaderboard", {
+      const res = await fetch(`${BASE_PATH}/api/leaderboard`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ ...props, playerName: name || "无名县长" }),

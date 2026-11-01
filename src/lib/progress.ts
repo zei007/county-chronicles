@@ -5,6 +5,7 @@
 "use client";
 
 import type { SimState } from "@/lib/types";
+import { BASE_PATH } from "@/lib/utils";
 
 const NS = "crf.v1";
 const K_PLAYER = `${NS}.playerId`;
@@ -161,7 +162,7 @@ export function resetProgress() {
 /** 云端同步（可离线：失败静默） */
 export async function syncToCloud(data: ProgressData): Promise<boolean> {
   try {
-    const res = await fetch("/api/progress", {
+    const res = await fetch(`${BASE_PATH}/api/progress`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(data),

@@ -8,6 +8,7 @@ import * as React from "react";
 import { EChart } from "@/components/EChart";
 import type { CityData } from "@/lib/types";
 import { audio } from "@/lib/audio";
+import { BASE_PATH } from "@/lib/utils";
 
 export interface MapCity {
   key: string;
@@ -36,7 +37,7 @@ export function ChinaMap({
   const [geo, setGeo] = React.useState<unknown>(null);
 
   React.useEffect(() => {
-    fetch("/geo/china.json")
+    fetch(`${BASE_PATH}/geo/china.json`)
       .then((r) => r.json())
       .then(setGeo)
       .catch(() => setGeo(null));

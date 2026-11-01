@@ -8,7 +8,7 @@ import * as React from "react";
 import type { CityData, MigrationDestination } from "@/lib/types";
 import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } from "@/components/ui/dialog";
 import { EChart } from "@/components/EChart";
-import { fmtPop } from "@/lib/utils";
+import { fmtPop, BASE_PATH } from "@/lib/utils";
 
 /** 主要城市经纬度（用于飞线终点） */
 const CITY_COORDS: Record<string, [number, number]> = {
@@ -41,7 +41,7 @@ export function MigrationModal({ city, year, open, onClose }: { city: CityData; 
   const [geo, setGeo] = React.useState<unknown>(null);
   React.useEffect(() => {
     if (!open) return;
-    fetch("/geo/china.json").then((r) => r.json()).then(setGeo).catch(() => {});
+    fetch(`${BASE_PATH}/geo/china.json`).then((r) => r.json()).then(setGeo).catch(() => {});
   }, [open]);
 
   const origin = city.profile.coordinates;
