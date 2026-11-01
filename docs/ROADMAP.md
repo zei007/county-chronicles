@@ -2,7 +2,25 @@
 
 > 本文档记录已完成里程碑与后续迭代计划（速览版）。**完整开发计划（版本任务分解/验收标准/风险登记）见 [DEVELOPMENT_PLAN.md](DEVELOPMENT_PLAN.md)**。
 
-## ✅ v1.2（当前版本 — 核心已交付，2026-11-01）
+## ✅ v1.2.1（性能优化 + 体验修复，2026-11-02）
+
+### 打开速度（未压缩 JS 口径，gzip 后更小）
+- [x] **ECharts 整包 → 按需注册**（`src/lib/echarts.ts`：core + Line/Bar/Scatter/EffectScatter/Lines/Radar + Grid/Tooltip/Legend/Geo/MarkLine/AxisPointer）：首页 631→516kB、城市页 670→523kB、经营页 656→545kB
+- [x] **五大模态框懒加载**（next/dynamic + 挂载即渲染）：产业链/诊断/迁徙/空间/档案代码块点开才下载
+- [x] **地图 GeoJSON 瘦身**：坐标 4 位小数 + 紧凑序列化，569→469KB（`scripts/slim-geojson.mjs`）
+- [x] 遗留项（v1.3）：55 城数据 JSON 仍随包静态导入，可拆为按城异步加载
+
+### 修复
+- [x] 随机事件未选择时，年度报表提前显示"你选择了「申报试点」"（引擎创建事件不再预置 chosenIndex，选择后回填）
+- [x] CityGame 死代码清理（占位 Dialog hack）+ 重复导入
+
+### 云端部署（新增能力）
+- [x] **GitHub Pages 全自动部署上线**：`.github/workflows/pages.yml`（暂移 API → 静态导出 → 发布），推送 main 即发布
+- [x] `next.config.ts` 双模式构建（standalone / STATIC_EXPORT=1 导出），`NEXT_PUBLIC_BASE_PATH` 子路径注入，5 处绝对路径 fetch 改 basePath 感知
+- [x] 排行榜 API 在只读文件系统（Vercel/静态托管）明确返回 503 优雅降级
+- [x] 部署文档重写：预览地址/五种部署方式步骤（docs/DEPLOYMENT.md §0-§8）
+
+## ✅ v1.2（已完成，2026-11-01）
 
 ### 数据（七普复核 batch-G）
 - [x] **44 资源城 `real_anchors.census2020` 全量落盘**：本轮补齐 10 城（萍乡 180.48万 / 铜陵 131.2万 / 葫芦岛 2,434,194 / 焦作 3,521,008 / 鹤壁 1,565,973 / 七台河 689,611 / 双鸭山 1,208,803 / 涟源 93.05万 / 新余 1,202,199 / 淮南 3,033,528），来源为各省市七普公报原文或公报镜像（tjgb.hongheiku.com / zgrkk.com / 省统计局官网），逐城写入 `sources`

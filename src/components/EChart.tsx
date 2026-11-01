@@ -5,11 +5,12 @@
  * 统一处理：客户端挂载、暗色主题、resize、notMerge 更新、点击事件。
  */
 import * as React from "react";
-import * as echarts from "echarts";
+// 运行时走按需注册的核心库（类型亦取自 core：与运行时实例严格一致）
+import * as echarts from "@/lib/echarts";
 import { cn } from "@/lib/utils";
 
 export interface EChartProps {
-  option: echarts.EChartsOption | Record<string, unknown>;
+  option: echarts.EChartsCoreOption | Record<string, unknown>;
   className?: string;
   style?: React.CSSProperties;
   onEvents?: Record<string, (params: unknown) => void>;
@@ -22,7 +23,7 @@ export interface EChartProps {
 
 export function EChart({ option, className, style, onEvents, notMerge = true, registerMapName, registerMapGeoJson }: EChartProps) {
   const ref = React.useRef<HTMLDivElement>(null);
-  const chartRef = React.useRef<echarts.ECharts | null>(null);
+  const chartRef = React.useRef<echarts.EChartsType | null>(null);
   const [ready, setReady] = React.useState(false);
 
   React.useEffect(() => {
@@ -44,7 +45,7 @@ export function EChart({ option, className, style, onEvents, notMerge = true, re
 
   React.useEffect(() => {
     if (!ready || !chartRef.current) return;
-    chartRef.current.setOption(option as echarts.EChartsOption, notMerge);
+    chartRef.current.setOption(option as echarts.EChartsCoreOption, notMerge);
   }, [option, ready, notMerge]);
 
   React.useEffect(() => {

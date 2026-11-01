@@ -4,7 +4,20 @@
 > 以真实统计数据为锚，玩家既能**时间轴探索**城市百年兴衰，也能在**县长生涯**模式中亲手改写历史。
 > **Next.js 全栈 · 全资源本地化（零 CDN）· 手机/电脑双端适配 · 可完全离线部署。**
 
-![CI](https://github.com/OWNER/county-chronicles/actions/workflows/ci.yml/badge.svg) ![license](https://img.shields.io/badge/license-MIT-green) ![tech](https://img.shields.io/badge/Next.js-15-black) ![tech](https://img.shields.io/badge/React-19-blue) ![tech](https://img.shields.io/badge/TailwindCSS-4-cyan) ![tech](https://img.shields.io/badge/shadcn%2Fui-latest-violet) ![tech](https://img.shields.io/badge/ECharts-5-gold)
+![CI](https://github.com/zei007/county-chronicles/actions/workflows/ci.yml/badge.svg) ![Pages](https://github.com/zei007/county-chronicles/actions/workflows/pages.yml/badge.svg) ![license](https://img.shields.io/badge/license-MIT-green) ![tech](https://img.shields.io/badge/Next.js-15-black) ![tech](https://img.shields.io/badge/React-19-blue) ![tech](https://img.shields.io/badge/TailwindCSS-4-cyan) ![tech](https://img.shields.io/badge/shadcn%2Fui-latest-violet) ![tech](https://img.shields.io/badge/ECharts-5-gold)
+
+**🎮 在线玩**：https://zei007.github.io/county-chronicles/ （GitHub Pages 自动部署 · 手机/电脑均可）
+
+## 〇、预览与部署速览
+
+| 方式 | 地址/命令 | 排行榜/云同步 |
+|------|----------|--------------|
+| **GitHub Pages（已上线）** | https://zei007.github.io/county-chronicles/ | 离线降级（单机完整） |
+| 本地开发 | `npm install && npm run dev` | ❌ 无需 |
+| 自托管（功能全） | `npm run build && npm run start` | ✅ 完整 |
+| Vercel 两键导入 | [vercel.com/new](https://vercel.com/new) 选择本仓库 | ⚠️ 只读盘降级 |
+
+完整步骤（含 Docker/内网离线/任意静态托管）见 **[docs/DEPLOYMENT.md](docs/DEPLOYMENT.md)**。
 
 ---
 

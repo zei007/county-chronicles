@@ -352,7 +352,8 @@ export function simulateYear(
     const pool = RANDOM_EVENTS.filter((e) => (e.minYearProgress ?? 0) <= progress);
     if (pool.length) {
       const pick = pool[Math.floor(rng() * pool.length)];
-      events.push({ id: `${pick.id}-${year}`, title: pick.title, desc: pick.desc, kind: "random", choices: pick.choices, chosenIndex: 0 });
+      // chosenIndex 留空：玩家做出选择前，报表不显示"你选择了…"（applyChoiceEffects 回填）
+      events.push({ id: `${pick.id}-${year}`, title: pick.title, desc: pick.desc, kind: "random", choices: pick.choices });
     }
   }
 

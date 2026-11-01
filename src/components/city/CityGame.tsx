@@ -18,12 +18,14 @@ import { Badge } from "@/components/ui/badge";
 import { Slider } from "@/components/ui/slider";
 import { Progress } from "@/components/ui/misc";
 import { ArrowLeft, Play, Pause, Link2, Activity, Satellite, Stethoscope, FileArchive, Gamepad2, Map as MapIcon, Swords, Volume2, VolumeX, X } from "lucide-react";
-import { IndustryChainModal } from "@/components/city/modals/IndustryChainModal";
-import { DiagnosisModal } from "@/components/city/modals/DiagnosisModal";
-import { MigrationModal } from "@/components/city/modals/MigrationModal";
-import { SpaceMapModal } from "@/components/city/modals/SpaceMapModal";
-import { ReportModal } from "@/components/city/modals/ReportModal";
+/** 五大模态框按需加载：点开才拉取对应代码块（v1.2.1 首屏提速） */
+const IndustryChainModal = nextDynamic(() => import("@/components/city/modals/IndustryChainModal").then((m) => m.IndustryChainModal), { ssr: false });
+const DiagnosisModal = nextDynamic(() => import("@/components/city/modals/DiagnosisModal").then((m) => m.DiagnosisModal), { ssr: false });
+const MigrationModal = nextDynamic(() => import("@/components/city/modals/MigrationModal").then((m) => m.MigrationModal), { ssr: false });
+const SpaceMapModal = nextDynamic(() => import("@/components/city/modals/SpaceMapModal").then((m) => m.SpaceMapModal), { ssr: false });
+const ReportModal = nextDynamic(() => import("@/components/city/modals/ReportModal").then((m) => m.ReportModal), { ssr: false });
 import { MainChart, buildChartOption } from "@/components/city/MainChart";
+import nextDynamic from "next/dynamic";
 import * as Dialog from "@/components/ui/dialog";
 
 const TAG_MAP: Record<string, "discovery" | "peak" | "decline" | "relocation" | "transformation" | "culture" | "default"> = {
@@ -365,11 +367,11 @@ export function CityGame({ city }: { city: CityData }) {
       </main>
 
       {/* 模态框组 */}
-      <IndustryChainModal city={city} open={modal === "chain"} onClose={() => setModal(null)} />
-      <DiagnosisModal city={city} open={modal === "diag"} onClose={() => setModal(null)} />
-      <MigrationModal city={city} year={year} open={modal === "migra"} onClose={() => setModal(null)} />
-      <SpaceMapModal city={city} year={year} open={modal === "space"} onClose={() => setModal(null)} />
-      <ReportModal city={city} open={modal === "report"} onClose={() => setModal(null)} />
+      {modal === "chain" && <IndustryChainModal city={city} open onClose={() => setModal(null)} />}
+      {modal === "diag" && <DiagnosisModal city={city} open onClose={() => setModal(null)} />}
+      {modal === "migra" && <MigrationModal city={city} year={year} open onClose={() => setModal(null)} />}
+      {modal === "space" && <SpaceMapModal city={city} year={year} open onClose={() => setModal(null)} />}
+      {modal === "report" && <ReportModal city={city} open onClose={() => setModal(null)} />}
 
       {/* 首访快捷键引导层（仅首次，"知道了"后 localStorage 标记） */}
       {showKbdGuide && (
@@ -416,7 +418,3 @@ function MetricBlock({ label, value, trend, barPct, barColor }: { label: string;
     </div>
   );
 }
-
-/** 供移动端"对比"按钮使用的空对话框（占位避免未使用告警） */
-const _UnusedDialog = Dialog.Dialog;
-void _UnusedDialog;

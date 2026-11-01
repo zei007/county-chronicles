@@ -1,6 +1,6 @@
 {
   "name": "county-chronicles",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "private": true,
   "description": "县城兴衰史 County Chronicles — 中国资源型城市兴衰互动叙事 + 模拟经营游戏（Next.js 全栈，全资源本地化，离线可部署）",
   "license": "MIT",
