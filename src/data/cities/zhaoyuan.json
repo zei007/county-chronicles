@@ -1,0 +1,747 @@
+{
+ "profile": {
+  "name": "招远市",
+  "province": "山东省",
+  "prefecture": "烟台市代管",
+  "area": "1,432 km²",
+  "coordinates": [
+   120.4,
+   37.36
+  ],
+  "tags": [
+   "中国金都",
+   "金矿之都",
+   "黄金文化",
+   "滨海山城"
+  ],
+  "description": "胶东半岛西北缘的'中国金都'，黄金开采历史悠久，现代规模化生产始于1970年代。玲珑、阜山等大型金矿支撑起全国县级最大的黄金产业，产量曾长期占全国县级榜首。进入新世纪后，浅部资源渐趋枯竭、环保约束趋紧，招远正从'挖金卖金'向黄金深加工、工业旅游和文化品牌升级转型。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 1975,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "起家期",
+    "start": 1975,
+    "end": 1984,
+    "color": "green"
+   },
+   {
+    "name": "壮盛期",
+    "start": 1985,
+    "end": 2005,
+    "color": "yellow"
+   },
+   {
+    "name": "调整期",
+    "start": 2006,
+    "end": 2014,
+    "color": "red"
+   },
+   {
+    "name": "转型期",
+    "start": 2015,
+    "end": 2024,
+    "color": "teal"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "gold",
+    "label": "黄金产量",
+    "unit": "吨",
+    "max": 60,
+    "color": "#c9a84c"
+   },
+   {
+    "key": "tourism",
+    "label": "旅游收入",
+    "unit": "亿元",
+    "max": 100,
+    "color": "#2d6a4f"
+   }
+  ],
+  "spaceType": "built_up",
+  "spaceLabels": {
+   "built": "建成区",
+   "density": "人口密度"
+  },
+  "cityKey": "zhaoyuan",
+  "chainKeys": [
+   "gold",
+   "deep_processing"
+  ],
+  "chainContainerIds": [
+   "goldChain",
+   "deepChain"
+  ],
+  "currentStatus": "绿色智慧金都，黄金文旅融合",
+  "transformationAssessment": "从'挖金卖金'到'中国金都'品牌升级",
+  "transformationDetail": "招远黄金产量曾连续数十年居全国县级首位，但浅部资源枯竭、开采深度不断增加、生态约束收紧倒逼转型。依托'中国金都'品牌，黄金深加工、珠宝首饰、工业旅游、尾矿综合利用等新兴产业快速成长，数字化矿山和绿色矿山建设成为新名片。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 1975,
+   "title": "玲珑金矿复产",
+   "category": "discovery",
+   "desc": "玲珑金矿等大型矿山恢复规模化生产，招远现代黄金工业起步",
+   "impact": 9,
+   "pop": 80000,
+   "gold": 5,
+   "tourism": 0,
+   "gdp": 0.5,
+   "event": true
+  },
+  {
+   "year": 1980,
+   "title": "产量破十吨",
+   "category": "peak",
+   "desc": "招远黄金年产量突破10吨，跃居全国县级前列",
+   "impact": 8,
+   "pop": 120000,
+   "gold": 12,
+   "tourism": 0,
+   "gdp": 2,
+   "event": false
+  },
+  {
+   "year": 1985,
+   "title": "万两黄金县",
+   "category": "peak",
+   "desc": "年产黄金超过1吨（旧时计量'万两'），'金都'名号开始流传",
+   "impact": 9,
+   "pop": 160000,
+   "gold": 25,
+   "tourism": 0,
+   "gdp": 6,
+   "event": true
+  },
+  {
+   "year": 1991,
+   "title": "撤县设市",
+   "category": "peak",
+   "desc": "招远撤县设立县级市，城市化与黄金产业同步提速",
+   "impact": 8,
+   "pop": 190000,
+   "gold": 38,
+   "tourism": 0.1,
+   "gdp": 12,
+   "event": true
+  },
+  {
+   "year": 1995,
+   "title": "全国金都",
+   "category": "peak",
+   "desc": "黄金产量稳居全国县级第一，'中国金都'称号正式确立",
+   "impact": 10,
+   "pop": 210000,
+   "gold": 50,
+   "tourism": 0.5,
+   "gdp": 25,
+   "event": true
+  },
+  {
+   "year": 2000,
+   "title": "资源警钟",
+   "category": "decline",
+   "desc": "浅部高品位金矿减少，开采深度突破千米，成本大幅攀升",
+   "impact": 8,
+   "pop": 230000,
+   "gold": 45,
+   "tourism": 2,
+   "gdp": 45,
+   "event": true
+  },
+  {
+   "year": 2002,
+   "title": "招金集团组建",
+   "category": "transformation",
+   "desc": "山东招金集团整合资源、延伸链条，开启集团化、深加工转型",
+   "impact": 8,
+   "pop": 235000,
+   "gold": 42,
+   "tourism": 3,
+   "gdp": 55,
+   "event": true
+  },
+  {
+   "year": 2008,
+   "title": "绿色矿山试点",
+   "category": "transformation",
+   "desc": "入选全国首批绿色矿山试点，尾矿治理与生态修复同步推进",
+   "impact": 7,
+   "pop": 240000,
+   "gold": 38,
+   "tourism": 8,
+   "gdp": 90,
+   "event": true
+  },
+  {
+   "year": 2010,
+   "title": "黄金文化旅游区",
+   "category": "transformation",
+   "desc": "依托废弃矿区和黄金历史建设工业旅游区，文旅业态兴起",
+   "impact": 7,
+   "pop": 245000,
+   "gold": 35,
+   "tourism": 12,
+   "gdp": 120,
+   "event": false
+  },
+  {
+   "year": 2015,
+   "title": "深加工产业园",
+   "category": "transformation",
+   "desc": "黄金深加工产业园投产，珠宝首饰、金箔工艺品等延伸产业集聚",
+   "impact": 8,
+   "pop": 250000,
+   "gold": 32,
+   "tourism": 25,
+   "gdp": 180,
+   "event": true
+  },
+  {
+   "year": 2020,
+   "title": "智慧矿山",
+   "category": "transformation",
+   "desc": "5G+智能采矿、无人化运输应用，矿山安全与效率双提升",
+   "impact": 8,
+   "pop": 543100,
+   "gold": 28,
+   "tourism": 50,
+   "gdp": 697.56,
+   "event": true,
+   "calibrated": true
+  },
+  {
+   "year": 2021,
+   "title": "2021年统计锚点",
+   "category": "peak",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 543100,
+   "gdp": 749.42,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2023,
+   "title": "2023年统计锚点",
+   "category": "peak",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 530800,
+   "gdp": 868.45,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2024,
+   "title": "绿色金都",
+   "category": "transformation",
+   "desc": "'中国金都'品牌价值持续提升，黄金文旅年接待游客突破千万人次",
+   "impact": 9,
+   "pop": 543100,
+   "gold": 25,
+   "tourism": 80,
+   "gdp": 916.33,
+   "event": true,
+   "calibrated": true
+  }
+ ],
+ "space_timeline": [
+  {
+   "year": 1975,
+   "old_area": 2,
+   "new_area": 0,
+   "old_pop": 80000,
+   "vacancy": 0
+  },
+  {
+   "year": 1985,
+   "old_area": 5,
+   "new_area": 0,
+   "old_pop": 160000,
+   "vacancy": 0
+  },
+  {
+   "year": 1995,
+   "old_area": 10,
+   "new_area": 0,
+   "old_pop": 210000,
+   "vacancy": 0.05
+  },
+  {
+   "year": 2005,
+   "old_area": 12,
+   "new_area": 3,
+   "old_pop": 235000,
+   "vacancy": 0.12
+  },
+  {
+   "year": 2015,
+   "old_area": 12,
+   "new_area": 10,
+   "old_pop": 250000,
+   "vacancy": 0.18
+  },
+  {
+   "year": 2024,
+   "old_area": 10,
+   "new_area": 18,
+   "old_pop": 258000,
+   "vacancy": 0.25
+  }
+ ],
+ "space": {
+  "old_city": {
+   "name": "罗山老城片区",
+   "vacancy": 0.25,
+   "landmark": "玲珑金矿罗山矿区",
+   "peak_pop": 543100,
+   "current_pop": 543100
+  },
+  "new_city": {
+   "name": "开发区/滨海新区",
+   "peak_pop": 0,
+   "current_pop": 80000,
+   "landmark": "黄金深加工产业园"
+  },
+  "distance_km": 8,
+  "built_up_area_km2": 28,
+  "current_pop": 543100,
+  "peak_pop": 543100,
+  "vacancy_rate": 0.25
+ },
+ "chains": {
+  "gold": {
+   "name": "黄金产业链",
+   "color": "#c9a84c",
+   "icon": "🥇",
+   "lifecycle": {
+    "birth": 1975,
+    "peak": 1995,
+    "decline": 2005,
+    "collapse": null,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "explore",
+     "name": "地质勘探",
+     "x": 50,
+     "y": 50,
+     "status": "active",
+     "peak": "1970s-1990s",
+     "decline": "2000s"
+    },
+    {
+     "id": "mining",
+     "name": "金矿开采",
+     "x": 150,
+     "y": 50,
+     "status": "active",
+     "peak": "1980s-2000s",
+     "decline": "2010s"
+    },
+    {
+     "id": "dressing",
+     "name": "选矿冶炼",
+     "x": 250,
+     "y": 50,
+     "status": "active",
+     "peak": "1980s-2000s",
+     "decline": "2010s"
+    },
+    {
+     "id": "refine",
+     "name": "黄金精炼",
+     "x": 350,
+     "y": 50,
+     "status": "active",
+     "peak": "1990s-2010s",
+     "decline": "持续"
+    },
+    {
+     "id": "jewelry",
+     "name": "珠宝加工",
+     "x": 450,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": "未来"
+    },
+    {
+     "id": "sales",
+     "name": "黄金交易",
+     "x": 550,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": "未来"
+    }
+   ],
+   "connections": [
+    {
+     "from": "explore",
+     "to": "mining",
+     "flow": "储量数据"
+    },
+    {
+     "from": "mining",
+     "to": "dressing",
+     "flow": "金矿石"
+    },
+    {
+     "from": "dressing",
+     "to": "refine",
+     "flow": "金精矿"
+    },
+    {
+     "from": "refine",
+     "to": "jewelry",
+     "flow": "标准金"
+    },
+    {
+     "from": "jewelry",
+     "to": "sales",
+     "flow": "金饰产品"
+    }
+   ],
+   "employment": {
+    "peak": 120000,
+    "current": 60000
+   }
+  },
+  "deep_processing": {
+   "name": "黄金深加工/文旅产业链",
+   "color": "#2d6a4f",
+   "icon": "🌿",
+   "lifecycle": {
+    "birth": 2002,
+    "growth": 2015,
+    "peak": null
+   },
+   "nodes": [
+    {
+     "id": "design",
+     "name": "珠宝设计",
+     "x": 50,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "craft",
+     "name": "金箔工艺",
+     "x": 150,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "tourism",
+     "name": "黄金旅游",
+     "x": 250,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "ecom",
+     "name": "电商销售",
+     "x": 350,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "recycle",
+     "name": "黄金回收",
+     "x": 450,
+     "y": 200,
+     "status": "emerging",
+     "peak": "未来"
+    },
+    {
+     "id": "fintech",
+     "name": "黄金金融",
+     "x": 550,
+     "y": 200,
+     "status": "emerging",
+     "peak": "未来"
+    }
+   ],
+   "connections": [
+    {
+     "from": "design",
+     "to": "craft",
+     "flow": "设计方案"
+    },
+    {
+     "from": "craft",
+     "to": "tourism",
+     "flow": "文创产品"
+    },
+    {
+     "from": "tourism",
+     "to": "ecom",
+     "flow": "游客流量"
+    },
+    {
+     "from": "ecom",
+     "to": "recycle",
+     "flow": "旧饰回收"
+    },
+    {
+     "from": "recycle",
+     "to": "fintech",
+     "flow": "再生金"
+    }
+   ],
+   "employment": {
+    "peak": null,
+    "current": 50000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "resource",
+    "name": "资源枯竭与深井开采",
+    "weight": 30,
+    "evidence": "浅部高品位矿体减少，开采深度突破1500米，成本持续上升",
+    "icon": "⛏️",
+    "selected": false
+   },
+   {
+    "id": "environment",
+    "name": "环保与生态修复压力",
+    "weight": 20,
+    "evidence": "尾矿库治理、氰化工艺减排、矿山复绿投入巨大",
+    "icon": "🌱",
+    "selected": false
+   },
+   {
+    "id": "cost",
+    "name": "深井开采成本",
+    "weight": 15,
+    "evidence": "提升、通风、排水成本随深度指数级增加",
+    "icon": "🏔️",
+    "selected": false
+   },
+   {
+    "id": "structure",
+    "name": "产业结构单一",
+    "weight": 15,
+    "evidence": "长期依赖采选冶，附加值低的原金销售占比高",
+    "icon": "🏭",
+    "selected": false
+   },
+   {
+    "id": "talent",
+    "name": "人才外流",
+    "weight": 10,
+    "evidence": "年轻劳动力向胶东沿海发达城市流动",
+    "icon": "👥",
+    "selected": false
+   },
+   {
+    "id": "price",
+    "name": "金价波动",
+    "weight": 10,
+    "evidence": "国际金价周期性波动影响矿山盈利预期",
+    "icon": "📉",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "brand",
+    "name": "中国金都品牌",
+    "weight": 30,
+    "evidence": "全国县级黄金产量长期领先，品牌认知度高",
+    "icon": "🏅",
+    "selected": false
+   },
+   {
+    "id": "deep",
+    "name": "黄金深加工与文旅",
+    "weight": 25,
+    "evidence": "珠宝首饰、金箔文创、黄金旅游延伸价值链",
+    "icon": "💍",
+    "selected": false
+   },
+   {
+    "id": "policy",
+    "name": "政策与绿色矿山",
+    "weight": 20,
+    "evidence": "绿色矿山试点、资源枯竭城市转型政策支持",
+    "icon": "📜",
+    "selected": false
+   },
+   {
+    "id": "tech",
+    "name": "数字化矿山",
+    "weight": 15,
+    "evidence": "5G、无人化、智能选矿提升安全与效率",
+    "icon": "🤖",
+    "selected": false
+   },
+   {
+    "id": "recycle",
+    "name": "循环经济",
+    "weight": 10,
+    "evidence": "尾矿综合利用、黄金回收、再生金产业",
+    "icon": "♻️",
+    "selected": false
+   }
+  ]
+ },
+ "map": {
+  "center": [
+   120.4,
+   37.36
+  ],
+  "zoom": 12,
+  "features": [
+   {
+    "name": "玲珑金矿",
+    "type": "industrial",
+    "coord": [
+     120.38,
+     37.34
+    ],
+    "desc": "中国黄金开采历史最悠久的矿山之一"
+   },
+   {
+    "name": "招金广场",
+    "type": "cultural",
+    "coord": [
+     120.41,
+     37.37
+    ],
+    "desc": "黄金文化与城市商业核心区"
+   },
+   {
+    "name": "黄金博物馆",
+    "type": "cultural",
+    "coord": [
+     120.39,
+     37.35
+    ],
+    "desc": "展示黄金开采历史与金都文化"
+   },
+   {
+    "name": "罗山国家森林公园",
+    "type": "natural",
+    "coord": [
+     120.35,
+     37.3
+    ],
+    "desc": "矿山生态修复与文旅融合示范区"
+   },
+   {
+    "name": "黄金深加工产业园",
+    "type": "industrial",
+    "coord": [
+     120.45,
+     37.4
+    ],
+    "desc": "珠宝首饰、金箔文创产业集聚地"
+   }
+  ]
+ },
+ "images": [
+  "https://picsum.photos/800/600?random=90",
+  "https://picsum.photos/800/600?random=91",
+  "https://picsum.photos/800/600?random=92",
+  "https://picsum.photos/800/600?random=93",
+  "https://picsum.photos/800/600?random=94"
+ ],
+ "migration": {
+  "outflow_total": 35000,
+  "destinations": [
+   {
+    "city": "烟台",
+    "province": "山东",
+    "count": 12000,
+    "reason": "就近务工"
+   },
+   {
+    "city": "青岛",
+    "province": "山东",
+    "count": 10000,
+    "reason": "沿海就业"
+   },
+   {
+    "city": "济南",
+    "province": "山东",
+    "count": 7000,
+    "reason": "省会就业"
+   },
+   {
+    "city": "北京",
+    "province": "北京",
+    "count": 4000,
+    "reason": "外出务工"
+   },
+   {
+    "city": "其他地区",
+    "province": "全国",
+    "count": 2000,
+    "reason": "外出务工与经商"
+   }
+  ]
+ },
+ "achievements": [
+  {
+   "id": "zhaoyuan_first_visit",
+   "name": "中国金都",
+   "desc": "首次进入招远，探访千年黄金矿脉",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "zhaoyuan_mine",
+   "name": "玲珑金矿",
+   "desc": "见证招远黄金工业规模化发展",
+   "condition": "year",
+   "year": 1975
+  },
+  {
+   "id": "zhaoyuan_culture",
+   "name": "黄金文化",
+   "desc": "见证招远黄金文化旅游兴起",
+   "condition": "year",
+   "year": 2010
+  },
+  {
+   "id": "zhaoyuan_chain",
+   "name": "金都拼图大师",
+   "desc": "完成招远黄金产业链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": [
+  {
+   "desc": "2023 GDP 868.45亿; ",
+   "url": "http://www.etmoc.com/look/Statslisth?Id=11475",
+   "year": 2023
+  }
+ ],
+ "real_anchors": {
+  "census2020": {
+   "pop": 543100
+  },
+  "stat2023": {
+   "gdp": 868.45,
+   "pop": 530800
+  }
+ }
+}

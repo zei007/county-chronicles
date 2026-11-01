@@ -1,0 +1,892 @@
+{
+ "profile": {
+  "name": "东川区",
+  "province": "云南省",
+  "prefecture": "昆明市辖区",
+  "area": "1,858 km²",
+  "coordinates": [
+   103.18,
+   26.08
+  ],
+  "tags": [
+   "天南铜都",
+   "滇铜京运",
+   "红土地",
+   "生态修复"
+  ],
+  "description": "滇中北部的'天南铜都'，清代以来便是全国铸币铜料的核心产地，'滇铜京运'延续近两个世纪。1954年东川矿务局成立，开启现代铜工业；1999年矿务局破产、2001年撤市设区并入昆明，东川从资源依赖走向生态修复与特色文旅转型。小江泥石流治理与东川红土地，成为这座城市新的名片。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 1730,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "起家期",
+    "start": 1730,
+    "end": 1850,
+    "color": "green"
+   },
+   {
+    "name": "壮盛期",
+    "start": 1851,
+    "end": 1953,
+    "color": "yellow"
+   },
+   {
+    "name": "调整期",
+    "start": 1954,
+    "end": 1990,
+    "color": "red"
+   },
+   {
+    "name": "转型期",
+    "start": 1991,
+    "end": 2024,
+    "color": "teal"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "copper",
+    "label": "铜产量",
+    "unit": "万吨",
+    "max": 5,
+    "color": "#b87333"
+   },
+   {
+    "key": "restoration",
+    "label": "生态修复面积",
+    "unit": "万亩",
+    "max": 30,
+    "color": "#38a169"
+   }
+  ],
+  "spaceType": "built_up",
+  "spaceLabels": {
+   "built": "建成区",
+   "density": "人口密度"
+  },
+  "cityKey": "dongchuan",
+  "chainKeys": [
+   "copper",
+   "ecology"
+  ],
+  "chainContainerIds": [
+   "copperChain",
+   "ecologyChain"
+  ],
+  "currentStatus": "生态修复示范区，红土地旅游目的地",
+  "transformationAssessment": "从'天南铜都'到'生态治理+特色文旅'的艰难转身",
+  "transformationDetail": "东川铜矿开采历史逾300年，清代'滇铜京运'最高年运京铜近600万斤。现代东川矿务局曾年产铜超2万吨，但长期浅层开采导致资源快速枯竭，1999年破产、2001年撤市设区。此后东川以小江流域泥石流治理、矿山生态修复、红土地旅游、高原特色农业为抓手，逐步摆脱单一资源依赖，但历史欠账深、转型任务仍重。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 1730,
+   "title": "滇铜京运启动",
+   "category": "discovery",
+   "desc": "清廷大规模开发东川铜矿，铜料经昭通、泸州转运北京铸币",
+   "impact": 9,
+   "pop": 15000,
+   "copper": 0.3,
+   "restoration": 0,
+   "gdp": 0.01,
+   "event": true
+  },
+  {
+   "year": 1750,
+   "title": "铜矿鼎盛",
+   "category": "peak",
+   "desc": "东川成为全国铸币铜料最大产地，年运京铜达数百万斤",
+   "impact": 10,
+   "pop": 35000,
+   "copper": 0.5,
+   "restoration": 0,
+   "gdp": 0.03,
+   "event": true
+  },
+  {
+   "year": 1780,
+   "title": "矿冶集聚",
+   "category": "peak",
+   "desc": "汤丹、落雪、因民等矿区次第开发，形成完整采冶体系",
+   "impact": 8,
+   "pop": 60000,
+   "copper": 0.8,
+   "restoration": 0,
+   "gdp": 0.05,
+   "event": false
+  },
+  {
+   "year": 1810,
+   "title": "铜都名扬",
+   "category": "peak",
+   "desc": "'天南铜都'名号确立，东川铜产量占全国一半以上",
+   "impact": 9,
+   "pop": 80000,
+   "copper": 1,
+   "restoration": 0,
+   "gdp": 0.08,
+   "event": true
+  },
+  {
+   "year": 1850,
+   "title": "战乱影响",
+   "category": "decline",
+   "desc": "咸同年间云南战乱，矿冶凋敝，滇铜京运规模锐减",
+   "impact": 7,
+   "pop": 65000,
+   "copper": 0.6,
+   "restoration": 0,
+   "gdp": 0.05,
+   "event": false
+  },
+  {
+   "year": 1880,
+   "title": "缓慢恢复",
+   "category": "peak",
+   "desc": "战后矿冶逐步恢复，但已难复清代中期盛况",
+   "impact": 6,
+   "pop": 70000,
+   "copper": 0.7,
+   "restoration": 0,
+   "gdp": 0.06,
+   "event": false
+  },
+  {
+   "year": 1912,
+   "title": "民国承接",
+   "category": "decline",
+   "desc": "民国初年战乱频仍，东川铜矿发展停滞",
+   "impact": 5,
+   "pop": 60000,
+   "copper": 0.5,
+   "restoration": 0,
+   "gdp": 0.05,
+   "event": false
+  },
+  {
+   "year": 1938,
+   "title": "抗战内迁",
+   "category": "peak",
+   "desc": "沿海工矿内迁，东川铜矿成为战略资源供应地",
+   "impact": 7,
+   "pop": 75000,
+   "copper": 0.8,
+   "restoration": 0,
+   "gdp": 0.08,
+   "event": true
+  },
+  {
+   "year": 1954,
+   "title": "东川矿务局成立",
+   "category": "discovery",
+   "desc": "国家设立东川矿务局，开启现代机械化铜矿开采",
+   "impact": 9,
+   "pop": 100000,
+   "copper": 0.5,
+   "restoration": 0,
+   "gdp": 0.2,
+   "event": true
+  },
+  {
+   "year": 1958,
+   "title": "大规模建设",
+   "category": "peak",
+   "desc": "苏联援建与全国支援下，东川铜矿进入快速扩张期",
+   "impact": 8,
+   "pop": 150000,
+   "copper": 1.2,
+   "restoration": 0,
+   "gdp": 0.5,
+   "event": true
+  },
+  {
+   "year": 1965,
+   "title": "年产铜破万吨",
+   "category": "peak",
+   "desc": "现代采选冶体系全面建成，年产铜首次突破1万吨",
+   "impact": 9,
+   "pop": 200000,
+   "copper": 1.5,
+   "restoration": 0,
+   "gdp": 1.2,
+   "event": true
+  },
+  {
+   "year": 1975,
+   "title": "产量高峰",
+   "category": "peak",
+   "desc": "东川铜矿年产铜接近2万吨，为历史现代峰值",
+   "impact": 8,
+   "pop": 240000,
+   "copper": 1.8,
+   "restoration": 0,
+   "gdp": 2,
+   "event": false
+  },
+  {
+   "year": 1980,
+   "title": "品位下滑",
+   "category": "decline",
+   "desc": "浅部富矿渐尽，开采成本上升，产量开始下滑",
+   "impact": 7,
+   "pop": 260000,
+   "copper": 1.6,
+   "restoration": 0.1,
+   "gdp": 2.5,
+   "event": true
+  },
+  {
+   "year": 1985,
+   "title": "小江泥石流威胁",
+   "category": "decline",
+   "desc": "长期开采加剧地质脆弱性，小江流域泥石流灾害频发",
+   "impact": 8,
+   "pop": 270000,
+   "copper": 1.4,
+   "restoration": 0.2,
+   "gdp": 2.8,
+   "event": true
+  },
+  {
+   "year": 1990,
+   "title": "资源枯竭预警",
+   "category": "decline",
+   "desc": "可采储量锐减，东川进入全国首批资源枯竭城市名单",
+   "impact": 9,
+   "pop": 280000,
+   "copper": 1,
+   "restoration": 0.5,
+   "gdp": 3,
+   "event": true
+  },
+  {
+   "year": 1995,
+   "title": "转型探索",
+   "category": "transformation",
+   "desc": "尝试发展接替产业，但效果有限，财政困难加剧",
+   "impact": 6,
+   "pop": 275000,
+   "copper": 0.7,
+   "restoration": 1,
+   "gdp": 3.2,
+   "event": false
+  },
+  {
+   "year": 1999,
+   "title": "东川矿务局破产",
+   "category": "decline",
+   "desc": "资源枯竭导致矿务局破产，数万名职工下岗，城市跌入谷底",
+   "impact": 10,
+   "pop": 250000,
+   "copper": 0.4,
+   "restoration": 1.5,
+   "gdp": 3,
+   "event": true
+  },
+  {
+   "year": 2001,
+   "title": "撤市设区",
+   "category": "transformation",
+   "desc": "东川市撤销，设立昆明市东川区，纳入省会统筹发展",
+   "impact": 8,
+   "pop": 220000,
+   "copper": 0.3,
+   "restoration": 2,
+   "gdp": 3.5,
+   "event": true
+  },
+  {
+   "year": 2005,
+   "title": "生态修复启动",
+   "category": "transformation",
+   "desc": "小江流域综合治理、矿山复绿、退耕还林还草全面展开",
+   "impact": 7,
+   "pop": 200000,
+   "copper": 0.2,
+   "restoration": 5,
+   "gdp": 4,
+   "event": false
+  },
+  {
+   "year": 2008,
+   "title": "红土地旅游出圈",
+   "category": "transformation",
+   "desc": "东川红土地成为摄影与自驾胜地，文旅产业起步",
+   "impact": 7,
+   "pop": 190000,
+   "copper": 0.15,
+   "restoration": 8,
+   "gdp": 5,
+   "event": true
+  },
+  {
+   "year": 2013,
+   "title": "泥石流博物馆",
+   "category": "transformation",
+   "desc": "依托独特地质灾害景观，建设科普与防灾教育基地",
+   "impact": 6,
+   "pop": 175000,
+   "copper": 0.1,
+   "restoration": 12,
+   "gdp": 6.5,
+   "event": false
+  },
+  {
+   "year": 2015,
+   "title": "国家生态功能区",
+   "category": "transformation",
+   "desc": "东川纳入国家重点生态功能区，生态补偿机制逐步建立",
+   "impact": 7,
+   "pop": 165000,
+   "copper": 0.08,
+   "restoration": 16,
+   "gdp": 8,
+   "event": true
+  },
+  {
+   "year": 2018,
+   "title": "矿山公园",
+   "category": "transformation",
+   "desc": "汤丹矿区转型工业旅游，废弃矿坑与选矿厂成为工业遗产景点",
+   "impact": 6,
+   "pop": 155000,
+   "copper": 0.05,
+   "restoration": 20,
+   "gdp": 10,
+   "event": false
+  },
+  {
+   "year": 2020,
+   "title": "高原特色农业",
+   "category": "transformation",
+   "desc": "发展花椒、洋芋、人参果等特色农产品，接续农业就业",
+   "impact": 6,
+   "pop": 150000,
+   "copper": 0.03,
+   "restoration": 23,
+   "gdp": 12,
+   "event": false
+  },
+  {
+   "year": 2021,
+   "title": "2021年统计锚点",
+   "category": "peak",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 260700,
+   "gdp": 132.85,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2022,
+   "title": "2022年统计锚点",
+   "category": "peak",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 260700,
+   "gdp": 138.2,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2023,
+   "title": "2023年统计锚点",
+   "category": "peak",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 256500,
+   "gdp": 140.68,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2024,
+   "title": "绿色东川",
+   "category": "transformation",
+   "desc": "生态修复面积累计超25万亩，红土地与泥石流景观成为城市新IP",
+   "impact": 8,
+   "pop": 253935,
+   "copper": 0.02,
+   "restoration": 26,
+   "gdp": 140.68,
+   "event": true,
+   "calibrated": true
+  }
+ ],
+ "space_timeline": [
+  {
+   "year": 1730,
+   "old_area": 0.5,
+   "new_area": 0,
+   "old_pop": 15000,
+   "vacancy": 0
+  },
+  {
+   "year": 1850,
+   "old_area": 3,
+   "new_area": 0,
+   "old_pop": 80000,
+   "vacancy": 0
+  },
+  {
+   "year": 1965,
+   "old_area": 12,
+   "new_area": 0,
+   "old_pop": 200000,
+   "vacancy": 0
+  },
+  {
+   "year": 1999,
+   "old_area": 18,
+   "new_area": 0,
+   "old_pop": 250000,
+   "vacancy": 0.25
+  },
+  {
+   "year": 2024,
+   "old_area": 15,
+   "new_area": 5,
+   "old_pop": 147000,
+   "vacancy": 0.35
+  }
+ ],
+ "space": {
+  "old_city": {
+   "name": "汤丹-落雪矿区老城",
+   "vacancy": 0.35,
+   "landmark": "东川矿务局旧址",
+   "peak_pop": 280000,
+   "current_pop": 253935
+  },
+  "new_city": {
+   "name": "铜都-碧谷生态新区",
+   "peak_pop": 0,
+   "current_pop": 35000,
+   "landmark": "红土地文旅服务中心"
+  },
+  "distance_km": 8,
+  "built_up_area_km2": 18,
+  "current_pop": 260000,
+  "peak_pop": 350000,
+  "vacancy_rate": 0.3
+ },
+ "chains": {
+  "copper": {
+   "name": "铜矿产业链",
+   "color": "#b87333",
+   "icon": "🟤",
+   "lifecycle": {
+    "birth": 1730,
+    "peak": 1810,
+    "decline": 1980,
+    "collapse": 1999,
+    "dead": 2005
+   },
+   "nodes": [
+    {
+     "id": "manual",
+     "name": "土法采冶",
+     "status": "dead",
+     "peak": "1730s-1850s",
+     "decline": "1900s"
+    },
+    {
+     "id": "opencast",
+     "name": "露天/坑采",
+     "status": "dead",
+     "peak": "1950s-1970s",
+     "decline": "1980s"
+    },
+    {
+     "id": "mechanized",
+     "name": "机械化采选",
+     "status": "dying",
+     "peak": "1960s-1980s",
+     "decline": "1990s"
+    },
+    {
+     "id": "transport",
+     "name": "滇铜京运",
+     "status": "dead",
+     "peak": "1730s-1850s",
+     "decline": "1900s"
+    },
+    {
+     "id": "smelt",
+     "name": "粗铜冶炼",
+     "status": "dead",
+     "peak": "1960s-1980s",
+     "decline": "1990s"
+    },
+    {
+     "id": "heritage",
+     "name": "工业遗产",
+     "status": "emerging",
+     "peak": "2020s",
+     "decline": "未来"
+    }
+   ],
+   "connections": [
+    {
+     "from": "manual",
+     "to": "transport",
+     "flow": "京铜"
+    },
+    {
+     "from": "opencast",
+     "to": "mechanized",
+     "flow": "矿石"
+    },
+    {
+     "from": "mechanized",
+     "to": "smelt",
+     "flow": "铜精矿"
+    },
+    {
+     "from": "smelt",
+     "to": "heritage",
+     "flow": "遗址"
+    }
+   ],
+   "employment": {
+    "peak": 50000,
+    "current": 800
+   }
+  },
+  "ecology": {
+   "name": "生态修复与文旅产业链",
+   "color": "#38a169",
+   "icon": "🌿",
+   "lifecycle": {
+    "birth": 2001,
+    "growth": 2008,
+    "peak": null
+   },
+   "nodes": [
+    {
+     "id": "control",
+     "name": "小江治理",
+     "status": "active",
+     "peak": "2010s"
+    },
+    {
+     "id": "reveg",
+     "name": "矿山复绿",
+     "status": "active",
+     "peak": "2020s"
+    },
+    {
+     "id": "redland",
+     "name": "红土地旅游",
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "agri",
+     "name": "特色农业",
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "museum",
+     "name": "地灾科普",
+     "status": "active",
+     "peak": "2010s"
+    },
+    {
+     "id": "heritage",
+     "name": "工业旅游",
+     "status": "emerging",
+     "peak": "未来"
+    }
+   ],
+   "connections": [
+    {
+     "from": "control",
+     "to": "reveg",
+     "flow": "生态基底"
+    },
+    {
+     "from": "reveg",
+     "to": "redland",
+     "flow": "景观资源"
+    },
+    {
+     "from": "reveg",
+     "to": "agri",
+     "flow": "土地条件"
+    },
+    {
+     "from": "control",
+     "to": "museum",
+     "flow": "科普场景"
+    },
+    {
+     "from": "heritage",
+     "to": "museum",
+     "flow": "历史场景"
+    }
+   ],
+   "employment": {
+    "peak": null,
+    "current": 25000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "resource",
+    "name": "浅部富矿枯竭",
+    "weight": 30,
+    "evidence": "长期开采导致浅部高品位铜矿耗尽，开采深度与成本剧增",
+    "icon": "⛏️",
+    "selected": false
+   },
+   {
+    "id": "disaster",
+    "name": "小江泥石流灾害",
+    "weight": 20,
+    "evidence": "地质环境破坏叠加季风降雨，泥石流频发威胁城乡安全",
+    "icon": "🏔️",
+    "selected": false
+   },
+   {
+    "id": "structure",
+    "name": "产业结构单一",
+    "weight": 15,
+    "evidence": "经济高度依赖铜采选冶，接替产业培育缓慢",
+    "icon": "🏭",
+    "selected": false
+   },
+   {
+    "id": "cost",
+    "name": "国有矿企负担重",
+    "weight": 15,
+    "evidence": "东川矿务局人员与办社会负担沉重，市场竞争力弱",
+    "icon": "⚖️",
+    "selected": false
+   },
+   {
+    "id": "environment",
+    "name": "生态修复欠账",
+    "weight": 10,
+    "evidence": "历史采矿留下大量废石场、尾矿库与酸性水体",
+    "icon": "🌱",
+    "selected": false
+   },
+   {
+    "id": "location",
+    "name": "交通区位受限",
+    "weight": 10,
+    "evidence": "山高谷深、距昆明市区远，物流与人才吸引受限",
+    "icon": "🚧",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "policy",
+    "name": "省会统筹与生态补偿",
+    "weight": 25,
+    "evidence": "撤市设区后纳入昆明发展，国家重点生态功能区补偿落地",
+    "icon": "📜",
+    "selected": false
+   },
+   {
+    "id": "tourism",
+    "name": "红土地与工业旅游",
+    "weight": 25,
+    "evidence": "红土地、泥石流博物馆、矿山公园形成差异化旅游IP",
+    "icon": "🌄",
+    "selected": false
+   },
+   {
+    "id": "ecology",
+    "name": "小江流域综合治理",
+    "weight": 20,
+    "evidence": "数十年生态修复使泥石流危害显著降低，土地质量改善",
+    "icon": "🌿",
+    "selected": false
+   },
+   {
+    "id": "agri",
+    "name": "高原特色农业",
+    "weight": 15,
+    "evidence": "花椒、洋芋、人参果等特色产业带动农村就业",
+    "icon": "🌾",
+    "selected": false
+   },
+   {
+    "id": "heritage",
+    "name": "铜都文化记忆",
+    "weight": 10,
+    "evidence": "300年铜矿历史转化为工业遗产与文化资源",
+    "icon": "🏛️",
+    "selected": false
+   },
+   {
+    "id": "location",
+    "name": "昆明北部门户",
+    "weight": 5,
+    "evidence": "随着交通改善，成为昆明近郊休闲与农产品供应基地",
+    "icon": "🚗",
+    "selected": false
+   }
+  ]
+ },
+ "map": {
+  "center": [
+   103.18,
+   26.08
+  ],
+  "zoom": 11,
+  "features": [
+   {
+    "name": "汤丹铜矿",
+    "type": "industrial",
+    "coord": [
+     103.12,
+     26.15
+    ],
+    "desc": "东川最重要的历史铜矿，现为工业遗产"
+   },
+   {
+    "name": "落雪矿区",
+    "type": "industrial",
+    "coord": [
+     103.05,
+     26.22
+    ],
+    "desc": "高海拔铜矿，'滇铜京运'重要来源"
+   },
+   {
+    "name": "小江流域",
+    "type": "natural",
+    "coord": [
+     103.25,
+     26.05
+    ],
+    "desc": "泥石流高发区，也是生态修复重点"
+   },
+   {
+    "name": "东川红土地",
+    "type": "natural",
+    "coord": [
+     103,
+     25.95
+    ],
+    "desc": "世界闻名的红土地景观，摄影胜地"
+   },
+   {
+    "name": "泥石流博物馆",
+    "type": "cultural",
+    "coord": [
+     103.2,
+     26.08
+    ],
+    "desc": "全国唯一以泥石流为主题的科普博物馆"
+   }
+  ]
+ },
+ "images": [
+  "https://picsum.photos/800/600?random=200",
+  "https://picsum.photos/800/600?random=201",
+  "https://picsum.photos/800/600?random=202",
+  "https://picsum.photos/800/600?random=203",
+  "https://picsum.photos/800/600?random=204"
+ ],
+ "migration": {
+  "outflow_total": 65000,
+  "destinations": [
+   {
+    "city": "昆明",
+    "province": "云南",
+    "count": 30000,
+    "reason": "省会就业"
+   },
+   {
+    "city": "曲靖",
+    "province": "云南",
+    "count": 15000,
+    "reason": "就近务工"
+   },
+   {
+    "city": "玉溪",
+    "province": "云南",
+    "count": 8000,
+    "reason": "工业就业"
+   },
+   {
+    "city": "红河",
+    "province": "云南",
+    "count": 7000,
+    "reason": "就近务工"
+   },
+   {
+    "city": "其他地区",
+    "province": "全国",
+    "count": 5000,
+    "reason": "外出务工与经商"
+   }
+  ]
+ },
+ "achievements": [
+  {
+   "id": "dongchuan_first_visit",
+   "name": "天南铜都",
+   "desc": "首次进入东川，追溯滇铜京运历史",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "dongchuan_mine",
+   "name": "铜矿兴盛",
+   "desc": "见证东川铜矿大规模开采",
+   "condition": "year",
+   "year": 1958
+  },
+  {
+   "id": "dongchuan_district",
+   "name": "撤市设区",
+   "desc": "见证1999年东川撤市设区",
+   "condition": "year",
+   "year": 1999
+  },
+  {
+   "id": "dongchuan_redland",
+   "name": "红土地名片",
+   "desc": "见证东川红土地成为文旅名片",
+   "condition": "year",
+   "year": 2015
+  },
+  {
+   "id": "dongchuan_chain",
+   "name": "铜都拼图大师",
+   "desc": "完成东川铜产业链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": [
+  {
+   "desc": "2023 GDP 140.68亿; ",
+   "url": "https://tjgb.hongheiku.com/xjtjgb/xj2020/55262.html",
+   "year": 2023
+  }
+ ],
+ "real_anchors": {
+  "census2020": {
+   "pop": 260700
+  },
+  "stat2023": {
+   "gdp": 140.68,
+   "pop": 256500
+  }
+ }
+}

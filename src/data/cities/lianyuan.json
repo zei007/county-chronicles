@@ -1,0 +1,587 @@
+{
+ "profile": {
+  "name": "涟源市",
+  "province": "湖南省",
+  "prefecture": "娄底代管县级市",
+  "area": "1,897 km²",
+  "coordinates": [
+   111.67,
+   27.69
+  ],
+  "tags": [
+   "湘中煤海",
+   "涟邵煤田",
+   "三一故里",
+   "湄江山水"
+  ],
+  "description": "湘中丘陵间的百年煤乡，涟邵煤田的主产区，也曾是三线建设时期军工厂聚集地。工程机械巨头三一集团就从这里的小作坊走出。煤炭枯竭后以建材、农业与湄江旅游寻找新路，是观察中部县级资源城市转型的典型样本。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 1952,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "建县期",
+    "start": 1952,
+    "end": 1977,
+    "color": "green"
+   },
+   {
+    "name": "煤海期",
+    "start": 1978,
+    "end": 2010,
+    "color": "yellow"
+   },
+   {
+    "name": "衰落期",
+    "start": 2011,
+    "end": 2019,
+    "color": "red"
+   },
+   {
+    "name": "调整期",
+    "start": 2020,
+    "end": 2024,
+    "color": "teal"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "coal",
+    "label": "煤炭产量",
+    "unit": "万吨",
+    "max": 420,
+    "color": "#1a1a2e"
+   },
+   {
+    "key": "cement",
+    "label": "水泥产量",
+    "unit": "万吨",
+    "max": 300,
+    "color": "#94a3b8"
+   }
+  ],
+  "spaceType": "built_up",
+  "spaceLabels": {
+   "built": "建成区",
+   "density": "人口密度"
+  },
+  "cityKey": "lianyuan",
+  "chainKeys": [
+   "coal",
+   "cement"
+  ],
+  "chainContainerIds": [
+   "coalChain",
+   "cementChain"
+  ],
+  "currentStatus": "县级资源城市转型样本",
+  "transformationAssessment": "从煤海煤窑到山水湄江",
+  "transformationDetail": "涟源的煤矿曾密布乡镇，'小煤窑经济'撑起县域财政数十年。随着去产能与安全整顿，煤矿从数百家收缩到个位数。三一集团的起源故事与湄江国家地质公园，为这座城市提供了制造业基因与山水出路的想象。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 1952,
+   "title": "设涟源县",
+   "category": "peak",
+   "desc": "蓝田镇为中心设县，湘中煤田开发进入组织化时代",
+   "impact": 7,
+   "event": true,
+   "pop": 500000,
+   "coal": 10,
+   "cement": 0,
+   "gdp": 0.5
+  },
+  {
+   "year": 1965,
+   "title": "三线军工厂迁入",
+   "category": "culture",
+   "desc": "多家军工厂与煤矿机械企业内迁涟源山区，奠定工业底子",
+   "impact": 7,
+   "event": true,
+   "pop": 700000,
+   "coal": 60,
+   "cement": 1,
+   "gdp": 1.5
+  },
+  {
+   "year": 1986,
+   "title": "茅塘焊接材料厂",
+   "category": "culture",
+   "desc": "梁稳根等创业者在涟源茅塘创办焊接材料厂，三一集团前身起步",
+   "impact": 8,
+   "event": true,
+   "pop": 930000,
+   "coal": 200,
+   "cement": 5,
+   "gdp": 5
+  },
+  {
+   "year": 1987,
+   "title": "撤县设市",
+   "category": "peak",
+   "desc": "涟源撤县设县级市，煤窑经济进入鼎盛前夜",
+   "impact": 7,
+   "event": true,
+   "pop": 950000,
+   "coal": 260,
+   "cement": 8,
+   "gdp": 7
+  },
+  {
+   "year": 1998,
+   "title": "小煤窑高峰",
+   "category": "peak",
+   "desc": "乡镇煤矿数百家，煤炭财政占比过半，'湘中煤海'名副其实",
+   "impact": 8,
+   "event": true,
+   "pop": 1020000,
+   "coal": 400,
+   "cement": 30,
+   "gdp": 30
+  },
+  {
+   "year": 2005,
+   "title": "整顿与矿难阴影",
+   "category": "decline",
+   "desc": "煤矿安全事故频发引发整顿，产量与税源开始波动",
+   "impact": 7,
+   "event": true,
+   "pop": 1050000,
+   "coal": 300,
+   "cement": 60,
+   "gdp": 52
+  },
+  {
+   "year": 2011,
+   "title": "煤价下行",
+   "category": "decline",
+   "desc": "煤炭黄金十年终结，小煤矿大面积亏损关停",
+   "impact": 8,
+   "event": true,
+   "pop": 1060000,
+   "coal": 220,
+   "cement": 100,
+   "gdp": 130
+  },
+  {
+   "year": 2016,
+   "title": "去产能清零",
+   "category": "decline",
+   "desc": "落后煤矿整体退出，煤炭从支柱产业位置上消失",
+   "impact": 9,
+   "event": true,
+   "pop": 1000000,
+   "coal": 80,
+   "cement": 150,
+   "gdp": 220
+  },
+  {
+   "year": 2020,
+   "title": "七普人口",
+   "category": "decline",
+   "desc": "常住人口 87.24 万，劳务输出规模居娄底前列",
+   "impact": 7,
+   "event": true,
+   "pop": 872353,
+   "coal": 50,
+   "cement": 220,
+   "gdp": 280
+  },
+  {
+   "year": 2022,
+   "title": "湄江地质公园",
+   "category": "transformation",
+   "desc": "湄江旅游区提质升级，承接长株潭休闲客源",
+   "impact": 6,
+   "event": true,
+   "pop": 850000,
+   "coal": 40,
+   "cement": 260,
+   "gdp": 320
+  },
+  {
+   "year": 2023,
+   "title": "2023年统计锚点",
+   "category": "peak",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 840100,
+   "gdp": 356.3,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2024,
+   "title": "制造基因再发芽",
+   "category": "transformation",
+   "desc": "依托三一渊源承接工程机械配套，煤矿遗址改造文旅",
+   "impact": 7,
+   "event": true,
+   "pop": 835000,
+   "coal": 35,
+   "cement": 280,
+   "gdp": 350
+  }
+ ],
+ "chains": {
+  "coal": {
+   "name": "煤炭产业链",
+   "color": "#1a1a2e",
+   "icon": "⛏️",
+   "lifecycle": {
+    "birth": 1952,
+    "peak": 1998,
+    "decline": 2011,
+    "collapse": 2016,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "mine",
+     "name": "乡镇煤窑",
+     "x": 50,
+     "y": 50,
+     "status": "dead",
+     "peak": "1980s-2000s",
+     "decline": "2010s"
+    },
+    {
+     "id": "transport",
+     "name": "短驳运输",
+     "x": 150,
+     "y": 50,
+     "status": "dying",
+     "peak": "1990s-2000s",
+     "decline": "2010s"
+    },
+    {
+     "id": "power",
+     "name": "小火电",
+     "x": 250,
+     "y": 50,
+     "status": "dead",
+     "peak": "1990s",
+     "decline": "2000s"
+    },
+    {
+     "id": "heritage",
+     "name": "矿址文旅",
+     "x": 350,
+     "y": 50,
+     "status": "emerging",
+     "peak": "2020s",
+     "decline": null
+    }
+   ],
+   "connections": [
+    {
+     "from": "mine",
+     "to": "transport",
+     "flow": "原煤"
+    },
+    {
+     "from": "transport",
+     "to": "power",
+     "flow": "电煤"
+    },
+    {
+     "from": "mine",
+     "to": "heritage",
+     "flow": "矿址活化"
+    }
+   ],
+   "employment": {
+    "peak": 60000,
+    "current": 3000
+   }
+  },
+  "cement": {
+   "name": "建材与制造链",
+   "color": "#94a3b8",
+   "icon": "🏗️",
+   "lifecycle": {
+    "birth": 1990,
+    "peak": 2024,
+    "decline": null,
+    "collapse": null,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "cement",
+     "name": "水泥建材",
+     "x": 50,
+     "y": 200,
+     "status": "active",
+     "peak": "2000s-2020s",
+     "decline": null
+    },
+    {
+     "id": "parts",
+     "name": "机械配件",
+     "x": 150,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "agri",
+     "name": "农产品加工",
+     "x": 250,
+     "y": 200,
+     "status": "active",
+     "peak": "2010s-2020s",
+     "decline": null
+    },
+    {
+     "id": "tourism",
+     "name": "湄江旅游",
+     "x": 350,
+     "y": 200,
+     "status": "emerging",
+     "peak": "2020s",
+     "decline": null
+    }
+   ],
+   "connections": [
+    {
+     "from": "cement",
+     "to": "parts",
+     "flow": "园区配套"
+    },
+    {
+     "from": "agri",
+     "to": "tourism",
+     "flow": "农旅融合"
+    }
+   ],
+   "employment": {
+    "peak": 25000,
+    "current": 22000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "resource",
+    "name": "煤田资源枯竭",
+    "weight": 34,
+    "evidence": "涟邵煤田浅部采尽，剩余资源零散且灾害严重",
+    "icon": "⛏️",
+    "selected": false
+   },
+   {
+    "id": "policy",
+    "name": "去产能与安全整顿",
+    "weight": 26,
+    "evidence": "9 万吨以下煤矿全部退出，煤窑经济终结",
+    "icon": "🛡️",
+    "selected": false
+   },
+   {
+    "id": "single",
+    "name": "县域产业单一",
+    "weight": 20,
+    "evidence": "煤炭及相关运输餐饮曾占县城经济大半",
+    "icon": "🧱",
+    "selected": false
+   },
+   {
+    "id": "outflow",
+    "name": "劳务外流",
+    "weight": 14,
+    "evidence": "青壮年赴长株潭珠三角务工，留守老龄化",
+    "icon": "🚉",
+    "selected": false
+   },
+   {
+    "id": "finance",
+    "name": "县级财力薄弱",
+    "weight": 6,
+    "evidence": "转型投入依赖转移支付，造血能力弱",
+    "icon": "💰",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "sany",
+    "name": "三一制造基因",
+    "weight": 28,
+    "evidence": "三一集团发源地，承接工程机械零部件配套",
+    "icon": "🏗️",
+    "selected": false
+   },
+   {
+    "id": "meijiang",
+    "name": "湄江山水",
+    "weight": 26,
+    "evidence": "国家地质公园喀斯特景观，长株潭客源圈",
+    "icon": "🏞️",
+    "selected": false
+   },
+   {
+    "id": "agri",
+    "name": "特色农业",
+    "weight": 20,
+    "evidence": "桥头河蔬菜、富硒稻米等区域品牌",
+    "icon": "🌾",
+    "selected": false
+   },
+   {
+    "id": "labor",
+    "name": "返乡创业潮",
+    "weight": 16,
+    "evidence": "外出务工者带回资本与技能反哺县域",
+    "icon": "🏠",
+    "selected": false
+   },
+   {
+    "id": "location",
+    "name": "娄底都市圈",
+    "weight": 10,
+    "evidence": "融入娄底城镇圈共享基础设施",
+    "icon": "🚄",
+    "selected": false
+   }
+  ]
+ },
+ "space_timeline": [
+  {
+   "year": 1952,
+   "built": 0.3,
+   "vacant": 0,
+   "density": 7000
+  },
+  {
+   "year": 1987,
+   "built": 5,
+   "vacant": 0,
+   "density": 9000
+  },
+  {
+   "year": 1998,
+   "built": 12,
+   "vacant": 0.04,
+   "density": 8000
+  },
+  {
+   "year": 2012,
+   "built": 18,
+   "vacant": 0.14,
+   "density": 6500
+  },
+  {
+   "year": 2024,
+   "built": 24,
+   "vacant": 0.2,
+   "density": 5400
+  }
+ ],
+ "space": {
+  "built_up_area_km2": 24,
+  "current_pop": 835000,
+  "peak_pop": 872353,
+  "vacancy_rate": 0.2,
+  "housing_price_rank": "湖南省县级市偏低",
+  "landmark": "湄江国家地质公园"
+ },
+ "migration": {
+  "outflow_total": 180000,
+  "destinations": [
+   {
+    "city": "长沙",
+    "province": "湖南",
+    "count": 45000,
+    "reason": "省会就业安家"
+   },
+   {
+    "city": "深圳",
+    "province": "广东",
+    "count": 38000,
+    "reason": "珠三角务工"
+   },
+   {
+    "city": "娄底城区",
+    "province": "湖南",
+    "count": 20000,
+    "reason": "就近城镇化"
+   },
+   {
+    "city": "东莞",
+    "province": "广东",
+    "count": 18000,
+    "reason": "制造业务工"
+   },
+   {
+    "city": "其他地区",
+    "province": "全国",
+    "count": 59000,
+    "reason": "务工经商"
+   }
+  ]
+ },
+ "achievements": [
+  {
+   "id": "lianyuan_first_visit",
+   "name": "涟源初见",
+   "desc": "首次进入涟源市",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "lianyuan_y1986",
+   "name": "茅塘焊接材料厂",
+   "desc": "见证1986年茅塘焊接材料厂",
+   "condition": "year",
+   "year": 1986
+  },
+  {
+   "id": "lianyuan_y1998",
+   "name": "小煤窑高峰",
+   "desc": "见证1998年小煤窑高峰",
+   "condition": "year",
+   "year": 1998
+  },
+  {
+   "id": "lianyuan_y2011",
+   "name": "煤价下行",
+   "desc": "见证2011年煤价下行",
+   "condition": "year",
+   "year": 2011
+  },
+  {
+   "id": "lianyuan_chain",
+   "name": "湘中煤海拼图大师",
+   "desc": "完成涟源市产业链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": [
+  {
+   "desc": "2023 GDP 356.3亿元(+4.6%), 一产56.7/二产121.7; 常住84.01万",
+   "url": "http://www.etmoc.com/look/Statslisth?Id=11759",
+   "year": 2023
+  },
+  {
+   "desc": "七普常住人口约93.05万（2020-11-01，湖南省第七次全国人口普查公报·第五号；精确值取自红黑统计公报库整理）",
+   "url": "https://tjj.hunan.gov.cn/hntj/tjfx/tjgb/pcgbv/202105/t20210519_19069459.html"
+  }
+ ],
+ "real_anchors": {
+  "stat2023": {
+   "gdp": 356.3,
+   "pop": 840100
+  },
+  "census2020": {
+   "pop": 930515
+  }
+ }
+}

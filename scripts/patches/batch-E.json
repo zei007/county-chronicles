@@ -1,0 +1,92 @@
+{
+  "batch": "E",
+  "cities": [
+    {
+      "key": "kelamayi",
+      "name": "克拉玛依市",
+      "pop_latest": { "year": 2023, "value_wan": 48.9 },
+      "census2020_wan": 49.03,
+      "gdp_latest": { "year": 2023, "value_yi": 1260.5 },
+      "gdp_history": [
+        { "year": 2010, "value_yi": 710.2 },
+        { "year": 2020, "value_yi": 886.9 },
+        { "year": 2022, "value_yi": 1188.1 }
+      ],
+      "sources": [
+        "https://www.klmy.gov.cn/klmys/tjgb/202404/657c5d877dcf47fd948021980f788f11.shtml",
+        "http://www.tjcn.org/tjgb/31xj/37922.html",
+        "https://www.hongheiku.com/shijirenkou/2474.html",
+        "https://tjgb.hongheiku.com/djs/58985.html"
+      ]
+    },
+    {
+      "key": "yumen",
+      "name": "玉门市",
+      "pop_latest": { "year": 2023, "value_wan": 13.57 },
+      "census2020_wan": 13.77,
+      "gdp_latest": { "year": 2023, "value_yi": 261.7 },
+      "gdp_history": [
+        { "year": 2020, "value_yi": 186.8 },
+        { "year": 2021, "value_yi": 222.5 },
+        { "year": 2022, "value_yi": 245.1 }
+      ],
+      "sources": [
+        "https://tjgb.hongheiku.com/djs/51581.html",
+        "https://tjgb.hongheiku.com/10341.html",
+        "https://www.hongheiku.com/xianjirank/gsxsqrk/8294.html"
+      ]
+    },
+    {
+      "key": "geermu",
+      "name": "格尔木市",
+      "pop_latest": { "year": 2023, "value_wan": 22.53 },
+      "census2020_wan": 22.19,
+      "gdp_latest": { "year": 2023, "value_yi": 427.45 },
+      "gdp_history": [
+        { "year": 2020, "value_yi": 305.93 },
+        { "year": 2022, "value_yi": 446.45 }
+      ],
+      "sources": [
+        "http://www.etmoc.com/look/Statslisth?Id=10924",
+        "https://zgrkk.com/reports/15353.html",
+        "https://www.hongheiku.com/xianjirank/qhxsqrk/11169.html"
+      ]
+    },
+    {
+      "key": "tangshan",
+      "name": "唐山市",
+      "pop_latest": { "year": 2023, "value_wan": 771.95 },
+      "census2020_wan": 771.8,
+      "gdp_latest": { "year": 2023, "value_yi": 9133.3 },
+      "gdp_history": [
+        { "year": 2010, "value_yi": 4469.0 },
+        { "year": 2015, "value_yi": 6103.0 },
+        { "year": 2020, "value_yi": 7210.9 }
+      ],
+      "sources": [
+        "http://www.etmoc.com/look/Statslisth?Id=9096",
+        "https://www.hongheiku.com/shijirenkou/2045.html",
+        "https://www.stats.gov.cn/zt_18555/zdtjgz/zgrkpc/dqcrkpc/ggl/202302/t20230215_1903999.html",
+        "https://maptable.com/tjgb/2023/%E6%B2%B3%E5%8C%97%E7%9C%81/%E5%94%90%E5%B1%B1%E5%B8%82/report/he-bei-sheng-tang-shan-shi-2023-nian-guo-min-jing-ji-he-she-hui-fa-zhan-tong-ji-gong-bao-2"
+      ]
+    },
+    {
+      "key": "xuzhou",
+      "name": "徐州市",
+      "pop_latest": { "year": 2023, "value_wan": 902.0 },
+      "census2020_wan": 908.38,
+      "gdp_latest": { "year": 2023, "value_yi": 8900.44 },
+      "gdp_history": [
+        { "year": 2020, "value_yi": 7319.77 },
+        { "year": 2021, "value_yi": 8117.44 },
+        { "year": 2022, "value_yi": 8457.84 }
+      ],
+      "sources": [
+        "http://www.tjcn.org/tjgb/10js/37720.html",
+        "https://www.hongheiku.com/lishishuju/9201.html",
+        "https://tjgb.hongheiku.com/11727.html",
+        "http://www.tjcn.org/tjgb/10js/36620.html"
+      ]
+    }
+  ]
+}

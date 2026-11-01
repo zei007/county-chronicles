@@ -1,0 +1,663 @@
+{
+ "profile": {
+  "name": "墨竹工卡县",
+  "province": "西藏自治区",
+  "prefecture": "县",
+  "area": "5,500 km²",
+  "coordinates": [
+   91.72,
+   29.84
+  ],
+  "tags": [
+   "藏东铜都",
+   "驱龙铜矿",
+   "甲玛铜矿",
+   "高原矿业"
+  ],
+  "description": "拉萨河谷东端的高原矿业新城，甲玛、驱龙等大型铜多金属矿使其成为藏东最重要的铜资源基地。在高海拔、生态敏感的环境下，墨竹工卡正探索绿色矿业、社区共建与高原特色发展之路。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 2000,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "起家期",
+    "start": 2000,
+    "end": 2006,
+    "color": "green"
+   },
+   {
+    "name": "建设期",
+    "start": 2007,
+    "end": 2015,
+    "color": "yellow"
+   },
+   {
+    "name": "转型期",
+    "start": 2016,
+    "end": 2024,
+    "color": "teal"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "copper",
+    "label": "铜产量",
+    "unit": "万吨",
+    "max": 30,
+    "color": "#b87333"
+   },
+   {
+    "key": "gold",
+    "label": "黄金产量",
+    "unit": "吨",
+    "max": 5,
+    "color": "#c9a84c"
+   }
+  ],
+  "spaceType": "built_up",
+  "spaceLabels": {
+   "built": "建成区",
+   "density": "人口密度"
+  },
+  "cityKey": "mozhugongka",
+  "chainKeys": [
+   "copper",
+   "gold"
+  ],
+  "chainContainerIds": [
+   "copperChain",
+   "goldChain"
+  ],
+  "currentStatus": "藏东铜都，绿色矿业",
+  "transformationAssessment": "从高原牧区到藏东铜资源战略基地",
+  "transformationDetail": "墨竹工卡依托甲玛、驱龙超大型铜多金属矿，在国家战略资源安全与西藏发展大局中地位突出。绿色矿山、社区参与、生态修复与川藏铁路带来的物流改善，正在重塑这座高原矿业新城。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 2000,
+   "title": "甲玛铜矿勘查发现",
+   "category": "discovery",
+   "desc": "甲玛铜多金属矿勘查取得突破，确认大型矿床",
+   "impact": 10,
+   "pop": 31600,
+   "copper": 0,
+   "gold": 0,
+   "gdp": 0.5,
+   "event": true
+  },
+  {
+   "year": 2004,
+   "title": "驱龙超大型铜矿探明",
+   "category": "discovery",
+   "desc": "驱龙铜矿探明为超大型斑岩铜矿，资源潜力巨大",
+   "impact": 9,
+   "pop": 33100,
+   "copper": 0,
+   "gold": 0,
+   "gdp": 1,
+   "event": true
+  },
+  {
+   "year": 2007,
+   "title": "甲玛矿山建设",
+   "category": "transformation",
+   "desc": "甲玛铜矿进入开发建设阶段，高原现代矿业起步",
+   "impact": 8,
+   "pop": 35500,
+   "copper": 0,
+   "gold": 0,
+   "gdp": 2,
+   "event": true
+  },
+  {
+   "year": 2010,
+   "title": "甲玛铜矿投产",
+   "category": "peak",
+   "desc": "甲玛铜矿一期投产，西藏铜产量实现历史性突破",
+   "impact": 9,
+   "pop": 37900,
+   "copper": 2,
+   "gold": 0.3,
+   "gdp": 8,
+   "event": true
+  },
+  {
+   "year": 2012,
+   "title": "驱龙铜矿建设启动",
+   "category": "peak",
+   "desc": "驱龙铜矿开发启动，藏东铜基地建设提速",
+   "impact": 8,
+   "pop": 39500,
+   "copper": 3,
+   "gold": 0.5,
+   "gdp": 15,
+   "event": true
+  },
+  {
+   "year": 2014,
+   "title": "高原绿色矿山标准",
+   "category": "transformation",
+   "desc": "实施高原绿色矿山与生态修复标准，矿业开发更可持续",
+   "impact": 8,
+   "pop": 41100,
+   "copper": 4,
+   "gold": 0.6,
+   "gdp": 22,
+   "event": true
+  },
+  {
+   "year": 2016,
+   "title": "铜产量突破十万吨",
+   "category": "peak",
+   "desc": "墨竹工卡铜产量突破10万吨，成为藏东铜都",
+   "impact": 10,
+   "pop": 43400,
+   "copper": 8,
+   "gold": 1,
+   "gdp": 35,
+   "event": true
+  },
+  {
+   "year": 2018,
+   "title": "智能采矿与生态修复",
+   "category": "transformation",
+   "desc": "引进智能化采矿设备，推进矿山复绿与社区共建",
+   "impact": 8,
+   "pop": 45800,
+   "copper": 10,
+   "gold": 1.2,
+   "gdp": 48,
+   "event": true
+  },
+  {
+   "year": 2020,
+   "title": "铜钼金银综合回收",
+   "category": "transformation",
+   "desc": "多金属综合回收能力提升，资源价值最大化",
+   "impact": 8,
+   "pop": 47300,
+   "copper": 12,
+   "gold": 1.5,
+   "gdp": 60,
+   "event": true
+  },
+  {
+   "year": 2022,
+   "title": "川藏铁路带动物流",
+   "category": "transformation",
+   "desc": "川藏铁路建设改善高原物流条件，降低铜精矿外运成本",
+   "impact": 9,
+   "pop": 48900,
+   "copper": 15,
+   "gold": 1.8,
+   "gdp": 75,
+   "event": true
+  },
+  {
+   "year": 2023,
+   "title": "2023年统计锚点",
+   "category": "transformation",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 49500,
+   "gdp": 70.35,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2024,
+   "title": "藏东铜资源战略基地",
+   "category": "transformation",
+   "desc": "绿色、智能、社区融合的高原铜都格局初步形成",
+   "impact": 9,
+   "pop": 51300,
+   "copper": 18,
+   "gold": 2,
+   "gdp": 196.69,
+   "event": true,
+   "calibrated": true
+  }
+ ],
+ "chains": {
+  "copper": {
+   "name": "铜产业链",
+   "color": "#b87333",
+   "icon": "🟤",
+   "lifecycle": {
+    "birth": 2007,
+    "peak": 2016,
+    "decline": null,
+    "collapse": null,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "explore",
+     "name": "高原勘探",
+     "x": 50,
+     "y": 50,
+     "status": "active",
+     "peak": "2000s",
+     "decline": null
+    },
+    {
+     "id": "mining",
+     "name": "露天/地下开采",
+     "x": 150,
+     "y": 50,
+     "status": "active",
+     "peak": "2010s",
+     "decline": null
+    },
+    {
+     "id": "flotation",
+     "name": "浮选选矿",
+     "x": 250,
+     "y": 50,
+     "status": "active",
+     "peak": "2010s",
+     "decline": null
+    },
+    {
+     "id": "concentrate",
+     "name": "铜精矿",
+     "x": 350,
+     "y": 50,
+     "status": "active",
+     "peak": "2010s",
+     "decline": null
+    },
+    {
+     "id": "smelting",
+     "name": "外运冶炼",
+     "x": 450,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "byproduct",
+     "name": "钼金银回收",
+     "x": 550,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    }
+   ],
+   "connections": [
+    {
+     "from": "explore",
+     "to": "mining",
+     "flow": "矿体"
+    },
+    {
+     "from": "mining",
+     "to": "flotation",
+     "flow": "原矿"
+    },
+    {
+     "from": "flotation",
+     "to": "concentrate",
+     "flow": "精矿"
+    },
+    {
+     "from": "concentrate",
+     "to": "smelting",
+     "flow": "铜精矿"
+    },
+    {
+     "from": "flotation",
+     "to": "byproduct",
+     "flow": "尾矿综合回收"
+    }
+   ],
+   "employment": {
+    "peak": 5000,
+    "current": 8000
+   }
+  },
+  "gold": {
+   "name": "黄金产业链",
+   "color": "#c9a84c",
+   "icon": "🥇",
+   "lifecycle": {
+    "birth": 2010,
+    "peak": 2024,
+    "decline": null,
+    "collapse": null,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "explore_au",
+     "name": "金矿物探",
+     "x": 50,
+     "y": 200,
+     "status": "active",
+     "peak": "2010s",
+     "decline": null
+    },
+    {
+     "id": "mining_au",
+     "name": "伴生金矿开采",
+     "x": 150,
+     "y": 200,
+     "status": "active",
+     "peak": "2010s",
+     "decline": null
+    },
+    {
+     "id": "flotation_au",
+     "name": "浮选富集",
+     "x": 250,
+     "y": 200,
+     "status": "active",
+     "peak": "2010s",
+     "decline": null
+    },
+    {
+     "id": "cyanide",
+     "name": "氰化提金",
+     "x": 350,
+     "y": 200,
+     "status": "active",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "refine",
+     "name": "精炼铸锭",
+     "x": 450,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "sales",
+     "name": "国家战略储备",
+     "x": 550,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    }
+   ],
+   "connections": [
+    {
+     "from": "explore_au",
+     "to": "mining_au",
+     "flow": "矿体"
+    },
+    {
+     "from": "mining_au",
+     "to": "flotation_au",
+     "flow": "原矿"
+    },
+    {
+     "from": "flotation_au",
+     "to": "cyanide",
+     "flow": "金精矿"
+    },
+    {
+     "from": "cyanide",
+     "to": "refine",
+     "flow": "金泥"
+    },
+    {
+     "from": "refine",
+     "to": "sales",
+     "flow": "标准金"
+    }
+   ],
+   "employment": {
+    "peak": 2000,
+    "current": 3000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "altitude",
+    "name": "高海拔开采成本",
+    "weight": 25,
+    "evidence": "海拔4000米以上，设备效率低、物流成本高、工期短",
+    "icon": "🏔️",
+    "selected": false
+   },
+   {
+    "id": "ecology",
+    "name": "高原生态脆弱",
+    "weight": 25,
+    "evidence": "高寒草甸生态恢复缓慢，环保要求极为严格",
+    "icon": "🌱",
+    "selected": false
+   },
+   {
+    "id": "infrastructure",
+    "name": "基础设施瓶颈",
+    "weight": 20,
+    "evidence": "电力、交通、供水等基础设施相对薄弱",
+    "icon": "🛣️",
+    "selected": false
+   },
+   {
+    "id": "community",
+    "name": "社区与民族文化协调",
+    "weight": 15,
+    "evidence": "矿业开发与藏族牧民社区利益协调复杂",
+    "icon": "🤝",
+    "selected": false
+   },
+   {
+    "id": "depth",
+    "name": "深部资源开发难度",
+    "weight": 15,
+    "evidence": "斑岩铜矿深部开采技术难度大、投资高",
+    "icon": "⛏️",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "strategic",
+    "name": "国家战略铜资源",
+    "weight": 35,
+    "evidence": "甲玛、驱龙是国家铜资源安全的重要战略支撑",
+    "icon": "🏛️",
+    "selected": false
+   },
+   {
+    "id": "green",
+    "name": "绿色矿山技术",
+    "weight": 20,
+    "evidence": "高寒矿区生态修复与尾矿处理技术不断进步",
+    "icon": "🌿",
+    "selected": false
+   },
+   {
+    "id": "railway",
+    "name": "川藏铁路物流改善",
+    "weight": 15,
+    "evidence": "川藏铁路显著降低铜精矿外运成本",
+    "icon": "🚆",
+    "selected": false
+   },
+   {
+    "id": "byproduct",
+    "name": "多金属综合回收",
+    "weight": 15,
+    "evidence": "金、钼、银等伴生资源提升项目经济性",
+    "icon": "⚗️",
+    "selected": false
+   },
+   {
+    "id": "local",
+    "name": "本地就业与社区共建",
+    "weight": 15,
+    "evidence": "矿业企业带动藏族群众就业与基础设施建设",
+    "icon": "👷",
+    "selected": false
+   }
+  ]
+ },
+ "space_timeline": [
+  {
+   "year": 2000,
+   "old_area": 1,
+   "new_area": 0,
+   "old_pop": 31600,
+   "vacancy": 0
+  },
+  {
+   "year": 2010,
+   "old_area": 3,
+   "new_area": 0,
+   "old_pop": 37900,
+   "vacancy": 0.05
+  },
+  {
+   "year": 2016,
+   "old_area": 5,
+   "new_area": 0,
+   "old_pop": 43400,
+   "vacancy": 0.08
+  },
+  {
+   "year": 2020,
+   "old_area": 7,
+   "new_area": 0,
+   "old_pop": 47300,
+   "vacancy": 0.1
+  },
+  {
+   "year": 2024,
+   "old_area": 9,
+   "new_area": 0,
+   "old_pop": 51300,
+   "vacancy": 0.1
+  }
+ ],
+ "space": {
+  "old_city": {
+   "name": "甲玛沟矿业小镇",
+   "peak_pop": 51300,
+   "current_pop": 51300,
+   "vacancy": 0.1,
+   "landmark": "甲玛铜矿选厂"
+  },
+  "new_city": {
+   "name": "驱龙矿业服务区",
+   "peak_pop": 0,
+   "current_pop": 6300,
+   "landmark": "驱龙铜矿作业区"
+  },
+  "distance_km": 35,
+  "built_up_area_km2": 9,
+  "current_pop": 51300,
+  "peak_pop": 51300,
+  "vacancy_rate": 0.1
+ },
+ "migration": {
+  "outflow_total": 11800,
+  "destinations": [
+   {
+    "city": "拉萨",
+    "province": "西藏",
+    "count": 4700,
+    "reason": "首府就业与教育"
+   },
+   {
+    "city": "日喀则",
+    "province": "西藏",
+    "count": 2400,
+    "reason": "区域中心城市务工"
+   },
+   {
+    "city": "林芝",
+    "province": "西藏",
+    "count": 1600,
+    "reason": "邻近城市就业"
+   },
+   {
+    "city": "成都",
+    "province": "四川",
+    "count": 1600,
+    "reason": "内地求学与务工"
+   },
+   {
+    "city": "其他地区",
+    "province": "全国",
+    "count": 1500,
+    "reason": "外出务工"
+   }
+  ]
+ },
+ "achievements": [
+  {
+   "id": "mozhugongka_first_visit",
+   "name": "藏东铜都初探",
+   "desc": "首次进入墨竹工卡",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "mozhugongka_jiama",
+   "name": "甲玛铜矿发现",
+   "desc": "见证2000年甲玛铜多金属矿发现",
+   "condition": "year",
+   "year": 2000
+  },
+  {
+   "id": "mozhugongka_qulong",
+   "name": "驱龙铜矿探明",
+   "desc": "见证2004年驱龙超大型铜矿探明",
+   "condition": "year",
+   "year": 2004
+  },
+  {
+   "id": "mozhugongka_prod",
+   "name": "甲玛铜矿投产",
+   "desc": "见证2010年甲玛铜矿投产",
+   "condition": "year",
+   "year": 2010
+  },
+  {
+   "id": "mozhugongka_peak",
+   "name": "藏东铜都",
+   "desc": "见证2016年铜产量突破十万吨",
+   "condition": "year",
+   "year": 2016
+  },
+  {
+   "id": "mozhugongka_chain",
+   "name": "高原铜金拼图大师",
+   "desc": "完成墨竹工卡铜-金产业链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": [
+  {
+   "desc": "2025 GDP 196.69亿; 2023年GDP 70.35亿元为2023年公报原口径；据2025年公报注，2021-2023年GDP已按第五次全国经济普查修订，故2024年(135.19亿)与2025年(196.69亿)数值不可与原口径直接比较；七普常住人口49,511人（拉萨市七普公报）",
+   "url": "https://www.xzmzgk.gov.cn/mzfkxzf/sjkf/202405/5b6e4bf132654f3d9eb5a64b3836959a.shtml",
+   "year": 2024
+  }
+ ],
+ "real_anchors": {
+  "census2020": {
+   "pop": 49500
+  },
+  "stat2024": {
+   "gdp": 196.69,
+   "pop": 51300
+  }
+ }
+}

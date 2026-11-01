@@ -1,0 +1,730 @@
+{
+ "profile": {
+  "name": "万山区",
+  "province": "贵州省",
+  "prefecture": "铜仁市辖区",
+  "area": "842 km²",
+  "coordinates": [
+   109.2,
+   27.52
+  ],
+  "tags": [
+   "中国汞都",
+   "丹砂王国",
+   "朱砂古镇",
+   "文旅康养新城"
+  ],
+  "description": "武陵山区的中国汞都，朱砂开采史可追溯至秦汉，清代已享誉全国。鼎盛时期汞产量占全国50%以上，2001年贵州汞矿破产后城市跌入谷底，2009年列入国家第二批资源枯竭城市。近十年来依托朱砂古镇、悬崖酒店、汞矿遗址等发展工业旅游，正从'中国汞都'向'文旅康养新城'艰难转型。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 1900,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "起家期",
+    "start": 1900,
+    "end": 1949,
+    "color": "green"
+   },
+   {
+    "name": "壮盛期",
+    "start": 1950,
+    "end": 1980,
+    "color": "yellow"
+   },
+   {
+    "name": "衰败期",
+    "start": 1981,
+    "end": 2011,
+    "color": "red"
+   },
+   {
+    "name": "转型期",
+    "start": 2012,
+    "end": 2024,
+    "color": "teal"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "mercury",
+    "label": "汞产量",
+    "unit": "吨",
+    "max": 130,
+    "color": "#8b4513"
+   },
+   {
+    "key": "tourism",
+    "label": "旅游收入",
+    "unit": "亿元",
+    "max": 60,
+    "color": "#2d6a4f"
+   }
+  ],
+  "spaceType": "built_up",
+  "spaceLabels": {
+   "built": "建成区",
+   "density": "人口密度"
+  },
+  "cityKey": "wanshan",
+  "chainKeys": [
+   "mercury",
+   "tourism"
+  ],
+  "chainContainerIds": [
+   "mercuryChain",
+   "tourismChain"
+  ],
+  "currentStatus": "文旅康养新城建设中",
+  "transformationAssessment": "从'中国汞都'到'文旅康养新城'的艰难转身",
+  "transformationDetail": "万山汞矿累计产汞超10万吨，2001年贵州汞矿破产后，数万矿工下岗、城市收缩。2009年列入国家第二批资源枯竭城市后，依托朱砂古镇、汞矿国家矿山公园、悬崖酒店等发展工业旅游，朱砂文创、生态康养等接续产业起步。但人口外流、产业基础薄弱，转型仍在路上。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 1900,
+   "title": "朱砂开采",
+   "category": "discovery",
+   "desc": "万山朱砂（汞矿）开采历史悠久，清代已形成规模，'砂出万山者最良'",
+   "impact": 7,
+   "pop": 5000,
+   "mercury": 0.05,
+   "tourism": 0,
+   "gdp": 0.5,
+   "event": true
+  },
+  {
+   "year": 1950,
+   "title": "贵州汞矿成立",
+   "category": "peak",
+   "desc": "成立贵州汞矿，万山成为国家重要汞生产基地，大规模工业化开采启动",
+   "impact": 9,
+   "pop": 10000,
+   "mercury": 1,
+   "tourism": 0,
+   "gdp": 1,
+   "event": true
+  },
+  {
+   "year": 1966,
+   "title": "万山特区设立",
+   "category": "peak",
+   "desc": "设立万山特区，中国最早的县级特区之一，专为汞矿资源开发而设",
+   "impact": 8,
+   "pop": 40000,
+   "mercury": 15,
+   "tourism": 0,
+   "gdp": 1.6,
+   "event": true
+  },
+  {
+   "year": 1970,
+   "title": "鼎盛时期",
+   "category": "peak",
+   "desc": "汞产量占全国50%以上，被誉为'中国汞都'，矿工及家属达数万人",
+   "impact": 10,
+   "pop": 60000,
+   "mercury": 22,
+   "tourism": 0,
+   "gdp": 1.8,
+   "event": true
+  },
+  {
+   "year": 1980,
+   "title": "产量下滑",
+   "category": "decline",
+   "desc": "浅层汞矿资源逐渐枯竭，开采成本上升，产量开始明显下降",
+   "impact": 8,
+   "pop": 100000,
+   "mercury": 26,
+   "tourism": 0,
+   "gdp": 2.3,
+   "event": true
+  },
+  {
+   "year": 1990,
+   "title": "资源危机",
+   "category": "decline",
+   "desc": "保有储量急剧下降，矿井深度不断增加，开采难度和成本大幅攀升",
+   "impact": 8,
+   "pop": 140000,
+   "mercury": 24,
+   "tourism": 0,
+   "gdp": 2.8,
+   "event": false
+  },
+  {
+   "year": 2001,
+   "title": "汞矿破产",
+   "category": "decline",
+   "desc": "贵州汞矿因资源枯竭宣告破产，数万矿工下岗，城市陷入发展困境",
+   "impact": 10,
+   "pop": 180000,
+   "mercury": 0,
+   "tourism": 0,
+   "gdp": 3.5,
+   "event": true
+  },
+  {
+   "year": 2009,
+   "title": "枯竭城市认定",
+   "category": "transformation",
+   "desc": "万山区被列为国家第二批资源枯竭城市，获得转型政策支持",
+   "impact": 9,
+   "pop": 130000,
+   "mercury": 0,
+   "tourism": 2,
+   "gdp": 4.3,
+   "event": true
+  },
+  {
+   "year": 2012,
+   "title": "朱砂古镇建设",
+   "category": "transformation",
+   "desc": "启动朱砂古镇建设，依托废弃矿区发展工业旅游，打造丹砂文化品牌",
+   "impact": 8,
+   "pop": 120000,
+   "mercury": 0,
+   "tourism": 5,
+   "gdp": 4.6,
+   "event": true
+  },
+  {
+   "year": 2015,
+   "title": "悬崖酒店开业",
+   "category": "transformation",
+   "desc": "依托悬崖地貌打造悬崖酒店等网红项目，成为社交媒体热门打卡地",
+   "impact": 7,
+   "pop": 115000,
+   "mercury": 0,
+   "tourism": 12,
+   "gdp": 5,
+   "event": true
+  },
+  {
+   "year": 2018,
+   "title": "旅游兴旺",
+   "category": "transformation",
+   "desc": "朱砂古镇入选国家4A景区，年接待游客突破百万人次，文旅转型初见成效",
+   "impact": 8,
+   "pop": 110000,
+   "mercury": 0,
+   "tourism": 25,
+   "gdp": 5.5,
+   "event": true
+  },
+  {
+   "year": 2021,
+   "title": "2021年统计锚点",
+   "category": "peak",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 160600,
+   "gdp": 86.46,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2022,
+   "title": "文创升级",
+   "category": "transformation",
+   "desc": "发展朱砂文创产品、红色旅游、生态康养等多元业态，产业格局持续优化",
+   "impact": 7,
+   "pop": 105000,
+   "mercury": 0,
+   "tourism": 45,
+   "gdp": 6,
+   "event": false
+  },
+  {
+   "year": 2023,
+   "title": "2023年统计锚点",
+   "category": "peak",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 162000,
+   "gdp": 89.2,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2024,
+   "title": "绿色转型",
+   "category": "transformation",
+   "desc": "万山从'中国汞都'华丽转身为文旅新城，生态修复与产业转型并举推进",
+   "impact": 8,
+   "pop": 160600,
+   "mercury": 0,
+   "tourism": 55,
+   "gdp": 96.81,
+   "event": true,
+   "calibrated": true
+  }
+ ],
+ "space_timeline": [
+  {
+   "year": 1900,
+   "old_area": 1,
+   "new_area": 0,
+   "old_pop": 5000,
+   "vacancy": 0
+  },
+  {
+   "year": 1950,
+   "old_area": 3,
+   "new_area": 0,
+   "old_pop": 10000,
+   "vacancy": 0
+  },
+  {
+   "year": 1970,
+   "old_area": 12,
+   "new_area": 0,
+   "old_pop": 60000,
+   "vacancy": 0
+  },
+  {
+   "year": 1990,
+   "old_area": 15,
+   "new_area": 0,
+   "old_pop": 140000,
+   "vacancy": 0.1
+  },
+  {
+   "year": 2001,
+   "old_area": 14,
+   "new_area": 2,
+   "old_pop": 130000,
+   "vacancy": 0.2
+  },
+  {
+   "year": 2024,
+   "old_area": 12,
+   "new_area": 15,
+   "old_pop": 100000,
+   "vacancy": 0.25
+  }
+ ],
+ "space": {
+  "old_city": {
+   "name": "万山汞矿老城片区",
+   "vacancy": 0.25,
+   "landmark": "贵州汞矿遗址",
+   "peak_pop": 180000,
+   "current_pop": 160600
+  },
+  "new_city": {
+   "name": "朱砂古镇文旅新区",
+   "peak_pop": 0,
+   "current_pop": 35000,
+   "landmark": "朱砂古镇"
+  },
+  "distance_km": 5,
+  "built_up_area_km2": 14,
+  "current_pop": 160600,
+  "peak_pop": 180000,
+  "vacancy_rate": 0.4
+ },
+ "chains": {
+  "mercury": {
+   "name": "汞矿产业链",
+   "color": "#8b4513",
+   "icon": "☿",
+   "lifecycle": {
+    "birth": 1900,
+    "peak": 1970,
+    "decline": 1980,
+    "collapse": 2001,
+    "dead": 2024
+   },
+   "nodes": [
+    {
+     "id": "explore",
+     "name": "地质勘探",
+     "status": "dead",
+     "peak": "1950s-1970s",
+     "decline": "1980s"
+    },
+    {
+     "id": "mining",
+     "name": "井下开采",
+     "status": "dead",
+     "peak": "1960s-1980s",
+     "decline": "1990s"
+    },
+    {
+     "id": "dressing",
+     "name": "选矿加工",
+     "status": "dead",
+     "peak": "1960s-1980s",
+     "decline": "1990s"
+    },
+    {
+     "id": "smelt",
+     "name": "冶炼提纯",
+     "status": "dead",
+     "peak": "1970s-1990s",
+     "decline": "2000s"
+    },
+    {
+     "id": "trade",
+     "name": "汞产品贸易",
+     "status": "dead",
+     "peak": "1970s-1990s",
+     "decline": "2000s"
+    }
+   ],
+   "connections": [
+    {
+     "from": "explore",
+     "to": "mining",
+     "flow": "矿床数据"
+    },
+    {
+     "from": "mining",
+     "to": "dressing",
+     "flow": "汞矿石"
+    },
+    {
+     "from": "dressing",
+     "to": "smelt",
+     "flow": "汞精矿"
+    },
+    {
+     "from": "smelt",
+     "to": "trade",
+     "flow": "金属汞"
+    }
+   ],
+   "employment": {
+    "peak": 50000,
+    "current": 0
+   }
+  },
+  "tourism": {
+   "name": "文旅康养产业链",
+   "color": "#2d6a4f",
+   "icon": "🌿",
+   "lifecycle": {
+    "birth": 2009,
+    "growth": 2015,
+    "peak": null
+   },
+   "nodes": [
+    {
+     "id": "heritage",
+     "name": "工业遗产",
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "culture",
+     "name": "丹砂文化",
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "scenic",
+     "name": "景区运营",
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "hotel",
+     "name": "特色住宿",
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "creative",
+     "name": "朱砂文创",
+     "status": "emerging",
+     "peak": "未来"
+    },
+    {
+     "id": "wellness",
+     "name": "生态康养",
+     "status": "emerging",
+     "peak": "未来"
+    }
+   ],
+   "connections": [
+    {
+     "from": "heritage",
+     "to": "culture",
+     "flow": "历史IP"
+    },
+    {
+     "from": "culture",
+     "to": "scenic",
+     "flow": "文化场景"
+    },
+    {
+     "from": "scenic",
+     "to": "hotel",
+     "flow": "游客流量"
+    },
+    {
+     "from": "hotel",
+     "to": "creative",
+     "flow": "消费场景"
+    },
+    {
+     "from": "creative",
+     "to": "wellness",
+     "flow": "品牌延伸"
+    }
+   ],
+   "employment": {
+    "peak": null,
+    "current": 15000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "resource",
+    "name": "汞矿资源枯竭",
+    "weight": 35,
+    "evidence": "浅部高品位矿体开采殆尽，2001年主体矿山破产",
+    "icon": "⛏️",
+    "selected": false
+   },
+   {
+    "id": "environment",
+    "name": "生态与汞污染",
+    "weight": 20,
+    "evidence": "长期汞冶炼导致土壤与水体污染，生态修复成本高",
+    "icon": "🌱",
+    "selected": false
+   },
+   {
+    "id": "structure",
+    "name": "产业结构单一",
+    "weight": 20,
+    "evidence": "城市经济长期依赖汞矿采选，几乎没有接续产业",
+    "icon": "🏭",
+    "selected": false
+   },
+   {
+    "id": "population",
+    "name": "人口外流严重",
+    "weight": 15,
+    "evidence": "峰值人口约18万，2024年降至约10万",
+    "icon": "👥",
+    "selected": false
+   },
+   {
+    "id": "location",
+    "name": "区位偏远交通弱",
+    "weight": 10,
+    "evidence": "位于武陵山区深处，远离省会与主要交通干线",
+    "icon": "🗺️",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "heritage",
+    "name": "世界级工业遗产",
+    "weight": 30,
+    "evidence": "贵州汞矿遗址规模全国最大，具有极高文旅价值",
+    "icon": "🏛️",
+    "selected": false
+   },
+   {
+    "id": "brand",
+    "name": "丹砂王国品牌",
+    "weight": 25,
+    "evidence": "'中国汞都''丹砂王国'文化IP认知度高",
+    "icon": "🏅",
+    "selected": false
+   },
+   {
+    "id": "policy",
+    "name": "资源枯竭城市政策",
+    "weight": 20,
+    "evidence": "2009年列入第二批资源枯竭城市，获转型资金支持",
+    "icon": "📜",
+    "selected": false
+   },
+   {
+    "id": "scenic",
+    "name": "网红景区引流",
+    "weight": 15,
+    "evidence": "朱砂古镇、悬崖酒店成为社交媒体热门打卡地",
+    "icon": "📸",
+    "selected": false
+   },
+   {
+    "id": "ecology",
+    "name": "武陵生态资源",
+    "weight": 10,
+    "evidence": "喀斯特地貌与森林资源适宜发展康养旅游",
+    "icon": "🌲",
+    "selected": false
+   }
+  ]
+ },
+ "map": {
+  "center": [
+   109.2,
+   27.52
+  ],
+  "zoom": 12,
+  "features": [
+   {
+    "name": "朱砂古镇",
+    "type": "industrial",
+    "coord": [
+     109.22,
+     27.53
+    ],
+    "desc": "原贵州汞矿矿区，转型为国家4A景区"
+   },
+   {
+    "name": "悬崖酒店",
+    "type": "industrial",
+    "coord": [
+     109.25,
+     27.55
+    ],
+    "desc": "依托悬崖地貌打造的网红酒店项目"
+   },
+   {
+    "name": "万山汞矿遗址",
+    "type": "industrial",
+    "coord": [
+     109.18,
+     27.5
+    ],
+    "desc": "中国最大汞矿工业遗址，见证矿业辉煌"
+   },
+   {
+    "name": "地下长城",
+    "type": "industrial",
+    "coord": [
+     109.2,
+     27.51
+    ],
+    "desc": "矿洞网络纵横交错，总长达970公里"
+   },
+   {
+    "name": "丹砂王国",
+    "type": "cultural",
+    "coord": [
+     109.23,
+     27.54
+    ],
+    "desc": "展示丹砂文化的历史博物馆"
+   },
+   {
+    "name": "武陵山区",
+    "type": "natural",
+    "coord": [
+     109.15,
+     27.45
+    ],
+    "desc": "喀斯特地貌与生态屏障"
+   }
+  ]
+ },
+ "images": [
+  "https://picsum.photos/800/600?random=80",
+  "https://picsum.photos/800/600?random=81",
+  "https://picsum.photos/800/600?random=82",
+  "https://picsum.photos/800/600?random=83",
+  "https://picsum.photos/800/600?random=84"
+ ],
+ "migration": {
+  "outflow_total": 35000,
+  "destinations": [
+   {
+    "city": "铜仁",
+    "province": "贵州",
+    "count": 12000,
+    "reason": "就近务工"
+   },
+   {
+    "city": "贵阳",
+    "province": "贵州",
+    "count": 10000,
+    "reason": "省会就业"
+   },
+   {
+    "city": "怀化",
+    "province": "湖南",
+    "count": 6000,
+    "reason": "临近城市"
+   },
+   {
+    "city": "重庆",
+    "province": "重庆",
+    "count": 4000,
+    "reason": "外出务工"
+   },
+   {
+    "city": "其他地区",
+    "province": "全国",
+    "count": 3000,
+    "reason": "外出务工与经商"
+   }
+  ]
+ },
+ "achievements": [
+  {
+   "id": "wanshan_first_visit",
+   "name": "中国汞都",
+   "desc": "首次进入万山，探访朱砂古镇",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "wanshan_mercury",
+   "name": "汞矿兴盛",
+   "desc": "见证万山汞矿全盛时期",
+   "condition": "year",
+   "year": 1970
+  },
+  {
+   "id": "wanshan_bankruptcy",
+   "name": "矿竭城困",
+   "desc": "见证2001年万山汞矿主体破产",
+   "condition": "year",
+   "year": 2001
+  },
+  {
+   "id": "wanshan_town",
+   "name": "朱砂古镇",
+   "desc": "见证万山转型为工业旅游景区",
+   "condition": "year",
+   "year": 2015
+  },
+  {
+   "id": "wanshan_chain",
+   "name": "汞都拼图大师",
+   "desc": "完成万山汞矿产业链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": [
+  {
+   "desc": "2023 GDP 89.2亿; ",
+   "url": "https://tjgb.hongheiku.com/xjtjgb/xj2020/53032.html",
+   "year": 2023
+  }
+ ],
+ "real_anchors": {
+  "census2020": {
+   "pop": 160600
+  },
+  "stat2023": {
+   "gdp": 89.2,
+   "pop": 162000
+  }
+ }
+}

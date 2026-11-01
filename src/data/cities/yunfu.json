@@ -1,0 +1,733 @@
+{
+ "profile": {
+  "name": "云浮市",
+  "province": "广东省",
+  "prefecture": "地级市",
+  "area": "7,785 km²",
+  "coordinates": [
+   112.04,
+   22.92
+  ],
+  "tags": [
+   "石材王国",
+   "硫都",
+   "云石之乡",
+   "石材长廊"
+  ],
+  "description": "粤西山地的新兴工业城市，中国最大石材加工贸易基地与硫铁矿产地。云浮石材“买世界、卖世界”，硫铁矿曾支撑南方化工产业，如今正向绿色石艺、精细硫化工与循环经济转型。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 1958,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "起家期",
+    "start": 1958,
+    "end": 1977,
+    "color": "green"
+   },
+   {
+    "name": "壮盛期",
+    "start": 1978,
+    "end": 2000,
+    "color": "yellow"
+   },
+   {
+    "name": "调整期",
+    "start": 2001,
+    "end": 2012,
+    "color": "red"
+   },
+   {
+    "name": "转型期",
+    "start": 2013,
+    "end": 2024,
+    "color": "teal"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "sulfur_iron",
+    "label": "硫铁矿产量",
+    "unit": "万吨",
+    "max": 500,
+    "color": "#eab308"
+   },
+   {
+    "key": "stone",
+    "label": "石材产量",
+    "unit": "万m²",
+    "max": 5000,
+    "color": "#a8a29e"
+   }
+  ],
+  "spaceType": "built_up",
+  "spaceLabels": {
+   "built": "建成区",
+   "density": "人口密度"
+  },
+  "cityKey": "yunfu",
+  "chainKeys": [
+   "sulfur",
+   "stone"
+  ],
+  "chainContainerIds": [
+   "sulfurChain",
+   "stoneChain"
+  ],
+  "currentStatus": "石材之都，绿色硫化工",
+  "transformationAssessment": "从“卖矿石”到“卖设计、卖品牌、卖服务”的石材产业链升级",
+  "transformationDetail": "云浮依托石材产业集聚与硫铁矿资源，形成了“矿山开采—板材加工—工程设计—废物利用”的循环链条，正加快建设绿色石材产业园与硫化工新材料基地。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 1958,
+   "title": "云浮硫铁矿发现",
+   "category": "discovery",
+   "desc": "地质勘探确认云浮大型硫铁矿床，奠定化工城市基石",
+   "impact": 10,
+   "pop": 1488060,
+   "sulfur_iron": 0,
+   "stone": 0,
+   "gdp": 0.05,
+   "event": true
+  },
+  {
+   "year": 1964,
+   "title": "云浮硫铁矿筹建",
+   "category": "peak",
+   "desc": "云浮硫铁矿开始筹建，南方硫酸工业重要原料基地成型",
+   "impact": 7,
+   "pop": 1570730,
+   "sulfur_iron": 0,
+   "stone": 0,
+   "gdp": 0.2,
+   "event": false
+  },
+  {
+   "year": 1978,
+   "title": "石材产业起步",
+   "category": "peak",
+   "desc": "改革开放后个体石材作坊兴起，云浮石材业雏形初现",
+   "impact": 7,
+   "pop": 1653400,
+   "sulfur_iron": 30,
+   "stone": 50,
+   "gdp": 1,
+   "event": true
+  },
+  {
+   "year": 1984,
+   "title": "首届石材展",
+   "category": "peak",
+   "desc": "云浮举办首届石材展，开启“石材王国”品牌之路",
+   "impact": 8,
+   "pop": 1736070,
+   "sulfur_iron": 80,
+   "stone": 300,
+   "gdp": 4,
+   "event": true
+  },
+  {
+   "year": 1990,
+   "title": "全国石材集散地",
+   "category": "peak",
+   "desc": "云浮成为中国最大的石材加工和集散基地之一",
+   "impact": 9,
+   "pop": 1901410,
+   "sulfur_iron": 150,
+   "stone": 800,
+   "gdp": 12,
+   "event": true
+  },
+  {
+   "year": 1996,
+   "title": "石材产量跃居前列",
+   "category": "peak",
+   "desc": "石材产量和销售量跃居全国地级市前列，产业链日趋完整",
+   "impact": 8,
+   "pop": 2066750,
+   "sulfur_iron": 250,
+   "stone": 1500,
+   "gdp": 28,
+   "event": true
+  },
+  {
+   "year": 2000,
+   "title": "硫铁矿产量峰值",
+   "category": "peak",
+   "desc": "硫铁矿产量达到历史高点，支撑华南化工产业",
+   "impact": 9,
+   "pop": 2149420,
+   "sulfur_iron": 350,
+   "stone": 2000,
+   "gdp": 40,
+   "event": true
+  },
+  {
+   "year": 2005,
+   "title": "资源枯竭与环保压力",
+   "category": "decline",
+   "desc": "硫铁矿资源衰减，石材粉尘污染与用地矛盾凸显",
+   "impact": 8,
+   "pop": 2232090,
+   "sulfur_iron": 300,
+   "stone": 2200,
+   "gdp": 55,
+   "event": true
+  },
+  {
+   "year": 2008,
+   "title": "金融危机出口受挫",
+   "category": "decline",
+   "desc": "全球金融危机导致石材出口订单锐减，企业经营困难",
+   "impact": 7,
+   "pop": 2273425,
+   "sulfur_iron": 250,
+   "stone": 1800,
+   "gdp": 62,
+   "event": true
+  },
+  {
+   "year": 2010,
+   "title": "2010年统计锚点",
+   "category": "peak",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 2383400,
+   "gdp": 402.03,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2013,
+   "title": "绿色矿山与石材升级",
+   "category": "transformation",
+   "desc": "推进绿色矿山建设和石材清洁生产，提升产品附加值",
+   "impact": 8,
+   "pop": 2314760,
+   "sulfur_iron": 200,
+   "stone": 2500,
+   "gdp": 85,
+   "event": true
+  },
+  {
+   "year": 2016,
+   "title": "石材博览会永久会址",
+   "category": "transformation",
+   "desc": "云浮国际石材科技展览会永久会址落户，品牌影响力提升",
+   "impact": 8,
+   "pop": 2356095,
+   "sulfur_iron": 180,
+   "stone": 3000,
+   "gdp": 100,
+   "event": true
+  },
+  {
+   "year": 2017,
+   "title": "2017年统计锚点",
+   "category": "peak",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 2383400,
+   "gdp": 840.03,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2020,
+   "title": "循环经济产业园",
+   "category": "transformation",
+   "desc": "石材废渣综合利用与硫化工循环产业园建成投运",
+   "impact": 8,
+   "pop": 2380896,
+   "sulfur_iron": 150,
+   "stone": 3500,
+   "gdp": 120,
+   "event": false
+  },
+  {
+   "year": 2022,
+   "title": "2022年统计锚点",
+   "category": "peak",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 2383400,
+   "gdp": 1162.43,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2023,
+   "title": "2023年统计锚点",
+   "category": "peak",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 2383400,
+   "gdp": 1207.42,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2024,
+   "title": "高端石材与精细硫化工",
+   "category": "transformation",
+   "desc": "人造石、无机石、精细硫化工新材料成为增长新引擎",
+   "impact": 9,
+   "pop": 2397300,
+   "sulfur_iron": 120,
+   "stone": 4000,
+   "gdp": 1309.19,
+   "event": true,
+   "calibrated": true
+  }
+ ],
+ "chains": {
+  "sulfur": {
+   "name": "硫化工产业链",
+   "color": "#eab308",
+   "icon": "⚗️",
+   "lifecycle": {
+    "birth": 1958,
+    "peak": 2000,
+    "decline": 2005,
+    "collapse": null,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "mine",
+     "name": "硫铁矿开采",
+     "x": 50,
+     "y": 50,
+     "status": "dying",
+     "peak": "1960s-1990s",
+     "decline": "2000s"
+    },
+    {
+     "id": "crush",
+     "name": "破碎磨矿",
+     "x": 150,
+     "y": 50,
+     "status": "dying",
+     "peak": "1970s-2000s",
+     "decline": "2010s"
+    },
+    {
+     "id": "flotation",
+     "name": "浮选提质",
+     "x": 250,
+     "y": 50,
+     "status": "dying",
+     "peak": "1980s-2000s",
+     "decline": "2010s"
+    },
+    {
+     "id": "acid",
+     "name": "硫酸生产",
+     "x": 350,
+     "y": 50,
+     "status": "active",
+     "peak": "1990s-2010s",
+     "decline": "2020s"
+    },
+    {
+     "id": "fertilizer",
+     "name": "磷复肥/化工",
+     "x": 450,
+     "y": 50,
+     "status": "active",
+     "peak": "2000s",
+     "decline": null
+    },
+    {
+     "id": "reclaim",
+     "name": "矿山修复",
+     "x": 550,
+     "y": 50,
+     "status": "emerging",
+     "peak": "2020s",
+     "decline": null
+    }
+   ],
+   "connections": [
+    {
+     "from": "mine",
+     "to": "crush",
+     "flow": "原矿"
+    },
+    {
+     "from": "crush",
+     "to": "flotation",
+     "flow": "矿粉"
+    },
+    {
+     "from": "flotation",
+     "to": "acid",
+     "flow": "精矿"
+    },
+    {
+     "from": "acid",
+     "to": "fertilizer",
+     "flow": "硫酸"
+    },
+    {
+     "from": "mine",
+     "to": "reclaim",
+     "flow": "生态修复"
+    }
+   ],
+   "employment": {
+    "peak": 30000,
+    "current": 12000
+   }
+  },
+  "stone": {
+   "name": "石材产业链",
+   "color": "#a8a29e",
+   "icon": "🪨",
+   "lifecycle": {
+    "birth": 1978,
+    "peak": 2016,
+    "decline": null,
+    "collapse": null,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "quarry",
+     "name": "矿山开采",
+     "x": 50,
+     "y": 200,
+     "status": "active",
+     "peak": "1990s-至今",
+     "decline": null
+    },
+    {
+     "id": "block",
+     "name": "荒料切割",
+     "x": 150,
+     "y": 200,
+     "status": "active",
+     "peak": "1990s-至今",
+     "decline": null
+    },
+    {
+     "id": "slab",
+     "name": "大板加工",
+     "x": 250,
+     "y": 200,
+     "status": "active",
+     "peak": "2000s",
+     "decline": null
+    },
+    {
+     "id": "profile",
+     "name": "异形雕刻",
+     "x": 350,
+     "y": 200,
+     "status": "growing",
+     "peak": "2010s",
+     "decline": null
+    },
+    {
+     "id": "engineering",
+     "name": "工程应用",
+     "x": 450,
+     "y": 200,
+     "status": "growing",
+     "peak": "2010s",
+     "decline": null
+    },
+    {
+     "id": "recycle",
+     "name": "废渣综合利用",
+     "x": 550,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    }
+   ],
+   "connections": [
+    {
+     "from": "quarry",
+     "to": "block",
+     "flow": "荒料"
+    },
+    {
+     "from": "block",
+     "to": "slab",
+     "flow": "大板"
+    },
+    {
+     "from": "slab",
+     "to": "profile",
+     "flow": "板材"
+    },
+    {
+     "from": "profile",
+     "to": "engineering",
+     "flow": "异形材"
+    },
+    {
+     "from": "slab",
+     "to": "recycle",
+     "flow": "边角料"
+    }
+   ],
+   "employment": {
+    "peak": 200000,
+    "current": 180000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "depletion",
+    "name": "硫铁矿资源枯竭",
+    "weight": 25,
+    "evidence": "云浮硫铁矿经过多年大规模开采，储量显著下降",
+    "icon": "⛏️",
+    "selected": false
+   },
+   {
+    "id": "pollution",
+    "name": "粉尘与废水污染",
+    "weight": 25,
+    "evidence": "石材加工产生大量粉尘和切割废水，环保治理压力巨大",
+    "icon": "🌫️",
+    "selected": false
+   },
+   {
+    "id": "low_value",
+    "name": "产品附加值偏低",
+    "weight": 20,
+    "evidence": "长期以板材和初加工为主，设计、品牌环节薄弱",
+    "icon": "📉",
+    "selected": false
+   },
+   {
+    "id": "overcapacity",
+    "name": "产能过剩与同质化",
+    "weight": 20,
+    "evidence": "全国石材产能过剩，低价竞争挤压云浮企业利润",
+    "icon": "🏭",
+    "selected": false
+   },
+   {
+    "id": "land",
+    "name": "用地与物流约束",
+    "weight": 10,
+    "evidence": "粤西山地多，土地资源紧张，产品外运成本较高",
+    "icon": "🚚",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "brand",
+    "name": "石材博览会品牌",
+    "weight": 30,
+    "evidence": "云浮国际石材展和品牌市场在全国具有影响力",
+    "icon": "🏛️",
+    "selected": false
+   },
+   {
+    "id": "design",
+    "name": "设计赋能与工艺创新",
+    "weight": 20,
+    "evidence": "人造石、无机石、异形雕刻等高附加值产品兴起",
+    "icon": "🎨",
+    "selected": false
+   },
+   {
+    "id": "cycle",
+    "name": "循环经济产业链",
+    "weight": 20,
+    "evidence": "石材废渣制备新型建材，硫化工延链增值",
+    "icon": "♻️",
+    "selected": false
+   },
+   {
+    "id": "gba",
+    "name": "粤港澳大湾区市场",
+    "weight": 20,
+    "evidence": "邻近大湾区，基建与家装市场支撑石材需求",
+    "icon": "🌐",
+    "selected": false
+   },
+   {
+    "id": "policy",
+    "name": "产业转移与升级政策",
+    "weight": 10,
+    "evidence": "粤北生态发展区政策与绿色矿山补贴支持转型",
+    "icon": "📜",
+    "selected": false
+   }
+  ]
+ },
+ "space_timeline": [
+  {
+   "year": 1958,
+   "old_area": 3,
+   "new_area": 0,
+   "old_pop": 180000,
+   "vacancy": 0
+  },
+  {
+   "year": 1978,
+   "old_area": 8,
+   "new_area": 0,
+   "old_pop": 200000,
+   "vacancy": 0.05
+  },
+  {
+   "year": 1996,
+   "old_area": 18,
+   "new_area": 0,
+   "old_pop": 250000,
+   "vacancy": 0.08
+  },
+  {
+   "year": 2005,
+   "old_area": 28,
+   "new_area": 0,
+   "old_pop": 270000,
+   "vacancy": 0.12
+  },
+  {
+   "year": 2013,
+   "old_area": 38,
+   "new_area": 0,
+   "old_pop": 280000,
+   "vacancy": 0.1
+  },
+  {
+   "year": 2024,
+   "old_area": 55,
+   "new_area": 0,
+   "old_pop": 290000,
+   "vacancy": 0.1
+  }
+ ],
+ "space": {
+  "old_city": {
+   "name": "云浮老城区",
+   "peak_pop": 2397300,
+   "current_pop": 2397300,
+   "vacancy": 0.1,
+   "landmark": "云浮石材博览中心"
+  },
+  "new_city": {
+   "name": "硫化工循环经济园",
+   "peak_pop": 0,
+   "current_pop": 50000,
+   "landmark": "云浮循环经济产业园"
+  },
+  "distance_km": 15,
+  "built_up_area_km2": 55,
+  "current_pop": 2397300,
+  "peak_pop": 2397300,
+  "vacancy_rate": 0.1
+ },
+ "migration": {
+  "outflow_total": 70000,
+  "destinations": [
+   {
+    "city": "广州",
+    "province": "广东",
+    "count": 25000,
+    "reason": "珠三角就业与教育"
+   },
+   {
+    "city": "深圳",
+    "province": "广东",
+    "count": 15000,
+    "reason": "沿海城市就业"
+   },
+   {
+    "city": "佛山",
+    "province": "广东",
+    "count": 12000,
+    "reason": "制造业与石材下游"
+   },
+   {
+    "city": "肇庆",
+    "province": "广东",
+    "count": 8000,
+    "reason": "邻近城市就业"
+   },
+   {
+    "city": "其他地区",
+    "province": "全国",
+    "count": 10000,
+    "reason": "务工与经商"
+   }
+  ]
+ },
+ "achievements": [
+  {
+   "id": "yunfu_first_visit",
+   "name": "石材王国初探",
+   "desc": "首次进入云浮",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "yunfu_discovery",
+   "name": "硫铁矿发现",
+   "desc": "见证1958年云浮硫铁矿发现",
+   "condition": "year",
+   "year": 1958
+  },
+  {
+   "id": "yunfu_stone",
+   "name": "石材产业起步",
+   "desc": "见证1978年云浮石材产业起步",
+   "condition": "year",
+   "year": 1978
+  },
+  {
+   "id": "yunfu_expo",
+   "name": "首届石材展",
+   "desc": "见证1984年首届云浮石材展举办",
+   "condition": "year",
+   "year": 1984
+  },
+  {
+   "id": "yunfu_cycle",
+   "name": "循环经济园",
+   "desc": "见证2020年循环经济产业园建成",
+   "condition": "year",
+   "year": 2020
+  },
+  {
+   "id": "yunfu_chain",
+   "name": "石材硫化工拼图大师",
+   "desc": "完成云浮硫化工-石材产业链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": [
+  {
+   "desc": "2024 GDP 1309.19亿; ",
+   "url": "http://www.tjcn.org/tjgb/19gd/37842.html",
+   "year": 2024
+  }
+ ],
+ "real_anchors": {
+  "census2020": {
+   "pop": 2383400
+  },
+  "stat2024": {
+   "gdp": 1309.19,
+   "pop": 2397300
+  }
+ }
+}

@@ -1,0 +1,660 @@
+{
+ "profile": {
+  "name": "萍乡市",
+  "province": "江西省",
+  "prefecture": "地级市",
+  "area": "3,823 km²",
+  "coordinates": [
+   113.85,
+   27.62
+  ],
+  "tags": [
+   "安源煤矿",
+   "汉冶萍故地",
+   "工运摇篮",
+   "赣西门户"
+  ],
+  "description": "江南煤炭重镇，1898 年开办的安源煤矿是汉冶萍公司的燃料基地，也是中国工人运动的策源地。百年开采后煤炭资源趋枯，2011 年列入第三批资源枯竭城市，正向电子信息、节能环保与红色文旅转型。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 1898,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "起家期",
+    "start": 1898,
+    "end": 1948,
+    "color": "green"
+   },
+   {
+    "name": "壮盛期",
+    "start": 1949,
+    "end": 1995,
+    "color": "yellow"
+   },
+   {
+    "name": "衰落期",
+    "start": 1996,
+    "end": 2016,
+    "color": "red"
+   },
+   {
+    "name": "转型期",
+    "start": 2017,
+    "end": 2024,
+    "color": "teal"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "coal",
+    "label": "煤炭产量",
+    "unit": "万吨",
+    "max": 1200,
+    "color": "#1a1a2e"
+   },
+   {
+    "key": "fireworks",
+    "label": "花炮产值",
+    "unit": "亿元",
+    "max": 200,
+    "color": "#f97316"
+   }
+  ],
+  "spaceType": "built_up",
+  "spaceLabels": {
+   "built": "建成区",
+   "density": "人口密度"
+  },
+  "cityKey": "pingxiang",
+  "chainKeys": [
+   "coal",
+   "fireworks"
+  ],
+  "chainContainerIds": [
+   "coalChain",
+   "fireworksChain"
+  ],
+  "currentStatus": "转型中的赣西工矿城市",
+  "transformationAssessment": "从百年煤都到电子信息与工博文旅之城",
+  "transformationDetail": "萍乡因煤设市、因煤而兴，安源煤矿是中国最早采用近代化采煤技术的矿井之一。上世纪九十年代后浅部资源枯竭、煤价下行，煤矿关闭潮带来阵痛。近年依托上栗花炮传统产业升级与电子信息产业承接，城市缓慢换轨。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 1898,
+   "title": "安源煤矿开办",
+   "category": "discovery",
+   "desc": "盛宣怀创办萍乡煤矿局，与汉阳铁厂、大冶铁矿合组汉冶萍公司，成为中国近代工业缩影",
+   "impact": 10,
+   "event": true,
+   "pop": 30000,
+   "coal": 10,
+   "fireworks": 1,
+   "gdp": 0.05
+  },
+  {
+   "year": 1922,
+   "title": "安源路矿工人大罢工",
+   "category": "peak",
+   "desc": "毛泽东、刘少奇等领导路矿两局万余工人罢工并取得胜利，安源被称为中国工人运动摇篮",
+   "impact": 10,
+   "event": true,
+   "pop": 80000,
+   "coal": 60,
+   "fireworks": 2,
+   "gdp": 0.3
+  },
+  {
+   "year": 1949,
+   "title": "萍乡解放，煤矿恢复",
+   "category": "peak",
+   "desc": "新中国成立后安源等矿井迅速恢复生产，成为南方重要燃料基地",
+   "impact": 8,
+   "event": true,
+   "pop": 380000,
+   "coal": 80,
+   "fireworks": 3,
+   "gdp": 0.6
+  },
+  {
+   "year": 1960,
+   "title": "设立萍乡市",
+   "category": "peak",
+   "desc": "撤萍乡县设县级市，1970 年升格为省辖地级市",
+   "impact": 8,
+   "event": true,
+   "pop": 660000,
+   "coal": 220,
+   "fireworks": 8,
+   "gdp": 1.8
+  },
+  {
+   "year": 1978,
+   "title": "产量爬坡",
+   "category": "peak",
+   "desc": "改革开放后乡镇煤矿遍地开花，煤炭产量快速攀升",
+   "impact": 7,
+   "event": false,
+   "pop": 1180000,
+   "coal": 500,
+   "fireworks": 20,
+   "gdp": 5
+  },
+  {
+   "year": 1994,
+   "title": "产量峰值",
+   "category": "peak",
+   "desc": "煤炭产量突破千万吨，煤焦产业占工业半壁江山",
+   "impact": 8,
+   "event": true,
+   "pop": 1660000,
+   "coal": 1100,
+   "fireworks": 40,
+   "gdp": 82
+  },
+  {
+   "year": 2001,
+   "title": "关闭破产潮",
+   "category": "decline",
+   "desc": "浅部资源枯竭叠加煤价低谷，国有煤矿大面积关停破产，数万矿工下岗",
+   "impact": 9,
+   "event": true,
+   "pop": 1750000,
+   "coal": 600,
+   "fireworks": 55,
+   "gdp": 102
+  },
+  {
+   "year": 2008,
+   "title": "列入首批资源枯竭城市",
+   "category": "decline",
+   "desc": "国务院将萍乡列入第一批资源枯竭城市名单，转型上升为国家命题",
+   "impact": 9,
+   "event": true,
+   "pop": 1800000,
+   "coal": 700,
+   "fireworks": 70,
+   "gdp": 235
+  },
+  {
+   "year": 2013,
+   "title": "工博园与海绵城市",
+   "category": "transformation",
+   "desc": "依托安源红色资源建设工业博览园，入选全国首批海绵城市试点",
+   "impact": 7,
+   "event": true,
+   "pop": 1820000,
+   "coal": 650,
+   "fireworks": 120,
+   "gdp": 520
+  },
+  {
+   "year": 2016,
+   "title": "去产能攻坚",
+   "category": "decline",
+   "desc": "供给侧改革关闭全部 9 万吨以下小煤矿，煤炭产量腰斩",
+   "impact": 8,
+   "event": true,
+   "pop": 1815000,
+   "coal": 450,
+   "fireworks": 150,
+   "gdp": 700
+  },
+  {
+   "year": 2020,
+   "title": "七普人口",
+   "category": "decline",
+   "desc": "常住人口约 180.5 万，较六普微降，人口外流至长株潭与珠三角",
+   "impact": 7,
+   "event": true,
+   "pop": 1805000,
+   "coal": 400,
+   "fireworks": 170,
+   "gdp": 995
+  },
+  {
+   "year": 2023,
+   "title": "承接产业转移",
+   "category": "transformation",
+   "desc": "电子信息、新能源电池材料成为新增长点，花炮产业机械化改造",
+   "impact": 7,
+   "event": true,
+   "pop": 1801600,
+   "coal": 380,
+   "fireworks": 180,
+   "gdp": 1151.66,
+   "calibrated": true
+  },
+  {
+   "year": 2024,
+   "title": "百年煤城换轨",
+   "category": "transformation",
+   "desc": "安源煤矿转为工业遗产与研学基地，城市聚焦'转型示范'定位",
+   "impact": 8,
+   "event": true,
+   "pop": 1780000,
+   "coal": 360,
+   "fireworks": 185,
+   "gdp": 1180
+  }
+ ],
+ "chains": {
+  "coal": {
+   "name": "煤炭产业链",
+   "color": "#1a1a2e",
+   "icon": "⛏️",
+   "lifecycle": {
+    "birth": 1898,
+    "peak": 1994,
+    "decline": 2001,
+    "collapse": 2016,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "explore",
+     "name": "地质勘探",
+     "x": 50,
+     "y": 50,
+     "status": "dead",
+     "peak": "1950s",
+     "decline": "1990s"
+    },
+    {
+     "id": "mine",
+     "name": "井工开采",
+     "x": 150,
+     "y": 50,
+     "status": "dying",
+     "peak": "1960s-1990s",
+     "decline": "2010s"
+    },
+    {
+     "id": "wash",
+     "name": "洗选炼焦",
+     "x": 250,
+     "y": 50,
+     "status": "dying",
+     "peak": "1980s-2000s",
+     "decline": "2010s"
+    },
+    {
+     "id": "power",
+     "name": "煤电冶金",
+     "x": 350,
+     "y": 50,
+     "status": "declining",
+     "peak": "1990s",
+     "decline": "2020s"
+    },
+    {
+     "id": "chem",
+     "name": "煤化工",
+     "x": 450,
+     "y": 50,
+     "status": "declining",
+     "peak": "2000s",
+     "decline": "2020s"
+    },
+    {
+     "id": "heritage",
+     "name": "工业遗产",
+     "x": 550,
+     "y": 50,
+     "status": "emerging",
+     "peak": "2020s",
+     "decline": null
+    }
+   ],
+   "connections": [
+    {
+     "from": "explore",
+     "to": "mine",
+     "flow": "井田"
+    },
+    {
+     "from": "mine",
+     "to": "wash",
+     "flow": "原煤"
+    },
+    {
+     "from": "wash",
+     "to": "power",
+     "flow": "精煤"
+    },
+    {
+     "from": "wash",
+     "to": "chem",
+     "flow": "焦炭"
+    },
+    {
+     "from": "mine",
+     "to": "heritage",
+     "flow": "矿址活化"
+    }
+   ],
+   "employment": {
+    "peak": 150000,
+    "current": 12000
+   }
+  },
+  "fireworks": {
+   "name": "花炮与电子信息链",
+   "color": "#f97316",
+   "icon": "🎆",
+   "lifecycle": {
+    "birth": 1950,
+    "peak": 2024,
+    "decline": null,
+    "collapse": null,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "craft",
+     "name": "传统花炮",
+     "x": 50,
+     "y": 200,
+     "status": "active",
+     "peak": "1990s-2010s",
+     "decline": null
+    },
+    {
+     "id": "machine",
+     "name": "机械化改造",
+     "x": 150,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "creative",
+     "name": "烟花文旅",
+     "x": 250,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "elec",
+     "name": "电子信息",
+     "x": 350,
+     "y": 200,
+     "status": "emerging",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "battery",
+     "name": "电池材料",
+     "x": 450,
+     "y": 200,
+     "status": "emerging",
+     "peak": "2020s",
+     "decline": null
+    }
+   ],
+   "connections": [
+    {
+     "from": "craft",
+     "to": "machine",
+     "flow": "技改"
+    },
+    {
+     "from": "machine",
+     "to": "creative",
+     "flow": "品牌"
+    },
+    {
+     "from": "machine",
+     "to": "elec",
+     "flow": "厂房共用"
+    },
+    {
+     "from": "elec",
+     "to": "battery",
+     "flow": "材料配套"
+    }
+   ],
+   "employment": {
+    "peak": 200000,
+    "current": 130000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "resource",
+    "name": "煤炭资源枯竭",
+    "weight": 35,
+    "evidence": "浅部煤层采尽，剩余资源埋藏深、灾害重、成本高",
+    "icon": "⛏️",
+    "selected": false
+   },
+   {
+    "id": "policy",
+    "name": "去产能政策",
+    "weight": 20,
+    "evidence": "供给侧改革关停大量矿井，产能断崖式退出",
+    "icon": "🏭",
+    "selected": false
+   },
+   {
+    "id": "single",
+    "name": "产业结构单一",
+    "weight": 18,
+    "evidence": "煤焦及其延伸产业曾占规上工业增加值一半以上",
+    "icon": "🧱",
+    "selected": false
+   },
+   {
+    "id": "migration",
+    "name": "劳动力外流",
+    "weight": 15,
+    "evidence": "毗邻长株潭，青壮年向湖南与珠三角就业迁移",
+    "icon": "🚄",
+    "selected": false
+   },
+   {
+    "id": "safety",
+    "name": "安全环保约束",
+    "weight": 12,
+    "evidence": "小煤矿事故多发被整退出清，花炮行业安全升级",
+    "icon": "🛡️",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "red",
+    "name": "安源红色IP",
+    "weight": 25,
+    "evidence": "安源路矿工人运动纪念馆为全国爱国主义教育示范基地",
+    "icon": "🚩",
+    "selected": false
+   },
+   {
+    "id": "fireworks",
+    "name": "花炮产业升级",
+    "weight": 25,
+    "evidence": "上栗花炮全国主产区之一，机械化与出口并举",
+    "icon": "🎆",
+    "selected": false
+   },
+   {
+    "id": "location",
+    "name": "赣湘边区位",
+    "weight": 20,
+    "evidence": "地处赣湘边界高铁枢纽带，承接长株潭产业外溢",
+    "icon": "🌐",
+    "selected": false
+   },
+   {
+    "id": "elec",
+    "name": "电子信息承接",
+    "weight": 20,
+    "evidence": "沿海电子代工与电池材料项目相继落地园区",
+    "icon": "💡",
+    "selected": false
+   },
+   {
+    "id": "ecology",
+    "name": "海绵城市品牌",
+    "weight": 10,
+    "evidence": "首批海绵城市试点改善城市品质与水安全",
+    "icon": "🌧️",
+    "selected": false
+   }
+  ]
+ },
+ "space_timeline": [
+  {
+   "year": 1898,
+   "built": 0.4,
+   "vacant": 0,
+   "density": 8000
+  },
+  {
+   "year": 1949,
+   "built": 3,
+   "vacant": 0,
+   "density": 12000
+  },
+  {
+   "year": 1960,
+   "built": 8,
+   "vacant": 0,
+   "density": 15000
+  },
+  {
+   "year": 1994,
+   "built": 28,
+   "vacant": 0.03,
+   "density": 13000
+  },
+  {
+   "year": 2008,
+   "built": 42,
+   "vacant": 0.18,
+   "density": 9800
+  },
+  {
+   "year": 2016,
+   "built": 55,
+   "vacant": 0.25,
+   "density": 8600
+  },
+  {
+   "year": 2024,
+   "built": 62,
+   "vacant": 0.28,
+   "density": 7900
+  }
+ ],
+ "space": {
+  "built_up_area_km2": 62,
+  "current_pop": 1780000,
+  "peak_pop": 1820000,
+  "vacancy_rate": 0.28,
+  "housing_price_rank": "江西省内中游",
+  "landmark": "安源路矿工人运动纪念馆"
+ },
+ "migration": {
+  "outflow_total": 80000,
+  "destinations": [
+   {
+    "city": "长沙",
+    "province": "湖南",
+    "count": 22000,
+    "reason": "省会就业与置业"
+   },
+   {
+    "city": "深圳",
+    "province": "广东",
+    "count": 18000,
+    "reason": "珠三角务工"
+   },
+   {
+    "city": "株洲",
+    "province": "湖南",
+    "count": 12000,
+    "reason": "制造业就业"
+   },
+   {
+    "city": "上海",
+    "province": "上海",
+    "count": 8000,
+    "reason": "劳务与经商"
+   },
+   {
+    "city": "其他地区",
+    "province": "全国",
+    "count": 20000,
+    "reason": "求学务工"
+   }
+  ]
+ },
+ "achievements": [
+  {
+   "id": "pingxiang_first_visit",
+   "name": "萍乡初见",
+   "desc": "首次进入萍乡市",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "pingxiang_y1898",
+   "name": "安源煤矿开办",
+   "desc": "见证1898年安源煤矿开办",
+   "condition": "year",
+   "year": 1898
+  },
+  {
+   "id": "pingxiang_y1922",
+   "name": "安源路矿工人大罢工",
+   "desc": "见证1922年安源路矿工人大罢工",
+   "condition": "year",
+   "year": 1922
+  },
+  {
+   "id": "pingxiang_y1949",
+   "name": "萍乡解放，煤矿恢复",
+   "desc": "见证1949年萍乡解放，煤矿恢复",
+   "condition": "year",
+   "year": 1949
+  },
+  {
+   "id": "pingxiang_chain",
+   "name": "安源煤矿拼图大师",
+   "desc": "完成萍乡市产业链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": [
+  {
+   "desc": "2023 GDP 1151.66亿元(+3.0%), 一产77.71/二产475.44; 常住180.16万(-0.72万)",
+   "url": "http://www.tjcn.org/tjgb/14jx/37762.html",
+   "year": 2023
+  },
+  {
+   "desc": "七普常住人口180.48万（2020-11-01，萍乡市第七次全国人口普查公报）",
+   "url": "http://jx.people.com.cn/BIG5/n2/2021/0511/c190260-34719321.html"
+  }
+ ],
+ "real_anchors": {
+  "stat2023": {
+   "gdp": 1151.66,
+   "pop": 1801600
+  },
+  "census2020": {
+   "pop": 1804800
+  }
+ }
+}

@@ -1,0 +1,712 @@
+{
+ "profile": {
+  "name": "昌江黎族自治县",
+  "province": "海南省",
+  "prefecture": "自治县",
+  "area": "1,617 km²",
+  "coordinates": [
+   109.05,
+   19.25
+  ],
+  "tags": [
+   "海南铁矿",
+   "石碌铁矿",
+   "热带钢铁粮仓",
+   "黎乡"
+  ],
+  "description": "海南岛西海岸的黎族自治县，因石碌铁矿而成为中国热带地区最重要的钢铁原料基地。百年矿业留下工业遗产与生态欠账，如今依托核电、热带旅游与黎族文化探索绿色转型。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 1939,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "起家期",
+    "start": 1939,
+    "end": 1955,
+    "color": "green"
+   },
+   {
+    "name": "壮盛期",
+    "start": 1956,
+    "end": 1985,
+    "color": "yellow"
+   },
+   {
+    "name": "调整期",
+    "start": 1986,
+    "end": 2005,
+    "color": "red"
+   },
+   {
+    "name": "转型期",
+    "start": 2006,
+    "end": 2024,
+    "color": "teal"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "iron_ore",
+    "label": "铁矿石产量",
+    "unit": "万吨",
+    "max": 500,
+    "color": "#71717a"
+   },
+   {
+    "key": "tourism",
+    "label": "旅游收入",
+    "unit": "亿元",
+    "max": 80,
+    "color": "#22c55e"
+   }
+  ],
+  "spaceType": "built_up",
+  "spaceLabels": {
+   "built": "建成区",
+   "density": "人口密度"
+  },
+  "cityKey": "changjiang",
+  "chainKeys": [
+   "iron_ore",
+   "tourism"
+  ],
+  "chainContainerIds": [
+   "ironOreChain",
+   "tourismChain"
+  ],
+  "currentStatus": "清洁能源，山海黎乡",
+  "transformationAssessment": "从热带钢铁粮仓到清洁能源与热带旅游融合岛",
+  "transformationDetail": "石碌铁矿支撑了海南早期工业化和全国钢铁工业，资源衰减后，昌江依托昌江核电、棋子湾滨海旅游、霸王岭热带雨林与黎族文化，探索海岛资源城市转型路径。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 1939,
+   "title": "石碌铁矿发现",
+   "category": "discovery",
+   "desc": "日军侵占期间发现石碌富铁矿，开启海南铁矿开发史",
+   "impact": 8,
+   "pop": 102300,
+   "iron_ore": 0,
+   "tourism": 0,
+   "gdp": 0,
+   "event": true
+  },
+  {
+   "year": 1945,
+   "title": "战争破坏停产",
+   "category": "decline",
+   "desc": "抗战结束，矿山设施遭到严重破坏，生产陷入停顿",
+   "impact": 6,
+   "pop": 108700,
+   "iron_ore": 5,
+   "tourism": 0,
+   "gdp": 0.01,
+   "event": true
+  },
+  {
+   "year": 1950,
+   "title": "铁矿恢复生产",
+   "category": "peak",
+   "desc": "新中国成立后海南铁矿迅速恢复，支援全国钢铁工业",
+   "impact": 7,
+   "pop": 115100,
+   "iron_ore": 20,
+   "tourism": 0,
+   "gdp": 0.05,
+   "event": false
+  },
+  {
+   "year": 1957,
+   "title": "石碌铁矿管理局成立",
+   "category": "peak",
+   "desc": "石碌铁矿管理局成立，规模化开采体系建立",
+   "impact": 8,
+   "pop": 127900,
+   "iron_ore": 50,
+   "tourism": 0,
+   "gdp": 0.2,
+   "event": true
+  },
+  {
+   "year": 1965,
+   "title": "大型露天矿投产",
+   "category": "peak",
+   "desc": "大型露天采场投产，石碌铁矿进入高产期",
+   "impact": 9,
+   "pop": 166300,
+   "iron_ore": 150,
+   "tourism": 0,
+   "gdp": 1,
+   "event": true
+  },
+  {
+   "year": 1985,
+   "title": "铁矿石产量峰值",
+   "category": "peak",
+   "desc": "石碌铁矿年产量达到历史高点，成为全国重要富铁矿基地",
+   "impact": 9,
+   "pop": 204600,
+   "iron_ore": 400,
+   "tourism": 0,
+   "gdp": 5,
+   "event": true
+  },
+  {
+   "year": 1997,
+   "title": "金融危机与资源衰减",
+   "category": "decline",
+   "desc": "亚洲金融危机叠加铁矿浅部资源枯竭，产量下滑",
+   "impact": 8,
+   "pop": 211000,
+   "iron_ore": 300,
+   "tourism": 0.5,
+   "gdp": 8,
+   "event": true
+  },
+  {
+   "year": 2001,
+   "title": "深部开采压力",
+   "category": "decline",
+   "desc": "铁矿转入深部开采，成本上升，生态环境压力加大",
+   "impact": 7,
+   "pop": 214900,
+   "iron_ore": 250,
+   "tourism": 1,
+   "gdp": 10,
+   "event": true
+  },
+  {
+   "year": 2005,
+   "title": "昌江核电启动",
+   "category": "transformation",
+   "desc": "昌江核电项目启动，清洁能源成为城市转型新支点",
+   "impact": 9,
+   "pop": 217400,
+   "iron_ore": 200,
+   "tourism": 3,
+   "gdp": 15,
+   "event": true
+  },
+  {
+   "year": 2010,
+   "title": "国际旅游岛带动",
+   "category": "transformation",
+   "desc": "海南国际旅游岛战略带动棋子湾、霸王岭旅游开发",
+   "impact": 8,
+   "pop": 223800,
+   "iron_ore": 150,
+   "tourism": 10,
+   "gdp": 25,
+   "event": true
+  },
+  {
+   "year": 2015,
+   "title": "昌江核电站投产",
+   "category": "transformation",
+   "desc": "昌江核电站首台机组投产，清洁能源产业落地",
+   "impact": 9,
+   "pop": 227600,
+   "iron_ore": 120,
+   "tourism": 18,
+   "gdp": 40,
+   "event": true
+  },
+  {
+   "year": 2018,
+   "title": "工业遗产旅游",
+   "category": "transformation",
+   "desc": "石碌铁矿工业遗产与棋子湾滨海旅游融合发展",
+   "impact": 8,
+   "pop": 230200,
+   "iron_ore": 100,
+   "tourism": 25,
+   "gdp": 52,
+   "event": true
+  },
+  {
+   "year": 2022,
+   "title": "清洁能源产业园",
+   "category": "transformation",
+   "desc": "核电关联产业、新能源装备与循环经济产业园加速集聚",
+   "impact": 8,
+   "pop": 232800,
+   "iron_ore": 80,
+   "tourism": 38,
+   "gdp": 68,
+   "event": true
+  },
+  {
+   "year": 2023,
+   "title": "2023年统计锚点",
+   "category": "peak",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 232100,
+   "gdp": 162.84,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2024,
+   "title": "山海黎乡新格局",
+   "category": "transformation",
+   "desc": "热带资源、清洁能源、黎族文化与海洋旅游融合发展成型",
+   "impact": 9,
+   "pop": 236600,
+   "iron_ore": 60,
+   "tourism": 50,
+   "gdp": 165.19,
+   "event": true,
+   "calibrated": true
+  }
+ ],
+ "chains": {
+  "iron_ore": {
+   "name": "铁矿石产业链",
+   "color": "#71717a",
+   "icon": "⚙️",
+   "lifecycle": {
+    "birth": 1939,
+    "peak": 1985,
+    "decline": 1997,
+    "collapse": null,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "explore",
+     "name": "地质勘探",
+     "x": 50,
+     "y": 50,
+     "status": "dying",
+     "peak": "1950s-1980s",
+     "decline": "1990s"
+    },
+    {
+     "id": "openpit",
+     "name": "露天开采",
+     "x": 150,
+     "y": 50,
+     "status": "dying",
+     "peak": "1960s-1980s",
+     "decline": "2000s"
+    },
+    {
+     "id": "crush",
+     "name": "破碎筛分",
+     "x": 250,
+     "y": 50,
+     "status": "dying",
+     "peak": "1970s-1990s",
+     "decline": "2000s"
+    },
+    {
+     "id": "beneficiation",
+     "name": "选矿提质",
+     "x": 350,
+     "y": 50,
+     "status": "dying",
+     "peak": "1970s-1990s",
+     "decline": "2000s"
+    },
+    {
+     "id": "pellet",
+     "name": "球团/烧结",
+     "x": 450,
+     "y": 50,
+     "status": "dying",
+     "peak": "1980s-1990s",
+     "decline": "2000s"
+    },
+    {
+     "id": "shipping",
+     "name": "八所港外运",
+     "x": 550,
+     "y": 50,
+     "status": "dying",
+     "peak": "1980s-1990s",
+     "decline": "2000s"
+    }
+   ],
+   "connections": [
+    {
+     "from": "explore",
+     "to": "openpit",
+     "flow": "矿体"
+    },
+    {
+     "from": "openpit",
+     "to": "crush",
+     "flow": "原矿"
+    },
+    {
+     "from": "crush",
+     "to": "beneficiation",
+     "flow": "矿块"
+    },
+    {
+     "from": "beneficiation",
+     "to": "pellet",
+     "flow": "精矿"
+    },
+    {
+     "from": "pellet",
+     "to": "shipping",
+     "flow": "成品矿"
+    }
+   ],
+   "employment": {
+    "peak": 30000,
+    "current": 8000
+   }
+  },
+  "tourism": {
+   "name": "热带旅游产业链",
+   "color": "#22c55e",
+   "icon": "🌴",
+   "lifecycle": {
+    "birth": 2005,
+    "peak": 2024,
+    "decline": null,
+    "collapse": null,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "qiziwan",
+     "name": "棋子湾滨海",
+     "x": 50,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "bawangling",
+     "name": "霸王岭雨林",
+     "x": 150,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "li_culture",
+     "name": "黎族文化",
+     "x": 250,
+     "y": 200,
+     "status": "active",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "heritage",
+     "name": "铁矿工业遗产",
+     "x": 350,
+     "y": 200,
+     "status": "emerging",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "resort",
+     "name": "度假康养",
+     "x": 450,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "service",
+     "name": "旅游服务",
+     "x": 550,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    }
+   ],
+   "connections": [
+    {
+     "from": "qiziwan",
+     "to": "resort",
+     "flow": "客流"
+    },
+    {
+     "from": "bawangling",
+     "to": "resort",
+     "flow": "生态体验"
+    },
+    {
+     "from": "li_culture",
+     "to": "service",
+     "flow": "文化IP"
+    },
+    {
+     "from": "heritage",
+     "to": "service",
+     "flow": "工业故事"
+    },
+    {
+     "from": "resort",
+     "to": "service",
+     "flow": "服务需求"
+    }
+   ],
+   "employment": {
+    "peak": 25000,
+    "current": 25000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "depletion",
+    "name": "铁矿资源枯竭",
+    "weight": 30,
+    "evidence": "石碌铁矿浅部富矿体基本采完，转入深部开采",
+    "icon": "⛏️",
+    "selected": false
+   },
+   {
+    "id": "grade",
+    "name": "矿石品位下降",
+    "weight": 20,
+    "evidence": "开采深度增加，入选品位下降，选矿成本上升",
+    "icon": "📉",
+    "selected": false
+   },
+   {
+    "id": "transport",
+    "name": "海岛运输瓶颈",
+    "weight": 20,
+    "evidence": "铁矿石需经八所港海运，物流成本高于内陆矿山",
+    "icon": "🚢",
+    "selected": false
+   },
+   {
+    "id": "ecology",
+    "name": "生态脆弱约束",
+    "weight": 20,
+    "evidence": "热带岛屿生态敏感，矿山复垦与海岸保护要求高",
+    "icon": "🌴",
+    "selected": false
+   },
+   {
+    "id": "competition",
+    "name": "进口矿石竞争",
+    "weight": 10,
+    "evidence": "国际高品位铁矿石冲击国内市场",
+    "icon": "🌍",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "nuclear",
+    "name": "清洁能源核电",
+    "weight": 30,
+    "evidence": "昌江核电提供稳定电力与新兴产业集聚",
+    "icon": "⚡",
+    "selected": false
+   },
+   {
+    "id": "tourism",
+    "name": "热带山海旅游资源",
+    "weight": 25,
+    "evidence": "棋子湾、霸王岭、黎族文化构成差异化旅游吸引力",
+    "icon": "🏖️",
+    "selected": false
+   },
+   {
+    "id": "location",
+    "name": "西海岸区位优势",
+    "weight": 15,
+    "evidence": "海南自贸港建设带动西部沿海开发",
+    "icon": "🌐",
+    "selected": false
+   },
+   {
+    "id": "heritage",
+    "name": "工业遗产价值",
+    "weight": 15,
+    "evidence": "石碌铁矿百年工业遗产可转化为文旅与教育资产",
+    "icon": "🏛️",
+    "selected": false
+   },
+   {
+    "id": "policy",
+    "name": "海南自贸港政策",
+    "weight": 15,
+    "evidence": "自贸港税收优惠与开放政策吸引新兴产业",
+    "icon": "📜",
+    "selected": false
+   }
+  ]
+ },
+ "space_timeline": [
+  {
+   "year": 1939,
+   "old_area": 1,
+   "new_area": 0,
+   "old_pop": 102300,
+   "vacancy": 0
+  },
+  {
+   "year": 1957,
+   "old_area": 3,
+   "new_area": 0,
+   "old_pop": 127900,
+   "vacancy": 0
+  },
+  {
+   "year": 1985,
+   "old_area": 8,
+   "new_area": 0,
+   "old_pop": 204600,
+   "vacancy": 0.05
+  },
+  {
+   "year": 2005,
+   "old_area": 12,
+   "new_area": 0,
+   "old_pop": 217400,
+   "vacancy": 0.08
+  },
+  {
+   "year": 2015,
+   "old_area": 16,
+   "new_area": 0,
+   "old_pop": 227600,
+   "vacancy": 0.1
+  },
+  {
+   "year": 2024,
+   "old_area": 20,
+   "new_area": 0,
+   "old_pop": 236600,
+   "vacancy": 0.1
+  }
+ ],
+ "space": {
+  "old_city": {
+   "name": "石碌老城",
+   "peak_pop": 236600,
+   "current_pop": 236600,
+   "vacancy": 0.1,
+   "landmark": "石碌铁矿遗址"
+  },
+  "new_city": {
+   "name": "棋子湾旅游新区",
+   "peak_pop": 0,
+   "current_pop": 30000,
+   "landmark": "棋子湾旅游度假区"
+  },
+  "distance_km": 25,
+  "built_up_area_km2": 20,
+  "current_pop": 236600,
+  "peak_pop": 236600,
+  "vacancy_rate": 0.1
+ },
+ "migration": {
+  "outflow_total": 44800,
+  "destinations": [
+   {
+    "city": "海口",
+    "province": "海南",
+    "count": 15350,
+    "reason": "省会就业与教育"
+   },
+   {
+    "city": "三亚",
+    "province": "海南",
+    "count": 10230,
+    "reason": "旅游城市就业机会"
+   },
+   {
+    "city": "儋州",
+    "province": "海南",
+    "count": 6400,
+    "reason": "洋浦港与工业就业"
+   },
+   {
+    "city": "湛江",
+    "province": "广东",
+    "count": 5115,
+    "reason": "邻近港口城市务工"
+   },
+   {
+    "city": "其他地区",
+    "province": "全国",
+    "count": 7705,
+    "reason": "外出务工与求学"
+   }
+  ]
+ },
+ "achievements": [
+  {
+   "id": "changjiang_first_visit",
+   "name": "海南铁矿初探",
+   "desc": "首次进入昌江",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "changjiang_discovery",
+   "name": "石碌铁矿发现",
+   "desc": "见证1939年石碌铁矿发现",
+   "condition": "year",
+   "year": 1939
+  },
+  {
+   "id": "changjiang_peak",
+   "name": "铁矿产量峰值",
+   "desc": "见证1985年石碌铁矿产量峰值",
+   "condition": "year",
+   "year": 1985
+  },
+  {
+   "id": "changjiang_nuclear",
+   "name": "昌江核电投产",
+   "desc": "见证2015年昌江核电站投产",
+   "condition": "year",
+   "year": 2015
+  },
+  {
+   "id": "changjiang_tourism",
+   "name": "山海黎乡",
+   "desc": "见证2024年山海黎乡新格局成型",
+   "condition": "year",
+   "year": 2024
+  },
+  {
+   "id": "changjiang_chain",
+   "name": "铁矿旅游拼图大师",
+   "desc": "完成昌江铁矿-旅游产业链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": [
+  {
+   "desc": "2024 GDP 165.19亿; ",
+   "url": "https://tjgb.hongheiku.com/xjtjgb/xj2020/52729.html",
+   "year": 2024
+  }
+ ],
+ "real_anchors": {
+  "census2020": {
+   "pop": 232100
+  },
+  "stat2024": {
+   "gdp": 165.19,
+   "pop": 236600
+  }
+ }
+}

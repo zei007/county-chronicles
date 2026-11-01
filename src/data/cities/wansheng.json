@@ -1,0 +1,723 @@
+{
+ "profile": {
+  "name": "万盛经开区",
+  "province": "重庆市",
+  "prefecture": "市辖区/经开区",
+  "area": "566 km²",
+  "coordinates": [
+   106.92,
+   28.95
+  ],
+  "tags": [
+   "渝南煤城",
+   "三线建设",
+   "黑山谷",
+   "资源枯竭转型"
+  ],
+  "description": "重庆南部曾经的煤炭重镇，因煤设区、因煤而兴。南桐煤矿曾是川东最大焦煤基地，为重庆钢铁工业提供重要能源。资源枯竭后，万盛以黑山谷生态旅游区、羽毛球运动与康养产业实现转型。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 1938,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "起家期",
+    "start": 1938,
+    "end": 1955,
+    "color": "green"
+   },
+   {
+    "name": "壮盛期",
+    "start": 1956,
+    "end": 1995,
+    "color": "yellow"
+   },
+   {
+    "name": "调整期",
+    "start": 1996,
+    "end": 2009,
+    "color": "red"
+   },
+   {
+    "name": "转型期",
+    "start": 2010,
+    "end": 2024,
+    "color": "teal"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "coal",
+    "label": "原煤产量",
+    "unit": "万吨",
+    "max": 600,
+    "color": "#1a1a2e"
+   },
+   {
+    "key": "tourism",
+    "label": "旅游收入",
+    "unit": "亿元",
+    "max": 120,
+    "color": "#22c55e"
+   }
+  ],
+  "spaceType": "built_up",
+  "spaceLabels": {
+   "built": "建成区",
+   "density": "人口密度"
+  },
+  "cityKey": "wansheng",
+  "chainKeys": [
+   "coal",
+   "tourism"
+  ],
+  "chainContainerIds": [
+   "coalChain",
+   "tourismChain"
+  ],
+  "currentStatus": "体旅融合，生态康养",
+  "transformationAssessment": "从“渝南煤城”到“羽毛球之乡·全域旅游示范区”",
+  "transformationDetail": "万盛曾为重庆能源安全作出重要贡献，煤炭开采留下沉陷区与生态欠账。2009年黑山谷晋升国家5A景区，2011年成立万盛经开区，羽毛球运动、生态旅游、康养地产成为接续产业。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 1938,
+   "title": "南桐煤矿开发",
+   "category": "discovery",
+   "desc": "抗战时期为支援后方工业，南桐煤矿开始规模化开采",
+   "impact": 8,
+   "pop": 80000,
+   "coal": 10,
+   "tourism": 0,
+   "gdp": 0.01,
+   "event": true
+  },
+  {
+   "year": 1949,
+   "title": "矿区恢复生产",
+   "category": "peak",
+   "desc": "新中国成立后南桐煤矿迅速恢复，服务西南钢铁工业",
+   "impact": 7,
+   "pop": 120000,
+   "coal": 50,
+   "tourism": 0,
+   "gdp": 0.05,
+   "event": false
+  },
+  {
+   "year": 1955,
+   "title": "南桐矿区成立",
+   "category": "peak",
+   "desc": "设立南桐矿区，万盛成为川东重要煤炭行政中心",
+   "impact": 8,
+   "pop": 180000,
+   "coal": 120,
+   "tourism": 0,
+   "gdp": 0.2,
+   "event": true
+  },
+  {
+   "year": 1965,
+   "title": "三线建设煤炭大会战",
+   "category": "peak",
+   "desc": "三线建设时期南桐煤矿扩建，产能大幅提升",
+   "impact": 8,
+   "pop": 220000,
+   "coal": 300,
+   "tourism": 0,
+   "gdp": 0.8,
+   "event": true
+  },
+  {
+   "year": 1975,
+   "title": "煤炭产量巅峰",
+   "category": "peak",
+   "desc": "南桐煤矿年产量达到历史高点，支撑重庆工业发展",
+   "impact": 9,
+   "pop": 260000,
+   "coal": 500,
+   "tourism": 0,
+   "gdp": 2,
+   "event": true
+  },
+  {
+   "year": 1985,
+   "title": "万盛城区建成",
+   "category": "peak",
+   "desc": "城市基础设施完善，万盛成为渝南工矿重镇",
+   "impact": 6,
+   "pop": 250000,
+   "coal": 450,
+   "tourism": 0,
+   "gdp": 5,
+   "event": false
+  },
+  {
+   "year": 1992,
+   "title": "南桐矿务局改制",
+   "category": "decline",
+   "desc": "煤炭企业市场化改制，部分矿井开始亏损",
+   "impact": 7,
+   "pop": 240000,
+   "coal": 400,
+   "tourism": 0.5,
+   "gdp": 12,
+   "event": true
+  },
+  {
+   "year": 1998,
+   "title": "煤炭市场低迷",
+   "category": "decline",
+   "desc": "全国煤炭过剩，南桐煤矿经营困难，职工下岗增加",
+   "impact": 8,
+   "pop": 230000,
+   "coal": 350,
+   "tourism": 1,
+   "gdp": 20,
+   "event": true
+  },
+  {
+   "year": 2001,
+   "title": "采煤沉陷区治理启动",
+   "category": "transformation",
+   "desc": "国家治理采煤沉陷区，万盛开始探索生态恢复",
+   "impact": 7,
+   "pop": 220000,
+   "coal": 300,
+   "tourism": 3,
+   "gdp": 28,
+   "event": true
+  },
+  {
+   "year": 2009,
+   "title": "黑山谷晋升5A景区",
+   "category": "transformation",
+   "desc": "黑山谷国家森林公园成为国家5A景区，生态旅游起飞",
+   "impact": 9,
+   "pop": 210000,
+   "coal": 200,
+   "tourism": 15,
+   "gdp": 55,
+   "event": true
+  },
+  {
+   "year": 2011,
+   "title": "万盛经开区成立",
+   "category": "transformation",
+   "desc": "撤销原万盛区与綦江县部分区域，设立万盛经济技术开发区",
+   "impact": 8,
+   "pop": 205000,
+   "coal": 150,
+   "tourism": 30,
+   "gdp": 80,
+   "event": true
+  },
+  {
+   "year": 2013,
+   "title": "列入资源枯竭城市",
+   "category": "decline",
+   "desc": "万盛被纳入全国资源枯竭城市，获得国家转型政策支持",
+   "impact": 7,
+   "pop": 200000,
+   "coal": 120,
+   "tourism": 45,
+   "gdp": 95,
+   "event": true
+  },
+  {
+   "year": 2018,
+   "title": "羽毛球之乡品牌",
+   "category": "transformation",
+   "desc": "万盛被誉为“羽毛球之乡”，体育旅游成为城市新名片",
+   "impact": 8,
+   "pop": 195000,
+   "coal": 80,
+   "tourism": 65,
+   "gdp": 120,
+   "event": true
+  },
+  {
+   "year": 2022,
+   "title": "2022年统计锚点",
+   "category": "peak",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 235900,
+   "gdp": 239.5,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2023,
+   "title": "2023年统计锚点",
+   "category": "peak",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 235900,
+   "gdp": 261.62,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2024,
+   "title": "体旅融合示范区",
+   "category": "transformation",
+   "desc": "黑山谷康养、羽毛球赛事、工业遗产旅游形成融合发展格局",
+   "impact": 9,
+   "pop": 229000,
+   "coal": 50,
+   "tourism": 90,
+   "gdp": 291.08,
+   "event": true,
+   "calibrated": true
+  }
+ ],
+ "chains": {
+  "coal": {
+   "name": "煤炭产业链",
+   "color": "#1a1a2e",
+   "icon": "⛏️",
+   "lifecycle": {
+    "birth": 1938,
+    "peak": 1975,
+    "decline": 1998,
+    "collapse": null,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "mine",
+     "name": "井下开采",
+     "x": 50,
+     "y": 50,
+     "status": "dying",
+     "peak": "1960s-1980s",
+     "decline": "2000s"
+    },
+    {
+     "id": "wash",
+     "name": "洗选加工",
+     "x": 150,
+     "y": 50,
+     "status": "dying",
+     "peak": "1970s-1990s",
+     "decline": "2000s"
+    },
+    {
+     "id": "coke",
+     "name": "焦化",
+     "x": 250,
+     "y": 50,
+     "status": "dying",
+     "peak": "1980s-1990s",
+     "decline": "2000s"
+    },
+    {
+     "id": "power",
+     "name": "坑口发电",
+     "x": 350,
+     "y": 50,
+     "status": "active",
+     "peak": "1990s-2010s",
+     "decline": "2020s"
+    },
+    {
+     "id": "supply",
+     "name": "供应重钢",
+     "x": 450,
+     "y": 50,
+     "status": "dying",
+     "peak": "1970s-1990s",
+     "decline": "2000s"
+    },
+    {
+     "id": "reclaim",
+     "name": "矿山修复",
+     "x": 550,
+     "y": 50,
+     "status": "emerging",
+     "peak": "2020s",
+     "decline": null
+    }
+   ],
+   "connections": [
+    {
+     "from": "mine",
+     "to": "wash",
+     "flow": "原煤"
+    },
+    {
+     "from": "wash",
+     "to": "coke",
+     "flow": "精煤"
+    },
+    {
+     "from": "wash",
+     "to": "power",
+     "flow": "动力煤"
+    },
+    {
+     "from": "coke",
+     "to": "supply",
+     "flow": "焦炭"
+    },
+    {
+     "from": "mine",
+     "to": "reclaim",
+     "flow": "生态修复"
+    }
+   ],
+   "employment": {
+    "peak": 80000,
+    "current": 15000
+   }
+  },
+  "tourism": {
+   "name": "生态旅游产业链",
+   "color": "#22c55e",
+   "icon": "🌿",
+   "lifecycle": {
+    "birth": 2009,
+    "peak": 2024,
+    "decline": null,
+    "collapse": null,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "scenic",
+     "name": "黑山谷景区",
+     "x": 50,
+     "y": 200,
+     "status": "active",
+     "peak": "2010s",
+     "decline": null
+    },
+    {
+     "id": "resort",
+     "name": "康养度假",
+     "x": 150,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "sports",
+     "name": "羽毛球赛事",
+     "x": 250,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "heritage",
+     "name": "矿山遗产",
+     "x": 350,
+     "y": 200,
+     "status": "emerging",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "homestay",
+     "name": "乡村民宿",
+     "x": 450,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "service",
+     "name": "旅游服务",
+     "x": 550,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    }
+   ],
+   "connections": [
+    {
+     "from": "scenic",
+     "to": "resort",
+     "flow": "客流"
+    },
+    {
+     "from": "scenic",
+     "to": "sports",
+     "flow": "品牌"
+    },
+    {
+     "from": "heritage",
+     "to": "scenic",
+     "flow": "故事"
+    },
+    {
+     "from": "homestay",
+     "to": "service",
+     "flow": "住宿"
+    },
+    {
+     "from": "sports",
+     "to": "service",
+     "flow": "赛事服务"
+    }
+   ],
+   "employment": {
+    "peak": 50000,
+    "current": 50000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "resource",
+    "name": "煤炭资源枯竭",
+    "weight": 30,
+    "evidence": "南桐矿区开采近80年，优质煤层枯竭、开采成本剧增",
+    "icon": "⛏️",
+    "selected": false
+   },
+   {
+    "id": "subsidence",
+    "name": "采煤沉陷与生态破坏",
+    "weight": 25,
+    "evidence": "沉陷区面积达数十平方公里，生态环境修复负担重",
+    "icon": "🕳️",
+    "selected": false
+   },
+   {
+    "id": "market",
+    "name": "煤炭市场衰退",
+    "weight": 20,
+    "evidence": "1990年代末煤价低迷与重庆能源结构转型",
+    "icon": "📉",
+    "selected": false
+   },
+   {
+    "id": "structure",
+    "name": "产业单一",
+    "weight": 15,
+    "evidence": "长期依赖煤炭，工业体系单一、抗风险能力弱",
+    "icon": "🏭",
+    "selected": false
+   },
+   {
+    "id": "population",
+    "name": "人口外流",
+    "weight": 10,
+    "evidence": "煤炭去产能导致就业岗位减少，年轻人外流",
+    "icon": "🚶",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "ecology",
+    "name": "黑山谷生态资源",
+    "weight": 30,
+    "evidence": "峡谷、森林、负氧离子资源禀赋突出，5A景区品牌效应强",
+    "icon": "🌳",
+    "selected": false
+   },
+   {
+    "id": "sports",
+    "name": "羽毛球体育IP",
+    "weight": 20,
+    "evidence": "万盛被誉为“羽毛球之乡”，赛事经济带动城市品牌",
+    "icon": "🏸",
+    "selected": false
+   },
+   {
+    "id": "policy",
+    "name": "资源枯竭城市政策",
+    "weight": 20,
+    "evidence": "国家转型试点资金与重庆经开区政策叠加",
+    "icon": "📜",
+    "selected": false
+   },
+   {
+    "id": "location",
+    "name": "渝黔咽喉区位",
+    "weight": 15,
+    "evidence": "重庆主城1小时经济圈，毗邻贵州，康养客源充足",
+    "icon": "🌐",
+    "selected": false
+   },
+   {
+    "id": "heritage",
+    "name": "工业遗产旅游",
+    "weight": 15,
+    "evidence": "矿山遗址、三线建设遗产转化为特色旅游资源",
+    "icon": "🏛️",
+    "selected": false
+   }
+  ]
+ },
+ "space_timeline": [
+  {
+   "year": 1938,
+   "old_area": 1,
+   "new_area": 0,
+   "old_pop": 80000,
+   "vacancy": 0
+  },
+  {
+   "year": 1955,
+   "old_area": 5,
+   "new_area": 0,
+   "old_pop": 180000,
+   "vacancy": 0
+  },
+  {
+   "year": 1975,
+   "old_area": 12,
+   "new_area": 0,
+   "old_pop": 260000,
+   "vacancy": 0.05
+  },
+  {
+   "year": 1998,
+   "old_area": 16,
+   "new_area": 0,
+   "old_pop": 230000,
+   "vacancy": 0.12
+  },
+  {
+   "year": 2011,
+   "old_area": 20,
+   "new_area": 0,
+   "old_pop": 205000,
+   "vacancy": 0.18
+  },
+  {
+   "year": 2024,
+   "old_area": 24,
+   "new_area": 0,
+   "old_pop": 190000,
+   "vacancy": 0.2
+  }
+ ],
+ "space": {
+  "old_city": {
+   "name": "万盛老城区",
+   "peak_pop": 260000,
+   "current_pop": 229000,
+   "vacancy": 0.2,
+   "landmark": "南桐煤矿工业遗址"
+  },
+  "new_city": {
+   "name": "黑山谷旅游新区",
+   "peak_pop": 0,
+   "current_pop": 35000,
+   "landmark": "黑山谷5A景区"
+  },
+  "distance_km": 15,
+  "built_up_area_km2": 24,
+  "current_pop": 190000,
+  "peak_pop": 260000,
+  "vacancy_rate": 0.2
+ },
+ "migration": {
+  "outflow_total": 60000,
+  "destinations": [
+   {
+    "city": "重庆主城",
+    "province": "重庆",
+    "count": 25000,
+    "reason": "主城就业与教育"
+   },
+   {
+    "city": "成都",
+    "province": "四川",
+    "count": 12000,
+    "reason": "西部中心城市就业"
+   },
+   {
+    "city": "贵阳",
+    "province": "贵州",
+    "count": 10000,
+    "reason": "邻近省会城市务工"
+   },
+   {
+    "city": "遵义",
+    "province": "贵州",
+    "count": 8000,
+    "reason": "邻近城市就业"
+   },
+   {
+    "city": "其他地区",
+    "province": "全国",
+    "count": 5000,
+    "reason": "外出务工"
+   }
+  ]
+ },
+ "achievements": [
+  {
+   "id": "wansheng_first_visit",
+   "name": "渝南煤城初探",
+   "desc": "首次进入万盛",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "wansheng_mine",
+   "name": "南桐煤矿开发",
+   "desc": "见证1938年南桐煤矿开发",
+   "condition": "year",
+   "year": 1938
+  },
+  {
+   "id": "wansheng_peak",
+   "name": "煤炭巅峰",
+   "desc": "见证1975年煤炭产量巅峰",
+   "condition": "year",
+   "year": 1975
+  },
+  {
+   "id": "wansheng_5a",
+   "name": "黑山谷5A",
+   "desc": "见证2009年黑山谷晋升国家5A景区",
+   "condition": "year",
+   "year": 2009
+  },
+  {
+   "id": "wansheng_zone",
+   "name": "经开区成立",
+   "desc": "见证2011年万盛经开区成立",
+   "condition": "year",
+   "year": 2011
+  },
+  {
+   "id": "wansheng_chain",
+   "name": "煤城转型拼图大师",
+   "desc": "完成万盛煤炭-旅游产业链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": [
+  {
+   "desc": "2024 GDP 291.08亿; 万盛经开区发布独立统计公报（重庆市直辖管理，统计上与綦江区分开），无需使用綦江区数据；七普常住人口235,927人",
+   "url": "https://ws.cq.gov.cn/bm/tjj/zwgk_70287/fdzdgknr_70290/tjxx_197374/tjgb/202406/t20240613_13289457.html",
+   "year": 2024
+  }
+ ],
+ "real_anchors": {
+  "census2020": {
+   "pop": 235900
+  },
+  "stat2024": {
+   "gdp": 291.08,
+   "pop": 229000
+  }
+ }
+}

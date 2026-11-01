@@ -1,0 +1,645 @@
+{
+ "profile": {
+  "name": "焦作市",
+  "province": "河南省",
+  "prefecture": "地级市",
+  "area": "4,071 km²",
+  "coordinates": [
+   113.24,
+   35.22
+  ],
+  "tags": [
+   "百年煤城",
+   "英福公司",
+   "云台山",
+   "转型典范"
+  ],
+  "description": "豫西北百年煤城，1898 年英国福公司在此开矿，是中原最早实现近代化采煤的城市之一。煤炭枯竭后先于 2008 年列入首批资源枯竭城市，随即以云台山为代表的文旅转型声名鹊起，被誉为资源型城市转型样板。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 1898,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "起家期",
+    "start": 1898,
+    "end": 1948,
+    "color": "green"
+   },
+   {
+    "name": "壮盛期",
+    "start": 1949,
+    "end": 1998,
+    "color": "yellow"
+   },
+   {
+    "name": "衰落期",
+    "start": 1999,
+    "end": 2015,
+    "color": "red"
+   },
+   {
+    "name": "转型期",
+    "start": 2016,
+    "end": 2024,
+    "color": "teal"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "coal",
+    "label": "煤炭产量",
+    "unit": "万吨",
+    "max": 1100,
+    "color": "#1a1a2e"
+   },
+   {
+    "key": "tourism",
+    "label": "旅游收入",
+    "unit": "亿元",
+    "max": 550,
+    "color": "#22c55e"
+   }
+  ],
+  "spaceType": "built_up",
+  "spaceLabels": {
+   "built": "建成区",
+   "density": "人口密度"
+  },
+  "cityKey": "jiaozuo",
+  "chainKeys": [
+   "coal",
+   "tourism"
+  ],
+  "chainContainerIds": [
+   "coalChain",
+   "tourismChain"
+  ],
+  "currentStatus": "资源枯竭城市转型样板",
+  "transformationAssessment": "从黑色矿井到山水焦作",
+  "transformationDetail": "焦作煤矿曾与英国资本深度纠缠，也孕育了焦作路矿学堂（今中国矿业大学前身之一）。上世纪末煤炭见底后，城市把太行山水做成王牌：云台山景区收入连年攀升，同时以氟化工、汽车零部件再造工业底盘。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 1898,
+   "title": "英福公司开矿",
+   "category": "discovery",
+   "desc": "英国福公司取得矿权，焦作进入近代机械化采煤时代",
+   "impact": 10,
+   "event": true,
+   "pop": 20000,
+   "coal": 5,
+   "tourism": 0,
+   "gdp": 0.05
+  },
+  {
+   "year": 1909,
+   "title": "焦作路矿学堂",
+   "category": "culture",
+   "desc": "福公司创办路矿学堂，开中国矿业高等教育先河",
+   "impact": 8,
+   "event": true,
+   "pop": 60000,
+   "coal": 30,
+   "tourism": 0,
+   "gdp": 0.2
+  },
+  {
+   "year": 1925,
+   "title": "焦作煤矿大罢工",
+   "category": "peak",
+   "desc": "五卅运动推动下焦作煤矿工人大罢工坚持八个月并获胜",
+   "impact": 9,
+   "event": true,
+   "pop": 100000,
+   "coal": 60,
+   "tourism": 0,
+   "gdp": 0.4
+  },
+  {
+   "year": 1956,
+   "title": "设立焦作市",
+   "category": "peak",
+   "desc": "因煤设市，成为河南重要能源基地",
+   "impact": 8,
+   "event": true,
+   "pop": 460000,
+   "coal": 200,
+   "tourism": 0,
+   "gdp": 1.6
+  },
+  {
+   "year": 1985,
+   "title": "千万吨矿区",
+   "category": "peak",
+   "desc": "煤炭产量破千万吨，煤化工与耐火材料同步壮大",
+   "impact": 8,
+   "event": true,
+   "pop": 2300000,
+   "coal": 1000,
+   "tourism": 0.3,
+   "gdp": 45
+  },
+  {
+   "year": 1999,
+   "title": "资源见底",
+   "category": "decline",
+   "desc": "浅部煤炭枯竭，矿井大面积亏损，'因煤而困'显现",
+   "impact": 8,
+   "event": true,
+   "pop": 3100000,
+   "coal": 500,
+   "tourism": 5,
+   "gdp": 212
+  },
+  {
+   "year": 2001,
+   "title": "云台山崛起",
+   "category": "transformation",
+   "desc": "云台山地质公园开园，旅游立市战略启动",
+   "impact": 9,
+   "event": true,
+   "pop": 3150000,
+   "coal": 450,
+   "tourism": 12,
+   "gdp": 256
+  },
+  {
+   "year": 2008,
+   "title": "首批资源枯竭城市",
+   "category": "decline",
+   "desc": "列入国务院首批资源枯竭城市，转型获国家支持",
+   "impact": 9,
+   "event": true,
+   "pop": 3280000,
+   "coal": 400,
+   "tourism": 80,
+   "gdp": 1030
+  },
+  {
+   "year": 2013,
+   "title": "旅游收入破三百亿",
+   "category": "transformation",
+   "desc": "云台山成为全国 5A 标杆，文旅替代煤炭成为名片",
+   "impact": 8,
+   "event": true,
+   "pop": 3390000,
+   "coal": 350,
+   "tourism": 300,
+   "gdp": 1600
+  },
+  {
+   "year": 2016,
+   "title": "去产能关矿",
+   "category": "decline",
+   "desc": "最后一批矿井关闭退出，煤炭让位接续产业",
+   "impact": 7,
+   "event": true,
+   "pop": 3490000,
+   "coal": 200,
+   "tourism": 350,
+   "gdp": 2020
+  },
+  {
+   "year": 2020,
+   "title": "七普人口",
+   "category": "decline",
+   "desc": "常住人口 352.1 万，稳中微降",
+   "impact": 6,
+   "event": true,
+   "pop": 3521000,
+   "coal": 180,
+   "tourism": 180,
+   "gdp": 2125
+  },
+  {
+   "year": 2022,
+   "title": "氟锂新材料",
+   "category": "transformation",
+   "desc": "多氟多等企业带动氟化工向新能源材料跃迁",
+   "impact": 7,
+   "event": true,
+   "pop": 3510000,
+   "coal": 170,
+   "tourism": 250,
+   "gdp": 2235
+  },
+  {
+   "year": 2023,
+   "title": "2023年统计锚点",
+   "category": "transformation",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 3520000,
+   "gdp": 2233.93,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2024,
+   "title": "山水富民",
+   "category": "transformation",
+   "desc": "全域旅游与新材料双轮驱动，百年煤城完成换轨",
+   "impact": 7,
+   "event": true,
+   "pop": 3490000,
+   "coal": 160,
+   "tourism": 420,
+   "gdp": 2300
+  }
+ ],
+ "chains": {
+  "coal": {
+   "name": "煤炭产业链",
+   "color": "#1a1a2e",
+   "icon": "⛏️",
+   "lifecycle": {
+    "birth": 1898,
+    "peak": 1985,
+    "decline": 1999,
+    "collapse": 2016,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "mine",
+     "name": "矿井开采",
+     "x": 50,
+     "y": 50,
+     "status": "dying",
+     "peak": "1950s-1990s",
+     "decline": "2000s"
+    },
+    {
+     "id": "wash",
+     "name": "洗选加工",
+     "x": 150,
+     "y": 50,
+     "status": "dying",
+     "peak": "1970s-2000s",
+     "decline": "2010s"
+    },
+    {
+     "id": "chem",
+     "name": "煤化工",
+     "x": 250,
+     "y": 50,
+     "status": "declining",
+     "peak": "1990s-2000s",
+     "decline": "2010s"
+    },
+    {
+     "id": "alumina",
+     "name": "铝工业",
+     "x": 350,
+     "y": 50,
+     "status": "declining",
+     "peak": "2000s",
+     "decline": "2010s"
+    },
+    {
+     "id": "heritage",
+     "name": "矿业遗产",
+     "x": 450,
+     "y": 50,
+     "status": "emerging",
+     "peak": "2020s",
+     "decline": null
+    }
+   ],
+   "connections": [
+    {
+     "from": "mine",
+     "to": "wash",
+     "flow": "原煤"
+    },
+    {
+     "from": "wash",
+     "to": "chem",
+     "flow": "精煤"
+    },
+    {
+     "from": "chem",
+     "to": "alumina",
+     "flow": "电力"
+    },
+    {
+     "from": "mine",
+     "to": "heritage",
+     "flow": "矿址活化"
+    }
+   ],
+   "employment": {
+    "peak": 180000,
+    "current": 15000
+   }
+  },
+  "tourism": {
+   "name": "文旅与新材料链",
+   "color": "#22c55e",
+   "icon": "🏔️",
+   "lifecycle": {
+    "birth": 2001,
+    "peak": 2024,
+    "decline": null,
+    "collapse": null,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "yuntai",
+     "name": "云台山",
+     "x": 50,
+     "y": 200,
+     "status": "active",
+     "peak": "2010s-2020s",
+     "decline": null
+    },
+    {
+     "id": "stay",
+     "name": "民宿康养",
+     "x": 150,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "fluor",
+     "name": "氟化工",
+     "x": 250,
+     "y": 200,
+     "status": "growing",
+     "peak": "2010s-2020s",
+     "decline": null
+    },
+    {
+     "id": "battery",
+     "name": "电池新材料",
+     "x": 350,
+     "y": 200,
+     "status": "emerging",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "equip",
+     "name": "装备制造",
+     "x": 450,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    }
+   ],
+   "connections": [
+    {
+     "from": "yuntai",
+     "to": "stay",
+     "flow": "客流"
+    },
+    {
+     "from": "fluor",
+     "to": "battery",
+     "flow": "氟盐延伸"
+    },
+    {
+     "from": "battery",
+     "to": "equip",
+     "flow": "零部件"
+    }
+   ],
+   "employment": {
+    "peak": 120000,
+    "current": 140000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "resource",
+    "name": "煤炭资源枯竭",
+    "weight": 36,
+    "evidence": "百年开采后浅部无煤可采，剩余储量零散高硫",
+    "icon": "⛏️",
+    "selected": false
+   },
+   {
+    "id": "sink",
+    "name": "沉陷与生态欠账",
+    "weight": 18,
+    "evidence": "采煤沉陷区广泛分布，矿区生态修复任务重",
+    "icon": "🕳️",
+    "selected": false
+   },
+   {
+    "id": "single",
+    "name": "煤铝路径依赖",
+    "weight": 20,
+    "evidence": "电解铝与煤化工曾高度绑定煤炭能源",
+    "icon": "🧱",
+    "selected": false
+   },
+   {
+    "id": "price",
+    "name": "煤价周期",
+    "weight": 14,
+    "evidence": "1998 与 2015 两轮煤价低谷放大矿区困境",
+    "icon": "📉",
+    "selected": false
+   },
+   {
+    "id": "policy",
+    "name": "安全与去产能",
+    "weight": 12,
+    "evidence": "高瓦斯矿井安全整顿与去产能政策加速退出",
+    "icon": "🛡️",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "yuntai",
+    "name": "云台山品牌",
+    "weight": 32,
+    "evidence": "红石峡丹崖碧水成为中原文旅第一IP",
+    "icon": "🏔️",
+    "selected": false
+   },
+   {
+    "id": "fluor",
+    "name": "氟化工升级",
+    "weight": 24,
+    "evidence": "从传统氟盐到六氟磷酸锂的电子级跃迁",
+    "icon": "⚗️",
+    "selected": false
+   },
+   {
+    "id": "traffic",
+    "name": "中原枢纽",
+    "weight": 18,
+    "evidence": "郑焦城际与太焦高铁接入中原城市群",
+    "icon": "🚄",
+    "selected": false
+   },
+   {
+    "id": "education",
+    "name": "高教科研",
+    "weight": 16,
+    "evidence": "河南理工大学等百年矿院校地合作",
+    "icon": "🎓",
+    "selected": false
+   },
+   {
+    "id": "ecology",
+    "name": "南水北调穿城",
+    "weight": 10,
+    "evidence": "干渠穿城改善生态与城市形象",
+    "icon": "💧",
+    "selected": false
+   }
+  ]
+ },
+ "space_timeline": [
+  {
+   "year": 1898,
+   "built": 0.3,
+   "vacant": 0,
+   "density": 6000
+  },
+  {
+   "year": 1956,
+   "built": 5,
+   "vacant": 0,
+   "density": 11000
+  },
+  {
+   "year": 1985,
+   "built": 30,
+   "vacant": 0.02,
+   "density": 12000
+  },
+  {
+   "year": 2005,
+   "built": 55,
+   "vacant": 0.1,
+   "density": 9000
+  },
+  {
+   "year": 2016,
+   "built": 80,
+   "vacant": 0.16,
+   "density": 7600
+  },
+  {
+   "year": 2024,
+   "built": 95,
+   "vacant": 0.18,
+   "density": 7000
+  }
+ ],
+ "space": {
+  "built_up_area_km2": 95,
+  "current_pop": 3490000,
+  "peak_pop": 3521000,
+  "vacancy_rate": 0.18,
+  "housing_price_rank": "河南省内中游",
+  "landmark": "云台山红石峡"
+ },
+ "migration": {
+  "outflow_total": 70000,
+  "destinations": [
+   {
+    "city": "郑州",
+    "province": "河南",
+    "count": 24000,
+    "reason": "省会都市圈就业"
+   },
+   {
+    "city": "洛阳",
+    "province": "河南",
+    "count": 8000,
+    "reason": "邻近城市就业"
+   },
+   {
+    "city": "深圳",
+    "province": "广东",
+    "count": 8000,
+    "reason": "珠三角务工"
+   },
+   {
+    "city": "西安",
+    "province": "陕西",
+    "count": 5000,
+    "reason": "就近省会圈"
+   },
+   {
+    "city": "其他地区",
+    "province": "全国",
+    "count": 25000,
+    "reason": "务工求学"
+   }
+  ]
+ },
+ "achievements": [
+  {
+   "id": "jiaozuo_first_visit",
+   "name": "焦作初见",
+   "desc": "首次进入焦作市",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "jiaozuo_y1898",
+   "name": "英福公司开矿",
+   "desc": "见证1898年英福公司开矿",
+   "condition": "year",
+   "year": 1898
+  },
+  {
+   "id": "jiaozuo_y1909",
+   "name": "焦作路矿学堂",
+   "desc": "见证1909年焦作路矿学堂",
+   "condition": "year",
+   "year": 1909
+  },
+  {
+   "id": "jiaozuo_y1925",
+   "name": "焦作煤矿大罢工",
+   "desc": "见证1925年焦作煤矿大罢工",
+   "condition": "year",
+   "year": 1925
+  },
+  {
+   "id": "jiaozuo_chain",
+   "name": "百年煤城拼图大师",
+   "desc": "完成焦作市产业链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": [
+  {
+   "desc": "2023 GDP 2233.93亿元(+3.9%), 一产134.51/二产862.10/三产1237.32; 常住352.00万",
+   "url": "http://www.tjcn.org/tjgb/16hn/37979.html",
+   "year": 2023
+  },
+  {
+   "desc": "七普常住人口3521008人（2020-11-01，焦作市第七次全国人口普查公报）",
+   "url": "https://tjgb.hongheiku.com/11477.html"
+  }
+ ],
+ "real_anchors": {
+  "stat2023": {
+   "gdp": 2233.93,
+   "pop": 3520000
+  },
+  "census2020": {
+   "pop": 3521008
+  }
+ }
+}

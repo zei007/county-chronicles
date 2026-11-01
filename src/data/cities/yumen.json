@@ -1,0 +1,843 @@
+{
+ "profile": {
+  "name": "玉门市",
+  "province": "甘肃省",
+  "prefecture": "酒泉市代管",
+  "area": "13,389 km²",
+  "coordinates": [
+   97.58,
+   39.83
+  ],
+  "tags": [
+   "石油摇篮",
+   "铁人故里",
+   "风电新城",
+   "搬迁城市"
+  ],
+  "description": "河西走廊西端的戈壁明珠，新中国石油工业的发源地，经历了从'油尽城衰'到'绿电之城'的蜕变。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 1939,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "起家期",
+    "start": 1939,
+    "end": 1956,
+    "color": "green"
+   },
+   {
+    "name": "壮盛期",
+    "start": 1957,
+    "end": 1989,
+    "color": "yellow"
+   },
+   {
+    "name": "衰败期",
+    "start": 1990,
+    "end": 2002,
+    "color": "red"
+   },
+   {
+    "name": "转型期",
+    "start": 2003,
+    "end": 2024,
+    "color": "teal"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "oil",
+    "label": "石油产量",
+    "unit": "万吨",
+    "max": 150,
+    "color": "#8b4513"
+   },
+   {
+    "key": "wind",
+    "label": "新能源装机",
+    "unit": "MW",
+    "max": 628,
+    "color": "#2d6a4f"
+   }
+  ],
+  "spaceType": "dual_city",
+  "spaceLabels": {
+   "old": "老城",
+   "new": "新城"
+  },
+  "cityKey": "yumen",
+  "chainKeys": [
+   "petroleum",
+   "new_energy"
+  ],
+  "chainContainerIds": [
+   "petroleumChain",
+   "newEnergyChain"
+  ],
+  "currentStatus": "风电新城，转型进行中",
+  "transformationAssessment": "从石油摇篮到绿电之城",
+  "transformationDetail": "玉门经历了从'油尽城衰'到'绿电之城'的蜕变，新能源装机占全市87%，'风光水氢储'多能互补格局成型。但老城空心化仍是大考，70%的老城空置率在全国罕见。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 1939,
+   "title": "老君庙出油",
+   "category": "discovery",
+   "desc": "地质学家孙健初发现石油，开启中国近代石油工业",
+   "impact": 10,
+   "pop": 5000,
+   "oil": 0.1,
+   "wind": 0,
+   "gdp": 0.1,
+   "event": true
+  },
+  {
+   "year": 1949,
+   "title": "石油摇篮",
+   "category": "peak",
+   "desc": "年产原油7万吨，占全国90%以上，玉门油田成为新中国石油工业基地",
+   "impact": 10,
+   "pop": 10000,
+   "oil": 7,
+   "wind": 0,
+   "gdp": 0.5,
+   "event": true
+  },
+  {
+   "year": 1959,
+   "title": "产量巅峰",
+   "category": "peak",
+   "desc": "年产量达到140.6万吨，创历史最高纪录，全城繁荣",
+   "impact": 10,
+   "pop": 70000,
+   "oil": 141,
+   "wind": 0,
+   "gdp": 4,
+   "event": true
+  },
+  {
+   "year": 1960,
+   "title": "铁人出征",
+   "category": "culture",
+   "desc": "王进喜率钻井队赴大庆，玉门精神成为全国工业标杆",
+   "impact": 9,
+   "pop": 80000,
+   "oil": 70,
+   "wind": 0,
+   "gdp": 5,
+   "event": true
+  },
+  {
+   "year": 1970,
+   "title": "百万吨时代",
+   "category": "peak",
+   "desc": "油田维持高产，城市配套完善，人口持续增长",
+   "impact": 7,
+   "pop": 110000,
+   "oil": 100,
+   "wind": 0,
+   "gdp": 8,
+   "event": false
+  },
+  {
+   "year": 1980,
+   "title": "鼎盛时期",
+   "category": "peak",
+   "desc": "石油产业全盛，城市基础设施完善，人口达到峰值",
+   "impact": 6,
+   "pop": 130000,
+   "oil": 80,
+   "wind": 0,
+   "gdp": 12,
+   "event": false
+  },
+  {
+   "year": 1990,
+   "title": "断崖下跌",
+   "category": "decline",
+   "desc": "石油产量从140万吨骤降至55万吨，资源枯竭警报拉响",
+   "impact": 10,
+   "pop": 120000,
+   "oil": 55,
+   "wind": 0,
+   "gdp": 15,
+   "event": true
+  },
+  {
+   "year": 1995,
+   "title": "持续萎缩",
+   "category": "decline",
+   "desc": "产量跌破50万吨，财政吃紧，部分职工开始外流",
+   "impact": 6,
+   "pop": 100000,
+   "oil": 45,
+   "wind": 0,
+   "gdp": 16,
+   "event": false
+  },
+  {
+   "year": 1998,
+   "title": "成本倒挂",
+   "category": "decline",
+   "desc": "开采成本超过售价，油田进入亏损期，产业实质性崩溃",
+   "impact": 9,
+   "pop": 90000,
+   "oil": 38,
+   "wind": 0,
+   "gdp": 17,
+   "event": true
+  },
+  {
+   "year": 2000,
+   "title": "人去城空",
+   "category": "decline",
+   "desc": "人口跌破10万，老城开始衰败，年轻人大量外流",
+   "impact": 7,
+   "pop": 85000,
+   "oil": 30,
+   "wind": 0,
+   "gdp": 18,
+   "event": false
+  },
+  {
+   "year": 2003,
+   "title": "政府搬迁",
+   "category": "relocation",
+   "desc": "市政府整体迁至70公里外的玉门镇，老城核心区加速空心化",
+   "impact": 10,
+   "pop": 60000,
+   "oil": 28,
+   "wind": 0,
+   "gdp": 20,
+   "event": true
+  },
+  {
+   "year": 2005,
+   "title": "谷底徘徊",
+   "category": "decline",
+   "desc": "石油产量仅剩25万吨，老城空置率超过50%",
+   "impact": 6,
+   "pop": 70000,
+   "oil": 25,
+   "wind": 10,
+   "gdp": 25,
+   "event": false
+  },
+  {
+   "year": 2009,
+   "title": "转型号角",
+   "category": "transformation",
+   "desc": "列入国家第二批资源枯竭城市，首个风电场并网",
+   "impact": 9,
+   "pop": 100000,
+   "oil": 20,
+   "wind": 50,
+   "gdp": 35,
+   "event": true
+  },
+  {
+   "year": 2010,
+   "title": "双轨并行",
+   "category": "transformation",
+   "desc": "老城维持最低限度运转，新城新能源产业起步",
+   "impact": 6,
+   "pop": 110000,
+   "oil": 18,
+   "wind": 80,
+   "gdp": 50,
+   "event": true
+  },
+  {
+   "year": 2015,
+   "title": "风电扩张",
+   "category": "transformation",
+   "desc": "戈壁滩上风机阵列崛起，年发电量突破10亿千瓦时",
+   "impact": 7,
+   "pop": 125000,
+   "oil": 15,
+   "wind": 350,
+   "gdp": 120,
+   "event": false
+  },
+  {
+   "year": 2020,
+   "title": "绿色崛起",
+   "category": "transformation",
+   "desc": "新能源装机占比超过传统能源，人口回流至137万（七普）",
+   "impact": 8,
+   "pop": 137700,
+   "oil": 10,
+   "wind": 500,
+   "gdp": 186.8,
+   "event": true,
+   "calibrated": true
+  },
+  {
+   "year": 2021,
+   "title": "2021年统计锚点",
+   "category": "transformation",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 137700,
+   "gdp": 222.5,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2022,
+   "title": "2022年统计锚点",
+   "category": "peak",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 137700,
+   "gdp": 245.1,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2023,
+   "title": "2023年统计锚点",
+   "category": "peak",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 135700,
+   "gdp": 261.7,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2024,
+   "title": "绿电之城",
+   "category": "transformation",
+   "desc": "新能源装机占全市87%，'风光水氢储'多能互补格局成型",
+   "impact": 10,
+   "pop": 140000,
+   "oil": 8,
+   "wind": 628,
+   "gdp": 280,
+   "event": true
+  }
+ ],
+ "chains": {
+  "petroleum": {
+   "name": "石油产业链",
+   "color": "#1a1a2e",
+   "icon": "⛽",
+   "lifecycle": {
+    "birth": 1939,
+    "peak": 1959,
+    "decline": 1990,
+    "collapse": 2003,
+    "dead": 2020
+   },
+   "nodes": [
+    {
+     "id": "explore",
+     "name": "地质勘探",
+     "x": 50,
+     "y": 50,
+     "status": "active",
+     "peak": "1950s",
+     "decline": "1980s"
+    },
+    {
+     "id": "drill",
+     "name": "钻井采油",
+     "x": 150,
+     "y": 50,
+     "status": "active",
+     "peak": "1950s-1970s",
+     "decline": "1990s"
+    },
+    {
+     "id": "refine",
+     "name": "炼油加工",
+     "x": 250,
+     "y": 50,
+     "status": "active",
+     "peak": "1960s-1980s",
+     "decline": "2000s"
+    },
+    {
+     "id": "pipeline",
+     "name": "管道运输",
+     "x": 350,
+     "y": 50,
+     "status": "active",
+     "peak": "1970s-1990s",
+     "decline": "2000s"
+    },
+    {
+     "id": "chemical",
+     "name": "石油化工",
+     "x": 450,
+     "y": 50,
+     "status": "dying",
+     "peak": "1980s",
+     "decline": "2010s"
+    },
+    {
+     "id": "sales",
+     "name": "燃油销售",
+     "x": 550,
+     "y": 50,
+     "status": "dying",
+     "peak": "1990s",
+     "decline": "2010s"
+    }
+   ],
+   "connections": [
+    {
+     "from": "explore",
+     "to": "drill",
+     "flow": "勘探数据"
+    },
+    {
+     "from": "drill",
+     "to": "refine",
+     "flow": "原油"
+    },
+    {
+     "from": "refine",
+     "to": "pipeline",
+     "flow": "成品油"
+    },
+    {
+     "from": "refine",
+     "to": "chemical",
+     "flow": "化工原料"
+    },
+    {
+     "from": "pipeline",
+     "to": "sales",
+     "flow": "燃料油"
+    }
+   ],
+   "employment": {
+    "peak": 50000,
+    "current": 2000
+   }
+  },
+  "new_energy": {
+   "name": "新能源产业链",
+   "color": "#2ecc71",
+   "icon": "🌪️",
+   "lifecycle": {
+    "birth": 2009,
+    "growth": 2015,
+    "peak": null
+   },
+   "nodes": [
+    {
+     "id": "manufacture",
+     "name": "装备制造",
+     "x": 50,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "wind_farm",
+     "name": "风电场运营",
+     "x": 150,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "solar",
+     "name": "光伏电站",
+     "x": 250,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "hydrogen",
+     "name": "氢能制备",
+     "x": 350,
+     "y": 200,
+     "status": "emerging",
+     "peak": "未来"
+    },
+    {
+     "id": "storage",
+     "name": "储能系统",
+     "x": 450,
+     "y": 200,
+     "status": "emerging",
+     "peak": "未来"
+    },
+    {
+     "id": "grid",
+     "name": "电网输送",
+     "x": 550,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s"
+    }
+   ],
+   "connections": [
+    {
+     "from": "manufacture",
+     "to": "wind_farm",
+     "flow": "风机设备"
+    },
+    {
+     "from": "manufacture",
+     "to": "solar",
+     "flow": "光伏组件"
+    },
+    {
+     "from": "wind_farm",
+     "to": "grid",
+     "flow": "风电"
+    },
+    {
+     "from": "solar",
+     "to": "grid",
+     "flow": "光电"
+    },
+    {
+     "from": "wind_farm",
+     "to": "hydrogen",
+     "flow": "制氢电力"
+    },
+    {
+     "from": "solar",
+     "to": "storage",
+     "flow": "蓄能"
+    },
+    {
+     "from": "storage",
+     "to": "grid",
+     "flow": "调峰电力"
+    }
+   ],
+   "employment": {
+    "peak": null,
+    "current": 15000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "resource",
+    "name": "资源枯竭",
+    "weight": 35,
+    "evidence": "石油产量从140万吨暴跌至10万吨以下",
+    "icon": "⛏️",
+    "selected": false
+   },
+   {
+    "id": "talent",
+    "name": "人才外流",
+    "weight": 20,
+    "evidence": "王进喜之后大量技术骨干被调往长庆/克拉玛依/大庆",
+    "icon": "👥",
+    "selected": false
+   },
+   {
+    "id": "transport",
+    "name": "交通格局变化",
+    "weight": 10,
+    "evidence": "兰新铁路主线绕行，玉门从枢纽变为末梢",
+    "icon": "🚂",
+    "selected": false
+   },
+   {
+    "id": "policy",
+    "name": "政策与环保",
+    "weight": 15,
+    "evidence": "国家去产能+环保风暴，小炼油厂关停",
+    "icon": "📜",
+    "selected": false
+   },
+   {
+    "id": "structure",
+    "name": "产业结构单一",
+    "weight": 15,
+    "evidence": "90%以上GDP依赖石油，无替代产业",
+    "icon": "🏭",
+    "selected": false
+   },
+   {
+    "id": "space",
+    "name": "空间约束",
+    "weight": 5,
+    "evidence": "老市区地处峡谷，发展空间受限",
+    "icon": "🏔️",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "resource_wind",
+    "name": "风光资源禀赋",
+    "weight": 30,
+    "evidence": "一类光资源区、二类风资源区",
+    "icon": "🌪️",
+    "selected": false
+   },
+   {
+    "id": "policy_support",
+    "name": "国家政策支持",
+    "weight": 25,
+    "evidence": "资源枯竭城市转型试点，中央财政转移支付",
+    "icon": "💰",
+    "selected": false
+   },
+   {
+    "id": "space_new",
+    "name": "物理空间重塑",
+    "weight": 15,
+    "evidence": "政府搬迁后，新城平地起家，不受老城约束",
+    "icon": "🏗️",
+    "selected": false
+   },
+   {
+    "id": "trend",
+    "name": "能源转型大势",
+    "weight": 20,
+    "evidence": "双碳目标下，西北新能源基地战略定位",
+    "icon": "♻️",
+    "selected": false
+   },
+   {
+    "id": "grid",
+    "name": "电网接入优势",
+    "weight": 10,
+    "evidence": "靠近酒泉-湖南±800千伏特高压直流输电通道",
+    "icon": "🔌",
+    "selected": false
+   }
+  ]
+ },
+ "space_timeline": [
+  {
+   "year": 1939,
+   "old_area": 1,
+   "new_area": 0,
+   "old_pop": 5000,
+   "vacancy": 0
+  },
+  {
+   "year": 1950,
+   "old_area": 3,
+   "new_area": 0,
+   "old_pop": 30000,
+   "vacancy": 0
+  },
+  {
+   "year": 1960,
+   "old_area": 5,
+   "new_area": 0,
+   "old_pop": 80000,
+   "vacancy": 0
+  },
+  {
+   "year": 1970,
+   "old_area": 7,
+   "new_area": 0,
+   "old_pop": 110000,
+   "vacancy": 0
+  },
+  {
+   "year": 1980,
+   "old_area": 8,
+   "new_area": 0,
+   "old_pop": 130000,
+   "vacancy": 0
+  },
+  {
+   "year": 1990,
+   "old_area": 8,
+   "new_area": 0,
+   "old_pop": 120000,
+   "vacancy": 0.05
+  },
+  {
+   "year": 1995,
+   "old_area": 7,
+   "new_area": 0,
+   "old_pop": 100000,
+   "vacancy": 0.15
+  },
+  {
+   "year": 1998,
+   "old_area": 6,
+   "new_area": 0,
+   "old_pop": 90000,
+   "vacancy": 0.25
+  },
+  {
+   "year": 2000,
+   "old_area": 5.5,
+   "new_area": 0.5,
+   "old_pop": 85000,
+   "vacancy": 0.35
+  },
+  {
+   "year": 2003,
+   "old_area": 5,
+   "new_area": 3,
+   "old_pop": 60000,
+   "vacancy": 0.45
+  },
+  {
+   "year": 2005,
+   "old_area": 4.5,
+   "new_area": 5,
+   "old_pop": 70000,
+   "vacancy": 0.5
+  },
+  {
+   "year": 2010,
+   "old_area": 4,
+   "new_area": 8,
+   "old_pop": 110000,
+   "vacancy": 0.55
+  },
+  {
+   "year": 2015,
+   "old_area": 3.5,
+   "new_area": 12,
+   "old_pop": 125000,
+   "vacancy": 0.6
+  },
+  {
+   "year": 2020,
+   "old_area": 3,
+   "new_area": 18,
+   "old_pop": 137000,
+   "vacancy": 0.65
+  },
+  {
+   "year": 2024,
+   "old_area": 2.5,
+   "new_area": 25,
+   "old_pop": 140000,
+   "vacancy": 0.7
+  }
+ ],
+ "space": {
+  "old_city": {
+   "name": "老君庙老市区",
+   "peak_pop": 130000,
+   "current_pop": 140000,
+   "vacancy": 0.7,
+   "landmark": "老君庙一号井遗址"
+  },
+  "new_city": {
+   "name": "玉门镇新市区",
+   "peak_pop": 0,
+   "current_pop": 120000,
+   "landmark": "风电装备产业园"
+  },
+  "distance_km": 70,
+  "built_up_area_km2": 27,
+  "current_pop": 140000,
+  "peak_pop": 130000,
+  "vacancy_rate": 0.7
+ },
+ "migration": {
+  "outflow_total": 45000,
+  "destinations": [
+   {
+    "city": "克拉玛依",
+    "province": "新疆",
+    "count": 12000,
+    "reason": "石油系统西迁与对口支援"
+   },
+   {
+    "city": "酒泉",
+    "province": "甘肃",
+    "count": 15000,
+    "reason": "就近务工与公共服务迁移"
+   },
+   {
+    "city": "兰州",
+    "province": "甘肃",
+    "count": 8000,
+    "reason": "教育医疗与行政调动"
+   },
+   {
+    "city": "长庆",
+    "province": "陕西/甘肃/宁夏",
+    "count": 6000,
+    "reason": "油田技术骨干转移"
+   },
+   {
+    "city": "其他地区",
+    "province": "全国",
+    "count": 4000,
+    "reason": "外出务工与经商"
+   }
+  ]
+ },
+ "achievements": [
+  {
+   "id": "yumen_first_visit",
+   "name": "石油摇篮",
+   "desc": "首次进入玉门，开启石油工业记忆",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "yumen_discovery",
+   "name": "老君庙出油",
+   "desc": "见证1939年老君庙油田发现",
+   "condition": "year",
+   "year": 1939
+  },
+  {
+   "id": "yumen_iron_man",
+   "name": "铁人精神",
+   "desc": "见证王进喜率队出征大庆",
+   "condition": "year",
+   "year": 1960
+  },
+  {
+   "id": "yumen_relocation",
+   "name": "搬迁之城",
+   "desc": "见证2003年玉门市政府迁址",
+   "condition": "year",
+   "year": 2003
+  },
+  {
+   "id": "yumen_wind",
+   "name": "绿电之城",
+   "desc": "见证玉门新能源装机超过传统能源",
+   "condition": "year",
+   "year": 2020
+  },
+  {
+   "id": "yumen_chain",
+   "name": "能源拼图大师",
+   "desc": "完成玉门石油-新能源产业链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": [
+  {
+   "desc": "2023 GDP 261.7亿; ",
+   "url": "https://tjgb.hongheiku.com/djs/51581.html",
+   "year": 2023
+  }
+ ],
+ "real_anchors": {
+  "census2020": {
+   "pop": 137700
+  },
+  "stat2023": {
+   "gdp": 261.7,
+   "pop": 135700
+  }
+ }
+}

@@ -1,0 +1,742 @@
+{
+ "profile": {
+  "name": "唐山市",
+  "province": "河北省",
+  "prefecture": "地级市",
+  "area": "13,472 km²",
+  "coordinates": [
+   118.18,
+   39.63
+  ],
+  "tags": [
+   "煤铁基地",
+   "凤凰城",
+   "地震重生",
+   "钢铁之都"
+  ],
+  "description": "渤海之滨的工业重镇，中国近代工业摇篮之一，开滦煤矿与唐山钢铁撑起百年工业脊梁。1976年大地震让城市涅槃重生，如今正从传统重工业向精品钢铁、现代装备、港口经济转型。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 1878,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "起家期",
+    "start": 1878,
+    "end": 1948,
+    "color": "green"
+   },
+   {
+    "name": "壮盛期",
+    "start": 1949,
+    "end": 1975,
+    "color": "yellow"
+   },
+   {
+    "name": "重生期",
+    "start": 1976,
+    "end": 1995,
+    "color": "red"
+   },
+   {
+    "name": "转型期",
+    "start": 1996,
+    "end": 2024,
+    "color": "teal"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "coal",
+    "label": "原煤产量",
+    "unit": "万吨",
+    "max": 1200,
+    "color": "#1a1a2e"
+   },
+   {
+    "key": "steel",
+    "label": "粗钢产量",
+    "unit": "万吨",
+    "max": 1800,
+    "color": "#71717a"
+   }
+  ],
+  "spaceType": "built_up",
+  "spaceLabels": {
+   "built": "建成区",
+   "density": "人口密度"
+  },
+  "cityKey": "tangshan",
+  "chainKeys": [
+   "coal",
+   "steel"
+  ],
+  "chainContainerIds": [
+   "coalChain",
+   "steelChain"
+  ],
+  "currentStatus": "钢铁重镇，向海转型",
+  "transformationAssessment": "从震后废墟到精品钢铁与港口新城",
+  "transformationDetail": "唐山拥有百年煤铁工业史，1976年大地震后十年完成重建。进入新世纪，去产能与环保约束倒逼产业升级，曹妃甸深水港、精品钢铁、高端装备、机器人产业成为新支柱。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 1878,
+   "title": "开滦煤矿创办",
+   "category": "discovery",
+   "desc": "李鸿章批准创办开平矿务局，唐山成为中国近代工业发源地之一",
+   "impact": 10,
+   "pop": 30000,
+   "coal": 0,
+   "steel": 0,
+   "gdp": 0.01,
+   "event": true
+  },
+  {
+   "year": 1881,
+   "title": "唐胥铁路通车",
+   "category": "peak",
+   "desc": "中国自建第一条标准轨铁路，运煤机车开启铁路时代",
+   "impact": 9,
+   "pop": 40000,
+   "coal": 20,
+   "steel": 0,
+   "gdp": 0.02,
+   "event": true
+  },
+  {
+   "year": 1912,
+   "title": "启新洋灰公司",
+   "category": "peak",
+   "desc": "中国近代水泥工业摇篮，唐山工业体系初步成型",
+   "impact": 7,
+   "pop": 120000,
+   "coal": 150,
+   "steel": 0,
+   "gdp": 0.5,
+   "event": false
+  },
+  {
+   "year": 1949,
+   "title": "新中国钢铁基地",
+   "category": "peak",
+   "desc": "唐山钢铁公司成立，城市进入重工业高速发展期",
+   "impact": 8,
+   "pop": 350000,
+   "coal": 300,
+   "steel": 5,
+   "gdp": 2,
+   "event": true
+  },
+  {
+   "year": 1958,
+   "title": "大炼钢铁",
+   "category": "peak",
+   "desc": "全国钢铁大会战，唐山小高炉遍地，为后来钢铁业扩张奠基",
+   "impact": 6,
+   "pop": 450000,
+   "coal": 500,
+   "steel": 30,
+   "gdp": 5,
+   "event": false
+  },
+  {
+   "year": 1975,
+   "title": "钢铁产量跃升",
+   "category": "peak",
+   "desc": "唐钢产能持续扩大，成为全国重要钢铁基地",
+   "impact": 7,
+   "pop": 900000,
+   "coal": 900,
+   "steel": 200,
+   "gdp": 25,
+   "event": false
+  },
+  {
+   "year": 1976,
+   "title": "唐山大地震",
+   "category": "decline",
+   "desc": "里氏7.8级大地震，整座城市几乎被夷为平地，工业骤然停滞",
+   "impact": 10,
+   "pop": 1500000,
+   "coal": 800,
+   "steel": 150,
+   "gdp": 28,
+   "event": true
+  },
+  {
+   "year": 1986,
+   "title": "十年重建完成",
+   "category": "transformation",
+   "desc": "城市功能基本恢复，新唐山在废墟上崛起",
+   "impact": 9,
+   "pop": 1300000,
+   "coal": 1000,
+   "steel": 300,
+   "gdp": 60,
+   "event": true
+  },
+  {
+   "year": 1996,
+   "title": "京唐港通航",
+   "category": "transformation",
+   "desc": "北方深水大港京唐港开港，唐山从内陆工业城走向海洋经济",
+   "impact": 8,
+   "pop": 1400000,
+   "coal": 1100,
+   "steel": 500,
+   "gdp": 300,
+   "event": true
+  },
+  {
+   "year": 2005,
+   "title": "曹妃甸大开发",
+   "category": "transformation",
+   "desc": "曹妃甸工业区启动，首钢搬迁唐山，港口重化工业新格局形成",
+   "impact": 9,
+   "pop": 1500000,
+   "coal": 1000,
+   "steel": 800,
+   "gdp": 1200,
+   "event": true
+  },
+  {
+   "year": 2010,
+   "title": "2010年统计锚点",
+   "category": "transformation",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 7718000,
+   "gdp": 4469,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2013,
+   "title": "去产能压力",
+   "category": "decline",
+   "desc": "钢铁产能过剩、雾霾治理加码，唐山进入减量发展阶段",
+   "impact": 8,
+   "pop": 1600000,
+   "coal": 900,
+   "steel": 1100,
+   "gdp": 4500,
+   "event": true
+  },
+  {
+   "year": 2015,
+   "title": "2015年统计锚点",
+   "category": "peak",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 7718000,
+   "gdp": 6103,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2016,
+   "title": "钢铁去产能",
+   "category": "transformation",
+   "desc": "压减炼钢产能数千万吨，关停“散乱污”企业，环境治理初见成效",
+   "impact": 9,
+   "pop": 1580000,
+   "coal": 800,
+   "steel": 1000,
+   "gdp": 5000,
+   "event": true
+  },
+  {
+   "year": 2020,
+   "title": "精品钢铁基地",
+   "category": "transformation",
+   "desc": "河钢唐钢新区投产，氢能重卡、智能制造推动产业升级",
+   "impact": 8,
+   "pop": 7718000,
+   "coal": 700,
+   "steel": 1200,
+   "gdp": 7210.9,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2023,
+   "title": "2023年统计锚点",
+   "category": "peak",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 7719500,
+   "gdp": 9133.3,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2024,
+   "title": "向海图强",
+   "category": "transformation",
+   "desc": "曹妃甸港吞吐量突破5亿吨，机器人、海工装备等新兴产业加速集聚",
+   "impact": 9,
+   "pop": 7642305,
+   "coal": 650,
+   "steel": 1300,
+   "gdp": 8500,
+   "event": true,
+   "calibrated": true
+  }
+ ],
+ "chains": {
+  "coal": {
+   "name": "煤炭产业链",
+   "color": "#1a1a2e",
+   "icon": "⛏️",
+   "lifecycle": {
+    "birth": 1878,
+    "peak": 1975,
+    "decline": 2013,
+    "collapse": null,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "mine",
+     "name": "井下开采",
+     "x": 50,
+     "y": 50,
+     "status": "active",
+     "peak": "1900s-1970s",
+     "decline": "2010s"
+    },
+    {
+     "id": "wash",
+     "name": "洗选加工",
+     "x": 150,
+     "y": 50,
+     "status": "active",
+     "peak": "1950s-1990s",
+     "decline": "2010s"
+    },
+    {
+     "id": "coke",
+     "name": "焦化",
+     "x": 250,
+     "y": 50,
+     "status": "dying",
+     "peak": "1980s-2000s",
+     "decline": "2015s"
+    },
+    {
+     "id": "power",
+     "name": "燃煤发电",
+     "x": 350,
+     "y": 50,
+     "status": "dying",
+     "peak": "1990s-2010s",
+     "decline": "2020s"
+    },
+    {
+     "id": "chemical",
+     "name": "煤化工",
+     "x": 450,
+     "y": 50,
+     "status": "emerging",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "sales",
+     "name": "外运销售",
+     "x": 550,
+     "y": 50,
+     "status": "active",
+     "peak": "2000s",
+     "decline": "2015s"
+    }
+   ],
+   "connections": [
+    {
+     "from": "mine",
+     "to": "wash",
+     "flow": "原煤"
+    },
+    {
+     "from": "wash",
+     "to": "coke",
+     "flow": "精煤"
+    },
+    {
+     "from": "wash",
+     "to": "power",
+     "flow": "动力煤"
+    },
+    {
+     "from": "coke",
+     "to": "chemical",
+     "flow": "焦炉气"
+    },
+    {
+     "from": "wash",
+     "to": "sales",
+     "flow": "商品煤"
+    }
+   ],
+   "employment": {
+    "peak": 120000,
+    "current": 30000
+   }
+  },
+  "steel": {
+   "name": "钢铁产业链",
+   "color": "#71717a",
+   "icon": "🔩",
+   "lifecycle": {
+    "birth": 1949,
+    "peak": 2005,
+    "decline": 2013,
+    "collapse": null,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "sinter",
+     "name": "烧结球团",
+     "x": 50,
+     "y": 200,
+     "status": "active",
+     "peak": "1990s-2010s",
+     "decline": "2020s"
+    },
+    {
+     "id": "blast",
+     "name": "高炉炼铁",
+     "x": 150,
+     "y": 200,
+     "status": "active",
+     "peak": "1990s-2010s",
+     "decline": "2020s"
+    },
+    {
+     "id": "bof",
+     "name": "转炉炼钢",
+     "x": 250,
+     "y": 200,
+     "status": "active",
+     "peak": "2000s",
+     "decline": "2020s"
+    },
+    {
+     "id": "rolling",
+     "name": "轧材",
+     "x": 350,
+     "y": 200,
+     "status": "active",
+     "peak": "2000s",
+     "decline": null
+    },
+    {
+     "id": "deep",
+     "name": "精品深加工",
+     "x": 450,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "equipment",
+     "name": "装备制造",
+     "x": 550,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    }
+   ],
+   "connections": [
+    {
+     "from": "sinter",
+     "to": "blast",
+     "flow": "炉料"
+    },
+    {
+     "from": "blast",
+     "to": "bof",
+     "flow": "铁水"
+    },
+    {
+     "from": "bof",
+     "to": "rolling",
+     "flow": "钢坯"
+    },
+    {
+     "from": "rolling",
+     "to": "deep",
+     "flow": "钢材"
+    },
+    {
+     "from": "deep",
+     "to": "equipment",
+     "flow": "特种钢"
+    }
+   ],
+   "employment": {
+    "peak": 250000,
+    "current": 180000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "earthquake",
+    "name": "大地震破坏",
+    "weight": 35,
+    "evidence": "1976年7.8级地震造成24万人遇难，工业设施损毁严重",
+    "icon": "🌋",
+    "selected": false
+   },
+   {
+    "id": "resource",
+    "name": "煤炭资源衰减",
+    "weight": 20,
+    "evidence": "开滦等老矿进入深部开采，成本上升、储量下降",
+    "icon": "⛏️",
+    "selected": false
+   },
+   {
+    "id": "pollution",
+    "name": "环境污染与治理",
+    "weight": 20,
+    "evidence": "钢铁、水泥、燃煤导致严重雾霾，环保限产常态化",
+    "icon": "🌫️",
+    "selected": false
+   },
+   {
+    "id": "overcapacity",
+    "name": "产能过剩",
+    "weight": 15,
+    "evidence": "全国钢铁、煤炭产能过剩，价格低迷",
+    "icon": "📉",
+    "selected": false
+   },
+   {
+    "id": "structure",
+    "name": "产业结构偏重",
+    "weight": 10,
+    "evidence": "重工业占比过高，服务业与新兴产业薄弱",
+    "icon": "🏭",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "port",
+    "name": "港口战略空间",
+    "weight": 30,
+    "evidence": "曹妃甸、京唐港提供深水良港与临港产业腹地",
+    "icon": "⚓",
+    "selected": false
+   },
+   {
+    "id": "policy",
+    "name": "国家重建与转型支持",
+    "weight": 25,
+    "evidence": "震后重建、京津冀协同、河北沿海发展战略叠加",
+    "icon": "💰",
+    "selected": false
+   },
+   {
+    "id": "technology",
+    "name": "技术升级与精品钢",
+    "weight": 20,
+    "evidence": "氢冶金、智能工厂、高端汽车板等高附加值产品",
+    "icon": "🔧",
+    "selected": false
+   },
+   {
+    "id": "location",
+    "name": "京津冀区位优势",
+    "weight": 15,
+    "evidence": "毗邻京津，承接产业转移与物流枢纽功能",
+    "icon": "🌐",
+    "selected": false
+   },
+   {
+    "id": "robot",
+    "name": "新兴产业导入",
+    "weight": 10,
+    "evidence": "机器人、海工装备、新能源重卡等产业集聚",
+    "icon": "🤖",
+    "selected": false
+   }
+  ]
+ },
+ "space_timeline": [
+  {
+   "year": 1878,
+   "old_area": 3,
+   "new_area": 0,
+   "old_pop": 30000,
+   "vacancy": 0
+  },
+  {
+   "year": 1920,
+   "old_area": 12,
+   "new_pop": 0,
+   "old_pop": 120000,
+   "vacancy": 0
+  },
+  {
+   "year": 1949,
+   "old_area": 25,
+   "new_area": 0,
+   "old_pop": 350000,
+   "vacancy": 0
+  },
+  {
+   "year": 1976,
+   "old_area": 45,
+   "new_area": 0,
+   "old_pop": 900000,
+   "vacancy": 0.05
+  },
+  {
+   "year": 1986,
+   "old_area": 55,
+   "new_area": 0,
+   "old_pop": 1300000,
+   "vacancy": 0.05
+  },
+  {
+   "year": 2005,
+   "old_area": 120,
+   "new_area": 0,
+   "old_pop": 1500000,
+   "vacancy": 0.08
+  },
+  {
+   "year": 2024,
+   "old_area": 280,
+   "new_area": 0,
+   "old_pop": 1570000,
+   "vacancy": 0.12
+  }
+ ],
+ "space": {
+  "old_city": {
+   "name": "老工业城区",
+   "peak_pop": 7719500,
+   "current_pop": 7642305,
+   "vacancy": 0.12,
+   "landmark": "开滦国家矿山公园"
+  },
+  "new_city": {
+   "name": "曹妃甸滨海新城",
+   "peak_pop": 0,
+   "current_pop": 350000,
+   "landmark": "曹妃甸港25万吨级矿石码头"
+  },
+  "distance_km": 80,
+  "built_up_area_km2": 280,
+  "current_pop": 7642305,
+  "peak_pop": 7719500,
+  "vacancy_rate": 0.12
+ },
+ "migration": {
+  "outflow_total": 120000,
+  "destinations": [
+   {
+    "city": "北京",
+    "province": "北京",
+    "count": 35000,
+    "reason": "首都就业与教育资源"
+   },
+   {
+    "city": "天津",
+    "province": "天津",
+    "count": 30000,
+    "reason": "邻近港口城市就业"
+   },
+   {
+    "city": "石家庄",
+    "province": "河北",
+    "count": 25000,
+    "reason": "省会就业"
+   },
+   {
+    "city": "秦皇岛",
+    "province": "河北",
+    "count": 15000,
+    "reason": "港口与旅游就业"
+   },
+   {
+    "city": "其他地区",
+    "province": "全国",
+    "count": 15000,
+    "reason": "外出务工与经商"
+   }
+  ]
+ },
+ "achievements": [
+  {
+   "id": "tangshan_first_visit",
+   "name": "凤凰城初探",
+   "desc": "首次进入唐山",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "tangshan_mine",
+   "name": "开滦先驱",
+   "desc": "见证1878年开滦煤矿创办",
+   "condition": "year",
+   "year": 1878
+  },
+  {
+   "id": "tangshan_earthquake",
+   "name": "涅槃之城",
+   "desc": "见证1976年唐山大地震",
+   "condition": "year",
+   "year": 1976
+  },
+  {
+   "id": "tangshan_rebuild",
+   "name": "十年重建",
+   "desc": "见证1986年唐山重建完成",
+   "condition": "year",
+   "year": 1986
+  },
+  {
+   "id": "tangshan_caofeidian",
+   "name": "向海而生",
+   "desc": "见证2005年曹妃甸大开发",
+   "condition": "year",
+   "year": 2005
+  },
+  {
+   "id": "tangshan_chain",
+   "name": "钢铁拼图大师",
+   "desc": "完成唐山煤炭-钢铁产业链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": [
+  {
+   "desc": "2023 GDP 9133.3亿; ",
+   "url": "http://www.etmoc.com/look/Statslisth?Id=9096",
+   "year": 2023
+  }
+ ],
+ "real_anchors": {
+  "census2020": {
+   "pop": 7718000
+  },
+  "stat2023": {
+   "gdp": 9133.3,
+   "pop": 7719500
+  }
+ }
+}

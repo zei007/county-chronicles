@@ -1,0 +1,616 @@
+{
+ "profile": {
+  "name": "铜陵市",
+  "province": "安徽省",
+  "prefecture": "地级市",
+  "area": "2,992 km²",
+  "coordinates": [
+   117.81,
+   30.95
+  ],
+  "tags": [
+   "中国古铜都",
+   "铜官山",
+   "铜基新材料",
+   "循环经济"
+  ],
+  "description": "采冶铜的历史绵延三千余年，金牛洞古采矿遗址印证'中国古铜都'之名。1950 年代恢复铜官山矿建设并设市，铜产业至今仍是城市命脉；2009 年列入第二批资源枯竭城市后，转向铜基新材料与循环经济。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 1949,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "恢复期",
+    "start": 1949,
+    "end": 1977,
+    "color": "green"
+   },
+   {
+    "name": "壮盛期",
+    "start": 1978,
+    "end": 2008,
+    "color": "yellow"
+   },
+   {
+    "name": "调整期",
+    "start": 2009,
+    "end": 2016,
+    "color": "red"
+   },
+   {
+    "name": "转型期",
+    "start": 2017,
+    "end": 2024,
+    "color": "teal"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "copper",
+    "label": "电解铜产量",
+    "unit": "万吨",
+    "max": 170,
+    "color": "#c9752e"
+   },
+   {
+    "key": "products",
+    "label": "铜材加工量",
+    "unit": "万吨",
+    "max": 220,
+    "color": "#38bdf8"
+   }
+  ],
+  "spaceType": "built_up",
+  "spaceLabels": {
+   "built": "建成区",
+   "density": "人口密度"
+  },
+  "cityKey": "tongling",
+  "chainKeys": [
+   "copper",
+   "products"
+  ],
+  "chainContainerIds": [
+   "copperChain",
+   "productsChain"
+  ],
+  "currentStatus": "全国资源型城市转型示范",
+  "transformationAssessment": "从采矿冶铜到铜基新材料全链",
+  "transformationDetail": "铜陵有色是中国最早的铜工业企业之一，电解铜产量长期居全国前列。矿山资源品位下降后，城市把重心转向冶炼技术与铜材深加工，进口铜精矿支撑冶炼规模，循环经济工业园实现'吃干榨净'。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 1949,
+   "title": "铜官山矿恢复建设",
+   "category": "discovery",
+   "desc": "新中国重开铜官山铜矿，第一批有色金属工业基地起步",
+   "impact": 9,
+   "event": true,
+   "pop": 60000,
+   "copper": 0.3,
+   "products": 0,
+   "gdp": 0.2
+  },
+  {
+   "year": 1956,
+   "title": "设立铜官山市",
+   "category": "peak",
+   "desc": "因矿设市，1964 年改名铜陵，'中国古铜都'名实归一",
+   "impact": 8,
+   "event": true,
+   "pop": 150000,
+   "copper": 2,
+   "products": 0.3,
+   "gdp": 0.8
+  },
+  {
+   "year": 1978,
+   "title": "第二冶炼厂投产",
+   "category": "peak",
+   "desc": "电解铜产能跃升，铜陵有色跻身全国铜工业主力",
+   "impact": 7,
+   "event": true,
+   "pop": 460000,
+   "copper": 8,
+   "products": 2,
+   "gdp": 6
+  },
+  {
+   "year": 1992,
+   "title": "铜商品市场",
+   "category": "peak",
+   "desc": "建成全国重要铜材集散地，铜经济深度嵌入城市肌理",
+   "impact": 6,
+   "event": true,
+   "pop": 660000,
+   "copper": 16,
+   "products": 8,
+   "gdp": 42
+  },
+  {
+   "year": 2002,
+   "title": "资源危机显现",
+   "category": "decline",
+   "desc": "本地矿山品位降至 0.5% 以下，铜官山矿等相继闭坑",
+   "impact": 8,
+   "event": true,
+   "pop": 700000,
+   "copper": 26,
+   "products": 15,
+   "gdp": 92
+  },
+  {
+   "year": 2009,
+   "title": "列入资源枯竭城市",
+   "category": "decline",
+   "desc": "国务院第二批资源枯竭城市，转型基金到位",
+   "impact": 9,
+   "event": true,
+   "pop": 730000,
+   "copper": 55,
+   "products": 45,
+   "gdp": 343
+  },
+  {
+   "year": 2013,
+   "title": "循环经济升级",
+   "category": "transformation",
+   "desc": "铜陵经开区循环化改造，冶炼废渣制酸建材全利用",
+   "impact": 7,
+   "event": true,
+   "pop": 740000,
+   "copper": 120,
+   "products": 120,
+   "gdp": 640
+  },
+  {
+   "year": 2016,
+   "title": "枞阳划入",
+   "category": "peak",
+   "desc": "区划调整人口增加，拥江发展打开腹地",
+   "impact": 6,
+   "event": true,
+   "pop": 1310000,
+   "copper": 135,
+   "products": 150,
+   "gdp": 950
+  },
+  {
+   "year": 2020,
+   "title": "七普人口",
+   "category": "decline",
+   "desc": "常住人口 131 万，市域人口多年基本盘稳定但增长乏力",
+   "impact": 6,
+   "event": true,
+   "pop": 1310000,
+   "copper": 150,
+   "products": 185,
+   "gdp": 1004
+  },
+  {
+   "year": 2023,
+   "title": "铜基新材料集群",
+   "category": "transformation",
+   "desc": "高端铜箔、铜板带产能扩张，新能源电池铜材放量",
+   "impact": 7,
+   "event": true,
+   "pop": 1301000,
+   "copper": 165,
+   "products": 210,
+   "gdp": 1229.8,
+   "calibrated": true
+  },
+  {
+   "year": 2024,
+   "title": "古铜都新篇",
+   "category": "transformation",
+   "desc": "矿山公园与金牛洞遗址申遗推进，冶炼-加工-文创全链格局成型",
+   "impact": 7,
+   "event": true,
+   "pop": 1295000,
+   "copper": 170,
+   "products": 220,
+   "gdp": 1260
+  }
+ ],
+ "chains": {
+  "copper": {
+   "name": "铜冶炼产业链",
+   "color": "#c9752e",
+   "icon": "🔶",
+   "lifecycle": {
+    "birth": 1949,
+    "peak": 2005,
+    "decline": 2010,
+    "collapse": null,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "mine",
+     "name": "矿山采选",
+     "x": 50,
+     "y": 50,
+     "status": "dying",
+     "peak": "1950s-1990s",
+     "decline": "2000s"
+    },
+    {
+     "id": "smelt",
+     "name": "铜冶炼",
+     "x": 150,
+     "y": 50,
+     "status": "active",
+     "peak": "1990s-2020s",
+     "decline": null
+    },
+    {
+     "id": "refine",
+     "name": "电解精炼",
+     "x": 250,
+     "y": 50,
+     "status": "active",
+     "peak": "2000s-2020s",
+     "decline": null
+    },
+    {
+     "id": "acid",
+     "name": "制酸化工",
+     "x": 350,
+     "y": 50,
+     "status": "active",
+     "peak": "2000s-2020s",
+     "decline": null
+    },
+    {
+     "id": "recycle",
+     "name": "再生铜",
+     "x": 450,
+     "y": 50,
+     "status": "growing",
+     "peak": "2010s-2020s",
+     "decline": null
+    }
+   ],
+   "connections": [
+    {
+     "from": "mine",
+     "to": "smelt",
+     "flow": "铜精矿"
+    },
+    {
+     "from": "smelt",
+     "to": "refine",
+     "flow": "粗铜"
+    },
+    {
+     "from": "smelt",
+     "to": "acid",
+     "flow": "烟气"
+    },
+    {
+     "from": "recycle",
+     "to": "refine",
+     "flow": "杂铜"
+    }
+   ],
+   "employment": {
+    "peak": 100000,
+    "current": 35000
+   }
+  },
+  "products": {
+   "name": "铜材加工与新材料链",
+   "color": "#38bdf8",
+   "icon": "🌀",
+   "lifecycle": {
+    "birth": 1990,
+    "peak": 2024,
+    "decline": null,
+    "collapse": null,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "rod",
+     "name": "铜杆线缆",
+     "x": 50,
+     "y": 200,
+     "status": "active",
+     "peak": "2000s-2010s",
+     "decline": null
+    },
+    {
+     "id": "strip",
+     "name": "高精铜板带",
+     "x": 150,
+     "y": 200,
+     "status": "growing",
+     "peak": "2010s-2020s",
+     "decline": null
+    },
+    {
+     "id": "foil",
+     "name": "电子铜箔",
+     "x": 250,
+     "y": 200,
+     "status": "emerging",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "newmat",
+     "name": "铜基合金",
+     "x": 350,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "culture",
+     "name": "铜文化创意",
+     "x": 450,
+     "y": 200,
+     "status": "emerging",
+     "peak": "2020s",
+     "decline": null
+    }
+   ],
+   "connections": [
+    {
+     "from": "rod",
+     "to": "strip",
+     "flow": "深加工"
+    },
+    {
+     "from": "strip",
+     "to": "foil",
+     "flow": "极薄化"
+    },
+    {
+     "from": "strip",
+     "to": "newmat",
+     "flow": "合金化"
+    },
+    {
+     "from": "newmat",
+     "to": "culture",
+     "flow": "材料让艺术"
+    }
+   ],
+   "employment": {
+    "peak": 60000,
+    "current": 55000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "resource",
+    "name": "矿山品位衰减",
+    "weight": 34,
+    "evidence": "本地矿铜品位跌破 0.5%，铜官山等老矿闭坑",
+    "icon": "⛏️",
+    "selected": false
+   },
+   {
+    "id": "single",
+    "name": "对铜依赖过深",
+    "weight": 25,
+    "evidence": "铜产业占规上工业比重长期过半，抗周期脆弱",
+    "icon": "🧱",
+    "selected": false
+   },
+   {
+    "id": "price",
+    "name": "铜价周期",
+    "weight": 18,
+    "evidence": "2008 与 2015 两轮铜价深跌冲击冶炼利润",
+    "icon": "📉",
+    "selected": false
+   },
+   {
+    "id": "env",
+    "name": "冶炼环保约束",
+    "weight": 13,
+    "evidence": "酸雾重金属排放治理抬高成本",
+    "icon": "🌫️",
+    "selected": false
+   },
+   {
+    "id": "market",
+    "name": "原料外依",
+    "weight": 10,
+    "evidence": "铜精矿依赖进口，港口物流成本敏感",
+    "icon": "🚢",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "chain",
+    "name": "全产业链纵深",
+    "weight": 28,
+    "evidence": "从冶炼到铜箔的完整加工链，抗波动能力强于单纯采掘",
+    "icon": "🔗",
+    "selected": false
+   },
+   {
+    "id": "newmat",
+    "name": "铜基新材料",
+    "weight": 24,
+    "evidence": "国家先进结构材料产业集群（铜基）落地",
+    "icon": "🧪",
+    "selected": false
+   },
+   {
+    "id": "recycle",
+    "name": "再生铜循环",
+    "weight": 20,
+    "evidence": "循环经济园使废旧铜再入冶炼体系",
+    "icon": "♻️",
+    "selected": false
+   },
+   {
+    "id": "heritage",
+    "name": "古铜都文化",
+    "weight": 18,
+    "evidence": "金牛洞遗址与铜雕艺术形成文旅品牌",
+    "icon": "🏛️",
+    "selected": false
+   },
+   {
+    "id": "location",
+    "name": "长江黄金水道",
+    "weight": 10,
+    "evidence": "长江港口降低进口矿运输成本",
+    "icon": "⚓",
+    "selected": false
+   }
+  ]
+ },
+ "space_timeline": [
+  {
+   "year": 1949,
+   "built": 0.5,
+   "vacant": 0,
+   "density": 9000
+  },
+  {
+   "year": 1956,
+   "built": 3,
+   "vacant": 0,
+   "density": 14000
+  },
+  {
+   "year": 1980,
+   "built": 12,
+   "vacant": 0.02,
+   "density": 12000
+  },
+  {
+   "year": 2000,
+   "built": 30,
+   "vacant": 0.05,
+   "density": 10000
+  },
+  {
+   "year": 2012,
+   "built": 45,
+   "vacant": 0.12,
+   "density": 8600
+  },
+  {
+   "year": 2024,
+   "built": 58,
+   "vacant": 0.15,
+   "density": 7400
+  }
+ ],
+ "space": {
+  "built_up_area_km2": 58,
+  "current_pop": 1295000,
+  "peak_pop": 1310000,
+  "vacancy_rate": 0.15,
+  "housing_price_rank": "安徽省内中游",
+  "landmark": "青铜文化广场"
+ },
+ "migration": {
+  "outflow_total": 45000,
+  "destinations": [
+   {
+    "city": "合肥",
+    "province": "安徽",
+    "count": 14000,
+    "reason": "省会就业"
+   },
+   {
+    "city": "芜湖",
+    "province": "安徽",
+    "count": 8000,
+    "reason": "同城制造业"
+   },
+   {
+    "city": "上海",
+    "province": "上海",
+    "count": 7000,
+    "reason": "长三角务工"
+   },
+   {
+    "city": "杭州",
+    "province": "浙江",
+    "count": 5000,
+    "reason": "电商与制造"
+   },
+   {
+    "city": "其他地区",
+    "province": "全国",
+    "count": 11000,
+    "reason": "务工求学"
+   }
+  ]
+ },
+ "achievements": [
+  {
+   "id": "tongling_first_visit",
+   "name": "铜陵初见",
+   "desc": "首次进入铜陵市",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "tongling_y1949",
+   "name": "铜官山矿恢复建设",
+   "desc": "见证1949年铜官山矿恢复建设",
+   "condition": "year",
+   "year": 1949
+  },
+  {
+   "id": "tongling_y1956",
+   "name": "设立铜官山市",
+   "desc": "见证1956年设立铜官山市",
+   "condition": "year",
+   "year": 1956
+  },
+  {
+   "id": "tongling_y2002",
+   "name": "资源危机显现",
+   "desc": "见证2002年资源危机显现",
+   "condition": "year",
+   "year": 2002
+  },
+  {
+   "id": "tongling_chain",
+   "name": "中国古铜都拼图大师",
+   "desc": "完成铜陵市产业链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": [
+  {
+   "desc": "2023 GDP 1229.8亿元(+5.6%), 一产63.5/二产569.2/三产597.1; 常住130.1万(持平)",
+   "url": "http://www.tjcn.org/tjgb/12ah/37742.html",
+   "year": 2023
+  },
+  {
+   "desc": "七普常住人口131.2万（2020-11-01，铜陵市政府官网七普公报解读，四舍五入口径）",
+   "url": "https://www.tl.gov.cn/openness/OpennessContent/show/115294.html"
+  }
+ ],
+ "real_anchors": {
+  "stat2023": {
+   "gdp": 1229.8,
+   "pop": 1301000
+  },
+  "census2020": {
+   "pop": 1312000
+  }
+ }
+}

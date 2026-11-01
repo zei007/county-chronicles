@@ -1,0 +1,598 @@
+{
+ "profile": {
+  "name": "鹤壁市",
+  "province": "河南省",
+  "prefecture": "地级市",
+  "area": "2,189 km²",
+  "coordinates": [
+   114.3,
+   35.75
+  ],
+  "tags": [
+   "淇水诗河",
+   "老煤城新生",
+   "电子信息",
+   "镁基新材料"
+  ],
+  "description": "豫北小城，因'鹤栖南山峭壁'得名，诗经中三十九篇与淇水相关。1957 年因煤设市，煤炭枯竭后于 2009 年列入第二批资源枯竭城市，城区整体南迁淇滨，以电子汽车零部件与镁基材料翻开新页。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 1952,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "开发期",
+    "start": 1952,
+    "end": 1977,
+    "color": "green"
+   },
+   {
+    "name": "壮盛期",
+    "start": 1978,
+    "end": 2008,
+    "color": "yellow"
+   },
+   {
+    "name": "衰落期",
+    "start": 2009,
+    "end": 2017,
+    "color": "red"
+   },
+   {
+    "name": "转型期",
+    "start": 2018,
+    "end": 2024,
+    "color": "teal"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "coal",
+    "label": "煤炭产量",
+    "unit": "万吨",
+    "max": 800,
+    "color": "#1a1a2e"
+   },
+   {
+    "key": "elec",
+    "label": "电子信息产值",
+    "unit": "亿元",
+    "max": 300,
+    "color": "#38bdf8"
+   }
+  ],
+  "spaceType": "built_up",
+  "spaceLabels": {
+   "built": "建成区",
+   "density": "人口密度"
+  },
+  "cityKey": "hebi",
+  "chainKeys": [
+   "coal",
+   "elec"
+  ],
+  "chainContainerIds": [
+   "coalChain",
+   "elecChain"
+  ],
+  "currentStatus": "资源枯竭转型与宜居城市",
+  "transformationAssessment": "从煤城到淇水人家的绿色转身",
+  "transformationDetail": "鹤壁矿区曾支撑豫北工业，但资源禀赋有限。城市选择'小而精'路线：老矿区改造为鹤壁集文旅街区，新区沿淇水布局，电子信息、镁铝合金与现代化工构成新产业三角，人均指标居豫北前列。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 1952,
+   "title": "鹤壁煤田会战",
+   "category": "discovery",
+   "desc": "平原省组织开发鹤壁煤田，数万职工进驻山城",
+   "impact": 8,
+   "event": true,
+   "pop": 80000,
+   "coal": 20,
+   "elec": 0,
+   "gdp": 0.3
+  },
+  {
+   "year": 1957,
+   "title": "设立鹤壁市",
+   "category": "peak",
+   "desc": "因煤设市，成为河南省辖市中最年轻的城市之一",
+   "impact": 9,
+   "event": true,
+   "pop": 200000,
+   "coal": 150,
+   "elec": 0,
+   "gdp": 0.8
+  },
+  {
+   "year": 1978,
+   "title": "豫北能源支点",
+   "category": "peak",
+   "desc": "煤炭与火电并举，矿区产值占市域工业大半",
+   "impact": 7,
+   "event": true,
+   "pop": 600000,
+   "coal": 500,
+   "elec": 0.5,
+   "gdp": 7
+  },
+  {
+   "year": 1995,
+   "title": "产量峰值",
+   "category": "peak",
+   "desc": "原煤产量近八百万吨，煤矿职工家属占城区人口一半",
+   "impact": 8,
+   "event": true,
+   "pop": 1050000,
+   "coal": 780,
+   "elec": 2,
+   "gdp": 96
+  },
+  {
+   "year": 2004,
+   "title": "新区南迁淇滨",
+   "category": "transformation",
+   "desc": "跳出矿区建设淇滨新区，城市重心南移",
+   "impact": 8,
+   "event": true,
+   "pop": 1280000,
+   "coal": 700,
+   "elec": 5,
+   "gdp": 200
+  },
+  {
+   "year": 2009,
+   "title": "列入资源枯竭城市",
+   "category": "decline",
+   "desc": "国务院第二批资源枯竭城市，矿井进入衰老期",
+   "impact": 9,
+   "event": true,
+   "pop": 1340000,
+   "coal": 550,
+   "elec": 10,
+   "gdp": 340
+  },
+  {
+   "year": 2014,
+   "title": "电子信息起势",
+   "category": "transformation",
+   "desc": "汽车电子与光电子企业集聚，产业新城初显",
+   "impact": 7,
+   "event": true,
+   "pop": 1420000,
+   "coal": 400,
+   "elec": 60,
+   "gdp": 690
+  },
+  {
+   "year": 2017,
+   "title": "去产能收官",
+   "category": "decline",
+   "desc": "主力矿井陆续关停，煤炭从支柱退居辅助",
+   "impact": 8,
+   "event": true,
+   "pop": 1450000,
+   "coal": 250,
+   "elec": 120,
+   "gdp": 830
+  },
+  {
+   "year": 2020,
+   "title": "七普人口",
+   "category": "decline",
+   "desc": "常住人口 156.6 万，小城人口基本盘稳固",
+   "impact": 6,
+   "event": true,
+   "pop": 1565973,
+   "coal": 200,
+   "elec": 180,
+   "gdp": 980
+  },
+  {
+   "year": 2022,
+   "title": "镁基新材料",
+   "category": "transformation",
+   "desc": "依托白云岩资源发展镁合金深加工，HDI 电路板扩产",
+   "impact": 7,
+   "event": true,
+   "pop": 1560000,
+   "coal": 190,
+   "elec": 240,
+   "gdp": 1090
+  },
+  {
+   "year": 2023,
+   "title": "2023年统计锚点",
+   "category": "transformation",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 1568000,
+   "gdp": 1033.17,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2024,
+   "title": "诗经淇河",
+   "category": "transformation",
+   "desc": "淇河生态廊道与诗河文化IP成型，转型考核居同类城市前列",
+   "impact": 7,
+   "event": true,
+   "pop": 1550000,
+   "coal": 180,
+   "elec": 280,
+   "gdp": 1120
+  }
+ ],
+ "chains": {
+  "coal": {
+   "name": "煤炭与电力链",
+   "color": "#1a1a2e",
+   "icon": "⛏️",
+   "lifecycle": {
+    "birth": 1952,
+    "peak": 1995,
+    "decline": 2009,
+    "collapse": 2017,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "mine",
+     "name": "矿区",
+     "x": 50,
+     "y": 50,
+     "status": "dying",
+     "peak": "1970s-1990s",
+     "decline": "2010s"
+    },
+    {
+     "id": "power",
+     "name": "火电",
+     "x": 150,
+     "y": 50,
+     "status": "declining",
+     "peak": "1990s-2010s",
+     "decline": "2020s"
+    },
+    {
+     "id": "building",
+     "name": "建材煤渣利用",
+     "x": 250,
+     "y": 50,
+     "status": "declining",
+     "peak": "2000s",
+     "decline": "2010s"
+    },
+    {
+     "id": "heritage",
+     "name": "矿区文旅",
+     "x": 350,
+     "y": 50,
+     "status": "emerging",
+     "peak": "2020s",
+     "decline": null
+    }
+   ],
+   "connections": [
+    {
+     "from": "mine",
+     "to": "power",
+     "flow": "电煤"
+    },
+    {
+     "from": "power",
+     "to": "building",
+     "flow": "粉煤灰"
+    },
+    {
+     "from": "mine",
+     "to": "heritage",
+     "flow": "矿址活化"
+    }
+   ],
+   "employment": {
+    "peak": 90000,
+    "current": 12000
+   }
+  },
+  "elec": {
+   "name": "电子与镁材料链",
+   "color": "#38bdf8",
+   "icon": "💡",
+   "lifecycle": {
+    "birth": 2004,
+    "peak": 2024,
+    "decline": null,
+    "collapse": null,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "autoelec",
+     "name": "汽车电子",
+     "x": 50,
+     "y": 200,
+     "status": "active",
+     "peak": "2010s-2020s",
+     "decline": null
+    },
+    {
+     "id": "pcb",
+     "name": "HDI电路板",
+     "x": 150,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "magnesium",
+     "name": "镁合金",
+     "x": 250,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "5g",
+     "name": "光通信器件",
+     "x": 350,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    }
+   ],
+   "connections": [
+    {
+     "from": "autoelec",
+     "to": "pcb",
+     "flow": "板卡配套"
+    },
+    {
+     "from": "magnesium",
+     "to": "autoelec",
+     "flow": "轻量化部件"
+    },
+    {
+     "from": "pcb",
+     "to": "5g",
+     "flow": "器件封装"
+    }
+   ],
+   "employment": {
+    "peak": 40000,
+    "current": 45000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "resource",
+    "name": "煤炭储量有限",
+    "weight": 34,
+    "evidence": "矿区规模小、赋存浅，百年内即告枯竭",
+    "icon": "⛏️",
+    "selected": false
+   },
+   {
+    "id": "single",
+    "name": "煤电路径依赖",
+    "weight": 22,
+    "evidence": "煤电及建材长期占工业增加值六成",
+    "icon": "🧱",
+    "selected": false
+   },
+   {
+    "id": "policy",
+    "name": "去产能关停",
+    "weight": 18,
+    "evidence": "十三五矿井集中退出，产业空心化风险",
+    "icon": "🏭",
+    "selected": false
+   },
+   {
+    "id": "traffic",
+    "name": "交通相对边缘",
+    "weight": 14,
+    "evidence": "夹在安阳新乡之间，枢纽功能弱",
+    "icon": "🚉",
+    "selected": false
+   },
+   {
+    "id": "env",
+    "name": "山城环境承载",
+    "weight": 12,
+    "evidence": "老城区山体破坏与沉陷治理成本高",
+    "icon": "🕳️",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "qishui",
+    "name": "淇河生态与诗经IP",
+    "weight": 28,
+    "evidence": "华北唯一未受污染的独立河流，诗河文化独树一帜",
+    "icon": "🏞️",
+    "selected": false
+   },
+   {
+    "id": "elec",
+    "name": "电子产业集群",
+    "weight": 26,
+    "evidence": "汽车电子与光电子园区化集聚",
+    "icon": "💡",
+    "selected": false
+   },
+   {
+    "id": "magnesium",
+    "name": "镁基新材料",
+    "weight": 22,
+    "evidence": "白云岩资源+金属镁传统工艺升级",
+    "icon": "🪨",
+    "selected": false
+   },
+   {
+    "id": "newcity",
+    "name": "新区框架",
+    "weight": 14,
+    "evidence": "提前南迁布局，避免了资源型城市常见的拆建循环",
+    "icon": "🏙️",
+    "selected": false
+   },
+   {
+    "id": "agri",
+    "name": "农业现代化",
+    "weight": 10,
+    "evidence": "高标准农田与种业（鹤壁小麦）基础好",
+    "icon": "🌾",
+    "selected": false
+   }
+  ]
+ },
+ "space_timeline": [
+  {
+   "year": 1952,
+   "built": 0.5,
+   "vacant": 0,
+   "density": 9000
+  },
+  {
+   "year": 1957,
+   "built": 3,
+   "vacant": 0,
+   "density": 12000
+  },
+  {
+   "year": 1995,
+   "built": 18,
+   "vacant": 0.03,
+   "density": 10000
+  },
+  {
+   "year": 2004,
+   "built": 32,
+   "vacant": 0.08,
+   "density": 8200
+  },
+  {
+   "year": 2017,
+   "built": 48,
+   "vacant": 0.14,
+   "density": 7000
+  },
+  {
+   "year": 2024,
+   "built": 56,
+   "vacant": 0.15,
+   "density": 6600
+  }
+ ],
+ "space": {
+  "built_up_area_km2": 56,
+  "current_pop": 1550000,
+  "peak_pop": 1565973,
+  "vacancy_rate": 0.15,
+  "housing_price_rank": "河南省内中游",
+  "landmark": "淇河诗河文化带"
+ },
+ "migration": {
+  "outflow_total": 60000,
+  "destinations": [
+   {
+    "city": "郑州",
+    "province": "河南",
+    "count": 20000,
+    "reason": "省会都市圈"
+   },
+   {
+    "city": "新乡",
+    "province": "河南",
+    "count": 7000,
+    "reason": "邻近就业"
+   },
+   {
+    "city": "安阳",
+    "province": "河南",
+    "count": 6000,
+    "reason": "邻近就业"
+   },
+   {
+    "city": "深圳",
+    "province": "广东",
+    "count": 7000,
+    "reason": "电子产业务工"
+   },
+   {
+    "city": "其他地区",
+    "province": "全国",
+    "count": 20000,
+    "reason": "务工求学"
+   }
+  ]
+ },
+ "achievements": [
+  {
+   "id": "hebi_first_visit",
+   "name": "鹤壁初见",
+   "desc": "首次进入鹤壁市",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "hebi_y1952",
+   "name": "鹤壁煤田会战",
+   "desc": "见证1952年鹤壁煤田会战",
+   "condition": "year",
+   "year": 1952
+  },
+  {
+   "id": "hebi_y1957",
+   "name": "设立鹤壁市",
+   "desc": "见证1957年设立鹤壁市",
+   "condition": "year",
+   "year": 1957
+  },
+  {
+   "id": "hebi_y1995",
+   "name": "产量峰值",
+   "desc": "见证1995年产量峰值",
+   "condition": "year",
+   "year": 1995
+  },
+  {
+   "id": "hebi_chain",
+   "name": "淇水诗河拼图大师",
+   "desc": "完成鹤壁市产业链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": [
+  {
+   "desc": "2023 GDP 1033.17亿元(+3.1%), 一产74.78/二产543.25/三产415.14; 常住156.8万",
+   "url": "http://www.tjcn.org/tjgb/16hn/37790.html",
+   "year": 2023
+  },
+  {
+   "desc": "七普常住人口1565973人（2020-11-01，鹤壁市第七次全国人口普查公报）",
+   "url": "https://tjgb.hongheiku.com/11210.html"
+  }
+ ],
+ "real_anchors": {
+  "stat2023": {
+   "gdp": 1033.17,
+   "pop": 1568000
+  },
+  "census2020": {
+   "pop": 1565973
+  }
+ }
+}

@@ -1,0 +1,828 @@
+{
+ "profile": {
+  "name": "大冶市",
+  "province": "湖北省",
+  "prefecture": "黄石市代管",
+  "area": "1,566 km²",
+  "coordinates": [
+   114.97,
+   30.1
+  ],
+  "tags": [
+   "青铜故里",
+   "铁矿重镇",
+   "千年矿冶",
+   "中国劲酒"
+  ],
+  "description": "中国矿冶文化发祥地，'大冶'之名即源于冶铁。商周时期铜绿山即开始采矿，是中国最早矿业城市之一。清末引进西方技术大规模开采铁矿，汉阳铁厂原料基地。鼎盛时期年产铁矿石超1000万吨，钢铁工业支撑了武汉城市圈。2013年被列入全国第三批资源枯竭城市，正从'铁矿重镇'向'青铜文旅'与'劲酒产业'艰难转型。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 1875,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "起家期",
+    "start": 1875,
+    "end": 1951,
+    "color": "green"
+   },
+   {
+    "name": "壮盛期",
+    "start": 1952,
+    "end": 2000,
+    "color": "yellow"
+   },
+   {
+    "name": "转型期",
+    "start": 2001,
+    "end": 2024,
+    "color": "purple"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "iron",
+    "label": "铁矿石产量",
+    "unit": "万吨",
+    "max": 1200,
+    "color": "#7f1d1d"
+   }
+  ],
+  "spaceType": "built_up",
+  "spaceLabels": {
+   "built": "建成区",
+   "density": "人口密度"
+  },
+  "cityKey": "daye",
+  "chainKeys": [
+   "iron",
+   "replacement"
+  ],
+  "chainContainerIds": [
+   "ironChain",
+   "replacementChain"
+  ],
+  "currentStatus": "资源枯竭转型中，青铜文旅+劲酒产业",
+  "transformationAssessment": "从'千年矿冶'到'青铜故里'的艰难转身",
+  "transformationDetail": "大冶铁矿累计开采超百年，铁矿石产量从巅峰1000万吨跌至不足百万吨。2013年列入第三批资源枯竭城市。依托铜绿山古铜矿遗址（世界文化遗产预备名单）发展文旅，劲牌公司（劲酒）成为新的经济支柱。但城市对矿业的路径依赖仍深，转型仍在探索中。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 1875,
+   "title": "洋务运动开矿",
+   "category": "discovery",
+   "desc": "洋务派在大冶开办铁矿，引进西方技术，开启近代铁矿开采史",
+   "impact": 10,
+   "pop": 20000,
+   "iron": 0,
+   "gdp": 0.01,
+   "event": true
+  },
+  {
+   "year": 1889,
+   "title": "张之洞督办",
+   "category": "discovery",
+   "desc": "湖广总督张之洞督办大冶铁矿，作为汉阳铁厂原料基地，'东方芝加哥'崛起",
+   "impact": 10,
+   "pop": 50000,
+   "iron": 5,
+   "gdp": 0.1,
+   "event": true
+  },
+  {
+   "year": 1896,
+   "title": "汉冶萍公司",
+   "category": "peak",
+   "desc": "汉冶萍煤铁厂矿公司成立，大冶铁矿成为中国最早近代钢铁联合企业核心",
+   "impact": 10,
+   "pop": 80000,
+   "iron": 20,
+   "gdp": 0.3,
+   "event": true
+  },
+  {
+   "year": 1900,
+   "title": "产量破百万吨",
+   "category": "peak",
+   "desc": "铁矿石年产量突破100万吨，大冶铁矿成为远东最大铁矿之一",
+   "impact": 8,
+   "pop": 100000,
+   "iron": 100,
+   "gdp": 1,
+   "event": false
+  },
+  {
+   "year": 1910,
+   "title": "京汉铁路通车",
+   "category": "peak",
+   "desc": "京汉铁路通车，大冶铁矿经铁路直运汉阳，运输效率大幅提升",
+   "impact": 8,
+   "pop": 120000,
+   "iron": 200,
+   "gdp": 2,
+   "event": true
+  },
+  {
+   "year": 1920,
+   "title": "日资介入",
+   "category": "peak",
+   "desc": "日本通过借款控制汉冶萍公司，大肆掠夺大冶铁矿资源",
+   "impact": 9,
+   "pop": 150000,
+   "iron": 300,
+   "gdp": 3,
+   "event": true
+  },
+  {
+   "year": 1930,
+   "title": "铁矿繁荣",
+   "category": "peak",
+   "desc": "大冶铁矿年产突破400万吨，工人数量超过3万，城市规模急剧扩张",
+   "impact": 7,
+   "pop": 180000,
+   "iron": 400,
+   "gdp": 5,
+   "event": false
+  },
+  {
+   "year": 1940,
+   "title": "抗战损毁",
+   "category": "decline",
+   "desc": "抗战时期大冶铁矿遭日军掠夺性开采，设施损毁严重",
+   "impact": 9,
+   "pop": 200000,
+   "iron": 200,
+   "gdp": 6,
+   "event": true
+  },
+  {
+   "year": 1952,
+   "title": "新中国接管",
+   "category": "peak",
+   "desc": "大冶铁矿成为国家重点工业基地，纳入苏联援建156项工程",
+   "impact": 10,
+   "pop": 220000,
+   "iron": 300,
+   "gdp": 8,
+   "event": true
+  },
+  {
+   "year": 1956,
+   "title": "大冶市设立",
+   "category": "peak",
+   "desc": "国务院批准设立大冶市，千年矿冶之城获得新生",
+   "impact": 10,
+   "pop": 250000,
+   "iron": 500,
+   "gdp": 12,
+   "event": true
+  },
+  {
+   "year": 1960,
+   "title": "产能扩张",
+   "category": "peak",
+   "desc": "铁矿石年产量突破600万吨，大冶成为全国十大铁矿基地之一",
+   "impact": 8,
+   "pop": 280000,
+   "iron": 600,
+   "gdp": 18,
+   "event": false
+  },
+  {
+   "year": 1970,
+   "title": "配套完善",
+   "category": "peak",
+   "desc": "矿工城配套建设完善，学校、医院、文化设施一应俱全",
+   "impact": 7,
+   "pop": 300000,
+   "iron": 700,
+   "gdp": 25,
+   "event": false
+  },
+  {
+   "year": 1980,
+   "title": "接近巅峰",
+   "category": "peak",
+   "desc": "铁矿石年产量接近800万吨，累计产铁超亿吨，城市人口达35万",
+   "impact": 7,
+   "pop": 350000,
+   "iron": 800,
+   "gdp": 35,
+   "event": true
+  },
+  {
+   "year": 1985,
+   "title": "产量破千万吨",
+   "category": "peak",
+   "desc": "铁矿石年产量突破1000万吨，大冶铁矿达到历史最高峰",
+   "impact": 10,
+   "pop": 380000,
+   "iron": 1000,
+   "gdp": 50,
+   "event": true
+  },
+  {
+   "year": 1990,
+   "title": "品位下降",
+   "category": "decline",
+   "desc": "浅层高品位铁矿枯竭，开采品位大幅下降，成本急剧上升",
+   "impact": 8,
+   "pop": 400000,
+   "iron": 900,
+   "gdp": 65,
+   "event": false
+  },
+  {
+   "year": 1995,
+   "title": "亏损加剧",
+   "category": "decline",
+   "desc": "国有铁矿企业全面亏损，大量工人下岗，城市经济陷入困境",
+   "impact": 9,
+   "pop": 420000,
+   "iron": 700,
+   "gdp": 80,
+   "event": true
+  },
+  {
+   "year": 2000,
+   "title": "产量腰斩",
+   "category": "decline",
+   "desc": "铁矿石产量从1000万吨跌至500万吨，城市经济断崖式下跌",
+   "impact": 10,
+   "pop": 430000,
+   "iron": 500,
+   "gdp": 100,
+   "event": true
+  },
+  {
+   "year": 2002,
+   "title": "劲酒崛起",
+   "category": "transformation",
+   "desc": "劲牌公司（劲酒）快速发展，成为城市新的经济支柱，年产值突破10亿",
+   "impact": 7,
+   "pop": 440000,
+   "iron": 400,
+   "gdp": 120,
+   "event": true
+  },
+  {
+   "year": 2005,
+   "title": "产量持续下滑",
+   "category": "decline",
+   "desc": "铁矿石产量跌至300万吨，城市对矿业的依赖开始松动",
+   "impact": 8,
+   "pop": 450000,
+   "iron": 300,
+   "gdp": 150,
+   "event": false
+  },
+  {
+   "year": 2010,
+   "title": "铜绿山申遗",
+   "category": "transformation",
+   "desc": "铜绿山古铜矿遗址启动申报世界文化遗产，工业遗产旅游开始起步",
+   "impact": 7,
+   "pop": 460000,
+   "iron": 200,
+   "gdp": 200,
+   "event": true
+  },
+  {
+   "year": 2013,
+   "title": "资源枯竭城市",
+   "category": "transformation",
+   "desc": "被列入全国第三批资源枯竭城市，转型大幕拉开，获中央财政支持",
+   "impact": 10,
+   "pop": 470000,
+   "iron": 150,
+   "gdp": 250,
+   "event": true
+  },
+  {
+   "year": 2015,
+   "title": "劲牌百亿",
+   "category": "transformation",
+   "desc": "劲牌公司年产值突破100亿元，成为湖北省重点民营企业，接替矿业成为第一产业",
+   "impact": 8,
+   "pop": 480000,
+   "iron": 100,
+   "gdp": 300,
+   "event": true
+  },
+  {
+   "year": 2017,
+   "title": "铜绿山4A景区",
+   "category": "transformation",
+   "desc": "铜绿山古铜矿遗址晋升国家4A级旅游景区，青铜文化旅游线路成熟",
+   "impact": 7,
+   "pop": 490000,
+   "iron": 80,
+   "gdp": 350,
+   "event": false
+  },
+  {
+   "year": 2020,
+   "title": "铁矿减产",
+   "category": "decline",
+   "desc": "铁矿石年产量跌至不足50万吨，不到巅峰期的5%，矿业几近退出",
+   "impact": 9,
+   "pop": 871200,
+   "iron": 50,
+   "gdp": 647.18,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2021,
+   "title": "2021年统计锚点",
+   "category": "peak",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 871200,
+   "gdp": 751.12,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2022,
+   "title": "劲酒全国化",
+   "category": "transformation",
+   "desc": "劲酒品牌全国化布局，年产值超150亿元，成为城市绝对经济支柱",
+   "impact": 8,
+   "pop": 871200,
+   "iron": 30,
+   "gdp": 860.79,
+   "event": true,
+   "calibrated": true
+  },
+  {
+   "year": 2023,
+   "title": "2023年统计锚点",
+   "category": "peak",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 862400,
+   "gdp": 863.15,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2024,
+   "title": "青铜故里",
+   "category": "transformation",
+   "desc": "铜绿山古铜矿遗址博物馆新馆建成，青铜文化旅游品牌升级。劲酒产业占全市GDP超60%，城市已完成从'矿冶'到'酒城'的结构性转变",
+   "impact": 7,
+   "pop": 871200,
+   "iron": 20,
+   "gdp": 930.71,
+   "event": true,
+   "calibrated": true
+  }
+ ],
+ "chains": {
+  "iron": {
+   "name": "铁矿产业链",
+   "color": "#7f1d1d",
+   "icon": "⛏️",
+   "lifecycle": {
+    "birth": 1875,
+    "peak": 1985,
+    "decline": 1990,
+    "collapse": 2005,
+    "dead": 2024
+   },
+   "nodes": [
+    {
+     "id": "explore",
+     "name": "地质勘探",
+     "status": "dying",
+     "peak": "1880s-1960s",
+     "decline": "1980s"
+    },
+    {
+     "id": "mine",
+     "name": "露天/井下开采",
+     "status": "dying",
+     "peak": "1950s-1990s",
+     "decline": "2000s"
+    },
+    {
+     "id": "wash",
+     "name": "选矿加工",
+     "status": "dying",
+     "peak": "1960s-1990s",
+     "decline": "2000s"
+    },
+    {
+     "id": "smelt",
+     "name": "冶炼提纯",
+     "status": "dying",
+     "peak": "1970s-1990s",
+     "decline": "2000s"
+    },
+    {
+     "id": "cast",
+     "name": "钢铁铸造",
+     "status": "dying",
+     "peak": "1980s-2000s",
+     "decline": "2010s"
+    },
+    {
+     "id": "transport",
+     "name": "铁路运输",
+     "status": "dying",
+     "peak": "1900s-1990s",
+     "decline": "2000s"
+    }
+   ],
+   "connections": [
+    {
+     "from": "explore",
+     "to": "mine",
+     "flow": "矿床数据"
+    },
+    {
+     "from": "mine",
+     "to": "wash",
+     "flow": "铁矿石"
+    },
+    {
+     "from": "wash",
+     "to": "smelt",
+     "flow": "铁精矿"
+    },
+    {
+     "from": "smelt",
+     "to": "cast",
+     "flow": "生铁"
+    },
+    {
+     "from": "cast",
+     "to": "transport",
+     "flow": "钢材产品"
+    }
+   ],
+   "employment": {
+    "peak": 80000,
+    "current": 3000
+   }
+  },
+  "replacement": {
+   "name": "接续产业（劲酒·青铜文旅·生态农业）",
+   "color": "#2ecc71",
+   "icon": "🔄",
+   "lifecycle": {
+    "birth": 2002,
+    "growth": 2013,
+    "peak": null
+   },
+   "nodes": [
+    {
+     "id": "wine",
+     "name": "劲酒酿造",
+     "status": "emerging",
+     "peak": "2010s-今"
+    },
+    {
+     "id": "tourism",
+     "name": "铜绿山青铜文旅",
+     "status": "emerging",
+     "peak": "未来"
+    },
+    {
+     "id": "museum",
+     "name": "矿冶博物馆",
+     "status": "emerging",
+     "peak": "未来"
+    },
+    {
+     "id": "farm",
+     "name": "生态农业",
+     "status": "emerging",
+     "peak": "未来"
+    },
+    {
+     "id": "logistics",
+     "name": "物流仓储",
+     "status": "emerging",
+     "peak": "未来"
+    },
+    {
+     "id": "tech",
+     "name": "食品加工",
+     "status": "emerging",
+     "peak": "未来"
+    }
+   ],
+   "connections": [
+    {
+     "from": "wine",
+     "to": "tech",
+     "flow": "产业升级"
+    },
+    {
+     "from": "tourism",
+     "to": "museum",
+     "flow": "文旅融合"
+    },
+    {
+     "from": "farm",
+     "to": "wine",
+     "flow": "原料供应"
+    }
+   ],
+   "employment": {
+    "peak": null,
+    "current": 45000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "resource",
+    "name": "铁矿枯竭",
+    "weight": 35,
+    "evidence": "百年开采累计产铁超亿吨，浅层高品位铁矿枯竭，年产量不足巅峰5%",
+    "icon": "⛏️",
+    "selected": false
+   },
+   {
+    "id": "single",
+    "name": "产业结构单一",
+    "weight": 25,
+    "evidence": "矿业长期占全市工业产值70%以上，对矿业的路径依赖极深",
+    "icon": "🏭",
+    "selected": false
+   },
+   {
+    "id": "pollution",
+    "name": "矿山生态修复",
+    "weight": 15,
+    "evidence": "百年开采留下大量采空区和尾矿库，土壤重金属污染严重",
+    "icon": "🌫️",
+    "selected": false
+   },
+   {
+    "id": "policy",
+    "name": "国企改制冲击",
+    "weight": 10,
+    "evidence": "1990年代国有铁矿改制，大量职工下岗，社会冲击巨大",
+    "icon": "📜",
+    "selected": false
+   },
+   {
+    "id": "location",
+    "name": "武汉虹吸效应",
+    "weight": 10,
+    "evidence": "距武汉仅70公里，人才、资金大量流向省会，本地创新乏力",
+    "icon": "🚂",
+    "selected": false
+   },
+   {
+    "id": "aging",
+    "name": "人口外流+老龄化",
+    "weight": 5,
+    "evidence": "年轻劳动力流向武汉、黄石，城市老龄化率高于全省平均",
+    "icon": "👴",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "wine",
+    "name": "劲酒品牌",
+    "weight": 30,
+    "evidence": "劲牌公司年产值超150亿，全国知名保健酒品牌，已成城市第一产业",
+    "icon": "🍶",
+    "selected": false
+   },
+   {
+    "id": "heritage",
+    "name": "铜绿山遗址",
+    "weight": 25,
+    "evidence": "铜绿山古铜矿遗址为世界文化遗产预备名单，千年矿冶文化独特性强",
+    "icon": "🏛️",
+    "selected": false
+   },
+   {
+    "id": "tourism",
+    "name": "青铜文旅",
+    "weight": 20,
+    "evidence": "青铜文化旅游线路成熟，4A景区，差异化旅游资源丰富",
+    "icon": "🏞️",
+    "selected": false
+   },
+   {
+    "id": "policy",
+    "name": "转型政策支持",
+    "weight": 15,
+    "evidence": "第三批资源枯竭城市，获得中央财政专项资金支持",
+    "icon": "💰",
+    "selected": false
+   },
+   {
+    "id": "location",
+    "name": "武汉城市圈",
+    "weight": 5,
+    "evidence": "融入武汉城市圈，物流便利，消费市场大，承接产业转移条件好",
+    "icon": "🚂",
+    "selected": false
+   },
+   {
+    "id": "agriculture",
+    "name": "生态农业",
+    "weight": 5,
+    "evidence": "鄂东南丘陵地形，适合中药材、茶叶等生态农业，劲酒原料基地",
+    "icon": "🌾",
+    "selected": false
+   }
+  ]
+ },
+ "space_timeline": [
+  {
+   "year": 1875,
+   "built": 0.5,
+   "vacancy": 0,
+   "density": 4000
+  },
+  {
+   "year": 1900,
+   "built": 3,
+   "vacancy": 0,
+   "density": 33000
+  },
+  {
+   "year": 1920,
+   "built": 6,
+   "vacancy": 0,
+   "density": 25000
+  },
+  {
+   "year": 1950,
+   "built": 12,
+   "vacancy": 0,
+   "density": 18300
+  },
+  {
+   "year": 1970,
+   "built": 20,
+   "vacancy": 0,
+   "density": 15000
+  },
+  {
+   "year": 1980,
+   "built": 30,
+   "vacancy": 0.02,
+   "density": 11700
+  },
+  {
+   "year": 1990,
+   "built": 40,
+   "vacancy": 0.1,
+   "density": 10000
+  },
+  {
+   "year": 2000,
+   "built": 50,
+   "vacancy": 0.2,
+   "density": 8600
+  },
+  {
+   "year": 2005,
+   "built": 55,
+   "vacancy": 0.25,
+   "density": 8200
+  },
+  {
+   "year": 2010,
+   "built": 60,
+   "vacancy": 0.3,
+   "density": 7700
+  },
+  {
+   "year": 2015,
+   "built": 65,
+   "vacancy": 0.35,
+   "density": 7400
+  },
+  {
+   "year": 2020,
+   "built": 70,
+   "vacancy": 0.4,
+   "density": 7100
+  },
+  {
+   "year": 2024,
+   "built": 72,
+   "vacancy": 0.45,
+   "density": 6900
+  }
+ ],
+ "space": {
+  "built_up_area_km2": 72,
+  "current_pop": 871200,
+  "peak_pop": 871200,
+  "vacancy_rate": 0.45,
+  "landmark": "铜绿山古铜矿遗址",
+  "special": "中国最早矿业遗址，商周即开始采矿，世界文化遗产预备名单"
+ },
+ "migration": {
+  "destinations": [
+   {
+    "name": "武汉市",
+    "lat": 30.59,
+    "lng": 114.31,
+    "flow": 150000,
+    "reason": "省会经济圈虹吸"
+   },
+   {
+    "name": "黄石市",
+    "lat": 30.2,
+    "lng": 115.09,
+    "flow": 60000,
+    "reason": "地级市就业"
+   },
+   {
+    "name": "深圳市",
+    "lat": 22.54,
+    "lng": 114.06,
+    "flow": 30000,
+    "reason": "沿海机会"
+   },
+   {
+    "name": "上海市",
+    "lat": 31.23,
+    "lng": 121.47,
+    "flow": 20000,
+    "reason": "一线城市"
+   },
+   {
+    "name": "北京市",
+    "lat": 39.9,
+    "lng": 116.4,
+    "flow": 15000,
+    "reason": "首都机会"
+   }
+  ],
+  "outflow_total": 275000,
+  "inflow_total": 80000,
+  "net_flow": -195000
+ },
+ "achievements": [
+  {
+   "id": "daye_first_visit",
+   "name": "青铜往事",
+   "desc": "首次进入大冶，见证千年矿冶之城的兴衰",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "daye_peak",
+   "name": "铁海巅峰",
+   "desc": "见证大冶铁矿石产量突破1000万吨的辉煌年代",
+   "condition": "year",
+   "year": 1985
+  },
+  {
+   "id": "daye_decline",
+   "name": "矿竭之殇",
+   "desc": "目睹大冶铁矿石产量跌至不足百万吨",
+   "condition": "year",
+   "year": 2020
+  },
+  {
+   "id": "daye_rebirth",
+   "name": "酒城转身",
+   "desc": "见证大冶从千年矿冶到劲酒之城的转型",
+   "condition": "year",
+   "year": 2024
+  },
+  {
+   "id": "daye_chain",
+   "name": "矿冶拼图大师",
+   "desc": "完成大冶矿冶产业链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": [
+  {
+   "desc": "2023 GDP 863.15亿; ",
+   "url": "http://www.etmoc.com/look/Statslisth?Id=11040",
+   "year": 2023
+  }
+ ],
+ "real_anchors": {
+  "census2020": {
+   "pop": 871200
+  },
+  "stat2023": {
+   "gdp": 863.15,
+   "pop": 862400
+  }
+ }
+}

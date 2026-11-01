@@ -1,0 +1,689 @@
+{
+ "profile": {
+  "name": "攀枝花市",
+  "province": "四川省",
+  "prefecture": "省辖地级市",
+  "area": "7,440 km²",
+  "coordinates": [
+   101.72,
+   26.58
+  ],
+  "tags": [
+   "钒钛之都",
+   "钢城",
+   "三线建设",
+   "阳光花城"
+  ],
+  "description": "中国唯一以花命名的城市，国家三线建设催生的新兴工业城市。攀西地区蕴藏着全国20%的铁、63%的钒、93%的钛，攀钢集团撑起了中国高速铁路钢轨的半壁江山。作为'先生产、后生活'的工矿城市，攀枝花正从'钢城'向'钒钛新城·阳光花城'转型。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 1965,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "起家期",
+    "start": 1965,
+    "end": 1974,
+    "color": "green"
+   },
+   {
+    "name": "壮盛期",
+    "start": 1975,
+    "end": 2010,
+    "color": "yellow"
+   },
+   {
+    "name": "调整期",
+    "start": 2011,
+    "end": 2018,
+    "color": "red"
+   },
+   {
+    "name": "转型期",
+    "start": 2019,
+    "end": 2024,
+    "color": "teal"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "steel",
+    "label": "钢铁产量",
+    "unit": "万吨",
+    "max": 1200,
+    "color": "#718096"
+   }
+  ],
+  "spaceType": "built_up",
+  "spaceLabels": {
+   "built": "建成区",
+   "density": "人口密度"
+  },
+  "cityKey": "panzhihua",
+  "chainKeys": [
+   "steel",
+   "replacement"
+  ],
+  "chainContainerIds": [
+   "steelChain",
+   "replacementChain"
+  ],
+  "currentStatus": "钒钛新材料基地，阳光康养目的地",
+  "transformationAssessment": "从'百里钢城'到'钒钛之都·阳光花城'的双轮驱动转型",
+  "transformationDetail": "攀枝花因三线建设设市，攀钢曾一度贡献全市GDP的80%以上。随着钢铁行业产能过剩与环保压力加大，攀枝花依托钒钛资源战略优势和年均2700小时日照，发展钒钛新材料、清洁能源、阳光康养、特色农业，探索'黑资源'向'绿动能'转变。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 1965,
+   "title": "攀枝花建市",
+   "category": "discovery",
+   "desc": "中央决定建设攀枝花钢铁基地，'渡口市'正式成立",
+   "impact": 10,
+   "pop": 5000,
+   "steel": 0,
+   "gdp": 0.01,
+   "event": true
+  },
+  {
+   "year": 1966,
+   "title": "会战开始",
+   "category": "discovery",
+   "desc": "数十万建设者从全国各地涌入，'好人好马上三线'",
+   "impact": 8,
+   "pop": 50000,
+   "steel": 0,
+   "gdp": 0.05,
+   "event": false
+  },
+  {
+   "year": 1970,
+   "title": "出铁",
+   "category": "peak",
+   "desc": "攀钢一号高炉出铁，标志中国西部最大钢铁基地建成",
+   "impact": 9,
+   "pop": 200000,
+   "steel": 50,
+   "gdp": 2,
+   "event": true
+  },
+  {
+   "year": 1974,
+   "title": "出钢",
+   "category": "peak",
+   "desc": "攀钢转炉炼钢成功，钢铁生产体系全面贯通",
+   "impact": 8,
+   "pop": 350000,
+   "steel": 120,
+   "gdp": 5,
+   "event": true
+  },
+  {
+   "year": 1980,
+   "title": "钢轨生产",
+   "category": "peak",
+   "desc": "攀钢成功轧制50公斤重轨，打破国外垄断",
+   "impact": 7,
+   "pop": 450000,
+   "steel": 250,
+   "gdp": 12,
+   "event": false
+  },
+  {
+   "year": 1987,
+   "title": "钒钛利用",
+   "category": "peak",
+   "desc": "钒钛磁铁矿综合利用技术突破，钒制品开始出口",
+   "impact": 7,
+   "pop": 600000,
+   "steel": 400,
+   "gdp": 25,
+   "event": true
+  },
+  {
+   "year": 1995,
+   "title": "年产500万吨",
+   "category": "peak",
+   "desc": "攀钢钢产量突破500万吨，成为全国重要钢铁基地",
+   "impact": 8,
+   "pop": 900000,
+   "steel": 550,
+   "gdp": 60,
+   "event": true
+  },
+  {
+   "year": 2000,
+   "title": "2000年统计锚点",
+   "category": "transformation",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 1212000,
+   "gdp": 123.43,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2001,
+   "title": "产能扩张",
+   "category": "peak",
+   "desc": "攀钢兼并重组成都无缝、长城特钢，规模持续扩大",
+   "impact": 6,
+   "pop": 1050000,
+   "steel": 700,
+   "gdp": 100,
+   "event": false
+  },
+  {
+   "year": 2007,
+   "title": "融入鞍钢",
+   "category": "peak",
+   "desc": "攀钢与鞍钢集团重组，成为国内最大的钒钛钢铁企业",
+   "impact": 7,
+   "pop": 1100000,
+   "steel": 850,
+   "gdp": 180,
+   "event": true
+  },
+  {
+   "year": 2011,
+   "title": "产能过剩",
+   "category": "decline",
+   "desc": "全国钢铁行业产能过剩，攀钢陷入亏损，城市经济承压",
+   "impact": 8,
+   "pop": 1200000,
+   "steel": 900,
+   "gdp": 220,
+   "event": true
+  },
+  {
+   "year": 2013,
+   "title": "钒钛战略资源",
+   "category": "transformation",
+   "desc": "攀枝花被确定为国家级钒钛高新区，钒钛新材料产业提速",
+   "impact": 8,
+   "pop": 1210000,
+   "steel": 880,
+   "gdp": 250,
+   "event": true
+  },
+  {
+   "year": 2015,
+   "title": "去产能",
+   "category": "decline",
+   "desc": "钢铁行业去产能推进，攀钢压减粗钢产能，城市阵痛加剧",
+   "impact": 7,
+   "pop": 1212000,
+   "steel": 820,
+   "gdp": 925.18,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2017,
+   "title": "阳光康养",
+   "category": "transformation",
+   "desc": "依托冬季暖阳资源，打造'中国阳光花城'康养旅游品牌",
+   "impact": 7,
+   "pop": 1220000,
+   "steel": 800,
+   "gdp": 300,
+   "event": true
+  },
+  {
+   "year": 2019,
+   "title": "钒电池储能",
+   "category": "transformation",
+   "desc": "全钒液流电池储能项目落地，钒资源向新能源领域延伸",
+   "impact": 7,
+   "pop": 1225000,
+   "steel": 780,
+   "gdp": 340,
+   "event": true
+  },
+  {
+   "year": 2021,
+   "title": "氢能示范",
+   "category": "transformation",
+   "desc": "攀枝花建设西南氢能产业示范城市，清洁能源替代加速",
+   "impact": 6,
+   "pop": 1230000,
+   "steel": 760,
+   "gdp": 380,
+   "event": false
+  },
+  {
+   "year": 2023,
+   "title": "2023年统计锚点",
+   "category": "peak",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 1218000,
+   "gdp": 1395.24,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2024,
+   "title": "双轮驱动",
+   "category": "transformation",
+   "desc": "钢铁产量约750万吨，钒钛新材料、清洁能源、阳光康养形成新支柱，城市转型稳步推进",
+   "impact": 7,
+   "pop": 1240000,
+   "steel": 750,
+   "gdp": 1395.24,
+   "event": true,
+   "calibrated": true
+  }
+ ],
+ "chains": {
+  "steel": {
+   "name": "钒钛钢铁产业链",
+   "color": "#718096",
+   "icon": "⚙️",
+   "lifecycle": {
+    "birth": 1965,
+    "peak": 2007,
+    "decline": 2011,
+    "collapse": null,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "mine",
+     "name": "钒钛磁铁矿开采",
+     "status": "mature",
+     "peak": "1970s-2000s",
+     "decline": "2010s"
+    },
+    {
+     "id": "sinter",
+     "name": "烧结球团",
+     "status": "mature",
+     "peak": "1980s-2010s",
+     "decline": "2020s"
+    },
+    {
+     "id": "blast",
+     "name": "高炉炼铁",
+     "status": "mature",
+     "peak": "1980s-2010s",
+     "decline": "2020s"
+    },
+    {
+     "id": "bof",
+     "name": "转炉炼钢",
+     "status": "mature",
+     "peak": "1990s-2010s",
+     "decline": "2020s"
+    },
+    {
+     "id": "rail",
+     "name": "钢轨型材",
+     "status": "mature",
+     "peak": "2000s-2010s",
+     "decline": "2020s"
+    },
+    {
+     "id": "vanadium",
+     "name": "钒钛提取",
+     "status": "emerging",
+     "peak": "2010s-今",
+     "decline": null
+    },
+    {
+     "id": "titanium",
+     "name": "钛白粉/海绵钛",
+     "status": "emerging",
+     "peak": "2010s-今",
+     "decline": null
+    }
+   ],
+   "connections": [
+    {
+     "from": "mine",
+     "to": "sinter",
+     "flow": "原矿"
+    },
+    {
+     "from": "sinter",
+     "to": "blast",
+     "flow": "球团矿"
+    },
+    {
+     "from": "blast",
+     "to": "bof",
+     "flow": "铁水"
+    },
+    {
+     "from": "bof",
+     "to": "rail",
+     "flow": "钢坯"
+    },
+    {
+     "from": "mine",
+     "to": "vanadium",
+     "flow": "钒渣"
+    },
+    {
+     "from": "mine",
+     "to": "titanium",
+     "flow": "钛精矿"
+    }
+   ],
+   "employment": {
+    "peak": 120000,
+    "current": 70000
+   }
+  },
+  "replacement": {
+   "name": "接续产业（钒钛新材料·清洁能源·康养文旅）",
+   "color": "#2ecc71",
+   "icon": "🔄",
+   "lifecycle": {
+    "birth": 2013,
+    "growth": 2017,
+    "peak": null
+   },
+   "nodes": [
+    {
+     "id": "v_battery",
+     "name": "全钒液流电池",
+     "status": "emerging",
+     "peak": "未来"
+    },
+    {
+     "id": "titanium",
+     "name": "高端钛材",
+     "status": "emerging",
+     "peak": "未来"
+    },
+    {
+     "id": "solar",
+     "name": "光伏发电",
+     "status": "emerging",
+     "peak": "未来"
+    },
+    {
+     "id": "hydrogen",
+     "name": "氢能产业",
+     "status": "emerging",
+     "peak": "未来"
+    },
+    {
+     "id": "health",
+     "name": "阳光康养",
+     "status": "emerging",
+     "peak": "未来"
+    },
+    {
+     "id": "mango",
+     "name": "热带特色农业",
+     "status": "emerging",
+     "peak": "未来"
+    }
+   ],
+   "connections": [
+    {
+     "from": "v_battery",
+     "to": "solar",
+     "flow": "储能配套"
+    },
+    {
+     "from": "solar",
+     "to": "hydrogen",
+     "flow": "绿电制氢"
+    },
+    {
+     "from": "health",
+     "to": "mango",
+     "flow": "农旅融合"
+    }
+   ],
+   "employment": {
+    "peak": null,
+    "current": 35000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "single",
+    "name": "钢铁独大",
+    "weight": 35,
+    "evidence": "钢铁及关联产业长期占工业总产值的60%以上",
+    "icon": "🏭",
+    "selected": false
+   },
+   {
+    "id": "overcapacity",
+    "name": "产能过剩",
+    "weight": 25,
+    "evidence": "全国钢铁行业去产能，攀钢压减产能，利润下滑",
+    "icon": "📉",
+    "selected": false
+   },
+   {
+    "id": "environment",
+    "name": "环保压力",
+    "weight": 15,
+    "evidence": "长江上游生态屏障，高耗能产业面临严格环保约束",
+    "icon": "🌫️",
+    "selected": false
+   },
+   {
+    "id": "location",
+    "name": "交通瓶颈",
+    "weight": 15,
+    "evidence": "地处横断山区，物流成本高，远离主要市场",
+    "icon": "🚂",
+    "selected": false
+   },
+   {
+    "id": "structure",
+    "name": "先产后城",
+    "weight": 10,
+    "evidence": "工矿城市功能配套不足，城市品质提升任务重",
+    "icon": "🏗️",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "vanadium",
+    "name": "战略资源优势",
+    "weight": 30,
+    "evidence": "全国63%钒、93%钛储量，钒钛磁铁矿战略地位突出",
+    "icon": "💎",
+    "selected": false
+   },
+   {
+    "id": "energy",
+    "name": "清洁能源潜力",
+    "weight": 25,
+    "evidence": "年均日照2700小时，水电、光伏、氢能资源丰富",
+    "icon": "☀️",
+    "selected": false
+   },
+   {
+    "id": "climate",
+    "name": "阳光康养气候",
+    "weight": 20,
+    "evidence": "冬季温暖、空气清新，被誉为四川小三亚",
+    "icon": "🌴",
+    "selected": false
+   },
+   {
+    "id": "policy",
+    "name": "国家战略支撑",
+    "weight": 15,
+    "evidence": "攀西国家战略资源创新开发试验区政策加持",
+    "icon": "💰",
+    "selected": false
+   },
+   {
+    "id": "traffic",
+    "name": "交通改善",
+    "weight": 10,
+    "evidence": "成昆铁路复线、高速公路网逐步完善",
+    "icon": "🚄",
+    "selected": false
+   }
+  ]
+ },
+ "space_timeline": [
+  {
+   "year": 1965,
+   "built": 0.2,
+   "vacancy": 0,
+   "density": 3000
+  },
+  {
+   "year": 1970,
+   "built": 5,
+   "vacancy": 0,
+   "density": 40000
+  },
+  {
+   "year": 1980,
+   "built": 18,
+   "vacancy": 0.02,
+   "density": 25000
+  },
+  {
+   "year": 1995,
+   "built": 40,
+   "vacancy": 0.05,
+   "density": 22500
+  },
+  {
+   "year": 2007,
+   "built": 55,
+   "vacancy": 0.1,
+   "density": 20000
+  },
+  {
+   "year": 2015,
+   "built": 65,
+   "vacancy": 0.15,
+   "density": 18700
+  },
+  {
+   "year": 2020,
+   "built": 72,
+   "vacancy": 0.18,
+   "density": 17100
+  },
+  {
+   "year": 2024,
+   "built": 78,
+   "vacancy": 0.2,
+   "density": 15900
+  }
+ ],
+ "space": {
+  "built_up_area_km2": 78,
+  "current_pop": 1240000,
+  "peak_pop": 1250000,
+  "vacancy_rate": 0.2,
+  "landmark": "攀钢高炉",
+  "special": "三线建设标志性工程，中国西部最大钢铁联合企业"
+ },
+ "migration": {
+  "destinations": [
+   {
+    "name": "成都市",
+    "lat": 30.57,
+    "lng": 104.07,
+    "flow": 120000,
+    "reason": "省会省会"
+   },
+   {
+    "name": "昆明市",
+    "lat": 24.88,
+    "lng": 102.83,
+    "flow": 50000,
+    "reason": "邻近省会"
+   },
+   {
+    "name": "重庆市",
+    "lat": 29.56,
+    "lng": 106.55,
+    "flow": 45000,
+    "reason": "西南中心"
+   },
+   {
+    "name": "贵阳市",
+    "lat": 26.65,
+    "lng": 106.63,
+    "flow": 30000,
+    "reason": "西南枢纽"
+   },
+   {
+    "name": "北京市",
+    "lat": 39.9,
+    "lng": 116.4,
+    "flow": 25000,
+    "reason": "首都机会"
+   }
+  ],
+  "outflow_total": 270000,
+  "inflow_total": 120000,
+  "net_flow": -150000
+ },
+ "achievements": [
+  {
+   "id": "panzhihua_first_visit",
+   "name": "三线钢城",
+   "desc": "首次进入攀枝花，感受三线建设催生的钢铁城市",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "panzhihua_iron",
+   "name": "攀钢出铁",
+   "desc": "见证攀钢一号高炉出铁的历史时刻",
+   "condition": "year",
+   "year": 1970
+  },
+  {
+   "id": "panzhihua_peak",
+   "name": "钢城巅峰",
+   "desc": "见证攀钢钢产量突破850万吨",
+   "condition": "year",
+   "year": 2007
+  },
+  {
+   "id": "panzhihua_vanadium",
+   "name": "钒钛新生",
+   "desc": "见证攀枝花钒钛电池储能项目落地",
+   "condition": "year",
+   "year": 2019
+  },
+  {
+   "id": "panzhihua_chain",
+   "name": "钢城拼图大师",
+   "desc": "完成攀枝花钒钛钢铁产业链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": [
+  {
+   "desc": "2024 GDP 1395.24亿; ",
+   "url": "http://tjj.panzhihua.gov.cn/zfxxgk/fdzdgknr_1/tjsj/tjgb/10119214.shtml",
+   "year": 2023
+  }
+ ],
+ "real_anchors": {
+  "census2020": {
+   "pop": 1212000
+  },
+  "stat2023": {
+   "gdp": 1395.24,
+   "pop": 1218000
+  }
+ }
+}

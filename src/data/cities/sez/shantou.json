@@ -1,0 +1,746 @@
+{
+ "profile": {
+  "name": "汕头市",
+  "province": "广东省",
+  "prefecture": "地级市 · 经济特区",
+  "area": "2,200 km²",
+  "coordinates": [
+   116.71,
+   23.37
+  ],
+  "tags": [
+   "经济特区",
+   "侨乡",
+   "港口城市",
+   "纺织服装"
+  ],
+  "description": "粤东中心城市与著名侨乡，1860年开埠通商，1980年成为首批经济特区之一，以港口、纺织、玩具和民营经济为特色，增长速度相对平缓。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 1979,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "侨乡前奏",
+    "start": 1977,
+    "end": 1979,
+    "color": "gray"
+   },
+   {
+    "name": "特区初创",
+    "start": 1980,
+    "end": 1991,
+    "color": "green"
+   },
+   {
+    "name": "民营与外贸",
+    "start": 1992,
+    "end": 2000,
+    "color": "yellow"
+   },
+   {
+    "name": "调整蓄势",
+    "start": 2001,
+    "end": 2013,
+    "color": "teal"
+   },
+   {
+    "name": "华侨试验区",
+    "start": 2014,
+    "end": 2024,
+    "color": "purple"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "textile",
+    "label": "纺织服装产值",
+    "unit": "亿元",
+    "max": 2000,
+    "color": "#f97316"
+   },
+   {
+    "key": "port",
+    "label": "港口吞吐量",
+    "unit": "万吨",
+    "max": 6000,
+    "color": "#0ea5e9"
+   }
+  ],
+  "spaceType": "single_city",
+  "spaceLabels": {
+   "old": "老城区",
+   "new": "东海岸新城"
+  },
+  "cityKey": "shantou",
+  "chainKeys": [
+   "textile",
+   "port_logistics",
+   "toys_crafts"
+  ],
+  "chainContainerIds": [
+   "textileChain",
+   "portChain",
+   "toysChain"
+  ],
+  "currentStatus": "粤东中心城市，华侨经济文化合作试验区",
+  "transformationAssessment": "从百载商埠到特区侨乡",
+  "transformationDetail": "汕头依托港口、侨资与民营经济，走出一条相对稳健的发展道路，但受限于区位竞争与产业层次，增长速度在四大特区中较为平缓。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 1979,
+   "title": "汕头市复设",
+   "category": "discovery",
+   "desc": "撤销汕头地区，恢复设立汕头市，为兴办经济特区做准备",
+   "impact": 8,
+   "pop": 600000,
+   "gdp": 8,
+   "textile": 5,
+   "port": 100,
+   "event": true
+  },
+  {
+   "year": 1980,
+   "title": "经济特区成立",
+   "category": "discovery",
+   "desc": "汕头成为中国首批四个经济特区之一，特区面积仅1.6平方公里",
+   "impact": 10,
+   "pop": 620000,
+   "gdp": 10,
+   "textile": 8,
+   "port": 120,
+   "event": true
+  },
+  {
+   "year": 1984,
+   "title": "沿海开放城市",
+   "category": "transformation",
+   "desc": "汕头列入全国14个沿海开放城市，外资与侨资开始回流",
+   "impact": 7,
+   "pop": 720000,
+   "gdp": 20,
+   "textile": 20,
+   "port": 200,
+   "event": false
+  },
+  {
+   "year": 1988,
+   "title": "民营经济起步",
+   "category": "transformation",
+   "desc": "家庭作坊与乡镇企业兴起，纺织、玩具、工艺产业初成规模",
+   "impact": 6,
+   "pop": 800000,
+   "gdp": 40,
+   "textile": 40,
+   "port": 350,
+   "event": false
+  },
+  {
+   "year": 1990,
+   "title": "特区扩围酝酿",
+   "category": "transformation",
+   "desc": "汕头特区开始探索扩围，谋求更大发展空间",
+   "impact": 6,
+   "pop": 850000,
+   "gdp": 70,
+   "textile": 80,
+   "port": 500,
+   "event": false
+  },
+  {
+   "year": 1991,
+   "title": "特区扩围至市区",
+   "category": "transformation",
+   "desc": "汕头经济特区面积扩大至234平方公里，发展框架拉开",
+   "impact": 8,
+   "pop": 880000,
+   "gdp": 85,
+   "textile": 100,
+   "port": 600,
+   "event": true
+  },
+  {
+   "year": 1992,
+   "title": "南巡带动侨资",
+   "category": "transformation",
+   "desc": "南巡讲话后海外潮商投资增加，玩具、纺织出口提速",
+   "impact": 7,
+   "pop": 920000,
+   "gdp": 110,
+   "textile": 130,
+   "port": 750,
+   "event": false
+  },
+  {
+   "year": 1997,
+   "title": "亚洲金融风暴",
+   "category": "decline",
+   "desc": "亚洲金融危机冲击出口导向型民营企业，部分企业倒闭",
+   "impact": 7,
+   "pop": 1000000,
+   "gdp": 280,
+   "textile": 280,
+   "port": 1100,
+   "event": true
+  },
+  {
+   "year": 2000,
+   "title": "国企改制攻坚",
+   "category": "transformation",
+   "desc": "国有企业改革与民营经济替代并行，轻工产业集聚度提升",
+   "impact": 7,
+   "pop": 1200000,
+   "gdp": 450,
+   "textile": 500,
+   "port": 1500,
+   "event": true
+  },
+  {
+   "year": 2004,
+   "title": "行政区划调整",
+   "category": "transformation",
+   "desc": "汕头行政区划优化，濠江、潮阳、澄海等区县整合",
+   "impact": 6,
+   "pop": 1280000,
+   "gdp": 600,
+   "textile": 650,
+   "port": 1800,
+   "event": false
+  },
+  {
+   "year": 2008,
+   "title": "金融风暴再冲击",
+   "category": "decline",
+   "desc": "全球金融危机导致外贸订单下滑，劳动密集型产业承压",
+   "impact": 7,
+   "pop": 1320000,
+   "gdp": 980,
+   "textile": 850,
+   "port": 2200,
+   "event": true
+  },
+  {
+   "year": 2010,
+   "title": "东海岸新城",
+   "category": "transformation",
+   "desc": "东海岸新城启动建设，城市向东拓展新空间",
+   "impact": 7,
+   "pop": 1400000,
+   "gdp": 1200,
+   "textile": 1000,
+   "port": 3000,
+   "event": false
+  },
+  {
+   "year": 2014,
+   "title": "华侨试验区",
+   "category": "transformation",
+   "desc": "国务院批复设立汕头华侨经济文化合作试验区",
+   "impact": 9,
+   "pop": 1450000,
+   "gdp": 1700,
+   "textile": 1200,
+   "port": 3800,
+   "event": true
+  },
+  {
+   "year": 2018,
+   "title": "营商环境改革",
+   "category": "transformation",
+   "desc": "放管服改革与招商引资强化，营商环境排名提升",
+   "impact": 7,
+   "pop": 1480000,
+   "gdp": 2200,
+   "textile": 1300,
+   "port": 4300,
+   "event": false
+  },
+  {
+   "year": 2020,
+   "title": "产业升级换挡",
+   "category": "transformation",
+   "desc": "纺织服装、化工塑料、工艺玩具向智能化、品牌化升级",
+   "impact": 7,
+   "pop": 1500000,
+   "gdp": 2700,
+   "textile": 1400,
+   "port": 5000,
+   "event": false
+  },
+  {
+   "year": 2024,
+   "title": "汕潮揭都市圈",
+   "category": "transformation",
+   "desc": "汕潮揭都市圈建设提速，汕头作为粤东中心城市辐射能级增强",
+   "impact": 8,
+   "pop": 1520000,
+   "gdp": 3200,
+   "textile": 1500,
+   "port": 5500,
+   "event": true
+  }
+ ],
+ "chains": {
+  "textile": {
+   "name": "纺织服装链",
+   "color": "#f97316",
+   "icon": "👕",
+   "lifecycle": {
+    "birth": 1980,
+    "peak": 2014,
+    "decline": null
+   },
+   "nodes": [
+    {
+     "id": "fabric",
+     "name": "面料织造",
+     "x": 50,
+     "y": 50,
+     "status": "active",
+     "peak": "1990s"
+    },
+    {
+     "id": "dyeing",
+     "name": "印染整理",
+     "x": 150,
+     "y": 50,
+     "status": "active",
+     "peak": "2000s"
+    },
+    {
+     "id": "garment",
+     "name": "成衣制造",
+     "x": 250,
+     "y": 50,
+     "status": "active",
+     "peak": "2000s-2010s"
+    },
+    {
+     "id": "brand",
+     "name": "品牌与设计",
+     "x": 350,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s"
+    }
+   ],
+   "connections": [
+    {
+     "from": "fabric",
+     "to": "dyeing",
+     "flow": "坯布"
+    },
+    {
+     "from": "dyeing",
+     "to": "garment",
+     "flow": "面料"
+    },
+    {
+     "from": "garment",
+     "to": "brand",
+     "flow": "产能与IP"
+    }
+   ],
+   "employment": {
+    "peak": 600000,
+    "current": 400000
+   }
+  },
+  "port_logistics": {
+   "name": "港口物流链",
+   "color": "#0ea5e9",
+   "icon": "⚓",
+   "lifecycle": {
+    "birth": 1980,
+    "peak": 2014,
+    "decline": null
+   },
+   "nodes": [
+    {
+     "id": "container",
+     "name": "集装箱码头",
+     "x": 50,
+     "y": 50,
+     "status": "active",
+     "peak": "2010s"
+    },
+    {
+     "id": "bonded",
+     "name": "保税仓储",
+     "x": 150,
+     "y": 50,
+     "status": "active",
+     "peak": "2010s"
+    },
+    {
+     "id": "shipping",
+     "name": "航运服务",
+     "x": 250,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "cross_strait",
+     "name": "对台贸易",
+     "x": 350,
+     "y": 50,
+     "status": "growing",
+     "peak": "未来"
+    }
+   ],
+   "connections": [
+    {
+     "from": "container",
+     "to": "bonded",
+     "flow": "进出口货物"
+    },
+    {
+     "from": "bonded",
+     "to": "shipping",
+     "flow": "集拼分拨"
+    },
+    {
+     "from": "shipping",
+     "to": "cross_strait",
+     "flow": "两岸航线"
+    }
+   ],
+   "employment": {
+    "peak": 150000,
+    "current": 120000
+   }
+  },
+  "toys_crafts": {
+   "name": "玩具工艺链",
+   "color": "#ec4899",
+   "icon": "🧸",
+   "lifecycle": {
+    "birth": 1985,
+    "peak": 2008,
+    "decline": null
+   },
+   "nodes": [
+    {
+     "id": "mold",
+     "name": "模具制造",
+     "x": 50,
+     "y": 50,
+     "status": "active",
+     "peak": "1990s"
+    },
+    {
+     "id": "plastic",
+     "name": "塑料玩具",
+     "x": 150,
+     "y": 50,
+     "status": "active",
+     "peak": "2000s"
+    },
+    {
+     "id": "craft",
+     "name": "工艺礼品",
+     "x": 250,
+     "y": 50,
+     "status": "active",
+     "peak": "2000s"
+    },
+    {
+     "id": "ip",
+     "name": "动漫IP授权",
+     "x": 350,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s"
+    }
+   ],
+   "connections": [
+    {
+     "from": "mold",
+     "to": "plastic",
+     "flow": "模具"
+    },
+    {
+     "from": "plastic",
+     "to": "craft",
+     "flow": "产能共享"
+    },
+    {
+     "from": "craft",
+     "to": "ip",
+     "flow": "设计与品牌"
+    }
+   ],
+   "employment": {
+    "peak": 400000,
+    "current": 250000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "industry_level",
+    "name": "产业层次偏低",
+    "weight": 25,
+    "evidence": "长期依赖纺织、玩具等劳动密集型产业，附加值不高",
+    "icon": "🏭",
+    "selected": false
+   },
+   {
+    "id": "sez_scale",
+    "name": "特区面积与发展红利有限",
+    "weight": 20,
+    "evidence": "早期特区面积过小，政策优势不及深圳集中",
+    "icon": "📐",
+    "selected": false
+   },
+   {
+    "id": "transport",
+    "name": "交通区位边缘化",
+    "weight": 20,
+    "evidence": "珠三角核心资源外溢有限，高铁时代才逐步改善",
+    "icon": "🚄",
+    "selected": false
+   },
+   {
+    "id": "external_demand",
+    "name": "外贸依存度高",
+    "weight": 15,
+    "evidence": "1997、2008年金融危机对出口企业冲击显著",
+    "icon": "📉",
+    "selected": false
+   },
+   {
+    "id": "talent",
+    "name": "高端人才流失",
+    "weight": 10,
+    "evidence": "年轻劳动力与高端人才向广深珠三角核心流动",
+    "icon": "👥",
+    "selected": false
+   },
+   {
+    "id": "institution",
+    "name": "体制机制约束",
+    "weight": 10,
+    "evidence": "早期改革步伐与营商环境优化相对滞后",
+    "icon": "⚙️",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "overseas_chinese",
+    "name": "侨乡资源优势",
+    "weight": 25,
+    "evidence": "海外潮商资本与网络为引资引智提供独特通道",
+    "icon": "🌏",
+    "selected": false
+   },
+   {
+    "id": "private_economy",
+    "name": "民营经济韧性",
+    "weight": 20,
+    "evidence": "民营企业在纺织、玩具、医药化工领域形成集群",
+    "icon": "🏢",
+    "selected": false
+   },
+   {
+    "id": "policy",
+    "name": "华侨试验区政策",
+    "weight": 20,
+    "evidence": "国家级华侨经济文化合作试验区赋予改革空间",
+    "icon": "📜",
+    "selected": false
+   },
+   {
+    "id": "port",
+    "name": "港口与对台优势",
+    "weight": 15,
+    "evidence": "粤东中心港口，对台经贸与人文交流区位优势",
+    "icon": "⚓",
+    "selected": false
+   },
+   {
+    "id": "industry_upgrade",
+    "name": "传统产业升级",
+    "weight": 10,
+    "evidence": "纺织服装、化工塑料向智能制造与品牌化延伸",
+    "icon": "🔄",
+    "selected": false
+   },
+   {
+    "id": "city_circle",
+    "name": "汕潮揭都市圈",
+    "weight": 10,
+    "evidence": "都市圈建设提升区域集聚与辐射能力",
+    "icon": "🏘️",
+    "selected": false
+   }
+  ]
+ },
+ "space_timeline": [
+  {
+   "year": 1979,
+   "built": 8,
+   "vacancy": 0.08
+  },
+  {
+   "year": 1985,
+   "built": 15,
+   "vacancy": 0.07
+  },
+  {
+   "year": 1990,
+   "built": 25,
+   "vacancy": 0.07
+  },
+  {
+   "year": 1995,
+   "built": 38,
+   "vacancy": 0.06
+  },
+  {
+   "year": 2000,
+   "built": 50,
+   "vacancy": 0.06
+  },
+  {
+   "year": 2005,
+   "built": 65,
+   "vacancy": 0.06
+  },
+  {
+   "year": 2010,
+   "built": 85,
+   "vacancy": 0.06
+  },
+  {
+   "year": 2014,
+   "built": 100,
+   "vacancy": 0.05
+  },
+  {
+   "year": 2020,
+   "built": 130,
+   "vacancy": 0.05
+  },
+  {
+   "year": 2024,
+   "built": 150,
+   "vacancy": 0.05
+  }
+ ],
+ "space": {
+  "built_up_area_km2": 150,
+  "peak_pop": 1520000,
+  "current_pop": 1520000,
+  "vacancy_rate": 0.05,
+  "landmark": "华侨经济文化合作试验区"
+ },
+ "migration": {
+  "outflow_total": 500000,
+  "destinations": [
+   {
+    "city": "深圳",
+    "province": "广东",
+    "count": 150000,
+    "reason": "产业外溢与就业迁移"
+   },
+   {
+    "city": "广州",
+    "province": "广东",
+    "count": 120000,
+    "reason": "省会教育医疗与职业流动"
+   },
+   {
+    "city": "海外",
+    "province": "东南亚/欧美",
+    "count": 100000,
+    "reason": "潮商海外经商与华侨亲属团聚"
+   },
+   {
+    "city": "佛山",
+    "province": "广东",
+    "count": 60000,
+    "reason": "制造业转移与商贸往来"
+   },
+   {
+    "city": "其他城市",
+    "province": "全国",
+    "count": 70000,
+    "reason": "求学、创业、婚姻迁移"
+   }
+  ]
+ },
+ "achievements": [
+  {
+   "id": "shantou_first_visit",
+   "name": "百载商埠",
+   "desc": "首次进入汕头，开启侨乡特区记忆",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "shantou_sez",
+   "name": "特区元年",
+   "desc": "见证1980年汕头经济特区成立",
+   "condition": "year",
+   "year": 1980
+  },
+  {
+   "id": "shantou_expand",
+   "name": "特区扩围",
+   "desc": "见证1991年汕头特区扩围至市区",
+   "condition": "year",
+   "year": 1991
+  },
+  {
+   "id": "shantou_overseas",
+   "name": "华侨试验区",
+   "desc": "见证2014年汕头华侨经济文化合作试验区获批",
+   "condition": "year",
+   "year": 2014
+  },
+  {
+   "id": "shantou_circle",
+   "name": "汕潮揭都市圈",
+   "desc": "见证2024年汕潮揭都市圈建设提速",
+   "condition": "year",
+   "year": 2024
+  },
+  {
+   "id": "shantou_chain",
+   "name": "侨乡产业拼图大师",
+   "desc": "完成汕头产业转型链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": {
+  "disclaimer": "本页面数据为教学演示与叙事游戏用途，部分历史节点、经济指标、人口与产业数据经过归一化、近似或综合多源整理，请以国家统计局、各地统计局及官方发布为准。",
+  "references": [
+   {
+    "name": "国家统计局",
+    "url": "https://data.stats.gov.cn/"
+   },
+   {
+    "name": "汕头市人民政府",
+    "url": "https://www.shantou.gov.cn/"
+   },
+   {
+    "name": "汕头市统计局",
+    "url": "https://www.shantou.gov.cn/tjj/index.html"
+   },
+   {
+    "name": "百度百科 - 汕头",
+    "url": "https://baike.baidu.com/item/%E6%B1%95%E5%A4%B4"
+   }
+  ]
+ },
+ "simMode": "growth"
+}

@@ -1,0 +1,702 @@
+{
+ "profile": {
+  "name": "霍尔果斯市",
+  "province": "新疆维吾尔自治区",
+  "prefecture": "县级市 · 经济特区",
+  "area": "1,908 km²",
+  "coordinates": [
+   80.42,
+   44.2
+  ],
+  "tags": [
+   "经济特区",
+   "中哈合作中心",
+   "中欧班列",
+   "跨境物流"
+  ],
+  "description": "中国与哈萨克斯坦边境的口岸新城，2010年设立经济特区，依托中哈霍尔果斯国际边境合作中心、中欧班列和综合保税区，成为向西开放的重要物流与贸易枢纽。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 2010,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "口岸前奏",
+    "start": 2008,
+    "end": 2009,
+    "color": "gray"
+   },
+   {
+    "name": "特区设立",
+    "start": 2010,
+    "end": 2013,
+    "color": "green"
+   },
+   {
+    "name": "合作中心运营",
+    "start": 2014,
+    "end": 2017,
+    "color": "yellow"
+   },
+   {
+    "name": "班列与综保",
+    "start": 2018,
+    "end": 2021,
+    "color": "teal"
+   },
+   {
+    "name": "规范与提质",
+    "start": 2022,
+    "end": 2024,
+    "color": "purple"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "cross_border_trade",
+    "label": "进出口贸易额",
+    "unit": "亿元",
+    "max": 3000,
+    "color": "#f59e0b"
+   },
+   {
+    "key": "logistics",
+    "label": "货运吞吐量",
+    "unit": "万吨",
+    "max": 5000,
+    "color": "#0ea5e9"
+   }
+  ],
+  "spaceType": "single_city",
+  "spaceLabels": {
+   "old": "老城口岸",
+   "new": "合作中心新城"
+  },
+  "cityKey": "huoerguosi",
+  "chainKeys": [
+   "cross_border_trade",
+   "energy_transit",
+   "service_registration"
+  ],
+  "chainContainerIds": [
+   "tradeChain",
+   "energyChain",
+   "serviceChain"
+  ],
+  "currentStatus": "中哈边境合作中心，向西开放物流贸易枢纽",
+  "transformationAssessment": "从边境口岸到国际合作中心",
+  "transformationDetail": "霍尔果斯凭借税收洼地、口岸区位和能源通道快速集聚注册企业与物流流量，在监管收紧后逐步从政策套利转向实体经济与跨境电商。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 2010,
+   "title": "经济特区设立",
+   "category": "discovery",
+   "desc": "中央批准设立霍尔果斯经济开发区，赋予特殊政策支持",
+   "impact": 10,
+   "pop": 8000,
+   "gdp": 5,
+   "cross_border_trade": 10,
+   "logistics": 50,
+   "event": true
+  },
+  {
+   "year": 2012,
+   "title": "中哈合作中心试运营",
+   "category": "transformation",
+   "desc": "中哈霍尔果斯国际边境合作中心封关试运营，免税购物与跨境金融起步",
+   "impact": 8,
+   "pop": 12000,
+   "gdp": 12,
+   "cross_border_trade": 35,
+   "logistics": 120,
+   "event": true
+  },
+  {
+   "year": 2014,
+   "title": "撤县设市",
+   "category": "transformation",
+   "desc": "霍尔果斯由县改市，城市框架与行政能级提升",
+   "impact": 7,
+   "pop": 22000,
+   "gdp": 25,
+   "cross_border_trade": 90,
+   "logistics": 280,
+   "event": true
+  },
+  {
+   "year": 2015,
+   "title": "税收优惠吸引企业注册",
+   "category": "peak",
+   "desc": "企业所得税五免五减半等政策吸引大量影视、文化、科技企业注册",
+   "impact": 8,
+   "pop": 35000,
+   "gdp": 48,
+   "cross_border_trade": 180,
+   "logistics": 500,
+   "event": true
+  },
+  {
+   "year": 2016,
+   "title": "中欧班列常态化",
+   "category": "transformation",
+   "desc": "霍尔果斯口岸开行中欧班列，成为西行通道的重要出境口岸",
+   "impact": 9,
+   "pop": 45000,
+   "gdp": 70,
+   "cross_border_trade": 320,
+   "logistics": 900,
+   "event": true
+  },
+  {
+   "year": 2017,
+   "title": "合作中心全面运营",
+   "category": "transformation",
+   "desc": "中哈合作中心全面运营，年入区人数和交易规模快速增长",
+   "impact": 8,
+   "pop": 55000,
+   "gdp": 95,
+   "cross_border_trade": 520,
+   "logistics": 1400,
+   "event": false
+  },
+  {
+   "year": 2018,
+   "title": "影视税收监管收紧",
+   "category": "decline",
+   "desc": "国家规范影视行业税收秩序，霍尔果斯部分空壳企业注销或迁出",
+   "impact": 7,
+   "pop": 62000,
+   "gdp": 110,
+   "cross_border_trade": 780,
+   "logistics": 1900,
+   "event": true
+  },
+  {
+   "year": 2019,
+   "title": "跨境电商试点",
+   "category": "transformation",
+   "desc": "霍尔果斯获批跨境电商综合试验区，新业态开始集聚",
+   "impact": 7,
+   "pop": 70000,
+   "gdp": 130,
+   "cross_border_trade": 980,
+   "logistics": 2400,
+   "event": false
+  },
+  {
+   "year": 2020,
+   "title": "疫情冲击口岸",
+   "category": "decline",
+   "desc": "疫情导致人员通关与货物运输短期受阻，合作中心与边贸承压",
+   "impact": 6,
+   "pop": 72000,
+   "gdp": 142,
+   "cross_border_trade": 1100,
+   "logistics": 2600,
+   "event": true
+  },
+  {
+   "year": 2021,
+   "title": "口岸过货量创新高",
+   "category": "transformation",
+   "desc": "疫情后货运快速恢复，中欧班列与公路口岸过货量大幅增长",
+   "impact": 8,
+   "pop": 80000,
+   "gdp": 170,
+   "cross_border_trade": 1500,
+   "logistics": 3400,
+   "event": true
+  },
+  {
+   "year": 2022,
+   "title": "能源通道扩容",
+   "category": "transformation",
+   "desc": "中亚天然气管道、跨境电网等能源通道持续扩容",
+   "impact": 8,
+   "pop": 88000,
+   "gdp": 195,
+   "cross_border_trade": 1900,
+   "logistics": 4100,
+   "event": false
+  },
+  {
+   "year": 2023,
+   "title": "新疆自贸区霍尔果斯片区",
+   "category": "transformation",
+   "desc": "中国（新疆）自由贸易试验区霍尔果斯片区揭牌，制度创新提速",
+   "impact": 9,
+   "pop": 95000,
+   "gdp": 225,
+   "cross_border_trade": 2400,
+   "logistics": 4800,
+   "event": true
+  },
+  {
+   "year": 2024,
+   "title": "提质转型",
+   "category": "transformation",
+   "desc": "霍尔果斯贸易额突破2800亿元，实体经济与跨境电商占比提升",
+   "impact": 9,
+   "pop": 100000,
+   "gdp": 255,
+   "cross_border_trade": 2850,
+   "logistics": 5300,
+   "event": true
+  }
+ ],
+ "chains": {
+  "cross_border_trade": {
+   "name": "边境贸易链",
+   "color": "#f59e0b",
+   "icon": "🛒",
+   "lifecycle": {
+    "birth": 2010,
+    "peak": 2024,
+    "decline": null
+   },
+   "nodes": [
+    {
+     "id": "cooperation_center",
+     "name": "中哈合作中心",
+     "x": 50,
+     "y": 50,
+     "status": "active",
+     "peak": "2010s"
+    },
+    {
+     "id": "bonded",
+     "name": "综合保税区",
+     "x": 150,
+     "y": 50,
+     "status": "active",
+     "peak": "2010s"
+    },
+    {
+     "id": "ecommerce",
+     "name": "跨境电商",
+     "x": 250,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "finance",
+     "name": "跨境金融",
+     "x": 350,
+     "y": 50,
+     "status": "growing",
+     "peak": "未来"
+    }
+   ],
+   "connections": [
+    {
+     "from": "cooperation_center",
+     "to": "bonded",
+     "flow": "人流物流"
+    },
+    {
+     "from": "bonded",
+     "to": "ecommerce",
+     "flow": "供应链"
+    },
+    {
+     "from": "ecommerce",
+     "to": "finance",
+     "flow": "结算需求"
+    }
+   ],
+   "employment": {
+    "peak": null,
+    "current": 50000
+   }
+  },
+  "energy_transit": {
+   "name": "能源通道链",
+   "color": "#0ea5e9",
+   "icon": "⛽",
+   "lifecycle": {
+    "birth": 2012,
+    "peak": 2024,
+    "decline": null
+   },
+   "nodes": [
+    {
+     "id": "pipeline",
+     "name": "油气管道",
+     "x": 50,
+     "y": 50,
+     "status": "active",
+     "peak": "2010s"
+    },
+    {
+     "id": "power",
+     "name": "跨境电网",
+     "x": 150,
+     "y": 50,
+     "status": "active",
+     "peak": "2020s"
+    },
+    {
+     "id": "storage",
+     "name": "储运设施",
+     "x": 250,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "new_energy",
+     "name": "新能源外送",
+     "x": 350,
+     "y": 50,
+     "status": "growing",
+     "peak": "未来"
+    }
+   ],
+   "connections": [
+    {
+     "from": "pipeline",
+     "to": "storage",
+     "flow": "油气资源"
+    },
+    {
+     "from": "power",
+     "to": "storage",
+     "flow": "电力调配"
+    },
+    {
+     "from": "storage",
+     "to": "new_energy",
+     "flow": "通道复用"
+    }
+   ],
+   "employment": {
+    "peak": null,
+    "current": 25000
+   }
+  },
+  "service_registration": {
+   "name": "政策驱动服务链",
+   "color": "#a855f7",
+   "icon": "🏢",
+   "lifecycle": {
+    "birth": 2015,
+    "peak": 2017,
+    "decline": 2018,
+    "collapse": 2020,
+    "dead": 2024
+   },
+   "nodes": [
+    {
+     "id": "tax_incentive",
+     "name": "税收优惠",
+     "x": 50,
+     "y": 50,
+     "status": "dying",
+     "peak": "2015-2017"
+    },
+    {
+     "id": "registration",
+     "name": "企业注册",
+     "x": 150,
+     "y": 50,
+     "status": "dying",
+     "peak": "2010s"
+    },
+    {
+     "id": "audit",
+     "name": "监管收紧",
+     "x": 250,
+     "y": 50,
+     "status": "active",
+     "peak": "2020s"
+    },
+    {
+     "id": "real_economy",
+     "name": "实体经济",
+     "x": 350,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s"
+    }
+   ],
+   "connections": [
+    {
+     "from": "tax_incentive",
+     "to": "registration",
+     "flow": "政策红利"
+    },
+    {
+     "from": "registration",
+     "to": "audit",
+     "flow": "空壳出清"
+    },
+    {
+     "from": "audit",
+     "to": "real_economy",
+     "flow": "规范转型"
+    }
+   ],
+   "employment": {
+    "peak": 20000,
+    "current": 12000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "tax_bubble",
+    "name": "政策套利泡沫",
+    "weight": 25,
+    "evidence": "大量影视、文化公司为税收优惠注册，缺乏实体经营",
+    "icon": "💸",
+    "selected": false
+   },
+   {
+    "id": "remote",
+    "name": "地处偏远",
+    "weight": 20,
+    "evidence": "距内地市场遥远，本地消费市场狭小，生活配套有限",
+    "icon": "🏔️",
+    "selected": false
+   },
+   {
+    "id": "climate",
+    "name": "气候与生态约束",
+    "weight": 15,
+    "evidence": "冬季寒冷漫长，伊犁河谷生态承载力有限",
+    "icon": "❄️",
+    "selected": false
+   },
+   {
+    "id": "competition",
+    "name": "口岸竞争加剧",
+    "weight": 15,
+    "evidence": "阿拉山口、巴克图等口岸分流中欧班列与边贸",
+    "icon": "⚔️",
+    "selected": false
+   },
+   {
+    "id": "hollowing",
+    "name": "产业空心化",
+    "weight": 15,
+    "evidence": "注册经济占比较高，本地就业与税收贡献不匹配",
+    "icon": "🏭",
+    "selected": false
+   },
+   {
+    "id": "geopolitics",
+    "name": "国际地缘波动",
+    "weight": 10,
+    "evidence": "中亚局势、疫情、制裁影响跨境物流与能源通道",
+    "icon": "🌊",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "location",
+    "name": "中哈边境区位",
+    "weight": 25,
+    "evidence": "中国西部唯一拥有中哈合作中心的口岸城市",
+    "icon": "🗺️",
+    "selected": false
+   },
+   {
+    "id": "logistics",
+    "name": "中欧班列通道",
+    "weight": 25,
+    "evidence": "丝绸之路经济带西向通道关键节点，班列密度持续提升",
+    "icon": "🚂",
+    "selected": false
+   },
+   {
+    "id": "policy",
+    "name": "自贸区与综保区",
+    "weight": 15,
+    "evidence": "新疆自贸区、综合保税区等政策平台叠加",
+    "icon": "📜",
+    "selected": false
+   },
+   {
+    "id": "energy",
+    "name": "能源过境走廊",
+    "weight": 15,
+    "evidence": "油气管道、跨境电网、新能源外送通道集聚",
+    "icon": "⛽",
+    "selected": false
+   },
+   {
+    "id": "ecommerce",
+    "name": "跨境电商",
+    "weight": 10,
+    "evidence": "跨境电商综试区带动新业态与实体仓储",
+    "icon": "📦",
+    "selected": false
+   },
+   {
+    "id": "opening",
+    "name": "向西开放战略",
+    "weight": 10,
+    "evidence": "一带一路与新疆核心区建设提升战略地位",
+    "icon": "🌏",
+    "selected": false
+   }
+  ]
+ },
+ "space_timeline": [
+  {
+   "year": 2010,
+   "built": 5,
+   "vacancy": 0.08
+  },
+  {
+   "year": 2013,
+   "built": 12,
+   "vacancy": 0.07
+  },
+  {
+   "year": 2015,
+   "built": 20,
+   "vacancy": 0.1
+  },
+  {
+   "year": 2017,
+   "built": 30,
+   "vacancy": 0.12
+  },
+  {
+   "year": 2019,
+   "built": 42,
+   "vacancy": 0.1
+  },
+  {
+   "year": 2021,
+   "built": 55,
+   "vacancy": 0.08
+  },
+  {
+   "year": 2023,
+   "built": 65,
+   "vacancy": 0.06
+  },
+  {
+   "year": 2024,
+   "built": 70,
+   "vacancy": 0.05
+  }
+ ],
+ "space": {
+  "built_up_area_km2": 70,
+  "peak_pop": 100000,
+  "current_pop": 100000,
+  "vacancy_rate": 0.05,
+  "landmark": "中哈霍尔果斯国际边境合作中心"
+ },
+ "migration": {
+  "outflow_total": 35000,
+  "destinations": [
+   {
+    "city": "伊宁",
+    "province": "新疆",
+    "count": 12000,
+    "reason": "州府资源与生活配套"
+   },
+   {
+    "city": "乌鲁木齐",
+    "province": "新疆",
+    "count": 10000,
+    "reason": "省会教育与职业流动"
+   },
+   {
+    "city": "哈萨克斯坦",
+    "province": "阿拉木图/阿斯塔纳",
+    "count": 6000,
+    "reason": "跨境经商与劳务"
+   },
+   {
+    "city": "北京",
+    "province": "北京",
+    "count": 3000,
+    "reason": "企业总部与商务往来"
+   },
+   {
+    "city": "其他城市",
+    "province": "全国",
+    "count": 4000,
+    "reason": "求学、创业、婚姻迁移"
+   }
+  ]
+ },
+ "achievements": [
+  {
+   "id": "huoerguosi_first_visit",
+   "name": "西陲门户",
+   "desc": "首次进入霍尔果斯，开启边境合作记忆",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "huoerguosi_sez",
+   "name": "特区设立",
+   "desc": "见证2010年霍尔果斯经济特区获批",
+   "condition": "year",
+   "year": 2010
+  },
+  {
+   "id": "huoerguosi_center",
+   "name": "合作中心",
+   "desc": "见证2012年中哈霍尔果斯国际边境合作中心试运营",
+   "condition": "year",
+   "year": 2012
+  },
+  {
+   "id": "huoerguosi_train",
+   "name": "班列西出",
+   "desc": "见证2016年中欧班列经霍尔果斯常态化开行",
+   "condition": "year",
+   "year": 2016
+  },
+  {
+   "id": "huoerguosi_ftz",
+   "name": "自贸片区",
+   "desc": "见证2023年新疆自贸区霍尔果斯片区揭牌",
+   "condition": "year",
+   "year": 2023
+  },
+  {
+   "id": "huoerguosi_chain",
+   "name": "西口枢纽拼图大师",
+   "desc": "完成霍尔果斯产业转型链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": {
+  "disclaimer": "本页面数据为教学演示与叙事游戏用途，部分历史节点、经济指标、人口与产业数据经过归一化、近似或综合多源整理，请以国家统计局、各地统计局及官方发布为准。",
+  "references": [
+   {
+    "name": "国家统计局",
+    "url": "https://data.stats.gov.cn/"
+   },
+   {
+    "name": "霍尔果斯市人民政府",
+    "url": "http://www.xjhegs.gov.cn/"
+   },
+   {
+    "name": "新疆维吾尔自治区统计局",
+    "url": "https://tjj.xinjiang.gov.cn/"
+   },
+   {
+    "name": "百度百科 - 霍尔果斯",
+    "url": "https://baike.baidu.com/item/%E9%9C%8D%E5%B0%94%E6%9E%9C%E6%96%AF"
+   }
+  ]
+ },
+ "simMode": "growth"
+}

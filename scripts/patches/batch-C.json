@@ -1,0 +1,135 @@
+{
+  "batch": "C",
+  "cities": [
+    {
+      "key": "daye",
+      "name": "大冶市",
+      "pop_latest": {"year": 2023, "value_wan": 86.24},
+      "census2020_wan": 87.12,
+      "gdp_latest": {"year": 2023, "value_yi": 863.15},
+      "gdp_history": [
+        {"year": 2020, "value_yi": 647.18},
+        {"year": 2021, "value_yi": 751.12},
+        {"year": 2022, "value_yi": 860.79},
+        {"year": 2024, "value_yi": 930.71}
+      ],
+      "sources": [
+        "http://www.etmoc.com/look/Statslisth?Id=11040",
+        "https://www.hbdaye.gov.cn/zfxxgk/fdgknr/tjxx/202312/t20231212_1078817.shtml",
+        "https://tjgb.hongheiku.com/xjtjgb/xj2020/47355.html"
+      ]
+    },
+    {
+      "key": "lingbao",
+      "name": "灵宝市",
+      "pop_latest": {"year": 2023, "value_wan": 65.85},
+      "census2020_wan": 65.66,
+      "gdp_latest": {"year": 2023, "value_yi": 484.1},
+      "gdp_history": [
+        {"year": 2020, "value_yi": 428.7},
+        {"year": 2021, "value_yi": 465.7}
+      ],
+      "sources": [
+        "https://www.zgrkk.com/reports/5195.html",
+        "https://www.sohu.com/a/468798961_121123740"
+      ]
+    },
+    {
+      "key": "zhaoyuan",
+      "name": "招远市",
+      "pop_latest": {"year": 2023, "value_wan": 53.08},
+      "census2020_wan": 54.31,
+      "gdp_latest": {"year": 2023, "value_yi": 868.45},
+      "gdp_history": [
+        {"year": 2020, "value_yi": 697.56},
+        {"year": 2021, "value_yi": 749.42},
+        {"year": 2024, "value_yi": 916.33}
+      ],
+      "sources": [
+        "http://www.etmoc.com/look/Statslisth?Id=11475",
+        "https://tjj.yantai.gov.cn/art/2021/6/5/art_117_2876181.html",
+        "https://tjgb.hongheiku.com/xjtjgb/xj2020/60677.html"
+      ]
+    },
+    {
+      "key": "dexing",
+      "name": "德兴市",
+      "pop_latest": {"year": 2023, "value_wan": 28.94},
+      "census2020_wan": 29.36,
+      "gdp_latest": {"year": 2023, "value_yi": 206.4},
+      "gdp_history": [
+        {"year": 2020, "value_yi": 165.96},
+        {"year": 2021, "value_yi": 191.3},
+        {"year": 2022, "value_yi": 202.06}
+      ],
+      "sources": [
+        "https://www.dxs.gov.cn/dxstjj/dxstjjtjxx2/202408/d3178b1701554b539cc341b4b1c47b67.shtml",
+        "https://tjgb.hongheiku.com/16631.html",
+        "https://zgrkk.com/reports/11680.html"
+      ]
+    },
+    {
+      "key": "dongchuan",
+      "name": "东川区（昆明）",
+      "pop_latest": {"year": 2023, "value_wan": 25.65},
+      "census2020_wan": 26.07,
+      "gdp_latest": {"year": 2023, "value_yi": 140.68},
+      "gdp_history": [
+        {"year": 2021, "value_yi": 132.85},
+        {"year": 2022, "value_yi": 138.2}
+      ],
+      "sources": [
+        "https://tjgb.hongheiku.com/xjtjgb/xj2020/55262.html",
+        "https://tjgb.hongheiku.com/rkpcgb/25432.html",
+        "http://www.kmdc.gov.cn/c/2024-01-30/6804493.shtml"
+      ]
+    },
+    {
+      "key": "gejiu",
+      "name": "个旧市",
+      "pop_latest": {"year": 2023, "value_wan": 41.45},
+      "census2020_wan": 41.93,
+      "gdp_latest": {"year": 2023, "value_yi": 417.1},
+      "gdp_history": [
+        {"year": 2022, "value_yi": 427.89}
+      ],
+      "sources": [
+        "https://www.hhgj.gov.cn/info/13291/376721.htm",
+        "https://tjgb.hongheiku.com/16096.html",
+        "https://www.hhgj.gov.cn/info/13291/376431.htm"
+      ]
+    },
+    {
+      "key": "lengshuijiang",
+      "name": "冷水江市",
+      "pop_latest": {"year": 2023, "value_wan": 32.59},
+      "census2020_wan": 32.99,
+      "gdp_latest": {"year": 2023, "value_yi": 267.8},
+      "gdp_history": [
+        {"year": 2021, "value_yi": 257.3},
+        {"year": 2022, "value_yi": 264.8}
+      ],
+      "sources": [
+        "https://tjgb.hongheiku.com/xjtjgb/xj2020/46842.html",
+        "https://tjgb.hongheiku.com/12994.html",
+        "http://www.etmoc.com/look/Statslisth?Id=11755"
+      ]
+    },
+    {
+      "key": "wanshan",
+      "name": "万山区（铜仁）",
+      "pop_latest": {"year": 2023, "value_wan": 16.2},
+      "census2020_wan": 16.06,
+      "gdp_latest": {"year": 2023, "value_yi": 89.2},
+      "gdp_history": [
+        {"year": 2021, "value_yi": 86.46},
+        {"year": 2024, "value_yi": 96.81}
+      ],
+      "sources": [
+        "https://tjgb.hongheiku.com/xjtjgb/xj2020/53032.html",
+        "http://www.trws.gov.cn/zwgk/zfsj/tjxx/202106/t20210617_83502941.html",
+        "https://tjgb.hongheiku.com/xjtjgb/xj2020/31354.html"
+      ]
+    }
+  ]
+}

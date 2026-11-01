@@ -1,0 +1,700 @@
+{
+ "profile": {
+  "name": "海南省",
+  "province": "海南省",
+  "prefecture": "省级经济特区 · 自由贸易港",
+  "area": "33,920 km²",
+  "coordinates": [
+   110.35,
+   20.02
+  ],
+  "tags": [
+   "省级经济特区",
+   "自由贸易港",
+   "国际旅游岛",
+   "热带农业"
+  ],
+  "description": "1988年建省并办全国最大经济特区，2018年中央支持建设中国特色自由贸易港。海南依托热带资源与离岛免税政策，正从房地产驱动向旅游、消费、热带农业和高新技术服务转型。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 1988,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "建省前奏",
+    "start": 1986,
+    "end": 1987,
+    "color": "gray"
+   },
+   {
+    "name": "建省办特区",
+    "start": 1988,
+    "end": 1992,
+    "color": "green"
+   },
+   {
+    "name": "房地产泡沫与调整",
+    "start": 1993,
+    "end": 1999,
+    "color": "red"
+   },
+   {
+    "name": "国际旅游岛",
+    "start": 2000,
+    "end": 2017,
+    "color": "yellow"
+   },
+   {
+    "name": "自贸港时代",
+    "start": 2018,
+    "end": 2024,
+    "color": "purple"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "tourism",
+    "label": "接待游客",
+    "unit": "万人次",
+    "max": 12000,
+    "color": "#06b6d4"
+   },
+   {
+    "key": "duty_free",
+    "label": "离岛免税销售额",
+    "unit": "亿元",
+    "max": 800,
+    "color": "#f59e0b"
+   }
+  ],
+  "spaceType": "single_city",
+  "spaceLabels": {
+   "old": "海口老城",
+   "new": "重点园区"
+  },
+  "cityKey": "hainan",
+  "chainKeys": [
+   "tourism",
+   "duty_free_trade",
+   "tropical_agri_hitech"
+  ],
+  "chainContainerIds": [
+   "tourismChain",
+   "dutyFreeChain",
+   "tropicalChain"
+  ],
+  "currentStatus": "中国特色自由贸易港，国际旅游消费中心",
+  "transformationAssessment": "从房地产热岛到自贸港试验田",
+  "transformationDetail": "海南以全省为特区，历经房地产泡沫、国际旅游岛、自由贸易港三轮政策升级，离岛免税、跨境服务贸易、热带种业和航天深海产业成为新增长极。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 1988,
+   "title": "建省办经济特区",
+   "category": "discovery",
+   "desc": "海南省成立，成为中国唯一的省级经济特区",
+   "impact": 10,
+   "pop": 6550000,
+   "gdp": 77,
+   "tourism": 120,
+   "duty_free": 0,
+   "event": true
+  },
+  {
+   "year": 1992,
+   "title": "房地产迅速升温",
+   "category": "peak",
+   "desc": "海南出现全国瞩目的房地产热潮，地价房价飞涨",
+   "impact": 7,
+   "pop": 6700000,
+   "gdp": 150,
+   "tourism": 300,
+   "duty_free": 0,
+   "event": true
+  },
+  {
+   "year": 1993,
+   "title": "宏观调控泡沫破裂",
+   "category": "decline",
+   "desc": "国家收紧房地产信贷，海南大量烂尾楼出现，经济深度调整",
+   "impact": 8,
+   "pop": 6800000,
+   "gdp": 204,
+   "tourism": 400,
+   "duty_free": 0,
+   "event": true
+  },
+  {
+   "year": 1996,
+   "title": "发展热带农业与旅游",
+   "category": "transformation",
+   "desc": "海南提出“一省两地”战略，转向新兴工业省、热带农业基地和度假旅游基地",
+   "impact": 7,
+   "pop": 7100000,
+   "gdp": 389,
+   "tourism": 800,
+   "duty_free": 0,
+   "event": false
+  },
+  {
+   "year": 2000,
+   "title": "博鳌亚洲论坛",
+   "category": "transformation",
+   "desc": "博鳌亚洲论坛永久会址落户海南，提升国际会议品牌",
+   "impact": 8,
+   "pop": 7600000,
+   "gdp": 566,
+   "tourism": 1100,
+   "duty_free": 0,
+   "event": true
+  },
+  {
+   "year": 2009,
+   "title": "国际旅游岛上升为国家战略",
+   "category": "transformation",
+   "desc": "国务院发布意见，海南国际旅游岛建设全面启动",
+   "impact": 9,
+   "pop": 8600000,
+   "gdp": 1650,
+   "tourism": 2200,
+   "duty_free": 0,
+   "event": true
+  },
+  {
+   "year": 2011,
+   "title": "离岛免税政策落地",
+   "category": "transformation",
+   "desc": "海南实施离岛旅客免税购物政策，免税业成为消费新引擎",
+   "impact": 8,
+   "pop": 8900000,
+   "gdp": 2515,
+   "tourism": 3000,
+   "duty_free": 10,
+   "event": true
+  },
+  {
+   "year": 2015,
+   "title": "房地产库存压力显现",
+   "category": "decline",
+   "desc": "部分市县房地产库存高企，经济对地产依赖引发调控",
+   "impact": 6,
+   "pop": 9100000,
+   "gdp": 3703,
+   "tourism": 4500,
+   "duty_free": 120,
+   "event": false
+  },
+  {
+   "year": 2018,
+   "title": "自由贸易港建设启动",
+   "category": "discovery",
+   "desc": "中央宣布支持海南全岛建设自由贸易试验区并探索自由贸易港",
+   "impact": 10,
+   "pop": 9340000,
+   "gdp": 4832,
+   "tourism": 7600,
+   "duty_free": 260,
+   "event": true
+  },
+  {
+   "year": 2020,
+   "title": "自贸港政策密集落地",
+   "category": "transformation",
+   "desc": "海南自由贸易港建设总体方案发布，零关税、低税率等制度安排逐步实施",
+   "impact": 9,
+   "pop": 10081000,
+   "gdp": 5532,
+   "tourism": 6500,
+   "duty_free": 327,
+   "event": true
+  },
+  {
+   "year": 2021,
+   "title": "自贸港重点园区加速",
+   "category": "transformation",
+   "desc": "洋浦、博鳌乐城、三亚崖州湾科技城等重点园区集聚产业",
+   "impact": 8,
+   "pop": 10200000,
+   "gdp": 6475,
+   "tourism": 8100,
+   "duty_free": 495,
+   "event": false
+  },
+  {
+   "year": 2023,
+   "title": "封关运作压力测试",
+   "category": "transformation",
+   "desc": "海南启动全岛封关运作准备，自贸港制度型开放进入攻坚阶段",
+   "impact": 9,
+   "pop": 10430000,
+   "gdp": 7551,
+   "tourism": 9000,
+   "duty_free": 437,
+   "event": true
+  },
+  {
+   "year": 2024,
+   "title": "自贸港高质量发展",
+   "category": "transformation",
+   "desc": "海南GDP突破7900亿元，离岛免税、航天深海、热带种业和跨境服务贸易并进",
+   "impact": 9,
+   "pop": 10500000,
+   "gdp": 7935,
+   "tourism": 11000,
+   "duty_free": 500,
+   "event": true
+  }
+ ],
+ "chains": {
+  "tourism": {
+   "name": "滨海旅游链",
+   "color": "#06b6d4",
+   "icon": "🌴",
+   "lifecycle": {
+    "birth": 1988,
+    "peak": 2017,
+    "decline": null
+   },
+   "nodes": [
+    {
+     "id": "coast",
+     "name": "滨海度假",
+     "x": 50,
+     "y": 50,
+     "status": "active",
+     "peak": "2000s"
+    },
+    {
+     "id": "island",
+     "name": "离岛海岛游",
+     "x": 150,
+     "y": 50,
+     "status": "active",
+     "peak": "2010s"
+    },
+    {
+     "id": "mice",
+     "name": "会展健康游",
+     "x": 250,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "cruise",
+     "name": "邮轮游艇",
+     "x": 350,
+     "y": 50,
+     "status": "growing",
+     "peak": "未来"
+    }
+   ],
+   "connections": [
+    {
+     "from": "coast",
+     "to": "island",
+     "flow": "客流"
+    },
+    {
+     "from": "island",
+     "to": "mice",
+     "flow": "高端消费"
+    },
+    {
+     "from": "mice",
+     "to": "cruise",
+     "flow": "国际流量"
+    }
+   ],
+   "employment": {
+    "peak": 600000,
+    "current": 500000
+   }
+  },
+  "duty_free_trade": {
+   "name": "免税与贸易链",
+   "color": "#f59e0b",
+   "icon": "🛍️",
+   "lifecycle": {
+    "birth": 2011,
+    "peak": 2021,
+    "decline": null
+   },
+   "nodes": [
+    {
+     "id": "duty_free",
+     "name": "离岛免税",
+     "x": 50,
+     "y": 50,
+     "status": "active",
+     "peak": "2020s"
+    },
+    {
+     "id": "cross_border",
+     "name": "跨境电商",
+     "x": 150,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "bonded",
+     "name": "保税物流",
+     "x": 250,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "service",
+     "name": "服务贸易",
+     "x": 350,
+     "y": 50,
+     "status": "growing",
+     "peak": "未来"
+    }
+   ],
+   "connections": [
+    {
+     "from": "duty_free",
+     "to": "cross_border",
+     "flow": "消费流量"
+    },
+    {
+     "from": "cross_border",
+     "to": "bonded",
+     "flow": "供应链"
+    },
+    {
+     "from": "bonded",
+     "to": "service",
+     "flow": "制度开放"
+    }
+   ],
+   "employment": {
+    "peak": null,
+    "current": 120000
+   }
+  },
+  "tropical_agri_hitech": {
+   "name": "热带农业与高新链",
+   "color": "#10b981",
+   "icon": "🌿",
+   "lifecycle": {
+    "birth": 1996,
+    "peak": 2024,
+    "decline": null
+   },
+   "nodes": [
+    {
+     "id": "crop",
+     "name": "热带作物",
+     "x": 50,
+     "y": 50,
+     "status": "active",
+     "peak": "2000s"
+    },
+    {
+     "id": "seed",
+     "name": "南繁种业",
+     "x": 150,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "deep_sea",
+     "name": "深海科技",
+     "x": 250,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "aerospace",
+     "name": "商业航天",
+     "x": 350,
+     "y": 50,
+     "status": "growing",
+     "peak": "未来"
+    }
+   ],
+   "connections": [
+    {
+     "from": "crop",
+     "to": "seed",
+     "flow": "种质资源"
+    },
+    {
+     "from": "seed",
+     "to": "deep_sea",
+     "flow": "科研平台"
+    },
+    {
+     "from": "deep_sea",
+     "to": "aerospace",
+     "flow": "高端制造"
+    }
+   ],
+   "employment": {
+    "peak": null,
+    "current": 150000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "real_estate",
+    "name": "房地产依赖",
+    "weight": 25,
+    "evidence": "1990年代泡沫与2010年代高库存显示经济对地产高度敏感",
+    "icon": "🏠",
+    "selected": false
+   },
+   {
+    "id": "industry_base",
+    "name": "产业基础薄弱",
+    "weight": 20,
+    "evidence": "工业体系不完整，除旅游和农业外缺乏千亿级产业集群",
+    "icon": "🏭",
+    "selected": false
+   },
+   {
+    "id": "talent",
+    "name": "人才与劳动力外流",
+    "weight": 15,
+    "evidence": "高端人才向珠三角、长三角流动，本地劳动力供给有限",
+    "icon": "👥",
+    "selected": false
+   },
+   {
+    "id": "transport",
+    "name": "交通与物流成本",
+    "weight": 15,
+    "evidence": "岛屿地理导致进出岛运输成本高，物流时效受限",
+    "icon": "🚢",
+    "selected": false
+   },
+   {
+    "id": "external",
+    "name": "外部冲击敏感",
+    "weight": 15,
+    "evidence": "疫情、国际客流波动对旅游业和免税消费影响显著",
+    "icon": "📉",
+    "selected": false
+   },
+   {
+    "id": "ecology",
+    "name": "生态与土地约束",
+    "weight": 10,
+    "evidence": "热带雨林保护、海岸带管控限制大规模工业开发",
+    "icon": "🌿",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "policy",
+    "name": "自由贸易港政策",
+    "weight": 25,
+    "evidence": "零关税、低税率、封关运作等制度创新释放开放红利",
+    "icon": "📜",
+    "selected": false
+   },
+   {
+    "id": "tourism",
+    "name": "热带旅游资源",
+    "weight": 20,
+    "evidence": "滨海、雨林、温泉、离岛等自然资源禀赋全国独有",
+    "icon": "🌴",
+    "selected": false
+   },
+   {
+    "id": "duty_free",
+    "name": "离岛免税消费",
+    "weight": 20,
+    "evidence": "全球最大单体免税店和离岛免税销售额持续增长",
+    "icon": "🛍️",
+    "selected": false
+   },
+   {
+    "id": "location",
+    "name": "RCEP与双循环区位",
+    "weight": 15,
+    "evidence": "背靠超大规模市场、面向东南亚和太平洋的开放前沿",
+    "icon": "🗺️",
+    "selected": false
+   },
+   {
+    "id": "hitech",
+    "name": "南繁与深海航天",
+    "weight": 10,
+    "evidence": "南繁育种、深海科技、商业航天等未来产业加速布局",
+    "icon": "🚀",
+    "selected": false
+   },
+   {
+    "id": "ecology",
+    "name": "生态宜居品牌",
+    "weight": 10,
+    "evidence": "空气质量与生态环境优势吸引康养与高端人才",
+    "icon": "🌿",
+    "selected": false
+   }
+  ]
+ },
+ "space_timeline": [
+  {
+   "year": 1988,
+   "built": 50,
+   "vacancy": 0.07
+  },
+  {
+   "year": 1993,
+   "built": 90,
+   "vacancy": 0.15
+  },
+  {
+   "year": 2000,
+   "built": 150,
+   "vacancy": 0.1
+  },
+  {
+   "year": 2005,
+   "built": 220,
+   "vacancy": 0.08
+  },
+  {
+   "year": 2010,
+   "built": 310,
+   "vacancy": 0.07
+  },
+  {
+   "year": 2015,
+   "built": 420,
+   "vacancy": 0.09
+  },
+  {
+   "year": 2020,
+   "built": 520,
+   "vacancy": 0.06
+  },
+  {
+   "year": 2024,
+   "built": 600,
+   "vacancy": 0.05
+  }
+ ],
+ "space": {
+  "built_up_area_km2": 600,
+  "peak_pop": 10500000,
+  "current_pop": 10500000,
+  "vacancy_rate": 0.05,
+  "landmark": "海口江东新区与三亚中央商务区"
+ },
+ "migration": {
+  "outflow_total": 1200000,
+  "destinations": [
+   {
+    "city": "广州",
+    "province": "广东",
+    "count": 300000,
+    "reason": "省会资源与职业流动"
+   },
+   {
+    "city": "深圳",
+    "province": "广东",
+    "count": 250000,
+    "reason": "产业外溢与就业迁移"
+   },
+   {
+    "city": "上海",
+    "province": "上海",
+    "count": 120000,
+    "reason": "高端服务与金融机会"
+   },
+   {
+    "city": "北京",
+    "province": "北京",
+    "count": 100000,
+    "reason": "教育与总部经济"
+   },
+   {
+    "city": "其他城市",
+    "province": "全国/海外",
+    "count": 430000,
+    "reason": "求学、创业、退休迁移"
+   }
+  ]
+ },
+ "achievements": [
+  {
+   "id": "hainan_first_visit",
+   "name": "琼岛印记",
+   "desc": "首次进入海南，开启省级特区记忆",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "hainan_sez",
+   "name": "建省办特区",
+   "desc": "见证1988年海南省暨经济特区成立",
+   "condition": "year",
+   "year": 1988
+  },
+  {
+   "id": "hainan_bubble",
+   "name": "泡沫警示",
+   "desc": "见证1993年海南房地产泡沫破裂与调整",
+   "condition": "year",
+   "year": 1993
+  },
+  {
+   "id": "hainan_resort",
+   "name": "国际旅游岛",
+   "desc": "见证2009年海南国际旅游岛上升为国家战略",
+   "condition": "year",
+   "year": 2009
+  },
+  {
+   "id": "hainan_port",
+   "name": "自贸港启航",
+   "desc": "见证2018年海南自由贸易港建设启动",
+   "condition": "year",
+   "year": 2018
+  },
+  {
+   "id": "hainan_chain",
+   "name": "琼州产业拼图大师",
+   "desc": "完成海南产业转型链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": {
+  "disclaimer": "本页面数据为教学演示与叙事游戏用途，部分历史节点、经济指标、人口与产业数据经过归一化、近似或综合多源整理，请以国家统计局、各地统计局及官方发布为准。",
+  "references": [
+   {
+    "name": "国家统计局",
+    "url": "https://data.stats.gov.cn/"
+   },
+   {
+    "name": "海南省人民政府",
+    "url": "https://www.hainan.gov.cn/"
+   },
+   {
+    "name": "海南省统计局",
+    "url": "http://stats.hainan.gov.cn/"
+   },
+   {
+    "name": "百度百科 - 海南经济特区",
+    "url": "https://baike.baidu.com/item/%E6%B5%B7%E5%8D%97%E7%BB%8F%E6%B5%8E%E7%89%B9%E5%8C%BA"
+   }
+  ]
+ },
+ "simMode": "growth"
+}

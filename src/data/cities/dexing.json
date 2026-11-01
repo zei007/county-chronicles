@@ -1,0 +1,775 @@
+{
+ "profile": {
+  "name": "德兴市",
+  "province": "江西省",
+  "prefecture": "上饶市代管",
+  "area": "2,082 km²",
+  "coordinates": [
+   117.58,
+   28.96
+  ],
+  "tags": [
+   "中国铜都",
+   "亚洲最大露天铜矿",
+   "金山银城",
+   "铜精深加工"
+  ],
+  "description": "赣东北的'中国铜都'，德兴铜矿是亚洲最大的露天铜矿，唐宋时期即有采铜记载。1958年启动现代地质勘探，1965年大型露天矿山投产，铜产量曾长期占全国十分之一以上。进入新世纪后，露天矿转入深部开采、品位下降，德兴正从单一铜矿采选向铜基新材料、贵金属综合回收、生态旅游转型。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 1958,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "起家期",
+    "start": 1958,
+    "end": 1977,
+    "color": "green"
+   },
+   {
+    "name": "壮盛期",
+    "start": 1978,
+    "end": 2000,
+    "color": "yellow"
+   },
+   {
+    "name": "调整期",
+    "start": 2001,
+    "end": 2013,
+    "color": "red"
+   },
+   {
+    "name": "转型期",
+    "start": 2014,
+    "end": 2024,
+    "color": "teal"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "copper",
+    "label": "铜产量",
+    "unit": "万吨",
+    "max": 30,
+    "color": "#b87333"
+   },
+   {
+    "key": "gold",
+    "label": "伴生金产量",
+    "unit": "吨",
+    "max": 25,
+    "color": "#c9a84c"
+   }
+  ],
+  "spaceType": "built_up",
+  "spaceLabels": {
+   "built": "建成区",
+   "density": "人口密度"
+  },
+  "cityKey": "dexing",
+  "chainKeys": [
+   "copper",
+   "deep_processing"
+  ],
+  "chainContainerIds": [
+   "copperChain",
+   "deepChain"
+  ],
+  "currentStatus": "铜基新材料之都，绿色矿山转型中",
+  "transformationAssessment": "从'挖铜卖铜'到'铜基新材料'的产业升级",
+  "transformationDetail": "德兴铜矿累计产铜超800万吨，露天开采进入深部后品位下降、成本上升。依托江铜集团，发展铜杆、铜箔、铜合金、贵金属回收等精深加工，同时以矿山公园、温泉康养、红色旅游为转型抓手。但产业结构对江铜依赖仍深，接续产业培育任重道远。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 1958,
+   "title": "德兴铜矿发现",
+   "category": "discovery",
+   "desc": "地质队在赣东北发现特大型斑岩铜矿床，开启德兴现代铜工业序幕",
+   "impact": 10,
+   "pop": 80000,
+   "copper": 0,
+   "gold": 0,
+   "gdp": 0.3,
+   "event": true
+  },
+  {
+   "year": 1965,
+   "title": "大型露天矿投产",
+   "category": "peak",
+   "desc": "德兴铜矿大型露天采场投产，成为中国最大的铜原料生产基地",
+   "impact": 9,
+   "pop": 120000,
+   "copper": 1,
+   "gold": 0.5,
+   "gdp": 1.5,
+   "event": true
+  },
+  {
+   "year": 1970,
+   "title": "选矿厂扩建",
+   "category": "peak",
+   "desc": "大规模选矿冶炼设施建成，铜精矿产能快速提升",
+   "impact": 8,
+   "pop": 150000,
+   "copper": 3,
+   "gold": 1,
+   "gdp": 3,
+   "event": false
+  },
+  {
+   "year": 1978,
+   "title": "改革开放提速",
+   "category": "peak",
+   "desc": "引进国外先进采选技术，德兴铜矿进入高速发展阶段",
+   "impact": 8,
+   "pop": 180000,
+   "copper": 5,
+   "gold": 2,
+   "gdp": 6,
+   "event": false
+  },
+  {
+   "year": 1985,
+   "title": "产量破十万吨",
+   "category": "peak",
+   "desc": "年产铜突破10万吨，德兴成为全国铜工业的核心支撑",
+   "impact": 9,
+   "pop": 220000,
+   "copper": 12,
+   "gold": 5,
+   "gdp": 15,
+   "event": true
+  },
+  {
+   "year": 1990,
+   "title": "亚洲最大露天矿",
+   "category": "peak",
+   "desc": "德兴铜矿成为亚洲最大的露天铜矿，'中国铜都'地位确立",
+   "impact": 10,
+   "pop": 260000,
+   "copper": 18,
+   "gold": 8,
+   "gdp": 28,
+   "event": true
+  },
+  {
+   "year": 1995,
+   "title": "产能巅峰",
+   "category": "peak",
+   "desc": "年产铜接近25万吨，伴生金、银回收规模同步扩大",
+   "impact": 9,
+   "pop": 290000,
+   "copper": 24,
+   "gold": 12,
+   "gdp": 45,
+   "event": true
+  },
+  {
+   "year": 2000,
+   "title": "品位下降预警",
+   "category": "decline",
+   "desc": "露天矿进入中深部开采，矿石品位明显下降，选矿成本上升",
+   "impact": 8,
+   "pop": 310000,
+   "copper": 22,
+   "gold": 11,
+   "gdp": 58,
+   "event": true
+  },
+  {
+   "year": 2005,
+   "title": "环保与尾矿压力",
+   "category": "decline",
+   "desc": "大规模露天开采带来尾矿库安全与生态修复压力，环保约束趋紧",
+   "impact": 8,
+   "pop": 320000,
+   "copper": 20,
+   "gold": 10,
+   "gdp": 72,
+   "event": false
+  },
+  {
+   "year": 2010,
+   "title": "铜深加工起步",
+   "category": "transformation",
+   "desc": "铜杆、铜线等初级加工项目落地，产业链开始向下游延伸",
+   "impact": 7,
+   "pop": 330000,
+   "copper": 18,
+   "gold": 9,
+   "gdp": 95,
+   "event": true
+  },
+  {
+   "year": 2013,
+   "title": "深部开采",
+   "category": "decline",
+   "desc": "铜厂矿、富家坞矿转入深部开采，开采成本持续攀升",
+   "impact": 8,
+   "pop": 335000,
+   "copper": 16,
+   "gold": 8,
+   "gdp": 110,
+   "event": true
+  },
+  {
+   "year": 2015,
+   "title": "铜箔产业园",
+   "category": "transformation",
+   "desc": "锂电铜箔、电子铜箔项目落地，对接新能源电池产业风口",
+   "impact": 8,
+   "pop": 340000,
+   "copper": 15,
+   "gold": 8,
+   "gdp": 130,
+   "event": true
+  },
+  {
+   "year": 2018,
+   "title": "绿色矿山试点",
+   "category": "transformation",
+   "desc": "入选国家级绿色矿山试点，尾矿综合利用与生态修复同步推进",
+   "impact": 7,
+   "pop": 345000,
+   "copper": 14,
+   "gold": 7.5,
+   "gdp": 155,
+   "event": true
+  },
+  {
+   "year": 2020,
+   "title": "铜基新材料",
+   "category": "transformation",
+   "desc": "铜合金、铜基电子材料、高端铜箔产能扩张，深加工产值占比提升",
+   "impact": 8,
+   "pop": 293600,
+   "copper": 13,
+   "gold": 7,
+   "gdp": 165.96,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2021,
+   "title": "2021年统计锚点",
+   "category": "transformation",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 293600,
+   "gdp": 191.3,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2022,
+   "title": "2022年统计锚点",
+   "category": "peak",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 293600,
+   "gdp": 202.06,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2023,
+   "title": "2023年统计锚点",
+   "category": "peak",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 289400,
+   "gdp": 206.4,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2024,
+   "title": "铜都新征程",
+   "category": "transformation",
+   "desc": "德兴正打造世界级铜基新材料产业集群，矿山公园与康养旅游成为城市新名片",
+   "impact": 9,
+   "pop": 350000,
+   "copper": 12,
+   "gold": 6.5,
+   "gdp": 210,
+   "event": true
+  }
+ ],
+ "space_timeline": [
+  {
+   "year": 1958,
+   "old_area": 1,
+   "new_area": 0,
+   "old_pop": 80000,
+   "vacancy": 0
+  },
+  {
+   "year": 1978,
+   "old_area": 6,
+   "new_area": 0,
+   "old_pop": 180000,
+   "vacancy": 0
+  },
+  {
+   "year": 1995,
+   "old_area": 18,
+   "new_area": 0,
+   "old_pop": 290000,
+   "vacancy": 0.05
+  },
+  {
+   "year": 2010,
+   "old_area": 22,
+   "new_area": 4,
+   "old_pop": 330000,
+   "vacancy": 0.12
+  },
+  {
+   "year": 2024,
+   "old_area": 20,
+   "new_area": 15,
+   "old_pop": 350000,
+   "vacancy": 0.18
+  }
+ ],
+ "space": {
+  "old_city": {
+   "name": "铜都老城片区",
+   "vacancy": 0.18,
+   "landmark": "德兴铜矿采选区",
+   "peak_pop": 350000,
+   "current_pop": 350000
+  },
+  "new_city": {
+   "name": "香屯/新营产业新区",
+   "peak_pop": 0,
+   "current_pop": 90000,
+   "landmark": "铜基新材料产业园"
+  },
+  "distance_km": 10,
+  "built_up_area_km2": 26,
+  "current_pop": 293000,
+  "peak_pop": 300000,
+  "vacancy_rate": 0.15
+ },
+ "chains": {
+  "copper": {
+   "name": "铜矿产业链",
+   "color": "#b87333",
+   "icon": "🟤",
+   "lifecycle": {
+    "birth": 1958,
+    "peak": 1995,
+    "decline": 2000,
+    "collapse": null,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "explore",
+     "name": "地质勘探",
+     "status": "active",
+     "peak": "1950s-1970s",
+     "decline": "1990s"
+    },
+    {
+     "id": "opencast",
+     "name": "露天开采",
+     "status": "dying",
+     "peak": "1970s-1990s",
+     "decline": "2000s"
+    },
+    {
+     "id": "underground",
+     "name": "深部开采",
+     "status": "active",
+     "peak": "2010s",
+     "decline": "持续"
+    },
+    {
+     "id": "dressing",
+     "name": "选矿加工",
+     "status": "active",
+     "peak": "1980s-2000s",
+     "decline": "持续"
+    },
+    {
+     "id": "smelt",
+     "name": "火法冶炼",
+     "status": "active",
+     "peak": "1990s-2010s",
+     "decline": "持续"
+    },
+    {
+     "id": "refine",
+     "name": "电解精炼",
+     "status": "active",
+     "peak": "2000s",
+     "decline": "未来"
+    }
+   ],
+   "connections": [
+    {
+     "from": "explore",
+     "to": "opencast",
+     "flow": "矿床数据"
+    },
+    {
+     "from": "explore",
+     "to": "underground",
+     "flow": "深部储量"
+    },
+    {
+     "from": "opencast",
+     "to": "dressing",
+     "flow": "铜矿石"
+    },
+    {
+     "from": "underground",
+     "to": "dressing",
+     "flow": "铜矿石"
+    },
+    {
+     "from": "dressing",
+     "to": "smelt",
+     "flow": "铜精矿"
+    },
+    {
+     "from": "smelt",
+     "to": "refine",
+     "flow": "粗铜"
+    }
+   ],
+   "employment": {
+    "peak": 80000,
+    "current": 45000
+   }
+  },
+  "deep_processing": {
+   "name": "铜基新材料产业链",
+   "color": "#2d6a4f",
+   "icon": "⚡",
+   "lifecycle": {
+    "birth": 2010,
+    "growth": 2015,
+    "peak": null
+   },
+   "nodes": [
+    {
+     "id": "rod",
+     "name": "铜杆铜线",
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "foil",
+     "name": "锂电铜箔",
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "alloy",
+     "name": "铜合金",
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "pcb",
+     "name": "电子基材",
+     "status": "emerging",
+     "peak": "未来"
+    },
+    {
+     "id": "recycle",
+     "name": "再生铜",
+     "status": "emerging",
+     "peak": "未来"
+    },
+    {
+     "id": "precious",
+     "name": "金银回收",
+     "status": "active",
+     "peak": "2020s"
+    }
+   ],
+   "connections": [
+    {
+     "from": "rod",
+     "to": "foil",
+     "flow": "铜基材"
+    },
+    {
+     "from": "rod",
+     "to": "alloy",
+     "flow": "铜基材"
+    },
+    {
+     "from": "foil",
+     "to": "pcb",
+     "flow": "铜箔"
+    },
+    {
+     "from": "recycle",
+     "to": "rod",
+     "flow": "再生铜"
+    },
+    {
+     "from": "refine",
+     "to": "precious",
+     "flow": "阳极泥"
+    }
+   ],
+   "employment": {
+    "peak": null,
+    "current": 30000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "resource",
+    "name": "露天矿品位下降",
+    "weight": 30,
+    "evidence": "转入深部开采后矿石品位从1%以上降至0.5%左右",
+    "icon": "⛏️",
+    "selected": false
+   },
+   {
+    "id": "environment",
+    "name": "尾矿与生态压力",
+    "weight": 20,
+    "evidence": "亚洲最大露天矿带来巨型尾矿库与酸性水治理压力",
+    "icon": "🌱",
+    "selected": false
+   },
+   {
+    "id": "cost",
+    "name": "深部开采成本",
+    "weight": 15,
+    "evidence": "剥离比增大、提升运输距离增加，成本持续上升",
+    "icon": "🏔️",
+    "selected": false
+   },
+   {
+    "id": "structure",
+    "name": "产业结构单一",
+    "weight": 15,
+    "evidence": "经济高度依赖江铜集团及铜采选冶，抗风险能力弱",
+    "icon": "🏭",
+    "selected": false
+   },
+   {
+    "id": "price",
+    "name": "铜价周期波动",
+    "weight": 10,
+    "evidence": "国际铜价大幅波动影响矿山盈利与地方财政",
+    "icon": "📉",
+    "selected": false
+   },
+   {
+    "id": "talent",
+    "name": "人才外流",
+    "weight": 10,
+    "evidence": "年轻技术人才向南昌、上海、深圳流动",
+    "icon": "👥",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "resource",
+    "name": "世界级铜矿资源",
+    "weight": 30,
+    "evidence": "德兴铜矿保有储量仍居全国前列，资源禀赋突出",
+    "icon": "🏔️",
+    "selected": false
+   },
+   {
+    "id": "deep",
+    "name": "铜基新材料",
+    "weight": 25,
+    "evidence": "铜箔、铜合金、电子铜基材料延伸价值链",
+    "icon": "⚡",
+    "selected": false
+   },
+   {
+    "id": "precious",
+    "name": "贵金属综合回收",
+    "weight": 15,
+    "evidence": "伴生金、银、钼、铼等高价值金属回收",
+    "icon": "🥇",
+    "selected": false
+   },
+   {
+    "id": "policy",
+    "name": "绿色矿山与循环经济",
+    "weight": 15,
+    "evidence": "尾矿综合利用、矿山生态修复政策支持",
+    "icon": "📜",
+    "selected": false
+   },
+   {
+    "id": "tourism",
+    "name": "矿山文旅与生态康养",
+    "weight": 10,
+    "evidence": "矿山公园、温泉、红色旅游等新业态",
+    "icon": "🌿",
+    "selected": false
+   },
+   {
+    "id": "group",
+    "name": "江铜集团支撑",
+    "weight": 5,
+    "evidence": "江西铜业世界500强企业提供技术与市场支撑",
+    "icon": "🏭",
+    "selected": false
+   }
+  ]
+ },
+ "map": {
+  "center": [
+   117.58,
+   28.96
+  ],
+  "zoom": 12,
+  "features": [
+   {
+    "name": "德兴铜矿",
+    "type": "industrial",
+    "coord": [
+     117.55,
+     28.92
+    ],
+    "desc": "亚洲最大的露天铜矿，世界级斑岩铜矿"
+   },
+   {
+    "name": "铜基新材料产业园",
+    "type": "industrial",
+    "coord": [
+     117.62,
+     29
+    ],
+    "desc": "铜箔、铜杆、铜合金等精深加工产业集聚"
+   },
+   {
+    "name": "银山矿业",
+    "type": "industrial",
+    "coord": [
+     117.5,
+     28.98
+    ],
+    "desc": "历史悠久的银矿，现为铅锌银综合矿山"
+   },
+   {
+    "name": "凤凰湖",
+    "type": "natural",
+    "coord": [
+     117.6,
+     28.95
+    ],
+    "desc": "矿山生态修复形成的城市湖泊与休闲空间"
+   },
+   {
+    "name": "龙头山",
+    "type": "cultural",
+    "coord": [
+     117.65,
+     28.9
+    ],
+    "desc": "红色文化与生态康养旅游目的地"
+   }
+  ]
+ },
+ "images": [
+  "https://picsum.photos/800/600?random=100",
+  "https://picsum.photos/800/600?random=101",
+  "https://picsum.photos/800/600?random=102",
+  "https://picsum.photos/800/600?random=103",
+  "https://picsum.photos/800/600?random=104"
+ ],
+ "migration": {
+  "outflow_total": 28000,
+  "destinations": [
+   {
+    "city": "上饶",
+    "province": "江西",
+    "count": 10000,
+    "reason": "就近务工"
+   },
+   {
+    "city": "南昌",
+    "province": "江西",
+    "count": 8000,
+    "reason": "省会就业"
+   },
+   {
+    "city": "杭州",
+    "province": "浙江",
+    "count": 5000,
+    "reason": "长三角务工"
+   },
+   {
+    "city": "上海",
+    "province": "上海",
+    "count": 3000,
+    "reason": "外出务工"
+   },
+   {
+    "city": "其他地区",
+    "province": "全国",
+    "count": 2000,
+    "reason": "外出务工与经商"
+   }
+  ]
+ },
+ "achievements": [
+  {
+   "id": "dexing_first_visit",
+   "name": "中国铜都",
+   "desc": "首次进入德兴，探访亚洲最大露天铜矿",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "dexing_mine",
+   "name": "德兴铜矿",
+   "desc": "见证德兴铜矿大规模开发",
+   "condition": "year",
+   "year": 1958
+  },
+  {
+   "id": "dexing_material",
+   "name": "铜基新材料",
+   "desc": "见证德兴铜精深加工产业延伸",
+   "condition": "year",
+   "year": 2018
+  },
+  {
+   "id": "dexing_chain",
+   "name": "铜都拼图大师",
+   "desc": "完成德兴铜产业链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": [
+  {
+   "desc": "2023 GDP 206.4亿; ",
+   "url": "https://www.dxs.gov.cn/dxstjj/dxstjjtjxx2/202408/d3178b1701554b539cc341b4b1c47b67.shtml",
+   "year": 2023
+  }
+ ],
+ "real_anchors": {
+  "census2020": {
+   "pop": 293600
+  },
+  "stat2023": {
+   "gdp": 206.4,
+   "pop": 289400
+  }
+ }
+}

@@ -1,0 +1,585 @@
+{
+ "profile": {
+  "name": "双鸭山市",
+  "province": "黑龙江省",
+  "prefecture": "地级市",
+  "area": "22,046 km²",
+  "coordinates": [
+   131.16,
+   46.65
+  ],
+  "tags": [
+   "煤电基地",
+   "黑土湿地",
+   "挹娄文化",
+   "现代煤化工"
+  ],
+  "description": "黑龙江东部煤城，与俄罗斯隔乌苏里江相望。煤田开发于 1947 年，长期是国家级煤电基地；2011 年列入第三批资源枯竭城市。拥有全国罕见的沼泽湿地群与挹娄文化遗址，正探索煤化工与生态经济并举。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 1947,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "开发期",
+    "start": 1947,
+    "end": 1978,
+    "color": "green"
+   },
+   {
+    "name": "壮盛期",
+    "start": 1979,
+    "end": 2011,
+    "color": "yellow"
+   },
+   {
+    "name": "衰落期",
+    "start": 2012,
+    "end": 2019,
+    "color": "red"
+   },
+   {
+    "name": "转型期",
+    "start": 2020,
+    "end": 2024,
+    "color": "teal"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "coal",
+    "label": "原煤产量",
+    "unit": "万吨",
+    "max": 3200,
+    "color": "#1a1a2e"
+   },
+   {
+    "key": "power",
+    "label": "火电发电量",
+    "unit": "亿千瓦时",
+    "max": 120,
+    "color": "#eab308"
+   }
+  ],
+  "spaceType": "built_up",
+  "spaceLabels": {
+   "built": "建成区",
+   "density": "人口密度"
+  },
+  "cityKey": "shuangyashan",
+  "chainKeys": [
+   "coal",
+   "eco"
+  ],
+  "chainContainerIds": [
+   "coalChain",
+   "ecoChain"
+  ],
+  "currentStatus": "资源枯竭转型城市",
+  "transformationAssessment": "从煤电基地到煤化农游并举",
+  "transformationDetail": "双鸭山矿区纵贯三江平原西部，累计产煤超 20 亿吨。矿井老化与煤价低谷让'一煤独大'难以为继，城市转向煤制化肥、粮食深加工，并把安邦河、七星河等湿地打造成生态名片。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 1947,
+   "title": "双鸭山矿务局成立",
+   "category": "discovery",
+   "desc": "解放战争炮火中开发煤田，煤炭支援全国建设",
+   "impact": 9,
+   "event": true,
+   "pop": 50000,
+   "coal": 40,
+   "power": 0,
+   "gdp": 0.3
+  },
+  {
+   "year": 1956,
+   "title": "设立双鸭山市",
+   "category": "peak",
+   "desc": "因煤设市，矿区人口快速聚集",
+   "impact": 8,
+   "event": true,
+   "pop": 240000,
+   "coal": 300,
+   "power": 1,
+   "gdp": 1.2
+  },
+  {
+   "year": 1985,
+   "title": "煤电基地成型",
+   "category": "peak",
+   "desc": "坑口电厂群投产，煤-电-化基地列入国家规划",
+   "impact": 8,
+   "event": true,
+   "pop": 1250000,
+   "coal": 1500,
+   "power": 30,
+   "gdp": 24
+  },
+  {
+   "year": 2002,
+   "title": "建龙入双",
+   "category": "peak",
+   "desc": "建龙钢铁落址双鸭山，延伸煤-焦-钢链条",
+   "impact": 7,
+   "event": true,
+   "pop": 1310000,
+   "coal": 2000,
+   "power": 60,
+   "gdp": 105
+  },
+  {
+   "year": 2011,
+   "title": "列入资源枯竭城市",
+   "category": "decline",
+   "desc": "国务院第三批资源枯竭城市，衰老矿井集中出现",
+   "impact": 9,
+   "event": true,
+   "pop": 1340000,
+   "coal": 2900,
+   "power": 90,
+   "gdp": 330
+  },
+  {
+   "year": 2015,
+   "title": "煤价深谷",
+   "category": "decline",
+   "desc": "煤焦钢全链条亏损，财政与就业双重承压",
+   "impact": 9,
+   "event": true,
+   "pop": 1300000,
+   "coal": 2200,
+   "power": 95,
+   "gdp": 350
+  },
+  {
+   "year": 2017,
+   "title": "去产能关井",
+   "category": "decline",
+   "desc": "关闭退出矿井数十处，产能压减千万吨级",
+   "impact": 8,
+   "event": true,
+   "pop": 1260000,
+   "coal": 1600,
+   "power": 90,
+   "gdp": 420
+  },
+  {
+   "year": 2020,
+   "title": "七普人口",
+   "category": "decline",
+   "desc": "常住人口 120.86 万，较六普下降约 15%",
+   "impact": 8,
+   "event": true,
+   "pop": 1208563,
+   "coal": 1300,
+   "power": 85,
+   "gdp": 460
+  },
+  {
+   "year": 2022,
+   "title": "湿地与黑土经济",
+   "category": "transformation",
+   "desc": "挠力河黑土带粮食深加工起步，湿地旅游纳入省线",
+   "impact": 6,
+   "event": true,
+   "pop": 1170000,
+   "coal": 1100,
+   "power": 80,
+   "gdp": 557.2,
+   "calibrated": true
+  },
+  {
+   "year": 2024,
+   "title": "煤化工新篇",
+   "category": "transformation",
+   "desc": "煤制化肥与生物经济项目推进，绿色矿山修复示范",
+   "impact": 7,
+   "event": true,
+   "pop": 1120000,
+   "coal": 1050,
+   "power": 75,
+   "gdp": 560
+  }
+ ],
+ "chains": {
+  "coal": {
+   "name": "煤电化产业链",
+   "color": "#1a1a2e",
+   "icon": "⛏️",
+   "lifecycle": {
+    "birth": 1947,
+    "peak": 2010,
+    "decline": 2015,
+    "collapse": null,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "mine",
+     "name": "矿区群",
+     "x": 50,
+     "y": 50,
+     "status": "declining",
+     "peak": "1980s-2000s",
+     "decline": "2010s"
+    },
+    {
+     "id": "wash",
+     "name": "洗选",
+     "x": 150,
+     "y": 50,
+     "status": "declining",
+     "peak": "1990s-2010s",
+     "decline": "2020s"
+    },
+    {
+     "id": "power",
+     "name": "坑口电厂",
+     "x": 250,
+     "y": 50,
+     "status": "active",
+     "peak": "2000s-2020s",
+     "decline": null
+    },
+    {
+     "id": "fertilizer",
+     "name": "煤制化肥",
+     "x": 350,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "steel",
+     "name": "煤焦钢",
+     "x": 450,
+     "y": 50,
+     "status": "declining",
+     "peak": "2000s",
+     "decline": "2010s"
+    }
+   ],
+   "connections": [
+    {
+     "from": "mine",
+     "to": "wash",
+     "flow": "原煤"
+    },
+    {
+     "from": "wash",
+     "to": "power",
+     "flow": "动力煤"
+    },
+    {
+     "from": "wash",
+     "to": "fertilizer",
+     "flow": "化工煤"
+    },
+    {
+     "from": "wash",
+     "to": "steel",
+     "flow": "焦煤"
+    }
+   ],
+   "employment": {
+    "peak": 160000,
+    "current": 40000
+   }
+  },
+  "eco": {
+   "name": "黑土湿地经济链",
+   "color": "#22c55e",
+   "icon": "🦢",
+   "lifecycle": {
+    "birth": 2010,
+    "peak": 2024,
+    "decline": null,
+    "collapse": null,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "grain",
+     "name": "粮食种植",
+     "x": 50,
+     "y": 200,
+     "status": "active",
+     "peak": "2010s-2020s",
+     "decline": null
+    },
+    {
+     "id": "process",
+     "name": "深加工",
+     "x": 150,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "wetland",
+     "name": "湿地旅游",
+     "x": 250,
+     "y": 200,
+     "status": "emerging",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "heritage",
+     "name": "挹娄文化",
+     "x": 350,
+     "y": 200,
+     "status": "emerging",
+     "peak": "2020s",
+     "decline": null
+    }
+   ],
+   "connections": [
+    {
+     "from": "grain",
+     "to": "process",
+     "flow": "原料"
+    },
+    {
+     "from": "wetland",
+     "to": "heritage",
+     "flow": "文旅串联"
+    }
+   ],
+   "employment": {
+    "peak": 20000,
+    "current": 26000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "resource",
+    "name": "煤矿资源衰减",
+    "weight": 33,
+    "evidence": "浅部煤田采尽，衰老矿井占比过半",
+    "icon": "⛏️",
+    "selected": false
+   },
+   {
+    "id": "price",
+    "name": "煤焦钢价格周期",
+    "weight": 22,
+    "evidence": "2012-2016 全链条亏损，财政收入腰斩",
+    "icon": "📉",
+    "selected": false
+   },
+   {
+    "id": "outflow",
+    "name": "人口外流",
+    "weight": 24,
+    "evidence": "十年常住人口下降 15%，青壮年加速离乡",
+    "icon": "🚉",
+    "selected": false
+   },
+   {
+    "id": "policy",
+    "name": "去产能政策",
+    "weight": 13,
+    "evidence": "小煤矿整退与产能置换压缩地方产量",
+    "icon": "🏭",
+    "selected": false
+   },
+   {
+    "id": "env",
+    "name": "沉陷与生态欠账",
+    "weight": 8,
+    "evidence": "采煤沉陷区治理资金缺口大",
+    "icon": "🕳️",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "chem",
+    "name": "现代煤化工",
+    "weight": 28,
+    "evidence": "煤制化肥等项目让煤炭就地增值",
+    "icon": "⚗️",
+    "selected": false
+   },
+   {
+    "id": "blacksoil",
+    "name": "黑土粮仓",
+    "weight": 26,
+    "evidence": "挠力河流域为全国重要商品粮基地",
+    "icon": "🌾",
+    "selected": false
+   },
+   {
+    "id": "wetland",
+    "name": "湿地生态品牌",
+    "weight": 22,
+    "evidence": "七星河、安邦河等国际重要湿地",
+    "icon": "🦢",
+    "selected": false
+   },
+   {
+    "id": "border",
+    "name": "对俄合作",
+    "weight": 14,
+    "evidence": "饶河口岸与俄远东木材煤炭贸易",
+    "icon": "🛃",
+    "selected": false
+   },
+   {
+    "id": "culture",
+    "name": "挹娄文化",
+    "weight": 10,
+    "evidence": "凤林古城等遗址激活文旅叙事",
+    "icon": "🏛️",
+    "selected": false
+   }
+  ]
+ },
+ "space_timeline": [
+  {
+   "year": 1947,
+   "built": 0.4,
+   "vacant": 0,
+   "density": 7000
+  },
+  {
+   "year": 1956,
+   "built": 4,
+   "vacant": 0,
+   "density": 9000
+  },
+  {
+   "year": 1985,
+   "built": 22,
+   "vacant": 0.02,
+   "density": 8000
+  },
+  {
+   "year": 2005,
+   "built": 40,
+   "vacant": 0.1,
+   "density": 6500
+  },
+  {
+   "year": 2017,
+   "built": 52,
+   "vacant": 0.22,
+   "density": 5200
+  },
+  {
+   "year": 2024,
+   "built": 55,
+   "vacant": 0.28,
+   "density": 4600
+  }
+ ],
+ "space": {
+  "built_up_area_km2": 55,
+  "current_pop": 1120000,
+  "peak_pop": 1340000,
+  "vacancy_rate": 0.28,
+  "housing_price_rank": "全国地级市最低梯队",
+  "landmark": "七星河国家级自然保护区"
+ },
+ "migration": {
+  "outflow_total": 210000,
+  "destinations": [
+   {
+    "city": "哈尔滨",
+    "province": "黑龙江",
+    "count": 58000,
+    "reason": "省会就业"
+   },
+   {
+    "city": "佳木斯",
+    "province": "黑龙江",
+    "count": 30000,
+    "reason": "邻近区域中心"
+   },
+   {
+    "city": "山东沿海",
+    "province": "山东",
+    "count": 35000,
+    "reason": "定居与务工"
+   },
+   {
+    "city": "三亚",
+    "province": "海南",
+    "count": 22000,
+    "reason": "候鸟养老"
+   },
+   {
+    "city": "其他地区",
+    "province": "全国",
+    "count": 65000,
+    "reason": "务工求学"
+   }
+  ]
+ },
+ "achievements": [
+  {
+   "id": "shuangyashan_first_visit",
+   "name": "双鸭山初见",
+   "desc": "首次进入双鸭山市",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "shuangyashan_y1947",
+   "name": "双鸭山矿务局成立",
+   "desc": "见证1947年双鸭山矿务局成立",
+   "condition": "year",
+   "year": 1947
+  },
+  {
+   "id": "shuangyashan_y1956",
+   "name": "设立双鸭山市",
+   "desc": "见证1956年设立双鸭山市",
+   "condition": "year",
+   "year": 1956
+  },
+  {
+   "id": "shuangyashan_y1985",
+   "name": "煤电基地成型",
+   "desc": "见证1985年煤电基地成型",
+   "condition": "year",
+   "year": 1985
+  },
+  {
+   "id": "shuangyashan_chain",
+   "name": "煤电基地拼图大师",
+   "desc": "完成双鸭山市产业链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": [
+  {
+   "desc": "2022 GDP 557.2亿元(+4.4%), 一产206.4/二产157.9/三产192.8; 常住117.0万(5‰抽样)",
+   "url": "http://www.tjcn.org/tjgb/08hlj/37652.html",
+   "year": 2022
+  },
+  {
+   "desc": "七普常住人口约120.88万（2020-11-01，双鸭山市第七次全国人口普查主要数据公报，家庭户1120186+集体户88617）",
+   "url": "https://zgrkk.com/reports/16526.html"
+  }
+ ],
+ "real_anchors": {
+  "stat2022": {
+   "gdp": 557.2,
+   "pop": 1170000
+  },
+  "census2020": {
+   "pop": 1208803
+  }
+ }
+}

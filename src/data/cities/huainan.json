@@ -1,0 +1,685 @@
+{
+ "profile": {
+  "name": "淮南市",
+  "province": "安徽省",
+  "prefecture": "省辖地级市",
+  "area": "5,533 km²",
+  "coordinates": [
+   117,
+   32.63
+  ],
+  "tags": [
+   "华东煤都",
+   "中州咽喉",
+   "豆腐之乡",
+   "能源之城"
+  ],
+  "description": "安徽省重要能源城市，华东地区最大的煤炭生产基地，素有'华东煤都'之称。淮南煤田远景储量达444亿吨，支撑了沪苏浙皖工业发展数十年。作为典型的平原煤城，淮南面临采煤沉陷区治理、产业结构单一等挑战，正从单一煤炭基地向煤电化气、新能源、文化旅游转型。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 1903,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "起家期",
+    "start": 1903,
+    "end": 1948,
+    "color": "green"
+   },
+   {
+    "name": "壮盛期",
+    "start": 1949,
+    "end": 2000,
+    "color": "yellow"
+   },
+   {
+    "name": "调整期",
+    "start": 2001,
+    "end": 2015,
+    "color": "red"
+   },
+   {
+    "name": "转型期",
+    "start": 2016,
+    "end": 2024,
+    "color": "teal"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "coal",
+    "label": "煤炭产量",
+    "unit": "万吨",
+    "max": 5000,
+    "color": "#1a1a2e"
+   }
+  ],
+  "spaceType": "built_up",
+  "spaceLabels": {
+   "built": "建成区",
+   "density": "人口密度"
+  },
+  "cityKey": "huainan",
+  "chainKeys": [
+   "coal",
+   "replacement"
+  ],
+  "chainContainerIds": [
+   "coalChain",
+   "replacementChain"
+  ],
+  "currentStatus": "煤电化气基地，沉陷区治理示范区",
+  "transformationAssessment": "从'华东煤都'到'综合能源基地+生态治理'的转型",
+  "transformationDetail": "淮南煤炭产量曾占全国十分之一，是华东地区最大的动力煤生产基地。长期高强度开采形成大面积采煤沉陷区。近年来淮南推进煤电一体化、煤层气利用、采煤沉陷区光伏和渔业综合治理，同时依托八公山、豆腐文化、淝水之战遗址发展文旅产业。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 1903,
+   "title": "大通煤矿开办",
+   "category": "discovery",
+   "desc": "清政府批准开办大通煤矿，淮南近代煤炭工业起步",
+   "impact": 8,
+   "pop": 50000,
+   "coal": 2,
+   "gdp": 0.02,
+   "event": true
+  },
+  {
+   "year": 1911,
+   "title": "铁路通达",
+   "category": "discovery",
+   "desc": "淮南铁路开工建设，为煤炭外运奠定基础",
+   "impact": 6,
+   "pop": 60000,
+   "coal": 10,
+   "gdp": 0.08,
+   "event": false
+  },
+  {
+   "year": 1930,
+   "title": "九龙岗矿区",
+   "category": "peak",
+   "desc": "九龙岗煤矿兴起，淮南成为华东地区重要煤产地",
+   "impact": 6,
+   "pop": 100000,
+   "coal": 80,
+   "gdp": 0.5,
+   "event": false
+  },
+  {
+   "year": 1949,
+   "title": "淮南矿务局",
+   "category": "peak",
+   "desc": "成立淮南矿务局，统一开发淮南煤田",
+   "impact": 8,
+   "pop": 180000,
+   "coal": 200,
+   "gdp": 1,
+   "event": true
+  },
+  {
+   "year": 1958,
+   "title": "大跃进扩产",
+   "category": "peak",
+   "desc": "新建多对矿井，煤炭产能大幅提升",
+   "impact": 7,
+   "pop": 350000,
+   "coal": 800,
+   "gdp": 3,
+   "event": false
+  },
+  {
+   "year": 1970,
+   "title": "千万吨基地",
+   "category": "peak",
+   "desc": "淮南煤田年产量突破1500万吨，成为华东能源支柱",
+   "impact": 8,
+   "pop": 700000,
+   "coal": 1600,
+   "gdp": 8,
+   "event": true
+  },
+  {
+   "year": 1980,
+   "title": "煤电联营",
+   "category": "peak",
+   "desc": "淮南平圩电厂等大电厂建设，煤电一体化格局形成",
+   "impact": 7,
+   "pop": 1000000,
+   "coal": 2200,
+   "gdp": 18,
+   "event": false
+  },
+  {
+   "year": 1990,
+   "title": "产能巅峰",
+   "category": "peak",
+   "desc": "煤炭年产量突破3000万吨，占安徽省煤炭产量一半以上",
+   "impact": 8,
+   "pop": 1800000,
+   "coal": 3200,
+   "gdp": 45,
+   "event": true
+  },
+  {
+   "year": 1998,
+   "title": "产量创新高",
+   "category": "peak",
+   "desc": "煤炭产量达到历史峰值，支撑华东电力供应",
+   "impact": 7,
+   "pop": 2000000,
+   "coal": 3800,
+   "gdp": 80,
+   "event": false
+  },
+  {
+   "year": 2002,
+   "title": "资源衰减",
+   "category": "decline",
+   "desc": "浅部资源逐渐减少，开采深度增加，成本上升",
+   "impact": 7,
+   "pop": 2100000,
+   "coal": 3500,
+   "gdp": 120,
+   "event": true
+  },
+  {
+   "year": 2005,
+   "title": "沉陷区显现",
+   "category": "decline",
+   "desc": "长期采煤形成大面积沉陷区，生态环境问题凸显",
+   "impact": 8,
+   "pop": 2200000,
+   "coal": 3200,
+   "gdp": 150,
+   "event": true
+  },
+  {
+   "year": 2009,
+   "title": "两淮亿吨基地",
+   "category": "peak",
+   "desc": "两淮亿吨级煤电基地规划实施，淮南继续承担华东保供重任",
+   "impact": 7,
+   "pop": 2300000,
+   "coal": 3000,
+   "gdp": 180,
+   "event": false
+  },
+  {
+   "year": 2013,
+   "title": "瓦斯治理",
+   "category": "transformation",
+   "desc": "煤层气抽采利用规模化，变废为宝，减少温室气体排放",
+   "impact": 6,
+   "pop": 2320000,
+   "coal": 2800,
+   "gdp": 210,
+   "event": false
+  },
+  {
+   "year": 2016,
+   "title": "沉陷区光伏",
+   "category": "transformation",
+   "desc": "采煤沉陷区水面上建设漂浮式光伏电站，'渔光互补'模式推广",
+   "impact": 8,
+   "pop": 2330000,
+   "coal": 2600,
+   "gdp": 240,
+   "event": true
+  },
+  {
+   "year": 2018,
+   "title": "煤化工升级",
+   "category": "transformation",
+   "desc": "煤制气、煤制甲醇等现代煤化工项目投产，延伸煤炭产业链",
+   "impact": 7,
+   "pop": 2340000,
+   "coal": 2500,
+   "gdp": 280,
+   "event": true
+  },
+  {
+   "year": 2021,
+   "title": "生态修复",
+   "category": "transformation",
+   "desc": "采煤沉陷区综合治理示范区建设，湿地、公园、光伏复合利用",
+   "impact": 7,
+   "pop": 2350000,
+   "coal": 2400,
+   "gdp": 320,
+   "event": false
+  },
+  {
+   "year": 2023,
+   "title": "2023年统计锚点",
+   "category": "peak",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 3016000,
+   "gdp": 1601.6,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2024,
+   "title": "多元能源",
+   "category": "transformation",
+   "desc": "煤炭产量稳定在约2300万吨，煤电化气、新能源、文旅多元发展，沉陷区治理持续推进",
+   "impact": 7,
+   "pop": 2360000,
+   "coal": 2300,
+   "gdp": 1601.6,
+   "event": true,
+   "calibrated": true
+  }
+ ],
+ "chains": {
+  "coal": {
+   "name": "煤炭产业链",
+   "color": "#1a1a2e",
+   "icon": "⛏️",
+   "lifecycle": {
+    "birth": 1903,
+    "peak": 1998,
+    "decline": 2002,
+    "collapse": null,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "explore",
+     "name": "地质勘探",
+     "status": "mature",
+     "peak": "1950s-1980s",
+     "decline": "2000s"
+    },
+    {
+     "id": "underground",
+     "name": "井工开采",
+     "status": "mature",
+     "peak": "1960s-1990s",
+     "decline": "2010s"
+    },
+    {
+     "id": "wash",
+     "name": "洗选加工",
+     "status": "mature",
+     "peak": "1980s-2000s",
+     "decline": "2010s"
+    },
+    {
+     "id": "transport",
+     "name": "铁路外运",
+     "status": "mature",
+     "peak": "1980s-2010s",
+     "decline": "2020s"
+    },
+    {
+     "id": "power",
+     "name": "坑口火电",
+     "status": "mature",
+     "peak": "1990s-2010s",
+     "decline": "2020s"
+    },
+    {
+     "id": "gas",
+     "name": "煤层气利用",
+     "status": "emerging",
+     "peak": "2010s-今",
+     "decline": null
+    }
+   ],
+   "connections": [
+    {
+     "from": "explore",
+     "to": "underground",
+     "flow": "井田数据"
+    },
+    {
+     "from": "underground",
+     "to": "wash",
+     "flow": "原煤"
+    },
+    {
+     "from": "wash",
+     "to": "transport",
+     "flow": "精煤外运"
+    },
+    {
+     "from": "wash",
+     "to": "power",
+     "flow": "电煤"
+    },
+    {
+     "from": "underground",
+     "to": "gas",
+     "flow": "瓦斯抽采"
+    }
+   ],
+   "employment": {
+    "peak": 150000,
+    "current": 70000
+   }
+  },
+  "replacement": {
+   "name": "接续产业（新能源·煤化工·文旅）",
+   "color": "#2ecc71",
+   "icon": "🔄",
+   "lifecycle": {
+    "birth": 2013,
+    "growth": 2016,
+    "peak": null
+   },
+   "nodes": [
+    {
+     "id": "chemical",
+     "name": "现代煤化工",
+     "status": "emerging",
+     "peak": "2010s-今"
+    },
+    {
+     "id": "gas",
+     "name": "煤制气/煤层气",
+     "status": "emerging",
+     "peak": "未来"
+    },
+    {
+     "id": "pv",
+     "name": "沉陷区光伏",
+     "status": "emerging",
+     "peak": "未来"
+    },
+    {
+     "id": "fishing",
+     "name": "渔光互补",
+     "status": "emerging",
+     "peak": "未来"
+    },
+    {
+     "id": "tofu",
+     "name": "豆腐文化产业",
+     "status": "emerging",
+     "peak": "未来"
+    },
+    {
+     "id": "mountain",
+     "name": "八公山旅游",
+     "status": "emerging",
+     "peak": "未来"
+    }
+   ],
+   "connections": [
+    {
+     "from": "chemical",
+     "to": "gas",
+     "flow": "煤基能源延伸"
+    },
+    {
+     "from": "pv",
+     "to": "fishing",
+     "flow": "水上光伏+养殖"
+    },
+    {
+     "from": "tofu",
+     "to": "mountain",
+     "flow": "文旅融合"
+    }
+   ],
+   "employment": {
+    "peak": null,
+    "current": 40000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "resource",
+    "name": "资源衰减",
+    "weight": 30,
+    "evidence": "浅部高发热量煤层减少，开采深度加大、成本上升",
+    "icon": "⛏️",
+    "selected": false
+   },
+   {
+    "id": "single",
+    "name": "煤炭独大",
+    "weight": 25,
+    "evidence": "煤电产业长期占工业增加值主导地位，接续产业培育不足",
+    "icon": "🏭",
+    "selected": false
+   },
+   {
+    "id": "environment",
+    "name": "采煤沉陷",
+    "weight": 25,
+    "evidence": "沉陷区面积约300平方公里，涉及数十万人搬迁安置",
+    "icon": "🌫️",
+    "selected": false
+   },
+   {
+    "id": "policy",
+    "name": "双碳压力",
+    "weight": 10,
+    "evidence": "煤电产能受限，煤炭消费峰值临近",
+    "icon": "📜",
+    "selected": false
+   },
+   {
+    "id": "location",
+    "name": "人才外流",
+    "weight": 10,
+    "evidence": "优质人才向合肥、南京、上海流失",
+    "icon": "🚂",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "energy",
+    "name": "区位能源优势",
+    "weight": 30,
+    "evidence": "毗邻长三角，是华东电力外送基地，电网接入条件优越",
+    "icon": "⚡",
+    "selected": false
+   },
+   {
+    "id": "pv",
+    "name": "沉陷区光伏",
+    "weight": 25,
+    "evidence": "大面积水面和未利用土地适合建设光伏电站",
+    "icon": "☀️",
+    "selected": false
+   },
+   {
+    "id": "chemical",
+    "name": "煤化工延伸",
+    "weight": 20,
+    "evidence": "煤制气、煤制甲醇等现代煤化工产业链延伸",
+    "icon": "🔬",
+    "selected": false
+   },
+   {
+    "id": "culture",
+    "name": "文旅资源",
+    "weight": 15,
+    "evidence": "八公山、豆腐文化、淝水之战遗址具有独特IP价值",
+    "icon": "🏛️",
+    "selected": false
+   },
+   {
+    "id": "traffic",
+    "name": "交通改善",
+    "weight": 10,
+    "evidence": "高铁接入合肥都市圈，合蚌、商合杭高铁提升通达性",
+    "icon": "🚄",
+    "selected": false
+   }
+  ]
+ },
+ "space_timeline": [
+  {
+   "year": 1903,
+   "built": 0.5,
+   "vacancy": 0,
+   "density": 2500
+  },
+  {
+   "year": 1949,
+   "built": 5,
+   "vacancy": 0,
+   "density": 36000
+  },
+  {
+   "year": 1970,
+   "built": 18,
+   "vacancy": 0.01,
+   "density": 39000
+  },
+  {
+   "year": 1990,
+   "built": 45,
+   "vacancy": 0.05,
+   "density": 40000
+  },
+  {
+   "year": 2005,
+   "built": 75,
+   "vacancy": 0.12,
+   "density": 29000
+  },
+  {
+   "year": 2015,
+   "built": 95,
+   "vacancy": 0.18,
+   "density": 24500
+  },
+  {
+   "year": 2020,
+   "built": 108,
+   "vacancy": 0.22,
+   "density": 21800
+  },
+  {
+   "year": 2024,
+   "built": 116,
+   "vacancy": 0.25,
+   "density": 20300
+  }
+ ],
+ "space": {
+  "built_up_area_km2": 116,
+  "current_pop": 2360000,
+  "peak_pop": 3033528,
+  "vacancy_rate": 0.25,
+  "landmark": "八公山",
+  "special": "淝水之战古战场，豆腐发源地，淮南煤矿采空沉陷区综合治理区"
+ },
+ "migration": {
+  "destinations": [
+   {
+    "name": "合肥市",
+    "lat": 31.82,
+    "lng": 117.23,
+    "flow": 200000,
+    "reason": "省会就近"
+   },
+   {
+    "name": "南京市",
+    "lat": 32.06,
+    "lng": 118.78,
+    "flow": 90000,
+    "reason": "长三角中心"
+   },
+   {
+    "name": "上海市",
+    "lat": 31.23,
+    "lng": 121.47,
+    "flow": 80000,
+    "reason": "东部中心"
+   },
+   {
+    "name": "苏州市",
+    "lat": 31.3,
+    "lng": 120.59,
+    "flow": 50000,
+    "reason": "长三角制造业"
+   },
+   {
+    "name": "杭州市",
+    "lat": 30.25,
+    "lng": 120.16,
+    "flow": 40000,
+    "reason": "数字经济引力"
+   }
+  ],
+  "outflow_total": 460000,
+  "inflow_total": 120000,
+  "net_flow": -340000
+ },
+ "achievements": [
+  {
+   "id": "huainan_first_visit",
+   "name": "华东煤都",
+   "desc": "首次进入淮南，感受华东能源基地的兴衰",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "huainan_peak",
+   "name": "华东保供",
+   "desc": "见证淮南煤炭产量突破3800万吨的巅峰",
+   "condition": "year",
+   "year": 1998
+  },
+  {
+   "id": "huainan_sink",
+   "name": "沉陷区治理",
+   "desc": "见证淮南采煤沉陷区变身光伏电站",
+   "condition": "year",
+   "year": 2016
+  },
+  {
+   "id": "huainan_rebirth",
+   "name": "多元能源",
+   "desc": "见证淮南从煤都向综合能源基地转型",
+   "condition": "year",
+   "year": 2024
+  },
+  {
+   "id": "huainan_chain",
+   "name": "煤都拼图大师",
+   "desc": "完成淮南煤炭产业链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": [
+  {
+   "desc": "2023 GDP 1601.6亿元(+5.1%), 一产152.5/二产657.6; 常住约301.4万(待七普核对)",
+   "url": "https://quyushuju.com/forum.php?mod=viewthread&tid=79708",
+   "year": 2023
+  },
+  {
+   "desc": "2023 GDP 1601.6亿元(+5.1%), 一产152.5/二产657.6; 常住301.6万(-1.1万)",
+   "url": "http://www.etmoc.com/Look/Statslisth?Id=7748",
+   "year": 2023
+  },
+  {
+   "desc": "七普常住人口3033528人（2020-11-01，淮南市第七次全国人口普查公报·第一号，较六普减少9.23%）",
+   "url": "https://tjj.huainan.gov.cn/tjsj/tjgb/551571618.html"
+  }
+ ],
+ "real_anchors": {
+  "stat2023": {
+   "gdp": 1601.6,
+   "pop": 3016000
+  },
+  "census2020": {
+   "pop": 3033528
+  }
+ }
+}

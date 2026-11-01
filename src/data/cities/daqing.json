@@ -1,0 +1,710 @@
+{
+ "profile": {
+  "name": "大庆市",
+  "province": "黑龙江省",
+  "prefecture": "地级市",
+  "area": "21,000 km²",
+  "coordinates": [
+   125.11,
+   46.59
+  ],
+  "tags": [
+   "石油之都",
+   "铁人精神",
+   "油化之城",
+   "百年油田"
+  ],
+  "description": "松嫩平原上的石油之都，1959年松基三井喷油开启新中国石油工业新纪元。铁人王进喜精神从这里走向全国，大庆曾连续27年稳产5000万吨原油，如今正从单一石油开采迈向油化一体、新能源与数字油田。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 1959,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "起家期",
+    "start": 1959,
+    "end": 1962,
+    "color": "green"
+   },
+   {
+    "name": "壮盛期",
+    "start": 1963,
+    "end": 1997,
+    "color": "yellow"
+   },
+   {
+    "name": "调整期",
+    "start": 1998,
+    "end": 2010,
+    "color": "red"
+   },
+   {
+    "name": "转型期",
+    "start": 2011,
+    "end": 2024,
+    "color": "teal"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "oil",
+    "label": "原油产量",
+    "unit": "万吨",
+    "max": 6000,
+    "color": "#1a1a2e"
+   },
+   {
+    "key": "petrochemical",
+    "label": "石化产值",
+    "unit": "亿元",
+    "max": 2500,
+    "color": "#3b82f6"
+   }
+  ],
+  "spaceType": "built_up",
+  "spaceLabels": {
+   "built": "建成区",
+   "density": "人口密度"
+  },
+  "cityKey": "daqing",
+  "chainKeys": [
+   "oil",
+   "petrochemical"
+  ],
+  "chainContainerIds": [
+   "oilChain",
+   "petrochemicalChain"
+  ],
+  "currentStatus": "油化一体，绿色转型",
+  "transformationAssessment": "从单一原油产量增长迈向油化融合与新能源并举",
+  "transformationDetail": "大庆油田进入开发中后期，原油自然递减压力加大。依托雄厚的石化产业基础，大庆延伸乙烯、丙烯、精细化工产业链，同时发展风电、光伏、地热与CCUS，建设百年油田与新能源城市。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 1959,
+   "title": "大庆油田发现",
+   "category": "discovery",
+   "desc": "松基三井喷出工业油流，大庆油田横空出世",
+   "impact": 10,
+   "pop": 433000,
+   "oil": 0,
+   "petrochemical": 0,
+   "gdp": 0.1,
+   "event": true
+  },
+  {
+   "year": 1960,
+   "title": "石油大会战",
+   "category": "peak",
+   "desc": "全国石油工人会师大庆，铁人王进喜精神诞生",
+   "impact": 10,
+   "pop": 866000,
+   "oil": 100,
+   "petrochemical": 0,
+   "gdp": 0.5,
+   "event": true
+  },
+  {
+   "year": 1963,
+   "title": "原油产量破五百万吨",
+   "category": "peak",
+   "desc": "大庆原油年产量突破500万吨，支撑国家能源安全",
+   "impact": 9,
+   "pop": 1299000,
+   "oil": 500,
+   "petrochemical": 0,
+   "gdp": 2,
+   "event": true
+  },
+  {
+   "year": 1976,
+   "title": "原油产量破五千万吨",
+   "category": "peak",
+   "desc": "大庆原油产量跃上5000万吨台阶，进入世界特大型油田行列",
+   "impact": 10,
+   "pop": 1948500,
+   "oil": 5000,
+   "petrochemical": 0,
+   "gdp": 25,
+   "event": true
+  },
+  {
+   "year": 1985,
+   "title": "连续高产稳产",
+   "category": "peak",
+   "desc": "大庆油田保持高产稳产，石化产业同步发展",
+   "impact": 8,
+   "pop": 2165000,
+   "oil": 5500,
+   "petrochemical": 10,
+   "gdp": 80,
+   "event": false
+  },
+  {
+   "year": 1997,
+   "title": "连续稳产五千万吨",
+   "category": "peak",
+   "desc": "大庆油田连续22年稳产5000万吨以上，创造世界奇迹",
+   "impact": 9,
+   "pop": 2381500,
+   "oil": 5300,
+   "petrochemical": 80,
+   "gdp": 300,
+   "event": true
+  },
+  {
+   "year": 2002,
+   "title": "聚合物驱油技术推广",
+   "category": "transformation",
+   "desc": "三次采油技术大规模应用，延缓产量递减",
+   "impact": 8,
+   "pop": 2424800,
+   "oil": 5000,
+   "petrochemical": 150,
+   "gdp": 500,
+   "event": true
+  },
+  {
+   "year": 2008,
+   "title": "资源递减与油价波动",
+   "category": "decline",
+   "desc": "油田进入高含水后期，国际油价波动冲击油城经济",
+   "impact": 8,
+   "pop": 2489750,
+   "oil": 4500,
+   "petrochemical": 300,
+   "gdp": 850,
+   "event": true
+  },
+  {
+   "year": 2011,
+   "title": "百年油田战略",
+   "category": "transformation",
+   "desc": "大庆提出建设“百年油田”，推进稳油增气与新能源布局",
+   "impact": 9,
+   "pop": 2554700,
+   "oil": 4200,
+   "petrochemical": 500,
+   "gdp": 1100,
+   "event": true
+  },
+  {
+   "year": 2015,
+   "title": "石化产业延链",
+   "category": "transformation",
+   "desc": "乙烯、丙烯及下游新材料项目扩能，石化产值快速提升",
+   "impact": 8,
+   "pop": 2598000,
+   "oil": 4000,
+   "petrochemical": 900,
+   "gdp": 1400,
+   "event": true
+  },
+  {
+   "year": 2018,
+   "title": "页岩油勘探突破",
+   "category": "transformation",
+   "desc": "古龙页岩油勘探取得重大突破，拓展资源接替空间",
+   "impact": 9,
+   "pop": 2619650,
+   "oil": 3800,
+   "petrochemical": 1200,
+   "gdp": 1600,
+   "event": true
+  },
+  {
+   "year": 2020,
+   "title": "2020年统计锚点",
+   "category": "peak",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 2785000,
+   "gdp": 2680,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2021,
+   "title": "新能源基地启动",
+   "category": "transformation",
+   "desc": "风光储氢与CCUS示范项目建设，能源结构多元化",
+   "impact": 8,
+   "pop": 2641300,
+   "oil": 3500,
+   "petrochemical": 1500,
+   "gdp": 1800,
+   "event": true
+  },
+  {
+   "year": 2023,
+   "title": "2023年统计锚点",
+   "category": "peak",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 2700000,
+   "gdp": 2862.5,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2024,
+   "title": "油化融合新大庆",
+   "category": "transformation",
+   "desc": "原油、天然气、石化新材料与新能源协同发展格局成型",
+   "impact": 9,
+   "pop": 2663000,
+   "oil": 3200,
+   "petrochemical": 1800,
+   "gdp": 2100,
+   "event": true
+  }
+ ],
+ "chains": {
+  "oil": {
+   "name": "石油产业链",
+   "color": "#1a1a2e",
+   "icon": "🛢️",
+   "lifecycle": {
+    "birth": 1959,
+    "peak": 1976,
+    "decline": 2008,
+    "collapse": null,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "explore",
+     "name": "勘探评价",
+     "x": 50,
+     "y": 50,
+     "status": "active",
+     "peak": "1960s-1990s",
+     "decline": null
+    },
+    {
+     "id": "drill",
+     "name": "钻井开采",
+     "x": 150,
+     "y": 50,
+     "status": "active",
+     "peak": "1960s-1990s",
+     "decline": "2000s"
+    },
+    {
+     "id": "extract",
+     "name": "采油工程",
+     "x": 250,
+     "y": 50,
+     "status": "active",
+     "peak": "1970s-2000s",
+     "decline": "2010s"
+    },
+    {
+     "id": "gather",
+     "name": "集输处理",
+     "x": 350,
+     "y": 50,
+     "status": "active",
+     "peak": "1980s-2010s",
+     "decline": null
+    },
+    {
+     "id": "refine",
+     "name": "炼油加工",
+     "x": 450,
+     "y": 50,
+     "status": "active",
+     "peak": "1990s-至今",
+     "decline": null
+    },
+    {
+     "id": "pipeline",
+     "name": "管道外运",
+     "x": 550,
+     "y": 50,
+     "status": "active",
+     "peak": "1990s-至今",
+     "decline": null
+    }
+   ],
+   "connections": [
+    {
+     "from": "explore",
+     "to": "drill",
+     "flow": "储量"
+    },
+    {
+     "from": "drill",
+     "to": "extract",
+     "flow": "井筒"
+    },
+    {
+     "from": "extract",
+     "to": "gather",
+     "flow": "原油"
+    },
+    {
+     "from": "gather",
+     "to": "refine",
+     "flow": "净化油"
+    },
+    {
+     "from": "refine",
+     "to": "pipeline",
+     "flow": "成品油"
+    }
+   ],
+   "employment": {
+    "peak": 300000,
+    "current": 150000
+   }
+  },
+  "petrochemical": {
+   "name": "石化产业链",
+   "color": "#3b82f6",
+   "icon": "⚗️",
+   "lifecycle": {
+    "birth": 1985,
+    "peak": 2024,
+    "decline": null,
+    "collapse": null,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "cracking",
+     "name": "乙烯裂解",
+     "x": 50,
+     "y": 200,
+     "status": "active",
+     "peak": "2000s",
+     "decline": null
+    },
+    {
+     "id": "ethylene",
+     "name": "乙烯/丙烯",
+     "x": 150,
+     "y": 200,
+     "status": "active",
+     "peak": "2010s",
+     "decline": null
+    },
+    {
+     "id": "resin",
+     "name": "合成树脂",
+     "x": 250,
+     "y": 200,
+     "status": "growing",
+     "peak": "2010s",
+     "decline": null
+    },
+    {
+     "id": "fine",
+     "name": "精细化工",
+     "x": 350,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "new_material",
+     "name": "化工新材料",
+     "x": 450,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "carbon",
+     "name": "碳纤维/CCUS",
+     "x": 550,
+     "y": 200,
+     "status": "emerging",
+     "peak": "2030s",
+     "decline": null
+    }
+   ],
+   "connections": [
+    {
+     "from": "cracking",
+     "to": "ethylene",
+     "flow": "裂解气"
+    },
+    {
+     "from": "ethylene",
+     "to": "resin",
+     "flow": "单体"
+    },
+    {
+     "from": "resin",
+     "to": "fine",
+     "flow": "聚合物"
+    },
+    {
+     "from": "fine",
+     "to": "new_material",
+     "flow": "专用料"
+    },
+    {
+     "from": "new_material",
+     "to": "carbon",
+     "flow": "高端材料"
+    }
+   ],
+   "employment": {
+    "peak": 100000,
+    "current": 120000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "depletion",
+    "name": "油田资源递减",
+    "weight": 35,
+    "evidence": "大庆油田综合含水率超过90%，自然递减压力大",
+    "icon": "🛢️",
+    "selected": false
+   },
+   {
+    "id": "water",
+    "name": "三次采油成本上升",
+    "weight": 20,
+    "evidence": "聚合物驱、三元复合驱成本持续增加",
+    "icon": "💧",
+    "selected": false
+   },
+   {
+    "id": "price",
+    "name": "国际油价波动",
+    "weight": 20,
+    "evidence": "油价周期直接影响油田投资和地方财政收入",
+    "icon": "📉",
+    "selected": false
+   },
+   {
+    "id": "single",
+    "name": "油化产业依赖",
+    "weight": 15,
+    "evidence": "油化产业占经济比重过高，接续产业不足",
+    "icon": "🏭",
+    "selected": false
+   },
+   {
+    "id": "environment",
+    "name": "碳排放约束",
+    "weight": 10,
+    "evidence": "高碳产业面临双碳目标与碳排放配额约束",
+    "icon": "♻️",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "technology",
+    "name": "提高采收率技术",
+    "weight": 30,
+    "evidence": "聚合物驱、化学驱技术全球领先，延长油田寿命",
+    "icon": "⚗️",
+    "selected": false
+   },
+   {
+    "id": "petro",
+    "name": "石化产业延伸",
+    "weight": 25,
+    "evidence": "乙烯、丙烯及高端新材料产业链不断延伸",
+    "icon": "🔧",
+    "selected": false
+   },
+   {
+    "id": "shale",
+    "name": "页岩油资源接替",
+    "weight": 15,
+    "evidence": "古龙页岩油勘探突破提供资源接替空间",
+    "icon": "⛽",
+    "selected": false
+   },
+   {
+    "id": "new_energy",
+    "name": "新能源基地",
+    "weight": 15,
+    "evidence": "风光储氢、地热与CCUS示范项目快速推进",
+    "icon": "🌞",
+    "selected": false
+   },
+   {
+    "id": "spirit",
+    "name": "铁人精神与人才",
+    "weight": 15,
+    "evidence": "石油院校、研发机构和产业工人储备雄厚",
+    "icon": "👷",
+    "selected": false
+   }
+  ]
+ },
+ "space_timeline": [
+  {
+   "year": 1959,
+   "old_area": 2,
+   "new_area": 0,
+   "old_pop": 433000,
+   "vacancy": 0
+  },
+  {
+   "year": 1970,
+   "old_area": 25,
+   "new_area": 0,
+   "old_pop": 1515500,
+   "vacancy": 0
+  },
+  {
+   "year": 1985,
+   "old_area": 80,
+   "new_area": 0,
+   "old_pop": 2165000,
+   "vacancy": 0.05
+  },
+  {
+   "year": 2000,
+   "old_area": 150,
+   "new_area": 0,
+   "old_pop": 2381500,
+   "vacancy": 0.08
+  },
+  {
+   "year": 2011,
+   "old_area": 220,
+   "new_area": 0,
+   "old_pop": 2598000,
+   "vacancy": 0.1
+  },
+  {
+   "year": 2024,
+   "old_area": 280,
+   "new_area": 0,
+   "old_pop": 2663000,
+   "vacancy": 0.12
+  }
+ ],
+ "space": {
+  "old_city": {
+   "name": "大庆萨尔图老城区",
+   "peak_pop": 2706250,
+   "current_pop": 2663000,
+   "vacancy": 0.12,
+   "landmark": "铁人王进喜纪念馆"
+  },
+  "new_city": {
+   "name": "大庆高新区化工新材料园",
+   "peak_pop": 0,
+   "current_pop": 324750,
+   "landmark": "大庆石化乙烯装置"
+  },
+  "distance_km": 15,
+  "built_up_area_km2": 280,
+  "current_pop": 2663000,
+  "peak_pop": 2706250,
+  "vacancy_rate": 0.12
+ },
+ "migration": {
+  "outflow_total": 324750,
+  "destinations": [
+   {
+    "city": "哈尔滨",
+    "province": "黑龙江",
+    "count": 108250,
+    "reason": "省会就业与教育"
+   },
+   {
+    "city": "长春",
+    "province": "吉林",
+    "count": 64950,
+    "reason": "区域中心城市就业"
+   },
+   {
+    "city": "齐齐哈尔",
+    "province": "黑龙江",
+    "count": 54125,
+    "reason": "邻近城市就业"
+   },
+   {
+    "city": "沈阳",
+    "province": "辽宁",
+    "count": 54125,
+    "reason": "东北中心城市机会"
+   },
+   {
+    "city": "其他地区",
+    "province": "全国",
+    "count": 43300,
+    "reason": "外出务工与求学"
+   }
+  ]
+ },
+ "achievements": [
+  {
+   "id": "daqing_first_visit",
+   "name": "石油之都初探",
+   "desc": "首次进入大庆",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "daqing_discovery",
+   "name": "大庆油田发现",
+   "desc": "见证1959年松基三井喷油",
+   "condition": "year",
+   "year": 1959
+  },
+  {
+   "id": "daqing_battle",
+   "name": "石油大会战",
+   "desc": "见证1960年石油大会战",
+   "condition": "year",
+   "year": 1960
+  },
+  {
+   "id": "daqing_peak",
+   "name": "五千万吨油田",
+   "desc": "见证1976年原油产量突破五千万吨",
+   "condition": "year",
+   "year": 1976
+  },
+  {
+   "id": "daqing_shale",
+   "name": "页岩油突破",
+   "desc": "见证2018年古龙页岩油勘探突破",
+   "condition": "year",
+   "year": 2018
+  },
+  {
+   "id": "daqing_chain",
+   "name": "油化一体拼图大师",
+   "desc": "完成大庆石油-石化产业链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": [
+  {
+   "desc": "2023 GDP 2862.5亿元(+1.8%); 户籍261.3万; 常住2023末约270万/2024末266.3万",
+   "url": "https://www.daqing.gov.cn/daqing/tongjigongbao/202410/c05_357404.shtml",
+   "year": 2023
+  }
+ ],
+ "real_anchors": {
+  "census2020": {
+   "pop": 2785000
+  },
+  "stat2023": {
+   "gdp": 2862.5,
+   "pop": 2700000
+  }
+ }
+}

@@ -1,0 +1,843 @@
+{
+ "profile": {
+  "name": "深圳市",
+  "province": "广东省",
+  "prefecture": "副省级市 · 计划单列市",
+  "area": "1,997 km²",
+  "coordinates": [
+   114.06,
+   22.54
+  ],
+  "tags": [
+   "经济特区",
+   "创新之都",
+   "粤港澳大湾区核心",
+   "先行示范区"
+  ],
+  "description": "中国改革开放的窗口，从1979年前的宝安县一跃成为全球瞩目的创新型城市，经历了加工贸易、电子制造、互联网与高新技术、金融科创的多轮产业跃迁。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 1979,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "酝酿期",
+    "start": 1977,
+    "end": 1979,
+    "color": "gray"
+   },
+   {
+    "name": "特区成立",
+    "start": 1980,
+    "end": 1985,
+    "color": "green"
+   },
+   {
+    "name": "制造业腾飞",
+    "start": 1986,
+    "end": 1995,
+    "color": "yellow"
+   },
+   {
+    "name": "高新转型",
+    "start": 1996,
+    "end": 2008,
+    "color": "teal"
+   },
+   {
+    "name": "湾区引领",
+    "start": 2009,
+    "end": 2024,
+    "color": "purple"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "industry",
+    "label": "工业总产值",
+    "unit": "亿元",
+    "max": 48000,
+    "color": "#3b82f6"
+   },
+   {
+    "key": "hitech",
+    "label": "高新技术企业",
+    "unit": "家",
+    "max": 24000,
+    "color": "#10b981"
+   }
+  ],
+  "spaceType": "single_city",
+  "spaceLabels": {
+   "old": "建成区",
+   "new": "新增空间"
+  },
+  "cityKey": "shenzhen",
+  "chainKeys": [
+   "processing",
+   "electronics",
+   "hitech",
+   "finance_innovation"
+  ],
+  "chainContainerIds": [
+   "processingChain",
+   "electronicsChain",
+   "hitechChain",
+   "financeChain"
+  ],
+  "currentStatus": "全球创新之都，粤港澳大湾区核心引擎",
+  "transformationAssessment": "从宝安县到全球科创中心",
+  "transformationDetail": "深圳用40余年完成从农业县到全球创新高地的跃迁，PCT国际专利申请量连续多年居全国首位，但面临高房价、产业外溢与土地资源紧张等持续挑战。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 1979,
+   "title": "撤县设市",
+   "category": "discovery",
+   "desc": "撤销宝安县，设立深圳市，为建立经济特区做准备",
+   "impact": 10,
+   "pop": 300000,
+   "gdp": 2,
+   "industry": 0.5,
+   "hitech": 0,
+   "event": true
+  },
+  {
+   "year": 1980,
+   "title": "经济特区成立",
+   "category": "discovery",
+   "desc": "全国人大常委会批准《广东省经济特区条例》，深圳经济特区正式诞生",
+   "impact": 10,
+   "pop": 330000,
+   "gdp": 2.7,
+   "industry": 0.7,
+   "hitech": 0,
+   "event": true
+  },
+  {
+   "year": 1981,
+   "title": "二线关设立",
+   "category": "transformation",
+   "desc": "深圳经济特区管理线（二线关）建成，形成特区内外双圈层格局",
+   "impact": 6,
+   "pop": 450000,
+   "gdp": 5,
+   "industry": 1.5,
+   "hitech": 0,
+   "event": false
+  },
+  {
+   "year": 1985,
+   "title": "加工贸易高峰",
+   "category": "peak",
+   "desc": "三来一补企业遍地开花，出口加工业成为经济第一引擎",
+   "impact": 8,
+   "pop": 880000,
+   "gdp": 39,
+   "industry": 15,
+   "hitech": 5,
+   "event": true
+  },
+  {
+   "year": 1988,
+   "title": "计划单列市",
+   "category": "transformation",
+   "desc": "深圳成为计划单列市，获得省级经济管理权限",
+   "impact": 7,
+   "pop": 1500000,
+   "gdp": 87,
+   "industry": 40,
+   "hitech": 20,
+   "event": false
+  },
+  {
+   "year": 1990,
+   "title": "证券市场起步",
+   "category": "transformation",
+   "desc": "深圳证券交易所成立，资本市场开始服务特区企业",
+   "impact": 8,
+   "pop": 1670000,
+   "gdp": 172,
+   "industry": 80,
+   "hitech": 50,
+   "event": true
+  },
+  {
+   "year": 1992,
+   "title": "邓小平南巡",
+   "category": "transformation",
+   "desc": "南方谈话为深圳二次创业注入强心剂，民营经济加速崛起",
+   "impact": 10,
+   "pop": 2600000,
+   "gdp": 317,
+   "industry": 150,
+   "hitech": 100,
+   "event": true
+  },
+  {
+   "year": 1995,
+   "title": "电子制造崛起",
+   "category": "peak",
+   "desc": "华为、中兴、富士康等电子制造企业规模扩张，深圳成为全球电子制造重镇",
+   "impact": 8,
+   "pop": 4050000,
+   "gdp": 842,
+   "industry": 350,
+   "hitech": 200,
+   "event": true
+  },
+  {
+   "year": 1997,
+   "title": "香港回归",
+   "category": "transformation",
+   "desc": "深港经济融合提速，香港制造业北移与服务业南下的双向通道打通",
+   "impact": 8,
+   "pop": 5000000,
+   "gdp": 1297,
+   "industry": 550,
+   "hitech": 350,
+   "event": true
+  },
+  {
+   "year": 2000,
+   "title": "互联网萌芽",
+   "category": "transformation",
+   "desc": "腾讯等企业成立，互联网产业开始与硬件制造并驾齐驱",
+   "impact": 7,
+   "pop": 7000000,
+   "gdp": 2187,
+   "industry": 950,
+   "hitech": 600,
+   "event": true
+  },
+  {
+   "year": 2005,
+   "title": "自主创新战略",
+   "category": "transformation",
+   "desc": "深圳提出建设国家创新型城市，研发投入占GDP比重持续攀升",
+   "impact": 8,
+   "pop": 12000000,
+   "gdp": 4951,
+   "industry": 2200,
+   "hitech": 1500,
+   "event": false
+  },
+  {
+   "year": 2008,
+   "title": "危机倒逼转型",
+   "category": "decline",
+   "desc": "全球金融危机冲击加工贸易，深圳加速腾笼换鸟、淘汰落后产能",
+   "impact": 7,
+   "pop": 13000000,
+   "gdp": 7806,
+   "industry": 3400,
+   "hitech": 3000,
+   "event": true
+  },
+  {
+   "year": 2010,
+   "title": "特区扩容至全市",
+   "category": "transformation",
+   "desc": "深圳经济特区范围扩大至全市，关内外一体化进程启动",
+   "impact": 8,
+   "pop": 15000000,
+   "gdp": 9581,
+   "industry": 4000,
+   "hitech": 4500,
+   "event": true
+  },
+  {
+   "year": 2015,
+   "title": "创新之都成型",
+   "category": "peak",
+   "desc": "国家级高新技术企业超过5500家，PCT专利申请量居全国首位",
+   "impact": 9,
+   "pop": 19000000,
+   "gdp": 17503,
+   "industry": 8000,
+   "hitech": 11000,
+   "event": true
+  },
+  {
+   "year": 2017,
+   "title": "粤港澳大湾区",
+   "category": "transformation",
+   "desc": "粤港澳大湾区上升为国家战略，深圳被定位为国际科技创新中心",
+   "impact": 9,
+   "pop": 21000000,
+   "gdp": 22438,
+   "industry": 10000,
+   "hitech": 14000,
+   "event": true
+  },
+  {
+   "year": 2019,
+   "title": "先行示范区",
+   "category": "transformation",
+   "desc": "中共中央、国务院支持深圳建设中国特色社会主义先行示范区",
+   "impact": 10,
+   "pop": 22000000,
+   "gdp": 26992,
+   "industry": 12000,
+   "hitech": 17000,
+   "event": true
+  },
+  {
+   "year": 2020,
+   "title": "数字产业爆发",
+   "category": "transformation",
+   "desc": "5G、人工智能、新能源汽车等战略性新兴产业增加值突破万亿",
+   "impact": 8,
+   "pop": 23000000,
+   "gdp": 27670,
+   "industry": 13000,
+   "hitech": 18000,
+   "event": false
+  },
+  {
+   "year": 2024,
+   "title": "高质量发展",
+   "category": "transformation",
+   "desc": "深圳GDP突破3.6万亿元，世界级先进制造业集群与科创金融体系并进",
+   "impact": 10,
+   "pop": 24000000,
+   "gdp": 36800,
+   "industry": 18000,
+   "hitech": 22000,
+   "event": true
+  }
+ ],
+ "chains": {
+  "processing": {
+   "name": "加工贸易链",
+   "color": "#64748b",
+   "icon": "🏭",
+   "lifecycle": {
+    "birth": 1980,
+    "peak": 1985,
+    "decline": 2008,
+    "collapse": 2015,
+    "dead": 2024
+   },
+   "nodes": [
+    {
+     "id": "order",
+     "name": "来料订单",
+     "x": 50,
+     "y": 50,
+     "status": "dying",
+     "peak": "1980s",
+     "decline": "2000s"
+    },
+    {
+     "id": "assembly",
+     "name": "来样组装",
+     "x": 150,
+     "y": 50,
+     "status": "dying",
+     "peak": "1980s",
+     "decline": "2000s"
+    },
+    {
+     "id": "oem",
+     "name": "贴牌出口",
+     "x": 250,
+     "y": 50,
+     "status": "dying",
+     "peak": "1990s",
+     "decline": "2010s"
+    },
+    {
+     "id": "logistics",
+     "name": "港口物流",
+     "x": 350,
+     "y": 50,
+     "status": "active",
+     "peak": "1990s-2020s",
+     "decline": "长期存在"
+    }
+   ],
+   "connections": [
+    {
+     "from": "order",
+     "to": "assembly",
+     "flow": "原材料"
+    },
+    {
+     "from": "assembly",
+     "to": "oem",
+     "flow": "成品"
+    },
+    {
+     "from": "oem",
+     "to": "logistics",
+     "flow": "出口货物"
+    }
+   ],
+   "employment": {
+    "peak": 800000,
+    "current": 50000
+   }
+  },
+  "electronics": {
+   "name": "电子制造链",
+   "color": "#3b82f6",
+   "icon": "🔌",
+   "lifecycle": {
+    "birth": 1985,
+    "peak": 2005,
+    "decline": null
+   },
+   "nodes": [
+    {
+     "id": "components",
+     "name": "电子元器件",
+     "x": 50,
+     "y": 50,
+     "status": "active",
+     "peak": "1990s"
+    },
+    {
+     "id": "pcb",
+     "name": "PCB/模组",
+     "x": 150,
+     "y": 50,
+     "status": "active",
+     "peak": "2000s"
+    },
+    {
+     "id": "terminal",
+     "name": "智能终端",
+     "x": 250,
+     "y": 50,
+     "status": "active",
+     "peak": "2000s-2010s"
+    },
+    {
+     "id": "semiconductor",
+     "name": "集成电路",
+     "x": 350,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s"
+    }
+   ],
+   "connections": [
+    {
+     "from": "components",
+     "to": "pcb",
+     "flow": "元器件供应"
+    },
+    {
+     "from": "pcb",
+     "to": "terminal",
+     "flow": "核心模组"
+    },
+    {
+     "from": "terminal",
+     "to": "semiconductor",
+     "flow": "芯片需求"
+    }
+   ],
+   "employment": {
+    "peak": 1500000,
+    "current": 1200000
+   }
+  },
+  "hitech": {
+   "name": "高新技术链",
+   "color": "#10b981",
+   "icon": "🧬",
+   "lifecycle": {
+    "birth": 1995,
+    "peak": 2015,
+    "decline": null
+   },
+   "nodes": [
+    {
+     "id": "software",
+     "name": "软件与互联网",
+     "x": 50,
+     "y": 50,
+     "status": "growing",
+     "peak": "2010s"
+    },
+    {
+     "id": "ai",
+     "name": "人工智能",
+     "x": 150,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "new_energy",
+     "name": "新能源汽车",
+     "x": 250,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "biotech",
+     "name": "生物医药",
+     "x": 350,
+     "y": 50,
+     "status": "growing",
+     "peak": "未来"
+    }
+   ],
+   "connections": [
+    {
+     "from": "software",
+     "to": "ai",
+     "flow": "数据与算力"
+    },
+    {
+     "from": "ai",
+     "to": "new_energy",
+     "flow": "智能驾驶"
+    },
+    {
+     "from": "ai",
+     "to": "biotech",
+     "flow": "AI制药"
+    }
+   ],
+   "employment": {
+    "peak": null,
+    "current": 1800000
+   }
+  },
+  "finance_innovation": {
+   "name": "金融科创链",
+   "color": "#8b5cf6",
+   "icon": "🏦",
+   "lifecycle": {
+    "birth": 1990,
+    "peak": 2015,
+    "decline": null
+   },
+   "nodes": [
+    {
+     "id": "vc",
+     "name": "风险投资",
+     "x": 50,
+     "y": 50,
+     "status": "growing",
+     "peak": "2010s"
+    },
+    {
+     "id": "capital",
+     "name": "资本市场",
+     "x": 150,
+     "y": 50,
+     "status": "active",
+     "peak": "2000s"
+    },
+    {
+     "id": "fintech",
+     "name": "金融科技",
+     "x": 250,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "ip",
+     "name": "知识产权交易",
+     "x": 350,
+     "y": 50,
+     "status": "growing",
+     "peak": "未来"
+    }
+   ],
+   "connections": [
+    {
+     "from": "vc",
+     "to": "capital",
+     "flow": "上市退出"
+    },
+    {
+     "from": "capital",
+     "to": "fintech",
+     "flow": "支付结算"
+    },
+    {
+     "from": "fintech",
+     "to": "ip",
+     "flow": "知识产权融资"
+    }
+   ],
+   "employment": {
+    "peak": null,
+    "current": 600000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "land",
+    "name": "土地资源紧张",
+    "weight": 25,
+    "evidence": "全市陆域面积不足2000km²，工业用地成本持续攀升",
+    "icon": "🏔️",
+    "selected": false
+   },
+   {
+    "id": "housing",
+    "name": "高房价挤出效应",
+    "weight": 25,
+    "evidence": "房价收入比长期处于全国前列，人才与企业外溢明显",
+    "icon": "🏠",
+    "selected": false
+   },
+   {
+    "id": "manufacture_outflow",
+    "name": "制造业外迁",
+    "weight": 20,
+    "evidence": "加工贸易与低端制造向莞惠、粤西及东南亚转移",
+    "icon": "🚚",
+    "selected": false
+   },
+   {
+    "id": "external_demand",
+    "name": "外需波动冲击",
+    "weight": 15,
+    "evidence": "2008年全球金融危机与贸易摩擦影响出口导向产业",
+    "icon": "📉",
+    "selected": false
+   },
+   {
+    "id": "infrastructure",
+    "name": "交通与公共服务压力",
+    "weight": 10,
+    "evidence": "人口超2000万，教育、医疗、通勤承载力逼近极限",
+    "icon": "🚇",
+    "selected": false
+   },
+   {
+    "id": "single_city",
+    "name": "区域竞争加剧",
+    "weight": 5,
+    "evidence": "长三角、成渝及粤港澳大湾区内部城市争夺科创资源",
+    "icon": "⚔️",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "reform",
+    "name": "制度创新与先行先试",
+    "weight": 25,
+    "evidence": "特区立法权、先行示范区政策持续释放改革红利",
+    "icon": "📜",
+    "selected": false
+   },
+   {
+    "id": "innovation",
+    "name": "企业创新与研发投入",
+    "weight": 25,
+    "evidence": "国家级高新技术企业超2万家，研发投入强度超5%",
+    "icon": "💡",
+    "selected": false
+   },
+   {
+    "id": "hk_greater_bay",
+    "name": "粤港澳大湾区协同",
+    "weight": 20,
+    "evidence": "前海、河套等平台联动香港科创与金融资源",
+    "icon": "🌉",
+    "selected": false
+   },
+   {
+    "id": "talent",
+    "name": "人才持续流入",
+    "weight": 15,
+    "evidence": "年轻人口占比高，海归与高层次人才的集聚效应",
+    "icon": "👥",
+    "selected": false
+   },
+   {
+    "id": "industrial_upgrade",
+    "name": "产业迭代能力",
+    "weight": 10,
+    "evidence": "从加工贸易到电子制造再到高新技术的多次成功转型",
+    "icon": "🔄",
+    "selected": false
+   },
+   {
+    "id": "capital",
+    "name": "资本市场支撑",
+    "weight": 5,
+    "evidence": "深交所与风险投资生态为创新企业提供融资通道",
+    "icon": "💰",
+    "selected": false
+   }
+  ]
+ },
+ "space_timeline": [
+  {
+   "year": 1979,
+   "built": 3,
+   "vacancy": 0.05
+  },
+  {
+   "year": 1985,
+   "built": 10,
+   "vacancy": 0.05
+  },
+  {
+   "year": 1990,
+   "built": 20,
+   "vacancy": 0.05
+  },
+  {
+   "year": 1995,
+   "built": 35,
+   "vacancy": 0.05
+  },
+  {
+   "year": 2000,
+   "built": 50,
+   "vacancy": 0.05
+  },
+  {
+   "year": 2005,
+   "built": 80,
+   "vacancy": 0.05
+  },
+  {
+   "year": 2010,
+   "built": 120,
+   "vacancy": 0.05
+  },
+  {
+   "year": 2015,
+   "built": 180,
+   "vacancy": 0.05
+  },
+  {
+   "year": 2020,
+   "built": 250,
+   "vacancy": 0.05
+  },
+  {
+   "year": 2024,
+   "built": 300,
+   "vacancy": 0.05
+  }
+ ],
+ "space": {
+  "built_up_area_km2": 300,
+  "peak_pop": 24000000,
+  "current_pop": 24000000,
+  "vacancy_rate": 0.05,
+  "landmark": "深圳湾超级总部基地"
+ },
+ "migration": {
+  "outflow_total": 800000,
+  "destinations": [
+   {
+    "city": "东莞",
+    "province": "广东",
+    "count": 250000,
+    "reason": "制造业外溢与成本挤出"
+   },
+   {
+    "city": "惠州",
+    "province": "广东",
+    "count": 150000,
+    "reason": "临深片区承接产业与居住外溢"
+   },
+   {
+    "city": "广州",
+    "province": "广东",
+    "count": 120000,
+    "reason": "区域联动与人才流动"
+   },
+   {
+    "city": "香港",
+    "province": "中国香港",
+    "count": 80000,
+    "reason": "深港跨境通勤与商务往来"
+   },
+   {
+    "city": "其他城市",
+    "province": "全国/海外",
+    "count": 200000,
+    "reason": "创业、求学、退休迁移"
+   }
+  ]
+ },
+ "achievements": [
+  {
+   "id": "shenzhen_first_visit",
+   "name": "改革窗口",
+   "desc": "首次进入深圳，开启特区记忆",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "shenzhen_sez",
+   "name": "特区元年",
+   "desc": "见证1980年深圳经济特区正式成立",
+   "condition": "year",
+   "year": 1980
+  },
+  {
+   "id": "shenzhen_south_tour",
+   "name": "南方春风",
+   "desc": "见证1992年邓小平南巡对深圳的推动",
+   "condition": "year",
+   "year": 1992
+  },
+  {
+   "id": "shenzhen_greater_bay",
+   "name": "湾区核心",
+   "desc": "见证2017年粤港澳大湾区战略提出",
+   "condition": "year",
+   "year": 2017
+  },
+  {
+   "id": "shenzhen_pilot",
+   "name": "先行示范",
+   "desc": "见证2019年深圳先行示范区建设启动",
+   "condition": "year",
+   "year": 2019
+  },
+  {
+   "id": "shenzhen_chain",
+   "name": "产业跃迁拼图大师",
+   "desc": "完成深圳产业转型链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": {
+  "disclaimer": "本页面数据为教学演示与叙事游戏用途，部分历史节点、经济指标、人口与产业数据经过归一化、近似或综合多源整理，请以国家统计局、各地统计局及官方发布为准。",
+  "references": [
+   {
+    "name": "国家统计局",
+    "url": "https://data.stats.gov.cn/"
+   },
+   {
+    "name": "深圳市人民政府",
+    "url": "https://www.sz.gov.cn/"
+   },
+   {
+    "name": "深圳市统计局",
+    "url": "https://tjj.sz.gov.cn/"
+   },
+   {
+    "name": "百度百科 - 深圳",
+    "url": "https://baike.baidu.com/item/%E6%B7%B1%E5%9C%B3"
+   }
+  ]
+ },
+ "simMode": "growth"
+}

@@ -1,0 +1,608 @@
+{
+ "profile": {
+  "name": "七台河市",
+  "province": "黑龙江省",
+  "prefecture": "地级市",
+  "area": "6,221 km²",
+  "coordinates": [
+   131,
+   45.77
+  ],
+  "tags": [
+   "焦煤之都",
+   "冬奥冠军之乡",
+   "煤化工",
+   "石墨新材料"
+  ],
+  "description": "中国保护性开采的稀有焦煤基地，勃利煤田的优质主焦煤是钢铁工业的原料命脉。2009 年列入第二批资源枯竭城市，煤炭产量下滑后依托煤化工与石墨深加工转型，同时以'冬奥冠军之乡'的短道速滑文化闻名全国。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 1958,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "开发期",
+    "start": 1958,
+    "end": 1979,
+    "color": "green"
+   },
+   {
+    "name": "壮盛期",
+    "start": 1980,
+    "end": 2012,
+    "color": "yellow"
+   },
+   {
+    "name": "衰落期",
+    "start": 2013,
+    "end": 2020,
+    "color": "red"
+   },
+   {
+    "name": "转型期",
+    "start": 2021,
+    "end": 2024,
+    "color": "teal"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "coal",
+    "label": "原煤产量",
+    "unit": "万吨",
+    "max": 1800,
+    "color": "#1a1a2e"
+   },
+   {
+    "key": "coke",
+    "label": "焦炭产量",
+    "unit": "万吨",
+    "max": 500,
+    "color": "#a16207"
+   }
+  ],
+  "spaceType": "built_up",
+  "spaceLabels": {
+   "built": "建成区",
+   "density": "人口密度"
+  },
+  "cityKey": "qitaihe",
+  "chainKeys": [
+   "coal",
+   "graphite"
+  ],
+  "chainContainerIds": [
+   "coalChain",
+   "graphiteChain"
+  ],
+  "currentStatus": "资源枯竭转型与冰雪文化城市",
+  "transformationAssessment": "从焦煤基地到煤头化尾、石墨尾端",
+  "transformationDetail": "七台河因煤而生，主焦煤低硫低磷被誉为'工业味精'。矿井采深加大后产能收缩，城市提出'煤头化尾'，把原煤做成焦炭与精细化工品；同时开发亚洲储量领先的石墨矿，短道速滑冠军文化成为精神名片。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 1958,
+   "title": "勃利煤田开发",
+   "category": "discovery",
+   "desc": "国家开发勃利煤田，矿区从几个生产队起步",
+   "impact": 9,
+   "event": true,
+   "pop": 60000,
+   "coal": 30,
+   "coke": 0,
+   "gdp": 0.4
+  },
+  {
+   "year": 1970,
+   "title": "设立七台河市",
+   "category": "peak",
+   "desc": "矿区设县级市（1983 年升格地级市），煤城体制成型",
+   "impact": 8,
+   "event": true,
+   "pop": 200000,
+   "coal": 200,
+   "coke": 3,
+   "gdp": 1.2
+  },
+  {
+   "year": 1986,
+   "title": "焦煤基地定位",
+   "category": "peak",
+   "desc": "列为国家保护性开采的稀有煤种重点矿区",
+   "impact": 8,
+   "event": true,
+   "pop": 400000,
+   "coal": 700,
+   "coke": 60,
+   "gdp": 8
+  },
+  {
+   "year": 1998,
+   "title": "煤矿下岗潮",
+   "category": "decline",
+   "desc": "国企改革叠加煤价低谷，矿区职工大量下岗",
+   "impact": 8,
+   "event": true,
+   "pop": 520000,
+   "coal": 800,
+   "coke": 120,
+   "gdp": 42
+  },
+  {
+   "year": 2002,
+   "title": "短道速滑扬名",
+   "category": "culture",
+   "desc": "杨扬盐湖城冬奥夺金，'冠军之乡'起步（张杰、王濛等相继而出）",
+   "impact": 7,
+   "event": true,
+   "pop": 530000,
+   "coal": 1000,
+   "coke": 160,
+   "gdp": 62
+  },
+  {
+   "year": 2009,
+   "title": "列入资源枯竭城市",
+   "category": "decline",
+   "desc": "国务院第二批资源枯竭城市，焦煤可采年限预警",
+   "impact": 9,
+   "event": true,
+   "pop": 620000,
+   "coal": 1300,
+   "coke": 260,
+   "gdp": 226
+  },
+  {
+   "year": 2014,
+   "title": "煤化工突围",
+   "category": "transformation",
+   "desc": "焦炭-甲醇-精细化工链条成形，'煤头化尾'战略提出",
+   "impact": 7,
+   "event": true,
+   "pop": 660000,
+   "coal": 1500,
+   "coke": 420,
+   "gdp": 210
+  },
+  {
+   "year": 2017,
+   "title": "去产能收缩",
+   "category": "decline",
+   "desc": "关闭退出小煤矿数十处，原煤产量大幅下降",
+   "impact": 8,
+   "event": true,
+   "pop": 670000,
+   "coal": 1100,
+   "coke": 380,
+   "gdp": 220
+  },
+  {
+   "year": 2020,
+   "title": "七普人口骤降",
+   "category": "decline",
+   "desc": "常住人口 68.96 万，较六普下降近 25%，全国收缩最快城市之一",
+   "impact": 9,
+   "event": true,
+   "pop": 689611,
+   "coal": 900,
+   "coke": 300,
+   "gdp": 232
+  },
+  {
+   "year": 2022,
+   "title": "石墨新材料",
+   "category": "transformation",
+   "desc": "石墨精粉与负极材料项目落地，非煤产业占比提升",
+   "impact": 7,
+   "event": true,
+   "pop": 660000,
+   "coal": 800,
+   "coke": 320,
+   "gdp": 268.9,
+   "calibrated": true
+  },
+  {
+   "year": 2023,
+   "title": "2023年统计锚点",
+   "category": "transformation",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 656800,
+   "gdp": 0,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2024,
+   "title": "冬奥文化+新赛道",
+   "category": "transformation",
+   "desc": "冠军文化城建成，煤化工与新材料双轨前行",
+   "impact": 7,
+   "event": true,
+   "pop": 645000,
+   "coal": 750,
+   "coke": 330,
+   "gdp": 255
+  }
+ ],
+ "chains": {
+  "coal": {
+   "name": "焦煤产业链",
+   "color": "#1a1a2e",
+   "icon": "⛏️",
+   "lifecycle": {
+    "birth": 1958,
+    "peak": 2005,
+    "decline": 2014,
+    "collapse": 2018,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "mine",
+     "name": "矿井群",
+     "x": 50,
+     "y": 50,
+     "status": "dying",
+     "peak": "1980s-2000s",
+     "decline": "2010s"
+    },
+    {
+     "id": "wash",
+     "name": "洗煤厂",
+     "x": 150,
+     "y": 50,
+     "status": "declining",
+     "peak": "1990s-2010s",
+     "decline": "2020s"
+    },
+    {
+     "id": "coke",
+     "name": "焦化",
+     "x": 250,
+     "y": 50,
+     "status": "active",
+     "peak": "2000s-2020s",
+     "decline": null
+    },
+    {
+     "id": "chem",
+     "name": "精细化工",
+     "x": 350,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "power",
+     "name": "煤电热",
+     "x": 450,
+     "y": 50,
+     "status": "declining",
+     "peak": "2000s-2010s",
+     "decline": "2020s"
+    }
+   ],
+   "connections": [
+    {
+     "from": "mine",
+     "to": "wash",
+     "flow": "原煤"
+    },
+    {
+     "from": "wash",
+     "to": "coke",
+     "flow": "精煤"
+    },
+    {
+     "from": "coke",
+     "to": "chem",
+     "flow": "焦炉煤气"
+    },
+    {
+     "from": "wash",
+     "to": "power",
+     "flow": "中煤"
+    }
+   ],
+   "employment": {
+    "peak": 120000,
+    "current": 30000
+   }
+  },
+  "graphite": {
+   "name": "石墨与冰雪链",
+   "color": "#38bdf8",
+   "icon": "⛸️",
+   "lifecycle": {
+    "birth": 2016,
+    "peak": 2024,
+    "decline": null,
+    "collapse": null,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "graphite",
+     "name": "石墨采选",
+     "x": 50,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "anode",
+     "name": "负极材料",
+     "x": 150,
+     "y": 200,
+     "status": "emerging",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "ice",
+     "name": "冰雪训练",
+     "x": 250,
+     "y": 200,
+     "status": "active",
+     "peak": "2000s-2020s",
+     "decline": null
+    },
+    {
+     "id": "tour",
+     "name": "冠军文旅",
+     "x": 350,
+     "y": 200,
+     "status": "emerging",
+     "peak": "2020s",
+     "decline": null
+    }
+   ],
+   "connections": [
+    {
+     "from": "graphite",
+     "to": "anode",
+     "flow": "精粉"
+    },
+    {
+     "from": "ice",
+     "to": "tour",
+     "flow": "冠军IP"
+    }
+   ],
+   "employment": {
+    "peak": 5000,
+    "current": 6000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "resource",
+    "name": "焦煤可采萎缩",
+    "weight": 34,
+    "evidence": "主焦煤探明储量消耗过半，采深与成本双升",
+    "icon": "⛏️",
+    "selected": false
+   },
+   {
+    "id": "outflow",
+    "name": "人口断崖外流",
+    "weight": 26,
+    "evidence": "七普较六普人口降四分之一，收缩程度全国前列",
+    "icon": "🚉",
+    "selected": false
+   },
+   {
+    "id": "price",
+    "name": "煤焦价格周期",
+    "weight": 18,
+    "evidence": "2012-2016 焦炭深度亏损拖垮财政",
+    "icon": "📉",
+    "selected": false
+   },
+   {
+    "id": "policy",
+    "name": "去产能与小矿退出",
+    "weight": 14,
+    "evidence": "落后煤矿集中关闭，地方产量腰斩",
+    "icon": "🏭",
+    "selected": false
+   },
+   {
+    "id": "climate",
+    "name": "东北区位边缘化",
+    "weight": 8,
+    "evidence": "远离主交通干线，招商与人才引进困难",
+    "icon": "❄️",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "chem",
+    "name": "煤头化尾",
+    "weight": 28,
+    "evidence": "焦炉煤气制甲醇 LNG 等精细化工延伸",
+    "icon": "⚗️",
+    "selected": false
+   },
+   {
+    "id": "graphite",
+    "name": "石墨资源",
+    "weight": 24,
+    "evidence": "亚洲优质石墨矿储量，负极材料产业链起步",
+    "icon": "🪨",
+    "selected": false
+   },
+   {
+    "id": "champion",
+    "name": "冬奥冠军文化",
+    "weight": 22,
+    "evidence": "走出了杨扬王濛孙琳琳等十位冬奥与世界冠军",
+    "icon": "⛸️",
+    "selected": false
+   },
+   {
+    "id": "agri",
+    "name": "寒地农业",
+    "weight": 16,
+    "evidence": "大豆玉米高产区，农产品加工补链",
+    "icon": "🌾",
+    "selected": false
+   },
+   {
+    "id": "border",
+    "name": "对俄口岸联动",
+    "weight": 10,
+    "evidence": "借力俄煤俄电与木材进口通道",
+    "icon": "🛃",
+    "selected": false
+   }
+  ]
+ },
+ "space_timeline": [
+  {
+   "year": 1958,
+   "built": 0.5,
+   "vacant": 0,
+   "density": 8000
+  },
+  {
+   "year": 1970,
+   "built": 5,
+   "vacant": 0,
+   "density": 11000
+  },
+  {
+   "year": 1990,
+   "built": 18,
+   "vacant": 0.03,
+   "density": 10000
+  },
+  {
+   "year": 2005,
+   "built": 30,
+   "vacant": 0.1,
+   "density": 8000
+  },
+  {
+   "year": 2015,
+   "built": 38,
+   "vacant": 0.24,
+   "density": 6200
+  },
+  {
+   "year": 2024,
+   "built": 40,
+   "vacant": 0.32,
+   "density": 4900
+  }
+ ],
+ "space": {
+  "built_up_area_km2": 40,
+  "current_pop": 645000,
+  "peak_pop": 689611,
+  "vacancy_rate": 0.32,
+  "housing_price_rank": "全国地级市最低梯队",
+  "landmark": "短道速滑冠军馆"
+ },
+ "migration": {
+  "outflow_total": 220000,
+  "destinations": [
+   {
+    "city": "哈尔滨",
+    "province": "黑龙江",
+    "count": 60000,
+    "reason": "省会就业"
+   },
+   {
+    "city": "佳木斯",
+    "province": "黑龙江",
+    "count": 25000,
+    "reason": "区域中心城市"
+   },
+   {
+    "city": "三亚",
+    "province": "海南",
+    "count": 30000,
+    "reason": "东北候鸟定居"
+   },
+   {
+    "city": "北京",
+    "province": "北京",
+    "count": 20000,
+    "reason": "务工经商"
+   },
+   {
+    "city": "其他地区",
+    "province": "全国",
+    "count": 85000,
+    "reason": "外出务工"
+   }
+  ]
+ },
+ "achievements": [
+  {
+   "id": "qitaihe_first_visit",
+   "name": "七台河初见",
+   "desc": "首次进入七台河市",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "qitaihe_y1958",
+   "name": "勃利煤田开发",
+   "desc": "见证1958年勃利煤田开发",
+   "condition": "year",
+   "year": 1958
+  },
+  {
+   "id": "qitaihe_y1970",
+   "name": "设立七台河市",
+   "desc": "见证1970年设立七台河市",
+   "condition": "year",
+   "year": 1970
+  },
+  {
+   "id": "qitaihe_y1986",
+   "name": "焦煤基地定位",
+   "desc": "见证1986年焦煤基地定位",
+   "condition": "year",
+   "year": 1986
+  },
+  {
+   "id": "qitaihe_chain",
+   "name": "焦煤之都拼图大师",
+   "desc": "完成七台河市产业链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": [
+  {
+   "desc": "2022 GDP 268.9亿元(+5.3%); 2023常住65.68万（检索值，推断级）",
+   "url": "http://www.tjcn.org/tjgb/08hlj/37653.html",
+   "year": 2023
+  },
+  {
+   "desc": "七普常住人口689611人（2020-11-01，黑龙江省第七次全国人口普查公报/七台河市统计局）",
+   "url": "https://www.hlj.gov.cn/hlj/c108419/202105/c00_31186898.shtml"
+  }
+ ],
+ "real_anchors": {
+  "stat2023": {
+   "gdp": null,
+   "pop": 656800
+  },
+  "census2020": {
+   "pop": 689611
+  }
+ }
+}

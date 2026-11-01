@@ -1,0 +1,711 @@
+{
+ "profile": {
+  "name": "包头市",
+  "province": "内蒙古自治区",
+  "prefecture": "地级市",
+  "area": "27,768 km²",
+  "coordinates": [
+   109.83,
+   40.65
+  ],
+  "tags": [
+   "稀土之都",
+   "草原钢城",
+   "包钢摇篮",
+   "黄河之滨"
+  ],
+  "description": "黄河“几字弯”上的工业重镇，坐拥世界最大的白云鄂博多金属矿，稀土储量占中国八成以上。从草原商埠到“共和国钢铁工业长子”包钢，再到稀土新材料基地，包头演绎着资源大国的战略转型。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 1927,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "起家期",
+    "start": 1927,
+    "end": 1948,
+    "color": "green"
+   },
+   {
+    "name": "壮盛期",
+    "start": 1949,
+    "end": 1977,
+    "color": "yellow"
+   },
+   {
+    "name": "调整期",
+    "start": 1978,
+    "end": 2000,
+    "color": "red"
+   },
+   {
+    "name": "转型期",
+    "start": 2001,
+    "end": 2024,
+    "color": "teal"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "rare_earth",
+    "label": "稀土氧化物产量",
+    "unit": "万吨",
+    "max": 20,
+    "color": "#14b8a6"
+   },
+   {
+    "key": "steel",
+    "label": "粗钢产量",
+    "unit": "万吨",
+    "max": 2000,
+    "color": "#71717a"
+   }
+  ],
+  "spaceType": "built_up",
+  "spaceLabels": {
+   "built": "建成区",
+   "density": "人口密度"
+  },
+  "cityKey": "baotou",
+  "chainKeys": [
+   "rare_earth",
+   "steel"
+  ],
+  "chainContainerIds": [
+   "rareEarthChain",
+   "steelChain"
+  ],
+  "currentStatus": "稀土之都，绿色钢铁",
+  "transformationAssessment": "从“一钢独大”到稀土新材料与高端装备并进的多元工业体系",
+  "transformationDetail": "包头依托白云鄂博铁-稀土-铌-钍共生矿，建成全球最大的稀土生产、科研与贸易基地。新世纪以来，稀土永磁、储氢、抛光材料与风电钢、特种钢成为新增长极。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 1927,
+   "title": "包头设县与黄河码头",
+   "category": "discovery",
+   "desc": "包头正式设县，依托黄河水运成为西北皮毛、粮食集散重镇",
+   "impact": 6,
+   "pop": 60000,
+   "rare_earth": 0,
+   "steel": 0,
+   "gdp": 0.05,
+   "event": true
+  },
+  {
+   "year": 1950,
+   "title": "包钢建厂",
+   "category": "peak",
+   "desc": "国家决定在包头建设大型钢铁联合企业，奠定草原钢城基石",
+   "impact": 10,
+   "pop": 180000,
+   "rare_earth": 0,
+   "steel": 0,
+   "gdp": 0.2,
+   "event": true
+  },
+  {
+   "year": 1954,
+   "title": "包头市成立",
+   "category": "peak",
+   "desc": "撤销绥远省建制后包头划归内蒙古，成为自治区工业核心",
+   "impact": 7,
+   "pop": 280000,
+   "rare_earth": 0,
+   "steel": 0,
+   "gdp": 0.8,
+   "event": false
+  },
+  {
+   "year": 1959,
+   "title": "包钢一号高炉出铁",
+   "category": "peak",
+   "desc": "周恩来总理为包钢一号高炉剪彩，内蒙古结束不产铁历史",
+   "impact": 9,
+   "pop": 520000,
+   "rare_earth": 0.01,
+   "steel": 30,
+   "gdp": 3,
+   "event": true
+  },
+  {
+   "year": 1961,
+   "title": "白云鄂博稀土开发",
+   "category": "discovery",
+   "desc": "白云鄂博矿开始系统选冶，稀土资源进入国家战略视野",
+   "impact": 9,
+   "pop": 580000,
+   "rare_earth": 0.05,
+   "steel": 80,
+   "gdp": 4,
+   "event": true
+  },
+  {
+   "year": 1978,
+   "title": "稀土精矿出口",
+   "category": "peak",
+   "desc": "包头稀土精矿开始批量供应国际市场，中国稀土时代开启",
+   "impact": 8,
+   "pop": 1100000,
+   "rare_earth": 0.5,
+   "steel": 200,
+   "gdp": 15,
+   "event": true
+  },
+  {
+   "year": 1986,
+   "title": "稀土产量跃升",
+   "category": "peak",
+   "desc": "包头稀土精矿产量突破万吨，分离冶炼能力全国领先",
+   "impact": 7,
+   "pop": 1500000,
+   "rare_earth": 2,
+   "steel": 350,
+   "gdp": 45,
+   "event": false
+  },
+  {
+   "year": 1992,
+   "title": "包头稀土高新区",
+   "category": "transformation",
+   "desc": "国家级包头稀土高新技术产业开发区成立，稀土应用研发提速",
+   "impact": 8,
+   "pop": 1700000,
+   "rare_earth": 4,
+   "steel": 500,
+   "gdp": 120,
+   "event": true
+  },
+  {
+   "year": 2001,
+   "title": "入世后钢铁扩张",
+   "category": "peak",
+   "desc": "中国加入WTO，包钢产能快速扩张，粗钢突破700万吨",
+   "impact": 8,
+   "pop": 2100000,
+   "rare_earth": 6,
+   "steel": 750,
+   "gdp": 350,
+   "event": true
+  },
+  {
+   "year": 2008,
+   "title": "金融危机冲击",
+   "category": "decline",
+   "desc": "全球钢铁、稀土需求骤降，包头工业增速明显放缓",
+   "impact": 7,
+   "pop": 2450000,
+   "rare_earth": 8,
+   "steel": 1000,
+   "gdp": 1700,
+   "event": true
+  },
+  {
+   "year": 2012,
+   "title": "稀土战略收储",
+   "category": "transformation",
+   "desc": "国家实施稀土开采总量控制与战略收储，包头规范开采秩序",
+   "impact": 8,
+   "pop": 2650000,
+   "rare_earth": 10,
+   "steel": 1500,
+   "gdp": 3400,
+   "event": true
+  },
+  {
+   "year": 2017,
+   "title": "稀土新材料基地",
+   "category": "transformation",
+   "desc": "稀土永磁、储氢、抛光材料产能集聚，包头向“磁材之都”迈进",
+   "impact": 9,
+   "pop": 2800000,
+   "rare_earth": 12,
+   "steel": 1600,
+   "gdp": 3800,
+   "event": true
+  },
+  {
+   "year": 2022,
+   "title": "2022年统计锚点",
+   "category": "transformation",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 2709400,
+   "gdp": 3718.9,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2023,
+   "title": "2023年统计锚点",
+   "category": "peak",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 2709400,
+   "gdp": 4263.9,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2024,
+   "title": "稀土+风电钢双轮驱动",
+   "category": "transformation",
+   "desc": "稀土永磁电机、风电钢、特种钢与氢能装备形成新质生产力集群",
+   "impact": 9,
+   "pop": 2772100,
+   "rare_earth": 15,
+   "steel": 1800,
+   "gdp": 4711.9,
+   "event": true,
+   "calibrated": true
+  }
+ ],
+ "chains": {
+  "rare_earth": {
+   "name": "稀土产业链",
+   "color": "#14b8a6",
+   "icon": "🧲",
+   "lifecycle": {
+    "birth": 1961,
+    "peak": 2012,
+    "decline": null,
+    "collapse": null,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "mine",
+     "name": "采矿",
+     "x": 50,
+     "y": 50,
+     "status": "active",
+     "peak": "1960s-至今",
+     "decline": null
+    },
+    {
+     "id": "crush",
+     "name": "选矿",
+     "x": 150,
+     "y": 50,
+     "status": "active",
+     "peak": "1970s-至今",
+     "decline": null
+    },
+    {
+     "id": "separation",
+     "name": "冶炼分离",
+     "x": 250,
+     "y": 50,
+     "status": "active",
+     "peak": "1990s-至今",
+     "decline": null
+    },
+    {
+     "id": "metal",
+     "name": "稀土金属",
+     "x": 350,
+     "y": 50,
+     "status": "active",
+     "peak": "2000s",
+     "decline": null
+    },
+    {
+     "id": "magnet",
+     "name": "永磁材料",
+     "x": 450,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "motor",
+     "name": "电机/风电",
+     "x": 550,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    }
+   ],
+   "connections": [
+    {
+     "from": "mine",
+     "to": "crush",
+     "flow": "原矿"
+    },
+    {
+     "from": "crush",
+     "to": "separation",
+     "flow": "精矿"
+    },
+    {
+     "from": "separation",
+     "to": "metal",
+     "flow": "稀土氧化物"
+    },
+    {
+     "from": "metal",
+     "to": "magnet",
+     "flow": "稀土金属"
+    },
+    {
+     "from": "magnet",
+     "to": "motor",
+     "flow": "磁材"
+    }
+   ],
+   "employment": {
+    "peak": 120000,
+    "current": 150000
+   }
+  },
+  "steel": {
+   "name": "钢铁产业链",
+   "color": "#71717a",
+   "icon": "🔩",
+   "lifecycle": {
+    "birth": 1950,
+    "peak": 2008,
+    "decline": 2013,
+    "collapse": null,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "sinter",
+     "name": "烧结球团",
+     "x": 50,
+     "y": 200,
+     "status": "active",
+     "peak": "1990s-2010s",
+     "decline": "2020s"
+    },
+    {
+     "id": "blast",
+     "name": "高炉炼铁",
+     "x": 150,
+     "y": 200,
+     "status": "active",
+     "peak": "1990s-2010s",
+     "decline": "2020s"
+    },
+    {
+     "id": "bof",
+     "name": "转炉炼钢",
+     "x": 250,
+     "y": 200,
+     "status": "active",
+     "peak": "2000s",
+     "decline": "2020s"
+    },
+    {
+     "id": "rolling",
+     "name": "轧材",
+     "x": 350,
+     "y": 200,
+     "status": "active",
+     "peak": "2000s",
+     "decline": null
+    },
+    {
+     "id": "wind",
+     "name": "风电钢",
+     "x": 450,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "special",
+     "name": "特种钢",
+     "x": 550,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    }
+   ],
+   "connections": [
+    {
+     "from": "sinter",
+     "to": "blast",
+     "flow": "炉料"
+    },
+    {
+     "from": "blast",
+     "to": "bof",
+     "flow": "铁水"
+    },
+    {
+     "from": "bof",
+     "to": "rolling",
+     "flow": "钢坯"
+    },
+    {
+     "from": "rolling",
+     "to": "wind",
+     "flow": "板材"
+    },
+    {
+     "from": "rolling",
+     "to": "special",
+     "flow": "特钢坯"
+    }
+   ],
+   "employment": {
+    "peak": 200000,
+    "current": 140000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "structure",
+    "name": "产业结构偏重",
+    "weight": 25,
+    "evidence": "钢铁、稀土冶炼等高耗能产业占比高，服务业与新兴产业不足",
+    "icon": "🏭",
+    "selected": false
+   },
+   {
+    "id": "environment",
+    "name": "环保与能耗约束",
+    "weight": 25,
+    "evidence": "黄河流域生态约束、大气污染防治倒逼限产与搬迁",
+    "icon": "🌫️",
+    "selected": false
+   },
+   {
+    "id": "market",
+    "name": "稀土与钢铁价格波动",
+    "weight": 20,
+    "evidence": "全球大宗商品周期与出口配额政策导致业绩大幅波动",
+    "icon": "📉",
+    "selected": false
+   },
+   {
+    "id": "tech",
+    "name": "深加工能力不足",
+    "weight": 20,
+    "evidence": "长期以稀土原材料和初级钢材为主，高附加值产品占比偏低",
+    "icon": "🔧",
+    "selected": false
+   },
+   {
+    "id": "water",
+    "name": "水资源瓶颈",
+    "weight": 10,
+    "evidence": "干旱半干旱地区，工业用水与生态用水矛盾突出",
+    "icon": "💧",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "resource",
+    "name": "稀土战略资源",
+    "weight": 30,
+    "evidence": "白云鄂博稀土储量居全球前列，国家战略性资源地位不可替代",
+    "icon": "🧲",
+    "selected": false
+   },
+   {
+    "id": "policy",
+    "name": "稀土产业国家战略",
+    "weight": 25,
+    "evidence": "开采总量控制、战略收储、新材料基地等政策红利",
+    "icon": "📜",
+    "selected": false
+   },
+   {
+    "id": "location",
+    "name": "蒙西能源与区位",
+    "weight": 20,
+    "evidence": "毗邻鄂尔多斯能源基地，风光资源与电力成本优势明显",
+    "icon": "🌐",
+    "selected": false
+   },
+   {
+    "id": "technology",
+    "name": "稀土新材料创新",
+    "weight": 15,
+    "evidence": "永磁、储氢、抛光、催化材料及稀土钢技术突破",
+    "icon": "⚗️",
+    "selected": false
+   },
+   {
+    "id": "green",
+    "name": "绿色钢铁转型",
+    "weight": 10,
+    "evidence": "氢冶金、短流程炼钢、风电钢与特种钢升级",
+    "icon": "🌱",
+    "selected": false
+   }
+  ]
+ },
+ "space_timeline": [
+  {
+   "year": 1927,
+   "old_area": 4,
+   "new_area": 0,
+   "old_pop": 60000,
+   "vacancy": 0
+  },
+  {
+   "year": 1959,
+   "old_area": 35,
+   "new_area": 0,
+   "old_pop": 520000,
+   "vacancy": 0
+  },
+  {
+   "year": 1978,
+   "old_area": 80,
+   "new_area": 0,
+   "old_pop": 1100000,
+   "vacancy": 0.05
+  },
+  {
+   "year": 1992,
+   "old_area": 120,
+   "new_area": 0,
+   "old_pop": 1500000,
+   "vacancy": 0.08
+  },
+  {
+   "year": 2008,
+   "old_area": 220,
+   "new_area": 0,
+   "old_pop": 2450000,
+   "vacancy": 0.1
+  },
+  {
+   "year": 2024,
+   "old_area": 280,
+   "new_area": 0,
+   "old_pop": 2750000,
+   "vacancy": 0.12
+  }
+ ],
+ "space": {
+  "old_city": {
+   "name": "昆都仑-青山老城区",
+   "peak_pop": 2800000,
+   "current_pop": 2772100,
+   "vacancy": 0.12,
+   "landmark": "包钢工业遗产公园"
+  },
+  "new_city": {
+   "name": "九原-滨河新区",
+   "peak_pop": 0,
+   "current_pop": 450000,
+   "landmark": "包头稀土高新区"
+  },
+  "distance_km": 12,
+  "built_up_area_km2": 280,
+  "current_pop": 2750000,
+  "peak_pop": 2800000,
+  "vacancy_rate": 0.12
+ },
+ "migration": {
+  "outflow_total": 150000,
+  "destinations": [
+   {
+    "city": "呼和浩特",
+    "province": "内蒙古",
+    "count": 35000,
+    "reason": "首府就业与教育"
+   },
+   {
+    "city": "北京",
+    "province": "北京",
+    "count": 40000,
+    "reason": "首都就业与医疗资源"
+   },
+   {
+    "city": "鄂尔多斯",
+    "province": "内蒙古",
+    "count": 30000,
+    "reason": "邻近能源城市务工"
+   },
+   {
+    "city": "西安",
+    "province": "陕西",
+    "count": 25000,
+    "reason": "西北中心城市就业"
+   },
+   {
+    "city": "其他地区",
+    "province": "全国",
+    "count": 20000,
+    "reason": "外出务工与求学"
+   }
+  ]
+ },
+ "achievements": [
+  {
+   "id": "baotou_first_visit",
+   "name": "草原钢城初探",
+   "desc": "首次进入包头",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "baotou_steel",
+   "name": "包钢奠基",
+   "desc": "见证1950年包钢建厂",
+   "condition": "year",
+   "year": 1950
+  },
+  {
+   "id": "baotou_rare",
+   "name": "稀土觉醒",
+   "desc": "见证1961年白云鄂博稀土开发",
+   "condition": "year",
+   "year": 1961
+  },
+  {
+   "id": "baotou_furnace",
+   "name": "一号高炉",
+   "desc": "见证1959年包钢一号高炉出铁",
+   "condition": "year",
+   "year": 1959
+  },
+  {
+   "id": "baotou_new_material",
+   "name": "磁材之都",
+   "desc": "见证2017年稀土新材料基地建设",
+   "condition": "year",
+   "year": 2017
+  },
+  {
+   "id": "baotou_chain",
+   "name": "稀土钢铁拼图大师",
+   "desc": "完成包头稀土-钢铁产业链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": [
+  {
+   "desc": "2024 GDP 4711.9亿; ",
+   "url": "http://www.tjcn.org/tjgb/05nmg/37706.html",
+   "year": 2024
+  }
+ ],
+ "real_anchors": {
+  "census2020": {
+   "pop": 2709400
+  },
+  "stat2024": {
+   "gdp": 4711.9,
+   "pop": 2772100
+  }
+ }
+}

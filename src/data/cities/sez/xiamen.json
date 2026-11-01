@@ -1,0 +1,734 @@
+{
+ "profile": {
+  "name": "厦门市",
+  "province": "福建省",
+  "prefecture": "副省级市 · 计划单列市",
+  "area": "1,700 km²",
+  "coordinates": [
+   118.09,
+   24.48
+  ],
+  "tags": [
+   "经济特区",
+   "对台前沿",
+   "海上花园",
+   "高素质创新创业之城"
+  ],
+  "description": "东南沿海重要中心城市，1980年设立经济特区，以两岸经贸合作、电子信息、机械装备和旅游会展为特色，是海峡西岸经济区的龙头。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 1980,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "建特区前夜",
+    "start": 1978,
+    "end": 1980,
+    "color": "gray"
+   },
+   {
+    "name": "特区初创",
+    "start": 1981,
+    "end": 1987,
+    "color": "green"
+   },
+   {
+    "name": "全岛特区",
+    "start": 1988,
+    "end": 1999,
+    "color": "yellow"
+   },
+   {
+    "name": "跨岛发展",
+    "start": 2000,
+    "end": 2009,
+    "color": "teal"
+   },
+   {
+    "name": "高素质之城",
+    "start": 2010,
+    "end": 2024,
+    "color": "purple"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "trade",
+    "label": "外贸进出口总额",
+    "unit": "亿美元",
+    "max": 1500,
+    "color": "#f59e0b"
+   },
+   {
+    "key": "tourism",
+    "label": "接待游客",
+    "unit": "万人次",
+    "max": 15000,
+    "color": "#14b8a6"
+   }
+  ],
+  "spaceType": "single_city",
+  "spaceLabels": {
+   "old": "厦门岛",
+   "new": "岛外新城"
+  },
+  "cityKey": "xiamen",
+  "chainKeys": [
+   "electronics",
+   "trade_logistics",
+   "tourism_mice"
+  ],
+  "chainContainerIds": [
+   "electronicsChain",
+   "tradeChain",
+   "tourismChain"
+  ],
+  "currentStatus": "高素质高颜值现代化国际化城市",
+  "transformationAssessment": "从海岛小城到高素质创新创业之城",
+  "transformationDetail": "厦门依托对台区位优势、港口资源和生态环境，形成了电子信息、机械装备、航运物流、旅游会展并进的产业格局，常住人口突破530万。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 1980,
+   "title": "经济特区成立",
+   "category": "discovery",
+   "desc": "厦门成为中国首批四个经济特区之一，面积2.5平方公里",
+   "impact": 10,
+   "pop": 930000,
+   "gdp": 6.5,
+   "trade": 1.5,
+   "tourism": 50,
+   "event": true
+  },
+  {
+   "year": 1984,
+   "title": "特区扩至全岛",
+   "category": "transformation",
+   "desc": "厦门经济特区范围扩大至厦门全岛，面积达131平方公里",
+   "impact": 9,
+   "pop": 1100000,
+   "gdp": 18,
+   "trade": 5,
+   "tourism": 100,
+   "event": true
+  },
+  {
+   "year": 1988,
+   "title": "计划单列市",
+   "category": "transformation",
+   "desc": "厦门实行计划单列，享有省级经济管理权限",
+   "impact": 8,
+   "pop": 1300000,
+   "gdp": 55,
+   "trade": 15,
+   "tourism": 200,
+   "event": true
+  },
+  {
+   "year": 1990,
+   "title": "火炬高新区",
+   "category": "transformation",
+   "desc": "厦门火炬高技术产业开发区获批，电子信息产业起步",
+   "impact": 8,
+   "pop": 1400000,
+   "gdp": 80,
+   "trade": 25,
+   "tourism": 300,
+   "event": true
+  },
+  {
+   "year": 1992,
+   "title": "南巡带动台资",
+   "category": "transformation",
+   "desc": "台商投资厦门进入高峰，电子、塑胶、纺织项目集聚",
+   "impact": 7,
+   "pop": 1500000,
+   "gdp": 120,
+   "trade": 45,
+   "tourism": 400,
+   "event": false
+  },
+  {
+   "year": 1995,
+   "title": "台商投资区",
+   "category": "peak",
+   "desc": "杏林、海沧台商投资区形成规模，台资企业成为工业支柱",
+   "impact": 8,
+   "pop": 1700000,
+   "gdp": 250,
+   "trade": 80,
+   "tourism": 600,
+   "event": true
+  },
+  {
+   "year": 1997,
+   "title": "厦门大桥通车",
+   "category": "transformation",
+   "desc": "厦门大桥建成通车，突破海岛交通瓶颈",
+   "impact": 7,
+   "pop": 1800000,
+   "gdp": 320,
+   "trade": 100,
+   "tourism": 700,
+   "event": false
+  },
+  {
+   "year": 2000,
+   "title": "跨岛发展战略",
+   "category": "transformation",
+   "desc": "提出『挺进岛外』，海沧、集美、同安、翔安加速开发",
+   "impact": 8,
+   "pop": 2000000,
+   "gdp": 500,
+   "trade": 150,
+   "tourism": 1000,
+   "event": true
+  },
+  {
+   "year": 2005,
+   "title": "对台先行先试",
+   "category": "transformation",
+   "desc": "厦门成为两岸直航试点口岸，海峡论坛等品牌活动启动",
+   "impact": 8,
+   "pop": 2300000,
+   "gdp": 1000,
+   "trade": 300,
+   "tourism": 1800,
+   "event": true
+  },
+  {
+   "year": 2008,
+   "title": "两岸三通",
+   "category": "transformation",
+   "desc": "两岸海运直航、空运直航、直接通邮全面实现",
+   "impact": 8,
+   "pop": 2500000,
+   "gdp": 1560,
+   "trade": 450,
+   "tourism": 2300,
+   "event": true
+  },
+  {
+   "year": 2010,
+   "title": "特区扩大至全市",
+   "category": "transformation",
+   "desc": "厦门经济特区范围扩大至全市，岛内外一体化提速",
+   "impact": 9,
+   "pop": 3500000,
+   "gdp": 2060,
+   "trade": 570,
+   "tourism": 3000,
+   "event": true
+  },
+  {
+   "year": 2015,
+   "title": "自贸试验区",
+   "category": "transformation",
+   "desc": "中国（福建）自由贸易试验区厦门片区挂牌，制度创新加速",
+   "impact": 8,
+   "pop": 3800000,
+   "gdp": 3466,
+   "trade": 830,
+   "tourism": 6000,
+   "event": true
+  },
+  {
+   "year": 2017,
+   "title": "金砖厦门会晤",
+   "category": "peak",
+   "desc": "金砖国家领导人第九次会晤在厦门举行，城市国际影响力跃升",
+   "impact": 9,
+   "pop": 4000000,
+   "gdp": 4351,
+   "trade": 950,
+   "tourism": 7800,
+   "event": true
+  },
+  {
+   "year": 2020,
+   "title": "高素质高颜值",
+   "category": "transformation",
+   "desc": "厦门GDP突破6000亿元，人均GDP居全国前列",
+   "impact": 8,
+   "pop": 5160000,
+   "gdp": 6384,
+   "trade": 1100,
+   "tourism": 7000,
+   "event": false
+  },
+  {
+   "year": 2024,
+   "title": "两岸融合示范区",
+   "category": "transformation",
+   "desc": "厦门加快建设海峡两岸融合发展示范区，数字经济与绿色经济并进",
+   "impact": 9,
+   "pop": 5300000,
+   "gdp": 8200,
+   "trade": 1300,
+   "tourism": 11000,
+   "event": true
+  }
+ ],
+ "chains": {
+  "electronics": {
+   "name": "电子信息链",
+   "color": "#3b82f6",
+   "icon": "💻",
+   "lifecycle": {
+    "birth": 1990,
+    "peak": 2017,
+    "decline": null
+   },
+   "nodes": [
+    {
+     "id": "panel",
+     "name": "显示面板",
+     "x": 50,
+     "y": 50,
+     "status": "active",
+     "peak": "2010s"
+    },
+    {
+     "id": "semiconductor",
+     "name": "半导体",
+     "x": 150,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "computer",
+     "name": "计算机整机",
+     "x": 250,
+     "y": 50,
+     "status": "active",
+     "peak": "2000s-2010s"
+    },
+    {
+     "id": "smart",
+     "name": "智能终端",
+     "x": 350,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s"
+    }
+   ],
+   "connections": [
+    {
+     "from": "panel",
+     "to": "computer",
+     "flow": "显示模组"
+    },
+    {
+     "from": "semiconductor",
+     "to": "smart",
+     "flow": "芯片"
+    },
+    {
+     "from": "computer",
+     "to": "smart",
+     "flow": "制造能力"
+    }
+   ],
+   "employment": {
+    "peak": 500000,
+    "current": 400000
+   }
+  },
+  "trade_logistics": {
+   "name": "对台贸易物流链",
+   "color": "#f59e0b",
+   "icon": "🚢",
+   "lifecycle": {
+    "birth": 1980,
+    "peak": 2015,
+    "decline": null
+   },
+   "nodes": [
+    {
+     "id": "port",
+     "name": "厦门港",
+     "x": 50,
+     "y": 50,
+     "status": "active",
+     "peak": "2010s"
+    },
+    {
+     "id": "bonded",
+     "name": "保税物流",
+     "x": 150,
+     "y": 50,
+     "status": "active",
+     "peak": "2010s"
+    },
+    {
+     "id": "cross_strait",
+     "name": "对台贸易",
+     "x": 250,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "ecommerce",
+     "name": "跨境电商",
+     "x": 350,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s"
+    }
+   ],
+   "connections": [
+    {
+     "from": "port",
+     "to": "bonded",
+     "flow": "进出口货物"
+    },
+    {
+     "from": "bonded",
+     "to": "cross_strait",
+     "flow": "台湾商品"
+    },
+    {
+     "from": "cross_strait",
+     "to": "ecommerce",
+     "flow": "渠道延伸"
+    }
+   ],
+   "employment": {
+    "peak": 300000,
+    "current": 250000
+   }
+  },
+  "tourism_mice": {
+   "name": "旅游会展链",
+   "color": "#14b8a6",
+   "icon": "🏝️",
+   "lifecycle": {
+    "birth": 1980,
+    "peak": 2017,
+    "decline": null
+   },
+   "nodes": [
+    {
+     "id": "island",
+     "name": "鼓浪屿与环岛路",
+     "x": 50,
+     "y": 50,
+     "status": "active",
+     "peak": "1990s"
+    },
+    {
+     "id": "resort",
+     "name": "滨海度假",
+     "x": 150,
+     "y": 50,
+     "status": "active",
+     "peak": "2000s"
+    },
+    {
+     "id": "mice",
+     "name": "会展会议",
+     "x": 250,
+     "y": 50,
+     "status": "growing",
+     "peak": "2010s"
+    },
+    {
+     "id": "culture",
+     "name": "文创与康养",
+     "x": 350,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s"
+    }
+   ],
+   "connections": [
+    {
+     "from": "island",
+     "to": "resort",
+     "flow": "客流"
+    },
+    {
+     "from": "resort",
+     "to": "mice",
+     "flow": "高端消费"
+    },
+    {
+     "from": "mice",
+     "to": "culture",
+     "flow": "品牌溢出"
+    }
+   ],
+   "employment": {
+    "peak": 250000,
+    "current": 220000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "land",
+    "name": "土地空间有限",
+    "weight": 25,
+    "evidence": "厦门岛土地稀缺，岛外开发成本与生态保护约束并存",
+    "icon": "🏔️",
+    "selected": false
+   },
+   {
+    "id": "housing",
+    "name": "高房价压力",
+    "weight": 20,
+    "evidence": "房价收入比长期偏高，对青年人才与制造业形成挤出",
+    "icon": "🏠",
+    "selected": false
+   },
+   {
+    "id": "scale",
+    "name": "经济体量偏小",
+    "weight": 20,
+    "evidence": "GDP与人口规模低于同类副省级城市",
+    "icon": "📉",
+    "selected": false
+   },
+   {
+    "id": "cross_strait",
+    "name": "两岸关系波动",
+    "weight": 15,
+    "evidence": "对台经贸与人文交流受两岸关系周期性影响",
+    "icon": "🌊",
+    "selected": false
+   },
+   {
+    "id": "industry",
+    "name": "产业同质化",
+    "weight": 10,
+    "evidence": "电子、机械与周边城市存在一定程度的产业同构",
+    "icon": "⚙️",
+    "selected": false
+   },
+   {
+    "id": "transport",
+    "name": "区域交通竞争",
+    "weight": 10,
+    "evidence": "福州、泉州等城市港口与机场分流区域物流",
+    "icon": "✈️",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "location",
+    "name": "对台区位优势",
+    "weight": 25,
+    "evidence": "距台湾最近的大陆中心城市，两岸融合示范区核心",
+    "icon": "🌉",
+    "selected": false
+   },
+   {
+    "id": "ecology",
+    "name": "生态宜居品牌",
+    "weight": 20,
+    "evidence": "高颜值城市形象与海上花园名片吸引人才与游客",
+    "icon": "🌿",
+    "selected": false
+   },
+   {
+    "id": "reform",
+    "name": "自贸试验区制度创新",
+    "weight": 20,
+    "evidence": "负面清单、国际贸易单一窗口等改革走在前列",
+    "icon": "📜",
+    "selected": false
+   },
+   {
+    "id": "industry",
+    "name": "高新产业集聚",
+    "weight": 15,
+    "evidence": "平板显示、半导体、软件信息形成千亿级产业链",
+    "icon": "💻",
+    "selected": false
+   },
+   {
+    "id": "talent",
+    "name": "人才政策吸引",
+    "weight": 10,
+    "evidence": "城市综合环境与人才政策提升人口净流入",
+    "icon": "👥",
+    "selected": false
+   },
+   {
+    "id": "mice",
+    "name": "会展国际品牌",
+    "weight": 10,
+    "evidence": "投洽会、金砖会晤等提升国际影响力",
+    "icon": "🏛️",
+    "selected": false
+   }
+  ]
+ },
+ "space_timeline": [
+  {
+   "year": 1980,
+   "built": 10,
+   "vacancy": 0.06
+  },
+  {
+   "year": 1985,
+   "built": 18,
+   "vacancy": 0.06
+  },
+  {
+   "year": 1990,
+   "built": 28,
+   "vacancy": 0.05
+  },
+  {
+   "year": 1995,
+   "built": 40,
+   "vacancy": 0.05
+  },
+  {
+   "year": 2000,
+   "built": 55,
+   "vacancy": 0.05
+  },
+  {
+   "year": 2005,
+   "built": 75,
+   "vacancy": 0.05
+  },
+  {
+   "year": 2010,
+   "built": 100,
+   "vacancy": 0.05
+  },
+  {
+   "year": 2015,
+   "built": 130,
+   "vacancy": 0.05
+  },
+  {
+   "year": 2020,
+   "built": 170,
+   "vacancy": 0.05
+  },
+  {
+   "year": 2024,
+   "built": 200,
+   "vacancy": 0.05
+  }
+ ],
+ "space": {
+  "built_up_area_km2": 200,
+  "peak_pop": 5300000,
+  "current_pop": 5300000,
+  "vacancy_rate": 0.05,
+  "landmark": "厦门岛与翔安新城"
+ },
+ "migration": {
+  "outflow_total": 300000,
+  "destinations": [
+   {
+    "city": "泉州",
+    "province": "福建",
+    "count": 80000,
+    "reason": "闽南经济圈商务与居住流动"
+   },
+   {
+    "city": "福州",
+    "province": "福建",
+    "count": 70000,
+    "reason": "省会资源与职业流动"
+   },
+   {
+    "city": "漳州",
+    "province": "福建",
+    "count": 60000,
+    "reason": "厦漳泉同城化居住外溢"
+   },
+   {
+    "city": "台湾",
+    "province": "中国台湾",
+    "count": 50000,
+    "reason": "两岸婚姻、经商与就业"
+   },
+   {
+    "city": "其他城市",
+    "province": "全国/海外",
+    "count": 40000,
+    "reason": "求学、创业、退休迁移"
+   }
+  ]
+ },
+ "achievements": [
+  {
+   "id": "xiamen_first_visit",
+   "name": "海上花园",
+   "desc": "首次进入厦门，开启海峡特区记忆",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "xiamen_sez",
+   "name": "特区元年",
+   "desc": "见证1980年厦门经济特区成立",
+   "condition": "year",
+   "year": 1980
+  },
+  {
+   "year": 1984,
+   "condition": "year",
+   "desc": "见证1984年厦门经济特区扩大至全岛",
+   "name": "全岛特区",
+   "id": "xiamen_expand"
+  },
+  {
+   "id": "xiamen_brics",
+   "name": "金砖之城",
+   "desc": "见证2017年金砖国家领导人厦门会晤",
+   "condition": "year",
+   "year": 2017
+  },
+  {
+   "id": "xiamen_fusion",
+   "name": "两岸融合",
+   "desc": "见证2024年厦门加快建设海峡两岸融合发展示范区",
+   "condition": "year",
+   "year": 2024
+  },
+  {
+   "id": "xiamen_chain",
+   "name": "海峡特区拼图大师",
+   "desc": "完成厦门产业转型链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": {
+  "disclaimer": "本页面数据为教学演示与叙事游戏用途，部分历史节点、经济指标、人口与产业数据经过归一化、近似或综合多源整理，请以国家统计局、各地统计局及官方发布为准。",
+  "references": [
+   {
+    "name": "国家统计局",
+    "url": "https://data.stats.gov.cn/"
+   },
+   {
+    "name": "厦门市人民政府",
+    "url": "https://www.xm.gov.cn/"
+   },
+   {
+    "name": "厦门市统计局",
+    "url": "http://tjj.xm.gov.cn/"
+   },
+   {
+    "name": "百度百科 - 厦门",
+    "url": "https://baike.baidu.com/item/%E5%8E%A6%E9%97%A8"
+   }
+  ]
+ },
+ "simMode": "growth"
+}

@@ -1,0 +1,690 @@
+{
+ "profile": {
+  "name": "重庆自贸区·两江新区",
+  "province": "重庆市",
+  "prefecture": "直辖市 · 国家级新区 · 自贸试验区",
+  "area": "1,360 km²（两江新区）",
+  "coordinates": [
+   106.55,
+   29.7
+  ],
+  "tags": [
+   "两江新区",
+   "西部大开发",
+   "内陆开放高地",
+   "汽车电子双轮驱动"
+  ],
+  "description": "重庆两江新区是中国内陆首个国家级新区，2017年重庆自贸区挂牌，依托西部大开发与中欧班列（渝新欧），重庆从老工业基地转型为汽车制造、电子信息与内陆开放物流枢纽。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 2010,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "西部大开发",
+    "start": 2007,
+    "end": 2009,
+    "color": "gray"
+   },
+   {
+    "name": "两江新区成立",
+    "start": 2010,
+    "end": 2016,
+    "color": "green"
+   },
+   {
+    "name": "渝新欧班列",
+    "start": 2011,
+    "end": 2016,
+    "color": "yellow"
+   },
+   {
+    "name": "自贸区挂牌",
+    "start": 2017,
+    "end": 2019,
+    "color": "teal"
+   },
+   {
+    "name": "智能制造转型",
+    "start": 2020,
+    "end": 2024,
+    "color": "purple"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "auto",
+    "label": "汽车产量",
+    "unit": "万辆",
+    "max": 400,
+    "color": "#f59e0b"
+   },
+   {
+    "key": "train",
+    "label": "中欧班列开行量",
+    "unit": "列",
+    "max": 8000,
+    "color": "#8b5cf6"
+   }
+  ],
+  "spaceType": "single_city",
+  "spaceLabels": {
+   "old": "老工业区",
+   "new": "智造新城"
+  },
+  "cityKey": "chongqing",
+  "chainKeys": [
+   "automobile",
+   "electronics",
+   "inland_logistics"
+  ],
+  "chainContainerIds": [
+   "autoChain",
+   "electronicsChain",
+   "logisticsChain"
+  ],
+  "currentStatus": "西部大开发战略支点与内陆开放高地",
+  "transformationAssessment": "从老工业基地到内陆开放与智能制造高地",
+  "transformationDetail": "两江新区与重庆自贸区推动重庆从传统重工业城市向汽车、电子信息、装备制造和内陆物流枢纽转型，中欧班列与长江黄金水道联动形成开放新格局，但新能源转型与产业层次提升仍面临挑战。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 2010,
+   "title": "两江新区成立",
+   "category": "discovery",
+   "desc": "重庆两江新区挂牌，成为继上海浦东、天津滨海后第三个国家级新区",
+   "impact": 10,
+   "pop": 3200000,
+   "gdp": 1002,
+   "auto": 158,
+   "train": 0,
+   "event": true
+  },
+  {
+   "year": 2011,
+   "title": "渝新欧班列首发",
+   "category": "transformation",
+   "desc": "重庆至杜伊斯堡国际铁路联运大通道首发，开启内陆向西开放新窗口",
+   "impact": 9,
+   "pop": 3280000,
+   "gdp": 980,
+   "auto": 165,
+   "train": 17,
+   "event": true
+  },
+  {
+   "year": 2012,
+   "title": "电子信息产业集聚",
+   "category": "transformation",
+   "desc": "西永微电园、两路寸滩保税港区带动笔电产量跃居全球前列",
+   "impact": 8,
+   "pop": 3350000,
+   "gdp": 1200,
+   "auto": 172,
+   "train": 41,
+   "event": false
+  },
+  {
+   "year": 2014,
+   "title": "汽车产量登顶",
+   "category": "peak",
+   "desc": "重庆汽车产量突破260万辆，成为全国最大汽车生产基地",
+   "impact": 9,
+   "pop": 3450000,
+   "gdp": 1862,
+   "auto": 263,
+   "train": 130,
+   "event": true
+  },
+  {
+   "year": 2016,
+   "title": "汽车产能过剩显现",
+   "category": "decline",
+   "desc": "传统燃油车需求放缓，部分自主品牌销量下滑，汽车产业进入调整期",
+   "impact": 7,
+   "pop": 3500000,
+   "gdp": 2261,
+   "auto": 316,
+   "train": 228,
+   "event": false
+  },
+  {
+   "year": 2017,
+   "title": "重庆自贸区挂牌",
+   "category": "discovery",
+   "desc": "中国（重庆）自由贸易试验区挂牌，打造内陆开放型经济高地",
+   "impact": 9,
+   "pop": 3520000,
+   "gdp": 2823.92,
+   "auto": 300,
+   "train": 450,
+   "event": true
+  },
+  {
+   "year": 2018,
+   "title": "汽车产业深度调整",
+   "category": "decline",
+   "desc": "传统汽车产业去库存、去产能压力加大，产量与利润双双下滑",
+   "impact": 7,
+   "pop": 3540000,
+   "gdp": 2933,
+   "auto": 172,
+   "train": 780,
+   "event": true
+  },
+  {
+   "year": 2019,
+   "title": "电子信息逆势增长",
+   "category": "transformation",
+   "desc": "笔电、手机、显示器等电子信息产品出口保持增长，对冲汽车下滑",
+   "impact": 7,
+   "pop": 3550000,
+   "gdp": 3391,
+   "auto": 138,
+   "train": 1500,
+   "event": false
+  },
+  {
+   "year": 2020,
+   "title": "长安汽车全球研发中心",
+   "category": "transformation",
+   "desc": "长安汽车全球研发中心在两江新区启用，智能化与新能源转型提速",
+   "impact": 8,
+   "pop": 3580000,
+   "gdp": 3672,
+   "auto": 158,
+   "train": 2400,
+   "event": true
+  },
+  {
+   "year": 2021,
+   "title": "新能源汽车回暖",
+   "category": "transformation",
+   "desc": "赛力斯、阿维塔等新能源品牌崛起，两江新区汽车产量结构改善",
+   "impact": 8,
+   "pop": 3600000,
+   "gdp": 4200,
+   "auto": 195,
+   "train": 3800,
+   "event": false
+  },
+  {
+   "year": 2022,
+   "title": "高温限电扰动",
+   "category": "decline",
+   "desc": "极端高温导致限电，电子、汽车等支柱产业短期生产受阻",
+   "impact": 6,
+   "pop": 3620000,
+   "gdp": 4550,
+   "auto": 210,
+   "train": 4600,
+   "event": true
+  },
+  {
+   "year": 2023,
+   "title": "智能网联新能源汽车集群",
+   "category": "transformation",
+   "desc": "重庆提出建设世界级智能网联新能源汽车产业集群，两江新区成核心承载地",
+   "impact": 8,
+   "pop": 3640000,
+   "gdp": 4920,
+   "auto": 232,
+   "train": 5200,
+   "event": false
+  },
+  {
+   "year": 2024,
+   "title": "两江新区高质量发展",
+   "category": "peak",
+   "desc": "两江新区GDP达到5181.55亿元，汽车与电子信息双轮驱动，内陆开放水平持续提升",
+   "impact": 9,
+   "pop": 3520000,
+   "gdp": 5181.55,
+   "auto": 254,
+   "train": 5800,
+   "event": true
+  }
+ ],
+ "chains": {
+  "automobile": {
+   "name": "汽车制造链",
+   "color": "#f59e0b",
+   "icon": "🚗",
+   "lifecycle": {
+    "birth": 2001,
+    "peak": 2014,
+    "decline": 2018,
+    "collapse": null,
+    "dead": 2024
+   },
+   "nodes": [
+    {
+     "id": "traditional",
+     "name": "传统燃油车",
+     "x": 50,
+     "y": 50,
+     "status": "dying",
+     "peak": "2010s",
+     "decline": "2018后"
+    },
+    {
+     "id": "parts",
+     "name": "零部件配套",
+     "x": 150,
+     "y": 50,
+     "status": "active",
+     "peak": "2010s-2020s",
+     "decline": "长期存在"
+    },
+    {
+     "id": "nev",
+     "name": "新能源汽车",
+     "x": 250,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "smart",
+     "name": "智能网联",
+     "x": 350,
+     "y": 50,
+     "status": "growing",
+     "peak": "未来"
+    }
+   ],
+   "connections": [
+    {
+     "from": "traditional",
+     "to": "parts",
+     "flow": "配套体系"
+    },
+    {
+     "from": "parts",
+     "to": "nev",
+     "flow": "三电系统"
+    },
+    {
+     "from": "nev",
+     "to": "smart",
+     "flow": "智能升级"
+    }
+   ],
+   "employment": {
+    "peak": 350000,
+    "current": 280000
+   }
+  },
+  "electronics": {
+   "name": "电子信息链",
+   "color": "#3b82f6",
+   "icon": "💻",
+   "lifecycle": {
+    "birth": 2008,
+    "peak": 2024,
+    "decline": null
+   },
+   "nodes": [
+    {
+     "id": "notebook",
+     "name": "笔电制造",
+     "x": 50,
+     "y": 50,
+     "status": "active",
+     "peak": "2010s"
+    },
+    {
+     "id": "mobile",
+     "name": "手机终端",
+     "x": 150,
+     "y": 50,
+     "status": "active",
+     "peak": "2010s-2020s"
+    },
+    {
+     "id": "display",
+     "name": "显示面板",
+     "x": 250,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "chip",
+     "name": "集成电路",
+     "x": 350,
+     "y": 50,
+     "status": "growing",
+     "peak": "未来"
+    }
+   ],
+   "connections": [
+    {
+     "from": "notebook",
+     "to": "mobile",
+     "flow": "代工能力迁移"
+    },
+    {
+     "from": "mobile",
+     "to": "display",
+     "flow": "面板需求"
+    },
+    {
+     "from": "display",
+     "to": "chip",
+     "flow": "上游突破"
+    }
+   ],
+   "employment": {
+    "peak": null,
+    "current": 420000
+   }
+  },
+  "inland_logistics": {
+   "name": "内陆开放物流链",
+   "color": "#8b5cf6",
+   "icon": "🚂",
+   "lifecycle": {
+    "birth": 2011,
+    "peak": 2024,
+    "decline": null
+   },
+   "nodes": [
+    {
+     "id": "rail",
+     "name": "中欧班列",
+     "x": 50,
+     "y": 50,
+     "status": "active",
+     "peak": "2020s"
+    },
+    {
+     "id": "port",
+     "name": "内陆港",
+     "x": 150,
+     "y": 50,
+     "status": "active",
+     "peak": "2010s-2020s"
+    },
+    {
+     "id": "river_sea",
+     "name": "江海联运",
+     "x": 250,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "cross_border",
+     "name": "跨境电商",
+     "x": 350,
+     "y": 50,
+     "status": "growing",
+     "peak": "未来"
+    }
+   ],
+   "connections": [
+    {
+     "from": "rail",
+     "to": "port",
+     "flow": "货物集散"
+    },
+    {
+     "from": "port",
+     "to": "river_sea",
+     "flow": "多式联运"
+    },
+    {
+     "from": "river_sea",
+     "to": "cross_border",
+     "flow": "贸易通道"
+    }
+   ],
+   "employment": {
+    "peak": null,
+    "current": 180000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "auto_adjustment",
+    "name": "传统汽车产能过剩",
+    "weight": 25,
+    "evidence": "2016年后燃油车需求放缓，重庆汽车产量大幅下滑，自主品牌转型阵痛",
+    "icon": "🚗",
+    "selected": false
+   },
+   {
+    "id": "geography",
+    "name": "内陆物流成本劣势",
+    "weight": 20,
+    "evidence": "不靠海、不沿边，物流时效与成本相对沿海存在先天劣势",
+    "icon": "🏔️",
+    "selected": false
+   },
+   {
+    "id": "talent",
+    "name": "高端人才流失",
+    "weight": 15,
+    "evidence": "高端研发、金融与互联网人才向成渝以外地区流动",
+    "icon": "👥",
+    "selected": false
+   },
+   {
+    "id": "industry_level",
+    "name": "产业层次偏低",
+    "weight": 15,
+    "evidence": "加工制造占比高，研发设计、品牌运营等高附加值环节薄弱",
+    "icon": "🏭",
+    "selected": false
+   },
+   {
+    "id": "external_demand",
+    "name": "外需与供应链波动",
+    "weight": 15,
+    "evidence": "电子信息出口受全球周期影响，极端天气导致限电停产",
+    "icon": "📉",
+    "selected": false
+   },
+   {
+    "id": "debt",
+    "name": "地方债务与平台压力",
+    "weight": 10,
+    "evidence": "基建与新区开发依赖投融资平台，债务化解压力较大",
+    "icon": "💳",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "rail",
+    "name": "中欧班列内陆枢纽",
+    "weight": 25,
+    "evidence": "渝新欧班列开行量西部领先，贯通欧亚大陆桥",
+    "icon": "🚂",
+    "selected": false
+   },
+   {
+    "id": "auto_upgrade",
+    "name": "汽车产业转型升级",
+    "weight": 20,
+    "evidence": "智能网联新能源汽车集群建设，赛力斯、阿维塔等品牌崛起",
+    "icon": "🔋",
+    "selected": false
+   },
+   {
+    "id": "electronics",
+    "name": "电子信息制造业基础",
+    "weight": 20,
+    "evidence": "全球最大笔电生产基地，手机、面板、芯片配套不断完善",
+    "icon": "💻",
+    "selected": false
+   },
+   {
+    "id": "ftz",
+    "name": "自贸区制度创新",
+    "weight": 15,
+    "evidence": "陆上贸易规则、物流金融、通关便利化等创新持续突破",
+    "icon": "📜",
+    "selected": false
+   },
+   {
+    "id": "chengdu_chongqing",
+    "name": "成渝双城经济圈",
+    "weight": 10,
+    "evidence": "成渝协同打造世界级电子信息与装备制造产业集群",
+    "icon": "🌉",
+    "selected": false
+   },
+   {
+    "id": "channel",
+    "name": "长江黄金水道",
+    "weight": 10,
+    "evidence": "江海联运、果园港铁水联运降低内陆开放物流成本",
+    "icon": "🚢",
+    "selected": false
+   }
+  ]
+ },
+ "space_timeline": [
+  {
+   "year": 2010,
+   "built": 80,
+   "vacancy": 0.08
+  },
+  {
+   "year": 2013,
+   "built": 180,
+   "vacancy": 0.09
+  },
+  {
+   "year": 2016,
+   "built": 320,
+   "vacancy": 0.1
+  },
+  {
+   "year": 2018,
+   "built": 420,
+   "vacancy": 0.11
+  },
+  {
+   "year": 2021,
+   "built": 560,
+   "vacancy": 0.09
+  },
+  {
+   "year": 2024,
+   "built": 700,
+   "vacancy": 0.07
+  }
+ ],
+ "space": {
+  "built_up_area_km2": 700,
+  "peak_pop": 3520000,
+  "current_pop": 3520000,
+  "vacancy_rate": 0.07,
+  "landmark": "两江协同创新区"
+ },
+ "migration": {
+  "outflow_total": 350000,
+  "destinations": [
+   {
+    "city": "成都",
+    "province": "四川",
+    "count": 100000,
+    "reason": "成渝双城生活与职业流动"
+   },
+   {
+    "city": "深圳",
+    "province": "广东",
+    "count": 60000,
+    "reason": "电子信息与互联网机会"
+   },
+   {
+    "city": "上海",
+    "province": "上海",
+    "count": 50000,
+    "reason": "金融与总部经济"
+   },
+   {
+    "city": "广州",
+    "province": "广东",
+    "count": 40000,
+    "reason": "汽车与商贸机会"
+   },
+   {
+    "city": "其他城市",
+    "province": "全国/海外",
+    "count": 100000,
+    "reason": "求学、创业、退休迁移"
+   }
+  ]
+ },
+ "achievements": [
+  {
+   "id": "chongqing_first_visit",
+   "name": "山城印记",
+   "desc": "首次进入重庆自贸区·两江新区",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "chongqing_liangjiang",
+   "name": "两江元年",
+   "desc": "见证2010年两江新区成立",
+   "condition": "year",
+   "year": 2010
+  },
+  {
+   "id": "chongqing_yuxinou",
+   "name": "渝新欧首发",
+   "desc": "见证2011年渝新欧班列首发",
+   "condition": "year",
+   "year": 2011
+  },
+  {
+   "id": "chongqing_ftz",
+   "name": "自贸挂牌",
+   "desc": "见证2017年重庆自贸区挂牌",
+   "condition": "year",
+   "year": 2017
+  },
+  {
+   "id": "chongqing_rnd",
+   "name": "长安转型",
+   "desc": "见证2020年长安汽车全球研发中心启用",
+   "condition": "year",
+   "year": 2020
+  },
+  {
+   "id": "chongqing_chain",
+   "name": "山城产业拼图大师",
+   "desc": "完成重庆产业转型链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": {
+  "disclaimer": "本页面数据为教学演示与叙事游戏用途，部分历史节点、经济指标、人口与产业数据经过归一化、近似或综合多源整理，请以国家统计局、重庆市统计局、两江新区及重庆自贸区官方发布为准。",
+  "references": [
+   {
+    "name": "重庆市人民政府",
+    "url": "https://www.cq.gov.cn/"
+   },
+   {
+    "name": "重庆市统计局",
+    "url": "https://tjj.cq.gov.cn/"
+   },
+   {
+    "name": "两江新区官网",
+    "url": "https://www.liangjiang.gov.cn/"
+   }
+  ]
+ },
+ "simMode": "growth"
+}

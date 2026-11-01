@@ -1,0 +1,694 @@
+{
+ "profile": {
+  "name": "天津自贸区·滨海新区",
+  "province": "天津市",
+  "prefecture": "国家级新区 · 自贸试验区",
+  "area": "2,270 km²",
+  "coordinates": [
+   117.65,
+   39.03
+  ],
+  "tags": [
+   "滨海新区",
+   "北方国际航运中心",
+   "融资租赁创新示范区",
+   "高端制造基地"
+  ],
+  "description": "天津滨海新区是中国继上海浦东之后的第二个国家级新区，2015年天津自贸区挂牌，依托北方最大港口与制造业基础，从传统重化工业基地向港航物流、航空航天、融资租赁与绿色石化转型。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 2009,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "酝酿期",
+    "start": 2007,
+    "end": 2008,
+    "color": "gray"
+   },
+   {
+    "name": "滨海新区成立",
+    "start": 2009,
+    "end": 2014,
+    "color": "green"
+   },
+   {
+    "name": "自贸区挂牌",
+    "start": 2015,
+    "end": 2017,
+    "color": "yellow"
+   },
+   {
+    "name": "事故冲击与转型",
+    "start": 2015,
+    "end": 2017,
+    "color": "red"
+   },
+   {
+    "name": "高端制造与港航物流",
+    "start": 2018,
+    "end": 2024,
+    "color": "purple"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "industry",
+    "label": "规上工业总产值",
+    "unit": "亿元",
+    "max": 22000,
+    "color": "#3b82f6"
+   },
+   {
+    "key": "leasing",
+    "label": "融资租赁资产规模",
+    "unit": "亿元",
+    "max": 25000,
+    "color": "#8b5cf6"
+   }
+  ],
+  "spaceType": "single_city",
+  "spaceLabels": {
+   "old": "老港区",
+   "new": "智慧港区"
+  },
+  "cityKey": "tianjin",
+  "chainKeys": [
+   "port_logistics",
+   "aerospace",
+   "leasing_petrochemical"
+  ],
+  "chainContainerIds": [
+   "portChain",
+   "aerospaceChain",
+   "leasingChain"
+  ],
+  "currentStatus": "北方国际航运核心区与高端制造基地",
+  "transformationAssessment": "从制造业基地到自贸区与高端制造高地",
+  "transformationDetail": "滨海新区用十五年从天津东部沿海工业区成长为国家级新区与自贸试验区，天津港吞吐量长期位居世界前十，融资租赁资产规模全国领先，但2015年爆炸事故暴露传统产业安全隐患，倒逼绿色化、智能化转型。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 2009,
+   "title": "滨海新区成立",
+   "category": "discovery",
+   "desc": "滨海新区正式挂牌，成为国家战略层面的综合改革试验区",
+   "impact": 10,
+   "pop": 1800000,
+   "gdp": 3810,
+   "industry": 8500,
+   "leasing": 1200,
+   "event": true
+  },
+  {
+   "year": 2010,
+   "title": "新区管理体制完善",
+   "category": "transformation",
+   "desc": "滨海新区完成塘沽、汉沽、大港三区整合后的管理体制完善，国家级新区定位进一步明确",
+   "impact": 9,
+   "pop": 1850000,
+   "gdp": 5030,
+   "industry": 10600,
+   "leasing": 1800,
+   "event": true
+  },
+  {
+   "year": 2012,
+   "title": "于家堡金融区起步",
+   "category": "transformation",
+   "desc": "于家堡金融区启动建设，融资租赁、商业保理等业态快速集聚",
+   "impact": 7,
+   "pop": 1900000,
+   "gdp": 7206,
+   "industry": 13000,
+   "leasing": 3500,
+   "event": false
+  },
+  {
+   "year": 2014,
+   "title": "制造业规模冲高",
+   "category": "peak",
+   "desc": "石油化工、装备制造、电子信息等产业规模持续扩大，规上工业总产值达到阶段性高点",
+   "impact": 8,
+   "pop": 1950000,
+   "gdp": 8760,
+   "industry": 15800,
+   "leasing": 5500,
+   "event": false
+  },
+  {
+   "year": 2015,
+   "title": "天津自贸区挂牌",
+   "category": "discovery",
+   "desc": "中国北方首个自由贸易试验区在天津正式挂牌，推动投资贸易便利化",
+   "impact": 9,
+   "pop": 1980000,
+   "gdp": 9270,
+   "industry": 16200,
+   "leasing": 7200,
+   "event": true
+  },
+  {
+   "year": 2015,
+   "title": "天津港爆炸事故",
+   "category": "decline",
+   "desc": "天津港瑞海公司危险品仓库发生特别重大火灾爆炸事故，对区域经济、安全与形象造成严重冲击",
+   "impact": 10,
+   "pop": 1980000,
+   "gdp": 9270,
+   "industry": 14000,
+   "leasing": 6800,
+   "event": true
+  },
+  {
+   "year": 2016,
+   "title": "空客A330完成中心",
+   "category": "transformation",
+   "desc": "空客A330宽体机完成及交付中心落户天津，航空航天产业链向高端延伸",
+   "impact": 8,
+   "pop": 1990000,
+   "gdp": 6654,
+   "industry": 14500,
+   "leasing": 8000,
+   "event": true
+  },
+  {
+   "year": 2017,
+   "title": "安全整治与产业调整",
+   "category": "decline",
+   "desc": "危化品、散乱污企业整治力度加大，传统重化工业进入收缩调整期",
+   "impact": 6,
+   "pop": 2000000,
+   "gdp": 7000,
+   "industry": 13800,
+   "leasing": 9200,
+   "event": false
+  },
+  {
+   "year": 2018,
+   "title": "智慧港口与绿色转型",
+   "category": "transformation",
+   "desc": "天津港启动绿色智慧港口建设，散杂货码头转型升级，集装箱业务占比提升",
+   "impact": 7,
+   "pop": 2010000,
+   "gdp": 7308,
+   "industry": 14200,
+   "leasing": 10500,
+   "event": false
+  },
+  {
+   "year": 2020,
+   "title": "疫情冲击港航",
+   "category": "decline",
+   "desc": "新冠疫情导致国际航运波动、制造业订单下滑，港口吞吐量与融资租赁业务短期承压",
+   "impact": 6,
+   "pop": 2020000,
+   "gdp": 5871.06,
+   "industry": 13500,
+   "leasing": 11000,
+   "event": false
+  },
+  {
+   "year": 2021,
+   "title": "天津港智能化码头",
+   "category": "transformation",
+   "desc": "天津港北疆港区C段智能化集装箱码头投产，成为全球首个智慧零碳码头",
+   "impact": 9,
+   "pop": 2030000,
+   "gdp": 8760.15,
+   "industry": 15000,
+   "leasing": 12500,
+   "event": true
+  },
+  {
+   "year": 2023,
+   "title": "融资租赁2.0",
+   "category": "transformation",
+   "desc": "绿色租赁、飞机船舶租赁、SPV等创新业务加速，融资租赁资产规模保持全国前列",
+   "impact": 7,
+   "pop": 2040000,
+   "gdp": 7433.4,
+   "industry": 15800,
+   "leasing": 15000,
+   "event": false
+  },
+  {
+   "year": 2024,
+   "title": "滨海新区高质量发展",
+   "category": "peak",
+   "desc": "滨海新区GDP达到7842.2亿元，占全市43.5%，高端制造与港航物流成为双支柱",
+   "impact": 9,
+   "pop": 2050000,
+   "gdp": 7842.2,
+   "industry": 16800,
+   "leasing": 16500,
+   "event": true
+  }
+ ],
+ "chains": {
+  "port_logistics": {
+   "name": "港口物流链",
+   "color": "#0ea5e9",
+   "icon": "🚢",
+   "lifecycle": {
+    "birth": 2009,
+    "peak": 2014,
+    "decline": 2015,
+    "collapse": null,
+    "dead": 2024
+   },
+   "nodes": [
+    {
+     "id": "bulk",
+     "name": "散杂货码头",
+     "x": 50,
+     "y": 50,
+     "status": "dying",
+     "peak": "2000s-2010s",
+     "decline": "2015后"
+    },
+    {
+     "id": "container",
+     "name": "集装箱码头",
+     "x": 150,
+     "y": 50,
+     "status": "active",
+     "peak": "2010s-2020s",
+     "decline": "长期存在"
+    },
+    {
+     "id": "smart_port",
+     "name": "智慧零碳码头",
+     "x": 250,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "multimodal",
+     "name": "海铁联运",
+     "x": 350,
+     "y": 50,
+     "status": "growing",
+     "peak": "未来"
+    }
+   ],
+   "connections": [
+    {
+     "from": "bulk",
+     "to": "container",
+     "flow": "货种结构升级"
+    },
+    {
+     "from": "container",
+     "to": "smart_port",
+     "flow": "自动化改造"
+    },
+    {
+     "from": "smart_port",
+     "to": "multimodal",
+     "flow": "集疏运体系"
+    }
+   ],
+   "employment": {
+    "peak": 200000,
+    "current": 150000
+   }
+  },
+  "aerospace": {
+   "name": "航空航天制造链",
+   "color": "#6366f1",
+   "icon": "✈️",
+   "lifecycle": {
+    "birth": 2008,
+    "peak": 2024,
+    "decline": null
+   },
+   "nodes": [
+    {
+     "id": "assembly",
+     "name": "飞机总装",
+     "x": 50,
+     "y": 50,
+     "status": "active",
+     "peak": "2010s"
+    },
+    {
+     "id": "completion",
+     "name": "完成交付中心",
+     "x": 150,
+     "y": 50,
+     "status": "active",
+     "peak": "2010s-2020s"
+    },
+    {
+     "id": "parts",
+     "name": "航空零部件",
+     "x": 250,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "mro",
+     "name": "航空维修",
+     "x": 350,
+     "y": 50,
+     "status": "growing",
+     "peak": "未来"
+    }
+   ],
+   "connections": [
+    {
+     "from": "assembly",
+     "to": "completion",
+     "flow": "整机制造"
+    },
+    {
+     "from": "completion",
+     "to": "parts",
+     "flow": "配套需求"
+    },
+    {
+     "from": "parts",
+     "to": "mro",
+     "flow": "后市场服务"
+    }
+   ],
+   "employment": {
+    "peak": null,
+    "current": 80000
+   }
+  },
+  "leasing_petrochemical": {
+   "name": "融资租赁/绿色石化链",
+   "color": "#10b981",
+   "icon": "🏦",
+   "lifecycle": {
+    "birth": 2009,
+    "peak": 2024,
+    "decline": null
+   },
+   "nodes": [
+    {
+     "id": "spv",
+     "name": "SPV租赁",
+     "x": 50,
+     "y": 50,
+     "status": "active",
+     "peak": "2010s"
+    },
+    {
+     "id": "green_lease",
+     "name": "绿色租赁",
+     "x": 150,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "ship_aircraft",
+     "name": "飞机船舶租赁",
+     "x": 250,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "green_chem",
+     "name": "绿色石化",
+     "x": 350,
+     "y": 50,
+     "status": "growing",
+     "peak": "未来"
+    }
+   ],
+   "connections": [
+    {
+     "from": "spv",
+     "to": "green_lease",
+     "flow": "制度创新"
+    },
+    {
+     "from": "green_lease",
+     "to": "ship_aircraft",
+     "flow": "资产标的"
+    },
+    {
+     "from": "ship_aircraft",
+     "to": "green_chem",
+     "flow": "产融结合"
+    }
+   ],
+   "employment": {
+    "peak": null,
+    "current": 120000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "explosion",
+    "name": "天津港爆炸事故冲击",
+    "weight": 25,
+    "evidence": "2015年特别重大事故造成重大损失，重塑区域安全与产业监管格局",
+    "icon": "💥",
+    "selected": false
+   },
+   {
+    "id": "heavy_industry",
+    "name": "重化工业路径依赖",
+    "weight": 20,
+    "evidence": "石化、钢铁、装备制造占比高，环境约束与产能过剩压力并存",
+    "icon": "🏭",
+    "selected": false
+   },
+   {
+    "id": "port_competition",
+    "name": "北方港口竞争加剧",
+    "weight": 15,
+    "evidence": "青岛、唐山、大连等港口分流腹地货源，集装箱吞吐量排名波动",
+    "icon": "⚓",
+    "selected": false
+   },
+   {
+    "id": "talent",
+    "name": "高端人才与人口集聚不足",
+    "weight": 15,
+    "evidence": "相对北京、上海，金融与科技人才吸引力有限，常住人口增长放缓",
+    "icon": "👥",
+    "selected": false
+   },
+   {
+    "id": "real_estate",
+    "name": "产城融合与债务压力",
+    "weight": 15,
+    "evidence": "功能区开发强度高，部分园区空置与地方政府债务压力显现",
+    "icon": "🏠",
+    "selected": false
+   },
+   {
+    "id": "external_demand",
+    "name": "外需与制造业周期波动",
+    "weight": 10,
+    "evidence": "出口订单、国际航运与大宗商品价格波动影响工业与租赁业务",
+    "icon": "📉",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "ftz",
+    "name": "自贸试验区制度创新",
+    "weight": 25,
+    "evidence": "负面清单、融资租赁、通关便利化等政策红利持续释放",
+    "icon": "📜",
+    "selected": false
+   },
+   {
+    "id": "port",
+    "name": "北方国际航运中心",
+    "weight": 20,
+    "evidence": "天津港是京津冀海上门户，智慧零碳码头提升全球竞争力",
+    "icon": "🚢",
+    "selected": false
+   },
+   {
+    "id": "aerospace",
+    "name": "航空航天产业集群",
+    "weight": 20,
+    "evidence": "空客完成中心、航空维修、零部件配套形成完整产业链",
+    "icon": "✈️",
+    "selected": false
+   },
+   {
+    "id": "leasing",
+    "name": "融资租赁创新优势",
+    "weight": 15,
+    "evidence": "租赁资产规模全国领先，飞机船舶SPV与绿色租赁持续创新",
+    "icon": "💰",
+    "selected": false
+   },
+   {
+    "id": "beijing_tianjin",
+    "name": "京津冀协同发展",
+    "weight": 10,
+    "evidence": "承接北京非首都功能疏解，滨海新区功能定位进一步提升",
+    "icon": "🌉",
+    "selected": false
+   },
+   {
+    "id": "green_smart",
+    "name": "绿色智慧转型",
+    "weight": 10,
+    "evidence": "危化品整治、智慧港口、清洁能源推动产业安全与低碳升级",
+    "icon": "🌿",
+    "selected": false
+   }
+  ]
+ },
+ "space_timeline": [
+  {
+   "year": 2009,
+   "built": 120,
+   "vacancy": 0.08
+  },
+  {
+   "year": 2012,
+   "built": 220,
+   "vacancy": 0.09
+  },
+  {
+   "year": 2015,
+   "built": 380,
+   "vacancy": 0.12
+  },
+  {
+   "year": 2017,
+   "built": 480,
+   "vacancy": 0.11
+  },
+  {
+   "year": 2020,
+   "built": 620,
+   "vacancy": 0.1
+  },
+  {
+   "year": 2024,
+   "built": 780,
+   "vacancy": 0.08
+  }
+ ],
+ "space": {
+  "built_up_area_km2": 780,
+  "peak_pop": 2050000,
+  "current_pop": 2050000,
+  "vacancy_rate": 0.08,
+  "landmark": "天津港智慧零碳码头"
+ },
+ "migration": {
+  "outflow_total": 280000,
+  "destinations": [
+   {
+    "city": "北京",
+    "province": "北京",
+    "count": 90000,
+    "reason": "总部经济与高端服务机会"
+   },
+   {
+    "city": "上海",
+    "province": "上海",
+    "count": 50000,
+    "reason": "金融与航运职业流动"
+   },
+   {
+    "city": "雄安新区",
+    "province": "河北",
+    "count": 40000,
+    "reason": "京津冀功能疏解与建设机会"
+   },
+   {
+    "city": "唐山",
+    "province": "河北",
+    "count": 35000,
+    "reason": "产业外溢与港口腹地转移"
+   },
+   {
+    "city": "其他城市",
+    "province": "全国/海外",
+    "count": 65000,
+    "reason": "求学、创业、退休迁移"
+   }
+  ]
+ },
+ "achievements": [
+  {
+   "id": "tianjin_first_visit",
+   "name": "渤海之滨",
+   "desc": "首次进入天津自贸区·滨海新区",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "tianjin_binhai",
+   "name": "新区元年",
+   "desc": "见证2009年滨海新区成立",
+   "condition": "year",
+   "year": 2009
+  },
+  {
+   "id": "tianjin_ftz",
+   "name": "自贸挂牌",
+   "desc": "见证2015年天津自贸区正式挂牌",
+   "condition": "year",
+   "year": 2015
+  },
+  {
+   "id": "tianjin_airbus",
+   "name": "空客落户",
+   "desc": "见证2016年空客A330完成及交付中心落户",
+   "condition": "year",
+   "year": 2016
+  },
+  {
+   "id": "tianjin_smart_port",
+   "name": "智慧零碳",
+   "desc": "见证2021年天津港智慧零碳码头投产",
+   "condition": "year",
+   "year": 2021
+  },
+  {
+   "id": "tianjin_chain",
+   "name": "渤海产业拼图大师",
+   "desc": "完成天津产业转型链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": {
+  "disclaimer": "本页面数据为教学演示与叙事游戏用途，部分历史节点、经济指标、人口与产业数据经过归一化、近似或综合多源整理，请以国家统计局、天津市统计局、滨海新区及天津自贸区官方发布为准。",
+  "references": [
+   {
+    "name": "天津市人民政府",
+    "url": "https://www.tj.gov.cn/"
+   },
+   {
+    "name": "天津市统计局",
+    "url": "https://stats.tj.gov.cn/"
+   },
+   {
+    "name": "天津港集团",
+    "url": "https://www.ptacn.com/"
+   },
+   {
+    "name": "滨海新区2016年GDP调整报道",
+    "url": "https://m.thepaper.cn/newsDetail_forward_1947217"
+   }
+  ]
+ },
+ "simMode": "growth"
+}

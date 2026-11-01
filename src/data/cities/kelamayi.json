@@ -1,0 +1,689 @@
+{
+ "profile": {
+  "name": "克拉玛依市",
+  "province": "新疆维吾尔自治区",
+  "prefecture": "自治区辖地级市",
+  "area": "7,733 km²",
+  "coordinates": [
+   84.87,
+   45.58
+  ],
+  "tags": [
+   "石油新城",
+   "黑油山",
+   "戈壁明珠",
+   "一号井"
+  ],
+  "description": "新中国成立后发现的第一座大油田所在地，因油而生、因油而兴的戈壁新城。1955年克拉玛依一号井喷出工业油流，开启新疆石油工业新纪元。作为相对年轻的资源型城市，克拉玛依在石油稳产的同时，积极培育数字经济、文化旅游、新能源等多元产业，避免重蹈老矿城衰退覆辙。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 1955,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "起家期",
+    "start": 1955,
+    "end": 1969,
+    "color": "green"
+   },
+   {
+    "name": "壮盛期",
+    "start": 1970,
+    "end": 2000,
+    "color": "yellow"
+   },
+   {
+    "name": "调整期",
+    "start": 2001,
+    "end": 2015,
+    "color": "red"
+   },
+   {
+    "name": "转型期",
+    "start": 2016,
+    "end": 2024,
+    "color": "teal"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "oil",
+    "label": "原油产量",
+    "unit": "万吨",
+    "max": 1500,
+    "color": "#c9a84c"
+   }
+  ],
+  "spaceType": "built_up",
+  "spaceLabels": {
+   "built": "建成区",
+   "density": "人口密度"
+  },
+  "cityKey": "kelamayi",
+  "chainKeys": [
+   "petroleum",
+   "new_energy"
+  ],
+  "chainContainerIds": [
+   "petroleumChain",
+   "newEnergyChain"
+  ],
+  "currentStatus": "石油稳产，多元产业培育中",
+  "transformationAssessment": "从'石油独大'到'石油+数字经济+文旅'的主动多元转型",
+  "transformationDetail": "克拉玛依油田是中国西部第一个千万吨级大油田，累计产油超4亿吨。城市人均GDP曾居全国前列，但产业结构单一风险突出。近年来克拉玛依建设丝绸之路经济带核心区石油石化产业集聚区，并大力发展云计算、魔鬼城旅游、新能源，探索资源型城市可持续发展新路。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 1955,
+   "title": "一号井喷油",
+   "category": "discovery",
+   "desc": "克拉玛依一号井喷出工业油流，宣告新中国第一个大油田诞生",
+   "impact": 10,
+   "pop": 1000,
+   "oil": 0,
+   "gdp": 0.01,
+   "event": true
+  },
+  {
+   "year": 1956,
+   "title": "黑油山城",
+   "category": "discovery",
+   "desc": "数万名石油工人进驻戈壁，帐篷城演变为石油基地",
+   "impact": 8,
+   "pop": 10000,
+   "oil": 2,
+   "gdp": 0.05,
+   "event": true
+  },
+  {
+   "year": 1958,
+   "title": "克拉玛依市成立",
+   "category": "discovery",
+   "desc": "国务院批准设立克拉玛依市，成为中国最年轻的石油城市之一",
+   "impact": 8,
+   "pop": 30000,
+   "oil": 30,
+   "gdp": 0.3,
+   "event": true
+  },
+  {
+   "year": 1960,
+   "title": "油田大会战",
+   "category": "peak",
+   "desc": "全国石油会战支援克拉玛依，原油产量快速增长",
+   "impact": 7,
+   "pop": 80000,
+   "oil": 160,
+   "gdp": 1.5,
+   "event": false
+  },
+  {
+   "year": 1970,
+   "title": "油田扩建",
+   "category": "peak",
+   "desc": "百口泉、乌尔禾等油田相继开发，产能稳步提升",
+   "impact": 7,
+   "pop": 120000,
+   "oil": 350,
+   "gdp": 5,
+   "event": false
+  },
+  {
+   "year": 1978,
+   "title": "改革开放",
+   "category": "peak",
+   "desc": "克拉玛依油田实行企业化改革，效率大幅提升",
+   "impact": 6,
+   "pop": 150000,
+   "oil": 500,
+   "gdp": 10,
+   "event": false
+  },
+  {
+   "year": 1985,
+   "title": "年产700万吨",
+   "category": "peak",
+   "desc": "原油产量突破700万吨，成为全国重要石油生产基地",
+   "impact": 8,
+   "pop": 200000,
+   "oil": 700,
+   "gdp": 25,
+   "event": true
+  },
+  {
+   "year": 1991,
+   "title": "独山子石化",
+   "category": "peak",
+   "desc": "独山子乙烯工程建成，石化产业链延伸",
+   "impact": 7,
+   "pop": 230000,
+   "oil": 800,
+   "gdp": 45,
+   "event": false
+  },
+  {
+   "year": 2002,
+   "title": "年产千万吨",
+   "category": "peak",
+   "desc": "克拉玛依油田原油产量突破1000万吨，成为中国西部第一个千万吨级大油田",
+   "impact": 9,
+   "pop": 270000,
+   "oil": 1000,
+   "gdp": 150,
+   "event": true
+  },
+  {
+   "year": 2008,
+   "title": "人均GDP领先",
+   "category": "peak",
+   "desc": "依托石油产业，克拉玛依人均GDP位居全国前列",
+   "impact": 6,
+   "pop": 280000,
+   "oil": 1200,
+   "gdp": 300,
+   "event": false
+  },
+  {
+   "year": 2010,
+   "title": "转型预警",
+   "category": "decline",
+   "desc": "石油资源接替不足、油价波动加剧，城市开始谋划产业多元化",
+   "impact": 7,
+   "pop": 490300,
+   "oil": 1150,
+   "gdp": 710.2,
+   "event": true,
+   "calibrated": true
+  },
+  {
+   "year": 2013,
+   "title": "云计算产业",
+   "category": "transformation",
+   "desc": "克拉玛依云计算产业园开园，依托绿电和气候优势发展数据中心",
+   "impact": 8,
+   "pop": 300000,
+   "oil": 1100,
+   "gdp": 500,
+   "event": true
+  },
+  {
+   "year": 2015,
+   "title": "世界魔鬼城",
+   "category": "transformation",
+   "desc": "乌尔禾魔鬼城5A级景区创建加速，旅游业成为新增长点",
+   "impact": 7,
+   "pop": 310000,
+   "oil": 1050,
+   "gdp": 580,
+   "event": false
+  },
+  {
+   "year": 2017,
+   "title": "新能源布局",
+   "category": "transformation",
+   "desc": "戈壁滩上大规模光伏、风电项目开工，石油城向绿电转型",
+   "impact": 7,
+   "pop": 320000,
+   "oil": 1000,
+   "gdp": 650,
+   "event": true
+  },
+  {
+   "year": 2020,
+   "title": "数字新城",
+   "category": "transformation",
+   "desc": "华为、海康威视等企业入驻，数据中心规模位居西北前列",
+   "impact": 7,
+   "pop": 490300,
+   "oil": 980,
+   "gdp": 886.9,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2022,
+   "title": "文旅融合",
+   "category": "transformation",
+   "desc": "独山子大峡谷、世界魔鬼城、黑油山景区串联成线，全域旅游格局成型",
+   "impact": 6,
+   "pop": 490300,
+   "oil": 950,
+   "gdp": 1188.1,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2023,
+   "title": "2023年统计锚点",
+   "category": "peak",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 489000,
+   "gdp": 1260.5,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2024,
+   "title": "多元支撑",
+   "category": "transformation",
+   "desc": "原油产量保持在900万吨以上，数字经济、新能源、文旅形成重要支撑，资源型城市转型初见成效",
+   "impact": 7,
+   "pop": 350000,
+   "oil": 920,
+   "gdp": 950,
+   "event": true
+  }
+ ],
+ "chains": {
+  "petroleum": {
+   "name": "石油石化产业链",
+   "color": "#c9a84c",
+   "icon": "🛢️",
+   "lifecycle": {
+    "birth": 1955,
+    "peak": 2002,
+    "decline": 2010,
+    "collapse": null,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "explore",
+     "name": "油气勘探",
+     "status": "mature",
+     "peak": "1960s-1990s",
+     "decline": "2010s"
+    },
+    {
+     "id": "drilling",
+     "name": "钻井开采",
+     "status": "mature",
+     "peak": "1980s-2000s",
+     "decline": "2010s"
+    },
+    {
+     "id": "gathering",
+     "name": "油气集输",
+     "status": "mature",
+     "peak": "1980s-2000s",
+     "decline": "2010s"
+    },
+    {
+     "id": "refining",
+     "name": "炼油化工",
+     "status": "mature",
+     "peak": "1990s-2010s",
+     "decline": "2020s"
+    },
+    {
+     "id": "pipeline",
+     "name": "管道外输",
+     "status": "mature",
+     "peak": "2000s-2010s",
+     "decline": "2020s"
+    },
+    {
+     "id": "service",
+     "name": "石油工程技术服务",
+     "status": "mature",
+     "peak": "2000s",
+     "decline": "2020s"
+    }
+   ],
+   "connections": [
+    {
+     "from": "explore",
+     "to": "drilling",
+     "flow": "探明储量"
+    },
+    {
+     "from": "drilling",
+     "to": "gathering",
+     "flow": "原油"
+    },
+    {
+     "from": "gathering",
+     "to": "refining",
+     "flow": "原油"
+    },
+    {
+     "from": "refining",
+     "to": "pipeline",
+     "flow": "成品油"
+    },
+    {
+     "from": "explore",
+     "to": "service",
+     "flow": "技术服务需求"
+    }
+   ],
+   "employment": {
+    "peak": 80000,
+    "current": 45000
+   }
+  },
+  "new_energy": {
+   "name": "接续产业（数字经济·新能源·文旅）",
+   "color": "#2ecc71",
+   "icon": "🔄",
+   "lifecycle": {
+    "birth": 2013,
+    "growth": 2017,
+    "peak": null
+   },
+   "nodes": [
+    {
+     "id": "cloud",
+     "name": "云计算数据中心",
+     "status": "emerging",
+     "peak": "2010s-今"
+    },
+    {
+     "id": "ai",
+     "name": "人工智能算力",
+     "status": "emerging",
+     "peak": "未来"
+    },
+    {
+     "id": "pv",
+     "name": "光伏发电",
+     "status": "emerging",
+     "peak": "未来"
+    },
+    {
+     "id": "wind",
+     "name": "风力发电",
+     "status": "emerging",
+     "peak": "未来"
+    },
+    {
+     "id": "devil",
+     "name": "世界魔鬼城旅游",
+     "status": "emerging",
+     "peak": "未来"
+    },
+    {
+     "id": "canyon",
+     "name": "独山子大峡谷旅游",
+     "status": "emerging",
+     "peak": "未来"
+    }
+   ],
+   "connections": [
+    {
+     "from": "cloud",
+     "to": "ai",
+     "flow": "算力升级"
+    },
+    {
+     "from": "pv",
+     "to": "cloud",
+     "flow": "绿电支撑"
+    },
+    {
+     "from": "wind",
+     "to": "cloud",
+     "flow": "绿电支撑"
+    },
+    {
+     "from": "devil",
+     "to": "canyon",
+     "flow": "全域旅游"
+    }
+   ],
+   "employment": {
+    "peak": null,
+    "current": 25000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "resource",
+    "name": "油田递减",
+    "weight": 30,
+    "evidence": "克拉玛依油田进入开发中后期，稳产难度加大",
+    "icon": "🛢️",
+    "selected": false
+   },
+   {
+    "id": "single",
+    "name": "石油独大",
+    "weight": 30,
+    "evidence": "石油石化长期占GDP和税收的70%以上，抗风险能力弱",
+    "icon": "🏭",
+    "selected": false
+   },
+   {
+    "id": "location",
+    "name": "区位偏远",
+    "weight": 15,
+    "evidence": "地处戈壁深处，距主要消费市场远，物流成本高",
+    "icon": "🚂",
+    "selected": false
+   },
+   {
+    "id": "water",
+    "name": "水资源约束",
+    "weight": 15,
+    "evidence": "极端干旱区，水资源成为产业和人口扩张硬约束",
+    "icon": "💧",
+    "selected": false
+   },
+   {
+    "id": "price",
+    "name": "油价波动",
+    "weight": 10,
+    "evidence": "国际原油价格波动直接影响油田投资和地方财政",
+    "icon": "📉",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "digital",
+    "name": "数字经济",
+    "weight": 30,
+    "evidence": "绿电、低温、土地便宜，云计算和算力产业快速集聚",
+    "icon": "💻",
+    "selected": false
+   },
+   {
+    "id": "energy",
+    "name": "新能源资源",
+    "weight": 25,
+    "evidence": "戈壁滩风光资源极为丰富，新能源开发潜力巨大",
+    "icon": "☀️",
+    "selected": false
+   },
+   {
+    "id": "tourism",
+    "name": "独特文旅IP",
+    "weight": 20,
+    "evidence": "世界魔鬼城、黑油山、独山子大峡谷等稀缺景观",
+    "icon": "🏜️",
+    "selected": false
+   },
+   {
+    "id": "petro",
+    "name": "石油工业基础",
+    "weight": 15,
+    "evidence": "完整石油石化产业链和工程技术服务队伍",
+    "icon": "⚙️",
+    "selected": false
+   },
+   {
+    "id": "policy",
+    "name": "援疆与丝路政策",
+    "weight": 10,
+    "evidence": "一带一路核心区、对口援疆政策持续支持",
+    "icon": "💰",
+    "selected": false
+   }
+  ]
+ },
+ "space_timeline": [
+  {
+   "year": 1955,
+   "built": 0.1,
+   "vacancy": 0,
+   "density": 500
+  },
+  {
+   "year": 1960,
+   "built": 2,
+   "vacancy": 0,
+   "density": 40000
+  },
+  {
+   "year": 1970,
+   "built": 10,
+   "vacancy": 0,
+   "density": 12000
+  },
+  {
+   "year": 1985,
+   "built": 25,
+   "vacancy": 0.02,
+   "density": 8000
+  },
+  {
+   "year": 1997,
+   "built": 45,
+   "vacancy": 0.05,
+   "density": 5800
+  },
+  {
+   "year": 2008,
+   "built": 60,
+   "vacancy": 0.1,
+   "density": 4700
+  },
+  {
+   "year": 2015,
+   "built": 72,
+   "vacancy": 0.15,
+   "density": 4300
+  },
+  {
+   "year": 2020,
+   "built": 80,
+   "vacancy": 0.18,
+   "density": 4100
+  },
+  {
+   "year": 2024,
+   "built": 86,
+   "vacancy": 0.2,
+   "density": 4070
+  }
+ ],
+ "space": {
+  "built_up_area_km2": 86,
+  "current_pop": 350000,
+  "peak_pop": 490300,
+  "vacancy_rate": 0.2,
+  "landmark": "黑油山",
+  "special": "克拉玛依油田命名地，油苗渗出地表形成独特景观"
+ },
+ "migration": {
+  "destinations": [
+   {
+    "name": "乌鲁木齐市",
+    "lat": 43.83,
+    "lng": 87.62,
+    "flow": 60000,
+    "reason": "新疆首府"
+   },
+   {
+    "name": "北京市",
+    "lat": 39.9,
+    "lng": 116.4,
+    "flow": 40000,
+    "reason": "首都机会"
+   },
+   {
+    "name": "上海市",
+    "lat": 31.23,
+    "lng": 121.47,
+    "flow": 30000,
+    "reason": "东部中心"
+   },
+   {
+    "name": "成都市",
+    "lat": 30.57,
+    "lng": 104.07,
+    "flow": 25000,
+    "reason": "西南中心"
+   },
+   {
+    "name": "西安市",
+    "lat": 34.34,
+    "lng": 108.93,
+    "flow": 20000,
+    "reason": "西北枢纽"
+   }
+  ],
+  "outflow_total": 175000,
+  "inflow_total": 80000,
+  "net_flow": -95000
+ },
+ "achievements": [
+  {
+   "id": "kelamayi_first_visit",
+   "name": "戈壁油城",
+   "desc": "首次进入克拉玛依，见证新中国第一个大油田的诞生地",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "kelamayi_oil",
+   "name": "一号井记忆",
+   "desc": "见证克拉玛依一号井喷出工业油流的历史时刻",
+   "condition": "year",
+   "year": 1955
+  },
+  {
+   "id": "kelamayi_peak",
+   "name": "千万吨油田",
+   "desc": "见证克拉玛依油田原油产量突破千万吨",
+   "condition": "year",
+   "year": 2002
+  },
+  {
+   "id": "kelamayi_cloud",
+   "name": "云上油城",
+   "desc": "见证克拉玛依云计算产业起步",
+   "condition": "year",
+   "year": 2013
+  },
+  {
+   "id": "kelamayi_chain",
+   "name": "石油产业链大师",
+   "desc": "完成克拉玛依石油产业链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": [
+  {
+   "desc": "2023 GDP 1260.5亿; ",
+   "url": "https://www.klmy.gov.cn/klmys/tjgb/202404/657c5d877dcf47fd948021980f788f11.shtml",
+   "year": 2023
+  }
+ ],
+ "real_anchors": {
+  "census2020": {
+   "pop": 490300
+  },
+  "stat2023": {
+   "gdp": 1260.5,
+   "pop": 489000
+  }
+ }
+}

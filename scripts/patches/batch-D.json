@@ -1,0 +1,169 @@
+{
+  "batch": "D",
+  "cities": [
+    {
+      "key": "baotou",
+      "name": "包头市",
+      "pop_latest": {"year": 2024, "value_wan": 277.21},
+      "census2020_wan": 270.94,
+      "gdp_latest": {"year": 2024, "value_yi": 4711.9},
+      "gdp_history": [
+        {"year": 2022, "value_yi": 3718.9},
+        {"year": 2023, "value_yi": 4263.9}
+      ],
+      "sources": [
+        "http://www.tjcn.org/tjgb/05nmg/37706.html",
+        "https://www.hongheiku.com/shijirenkou/1626.html",
+        "https://www.sohu.com/a/467554204_121106854"
+      ]
+    },
+    {
+      "key": "panzhihua",
+      "name": "攀枝花市",
+      "pop_latest": {"year": 2023, "value_wan": 121.8},
+      "census2020_wan": 121.2,
+      "gdp_latest": {"year": 2024, "value_yi": 1395.24},
+      "gdp_history": [
+        {"year": 2000, "value_yi": 123.43},
+        {"year": 2015, "value_yi": 925.18},
+        {"year": 2023, "value_yi": 1303.8}
+      ],
+      "sources": [
+        "http://tjj.panzhihua.gov.cn/zfxxgk/fdzdgknr_1/tjsj/tjgb/10119214.shtml",
+        "http://tjj.panzhihua.gov.cn/zfxxgk/fdzdgknr_1/tjsj/tjgb/10209742.shtml",
+        "https://gdp.gotohui.com/data-302"
+      ]
+    },
+    {
+      "key": "shizuishan",
+      "name": "石嘴山市",
+      "pop_latest": {"year": 2023, "value_wan": 75.09},
+      "census2020_wan": 75.14,
+      "gdp_latest": {"year": 2024, "value_yi": 565.53},
+      "gdp_history": [
+        {"year": 2022, "value_yi": 693.34},
+        {"year": 2023, "value_yi": 698.98}
+      ],
+      "note": "2024年GDP 565.53亿元为第五次全国经济普查修订基数后口径（名义值低于2023年但实际增长3.2%）；2023年GDP 698.98亿元为当年公报原口径",
+      "sources": [
+        "http://www.tjcn.org/tjgb/30nx/37917.html",
+        "https://www.sohu.com/a/892833371_121106869",
+        "https://tjgb.hongheiku.com/12130.html"
+      ]
+    },
+    {
+      "key": "changjiang",
+      "name": "昌江黎族自治县",
+      "pop_latest": {"year": 2024, "value_wan": 23.66},
+      "census2020_wan": 23.21,
+      "gdp_latest": {"year": 2024, "value_yi": 165.19},
+      "gdp_history": [
+        {"year": 2023, "value_yi": 162.84}
+      ],
+      "sources": [
+        "https://tjgb.hongheiku.com/xjtjgb/xj2020/52729.html",
+        "https://tjgb.hongheiku.com/xjtjgb/xj2020/60383.html",
+        "https://maptable.com/tjgb/rundata/16190/1629256573-db73cb323101489ab9e9a4a3dcdc8fd6.pdf"
+      ]
+    },
+    {
+      "key": "pingguo",
+      "name": "平果市",
+      "pop_latest": {"year": 2023, "value_wan": 45.01},
+      "census2020_wan": 45.56,
+      "gdp_latest": {"year": 2024, "value_yi": 336.71},
+      "gdp_history": [
+        {"year": 2022, "value_yi": 314.11},
+        {"year": 2023, "value_yi": 337.33}
+      ],
+      "sources": [
+        "http://www.etmoc.com/look/Statslisth?Id=9427",
+        "https://www.hongheiku.com/xianjirank/gxxsq/8645.html",
+        "https://tjgb.hongheiku.com/xjtjgb/xj2020/64656.html"
+      ]
+    },
+    {
+      "key": "yunfu",
+      "name": "云浮市",
+      "pop_latest": {"year": 2024, "value_wan": 239.73},
+      "census2020_wan": 238.34,
+      "gdp_latest": {"year": 2024, "value_yi": 1309.19},
+      "gdp_history": [
+        {"year": 2010, "value_yi": 402.03},
+        {"year": 2017, "value_yi": 840.03},
+        {"year": 2022, "value_yi": 1162.43},
+        {"year": 2023, "value_yi": 1207.42}
+      ],
+      "sources": [
+        "http://www.tjcn.org/tjgb/19gd/37842.html",
+        "https://tjgb.hongheiku.com/xjtjgb/xj2020/60423.html",
+        "https://gdp.gotohui.com/data-68"
+      ]
+    },
+    {
+      "key": "suichang",
+      "name": "遂昌县",
+      "pop_latest": {"year": 2024, "value_wan": 19.4},
+      "census2020_wan": 19.44,
+      "gdp_latest": {"year": 2024, "value_yi": 194.35},
+      "gdp_history": [
+        {"year": 2022, "value_yi": 172.75},
+        {"year": 2023, "value_yi": 181.07}
+      ],
+      "sources": [
+        "https://tjgb.hongheiku.com/xjtjgb/xj2020/45614.html",
+        "https://tjgb.hongheiku.com/xjtjgb/xj2020/58258.html"
+      ]
+    },
+    {
+      "key": "shanghang",
+      "name": "上杭县",
+      "pop_latest": {"year": 2023, "value_wan": 36.8},
+      "census2020_wan": 37.64,
+      "gdp_latest": {"year": 2025, "value_yi": 603.03},
+      "gdp_history": [
+        {"year": 2022, "value_yi": 513.3},
+        {"year": 2023, "value_yi": 526.14},
+        {"year": 2024, "value_yi": 556.8}
+      ],
+      "sources": [
+        "https://www.hongheiku.com/lishishuju/9424.html",
+        "https://www.shanghang.gov.cn/bm/tjj/"
+      ]
+    },
+    {
+      "key": "wansheng",
+      "name": "重庆万盛经开区",
+      "pop_latest": {"year": 2024, "value_wan": 22.9},
+      "census2020_wan": 23.59,
+      "gdp_latest": {"year": 2024, "value_yi": 291.08},
+      "gdp_history": [
+        {"year": 2022, "value_yi": 239.5},
+        {"year": 2023, "value_yi": 261.62}
+      ],
+      "note": "万盛经开区发布独立统计公报（重庆市直辖管理，统计上与綦江区分开），无需使用綦江区数据；七普常住人口235,927人",
+      "sources": [
+        "https://ws.cq.gov.cn/bm/tjj/zwgk_70287/fdzdgknr_70290/tjxx_197374/tjgb/202406/t20240613_13289457.html",
+        "https://www.cadz.org.cn/public_html/upload/file/20250829/1756458333113070.pdf"
+      ]
+    },
+    {
+      "key": "mozhugongka",
+      "name": "墨竹工卡县",
+      "pop_latest": {"year": 2024, "value_wan": 5.13},
+      "census2020_wan": 4.95,
+      "gdp_latest": {"year": 2025, "value_yi": 196.69},
+      "gdp_history": [
+        {"year": 2023, "value_yi": 70.35},
+        {"year": 2024, "value_yi": 135.19}
+      ],
+      "note": "2023年GDP 70.35亿元为2023年公报原口径；据2025年公报注，2021-2023年GDP已按第五次全国经济普查修订，故2024年(135.19亿)与2025年(196.69亿)数值不可与原口径直接比较；七普常住人口49,511人（拉萨市七普公报）",
+      "sources": [
+        "https://www.xzmzgk.gov.cn/mzfkxzf/sjkf/202405/5b6e4bf132654f3d9eb5a64b3836959a.shtml",
+        "https://tjgb.hongheiku.com/xjtjgb/xj2020/66456.html",
+        "https://tjgb.hongheiku.com/xjtjgb/xj2020/78690.html",
+        "https://tjgb.hongheiku.com/12450.html"
+      ]
+    }
+  ]
+}

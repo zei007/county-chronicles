@@ -1,0 +1,266 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/* ============================================================
+   县城兴衰史 · 主题变量 (shadcn/ui Tailwind v4 规范)
+   游戏主题: 深色工矿档案风 — 煤黑底 + 鎏金强调 + 铜锈辅色
+   ============================================================ */
+:root {
+  --radius: 0.625rem;
+  --background: oklch(0.16 0.014 260);
+  --foreground: oklch(0.93 0.01 90);
+  --card: oklch(0.2 0.016 260);
+  --card-foreground: oklch(0.93 0.01 90);
+  --popover: oklch(0.19 0.016 260);
+  --popover-foreground: oklch(0.93 0.01 90);
+  --primary: oklch(0.78 0.14 85);           /* 鎏金 */
+  --primary-foreground: oklch(0.18 0.02 85);
+  --secondary: oklch(0.27 0.02 260);
+  --secondary-foreground: oklch(0.93 0.01 90);
+  --muted: oklch(0.26 0.018 260);
+  --muted-foreground: oklch(0.65 0.015 260);
+  --accent: oklch(0.3 0.03 60);
+  --accent-foreground: oklch(0.93 0.01 90);
+  --destructive: oklch(0.62 0.21 25);
+  --destructive-foreground: oklch(0.98 0 0);
+  --border: oklch(0.3 0.02 260 / 60%);
+  --input: oklch(0.3 0.02 260 / 50%);
+  --ring: oklch(0.78 0.14 85 / 60%);
+  --chart-1: oklch(0.8 0.15 85);   /* 金 */
+  --chart-2: oklch(0.7 0.12 250);  /* 钢蓝 */
+  --chart-3: oklch(0.72 0.16 40);  /* 铜红 */
+  --chart-4: oklch(0.75 0.14 150); /* 生态绿 */
+  --chart-5: oklch(0.65 0.15 300); /* 转型紫 */
+}
+
+.dark {
+  --background: oklch(0.16 0.014 260);
+  --foreground: oklch(0.93 0.01 90);
+  --card: oklch(0.2 0.016 260);
+  --card-foreground: oklch(0.93 0.01 90);
+  --popover: oklch(0.19 0.016 260);
+  --popover-foreground: oklch(0.93 0.01 90);
+  --primary: oklch(0.78 0.14 85);
+  --primary-foreground: oklch(0.18 0.02 85);
+  --secondary: oklch(0.27 0.02 260);
+  --secondary-foreground: oklch(0.93 0.01 90);
+  --muted: oklch(0.26 0.018 260);
+  --muted-foreground: oklch(0.65 0.015 260);
+  --accent: oklch(0.3 0.03 60);
+  --accent-foreground: oklch(0.93 0.01 90);
+  --destructive: oklch(0.62 0.21 25);
+  --destructive-foreground: oklch(0.98 0 0);
+  --border: oklch(0.3 0.02 260 / 60%);
+  --input: oklch(0.3 0.02 260 / 50%);
+  --ring: oklch(0.78 0.14 85 / 60%);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --font-serif-cn: "Noto Serif SC", "Source Han Serif SC", "Songti SC", SimSun, serif;
+  --font-sans-cn: "Noto Sans SC", "Source Han Sans SC", "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+}
+
+/* ============ 基础层 ============ */
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    color-scheme: dark;
+  }
+  body {
+    @apply bg-background text-foreground font-sans-cn antialiased;
+    background-image:
+      radial-gradient(ellipse 80% 50% at 50% -10%, oklch(0.3 0.04 85 / 15%), transparent),
+      repeating-linear-gradient(45deg, transparent 0 14px, oklch(1 0 0 / 0.012) 14px 15px);
+  }
+  ::selection {
+    background: oklch(0.78 0.14 85 / 30%);
+  }
+  ::-webkit-scrollbar { width: 8px; height: 8px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: oklch(0.35 0.02 260 / 80%); border-radius: 4px; }
+  ::-webkit-scrollbar-thumb:hover { background: oklch(0.45 0.03 85 / 80%); }
+}
+
+/* ============ 游戏专用组件层 ============ */
+@layer components {
+  /* 档案面板 */
+  .panel {
+    @apply rounded-xl border border-border bg-card/80 shadow-sm backdrop-blur-sm;
+  }
+  .panel-title {
+    @apply font-serif-cn text-sm font-bold tracking-widest text-primary;
+  }
+  /* 标题衬线字 */
+  .title-font { @apply font-serif-cn; }
+
+  /* 鎏金按钮 */
+  .btn-gold {
+    @apply text-primary-foreground shadow transition-all hover:brightness-110 active:scale-95 disabled:opacity-50;
+    background: linear-gradient(135deg, oklch(0.72 0.14 80), oklch(0.6 0.12 70));
+  }
+  .btn-ghost {
+    @apply rounded-lg border border-border/60 text-muted-foreground transition-all hover:border-primary/40 hover:text-primary;
+  }
+
+  /* 数字滚动字体 */
+  .stat-number {
+    @apply font-serif-cn text-xl font-bold tabular-nums;
+  }
+  .stat-neutral { @apply text-foreground; }
+  .stat-up { @apply text-emerald-400; }
+  .stat-down { @apply text-red-400; }
+
+  /* 事件标签 */
+  .tag {
+    @apply inline-flex items-center rounded px-1.5 py-0.5 text-[10px] leading-4 font-medium;
+  }
+  .tag-discovery { @apply bg-emerald-500/15 text-emerald-400; }
+  .tag-peak { @apply bg-amber-500/15 text-amber-400; }
+  .tag-decline { @apply bg-red-500/15 text-red-400; }
+  .tag-relocation { @apply bg-purple-500/15 text-purple-400; }
+  .tag-transformation { @apply bg-cyan-500/15 text-cyan-400; }
+  .tag-culture { @apply bg-yellow-500/15 text-yellow-400; }
+
+  /* 时间轴滑块 */
+  .timeline-slider {
+    @apply h-2 w-full cursor-pointer appearance-none rounded-full bg-secondary;
+    background-image: linear-gradient(90deg, oklch(0.72 0.14 80 / 90%), oklch(0.62 0.19 25 / 70%));
+  }
+  .timeline-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 18px; height: 18px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 35% 35%, oklch(0.95 0.1 90), oklch(0.72 0.14 80));
+    border: 2px solid oklch(0.98 0.05 90);
+    box-shadow: 0 0 12px oklch(0.78 0.14 85 / 70%);
+    cursor: grab;
+  }
+  .timeline-slider::-moz-range-thumb {
+    width: 18px; height: 18px; border-radius: 50%;
+    background: radial-gradient(circle at 35% 35%, oklch(0.95 0.1 90), oklch(0.72 0.14 80));
+    border: 2px solid oklch(0.98 0.05 90);
+    box-shadow: 0 0 12px oklch(0.78 0.14 85 / 70%);
+    cursor: grab;
+  }
+
+  /* 快捷键提示 */
+  .kbd-hint {
+    @apply inline-block rounded border border-border bg-secondary px-1.5 text-[10px] text-muted-foreground;
+  }
+
+  /* 年份大屏显示 */
+  .year-display {
+    @apply font-serif-cn text-2xl font-black tabular-nums text-amber-300;
+    text-shadow: 0 0 18px oklch(0.78 0.14 85 / 50%);
+  }
+
+  /* 图表切换按钮 */
+  .chart-tab.active {
+    @apply bg-primary/20 text-primary;
+    border-color: oklch(0.78 0.14 85 / 40%);
+  }
+
+  /* 模态框 */
+  .modal-overlay {
+    @apply bg-black/70 backdrop-blur-sm;
+  }
+  .modal-content {
+    @apply border border-border bg-card shadow-2xl;
+  }
+
+  /* 卡片入场动画 */
+  .anim-rise { animation: riseIn 0.45s cubic-bezier(0.22, 1, 0.36, 1) both; }
+  @keyframes riseIn {
+    from { opacity: 0; transform: translateY(14px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .anim-slide { animation: slideIn 0.4s cubic-bezier(0.22, 1, 0.36, 1) both; }
+  @keyframes slideIn {
+    from { opacity: 0; transform: translateX(18px); }
+    to { opacity: 1; transform: translateX(0); }
+  }
+
+  /* 空置率呼吸灯 */
+  .vacancy-blink { animation: vacBlink 1.6s ease-in-out infinite; }
+  @keyframes vacBlink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.45; }
+  }
+
+  /* 金点脉冲（地图城市光点） */
+  .map-pulse { animation: mapPulse 2.2s ease-out infinite; transform-origin: center; }
+  @keyframes mapPulse {
+    0% { transform: scale(0.6); opacity: 0.9; }
+    70% { transform: scale(2.4); opacity: 0; }
+    100% { transform: scale(2.4); opacity: 0; }
+  }
+
+  /* 诊断拖拽卡片 */
+  .drag-card {
+    @apply flex cursor-grab items-center gap-3 rounded-lg border border-border bg-secondary/60 p-3 transition-all select-none active:cursor-grabbing;
+  }
+  .drag-card.dragging { @apply opacity-40; }
+  .drag-card.drag-over { @apply border-primary/60 shadow-[0_0_16px_rgba(234,179,8,0.25)]; }
+
+  /* 音效开关 */
+  .audio-toggle {
+    @apply fixed right-4 bottom-14 z-40 h-10 w-10 rounded-full border border-border bg-card/90 text-lg shadow-lg transition hover:border-primary/50;
+  }
+
+  /* 阶段进度点 */
+  .phase-dot {
+    @apply inline-block h-2.5 w-2.5 rounded-full transition-all;
+  }
+
+  /* 排行榜徽章 */
+  .grade-badge {
+    @apply inline-flex h-14 w-14 items-center justify-center rounded-full border-4 font-serif-cn text-2xl font-black;
+  }
+}
+
+/* ECharts 容器防抖 */
+.echart-box { width: 100%; height: 100%; min-height: 220px; }
+
+/* 移动端优化 */
+@media (max-width: 768px) {
+  .panel { @apply rounded-lg; }
+  .year-display { font-size: 1.35rem; }
+  .stat-number { font-size: 1.05rem; }
+}
+@media print {
+  body { background: white !important; color: black !important; }
+  .no-print { display: none !important; }
+  .panel { border: 1px solid #ccc; background: white; color: black; }
+}

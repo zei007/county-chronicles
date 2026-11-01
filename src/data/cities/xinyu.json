@@ -1,0 +1,584 @@
+{
+ "profile": {
+  "name": "新余市",
+  "province": "江西省",
+  "prefecture": "地级市",
+  "area": "3,178 km²",
+  "coordinates": [
+   114.92,
+   27.82
+  ],
+  "tags": [
+   "江西钢城",
+   "新余钢铁",
+   "锂电之都",
+   "仙女湖"
+  ],
+  "description": "赣中西的钢城，1958 年为建新余钢铁厂而设市，几度撤设见证钢铁起伏。本世纪以来凭借赣锋锂业等企业卡位新能源赛道，成为全球锂盐重镇；钢铁与锂电双主业的周期共振，让这座小城在大起大落中寻找平衡。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 1958,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "建市期",
+    "start": 1958,
+    "end": 1982,
+    "color": "green"
+   },
+   {
+    "name": "钢城期",
+    "start": 1983,
+    "end": 2010,
+    "color": "yellow"
+   },
+   {
+    "name": "锂电期",
+    "start": 2011,
+    "end": 2022,
+    "color": "teal"
+   },
+   {
+    "name": "调整期",
+    "start": 2023,
+    "end": 2024,
+    "color": "red"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "steel",
+    "label": "钢产量",
+    "unit": "万吨",
+    "max": 1000,
+    "color": "#64748b"
+   },
+   {
+    "key": "lithium",
+    "label": "锂盐产量",
+    "unit": "万吨",
+    "max": 12,
+    "color": "#a78bfa"
+   }
+  ],
+  "spaceType": "built_up",
+  "spaceLabels": {
+   "built": "建成区",
+   "density": "人口密度"
+  },
+  "cityKey": "xinyu",
+  "chainKeys": [
+   "steel",
+   "lithium"
+  ],
+  "chainContainerIds": [
+   "steelChain",
+   "lithiumChain"
+  ],
+  "currentStatus": "钢铁锂电双主业城市",
+  "transformationAssessment": "从一钢独大到钢铁锂电双轮",
+  "transformationDetail": "新余因钢设市又因钢而兴，新钢公司长期撑起城市财政。2008 年后赣锋锂业从金属锂加工一路做大，锂盐产能全球领先，城市一度以'锂电之都'冠名；锂价暴跌周期又让城市经济坐上过山车。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 1958,
+   "title": "新钢建设与设市",
+   "category": "discovery",
+   "desc": "为配套新余钢铁厂建设设新余市，钢城起飞",
+   "impact": 9,
+   "event": true,
+   "pop": 300000,
+   "steel": 2,
+   "lithium": 0,
+   "gdp": 0.8
+  },
+  {
+   "year": 1963,
+   "title": "撤市复县",
+   "category": "decline",
+   "desc": "国民经济调整中撤市，钢铁厂继续生产",
+   "impact": 6,
+   "event": true,
+   "pop": 500000,
+   "steel": 10,
+   "lithium": 0,
+   "gdp": 1.2
+  },
+  {
+   "year": 1983,
+   "title": "复设地级市",
+   "category": "peak",
+   "desc": "新钢扩产带动复市，江西工业重镇回归",
+   "impact": 8,
+   "event": true,
+   "pop": 850000,
+   "steel": 60,
+   "lithium": 0,
+   "gdp": 6
+  },
+  {
+   "year": 2000,
+   "title": "百万吨钢",
+   "category": "peak",
+   "desc": "新钢产量破百万吨，钢铁占工业增加值过半",
+   "impact": 7,
+   "event": true,
+   "pop": 1080000,
+   "steel": 200,
+   "lithium": 0.05,
+   "gdp": 72
+  },
+  {
+   "year": 2008,
+   "title": "赣锋锂业起步",
+   "category": "transformation",
+   "desc": "赣锋从金属锂深加工切入新能源材料赛道",
+   "impact": 8,
+   "event": true,
+   "pop": 1140000,
+   "steel": 500,
+   "lithium": 0.2,
+   "gdp": 270
+  },
+  {
+   "year": 2015,
+   "title": "仙女湖文旅",
+   "category": "transformation",
+   "desc": "仙女湖七夕文化IP打造，旅游收入快速增长",
+   "impact": 6,
+   "event": true,
+   "pop": 1170000,
+   "steel": 700,
+   "lithium": 1,
+   "gdp": 860
+  },
+  {
+   "year": 2020,
+   "title": "七普人口",
+   "category": "peak",
+   "desc": "常住人口 120.2 万，人均GDP居江西前列",
+   "impact": 6,
+   "event": true,
+   "pop": 1202199,
+   "steel": 900,
+   "lithium": 5,
+   "gdp": 1001
+  },
+  {
+   "year": 2022,
+   "title": "锂价巅峰",
+   "category": "peak",
+   "desc": "碳酸锂价格冲顶，锂电产业产值近千亿，城市风光无两",
+   "impact": 9,
+   "event": true,
+   "pop": 1190000,
+   "steel": 950,
+   "lithium": 10,
+   "gdp": 1350
+  },
+  {
+   "year": 2023,
+   "title": "锂价暴跌",
+   "category": "decline",
+   "desc": "碳酸锂价格腰斩再腰斩，GDP名义增速转负，单一赛道风险暴露",
+   "impact": 9,
+   "event": true,
+   "pop": 1198500,
+   "steel": 950,
+   "lithium": 9,
+   "gdp": 1261.89,
+   "calibrated": true
+  },
+  {
+   "year": 2024,
+   "title": "双主业再平衡",
+   "category": "transformation",
+   "desc": "钢铁技改与锂电回收并举，产业链向正负极材料延伸",
+   "impact": 7,
+   "event": true,
+   "pop": 1170000,
+   "steel": 960,
+   "lithium": 10,
+   "gdp": 1290
+  }
+ ],
+ "chains": {
+  "steel": {
+   "name": "钢铁产业链",
+   "color": "#64748b",
+   "icon": "🏭",
+   "lifecycle": {
+    "birth": 1958,
+    "peak": 2022,
+    "decline": null,
+    "collapse": null,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "iron",
+     "name": "炼铁",
+     "x": 50,
+     "y": 50,
+     "status": "active",
+     "peak": "1990s-2020s",
+     "decline": null
+    },
+    {
+     "id": "steel",
+     "name": "炼钢",
+     "x": 150,
+     "y": 50,
+     "status": "active",
+     "peak": "2000s-2020s",
+     "decline": null
+    },
+    {
+     "id": "rolled",
+     "name": "钢材加工",
+     "x": 250,
+     "y": 50,
+     "status": "growing",
+     "peak": "2010s-2020s",
+     "decline": null
+    },
+    {
+     "id": "equip",
+     "name": "金属制品",
+     "x": 350,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    }
+   ],
+   "connections": [
+    {
+     "from": "iron",
+     "to": "steel",
+     "flow": "铁水"
+    },
+    {
+     "from": "steel",
+     "to": "rolled",
+     "flow": "钢坯"
+    },
+    {
+     "from": "rolled",
+     "to": "equip",
+     "flow": "型材"
+    }
+   ],
+   "employment": {
+    "peak": 80000,
+    "current": 40000
+   }
+  },
+  "lithium": {
+   "name": "锂电新能源链",
+   "color": "#a78bfa",
+   "icon": "🔋",
+   "lifecycle": {
+    "birth": 2008,
+    "peak": 2022,
+    "decline": 2023,
+    "collapse": null,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "spodumene",
+     "name": "锂矿采选",
+     "x": 50,
+     "y": 200,
+     "status": "active",
+     "peak": "2010s-2020s",
+     "decline": null
+    },
+    {
+     "id": "lithiumsalt",
+     "name": "锂盐冶炼",
+     "x": 150,
+     "y": 200,
+     "status": "active",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "cathode",
+     "name": "正极材料",
+     "x": 250,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "battery",
+     "name": "电芯制造",
+     "x": 350,
+     "y": 200,
+     "status": "emerging",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "recycle",
+     "name": "电池回收",
+     "x": 450,
+     "y": 200,
+     "status": "emerging",
+     "peak": "2020s",
+     "decline": null
+    }
+   ],
+   "connections": [
+    {
+     "from": "spodumene",
+     "to": "lithiumsalt",
+     "flow": "锂精矿"
+    },
+    {
+     "from": "lithiumsalt",
+     "to": "cathode",
+     "flow": "碳酸锂"
+    },
+    {
+     "from": "cathode",
+     "to": "battery",
+     "flow": "材料"
+    },
+    {
+     "from": "battery",
+     "to": "recycle",
+     "flow": "梯次利用"
+    }
+   ],
+   "employment": {
+    "peak": 30000,
+    "current": 35000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "lithium",
+    "name": "锂价剧烈周期",
+    "weight": 30,
+    "evidence": "2023 年碳酸锂价格自高点跌去八成，产业税收锐减",
+    "icon": "📉",
+    "selected": false
+   },
+   {
+    "id": "steel",
+    "name": "钢铁利润微薄",
+    "weight": 22,
+    "evidence": "行业产能过剩，新钢盈利长期承压",
+    "icon": "🏭",
+    "selected": false
+   },
+   {
+    "id": "single",
+    "name": "双寡头依赖",
+    "weight": 20,
+    "evidence": "新钢+赣锋两大企业决定城市经济体温",
+    "icon": "🧱",
+    "selected": false
+   },
+   {
+    "id": "size",
+    "name": "小城市规模约束",
+    "weight": 16,
+    "evidence": "人口刚过百万，内需与人才池有限",
+    "icon": "🏙️",
+    "selected": false
+   },
+   {
+    "id": "env",
+    "name": "环境承载压力",
+    "weight": 12,
+    "evidence": "钢厂锂盐厂减排改造投入大",
+    "icon": "🌫️",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "ganfeng",
+    "name": "赣锋链主地位",
+    "weight": 30,
+    "evidence": "全球锂盐龙头总部效应，资源-材料-回收一体化",
+    "icon": "🔋",
+    "selected": false
+   },
+   {
+    "id": "recycle",
+    "name": "电池回收蓝海",
+    "weight": 22,
+    "evidence": "退役电池潮带来城市矿山新资源",
+    "icon": "♻️",
+    "selected": false
+   },
+   {
+    "id": "tech",
+    "name": "钢企技改",
+    "weight": 18,
+    "evidence": "新钢电弧炉与精品板材改造升级",
+    "icon": "⚙️",
+    "selected": false
+   },
+   {
+    "id": "tourism",
+    "name": "仙女湖IP",
+    "weight": 20,
+    "evidence": "七夕文化+康养旅游客流稳定",
+    "icon": "🏞️",
+    "selected": false
+   },
+   {
+    "id": "location",
+    "name": "赣西枢纽",
+    "weight": 10,
+    "evidence": "沪昆高铁与新宜吉合作示范区区位",
+    "icon": "🚄",
+    "selected": false
+   }
+  ]
+ },
+ "space_timeline": [
+  {
+   "year": 1958,
+   "built": 2,
+   "vacant": 0,
+   "density": 10000
+  },
+  {
+   "year": 1983,
+   "built": 12,
+   "vacant": 0.02,
+   "density": 11000
+  },
+  {
+   "year": 2000,
+   "built": 28,
+   "vacant": 0.05,
+   "density": 9500
+  },
+  {
+   "year": 2015,
+   "built": 48,
+   "vacant": 0.1,
+   "density": 8000
+  },
+  {
+   "year": 2024,
+   "built": 60,
+   "vacant": 0.14,
+   "density": 7200
+  }
+ ],
+ "space": {
+  "built_up_area_km2": 60,
+  "current_pop": 1170000,
+  "peak_pop": 1202199,
+  "vacancy_rate": 0.14,
+  "housing_price_rank": "江西省内中游",
+  "landmark": "仙女湖"
+ },
+ "migration": {
+  "outflow_total": 50000,
+  "destinations": [
+   {
+    "city": "南昌",
+    "province": "江西",
+    "count": 15000,
+    "reason": "省会就业"
+   },
+   {
+    "city": "宜春",
+    "province": "江西",
+    "count": 5000,
+    "reason": "锂电产业带就业"
+   },
+   {
+    "city": "深圳",
+    "province": "广东",
+    "count": 8000,
+    "reason": "珠三角务工"
+   },
+   {
+    "city": "上海",
+    "province": "上海",
+    "count": 5000,
+    "reason": "长三角务工"
+   },
+   {
+    "city": "其他地区",
+    "province": "全国",
+    "count": 17000,
+    "reason": "务工求学"
+   }
+  ]
+ },
+ "achievements": [
+  {
+   "id": "xinyu_first_visit",
+   "name": "新余初见",
+   "desc": "首次进入新余市",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "xinyu_y1958",
+   "name": "新钢建设与设市",
+   "desc": "见证1958年新钢建设与设市",
+   "condition": "year",
+   "year": 1958
+  },
+  {
+   "id": "xinyu_y1983",
+   "name": "复设地级市",
+   "desc": "见证1983年复设地级市",
+   "condition": "year",
+   "year": 1983
+  },
+  {
+   "id": "xinyu_y2008",
+   "name": "赣锋锂业起步",
+   "desc": "见证2008年赣锋锂业起步",
+   "condition": "year",
+   "year": 2008
+  },
+  {
+   "id": "xinyu_chain",
+   "name": "江西钢城拼图大师",
+   "desc": "完成新余市产业链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": [
+  {
+   "desc": "2023 GDP 1261.89亿元(+2.5%), 一产74.62/二产510.93/三产676.34; 常住119.85万",
+   "url": "http://www.tjcn.org/tjgb/14jx/37763.html",
+   "year": 2023
+  },
+  {
+   "desc": "七普常住人口约120.22万（2020-11-01，江西省第七次全国人口普查公报；精确值与既有人口序列交叉一致）",
+   "url": "http://jx.people.com.cn/BIG5/n2/2021/0511/c190260-34719321.html"
+  }
+ ],
+ "real_anchors": {
+  "stat2023": {
+   "gdp": 1261.89,
+   "pop": 1198500
+  },
+  "census2020": {
+   "pop": 1202199
+  }
+ }
+}

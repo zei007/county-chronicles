@@ -1,0 +1,771 @@
+{
+ "profile": {
+  "name": "金昌市",
+  "province": "甘肃省",
+  "prefecture": "省辖地级市",
+  "area": "9,596 km²",
+  "coordinates": [
+   102.19,
+   38.5
+  ],
+  "tags": [
+   "中国镍都",
+   "金川集团",
+   "河西走廊",
+   "镍钴新材料"
+  ],
+  "description": "中国最大镍生产基地，因金川镍矿而设市。1958年金川镍矿发现，1959年建市，金川集团曾是中国有色金属工业的旗舰。2008年被列入全国首批资源枯竭城市，正从'镍都'向'镍钴新材料之都'艰难转型，紫金花城与火星1号基地成为新名片。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 1958,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "起家期",
+    "start": 1958,
+    "end": 1977,
+    "color": "green"
+   },
+   {
+    "name": "壮盛期",
+    "start": 1978,
+    "end": 2000,
+    "color": "yellow"
+   },
+   {
+    "name": "转型期",
+    "start": 2001,
+    "end": 2024,
+    "color": "purple"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "nickel",
+    "label": "镍产量",
+    "unit": "万吨",
+    "max": 15,
+    "color": "#a3a3a3"
+   }
+  ],
+  "spaceType": "built_up",
+  "spaceLabels": {
+   "built": "建成区",
+   "density": "人口密度"
+  },
+  "cityKey": "jinchang",
+  "chainKeys": [
+   "nickel",
+   "replacement"
+  ],
+  "chainContainerIds": [
+   "nickelChain",
+   "replacementChain"
+  ],
+  "currentStatus": "资源枯竭转型中，镍钴新材料之都",
+  "transformationAssessment": "从'中国镍都'到'镍钴新材料之都'的艰难转身",
+  "transformationDetail": "金川集团累计产镍超100万吨后，主体矿山于2005年进入深部开采。2008年列入首批资源枯竭城市。依托镍钴资源优势发展新能源电池材料、高温合金等新材料产业，紫金花海与火星1号基地成为文旅新IP。但城市规模小、人口基数低，转型之路任重道远。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 1958,
+   "title": "金川镍矿发现",
+   "category": "discovery",
+   "desc": "地质队在河西走廊龙首山发现特大型硫化镍矿床，震惊全国",
+   "impact": 10,
+   "pop": 3000,
+   "nickel": 0,
+   "gdp": 0.01,
+   "event": true
+  },
+  {
+   "year": 1959,
+   "title": "金昌设市",
+   "category": "peak",
+   "desc": "国务院批准设立金昌市，中国唯一以镍矿资源直接建市的城市诞生",
+   "impact": 10,
+   "pop": 15000,
+   "nickel": 0,
+   "gdp": 0.05,
+   "event": true
+  },
+  {
+   "year": 1960,
+   "title": "金川公司成立",
+   "category": "peak",
+   "desc": "金川有色金属公司成立，成为国家镍钴战略资源基地",
+   "impact": 10,
+   "pop": 30000,
+   "nickel": 0.1,
+   "gdp": 0.2,
+   "event": true
+  },
+  {
+   "year": 1965,
+   "title": "冶炼投产",
+   "category": "peak",
+   "desc": "镍冶炼厂正式投产，结束了中国不产镍的历史",
+   "impact": 9,
+   "pop": 50000,
+   "nickel": 0.5,
+   "gdp": 0.5,
+   "event": true
+  },
+  {
+   "year": 1970,
+   "title": "产能扩张",
+   "category": "peak",
+   "desc": "镍产量突破1万吨，金川公司跻身世界大型镍生产企业行列",
+   "impact": 8,
+   "pop": 80000,
+   "nickel": 1.2,
+   "gdp": 1,
+   "event": false
+  },
+  {
+   "year": 1975,
+   "title": "技术突破",
+   "category": "peak",
+   "desc": "攻克高镁低品位镍矿冶炼技术难关，资源利用率大幅提升",
+   "impact": 8,
+   "pop": 100000,
+   "nickel": 2.5,
+   "gdp": 2,
+   "event": false
+  },
+  {
+   "year": 1978,
+   "title": "产量破四万吨",
+   "category": "peak",
+   "desc": "年产镍突破4万吨，金川公司成为全球镍产量前十企业",
+   "impact": 8,
+   "pop": 120000,
+   "nickel": 4,
+   "gdp": 3,
+   "event": true
+  },
+  {
+   "year": 1980,
+   "title": "鼎盛时期",
+   "category": "peak",
+   "desc": "年产镍接近6万吨，城市配套成熟，金川集团成为中国有色金属工业旗舰",
+   "impact": 7,
+   "pop": 140000,
+   "nickel": 5.5,
+   "gdp": 5,
+   "event": false
+  },
+  {
+   "year": 1985,
+   "title": "产量破七万吨",
+   "category": "peak",
+   "desc": "年产镍突破7万吨，金川集团成为全球镍产量前五企业",
+   "impact": 8,
+   "pop": 160000,
+   "nickel": 7,
+   "gdp": 8,
+   "event": true
+  },
+  {
+   "year": 1990,
+   "title": "产量破九万吨",
+   "category": "peak",
+   "desc": "年产镍突破9万吨，累计产镍超100万吨，金川集团跻身世界镍业巨头",
+   "impact": 9,
+   "pop": 170000,
+   "nickel": 9,
+   "gdp": 12,
+   "event": true
+  },
+  {
+   "year": 1995,
+   "title": "接近巅峰",
+   "category": "peak",
+   "desc": "年产镍达到12万吨，金川集团成为全球第二大镍生产企业",
+   "impact": 8,
+   "pop": 180000,
+   "nickel": 12,
+   "gdp": 18,
+   "event": false
+  },
+  {
+   "year": 1998,
+   "title": "产量巅峰",
+   "category": "peak",
+   "desc": "年产镍突破13万吨，累计产镍超200万吨，金川集团达到历史最高峰",
+   "impact": 10,
+   "pop": 190000,
+   "nickel": 13,
+   "gdp": 25,
+   "event": true
+  },
+  {
+   "year": 2000,
+   "title": "品位下降",
+   "category": "decline",
+   "desc": "浅层高品位镍矿枯竭，开采品位大幅下降，成本急剧上升",
+   "impact": 8,
+   "pop": 195000,
+   "nickel": 12,
+   "gdp": 30,
+   "event": false
+  },
+  {
+   "year": 2002,
+   "title": "产量下滑",
+   "category": "decline",
+   "desc": "镍产量从13万吨跌至10万吨，城市经济增长放缓",
+   "impact": 8,
+   "pop": 200000,
+   "nickel": 10,
+   "gdp": 38,
+   "event": false
+  },
+  {
+   "year": 2005,
+   "title": "深部开采",
+   "category": "decline",
+   "desc": "金川矿山进入深部开采阶段，开采深度超1000米，安全风险增大",
+   "impact": 9,
+   "pop": 210000,
+   "nickel": 8,
+   "gdp": 50,
+   "event": true
+  },
+  {
+   "year": 2008,
+   "title": "首批枯竭城市",
+   "category": "transformation",
+   "desc": "被列入全国首批资源枯竭城市，获得中央财政转移支付支持转型",
+   "impact": 10,
+   "pop": 220000,
+   "nickel": 7,
+   "gdp": 65,
+   "event": true
+  },
+  {
+   "year": 2010,
+   "title": "新材料起步",
+   "category": "transformation",
+   "desc": "依托镍钴资源优势，发展新能源电池材料、高温合金等新材料产业",
+   "impact": 7,
+   "pop": 230000,
+   "nickel": 6.5,
+   "gdp": 85,
+   "event": false
+  },
+  {
+   "year": 2012,
+   "title": "紫金花海",
+   "category": "transformation",
+   "desc": "金昌紫金花城景区建成，薰衣草花海成为河西走廊旅游新地标",
+   "impact": 6,
+   "pop": 235000,
+   "nickel": 6,
+   "gdp": 100,
+   "event": false
+  },
+  {
+   "year": 2015,
+   "title": "火星基地",
+   "category": "transformation",
+   "desc": "火星1号基地落地金昌，依托戈壁地貌发展太空主题旅游，成为网红打卡地",
+   "impact": 7,
+   "pop": 240000,
+   "nickel": 5.5,
+   "gdp": 120,
+   "event": true
+  },
+  {
+   "year": 2017,
+   "title": "镍钴新材料",
+   "category": "transformation",
+   "desc": "镍钴新材料产业园建成，新能源电池正极材料产能快速提升",
+   "impact": 7,
+   "pop": 245000,
+   "nickel": 5,
+   "gdp": 150,
+   "event": false
+  },
+  {
+   "year": 2020,
+   "title": "转型深化",
+   "category": "transformation",
+   "desc": "镍钴新材料产值突破50亿元，成为城市经济新支柱。文旅产业受疫情影响",
+   "impact": 6,
+   "pop": 438000,
+   "nickel": 4.5,
+   "gdp": 420,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2022,
+   "title": "新能源风口",
+   "category": "transformation",
+   "desc": "三元锂电池需求爆发，金昌镍钴新材料产业迎来历史性机遇",
+   "impact": 8,
+   "pop": 255000,
+   "nickel": 4,
+   "gdp": 220,
+   "event": true
+  },
+  {
+   "year": 2023,
+   "title": "2023年统计锚点",
+   "category": "peak",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 432000,
+   "gdp": 567.73,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2024,
+   "title": "镍钴之都",
+   "category": "transformation",
+   "desc": "金昌正打造世界级镍钴新材料产业集群。但城市人口基数小、人才吸引力不足，转型仍在路上",
+   "impact": 7,
+   "pop": 260000,
+   "nickel": 3.5,
+   "gdp": 567.73,
+   "event": true,
+   "calibrated": true
+  }
+ ],
+ "chains": {
+  "nickel": {
+   "name": "镍钴产业链",
+   "color": "#a3a3a3",
+   "icon": "⚙️",
+   "lifecycle": {
+    "birth": 1958,
+    "peak": 1998,
+    "decline": 2000,
+    "collapse": 2005,
+    "dead": 2024
+   },
+   "nodes": [
+    {
+     "id": "explore",
+     "name": "地质勘探",
+     "status": "dying",
+     "peak": "1950s-1970s",
+     "decline": "1990s"
+    },
+    {
+     "id": "mine",
+     "name": "井下开采",
+     "status": "dying",
+     "peak": "1960s-1990s",
+     "decline": "2000s"
+    },
+    {
+     "id": "wash",
+     "name": "选矿加工",
+     "status": "dying",
+     "peak": "1970s-1990s",
+     "decline": "2000s"
+    },
+    {
+     "id": "smelt",
+     "name": "火法冶炼",
+     "status": "dying",
+     "peak": "1980s-2000s",
+     "decline": "2010s"
+    },
+    {
+     "id": "refine",
+     "name": "电解精炼",
+     "status": "dying",
+     "peak": "1990s-2000s",
+     "decline": "2010s"
+    },
+    {
+     "id": "cast",
+     "name": "镍材铸造",
+     "status": "dying",
+     "peak": "1990s-2000s",
+     "decline": "2010s"
+    }
+   ],
+   "connections": [
+    {
+     "from": "explore",
+     "to": "mine",
+     "flow": "矿床数据"
+    },
+    {
+     "from": "mine",
+     "to": "wash",
+     "flow": "镍矿石"
+    },
+    {
+     "from": "wash",
+     "to": "smelt",
+     "flow": "镍精矿"
+    },
+    {
+     "from": "smelt",
+     "to": "refine",
+     "flow": "粗镍"
+    },
+    {
+     "from": "refine",
+     "to": "cast",
+     "flow": "电解镍"
+    }
+   ],
+   "employment": {
+    "peak": 35000,
+    "current": 8000
+   }
+  },
+  "replacement": {
+   "name": "接续产业（镍钴新材料·文旅·生态农业）",
+   "color": "#2ecc71",
+   "icon": "🔄",
+   "lifecycle": {
+    "birth": 2008,
+    "growth": 2015,
+    "peak": null
+   },
+   "nodes": [
+    {
+     "id": "battery",
+     "name": "新能源电池材料",
+     "status": "emerging",
+     "peak": "2020s-今"
+    },
+    {
+     "id": "alloy",
+     "name": "高温合金",
+     "status": "emerging",
+     "peak": "未来"
+    },
+    {
+     "id": "flower",
+     "name": "紫金花海旅游",
+     "status": "emerging",
+     "peak": "未来"
+    },
+    {
+     "id": "mars",
+     "name": "火星1号基地",
+     "status": "emerging",
+     "peak": "2020s"
+    },
+    {
+     "id": "desert",
+     "name": "戈壁生态农业",
+     "status": "emerging",
+     "peak": "未来"
+    },
+    {
+     "id": "rare",
+     "name": "稀贵金属回收",
+     "status": "emerging",
+     "peak": "未来"
+    }
+   ],
+   "connections": [
+    {
+     "from": "battery",
+     "to": "alloy",
+     "flow": "新材料协同"
+    },
+    {
+     "from": "flower",
+     "to": "mars",
+     "flow": "文旅融合"
+    },
+    {
+     "from": "desert",
+     "to": "rare",
+     "flow": "资源循环"
+    }
+   ],
+   "employment": {
+    "peak": null,
+    "current": 15000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "resource",
+    "name": "镍矿枯竭",
+    "weight": 35,
+    "evidence": "浅层高品位镍矿枯竭，开采深度超1000米，累计产镍超300万吨",
+    "icon": "⚙️",
+    "selected": false
+   },
+   {
+    "id": "single",
+    "name": "产业结构单一",
+    "weight": 25,
+    "evidence": "金川集团长期占全市工业产值70%以上，城市对单一企业依赖极高",
+    "icon": "🏭",
+    "selected": false
+   },
+   {
+    "id": "location",
+    "name": "区位边缘化",
+    "weight": 15,
+    "evidence": "深处河西走廊腹地，距兰州300公里，距最近的机场100公里，交通不便",
+    "icon": "🚂",
+    "selected": false
+   },
+   {
+    "id": "water",
+    "name": "水资源短缺",
+    "weight": 10,
+    "evidence": "年降水量不足200毫米，人均水资源远低于全国平均，严重制约发展",
+    "icon": "💧",
+    "selected": false
+   },
+   {
+    "id": "environment",
+    "name": "生态脆弱",
+    "weight": 10,
+    "evidence": "戈壁荒漠地貌，植被覆盖率低，风沙侵蚀严重，生态修复难度大",
+    "icon": "🌫️",
+    "selected": false
+   },
+   {
+    "id": "scale",
+    "name": "城市规模小",
+    "weight": 5,
+    "evidence": "人口不足30万，人才吸引力弱，消费市场有限，服务业难以发展",
+    "icon": "👥",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "nickel",
+    "name": "镍钴资源禀赋",
+    "weight": 25,
+    "evidence": "中国最大镍钴资源基地，新能源电池材料需求爆发带来历史性机遇",
+    "icon": "⚙️",
+    "selected": false
+   },
+   {
+    "id": "battery",
+    "name": "新能源风口",
+    "weight": 25,
+    "evidence": "三元锂电池正极材料需求激增，金昌镍钴新材料产业迎来风口",
+    "icon": "🔋",
+    "selected": false
+   },
+   {
+    "id": "scenery",
+    "name": "戈壁文旅IP",
+    "weight": 15,
+    "evidence": "火星1号基地+紫金花海，独特的戈壁地貌成为差异化旅游名片",
+    "icon": "🏜️",
+    "selected": false
+   },
+   {
+    "id": "policy",
+    "name": "转型政策支持",
+    "weight": 15,
+    "evidence": "首批资源枯竭城市，持续获得中央专项资金与转移支付",
+    "icon": "💰",
+    "selected": false
+   },
+   {
+    "id": "group",
+    "name": "金川集团实力",
+    "weight": 15,
+    "evidence": "金川集团世界500强企业，技术研发能力强，产业链延伸空间大",
+    "icon": "🏢",
+    "selected": false
+   },
+   {
+    "id": "solar",
+    "name": "光热资源",
+    "weight": 5,
+    "evidence": "河西走廊日照充足，太阳能、风能资源丰富，清洁能源潜力巨大",
+    "icon": "☀️",
+    "selected": false
+   }
+  ]
+ },
+ "space_timeline": [
+  {
+   "year": 1958,
+   "built": 0.3,
+   "vacancy": 0,
+   "density": 1000
+  },
+  {
+   "year": 1965,
+   "built": 3,
+   "vacancy": 0,
+   "density": 16700
+  },
+  {
+   "year": 1975,
+   "built": 8,
+   "vacancy": 0,
+   "density": 12500
+  },
+  {
+   "year": 1980,
+   "built": 12,
+   "vacancy": 0.02,
+   "density": 11700
+  },
+  {
+   "year": 1990,
+   "built": 20,
+   "vacancy": 0.05,
+   "density": 8500
+  },
+  {
+   "year": 1998,
+   "built": 28,
+   "vacancy": 0.1,
+   "density": 6800
+  },
+  {
+   "year": 2005,
+   "built": 35,
+   "vacancy": 0.2,
+   "density": 6000
+  },
+  {
+   "year": 2010,
+   "built": 40,
+   "vacancy": 0.25,
+   "density": 5800
+  },
+  {
+   "year": 2015,
+   "built": 45,
+   "vacancy": 0.3,
+   "density": 5300
+  },
+  {
+   "year": 2020,
+   "built": 50,
+   "vacancy": 0.35,
+   "density": 5000
+  },
+  {
+   "year": 2024,
+   "built": 55,
+   "vacancy": 0.4,
+   "density": 4700
+  }
+ ],
+ "space": {
+  "built_up_area_km2": 55,
+  "current_pop": 260000,
+  "peak_pop": 438000,
+  "vacancy_rate": 0.4,
+  "landmark": "金川公园",
+  "special": "中国镍都，戈壁中的工业城市，紫金花海闻名河西"
+ },
+ "migration": {
+  "destinations": [
+   {
+    "name": "兰州市",
+    "lat": 36.06,
+    "lng": 103.83,
+    "flow": 80000,
+    "reason": "省会经济圈虹吸"
+   },
+   {
+    "name": "西安市",
+    "lat": 34.34,
+    "lng": 108.94,
+    "flow": 30000,
+    "reason": "西北中心城市"
+   },
+   {
+    "name": "乌鲁木齐市",
+    "lat": 43.82,
+    "lng": 87.61,
+    "flow": 15000,
+    "reason": "援疆与就业"
+   },
+   {
+    "name": "北京市",
+    "lat": 39.9,
+    "lng": 116.4,
+    "flow": 12000,
+    "reason": "首都机会"
+   },
+   {
+    "name": "成都市",
+    "lat": 30.57,
+    "lng": 104.07,
+    "flow": 10000,
+    "reason": "西南中心城市"
+   }
+  ],
+  "outflow_total": 147000,
+  "inflow_total": 45000,
+  "net_flow": -102000
+ },
+ "achievements": [
+  {
+   "id": "jinchang_first_visit",
+   "name": "镍都往事",
+   "desc": "首次进入金昌，见证中国镍都的兴衰",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "jinchang_peak",
+   "name": "镍海巅峰",
+   "desc": "见证金昌镍产量突破13万吨的辉煌年代",
+   "condition": "year",
+   "year": 1998
+  },
+  {
+   "id": "jinchang_deep",
+   "name": "深部开采",
+   "desc": "目睹金川矿山进入1000米深部开采",
+   "condition": "year",
+   "year": 2005
+  },
+  {
+   "id": "jinchang_rebirth",
+   "name": "镍钴转身",
+   "desc": "见证金昌从镍都到镍钴新材料之都的转型",
+   "condition": "year",
+   "year": 2024
+  },
+  {
+   "id": "jinchang_chain",
+   "name": "新材料拼图大师",
+   "desc": "完成金昌镍钴新材料产业链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": [
+  {
+   "desc": "2023 GDP 567.73亿元, 常住43.20万, 城镇化79.83%",
+   "url": "2023年金昌市国民经济和社会发展统计公报",
+   "year": 2023
+  }
+ ],
+ "real_anchors": {
+  "census2020": {
+   "pop": 438000
+  },
+  "stat2023": {
+   "gdp": 567.73,
+   "pop": 432000
+  }
+ }
+}

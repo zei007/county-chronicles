@@ -1,0 +1,710 @@
+{
+ "profile": {
+  "name": "平果市",
+  "province": "广西壮族自治区",
+  "prefecture": "县级市",
+  "area": "2,485 km²",
+  "coordinates": [
+   107.58,
+   23.32
+  ],
+  "tags": [
+   "南国铝都",
+   "铝土之乡",
+   "右江走廊",
+   "铝电联营"
+  ],
+  "description": "右江中游的铝业新城，因铝而兴、因铝设市。平果铝土矿储量丰富、品位高，是中国铝工业“西移南拓”战略的核心支点，正从氧化铝输出地向铝精深加工与再生铝基地升级。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 1956,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "起家期",
+    "start": 1956,
+    "end": 1985,
+    "color": "green"
+   },
+   {
+    "name": "壮盛期",
+    "start": 1986,
+    "end": 2005,
+    "color": "yellow"
+   },
+   {
+    "name": "调整期",
+    "start": 2006,
+    "end": 2015,
+    "color": "red"
+   },
+   {
+    "name": "转型期",
+    "start": 2016,
+    "end": 2024,
+    "color": "teal"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "alumina",
+    "label": "氧化铝产量",
+    "unit": "万吨",
+    "max": 300,
+    "color": "#a8a29e"
+   },
+   {
+    "key": "aluminum",
+    "label": "电解铝产量",
+    "unit": "万吨",
+    "max": 80,
+    "color": "#0ea5e9"
+   }
+  ],
+  "spaceType": "built_up",
+  "spaceLabels": {
+   "built": "建成区",
+   "density": "人口密度"
+  },
+  "cityKey": "pingguo",
+  "chainKeys": [
+   "alumina",
+   "aluminum"
+  ],
+  "chainContainerIds": [
+   "aluminaChain",
+   "aluminumChain"
+  ],
+  "currentStatus": "南国铝都，铝电联营",
+  "transformationAssessment": "从氧化铝基地到铝精深加工与再生铝循环经济示范区",
+  "transformationDetail": "平果铝土矿储量大、品位高、易开采。依托百色水利枢纽水电优势，平果铝业形成“铝土矿—氧化铝—电解铝—铝加工”完整产业链，正向汽车轻量化、电子铝箔、再生铝延伸。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 1956,
+   "title": "平果铝土矿发现",
+   "category": "discovery",
+   "desc": "地质勘探确认平果蕴藏着中国最具开发价值的大型铝土矿床",
+   "impact": 10,
+   "pop": 220000,
+   "alumina": 0,
+   "aluminum": 0,
+   "gdp": 0.03,
+   "event": true
+  },
+  {
+   "year": 1975,
+   "title": "矿区勘探详查完成",
+   "category": "peak",
+   "desc": "平果铝矿田累计探明储量达数亿吨，为国家建设提供资源保障",
+   "impact": 6,
+   "pop": 280000,
+   "alumina": 0,
+   "aluminum": 0,
+   "gdp": 0.2,
+   "event": false
+  },
+  {
+   "year": 1986,
+   "title": "平果铝业公司筹建",
+   "category": "peak",
+   "desc": "中国有色金属工业总公司启动平果铝大型项目前期工作",
+   "impact": 8,
+   "pop": 360000,
+   "alumina": 0,
+   "aluminum": 0,
+   "gdp": 1,
+   "event": true
+  },
+  {
+   "year": 1991,
+   "title": "平果铝一期工程投产",
+   "category": "peak",
+   "desc": "年产30万吨氧化铝生产线投产，开启中国铝工业南移新篇章",
+   "impact": 9,
+   "pop": 420000,
+   "alumina": 30,
+   "aluminum": 0,
+   "gdp": 8,
+   "event": true
+  },
+  {
+   "year": 1994,
+   "title": "平果撤县设市",
+   "category": "peak",
+   "desc": "依托铝工业，平果县升格为县级市，成为桂西工业明珠",
+   "impact": 7,
+   "pop": 460000,
+   "alumina": 60,
+   "aluminum": 5,
+   "gdp": 25,
+   "event": true
+  },
+  {
+   "year": 2000,
+   "title": "氧化铝产量破百万吨",
+   "category": "peak",
+   "desc": "平果铝氧化铝产能突破百万吨，成为中国南方最大氧化铝基地",
+   "impact": 9,
+   "pop": 500000,
+   "alumina": 120,
+   "aluminum": 15,
+   "gdp": 80,
+   "event": true
+  },
+  {
+   "year": 2003,
+   "title": "电解铝项目投产",
+   "category": "peak",
+   "desc": "电解铝产能投产，平果实现氧化铝到电解铝一体化跨越",
+   "impact": 8,
+   "pop": 510000,
+   "alumina": 150,
+   "aluminum": 25,
+   "gdp": 120,
+   "event": true
+  },
+  {
+   "year": 2008,
+   "title": "金融危机铝价暴跌",
+   "category": "decline",
+   "desc": "全球铝价腰斩，出口受阻，平果铝业利润大幅下滑",
+   "impact": 8,
+   "pop": 520000,
+   "alumina": 180,
+   "aluminum": 30,
+   "gdp": 160,
+   "event": true
+  },
+  {
+   "year": 2011,
+   "title": "铝深加工园区启动",
+   "category": "transformation",
+   "desc": "平果工业区引进铝板带箔、铝合金型材等深加工项目",
+   "impact": 8,
+   "pop": 530000,
+   "alumina": 200,
+   "aluminum": 35,
+   "gdp": 220,
+   "event": true
+  },
+  {
+   "year": 2015,
+   "title": "煤电铝一体化",
+   "category": "transformation",
+   "desc": "依托广西电力优势推进煤电铝联营，降低电解铝成本",
+   "impact": 7,
+   "pop": 540000,
+   "alumina": 220,
+   "aluminum": 40,
+   "gdp": 280,
+   "event": false
+  },
+  {
+   "year": 2017,
+   "title": "平果撤县设市",
+   "category": "transformation",
+   "desc": "平果正式由县改市，城市能级与公共服务提升",
+   "impact": 7,
+   "pop": 550000,
+   "alumina": 240,
+   "aluminum": 45,
+   "gdp": 350,
+   "event": true
+  },
+  {
+   "year": 2020,
+   "title": "再生铝产业起步",
+   "category": "transformation",
+   "desc": "废铝回收、再生铝项目落地，循环经济成为新增长点",
+   "impact": 8,
+   "pop": 560000,
+   "alumina": 260,
+   "aluminum": 50,
+   "gdp": 420,
+   "event": true
+  },
+  {
+   "year": 2022,
+   "title": "2022年统计锚点",
+   "category": "transformation",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 455600,
+   "gdp": 314.11,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2023,
+   "title": "2023年统计锚点",
+   "category": "peak",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 450100,
+   "gdp": 336.71,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2024,
+   "title": "高端铝材基地",
+   "category": "transformation",
+   "desc": "汽车轻量化、电子铝箔、光伏边框等高端铝材产能扩张",
+   "impact": 9,
+   "pop": 580000,
+   "alumina": 280,
+   "aluminum": 60,
+   "gdp": 520,
+   "event": true
+  }
+ ],
+ "chains": {
+  "alumina": {
+   "name": "氧化铝产业链",
+   "color": "#a8a29e",
+   "icon": "🪨",
+   "lifecycle": {
+    "birth": 1991,
+    "peak": 2011,
+    "decline": null,
+    "collapse": null,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "bauxite",
+     "name": "铝土矿开采",
+     "x": 50,
+     "y": 50,
+     "status": "active",
+     "peak": "1990s-至今",
+     "decline": null
+    },
+    {
+     "id": "crush",
+     "name": "破碎磨矿",
+     "x": 150,
+     "y": 50,
+     "status": "active",
+     "peak": "1990s-至今",
+     "decline": null
+    },
+    {
+     "id": "bayer",
+     "name": "拜耳法溶出",
+     "x": 250,
+     "y": 50,
+     "status": "active",
+     "peak": "2000s",
+     "decline": null
+    },
+    {
+     "id": "calcine",
+     "name": "焙烧",
+     "x": 350,
+     "y": 50,
+     "status": "active",
+     "peak": "2000s",
+     "decline": null
+    },
+    {
+     "id": "sales",
+     "name": "氧化铝销售",
+     "x": 450,
+     "y": 50,
+     "status": "active",
+     "peak": "2000s",
+     "decline": null
+    },
+    {
+     "id": "smelter",
+     "name": "供应电解铝",
+     "x": 550,
+     "y": 50,
+     "status": "active",
+     "peak": "2010s",
+     "decline": null
+    }
+   ],
+   "connections": [
+    {
+     "from": "bauxite",
+     "to": "crush",
+     "flow": "铝土矿"
+    },
+    {
+     "from": "crush",
+     "to": "bayer",
+     "flow": "矿浆"
+    },
+    {
+     "from": "bayer",
+     "to": "calcine",
+     "flow": "氢氧化铝"
+    },
+    {
+     "from": "calcine",
+     "to": "sales",
+     "flow": "氧化铝"
+    },
+    {
+     "from": "calcine",
+     "to": "smelter",
+     "flow": "氧化铝"
+    }
+   ],
+   "employment": {
+    "peak": 30000,
+    "current": 30000
+   }
+  },
+  "aluminum": {
+   "name": "电解铝及加工产业链",
+   "color": "#0ea5e9",
+   "icon": "🥫",
+   "lifecycle": {
+    "birth": 2003,
+    "peak": 2024,
+    "decline": null,
+    "collapse": null,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "smelt",
+     "name": "电解铝",
+     "x": 50,
+     "y": 200,
+     "status": "active",
+     "peak": "2010s",
+     "decline": null
+    },
+    {
+     "id": "casting",
+     "name": "铸轧",
+     "x": 150,
+     "y": 200,
+     "status": "active",
+     "peak": "2010s",
+     "decline": null
+    },
+    {
+     "id": "sheet",
+     "name": "铝板带箔",
+     "x": 250,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "profile",
+     "name": "铝型材",
+     "x": 350,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "auto",
+     "name": "汽车轻量化",
+     "x": 450,
+     "y": 200,
+     "status": "emerging",
+     "peak": "2030s",
+     "decline": null
+    },
+    {
+     "id": "recycle",
+     "name": "再生铝",
+     "x": 550,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    }
+   ],
+   "connections": [
+    {
+     "from": "smelt",
+     "to": "casting",
+     "flow": "铝液"
+    },
+    {
+     "from": "casting",
+     "to": "sheet",
+     "flow": "铝坯"
+    },
+    {
+     "from": "casting",
+     "to": "profile",
+     "flow": "铝棒"
+    },
+    {
+     "from": "sheet",
+     "to": "auto",
+     "flow": "车用铝板"
+    },
+    {
+     "from": "recycle",
+     "to": "casting",
+     "flow": "再生铝液"
+    }
+   ],
+   "employment": {
+    "peak": 40000,
+    "current": 50000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "price",
+    "name": "铝价周期性波动",
+    "weight": 25,
+    "evidence": "2008年金融危机与2015年铝价低谷导致利润大幅下滑",
+    "icon": "📉",
+    "selected": false
+   },
+   {
+    "id": "power",
+    "name": "电力成本压力",
+    "weight": 25,
+    "evidence": "电解铝是高耗电产业，电价波动直接影响竞争力",
+    "icon": "⚡",
+    "selected": false
+   },
+   {
+    "id": "structure",
+    "name": "产业链偏前端",
+    "weight": 20,
+    "evidence": "长期以氧化铝和初级铝材为主，高附加值加工不足",
+    "icon": "🏭",
+    "selected": false
+   },
+   {
+    "id": "environment",
+    "name": "赤泥与生态约束",
+    "weight": 20,
+    "evidence": "氧化铝生产产生大量赤泥堆存，环保压力持续加大",
+    "icon": "🌱",
+    "selected": false
+   },
+   {
+    "id": "transport",
+    "name": "物流成本偏高",
+    "weight": 10,
+    "evidence": "地处西南山区，产品外运距离长、物流成本高于沿海",
+    "icon": "🚚",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "resource",
+    "name": "优质铝土矿资源",
+    "weight": 30,
+    "evidence": "平果铝土矿储量大、品位高、开采条件好",
+    "icon": "🪨",
+    "selected": false
+   },
+   {
+    "id": "power",
+    "name": "水电铝联营优势",
+    "weight": 25,
+    "evidence": "依托红水河水电与煤电，电力成本相对可控",
+    "icon": "💧",
+    "selected": false
+   },
+   {
+    "id": "policy",
+    "name": "西部大开发战略",
+    "weight": 15,
+    "evidence": "广西铝产业示范基地、沿边临港产业园政策支持",
+    "icon": "📜",
+    "selected": false
+   },
+   {
+    "id": "downstream",
+    "name": "铝精深加工延伸",
+    "weight": 15,
+    "evidence": "汽车、电子、光伏用高端铝材需求快速增长",
+    "icon": "🔧",
+    "selected": false
+   },
+   {
+    "id": "recycle",
+    "name": "再生铝循环经济",
+    "weight": 15,
+    "evidence": "废铝回收体系完善，再生铝成为降碳新路径",
+    "icon": "♻️",
+    "selected": false
+   }
+  ]
+ },
+ "space_timeline": [
+  {
+   "year": 1956,
+   "old_area": 2,
+   "new_area": 0,
+   "old_pop": 220000,
+   "vacancy": 0
+  },
+  {
+   "year": 1991,
+   "old_area": 8,
+   "new_area": 0,
+   "old_pop": 420000,
+   "vacancy": 0
+  },
+  {
+   "year": 2000,
+   "old_area": 18,
+   "new_area": 0,
+   "old_pop": 500000,
+   "vacancy": 0.05
+  },
+  {
+   "year": 2011,
+   "old_area": 28,
+   "new_area": 0,
+   "old_pop": 530000,
+   "vacancy": 0.08
+  },
+  {
+   "year": 2017,
+   "old_area": 35,
+   "new_area": 0,
+   "old_pop": 550000,
+   "vacancy": 0.1
+  },
+  {
+   "year": 2024,
+   "old_area": 48,
+   "new_area": 0,
+   "old_pop": 580000,
+   "vacancy": 0.12
+  }
+ ],
+ "space": {
+  "old_city": {
+   "name": "平果老城区",
+   "peak_pop": 580000,
+   "current_pop": 580000,
+   "vacancy": 0.12,
+   "landmark": "平果铝业公司"
+  },
+  "new_city": {
+   "name": "平果工业区",
+   "peak_pop": 0,
+   "current_pop": 120000,
+   "landmark": "铝精深加工产业园"
+  },
+  "distance_km": 8,
+  "built_up_area_km2": 48,
+  "current_pop": 580000,
+  "peak_pop": 580000,
+  "vacancy_rate": 0.12
+ },
+ "migration": {
+  "outflow_total": 90000,
+  "destinations": [
+   {
+    "city": "南宁",
+    "province": "广西",
+    "count": 30000,
+    "reason": "首府就业与教育"
+   },
+   {
+    "city": "柳州",
+    "province": "广西",
+    "count": 20000,
+    "reason": "工业城市就业"
+   },
+   {
+    "city": "广州",
+    "province": "广东",
+    "count": 20000,
+    "reason": "珠三角务工"
+   },
+   {
+    "city": "深圳",
+    "province": "广东",
+    "count": 12000,
+    "reason": "沿海城市就业"
+   },
+   {
+    "city": "其他地区",
+    "province": "全国",
+    "count": 8000,
+    "reason": "务工与经商"
+   }
+  ]
+ },
+ "achievements": [
+  {
+   "id": "pingguo_first_visit",
+   "name": "南国铝都初探",
+   "desc": "首次进入平果",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "pingguo_discovery",
+   "name": "铝土矿发现",
+   "desc": "见证1956年平果铝土矿发现",
+   "condition": "year",
+   "year": 1956
+  },
+  {
+   "id": "pingguo_alumina",
+   "name": "氧化铝启航",
+   "desc": "见证1991年平果铝一期工程投产",
+   "condition": "year",
+   "year": 1991
+  },
+  {
+   "id": "pingguo_city",
+   "name": "因铝设市",
+   "desc": "见证1994年平果撤县设市",
+   "condition": "year",
+   "year": 1994
+  },
+  {
+   "id": "pingguo_high_end",
+   "name": "高端铝材",
+   "desc": "见证2024年高端铝材基地建设",
+   "condition": "year",
+   "year": 2024
+  },
+  {
+   "id": "pingguo_chain",
+   "name": "铝业拼图大师",
+   "desc": "完成平果氧化铝-电解铝产业链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": [
+  {
+   "desc": "2024 GDP 336.71亿; ",
+   "url": "http://www.etmoc.com/look/Statslisth?Id=9427",
+   "year": 2023
+  }
+ ],
+ "real_anchors": {
+  "census2020": {
+   "pop": 455600
+  },
+  "stat2023": {
+   "gdp": 336.71,
+   "pop": 450100
+  }
+ }
+}

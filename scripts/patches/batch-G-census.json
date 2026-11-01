@@ -1,0 +1,55 @@
+{
+  "_meta": "batch-G（v1.2）— 七普（2020年第七次全国人口普查）常住人口逐城复核补全。仅写入 real_anchors.census2020 与 sources 标注；不注入 GDP 锚点。采集于 2026-11-01，来源为各省市统计公报原文或公报镜像库（tjgb.hongheiku.com / zgrkk.com / 省统计局官网）。",
+  "confirmed": {
+    "pingxiang": {
+      "census2020_pop": 1804800,
+      "gdp_note": "七普常住人口180.48万（2020-11-01，萍乡市第七次全国人口普查公报）",
+      "sources": ["http://jx.people.com.cn/BIG5/n2/2021/0511/c190260-34719321.html"]
+    },
+    "tongling": {
+      "census2020_pop": 1312000,
+      "gdp_note": "七普常住人口131.2万（2020-11-01，铜陵市政府官网七普公报解读，四舍五入口径）",
+      "sources": ["https://www.tl.gov.cn/openness/OpennessContent/show/115294.html"]
+    },
+    "huludao": {
+      "census2020_pop": 2434194,
+      "gdp_note": "七普常住人口2434194人（2020-11-01，辽宁省第七次全国人口普查公报·第二号）",
+      "sources": ["https://tjj.ln.gov.cn/tjj/tjsj/tjgb/rkpcgb/2023110818030081821/index.shtml"]
+    },
+    "jiaozuo": {
+      "census2020_pop": 3521008,
+      "gdp_note": "七普常住人口3521008人（2020-11-01，焦作市第七次全国人口普查公报）",
+      "sources": ["https://tjgb.hongheiku.com/11477.html"]
+    },
+    "hebi": {
+      "census2020_pop": 1565973,
+      "gdp_note": "七普常住人口1565973人（2020-11-01，鹤壁市第七次全国人口普查公报）",
+      "sources": ["https://tjgb.hongheiku.com/11210.html"]
+    },
+    "qitaihe": {
+      "census2020_pop": 689611,
+      "gdp_note": "七普常住人口689611人（2020-11-01，黑龙江省第七次全国人口普查公报/七台河市统计局）",
+      "sources": ["https://www.hlj.gov.cn/hlj/c108419/202105/c00_31186898.shtml"]
+    },
+    "shuangyashan": {
+      "census2020_pop": 1208803,
+      "gdp_note": "七普常住人口约120.88万（2020-11-01，双鸭山市第七次全国人口普查主要数据公报，家庭户1120186+集体户88617）",
+      "sources": ["https://zgrkk.com/reports/16526.html"]
+    },
+    "lianyuan": {
+      "census2020_pop": 930515,
+      "gdp_note": "七普常住人口约93.05万（2020-11-01，湖南省第七次全国人口普查公报·第五号；精确值取自红黑统计公报库整理）",
+      "sources": ["https://tjj.hunan.gov.cn/hntj/tjfx/tjgb/pcgbv/202105/t20210519_19069459.html"]
+    },
+    "xinyu": {
+      "census2020_pop": 1202199,
+      "gdp_note": "七普常住人口约120.22万（2020-11-01，江西省第七次全国人口普查公报；精确值与既有人口序列交叉一致）",
+      "sources": ["http://jx.people.com.cn/BIG5/n2/2021/0511/c190260-34719321.html"]
+    },
+    "huainan": {
+      "census2020_pop": 3033528,
+      "gdp_note": "七普常住人口3033528人（2020-11-01，淮南市第七次全国人口普查公报·第一号，较六普减少9.23%）",
+      "sources": ["https://tjj.huainan.gov.cn/tjsj/tjgb/551571618.html"]
+    }
+  }
+}

@@ -1,0 +1,806 @@
+{
+ "profile": {
+  "name": "阜新市",
+  "province": "辽宁省",
+  "prefecture": "省辖地级市",
+  "area": "10,445 km²",
+  "coordinates": [
+   121.67,
+   42.02
+  ],
+  "tags": [
+   "百年煤城",
+   "玛瑙之都",
+   "首个转型试点",
+   "亚洲最大露天矿"
+  ],
+  "description": "中国首个被国务院认定的资源枯竭型城市经济转型试点市（2001年）。因煤而建，因煤而兴，海州露天矿曾为亚洲最大露天煤矿。2005年闭矿后，从'城市伤疤'蜕变为国家矿山公园，玛瑙产业和清洁能源成为新名片。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 1896,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "起家期",
+    "start": 1896,
+    "end": 1952,
+    "color": "green"
+   },
+   {
+    "name": "壮盛期",
+    "start": 1953,
+    "end": 2000,
+    "color": "yellow"
+   },
+   {
+    "name": "转型期",
+    "start": 2001,
+    "end": 2024,
+    "color": "purple"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "coal",
+    "label": "煤炭产量",
+    "unit": "万吨",
+    "max": 2000,
+    "color": "#1a1a2e"
+   }
+  ],
+  "spaceType": "built_up",
+  "spaceLabels": {
+   "built": "建成区",
+   "density": "人口密度"
+  },
+  "cityKey": "fuxin",
+  "chainKeys": [
+   "coal",
+   "replacement"
+  ],
+  "chainContainerIds": [
+   "coalChain",
+   "replacementChain"
+  ],
+  "currentStatus": "首个转型试点，生态修复中",
+  "transformationAssessment": "从'煤海'到'绿海'的艰难转身",
+  "transformationDetail": "海州露天矿累计产煤2.4亿吨后于2005年闭矿，留下深350米的巨型矿坑。玛瑙产业年产值超10亿元，风电装机突破200万千瓦。但人口外流趋势尚未止住，转型仍在路上。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 1896,
+   "title": "煤田发现",
+   "category": "discovery",
+   "desc": "清政府在阜新发现优质煤层，开启百年煤炭开采史",
+   "impact": 10,
+   "pop": 8000,
+   "coal": 0,
+   "gdp": 0.01,
+   "event": true
+  },
+  {
+   "year": 1902,
+   "title": "海州矿始建",
+   "category": "discovery",
+   "desc": "英国人投资兴建海州煤矿，引入蒸汽机开采",
+   "impact": 7,
+   "pop": 12000,
+   "coal": 5,
+   "gdp": 0.03,
+   "event": false
+  },
+  {
+   "year": 1910,
+   "title": "铁路通车",
+   "category": "discovery",
+   "desc": "京奉铁路支线修至阜新，煤炭外运通道打通",
+   "impact": 6,
+   "pop": 20000,
+   "coal": 15,
+   "gdp": 0.08,
+   "event": false
+  },
+  {
+   "year": 1930,
+   "title": "日资掠夺",
+   "category": "discovery",
+   "desc": "日本侵占东北后，大肆掠夺阜新煤炭资源",
+   "impact": 8,
+   "pop": 50000,
+   "coal": 80,
+   "gdp": 0.5,
+   "event": true
+  },
+  {
+   "year": 1940,
+   "title": "伪满开发",
+   "category": "peak",
+   "desc": "伪满洲国时期，阜新成为'东亚煤都'，年产突破200万吨",
+   "impact": 7,
+   "pop": 150000,
+   "coal": 250,
+   "gdp": 1.5,
+   "event": false
+  },
+  {
+   "year": 1949,
+   "title": "新中国接管",
+   "category": "peak",
+   "desc": "阜新煤矿成为国家重点工业基地，支援全国建设",
+   "impact": 8,
+   "pop": 200000,
+   "coal": 300,
+   "gdp": 2,
+   "event": true
+  },
+  {
+   "year": 1953,
+   "title": "海州露天矿投产",
+   "category": "peak",
+   "desc": "亚洲最大的海州露天煤矿正式投产，震惊世界",
+   "impact": 10,
+   "pop": 350000,
+   "coal": 600,
+   "gdp": 4,
+   "event": true
+  },
+  {
+   "year": 1954,
+   "title": "阜新矿务局成立",
+   "category": "peak",
+   "desc": "成立阜新矿务局，统管全市煤炭生产，城市规模急剧扩张",
+   "impact": 8,
+   "pop": 500000,
+   "coal": 800,
+   "gdp": 6,
+   "event": true
+  },
+  {
+   "year": 1960,
+   "title": "产量飙升",
+   "category": "peak",
+   "desc": "年产突破1500万吨，成为国家十大煤炭基地之一",
+   "impact": 8,
+   "pop": 800000,
+   "coal": 1500,
+   "gdp": 10,
+   "event": false
+  },
+  {
+   "year": 1970,
+   "title": "配套完善",
+   "category": "peak",
+   "desc": "矿工城配套建设，学校、医院、文化设施一应俱全，被誉为'东北小上海'",
+   "impact": 7,
+   "pop": 1200000,
+   "coal": 1800,
+   "gdp": 15,
+   "event": false
+  },
+  {
+   "year": 1980,
+   "title": "接近巅峰",
+   "category": "peak",
+   "desc": "年产接近2000万吨，累计产煤突破2亿吨，城市人口达180万",
+   "impact": 7,
+   "pop": 1800000,
+   "coal": 1900,
+   "gdp": 25,
+   "event": true
+  },
+  {
+   "year": 1985,
+   "title": "优质煤层枯竭",
+   "category": "decline",
+   "desc": "浅层优质煤层开采殆尽，开采成本大幅上升，产量开始下滑",
+   "impact": 8,
+   "pop": 1850000,
+   "coal": 1700,
+   "gdp": 30,
+   "event": false
+  },
+  {
+   "year": 1990,
+   "title": "亏损加剧",
+   "category": "decline",
+   "desc": "计划经济体制下，煤矿全面亏损，工人工资拖欠",
+   "impact": 7,
+   "pop": 1880000,
+   "coal": 1500,
+   "gdp": 35,
+   "event": false
+  },
+  {
+   "year": 1995,
+   "title": "下岗潮",
+   "category": "decline",
+   "desc": "国企改革大潮，阜新矿工大规模下岗，城市陷入困境",
+   "impact": 9,
+   "pop": 1850000,
+   "coal": 1200,
+   "gdp": 40,
+   "event": true
+  },
+  {
+   "year": 2001,
+   "title": "首个转型试点",
+   "category": "transformation",
+   "desc": "国务院将阜新确定为全国第一个资源枯竭型城市经济转型试点市，拉开转型序幕",
+   "impact": 10,
+   "pop": 1820000,
+   "coal": 900,
+   "gdp": 45,
+   "event": true
+  },
+  {
+   "year": 2002,
+   "title": "玛瑙产业萌芽",
+   "category": "transformation",
+   "desc": "依托丰富的玛瑙矿藏，开始发展玛瑙加工业，'中国玛瑙之都'雏形初现",
+   "impact": 6,
+   "pop": 1800000,
+   "coal": 800,
+   "gdp": 50,
+   "event": false
+  },
+  {
+   "year": 2005,
+   "title": "海州矿闭矿",
+   "category": "decline",
+   "desc": "累计产煤2.4亿吨的海州露天矿正式闭矿，留下深350米的巨型矿坑，成为'城市伤疤'",
+   "impact": 10,
+   "pop": 1780000,
+   "coal": 500,
+   "gdp": 55,
+   "event": true
+  },
+  {
+   "year": 2007,
+   "title": "海州矿公园立项",
+   "category": "transformation",
+   "desc": "海州露天矿国家矿山公园获批立项，矿坑生态修复工程启动",
+   "impact": 7,
+   "pop": 1760000,
+   "coal": 400,
+   "gdp": 60,
+   "event": false
+  },
+  {
+   "year": 2009,
+   "title": "矿山公园开园",
+   "category": "transformation",
+   "desc": "海州露天矿国家矿山公园正式开园，从'伤疤'变为'名片'，工业遗产旅游兴起",
+   "impact": 8,
+   "pop": 1750000,
+   "coal": 350,
+   "gdp": 80,
+   "event": true
+  },
+  {
+   "year": 2010,
+   "title": "风电兴起",
+   "category": "transformation",
+   "desc": "依托辽西北丰富风能资源，风电产业快速发展，装机突破100万千瓦",
+   "impact": 7,
+   "pop": 1740000,
+   "coal": 300,
+   "gdp": 100,
+   "event": false
+  },
+  {
+   "year": 2012,
+   "title": "玛瑙之都",
+   "category": "transformation",
+   "desc": "被中国珠宝玉石首饰行业协会命名为'中国玛瑙之都'，玛瑙产业年产值超10亿元",
+   "impact": 7,
+   "pop": 1730000,
+   "coal": 250,
+   "gdp": 130,
+   "event": true
+  },
+  {
+   "year": 2015,
+   "title": "转型深化",
+   "category": "transformation",
+   "desc": "煤化工、装备制造、农产品加工等接续产业初具规模，经济止跌回升",
+   "impact": 6,
+   "pop": 1800000,
+   "coal": 200,
+   "gdp": 170,
+   "event": false
+  },
+  {
+   "year": 2017,
+   "title": "风电装机翻倍",
+   "category": "transformation",
+   "desc": "风电装机容量突破200万千瓦，清洁能源占比大幅提升",
+   "impact": 6,
+   "pop": 1790000,
+   "coal": 180,
+   "gdp": 200,
+   "event": false
+  },
+  {
+   "year": 2020,
+   "title": "持续转型",
+   "category": "transformation",
+   "desc": "十四五规划将阜新定位为辽西北生态屏障和清洁能源基地",
+   "impact": 6,
+   "pop": 1647000,
+   "coal": 150,
+   "gdp": 530,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2022,
+   "title": "人口下降",
+   "category": "decline",
+   "desc": "常住人口约179万，较峰值流失约10万，老龄化率持续攀升",
+   "impact": 7,
+   "pop": 1790000,
+   "coal": 120,
+   "gdp": 300,
+   "event": false
+  },
+  {
+   "year": 2023,
+   "title": "2023年统计锚点",
+   "category": "peak",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 1620000,
+   "gdp": 602,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2024,
+   "title": "生态转型",
+   "category": "transformation",
+   "desc": "海州矿坑生态治理成效显著，矿山公园成为网红打卡地。玛瑙电商直播带动就业，转型仍在探索中",
+   "impact": 7,
+   "pop": 1780000,
+   "coal": 100,
+   "gdp": 350,
+   "event": true
+  }
+ ],
+ "chains": {
+  "coal": {
+   "name": "煤炭产业链",
+   "color": "#1a1a2e",
+   "icon": "⛏️",
+   "lifecycle": {
+    "birth": 1896,
+    "peak": 1980,
+    "decline": 1985,
+    "collapse": 2005,
+    "dead": 2024
+   },
+   "nodes": [
+    {
+     "id": "explore",
+     "name": "地质勘探",
+     "status": "dying",
+     "peak": "1950s",
+     "decline": "1990s"
+    },
+    {
+     "id": "opencast",
+     "name": "露天开采",
+     "status": "dying",
+     "peak": "1960s-1980s",
+     "decline": "2000s"
+    },
+    {
+     "id": "underground",
+     "name": "井工开采",
+     "status": "dying",
+     "peak": "1970s-1990s",
+     "decline": "2010s"
+    },
+    {
+     "id": "wash",
+     "name": "洗选加工",
+     "status": "dying",
+     "peak": "1980s-2000s",
+     "decline": "2010s"
+    },
+    {
+     "id": "transport",
+     "name": "铁路运输",
+     "status": "dying",
+     "peak": "1990s",
+     "decline": "2020s"
+    },
+    {
+     "id": "power",
+     "name": "火力发电",
+     "status": "dying",
+     "peak": "2000s",
+     "decline": "2020s"
+    }
+   ],
+   "connections": [
+    {
+     "from": "explore",
+     "to": "opencast",
+     "flow": "勘探数据"
+    },
+    {
+     "from": "explore",
+     "to": "underground",
+     "flow": "井田数据"
+    },
+    {
+     "from": "opencast",
+     "to": "wash",
+     "flow": "原煤"
+    },
+    {
+     "from": "underground",
+     "to": "wash",
+     "flow": "原煤"
+    },
+    {
+     "from": "wash",
+     "to": "transport",
+     "flow": "精煤"
+    },
+    {
+     "from": "wash",
+     "to": "power",
+     "flow": "动力煤"
+    }
+   ],
+   "employment": {
+    "peak": 120000,
+    "current": 5000
+   }
+  },
+  "replacement": {
+   "name": "接续产业（玛瑙·风电·生态旅游）",
+   "color": "#2ecc71",
+   "icon": "🔄",
+   "lifecycle": {
+    "birth": 2002,
+    "growth": 2009,
+    "peak": null
+   },
+   "nodes": [
+    {
+     "id": "agate",
+     "name": "玛瑙开采加工",
+     "status": "emerging",
+     "peak": "2010s-今"
+    },
+    {
+     "id": "ecommerce",
+     "name": "玛瑙电商直播",
+     "status": "emerging",
+     "peak": "2020s"
+    },
+    {
+     "id": "wind",
+     "name": "风力发电",
+     "status": "emerging",
+     "peak": "未来"
+    },
+    {
+     "id": "solar",
+     "name": "光伏发电",
+     "status": "emerging",
+     "peak": "未来"
+    },
+    {
+     "id": "park",
+     "name": "矿山公园旅游",
+     "status": "emerging",
+     "peak": "未来"
+    },
+    {
+     "id": "healing",
+     "name": "矿坑生态修复",
+     "status": "emerging",
+     "peak": "未来"
+    }
+   ],
+   "connections": [
+    {
+     "from": "agate",
+     "to": "ecommerce",
+     "flow": "销售升级"
+    },
+    {
+     "from": "wind",
+     "to": "solar",
+     "flow": "清洁能源互补"
+    },
+    {
+     "from": "park",
+     "to": "healing",
+     "flow": "生态文旅融合"
+    }
+   ],
+   "employment": {
+    "peak": null,
+    "current": 35000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "resource",
+    "name": "煤炭枯竭",
+    "weight": 35,
+    "evidence": "海州露天矿累计产煤2.4亿吨后于2005年闭矿，浅层优质煤层耗尽",
+    "icon": "⛏️",
+    "selected": false
+   },
+   {
+    "id": "single",
+    "name": "产业结构单一",
+    "weight": 25,
+    "evidence": "煤炭工业长期占全市工业比重50%以上，接续产业培育缓慢",
+    "icon": "🏭",
+    "selected": false
+   },
+   {
+    "id": "policy",
+    "name": "国企改制冲击",
+    "weight": 15,
+    "evidence": "1990年代大规模下岗，矿工家庭陷入困境，社会信心受挫",
+    "icon": "📜",
+    "selected": false
+   },
+   {
+    "id": "environment",
+    "name": "生态破坏",
+    "weight": 10,
+    "evidence": "百年开采留下大量矸石山和塌陷区，海州矿坑深350米",
+    "icon": "🌫️",
+    "selected": false
+   },
+   {
+    "id": "location",
+    "name": "区位边缘化",
+    "weight": 10,
+    "evidence": "地处辽西北，远离沈阳经济圈，物流成本高，人才吸引力弱",
+    "icon": "🚂",
+    "selected": false
+   },
+   {
+    "id": "aging",
+    "name": "人口外流+老龄化",
+    "weight": 5,
+    "evidence": "年轻劳动力外流至沈阳、大连、北京，城市活力下降",
+    "icon": "👴",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "agate",
+    "name": "玛瑙资源禀赋",
+    "weight": 25,
+    "evidence": "中国玛瑙储量最大、品种最全的产地，'中国玛瑙之都'品牌效应",
+    "icon": "💎",
+    "selected": false
+   },
+   {
+    "id": "wind",
+    "name": "清洁能源基地",
+    "weight": 25,
+    "evidence": "辽西北风能资源丰富，风电装机突破200万千瓦",
+    "icon": "💨",
+    "selected": false
+   },
+   {
+    "id": "park",
+    "name": "工业遗产旅游",
+    "weight": 20,
+    "evidence": "海州露天矿国家矿山公园，全国首批国家矿山公园",
+    "icon": "🏞️",
+    "selected": false
+   },
+   {
+    "id": "policy",
+    "name": "转型政策先行",
+    "weight": 20,
+    "evidence": "全国首个转型试点市，持续获得中央专项资金支持",
+    "icon": "💰",
+    "selected": false
+   },
+   {
+    "id": "ecology",
+    "name": "生态修复",
+    "weight": 10,
+    "evidence": "三北防护林重点建设区，科尔沁沙地南侵'挡沙墙'",
+    "icon": "🌲",
+    "selected": false
+   }
+  ]
+ },
+ "space_timeline": [
+  {
+   "year": 1896,
+   "built": 0.3,
+   "vacancy": 0,
+   "density": 1500
+  },
+  {
+   "year": 1930,
+   "built": 3,
+   "vacancy": 0,
+   "density": 16000
+  },
+  {
+   "year": 1950,
+   "built": 8,
+   "vacancy": 0,
+   "density": 43000
+  },
+  {
+   "year": 1965,
+   "built": 20,
+   "vacancy": 0,
+   "density": 42000
+  },
+  {
+   "year": 1980,
+   "built": 45,
+   "vacancy": 0.02,
+   "density": 40000
+  },
+  {
+   "year": 1990,
+   "built": 55,
+   "vacancy": 0.1,
+   "density": 34000
+  },
+  {
+   "year": 2000,
+   "built": 60,
+   "vacancy": 0.2,
+   "density": 30000
+  },
+  {
+   "year": 2005,
+   "built": 62,
+   "vacancy": 0.3,
+   "density": 28000
+  },
+  {
+   "year": 2010,
+   "built": 65,
+   "vacancy": 0.35,
+   "density": 26000
+  },
+  {
+   "year": 2015,
+   "built": 68,
+   "vacancy": 0.4,
+   "density": 25000
+  },
+  {
+   "year": 2020,
+   "built": 70,
+   "vacancy": 0.45,
+   "density": 24000
+  },
+  {
+   "year": 2024,
+   "built": 72,
+   "vacancy": 0.5,
+   "density": 23500
+  }
+ ],
+ "space": {
+  "built_up_area_km2": 72,
+  "current_pop": 1780000,
+  "peak_pop": 1880000,
+  "vacancy_rate": 0.5,
+  "landmark": "海州露天矿国家矿山公园",
+  "special": "亚洲最大露天煤矿遗址，矿坑深350米"
+ },
+ "migration": {
+  "destinations": [
+   {
+    "name": "沈阳市",
+    "lat": 41.8,
+    "lng": 123.4,
+    "flow": 350000,
+    "reason": "省会经济圈虹吸"
+   },
+   {
+    "name": "大连市",
+    "lat": 38.9,
+    "lng": 121.6,
+    "flow": 120000,
+    "reason": "港口城市就业"
+   },
+   {
+    "name": "北京市",
+    "lat": 39.9,
+    "lng": 116.4,
+    "flow": 80000,
+    "reason": "首都机会"
+   },
+   {
+    "name": "锦州市",
+    "lat": 41.1,
+    "lng": 121.1,
+    "flow": 50000,
+    "reason": "辽西中心城市"
+   },
+   {
+    "name": "天津市",
+    "lat": 39.1,
+    "lng": 117.2,
+    "flow": 40000,
+    "reason": "渤海经济圈"
+   }
+  ],
+  "outflow_total": 640000,
+  "inflow_total": 120000,
+  "net_flow": -520000
+ },
+ "achievements": [
+  {
+   "id": "fuxin_first_visit",
+   "name": "辽西往事",
+   "desc": "首次进入阜新，见证百年煤城的兴衰",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "fuxin_peak",
+   "name": "煤海巅峰",
+   "desc": "见证阜新煤炭产量接近2000万吨的辉煌年代",
+   "condition": "year",
+   "year": 1980
+  },
+  {
+   "id": "fuxin_mine_close",
+   "name": "矿坑之殇",
+   "desc": "目睹海州露天矿闭矿，城市伤疤的形成",
+   "condition": "year",
+   "year": 2005
+  },
+  {
+   "id": "fuxin_rebirth",
+   "name": "绿色转身",
+   "desc": "见证阜新从煤海到绿海的艰难转型",
+   "condition": "year",
+   "year": 2024
+  },
+  {
+   "id": "fuxin_chain",
+   "name": "玛瑙拼图大师",
+   "desc": "完成阜新玛瑙产业链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": [
+  {
+   "desc": "2023 GDP 602.0亿元(+4.6%); 户籍176.7万; 七普常住约164.7万",
+   "url": "https://www.fuxin.gov.cn/khcs/file/2024-06-14/17183439300074028e4928e7a358a54701901547909736ef.pdf",
+   "year": 2023
+  }
+ ],
+ "real_anchors": {
+  "census2020": {
+   "pop": 1647000
+  },
+  "stat2023": {
+   "gdp": 602,
+   "pop": 1620000
+  }
+ }
+}

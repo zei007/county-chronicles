@@ -1,0 +1,618 @@
+{
+ "profile": {
+  "name": "淮北市",
+  "province": "安徽省",
+  "prefecture": "地级市",
+  "area": "2,741 km²",
+  "coordinates": [
+   116.8,
+   33.97
+  ],
+  "tags": [
+   "皖北煤都",
+   "运河故里",
+   "采煤沉陷治理",
+   "口子酒乡"
+  ],
+  "description": "华东地区重要的煤炭基地，1958 年大规模开发淮北煤田，因煤建市。长期高强度开采留下大面积采煤沉陷区，2011 年列入第三批资源枯竭城市，如今以沉陷湖治理、陶铝新材料与食品产业重塑城市。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 1958,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "起步期",
+    "start": 1958,
+    "end": 1977,
+    "color": "green"
+   },
+   {
+    "name": "壮盛期",
+    "start": 1978,
+    "end": 2010,
+    "color": "yellow"
+   },
+   {
+    "name": "衰落期",
+    "start": 2011,
+    "end": 2018,
+    "color": "red"
+   },
+   {
+    "name": "转型期",
+    "start": 2019,
+    "end": 2024,
+    "color": "teal"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "coal",
+    "label": "煤炭产量",
+    "unit": "万吨",
+    "max": 3200,
+    "color": "#1a1a2e"
+   },
+   {
+    "key": "noncoal",
+    "label": "非煤产业产值",
+    "unit": "亿元",
+    "max": 700,
+    "color": "#22c55e"
+   }
+  ],
+  "spaceType": "built_up",
+  "spaceLabels": {
+   "built": "建成区",
+   "density": "人口密度"
+  },
+  "cityKey": "huaibei",
+  "chainKeys": [
+   "coal",
+   "noncoal"
+  ],
+  "chainContainerIds": [
+   "coalChain",
+   "noncoalChain"
+  ],
+  "currentStatus": "资源枯竭转型试点城市",
+  "transformationAssessment": "从黑色煤都到绿水青山城市样本",
+  "transformationDetail": "淮北矿区累计产煤超 10 亿吨，支撑华东工业超过半个世纪。采煤留下约 20 万亩沉陷地，城市把沉陷坑改造成绿金湖、南湖等湿地公园，入选全国矿业遗迹治理典范；陶铝新材料、煤化工与白酒食品构成新支柱。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 1958,
+   "title": "淮北煤田大会战",
+   "category": "discovery",
+   "desc": "国家集中力量开发濉萧煤田，数万建设者进驻荒滩建矿",
+   "impact": 10,
+   "event": true,
+   "pop": 220000,
+   "coal": 60,
+   "noncoal": 0.2,
+   "gdp": 0.8
+  },
+  {
+   "year": 1960,
+   "title": "设立濉溪市",
+   "category": "peak",
+   "desc": "因煤设市（1971 年更名淮北市），华东能源基地地位确立",
+   "impact": 9,
+   "event": true,
+   "pop": 420000,
+   "coal": 300,
+   "noncoal": 1,
+   "gdp": 2
+  },
+  {
+   "year": 1976,
+   "title": "百对矿井格局",
+   "category": "peak",
+   "desc": "统配矿与地方矿并举，产量迈上千万吨台阶",
+   "impact": 8,
+   "event": true,
+   "pop": 900000,
+   "coal": 1000,
+   "noncoal": 5,
+   "gdp": 6
+  },
+  {
+   "year": 1998,
+   "title": "亚洲最大选煤厂",
+   "category": "peak",
+   "desc": "临涣选煤厂等配套建成，煤电产业链完备",
+   "impact": 7,
+   "event": true,
+   "pop": 1800000,
+   "coal": 2000,
+   "noncoal": 40,
+   "gdp": 88
+  },
+  {
+   "year": 2009,
+   "title": "沉陷区治理起步",
+   "category": "transformation",
+   "desc": "国家采煤沉陷区治理试点启动，南湖湿地公园建成开放",
+   "impact": 7,
+   "event": true,
+   "pop": 1950000,
+   "coal": 2800,
+   "noncoal": 180,
+   "gdp": 373
+  },
+  {
+   "year": 2011,
+   "title": "列入资源枯竭城市",
+   "category": "decline",
+   "desc": "国务院第三批资源枯竭城市，可采储量仅剩约 8 亿吨",
+   "impact": 9,
+   "event": true,
+   "pop": 1960000,
+   "coal": 2900,
+   "noncoal": 260,
+   "gdp": 505
+  },
+  {
+   "year": 2016,
+   "title": "去产能关闭矿井",
+   "category": "decline",
+   "desc": "袁庄、岱河等老矿陆续关停，数万矿工转岗分流",
+   "impact": 8,
+   "event": true,
+   "pop": 1965000,
+   "coal": 2200,
+   "noncoal": 340,
+   "gdp": 780
+  },
+  {
+   "year": 2019,
+   "title": "绿金湖治理典范",
+   "category": "transformation",
+   "desc": "16 平方公里采煤沉陷湖治理成中央公园，获联合国迪拜奖",
+   "impact": 8,
+   "event": true,
+   "pop": 1971000,
+   "coal": 1800,
+   "noncoal": 430,
+   "gdp": 950
+  },
+  {
+   "year": 2020,
+   "title": "2020年统计锚点",
+   "category": "transformation",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 1970000,
+   "gdp": 0,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2021,
+   "title": "陶铝新材料",
+   "category": "transformation",
+   "desc": "与上海交大共建陶铝研究院，陶铝活塞进入航空军工供应链",
+   "impact": 7,
+   "event": true,
+   "pop": 1970000,
+   "coal": 1600,
+   "noncoal": 520,
+   "gdp": 1220
+  },
+  {
+   "year": 2023,
+   "title": "非煤过半",
+   "category": "transformation",
+   "desc": "非煤产业产值占规上工业比重过半，煤化工与食品饮料支撑增长",
+   "impact": 7,
+   "event": true,
+   "pop": 1944000,
+   "coal": 1500,
+   "noncoal": 580,
+   "gdp": 1365.5,
+   "calibrated": true
+  },
+  {
+   "year": 2024,
+   "title": "山水生态城市",
+   "category": "transformation",
+   "desc": "依山带水格局成型，'一带双城三美丽'空间体系落地",
+   "impact": 7,
+   "event": true,
+   "pop": 1940000,
+   "coal": 1450,
+   "noncoal": 620,
+   "gdp": 1450
+  }
+ ],
+ "chains": {
+  "coal": {
+   "name": "煤电产业链",
+   "color": "#1a1a2e",
+   "icon": "⛏️",
+   "lifecycle": {
+    "birth": 1958,
+    "peak": 2009,
+    "decline": 2016,
+    "collapse": null,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "mine",
+     "name": "矿井群",
+     "x": 50,
+     "y": 50,
+     "status": "declining",
+     "peak": "1980s-2000s",
+     "decline": "2010s"
+    },
+    {
+     "id": "wash",
+     "name": "选洗加工",
+     "x": 150,
+     "y": 50,
+     "status": "active",
+     "peak": "1990s-2010s",
+     "decline": null
+    },
+    {
+     "id": "power",
+     "name": "坑口电厂",
+     "x": 250,
+     "y": 50,
+     "status": "active",
+     "peak": "2000s-2020s",
+     "decline": null
+    },
+    {
+     "id": "chem",
+     "name": "煤化工",
+     "x": 350,
+     "y": 50,
+     "status": "growing",
+     "peak": "2010s-2020s",
+     "decline": null
+    },
+    {
+     "id": "reclaim",
+     "name": "沉陷区修复",
+     "x": 450,
+     "y": 50,
+     "status": "growing",
+     "peak": "2010s-2020s",
+     "decline": null
+    }
+   ],
+   "connections": [
+    {
+     "from": "mine",
+     "to": "wash",
+     "flow": "原煤"
+    },
+    {
+     "from": "wash",
+     "to": "power",
+     "flow": "精煤"
+    },
+    {
+     "from": "power",
+     "to": "chem",
+     "flow": "蒸汽电"
+    },
+    {
+     "from": "mine",
+     "to": "reclaim",
+     "flow": "沉陷地"
+    }
+   ],
+   "employment": {
+    "peak": 220000,
+    "current": 60000
+   }
+  },
+  "noncoal": {
+   "name": "陶铝食品接续链",
+   "color": "#22c55e",
+   "icon": "🏺",
+   "lifecycle": {
+    "birth": 2009,
+    "peak": 2024,
+    "decline": null,
+    "collapse": null,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "taolv",
+     "name": "陶铝新材料",
+     "x": 50,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "food",
+     "name": "食品白酒",
+     "x": 150,
+     "y": 200,
+     "status": "active",
+     "peak": "2010s-2020s",
+     "decline": null
+    },
+    {
+     "id": "textile",
+     "name": "纺织服装",
+     "x": 250,
+     "y": 200,
+     "status": "active",
+     "peak": "2000s-2010s",
+     "decline": null
+    },
+    {
+     "id": "equip",
+     "name": "装备制造",
+     "x": 350,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "digital",
+     "name": "数字经济",
+     "x": 450,
+     "y": 200,
+     "status": "emerging",
+     "peak": "2020s",
+     "decline": null
+    }
+   ],
+   "connections": [
+    {
+     "from": "taolv",
+     "to": "equip",
+     "flow": "轻量化部件"
+    },
+    {
+     "from": "food",
+     "to": "digital",
+     "flow": "电商渠道"
+    },
+    {
+     "from": "equip",
+     "to": "digital",
+     "flow": "工业互联网"
+    }
+   ],
+   "employment": {
+    "peak": 90000,
+    "current": 95000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "resource",
+    "name": "可采储量萎缩",
+    "weight": 32,
+    "evidence": "剩余可采储量不足峰值期三分之一，开采深度超千米",
+    "icon": "⛏️",
+    "selected": false
+   },
+   {
+    "id": "sink",
+    "name": "采煤沉陷扩大",
+    "weight": 22,
+    "evidence": "沉陷区约 20 万亩，部分村庄整体搬迁",
+    "icon": "🕳️",
+    "selected": false
+   },
+   {
+    "id": "price",
+    "name": "煤价周期",
+    "weight": 16,
+    "evidence": "2012-2015 煤价下行导致矿区亏损面扩大",
+    "icon": "📉",
+    "selected": false
+   },
+   {
+    "id": "policy",
+    "name": "去产能退出",
+    "weight": 18,
+    "evidence": "十三五关闭退出矿井十余处、产能近千万吨",
+    "icon": "🏭",
+    "selected": false
+   },
+   {
+    "id": "talent",
+    "name": "人才外流",
+    "weight": 12,
+    "evidence": "毗邻徐州合肥，高校毕业生留淮率低",
+    "icon": "🎓",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "lake",
+    "name": "沉陷湖生态品牌",
+    "weight": 30,
+    "evidence": "绿金湖/南湖治理获联合国迪拜国际改善居住环境范例奖",
+    "icon": "🌊",
+    "selected": false
+   },
+   {
+    "id": "taolv",
+    "name": "陶铝新材料",
+    "weight": 25,
+    "evidence": "国家产业攀高峰成果转化，军品民品双线拓展",
+    "icon": "🏺",
+    "selected": false
+   },
+   {
+    "id": "chem",
+    "name": "煤化工延伸",
+    "weight": 20,
+    "evidence": "临涣工业园区焦炉气制甲醇等循环链条成型",
+    "icon": "⚗️",
+    "selected": false
+   },
+   {
+    "id": "food",
+    "name": "口子酒食品业",
+    "weight": 15,
+    "evidence": "口子窖为徽酒代表，食品产业集群稳定就业",
+    "icon": "🍶",
+    "selected": false
+   },
+   {
+    "id": "traffic",
+    "name": "高铁枢纽",
+    "weight": 10,
+    "evidence": "淮北高铁接入全国网，融入长三角三小时圈",
+    "icon": "🚄",
+    "selected": false
+   }
+  ]
+ },
+ "space_timeline": [
+  {
+   "year": 1958,
+   "built": 1,
+   "vacant": 0,
+   "density": 15000
+  },
+  {
+   "year": 1971,
+   "built": 9,
+   "vacant": 0,
+   "density": 16000
+  },
+  {
+   "year": 1990,
+   "built": 26,
+   "vacant": 0.02,
+   "density": 13000
+  },
+  {
+   "year": 2005,
+   "built": 42,
+   "vacant": 0.08,
+   "density": 10500
+  },
+  {
+   "year": 2015,
+   "built": 58,
+   "vacant": 0.16,
+   "density": 8800
+  },
+  {
+   "year": 2024,
+   "built": 72,
+   "vacant": 0.2,
+   "density": 7600
+  }
+ ],
+ "space": {
+  "built_up_area_km2": 72,
+  "current_pop": 1940000,
+  "peak_pop": 1971000,
+  "vacancy_rate": 0.2,
+  "housing_price_rank": "安徽省内偏低",
+  "landmark": "南湖国家城市湿地公园"
+ },
+ "migration": {
+  "outflow_total": 90000,
+  "destinations": [
+   {
+    "city": "合肥",
+    "province": "安徽",
+    "count": 26000,
+    "reason": "省会就业安家"
+   },
+   {
+    "city": "徐州",
+    "province": "江苏",
+    "count": 14000,
+    "reason": "邻近都市圈就业"
+   },
+   {
+    "city": "上海",
+    "province": "上海",
+    "count": 14000,
+    "reason": "长三角务工"
+   },
+   {
+    "city": "杭州",
+    "province": "浙江",
+    "count": 10000,
+    "reason": "数字经济就业"
+   },
+   {
+    "city": "其他地区",
+    "province": "全国",
+    "count": 26000,
+    "reason": "务工求学"
+   }
+  ]
+ },
+ "achievements": [
+  {
+   "id": "huaibei_first_visit",
+   "name": "淮北初见",
+   "desc": "首次进入淮北市",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "huaibei_y1958",
+   "name": "淮北煤田大会战",
+   "desc": "见证1958年淮北煤田大会战",
+   "condition": "year",
+   "year": 1958
+  },
+  {
+   "id": "huaibei_y1960",
+   "name": "设立濉溪市",
+   "desc": "见证1960年设立濉溪市",
+   "condition": "year",
+   "year": 1960
+  },
+  {
+   "id": "huaibei_y1976",
+   "name": "百对矿井格局",
+   "desc": "见证1976年百对矿井格局",
+   "condition": "year",
+   "year": 1976
+  },
+  {
+   "id": "huaibei_chain",
+   "name": "皖北煤都拼图大师",
+   "desc": "完成淮北市产业链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": [
+  {
+   "desc": "2023 GDP 1365.5亿元(+5.3%), 一产89.7/二产584.9/三产690.9; 常住194.4万; 七普约197.0万",
+   "url": "https://tj.huaibei.gov.cn/xwzx/tjgb/index.html",
+   "year": 2023
+  }
+ ],
+ "real_anchors": {
+  "census2020": {
+   "pop": 1970000
+  },
+  "stat2023": {
+   "gdp": 1365.5,
+   "pop": 1944000
+  }
+ }
+}

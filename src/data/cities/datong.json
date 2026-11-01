@@ -1,0 +1,693 @@
+{
+ "profile": {
+  "name": "大同市",
+  "province": "山西省",
+  "prefecture": "省辖地级市",
+  "area": "14,176 km²",
+  "coordinates": [
+   113.3,
+   40.08
+  ],
+  "tags": [
+   "煤海",
+   "凤凰城",
+   "北魏古都",
+   "能源重化工基地"
+  ],
+  "description": "山西第二大城市，中国重要的能源重化工基地，素有'中国煤都'和'煤海'之称。大同侏罗纪优质动力煤享誉全国，长期承担'点亮全国一半灯、烧热北方一半炕'的保供重任。面对资源枯竭与能源转型双重压力，大同从'一煤独大'迈向新能源、文旅、装备制造多元发展。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 1914,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "起家期",
+    "start": 1914,
+    "end": 1948,
+    "color": "green"
+   },
+   {
+    "name": "壮盛期",
+    "start": 1949,
+    "end": 2000,
+    "color": "yellow"
+   },
+   {
+    "name": "调整期",
+    "start": 2001,
+    "end": 2015,
+    "color": "red"
+   },
+   {
+    "name": "转型期",
+    "start": 2016,
+    "end": 2024,
+    "color": "teal"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "coal",
+    "label": "煤炭产量",
+    "unit": "万吨",
+    "max": 12000,
+    "color": "#1a1a2e"
+   }
+  ],
+  "spaceType": "built_up",
+  "spaceLabels": {
+   "built": "建成区",
+   "density": "人口密度"
+  },
+  "cityKey": "datong",
+  "chainKeys": [
+   "coal",
+   "replacement"
+  ],
+  "chainContainerIds": [
+   "coalChain",
+   "replacementChain"
+  ],
+  "currentStatus": "新能源与文旅转型并进",
+  "transformationAssessment": "从'中国煤都'到'综合能源基地+文旅名城'的战略转型",
+  "transformationDetail": "大同煤炭探明储量超300亿吨，曾为全国最大的优质动力煤生产基地。进入21世纪，大同主动压减过剩产能，建设晋北风电基地、光伏领跑者基地，同时依托云冈石窟、古城墙、北魏文化打造国际文化旅游名城。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 1914,
+   "title": "保晋矿务",
+   "category": "discovery",
+   "desc": "保晋公司大同矿厂成立，近代机械化采煤起步",
+   "impact": 8,
+   "pop": 80000,
+   "coal": 30,
+   "gdp": 0.05,
+   "event": true
+  },
+  {
+   "year": 1920,
+   "title": "京绥铁路通车",
+   "category": "discovery",
+   "desc": "京绥铁路延伸至大同，煤炭外运通道打通",
+   "impact": 7,
+   "pop": 120000,
+   "coal": 100,
+   "gdp": 0.2,
+   "event": false
+  },
+  {
+   "year": 1937,
+   "title": "日占掠夺",
+   "category": "discovery",
+   "desc": "日军占领大同后疯狂掠夺煤炭资源",
+   "impact": 7,
+   "pop": 180000,
+   "coal": 300,
+   "gdp": 0.8,
+   "event": false
+  },
+  {
+   "year": 1949,
+   "title": "煤炭基地",
+   "category": "peak",
+   "desc": "大同成为新中国首批国家重点煤炭工业基地",
+   "impact": 9,
+   "pop": 250000,
+   "coal": 800,
+   "gdp": 1.5,
+   "event": true
+  },
+  {
+   "year": 1958,
+   "title": "大跃进扩产",
+   "category": "peak",
+   "desc": "全国煤炭大会战，大同煤矿产能快速扩张",
+   "impact": 7,
+   "pop": 500000,
+   "coal": 2500,
+   "gdp": 4,
+   "event": false
+  },
+  {
+   "year": 1970,
+   "title": "亿吨矿区",
+   "category": "peak",
+   "desc": "大同煤炭累计产量突破亿吨，成为国家能源安全支柱",
+   "impact": 8,
+   "pop": 800000,
+   "coal": 4500,
+   "gdp": 10,
+   "event": true
+  },
+  {
+   "year": 1980,
+   "title": "煤炭特区",
+   "category": "peak",
+   "desc": "大同被列为全国煤炭能源基地，产量突破6000万吨",
+   "impact": 8,
+   "pop": 1100000,
+   "coal": 6500,
+   "gdp": 20,
+   "event": false
+  },
+  {
+   "year": 1988,
+   "title": "产量巅峰",
+   "category": "peak",
+   "desc": "原煤产量突破8000万吨，达到历史峰值",
+   "impact": 9,
+   "pop": 1300000,
+   "coal": 8200,
+   "gdp": 35,
+   "event": true
+  },
+  {
+   "year": 1995,
+   "title": "能源重镇",
+   "category": "peak",
+   "desc": "大同矿区年产稳定在7000万吨以上，电力外送规模扩大",
+   "impact": 7,
+   "pop": 2800000,
+   "coal": 7500,
+   "gdp": 80,
+   "event": false
+  },
+  {
+   "year": 2001,
+   "title": "去产能阵痛",
+   "category": "decline",
+   "desc": "全国煤炭市场低迷，大同煤矿大面积亏损，职工分流压力巨大",
+   "impact": 8,
+   "pop": 3000000,
+   "coal": 6000,
+   "gdp": 100,
+   "event": true
+  },
+  {
+   "year": 2006,
+   "title": "城市转型试点",
+   "category": "transformation",
+   "desc": "大同被列为国家资源型城市转型试点，古城保护与新区建设同步启动",
+   "impact": 8,
+   "pop": 3150000,
+   "coal": 5500,
+   "gdp": 130,
+   "event": true
+  },
+  {
+   "year": 2008,
+   "title": "耿彦波城建",
+   "category": "transformation",
+   "desc": "大同古城复兴工程大规模启动，云冈石窟环境整治推进",
+   "impact": 7,
+   "pop": 3300000,
+   "coal": 5000,
+   "gdp": 160,
+   "event": false
+  },
+  {
+   "year": 2012,
+   "title": "光伏领跑者",
+   "category": "transformation",
+   "desc": "大同采煤沉陷区国家先进技术光伏示范基地获批，'煤都'向'新能源之都'转型",
+   "impact": 8,
+   "pop": 3350000,
+   "coal": 4200,
+   "gdp": 200,
+   "event": true
+  },
+  {
+   "year": 2016,
+   "title": "能源革命",
+   "category": "transformation",
+   "desc": "山西能源革命综合改革试点，大同建设氢能、储能、新能源装备制造基地",
+   "impact": 7,
+   "pop": 3400000,
+   "coal": 3500,
+   "gdp": 250,
+   "event": true
+  },
+  {
+   "year": 2020,
+   "title": "文旅融合",
+   "category": "transformation",
+   "desc": "云冈石窟、大同古城、北岳恒山文旅品牌影响力提升，游客量突破6000万人次",
+   "impact": 7,
+   "pop": 3108000,
+   "coal": 3000,
+   "gdp": 1369.9,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2023,
+   "title": "2023年统计锚点",
+   "category": "peak",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 3079000,
+   "gdp": 1871.5,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2024,
+   "title": "多元支撑",
+   "category": "transformation",
+   "desc": "煤炭产量控制在约1.6亿吨规划目标内，新能源装机占比持续提升，文旅、大数据、装备制造形成多元支撑",
+   "impact": 7,
+   "pop": 3480000,
+   "coal": 2800,
+   "gdp": 1871.5,
+   "event": true,
+   "calibrated": true
+  }
+ ],
+ "chains": {
+  "coal": {
+   "name": "煤炭产业链",
+   "color": "#1a1a2e",
+   "icon": "⛏️",
+   "lifecycle": {
+    "birth": 1914,
+    "peak": 1988,
+    "decline": 2001,
+    "collapse": 2012,
+    "dead": 2024
+   },
+   "nodes": [
+    {
+     "id": "explore",
+     "name": "地质勘探",
+     "status": "mature",
+     "peak": "1950s",
+     "decline": "2000s"
+    },
+    {
+     "id": "opencast",
+     "name": "露天开采",
+     "status": "mature",
+     "peak": "1980s-2000s",
+     "decline": "2010s"
+    },
+    {
+     "id": "underground",
+     "name": "井工开采",
+     "status": "mature",
+     "peak": "1960s-1990s",
+     "decline": "2010s"
+    },
+    {
+     "id": "wash",
+     "name": "洗选加工",
+     "status": "mature",
+     "peak": "1980s-2010s",
+     "decline": "2020s"
+    },
+    {
+     "id": "transport",
+     "name": "铁路外运",
+     "status": "mature",
+     "peak": "1990s-2010s",
+     "decline": "2020s"
+    },
+    {
+     "id": "power",
+     "name": "坑口火电",
+     "status": "declining",
+     "peak": "2000s-2010s",
+     "decline": "2020s"
+    }
+   ],
+   "connections": [
+    {
+     "from": "explore",
+     "to": "opencast",
+     "flow": "勘探数据"
+    },
+    {
+     "from": "explore",
+     "to": "underground",
+     "flow": "井田数据"
+    },
+    {
+     "from": "opencast",
+     "to": "wash",
+     "flow": "原煤"
+    },
+    {
+     "from": "underground",
+     "to": "wash",
+     "flow": "原煤"
+    },
+    {
+     "from": "wash",
+     "to": "transport",
+     "flow": "精煤外运"
+    },
+    {
+     "from": "wash",
+     "to": "power",
+     "flow": "电煤"
+    }
+   ],
+   "employment": {
+    "peak": 200000,
+    "current": 60000
+   }
+  },
+  "replacement": {
+   "name": "接续产业（新能源·文旅·装备制造）",
+   "color": "#2ecc71",
+   "icon": "🔄",
+   "lifecycle": {
+    "birth": 2012,
+    "growth": 2016,
+    "peak": null
+   },
+   "nodes": [
+    {
+     "id": "pv",
+     "name": "光伏发电",
+     "status": "emerging",
+     "peak": "2010s-今"
+    },
+    {
+     "id": "wind",
+     "name": "风力发电",
+     "status": "emerging",
+     "peak": "未来"
+    },
+    {
+     "id": "hydrogen",
+     "name": "氢能产业",
+     "status": "emerging",
+     "peak": "未来"
+    },
+    {
+     "id": "grotto",
+     "name": "云冈石窟文旅",
+     "status": "emerging",
+     "peak": "未来"
+    },
+    {
+     "id": "ancient",
+     "name": "大同古城",
+     "status": "emerging",
+     "peak": "未来"
+    },
+    {
+     "id": "bigdata",
+     "name": "大数据中心",
+     "status": "emerging",
+     "peak": "未来"
+    }
+   ],
+   "connections": [
+    {
+     "from": "pv",
+     "to": "bigdata",
+     "flow": "绿电支撑"
+    },
+    {
+     "from": "wind",
+     "to": "hydrogen",
+     "flow": "绿电制氢"
+    },
+    {
+     "from": "grotto",
+     "to": "ancient",
+     "flow": "文旅联动"
+    }
+   ],
+   "employment": {
+    "peak": null,
+    "current": 80000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "resource",
+    "name": "资源压力",
+    "weight": 30,
+    "evidence": "优质侏罗纪煤层可采储量下降，开采条件恶化、成本上升",
+    "icon": "⛏️",
+    "selected": false
+   },
+   {
+    "id": "single",
+    "name": "一煤独大",
+    "weight": 30,
+    "evidence": "煤炭产业长期占工业增加值的60%以上，抗风险能力弱",
+    "icon": "🏭",
+    "selected": false
+   },
+   {
+    "id": "environment",
+    "name": "采煤沉陷",
+    "weight": 15,
+    "evidence": "采煤沉陷区面积超1600平方公里，生态修复任务艰巨",
+    "icon": "🌫️",
+    "selected": false
+   },
+   {
+    "id": "policy",
+    "name": "能源转型压力",
+    "weight": 15,
+    "evidence": "双碳目标下煤炭消费受限，传统能源城市面临转型倒逼",
+    "icon": "📜",
+    "selected": false
+   },
+   {
+    "id": "location",
+    "name": "人才与资本",
+    "weight": 5,
+    "evidence": "高端人才向太原、北京流失，新兴产业招商竞争激烈",
+    "icon": "🚂",
+    "selected": false
+   },
+   {
+    "id": "aging",
+    "name": "人口结构",
+    "weight": 5,
+    "evidence": "城市老龄化加剧，常住人口增长乏力",
+    "icon": "👴",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "culture",
+    "name": "世界级文旅资源",
+    "weight": 25,
+    "evidence": "云冈石窟、大同古城、北岳恒山构成独特文化IP",
+    "icon": "🏛️",
+    "selected": false
+   },
+   {
+    "id": "energy",
+    "name": "新能源禀赋",
+    "weight": 25,
+    "evidence": "晋北风光资源优越，光伏领跑者基地、风电基地规模领先",
+    "icon": "☀️",
+    "selected": false
+   },
+   {
+    "id": "policy",
+    "name": "能源革命试点",
+    "weight": 20,
+    "evidence": "山西能源革命综合改革试点，政策与资金支持力度大",
+    "icon": "💰",
+    "selected": false
+   },
+   {
+    "id": "bigdata",
+    "name": "算力经济",
+    "weight": 15,
+    "evidence": "气候凉爽、绿电丰富，吸引数据中心与算力产业",
+    "icon": "💻",
+    "selected": false
+   },
+   {
+    "id": "manufacturing",
+    "name": "装备制造",
+    "weight": 10,
+    "evidence": "煤炭机械、新能源汽车、轨道交通装备基础较好",
+    "icon": "⚙️",
+    "selected": false
+   },
+   {
+    "id": "traffic",
+    "name": "交通枢纽",
+    "weight": 5,
+    "evidence": "大西高铁、大张高铁交汇，京津冀辐射节点",
+    "icon": "🚄",
+    "selected": false
+   }
+  ]
+ },
+ "space_timeline": [
+  {
+   "year": 1914,
+   "built": 0.8,
+   "vacancy": 0,
+   "density": 1800
+  },
+  {
+   "year": 1949,
+   "built": 6,
+   "vacancy": 0,
+   "density": 22000
+  },
+  {
+   "year": 1965,
+   "built": 25,
+   "vacancy": 0.01,
+   "density": 35000
+  },
+  {
+   "year": 1980,
+   "built": 55,
+   "vacancy": 0.03,
+   "density": 42000
+  },
+  {
+   "year": 1995,
+   "built": 85,
+   "vacancy": 0.08,
+   "density": 38000
+  },
+  {
+   "year": 2008,
+   "built": 110,
+   "vacancy": 0.15,
+   "density": 30000
+  },
+  {
+   "year": 2015,
+   "built": 130,
+   "vacancy": 0.18,
+   "density": 26000
+  },
+  {
+   "year": 2020,
+   "built": 145,
+   "vacancy": 0.2,
+   "density": 24000
+  },
+  {
+   "year": 2024,
+   "built": 155,
+   "vacancy": 0.22,
+   "density": 22500
+  }
+ ],
+ "space": {
+  "built_up_area_km2": 155,
+  "current_pop": 3480000,
+  "peak_pop": 3500000,
+  "vacancy_rate": 0.22,
+  "landmark": "云冈石窟",
+  "special": "世界文化遗产，北魏皇家石窟艺术宝库"
+ },
+ "migration": {
+  "destinations": [
+   {
+    "name": "太原市",
+    "lat": 37.87,
+    "lng": 112.55,
+    "flow": 180000,
+    "reason": "省会就近"
+   },
+   {
+    "name": "北京市",
+    "lat": 39.9,
+    "lng": 116.4,
+    "flow": 150000,
+    "reason": "首都机会"
+   },
+   {
+    "name": "天津市",
+    "lat": 39.1,
+    "lng": 117.2,
+    "flow": 80000,
+    "reason": "渤海经济圈"
+   },
+   {
+    "name": "呼和浩特市",
+    "lat": 40.84,
+    "lng": 111.75,
+    "flow": 60000,
+    "reason": "邻省省会"
+   },
+   {
+    "name": "西安市",
+    "lat": 34.34,
+    "lng": 108.93,
+    "flow": 50000,
+    "reason": "西北中心"
+   }
+  ],
+  "outflow_total": 520000,
+  "inflow_total": 150000,
+  "net_flow": -370000
+ },
+ "achievements": [
+  {
+   "id": "datong_first_visit",
+   "name": "煤海记忆",
+   "desc": "首次进入大同，感受中国煤都的沧桑巨变",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "datong_peak",
+   "name": "煤海巅峰",
+   "desc": "见证大同煤炭产量突破8000万吨的历史峰值",
+   "condition": "year",
+   "year": 1988
+  },
+  {
+   "id": "datong_pv",
+   "name": "沉陷区上的光伏",
+   "desc": "见证大同采煤沉陷区变身光伏领跑者基地",
+   "condition": "year",
+   "year": 2012
+  },
+  {
+   "id": "datong_rebirth",
+   "name": "综合能源基地",
+   "desc": "见证大同从煤都向综合能源基地转型",
+   "condition": "year",
+   "year": 2024
+  },
+  {
+   "id": "datong_chain",
+   "name": "煤海拼图大师",
+   "desc": "完成大同煤炭产业链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": [
+  {
+   "desc": "2023 GDP 1871.5亿元(+5.1%), 常住307.9万(-2.2万), 城镇化74.4%",
+   "url": "https://ai.dt.gov.cn/dtszf/tjgb/202404/864b5fa336a541ed84b11df17e59c75e.shtml",
+   "year": 2023
+  }
+ ],
+ "real_anchors": {
+  "census2020": {
+   "pop": 3108000
+  },
+  "stat2023": {
+   "gdp": 1871.5,
+   "pop": 3079000
+  }
+ }
+}

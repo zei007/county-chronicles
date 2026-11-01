@@ -1,0 +1,637 @@
+{
+ "profile": {
+  "name": "海南自贸港",
+  "province": "海南省",
+  "prefecture": "省级自由贸易港",
+  "area": "35,400 km²",
+  "coordinates": [
+   110.35,
+   20.02
+  ],
+  "tags": [
+   "自由贸易港",
+   "国际旅游消费中心",
+   "零关税低税率",
+   "封关运作"
+  ],
+  "description": "2018年中央宣布支持海南全岛建设中国特色自由贸易港，2020年总体方案发布。海南自贸港聚焦制度型开放，以离岛免税、跨境服务贸易、热带特色高效农业、深海航天和现代服务业为核心，正迈向2025年全岛封关运作。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 2018,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "国际旅游岛",
+    "start": 2010,
+    "end": 2017,
+    "color": "gray"
+   },
+   {
+    "name": "自贸港宣布",
+    "start": 2018,
+    "end": 2019,
+    "color": "green"
+   },
+   {
+    "name": "总体方案落地",
+    "start": 2020,
+    "end": 2021,
+    "color": "teal"
+   },
+   {
+    "name": "压力测试",
+    "start": 2022,
+    "end": 2023,
+    "color": "yellow"
+   },
+   {
+    "name": "封关在即",
+    "start": 2024,
+    "end": 2024,
+    "color": "purple"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "duty_free",
+    "label": "离岛免税销售额",
+    "unit": "亿元",
+    "max": 600,
+    "color": "#f59e0b"
+   },
+   {
+    "key": "tourists",
+    "label": "接待游客总人数",
+    "unit": "万人次",
+    "max": 12000,
+    "color": "#06b6d4"
+   }
+  ],
+  "spaceType": "single_city",
+  "spaceLabels": {
+   "old": "传统旅游区",
+   "new": "重点园区"
+  },
+  "cityKey": "hainanfp",
+  "chainKeys": [
+   "duty_free_consumption",
+   "tropical_agri_seed",
+   "aerospace_deep_sea_services"
+  ],
+  "chainContainerIds": [
+   "dutyFreeChain",
+   "tropicalChain",
+   "hitechChain"
+  ],
+  "currentStatus": "中国特色自由贸易港，2025年全岛封关运作在即",
+  "transformationAssessment": "从房地产驱动到自贸港制度型开放",
+  "transformationDetail": "海南自贸港以贸易投资自由化便利化为核心，离岛免税销售额2021年峰值495亿元、2024年回落至309.4亿元，11个重点园区成为产业集聚平台；封关运作压力测试推动“一线放开、二线管住”制度成型，但房地产依赖消解、产业基础薄弱与人才短缺仍是长期挑战。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 2018,
+   "title": "自贸港建设启动",
+   "category": "discovery",
+   "desc": "中央宣布支持海南全岛建设自由贸易试验区并探索建设中国特色自由贸易港",
+   "impact": 10,
+   "pop": 9340000,
+   "gdp": 4832,
+   "duty_free": 100,
+   "tourists": 7627.4,
+   "event": true
+  },
+  {
+   "year": 2019,
+   "title": "政策研究与顶层设计",
+   "category": "transformation",
+   "desc": "自由贸易港建设总体方案加紧制定，减税降费、贸易便利化等政策先行先试",
+   "impact": 7,
+   "pop": 9500000,
+   "gdp": 5308,
+   "duty_free": 134,
+   "tourists": 8311.2,
+   "event": false
+  },
+  {
+   "year": 2020,
+   "title": "自贸港总体方案发布",
+   "category": "discovery",
+   "desc": "《海南自由贸易港建设总体方案》发布，零关税、低税率、封关运作路线图明确",
+   "impact": 10,
+   "pop": 10081000,
+   "gdp": 5532.39,
+   "duty_free": 274.8,
+   "tourists": 6455.1,
+   "event": true
+  },
+  {
+   "year": 2020,
+   "title": "疫情冲击旅游业",
+   "category": "decline",
+   "desc": "新冠疫情重创国际旅游岛客流，游客与免税消费一度大幅下滑",
+   "impact": 8,
+   "pop": 10081000,
+   "gdp": 5532.39,
+   "duty_free": 274.8,
+   "tourists": 6455.1,
+   "event": true
+  },
+  {
+   "year": 2021,
+   "title": "免税消费爆发",
+   "category": "peak",
+   "desc": "离岛免税销售额达495亿元，海南成为全球免税消费新热点",
+   "impact": 9,
+   "pop": 10200000,
+   "gdp": 6475.2,
+   "duty_free": 495,
+   "tourists": 8100.4,
+   "event": true
+  },
+  {
+   "year": 2022,
+   "title": "客流与消费回落",
+   "category": "decline",
+   "desc": "疫情反复导致旅游客流与免税销售额明显回落，经济短期承压",
+   "impact": 7,
+   "pop": 10300000,
+   "gdp": 6818.22,
+   "duty_free": 349,
+   "tourists": 6004,
+   "event": true
+  },
+  {
+   "year": 2023,
+   "title": "封关运作压力测试",
+   "category": "transformation",
+   "desc": "海南启动全岛封关运作准备，重点园区制度型开放与压力测试全面推进",
+   "impact": 9,
+   "pop": 10430000,
+   "gdp": 7551.18,
+   "duty_free": 437.6,
+   "tourists": 9000.6,
+   "event": true
+  },
+  {
+   "year": 2024,
+   "title": "封关运作冲刺",
+   "category": "peak",
+   "desc": "海南GDP达7935.69亿元，离岛免税销售额约309.4亿元，接待游客约9720.8万人次，封关运作进入最后准备阶段",
+   "impact": 10,
+   "pop": 10480000,
+   "gdp": 7935.69,
+   "duty_free": 309.4,
+   "tourists": 9720.8,
+   "event": true
+  }
+ ],
+ "chains": {
+  "duty_free_consumption": {
+   "name": "免税消费链",
+   "color": "#f59e0b",
+   "icon": "🛍️",
+   "lifecycle": {
+    "birth": 2011,
+    "peak": 2021,
+    "decline": 2022,
+    "collapse": null,
+    "dead": 2024
+   },
+   "nodes": [
+    {
+     "id": "duty_free",
+     "name": "离岛免税",
+     "x": 50,
+     "y": 50,
+     "status": "active",
+     "peak": "2020s"
+    },
+    {
+     "id": "cross_border",
+     "name": "跨境电商",
+     "x": 150,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "international",
+     "name": "国际消费品牌",
+     "x": 250,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "service",
+     "name": "消费服务配套",
+     "x": 350,
+     "y": 50,
+     "status": "growing",
+     "peak": "未来"
+    }
+   ],
+   "connections": [
+    {
+     "from": "duty_free",
+     "to": "cross_border",
+     "flow": "客流转化"
+    },
+    {
+     "from": "cross_border",
+     "to": "international",
+     "flow": "品牌集聚"
+    },
+    {
+     "from": "international",
+     "to": "service",
+     "flow": "服务升级"
+    }
+   ],
+   "employment": {
+    "peak": 120000,
+    "current": 100000
+   }
+  },
+  "tropical_agri_seed": {
+   "name": "热带特色高效农业/南繁种业链",
+   "color": "#10b981",
+   "icon": "🌿",
+   "lifecycle": {
+    "birth": 1996,
+    "peak": 2024,
+    "decline": null
+   },
+   "nodes": [
+    {
+     "id": "crop",
+     "name": "热带作物",
+     "x": 50,
+     "y": 50,
+     "status": "active",
+     "peak": "2000s"
+    },
+    {
+     "id": "seed",
+     "name": "南繁种业",
+     "x": 150,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "processing",
+     "name": "精深加工",
+     "x": 250,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "biotech",
+     "name": "生物育种",
+     "x": 350,
+     "y": 50,
+     "status": "growing",
+     "peak": "未来"
+    }
+   ],
+   "connections": [
+    {
+     "from": "crop",
+     "to": "seed",
+     "flow": "种质资源"
+    },
+    {
+     "from": "seed",
+     "to": "processing",
+     "flow": "成果转化"
+    },
+    {
+     "from": "processing",
+     "to": "biotech",
+     "flow": "技术升级"
+    }
+   ],
+   "employment": {
+    "peak": null,
+    "current": 180000
+   }
+  },
+  "aerospace_deep_sea_services": {
+   "name": "航天深海/现代服务业链",
+   "color": "#6366f1",
+   "icon": "🚀",
+   "lifecycle": {
+    "birth": 2018,
+    "peak": 2024,
+    "decline": null
+   },
+   "nodes": [
+    {
+     "id": "aerospace",
+     "name": "商业航天",
+     "x": 50,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "deep_sea",
+     "name": "深海科技",
+     "x": 150,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "service_trade",
+     "name": "服务贸易",
+     "x": 250,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "digital",
+     "name": "数字经济",
+     "x": 350,
+     "y": 50,
+     "status": "growing",
+     "peak": "未来"
+    }
+   ],
+   "connections": [
+    {
+     "from": "aerospace",
+     "to": "deep_sea",
+     "flow": "高端装备"
+    },
+    {
+     "from": "deep_sea",
+     "to": "service_trade",
+     "flow": "科研服务"
+    },
+    {
+     "from": "service_trade",
+     "to": "digital",
+     "flow": "数据跨境"
+    }
+   ],
+   "employment": {
+    "peak": null,
+    "current": 90000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "real_estate",
+    "name": "房地产依赖",
+    "weight": 25,
+    "evidence": "历史上多次房地产热涨热跌，自贸港阶段仍需消化地产惯性",
+    "icon": "🏠",
+    "selected": false
+   },
+   {
+    "id": "industry_base",
+    "name": "产业基础薄弱",
+    "weight": 20,
+    "evidence": "除旅游、消费、农业外，先进制造业与生产性服务业支撑不足",
+    "icon": "🏭",
+    "selected": false
+   },
+   {
+    "id": "talent",
+    "name": "高端人才短缺",
+    "weight": 15,
+    "evidence": "自贸港制度型开放需要大量国际人才，但人才吸引力仍弱于一线城市",
+    "icon": "👥",
+    "selected": false
+   },
+   {
+    "id": "external",
+    "name": "外部冲击敏感",
+    "weight": 15,
+    "evidence": "疫情、国际客流波动、免税消费周期对海南经济影响显著",
+    "icon": "📉",
+    "selected": false
+   },
+   {
+    "id": "transport",
+    "name": "岛屿物流与成本",
+    "weight": 15,
+    "evidence": "封关运作前进出岛物流、人流、资金流仍面临制度性成本",
+    "icon": "🚢",
+    "selected": false
+   },
+   {
+    "id": "ecology",
+    "name": "生态承载约束",
+    "weight": 10,
+    "evidence": "热带雨林、海岸带保护限制大规模工业开发与城市扩张",
+    "icon": "🌿",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "policy",
+    "name": "自由贸易港制度红利",
+    "weight": 25,
+    "evidence": "零关税、低税率、封关运作、跨境服务贸易等政策全国独有",
+    "icon": "📜",
+    "selected": false
+   },
+   {
+    "id": "duty_free",
+    "name": "离岛免税消费",
+    "weight": 20,
+    "evidence": "全球最大离岛免税市场之一，吸引消费回流效应明显",
+    "icon": "🛍️",
+    "selected": false
+   },
+   {
+    "id": "tourism",
+    "name": "国际旅游消费中心",
+    "weight": 20,
+    "evidence": "热带海岛、康养、会展、邮轮等旅游资源禀赋突出",
+    "icon": "🌴",
+    "selected": false
+   },
+   {
+    "id": "location",
+    "name": "RCEP与双循环前沿",
+    "weight": 15,
+    "evidence": "背靠超大规模市场、面向东南亚和太平洋的开放区位",
+    "icon": "🗺️",
+    "selected": false
+   },
+   {
+    "id": "hitech",
+    "name": "南繁深海航天布局",
+    "weight": 10,
+    "evidence": "崖州湾科技城、文昌航天城、深海科技等未来产业加速集聚",
+    "icon": "🚀",
+    "selected": false
+   },
+   {
+    "id": "ecology",
+    "name": "生态宜居品牌",
+    "weight": 10,
+    "evidence": "优质空气、热带生态与康养环境吸引高端人才与消费",
+    "icon": "🌿",
+    "selected": false
+   }
+  ]
+ },
+ "space_timeline": [
+  {
+   "year": 2018,
+   "built": 520,
+   "vacancy": 0.06
+  },
+  {
+   "year": 2019,
+   "built": 540,
+   "vacancy": 0.07
+  },
+  {
+   "year": 2020,
+   "built": 560,
+   "vacancy": 0.08
+  },
+  {
+   "year": 2021,
+   "built": 590,
+   "vacancy": 0.07
+  },
+  {
+   "year": 2022,
+   "built": 610,
+   "vacancy": 0.08
+  },
+  {
+   "year": 2023,
+   "built": 640,
+   "vacancy": 0.06
+  },
+  {
+   "year": 2024,
+   "built": 670,
+   "vacancy": 0.05
+  }
+ ],
+ "space": {
+  "built_up_area_km2": 670,
+  "peak_pop": 10480000,
+  "current_pop": 10480000,
+  "vacancy_rate": 0.05,
+  "landmark": "海口江东新区与三亚崖州湾科技城"
+ },
+ "migration": {
+  "outflow_total": 900000,
+  "destinations": [
+   {
+    "city": "广州",
+    "province": "广东",
+    "count": 220000,
+    "reason": "省会资源与职业流动"
+   },
+   {
+    "city": "深圳",
+    "province": "广东",
+    "count": 180000,
+    "reason": "产业外溢与就业迁移"
+   },
+   {
+    "city": "上海",
+    "province": "上海",
+    "count": 120000,
+    "reason": "高端服务与金融机会"
+   },
+   {
+    "city": "北京",
+    "province": "北京",
+    "count": 100000,
+    "reason": "教育与总部经济"
+   },
+   {
+    "city": "其他城市",
+    "province": "全国/海外",
+    "count": 280000,
+    "reason": "求学、创业、退休迁移"
+   }
+  ]
+ },
+ "achievements": [
+  {
+   "id": "hainanfp_first_visit",
+   "name": "琼崖新篇",
+   "desc": "首次进入海南自贸港",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "hainanfp_announce",
+   "name": "自贸港启航",
+   "desc": "见证2018年中央宣布建设海南自贸港",
+   "condition": "year",
+   "year": 2018
+  },
+  {
+   "id": "hainanfp_plan",
+   "name": "总体方案",
+   "desc": "见证2020年海南自由贸易港建设总体方案发布",
+   "condition": "year",
+   "year": 2020
+  },
+  {
+   "id": "hainanfp_peak",
+   "name": "免税高峰",
+   "desc": "见证2021年海南离岛免税销售额逼近500亿元",
+   "condition": "year",
+   "year": 2021
+  },
+  {
+   "id": "hainanfp_seal",
+   "name": "封关冲刺",
+   "desc": "见证2024年海南自贸港封关运作最后准备阶段",
+   "condition": "year",
+   "year": 2024
+  },
+  {
+   "id": "hainanfp_chain",
+   "name": "琼崖产业拼图大师",
+   "desc": "完成海南自贸港产业转型链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": {
+  "disclaimer": "本页面数据为教学演示与叙事游戏用途，部分历史节点、经济指标、人口与产业数据经过归一化、近似或综合多源整理，请以国家统计局、海南省统计局、海南自由贸易港官方发布及海关总署数据为准。",
+  "references": [
+   {
+    "name": "海南省人民政府",
+    "url": "https://www.hainan.gov.cn/"
+   },
+   {
+    "name": "海南省统计局",
+    "url": "https://stats.hainan.gov.cn/"
+   },
+   {
+    "name": "海口海关 / 央视网",
+    "url": "https://news.cctv.com/2021/02/05/ARTIcr6VRMXxwro8aL2ClmcI210205.shtml"
+   },
+   {
+    "name": "海南自由贸易港",
+    "url": "https://www.hainan.gov.cn/hainan/zwgk/zcwj/zcjd/202006/t20200602_2803413.html"
+   }
+  ]
+ },
+ "simMode": "growth"
+}

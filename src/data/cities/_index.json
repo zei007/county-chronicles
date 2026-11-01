@@ -1,0 +1,1107 @@
+{
+ "generatedAt": "2026-10-30T16:47:31.204Z",
+ "cities": [
+  {
+   "key": "baiyin",
+   "file": "baiyin.json",
+   "name": "白银市",
+   "province": "甘肃省",
+   "coords": [
+    104.18,
+    36.55
+   ],
+   "tags": [
+    "中国铜城",
+    "唯一贵金属命名城市",
+    "一五重点项目",
+    "黄河上游"
+   ],
+   "timeRange": {
+    "start": 1953,
+    "end": 2024
+   }
+  },
+  {
+   "key": "baotou",
+   "file": "baotou.json",
+   "name": "包头市",
+   "province": "内蒙古自治区",
+   "coords": [
+    109.83,
+    40.65
+   ],
+   "tags": [
+    "稀土之都",
+    "草原钢城",
+    "包钢摇篮",
+    "黄河之滨"
+   ],
+   "timeRange": {
+    "start": 1927,
+    "end": 2024
+   }
+  },
+  {
+   "key": "changjiang",
+   "file": "changjiang.json",
+   "name": "昌江黎族自治县",
+   "province": "海南省",
+   "coords": [
+    109.05,
+    19.25
+   ],
+   "tags": [
+    "海南铁矿",
+    "石碌铁矿",
+    "热带钢铁粮仓",
+    "黎乡"
+   ],
+   "timeRange": {
+    "start": 1939,
+    "end": 2024
+   }
+  },
+  {
+   "key": "daqing",
+   "file": "daqing.json",
+   "name": "大庆市",
+   "province": "黑龙江省",
+   "coords": [
+    125.11,
+    46.59
+   ],
+   "tags": [
+    "石油之都",
+    "铁人精神",
+    "油化之城",
+    "百年油田"
+   ],
+   "timeRange": {
+    "start": 1959,
+    "end": 2024
+   }
+  },
+  {
+   "key": "datong",
+   "file": "datong.json",
+   "name": "大同市",
+   "province": "山西省",
+   "coords": [
+    113.3,
+    40.08
+   ],
+   "tags": [
+    "煤海",
+    "凤凰城",
+    "北魏古都",
+    "能源重化工基地"
+   ],
+   "timeRange": {
+    "start": 1914,
+    "end": 2024
+   }
+  },
+  {
+   "key": "daye",
+   "file": "daye.json",
+   "name": "大冶市",
+   "province": "湖北省",
+   "coords": [
+    114.97,
+    30.1
+   ],
+   "tags": [
+    "青铜故里",
+    "铁矿重镇",
+    "千年矿冶",
+    "中国劲酒"
+   ],
+   "timeRange": {
+    "start": 1875,
+    "end": 2024
+   }
+  },
+  {
+   "key": "dexing",
+   "file": "dexing.json",
+   "name": "德兴市",
+   "province": "江西省",
+   "coords": [
+    117.58,
+    28.96
+   ],
+   "tags": [
+    "中国铜都",
+    "亚洲最大露天铜矿",
+    "金山银城",
+    "铜精深加工"
+   ],
+   "timeRange": {
+    "start": 1958,
+    "end": 2024
+   }
+  },
+  {
+   "key": "dongchuan",
+   "file": "dongchuan.json",
+   "name": "东川区",
+   "province": "云南省",
+   "coords": [
+    103.18,
+    26.08
+   ],
+   "tags": [
+    "天南铜都",
+    "滇铜京运",
+    "红土地",
+    "生态修复"
+   ],
+   "timeRange": {
+    "start": 1730,
+    "end": 2024
+   }
+  },
+  {
+   "key": "fushun",
+   "file": "fushun.json",
+   "name": "抚顺市",
+   "province": "辽宁省",
+   "coords": [
+    123.92,
+    41.88
+   ],
+   "tags": [
+    "煤都",
+    "雷锋城",
+    "石化新城",
+    "西露天矿"
+   ],
+   "timeRange": {
+    "start": 1901,
+    "end": 2024
+   }
+  },
+  {
+   "key": "fuxin",
+   "file": "fuxin.json",
+   "name": "阜新市",
+   "province": "辽宁省",
+   "coords": [
+    121.67,
+    42.02
+   ],
+   "tags": [
+    "百年煤城",
+    "玛瑙之都",
+    "首个转型试点",
+    "亚洲最大露天矿"
+   ],
+   "timeRange": {
+    "start": 1896,
+    "end": 2024
+   }
+  },
+  {
+   "key": "geermu",
+   "file": "geermu.json",
+   "name": "格尔木市",
+   "province": "青海省",
+   "coords": [
+    94.9,
+    36.4
+   ],
+   "tags": [
+    "中国盐湖城",
+    "锂都",
+    "青藏门户",
+    "天空之镜"
+   ],
+   "timeRange": {
+    "start": 1954,
+    "end": 2024
+   }
+  },
+  {
+   "key": "gejiu",
+   "file": "gejiu.json",
+   "name": "个旧市",
+   "province": "云南省",
+   "coords": [
+    103.15,
+    23.36
+   ],
+   "tags": [
+    "中国锡都",
+    "世界锡产量第一",
+    "红河明珠",
+    "矿业名城"
+   ],
+   "timeRange": {
+    "start": 1885,
+    "end": 2024
+   }
+  },
+  {
+   "key": "hebi",
+   "file": "hebi.json",
+   "name": "鹤壁市",
+   "province": "河南省",
+   "coords": [
+    114.3,
+    35.75
+   ],
+   "tags": [
+    "淇水诗河",
+    "老煤城新生",
+    "电子信息",
+    "镁基新材料"
+   ],
+   "timeRange": {
+    "start": 1952,
+    "end": 2024
+   }
+  },
+  {
+   "key": "hegang",
+   "file": "hegang.json",
+   "name": "鹤岗市",
+   "province": "黑龙江省",
+   "coords": [
+    130.28,
+    47.35
+   ],
+   "tags": [
+    "百年煤城",
+    "白菜价之城",
+    "收缩城市",
+    "东北缩影"
+   ],
+   "timeRange": {
+    "start": 1914,
+    "end": 2024
+   }
+  },
+  {
+   "key": "huaibei",
+   "file": "huaibei.json",
+   "name": "淮北市",
+   "province": "安徽省",
+   "coords": [
+    116.8,
+    33.97
+   ],
+   "tags": [
+    "皖北煤都",
+    "运河故里",
+    "采煤沉陷治理",
+    "口子酒乡"
+   ],
+   "timeRange": {
+    "start": 1958,
+    "end": 2024
+   }
+  },
+  {
+   "key": "huainan",
+   "file": "huainan.json",
+   "name": "淮南市",
+   "province": "安徽省",
+   "coords": [
+    117,
+    32.63
+   ],
+   "tags": [
+    "华东煤都",
+    "中州咽喉",
+    "豆腐之乡",
+    "能源之城"
+   ],
+   "timeRange": {
+    "start": 1903,
+    "end": 2024
+   }
+  },
+  {
+   "key": "huludao",
+   "file": "huludao.json",
+   "name": "葫芦岛市",
+   "province": "辽宁省",
+   "coords": [
+    120.84,
+    40.71
+   ],
+   "tags": [
+    "中国锌都",
+    "锦西",
+    "环渤海工业带",
+    "核電新篇"
+   ],
+   "timeRange": {
+    "start": 1937,
+    "end": 2024
+   }
+  },
+  {
+   "key": "jiaozuo",
+   "file": "jiaozuo.json",
+   "name": "焦作市",
+   "province": "河南省",
+   "coords": [
+    113.24,
+    35.22
+   ],
+   "tags": [
+    "百年煤城",
+    "英福公司",
+    "云台山",
+    "转型典范"
+   ],
+   "timeRange": {
+    "start": 1898,
+    "end": 2024
+   }
+  },
+  {
+   "key": "jinchang",
+   "file": "jinchang.json",
+   "name": "金昌市",
+   "province": "甘肃省",
+   "coords": [
+    102.19,
+    38.5
+   ],
+   "tags": [
+    "中国镍都",
+    "金川集团",
+    "河西走廊",
+    "镍钴新材料"
+   ],
+   "timeRange": {
+    "start": 1958,
+    "end": 2024
+   }
+  },
+  {
+   "key": "kelamayi",
+   "file": "kelamayi.json",
+   "name": "克拉玛依市",
+   "province": "新疆维吾尔自治区",
+   "coords": [
+    84.87,
+    45.58
+   ],
+   "tags": [
+    "石油新城",
+    "黑油山",
+    "戈壁明珠",
+    "一号井"
+   ],
+   "timeRange": {
+    "start": 1955,
+    "end": 2024
+   }
+  },
+  {
+   "key": "lengshuijiang",
+   "file": "lengshuijiang.json",
+   "name": "冷水江市",
+   "province": "湖南省",
+   "coords": [
+    111.43,
+    27.69
+   ],
+   "tags": [
+    "世界锑都",
+    "锡矿山",
+    "资源枯竭",
+    "环境修复"
+   ],
+   "timeRange": {
+    "start": 1897,
+    "end": 2024
+   }
+  },
+  {
+   "key": "lianyuan",
+   "file": "lianyuan.json",
+   "name": "涟源市",
+   "province": "湖南省",
+   "coords": [
+    111.67,
+    27.69
+   ],
+   "tags": [
+    "湘中煤海",
+    "涟邵煤田",
+    "三一故里",
+    "湄江山水"
+   ],
+   "timeRange": {
+    "start": 1952,
+    "end": 2024
+   }
+  },
+  {
+   "key": "liaoyuan",
+   "file": "liaoyuan.json",
+   "name": "辽源市",
+   "province": "吉林省",
+   "coords": [
+    125.14,
+    42.9
+   ],
+   "tags": [
+    "东北煤城",
+    "煤炭基地",
+    "资源枯竭城市",
+    "袜业之都"
+   ],
+   "timeRange": {
+    "start": 1909,
+    "end": 2024
+   }
+  },
+  {
+   "key": "lingbao",
+   "file": "lingbao.json",
+   "name": "灵宝市",
+   "province": "河南省",
+   "coords": [
+    110.88,
+    34.52
+   ],
+   "tags": [
+    "中国金城",
+    "黄金重镇",
+    "函谷关",
+    "铜箔新城"
+   ],
+   "timeRange": {
+    "start": 1975,
+    "end": 2024
+   }
+  },
+  {
+   "key": "mozhugongka",
+   "file": "mozhugongka.json",
+   "name": "墨竹工卡县",
+   "province": "西藏自治区",
+   "coords": [
+    91.72,
+    29.84
+   ],
+   "tags": [
+    "藏东铜都",
+    "驱龙铜矿",
+    "甲玛铜矿",
+    "高原矿业"
+   ],
+   "timeRange": {
+    "start": 2000,
+    "end": 2024
+   }
+  },
+  {
+   "key": "panzhihua",
+   "file": "panzhihua.json",
+   "name": "攀枝花市",
+   "province": "四川省",
+   "coords": [
+    101.72,
+    26.58
+   ],
+   "tags": [
+    "钒钛之都",
+    "钢城",
+    "三线建设",
+    "阳光花城"
+   ],
+   "timeRange": {
+    "start": 1965,
+    "end": 2024
+   }
+  },
+  {
+   "key": "pingguo",
+   "file": "pingguo.json",
+   "name": "平果市",
+   "province": "广西壮族自治区",
+   "coords": [
+    107.58,
+    23.32
+   ],
+   "tags": [
+    "南国铝都",
+    "铝土之乡",
+    "右江走廊",
+    "铝电联营"
+   ],
+   "timeRange": {
+    "start": 1956,
+    "end": 2024
+   }
+  },
+  {
+   "key": "pingxiang",
+   "file": "pingxiang.json",
+   "name": "萍乡市",
+   "province": "江西省",
+   "coords": [
+    113.85,
+    27.62
+   ],
+   "tags": [
+    "安源煤矿",
+    "汉冶萍故地",
+    "工运摇篮",
+    "赣西门户"
+   ],
+   "timeRange": {
+    "start": 1898,
+    "end": 2024
+   }
+  },
+  {
+   "key": "qitaihe",
+   "file": "qitaihe.json",
+   "name": "七台河市",
+   "province": "黑龙江省",
+   "coords": [
+    131,
+    45.77
+   ],
+   "tags": [
+    "焦煤之都",
+    "冬奥冠军之乡",
+    "煤化工",
+    "石墨新材料"
+   ],
+   "timeRange": {
+    "start": 1958,
+    "end": 2024
+   }
+  },
+  {
+   "key": "shanghang",
+   "file": "shanghang.json",
+   "name": "上杭县",
+   "province": "福建省",
+   "coords": [
+    116.41,
+    25.05
+   ],
+   "tags": [
+    "紫金矿业发源地",
+    "金铜之乡",
+    "红色圣地",
+    "龙岩腹地"
+   ],
+   "timeRange": {
+    "start": 1986,
+    "end": 2024
+   }
+  },
+  {
+   "key": "shizuishan",
+   "file": "shizuishan.json",
+   "name": "石嘴山市",
+   "province": "宁夏回族自治区",
+   "coords": [
+    106.38,
+    39.02
+   ],
+   "tags": [
+    "塞上煤城",
+    "太西煤",
+    "资源枯竭城市",
+    "硅基材料"
+   ],
+   "timeRange": {
+    "start": 1956,
+    "end": 2024
+   }
+  },
+  {
+   "key": "shuangyashan",
+   "file": "shuangyashan.json",
+   "name": "双鸭山市",
+   "province": "黑龙江省",
+   "coords": [
+    131.16,
+    46.65
+   ],
+   "tags": [
+    "煤电基地",
+    "黑土湿地",
+    "挹娄文化",
+    "现代煤化工"
+   ],
+   "timeRange": {
+    "start": 1947,
+    "end": 2024
+   }
+  },
+  {
+   "key": "suichang",
+   "file": "suichang.json",
+   "name": "遂昌县",
+   "province": "浙江省",
+   "coords": [
+    119.27,
+    28.59
+   ],
+   "tags": [
+    "江南金矿",
+    "黄金之乡",
+    "生态康养",
+    "汤显祖故里"
+   ],
+   "timeRange": {
+    "start": 1976,
+    "end": 2024
+   }
+  },
+  {
+   "key": "tangshan",
+   "file": "tangshan.json",
+   "name": "唐山市",
+   "province": "河北省",
+   "coords": [
+    118.18,
+    39.63
+   ],
+   "tags": [
+    "煤铁基地",
+    "凤凰城",
+    "地震重生",
+    "钢铁之都"
+   ],
+   "timeRange": {
+    "start": 1878,
+    "end": 2024
+   }
+  },
+  {
+   "key": "tongling",
+   "file": "tongling.json",
+   "name": "铜陵市",
+   "province": "安徽省",
+   "coords": [
+    117.81,
+    30.95
+   ],
+   "tags": [
+    "中国古铜都",
+    "铜官山",
+    "铜基新材料",
+    "循环经济"
+   ],
+   "timeRange": {
+    "start": 1949,
+    "end": 2024
+   }
+  },
+  {
+   "key": "wanshan",
+   "file": "wanshan.json",
+   "name": "万山区",
+   "province": "贵州省",
+   "coords": [
+    109.2,
+    27.52
+   ],
+   "tags": [
+    "中国汞都",
+    "丹砂王国",
+    "朱砂古镇",
+    "文旅康养新城"
+   ],
+   "timeRange": {
+    "start": 1900,
+    "end": 2024
+   }
+  },
+  {
+   "key": "wansheng",
+   "file": "wansheng.json",
+   "name": "万盛经开区",
+   "province": "重庆市",
+   "coords": [
+    106.92,
+    28.95
+   ],
+   "tags": [
+    "渝南煤城",
+    "三线建设",
+    "黑山谷",
+    "资源枯竭转型"
+   ],
+   "timeRange": {
+    "start": 1938,
+    "end": 2024
+   }
+  },
+  {
+   "key": "xinyu",
+   "file": "xinyu.json",
+   "name": "新余市",
+   "province": "江西省",
+   "coords": [
+    114.92,
+    27.82
+   ],
+   "tags": [
+    "江西钢城",
+    "新余钢铁",
+    "锂电之都",
+    "仙女湖"
+   ],
+   "timeRange": {
+    "start": 1958,
+    "end": 2024
+   }
+  },
+  {
+   "key": "xuzhou",
+   "file": "xuzhou.json",
+   "name": "徐州市",
+   "province": "江苏省",
+   "coords": [
+    117.28,
+    34.2
+   ],
+   "tags": [
+    "华东煤都",
+    "五省通衢",
+    "工程机械之都",
+    "两汉文化"
+   ],
+   "timeRange": {
+    "start": 1882,
+    "end": 2024
+   }
+  },
+  {
+   "key": "yangquan",
+   "file": "yangquan.json",
+   "name": "阳泉市",
+   "province": "山西省",
+   "coords": [
+    113.57,
+    37.86
+   ],
+   "tags": [
+    "中共创建第一城",
+    "无烟煤基地",
+    "资源枯竭城市",
+    "太行东麓"
+   ],
+   "timeRange": {
+    "start": 1906,
+    "end": 2024
+   }
+  },
+  {
+   "key": "yulin",
+   "file": "yulin.json",
+   "name": "榆林市",
+   "province": "陕西省",
+   "coords": [
+    109.73,
+    38.28
+   ],
+   "tags": [
+    "能源新都",
+    "煤海气田",
+    "塞上驼城",
+    "西电东送"
+   ],
+   "timeRange": {
+    "start": 1982,
+    "end": 2024
+   }
+  },
+  {
+   "key": "yumen",
+   "file": "yumen.json",
+   "name": "玉门市",
+   "province": "甘肃省",
+   "coords": [
+    97.58,
+    39.83
+   ],
+   "tags": [
+    "石油摇篮",
+    "铁人故里",
+    "风电新城",
+    "搬迁城市"
+   ],
+   "timeRange": {
+    "start": 1939,
+    "end": 2024
+   }
+  },
+  {
+   "key": "yunfu",
+   "file": "yunfu.json",
+   "name": "云浮市",
+   "province": "广东省",
+   "coords": [
+    112.04,
+    22.92
+   ],
+   "tags": [
+    "石材王国",
+    "硫都",
+    "云石之乡",
+    "石材长廊"
+   ],
+   "timeRange": {
+    "start": 1958,
+    "end": 2024
+   }
+  },
+  {
+   "key": "zhaoyuan",
+   "file": "zhaoyuan.json",
+   "name": "招远市",
+   "province": "山东省",
+   "coords": [
+    120.4,
+    37.36
+   ],
+   "tags": [
+    "中国金都",
+    "金矿之都",
+    "黄金文化",
+    "滨海山城"
+   ],
+   "timeRange": {
+    "start": 1975,
+    "end": 2024
+   }
+  }
+ ],
+ "sez": [
+  {
+   "key": "chongqing",
+   "file": "sez/chongqing.json",
+   "name": "重庆自贸区·两江新区",
+   "province": "重庆市",
+   "coords": [
+    106.55,
+    29.7
+   ],
+   "tags": [
+    "两江新区",
+    "西部大开发",
+    "内陆开放高地",
+    "汽车电子双轮驱动"
+   ],
+   "timeRange": {
+    "start": 2010,
+    "end": 2024
+   }
+  },
+  {
+   "key": "hainan",
+   "file": "sez/hainan.json",
+   "name": "海南省",
+   "province": "海南省",
+   "coords": [
+    110.35,
+    20.02
+   ],
+   "tags": [
+    "省级经济特区",
+    "自由贸易港",
+    "国际旅游岛",
+    "热带农业"
+   ],
+   "timeRange": {
+    "start": 1988,
+    "end": 2024
+   }
+  },
+  {
+   "key": "hainanfp",
+   "file": "sez/hainanfp.json",
+   "name": "海南自贸港",
+   "province": "海南省",
+   "coords": [
+    110.35,
+    20.02
+   ],
+   "tags": [
+    "自由贸易港",
+    "国际旅游消费中心",
+    "零关税低税率",
+    "封关运作"
+   ],
+   "timeRange": {
+    "start": 2018,
+    "end": 2024
+   }
+  },
+  {
+   "key": "huoerguosi",
+   "file": "sez/huoerguosi.json",
+   "name": "霍尔果斯市",
+   "province": "新疆维吾尔自治区",
+   "coords": [
+    80.42,
+    44.2
+   ],
+   "tags": [
+    "经济特区",
+    "中哈合作中心",
+    "中欧班列",
+    "跨境物流"
+   ],
+   "timeRange": {
+    "start": 2010,
+    "end": 2024
+   }
+  },
+  {
+   "key": "kashi",
+   "file": "sez/kashi.json",
+   "name": "喀什市",
+   "province": "新疆维吾尔自治区",
+   "coords": [
+    75.98,
+    39.47
+   ],
+   "tags": [
+    "经济特区",
+    "丝路明珠",
+    "中巴经济走廊",
+    "南疆门户"
+   ],
+   "timeRange": {
+    "start": 2010,
+    "end": 2024
+   }
+  },
+  {
+   "key": "shanghai",
+   "file": "sez/shanghai.json",
+   "name": "上海自贸区·临港新片区",
+   "province": "上海市",
+   "coords": [
+    121.8,
+    30.85
+   ],
+   "tags": [
+    "首个自贸试验区",
+    "临港新片区",
+    "国际金融中心",
+    "科技创新高地"
+   ],
+   "timeRange": {
+    "start": 2013,
+    "end": 2024
+   }
+  },
+  {
+   "key": "shantou",
+   "file": "sez/shantou.json",
+   "name": "汕头市",
+   "province": "广东省",
+   "coords": [
+    116.71,
+    23.37
+   ],
+   "tags": [
+    "经济特区",
+    "侨乡",
+    "港口城市",
+    "纺织服装"
+   ],
+   "timeRange": {
+    "start": 1979,
+    "end": 2024
+   }
+  },
+  {
+   "key": "shenzhen",
+   "file": "sez/shenzhen.json",
+   "name": "深圳市",
+   "province": "广东省",
+   "coords": [
+    114.06,
+    22.54
+   ],
+   "tags": [
+    "经济特区",
+    "创新之都",
+    "粤港澳大湾区核心",
+    "先行示范区"
+   ],
+   "timeRange": {
+    "start": 1979,
+    "end": 2024
+   }
+  },
+  {
+   "key": "tianjin",
+   "file": "sez/tianjin.json",
+   "name": "天津自贸区·滨海新区",
+   "province": "天津市",
+   "coords": [
+    117.65,
+    39.03
+   ],
+   "tags": [
+    "滨海新区",
+    "北方国际航运中心",
+    "融资租赁创新示范区",
+    "高端制造基地"
+   ],
+   "timeRange": {
+    "start": 2009,
+    "end": 2024
+   }
+  },
+  {
+   "key": "xiamen",
+   "file": "sez/xiamen.json",
+   "name": "厦门市",
+   "province": "福建省",
+   "coords": [
+    118.09,
+    24.48
+   ],
+   "tags": [
+    "经济特区",
+    "对台前沿",
+    "海上花园",
+    "高素质创新创业之城"
+   ],
+   "timeRange": {
+    "start": 1980,
+    "end": 2024
+   }
+  },
+  {
+   "key": "zhuhai",
+   "file": "sez/zhuhai.json",
+   "name": "珠海市",
+   "province": "广东省",
+   "coords": [
+    113.57,
+    22.27
+   ],
+   "tags": [
+    "经济特区",
+    "澳珠极点",
+    "滨海旅游",
+    "横琴合作区"
+   ],
+   "timeRange": {
+    "start": 1979,
+    "end": 2024
+   }
+  }
+ ]
+}

@@ -1,0 +1,760 @@
+{
+ "profile": {
+  "name": "白银市",
+  "province": "甘肃省",
+  "prefecture": "省辖地级市",
+  "area": "21,200 km²",
+  "coordinates": [
+   104.18,
+   36.55
+  ],
+  "tags": [
+   "中国铜城",
+   "唯一贵金属命名城市",
+   "一五重点项目",
+   "黄河上游"
+  ],
+  "description": "中国唯一以贵金属命名的城市，因铜矿而兴。1956年设市，白银有色金属公司曾是中国最大铜冶炼基地。2008年被列入全国首批资源枯竭城市，从'铜城'向'循环化工之城'艰难转型，黄河石林与红色圣地成为新名片。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 1953,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "起家期",
+    "start": 1953,
+    "end": 1959,
+    "color": "green"
+   },
+   {
+    "name": "壮盛期",
+    "start": 1960,
+    "end": 1995,
+    "color": "yellow"
+   },
+   {
+    "name": "转型期",
+    "start": 1996,
+    "end": 2024,
+    "color": "purple"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "copper",
+    "label": "铜产量",
+    "unit": "万吨",
+    "max": 30,
+    "color": "#b87333"
+   }
+  ],
+  "spaceType": "built_up",
+  "spaceLabels": {
+   "built": "建成区",
+   "density": "人口密度"
+  },
+  "cityKey": "baiyin",
+  "chainKeys": [
+   "copper",
+   "replacement"
+  ],
+  "chainContainerIds": [
+   "copperChain",
+   "replacementChain"
+  ],
+  "currentStatus": "资源枯竭转型中，循环化工试点",
+  "transformationAssessment": "从'中国铜城'到'循环之城'的艰难转身",
+  "transformationDetail": "白银公司累计产铜超400万吨后，主体矿山于2005年闭坑。2008年列入全国首批资源枯竭城市。依托刘川工业园发展循环经济，黄河石林景区晋升国家地质公园。但人口外流与生态欠账仍是长期挑战。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 1953,
+   "title": "白银厂勘探",
+   "category": "discovery",
+   "desc": "地质队在白银厂发现大型铜矿床，震惊全国",
+   "impact": 10,
+   "pop": 5000,
+   "copper": 0,
+   "gdp": 0.01,
+   "event": true
+  },
+  {
+   "year": 1954,
+   "title": "列入一五计划",
+   "category": "discovery",
+   "desc": "白银有色金属公司被列为国家'一五'期间重点建设项目",
+   "impact": 9,
+   "pop": 8000,
+   "copper": 0,
+   "gdp": 0.02,
+   "event": true
+  },
+  {
+   "year": 1956,
+   "title": "白银市设立",
+   "category": "peak",
+   "desc": "国务院批准设立白银市，中国唯一以贵金属命名的地级市诞生",
+   "impact": 10,
+   "pop": 50000,
+   "copper": 0.5,
+   "gdp": 0.1,
+   "event": true
+  },
+  {
+   "year": 1960,
+   "title": "白银公司投产",
+   "category": "peak",
+   "desc": "白银有色金属公司正式投产，标志着中国铜工业进入新纪元",
+   "impact": 10,
+   "pop": 120000,
+   "copper": 3,
+   "gdp": 0.8,
+   "event": true
+  },
+  {
+   "year": 1965,
+   "title": "产能扩张",
+   "category": "peak",
+   "desc": "铜冶炼产能大幅提升，白银成为全国铜工业战略基地",
+   "impact": 8,
+   "pop": 200000,
+   "copper": 8,
+   "gdp": 2,
+   "event": false
+  },
+  {
+   "year": 1970,
+   "title": "三线建设配套",
+   "category": "peak",
+   "desc": "三线建设时期，大量工人和设备迁入，城市规模急剧扩张",
+   "impact": 8,
+   "pop": 350000,
+   "copper": 12,
+   "gdp": 4,
+   "event": false
+  },
+  {
+   "year": 1975,
+   "title": "产量破十万吨",
+   "category": "peak",
+   "desc": "铜产量突破10万吨，白银公司跻身世界大型铜冶炼企业行列",
+   "impact": 8,
+   "pop": 500000,
+   "copper": 15,
+   "gdp": 6,
+   "event": true
+  },
+  {
+   "year": 1980,
+   "title": "鼎盛时期",
+   "category": "peak",
+   "desc": "年产铜接近20万吨，职工总数突破5万，城市配套成熟",
+   "impact": 7,
+   "pop": 700000,
+   "copper": 18,
+   "gdp": 10,
+   "event": false
+  },
+  {
+   "year": 1985,
+   "title": "品质下滑",
+   "category": "decline",
+   "desc": "富矿资源逐渐耗尽，开采品位下降，成本大幅上升",
+   "impact": 8,
+   "pop": 850000,
+   "copper": 20,
+   "gdp": 15,
+   "event": false
+  },
+  {
+   "year": 1990,
+   "title": "亏损加剧",
+   "category": "decline",
+   "desc": "计划经济体制下，企业经营困难，职工生活受到影响",
+   "impact": 7,
+   "pop": 950000,
+   "copper": 18,
+   "gdp": 20,
+   "event": false
+  },
+  {
+   "year": 1995,
+   "title": "资源危机显现",
+   "category": "decline",
+   "desc": "主体矿山保有储量急剧下降，城市开始面临'矿竭城衰'危机",
+   "impact": 9,
+   "pop": 1000000,
+   "copper": 15,
+   "gdp": 28,
+   "event": true
+  },
+  {
+   "year": 1996,
+   "title": "深化改革",
+   "category": "transformation",
+   "desc": "白银公司改制为白银有色金属集团，开始探索多元化经营",
+   "impact": 7,
+   "pop": 1050000,
+   "copper": 12,
+   "gdp": 35,
+   "event": false
+  },
+  {
+   "year": 2000,
+   "title": "产量腰斩",
+   "category": "decline",
+   "desc": "铜产量从巅峰跌落至不足10万吨，城市经济陷入低迷",
+   "impact": 9,
+   "pop": 1100000,
+   "copper": 8,
+   "gdp": 45,
+   "event": true
+  },
+  {
+   "year": 2005,
+   "title": "主体矿山闭坑",
+   "category": "decline",
+   "desc": "白银公司主体矿山正式闭坑，累计产铜超400万吨，城市失去产业支柱",
+   "impact": 10,
+   "pop": 1050000,
+   "copper": 5,
+   "gdp": 55,
+   "event": true
+  },
+  {
+   "year": 2008,
+   "title": "首批资源枯竭城市",
+   "category": "transformation",
+   "desc": "被国务院列入全国首批资源枯竭城市，获得中央财政转移支付支持转型",
+   "impact": 10,
+   "pop": 1000000,
+   "copper": 3,
+   "gdp": 70,
+   "event": true
+  },
+  {
+   "year": 2010,
+   "title": "循环经济试点",
+   "category": "transformation",
+   "desc": "白银市被列为国家循环经济试点城市，刘川工业园承接产业转移",
+   "impact": 7,
+   "pop": 980000,
+   "copper": 2,
+   "gdp": 90,
+   "event": true
+  },
+  {
+   "year": 2012,
+   "title": "黄河石林晋升",
+   "category": "transformation",
+   "desc": "黄河石林景区晋升为国家地质公园，文旅产业开始起步",
+   "impact": 7,
+   "pop": 960000,
+   "copper": 1.5,
+   "gdp": 110,
+   "event": false
+  },
+  {
+   "year": 2015,
+   "title": "城市转型规划",
+   "category": "transformation",
+   "desc": "编制新一轮资源型城市转型规划，确定'循环化工+文旅+生态农业'三大接续产业方向",
+   "impact": 6,
+   "pop": 950000,
+   "copper": 1,
+   "gdp": 140,
+   "event": false
+  },
+  {
+   "year": 2017,
+   "title": "会宁红色旅游",
+   "category": "transformation",
+   "desc": "会宁红军会师旧址红色旅游品牌升级，年接待游客突破百万",
+   "impact": 6,
+   "pop": 940000,
+   "copper": 0.8,
+   "gdp": 160,
+   "event": false
+  },
+  {
+   "year": 2020,
+   "title": "生态修复工程",
+   "category": "transformation",
+   "desc": "大规模矿山生态修复与黄河流域环境治理工程启动",
+   "impact": 7,
+   "pop": 1510200,
+   "copper": 0.5,
+   "gdp": 497,
+   "event": true,
+   "calibrated": true
+  },
+  {
+   "year": 2022,
+   "title": "人口持续外流",
+   "category": "decline",
+   "desc": "常住人口约151万，较峰值流失近20万，老龄化率高于全省平均",
+   "impact": 7,
+   "pop": 1510000,
+   "copper": 0.3,
+   "gdp": 220,
+   "event": false
+  },
+  {
+   "year": 2023,
+   "title": "2023年统计锚点",
+   "category": "peak",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 1488100,
+   "gdp": 626.6,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2024,
+   "title": "循环之城",
+   "category": "transformation",
+   "desc": "刘川工业园循环经济体系初步形成，黄河石林成为网红打卡地。铜产量已不足巅峰期的1%，转型仍在路上",
+   "impact": 7,
+   "pop": 1500000,
+   "copper": 0.2,
+   "gdp": 626.6,
+   "event": true,
+   "calibrated": true
+  }
+ ],
+ "chains": {
+  "copper": {
+   "name": "铜矿产业链",
+   "color": "#b87333",
+   "icon": "🟤",
+   "lifecycle": {
+    "birth": 1953,
+    "peak": 1985,
+    "decline": 1995,
+    "collapse": 2005,
+    "dead": 2024
+   },
+   "nodes": [
+    {
+     "id": "explore",
+     "name": "地质勘探",
+     "status": "dying",
+     "peak": "1950s-1960s",
+     "decline": "1980s"
+    },
+    {
+     "id": "mine",
+     "name": "露天/井下开采",
+     "status": "dying",
+     "peak": "1960s-1980s",
+     "decline": "1990s"
+    },
+    {
+     "id": "smelt",
+     "name": "火法冶炼",
+     "status": "dying",
+     "peak": "1970s-1990s",
+     "decline": "2000s"
+    },
+    {
+     "id": "refine",
+     "name": "电解精炼",
+     "status": "dying",
+     "peak": "1980s-2000s",
+     "decline": "2010s"
+    },
+    {
+     "id": "process",
+     "name": "铜材加工",
+     "status": "dying",
+     "peak": "1990s",
+     "decline": "2010s"
+    },
+    {
+     "id": "trade",
+     "name": "贸易物流",
+     "status": "dying",
+     "peak": "1980s-2000s",
+     "decline": "2010s"
+    }
+   ],
+   "connections": [
+    {
+     "from": "explore",
+     "to": "mine",
+     "flow": "矿床数据"
+    },
+    {
+     "from": "mine",
+     "to": "smelt",
+     "flow": "铜精矿"
+    },
+    {
+     "from": "smelt",
+     "to": "refine",
+     "flow": "粗铜"
+    },
+    {
+     "from": "refine",
+     "to": "process",
+     "flow": "电解铜"
+    },
+    {
+     "from": "process",
+     "to": "trade",
+     "flow": "铜材产品"
+    }
+   ],
+   "employment": {
+    "peak": 50000,
+    "current": 2000
+   }
+  },
+  "replacement": {
+   "name": "接续产业（循环化工·文旅·生态农业）",
+   "color": "#2ecc71",
+   "icon": "🔄",
+   "lifecycle": {
+    "birth": 2008,
+    "growth": 2015,
+    "peak": null
+   },
+   "nodes": [
+    {
+     "id": "recycle",
+     "name": "废旧金属回收",
+     "status": "emerging",
+     "peak": "2010s-今"
+    },
+    {
+     "id": "chemical",
+     "name": "精细化工",
+     "status": "emerging",
+     "peak": "未来"
+    },
+    {
+     "id": "park",
+     "name": "黄河石林旅游",
+     "status": "emerging",
+     "peak": "未来"
+    },
+    {
+     "id": "red",
+     "name": "红色旅游",
+     "status": "emerging",
+     "peak": "未来"
+    },
+    {
+     "id": "farm",
+     "name": "生态农业",
+     "status": "emerging",
+     "peak": "未来"
+    },
+    {
+     "id": "restore",
+     "name": "矿山生态修复",
+     "status": "emerging",
+     "peak": "未来"
+    }
+   ],
+   "connections": [
+    {
+     "from": "recycle",
+     "to": "chemical",
+     "flow": "资源循环"
+    },
+    {
+     "from": "park",
+     "to": "red",
+     "flow": "文旅融合"
+    },
+    {
+     "from": "restore",
+     "to": "farm",
+     "flow": "生态转化"
+    }
+   ],
+   "employment": {
+    "peak": null,
+    "current": 25000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "resource",
+    "name": "铜矿枯竭",
+    "weight": 35,
+    "evidence": "主体矿山保有储量枯竭，2005年闭坑，累计产铜超400万吨",
+    "icon": "🟤",
+    "selected": false
+   },
+   {
+    "id": "single",
+    "name": "产业结构单一",
+    "weight": 25,
+    "evidence": "白银公司长期占全市工业产值60%以上，接续产业培育缓慢",
+    "icon": "🏭",
+    "selected": false
+   },
+   {
+    "id": "pollution",
+    "name": "重金属污染",
+    "weight": 15,
+    "evidence": "百年冶炼产生大量含重金属废渣，东大沟土壤污染严重",
+    "icon": "🌫️",
+    "selected": false
+   },
+   {
+    "id": "policy",
+    "name": "国企改制冲击",
+    "weight": 10,
+    "evidence": "1990年代国企改制导致大量职工下岗，城市社会信心受挫",
+    "icon": "📜",
+    "selected": false
+   },
+   {
+    "id": "location",
+    "name": "区位边缘化",
+    "weight": 10,
+    "evidence": "深处甘肃中部干旱区，距兰州200公里，人才吸引力弱",
+    "icon": "🚂",
+    "selected": false
+   },
+   {
+    "id": "water",
+    "name": "水资源短缺",
+    "weight": 5,
+    "evidence": "黄河上游干旱区，人均水资源远低于全国平均，制约产业发展",
+    "icon": "💧",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "recycle",
+    "name": "循环经济基地",
+    "weight": 25,
+    "evidence": "国家循环经济试点城市，刘川工业园承接产业转移",
+    "icon": "♻️",
+    "selected": false
+   },
+   {
+    "id": "scenery",
+    "name": "黄河石林品牌",
+    "weight": 20,
+    "evidence": "黄河石林国家地质公园，独特的雅丹地貌成为影视取景地",
+    "icon": "🏞️",
+    "selected": false
+   },
+   {
+    "id": "red",
+    "name": "红色旅游资源",
+    "weight": 20,
+    "evidence": "会宁红军会师旧址，长征胜利纪念地，红色研学基地",
+    "icon": "⭐",
+    "selected": false
+   },
+   {
+    "id": "policy",
+    "name": "转型政策支持",
+    "weight": 20,
+    "evidence": "首批资源枯竭城市，持续获得中央专项资金与转移支付",
+    "icon": "💰",
+    "selected": false
+   },
+   {
+    "id": "ecology",
+    "name": "生态修复",
+    "weight": 10,
+    "evidence": "黄河流域生态保护和高质量发展国家战略重点区域",
+    "icon": "🌲",
+    "selected": false
+   },
+   {
+    "id": "sun",
+    "name": "光热资源",
+    "weight": 5,
+    "evidence": "河西走廊东端，太阳能、风能资源丰富，新能源潜力巨大",
+    "icon": "☀️",
+    "selected": false
+   }
+  ]
+ },
+ "space_timeline": [
+  {
+   "year": 1953,
+   "built": 0.5,
+   "vacancy": 0,
+   "density": 1000
+  },
+  {
+   "year": 1960,
+   "built": 5,
+   "vacancy": 0,
+   "density": 24000
+  },
+  {
+   "year": 1970,
+   "built": 15,
+   "vacancy": 0,
+   "density": 23000
+  },
+  {
+   "year": 1980,
+   "built": 30,
+   "vacancy": 0.02,
+   "density": 23300
+  },
+  {
+   "year": 1990,
+   "built": 45,
+   "vacancy": 0.1,
+   "density": 21100
+  },
+  {
+   "year": 2000,
+   "built": 55,
+   "vacancy": 0.2,
+   "density": 20000
+  },
+  {
+   "year": 2005,
+   "built": 60,
+   "vacancy": 0.3,
+   "density": 17500
+  },
+  {
+   "year": 2010,
+   "built": 65,
+   "vacancy": 0.35,
+   "density": 15100
+  },
+  {
+   "year": 2015,
+   "built": 70,
+   "vacancy": 0.4,
+   "density": 13600
+  },
+  {
+   "year": 2020,
+   "built": 75,
+   "vacancy": 0.45,
+   "density": 12300
+  },
+  {
+   "year": 2024,
+   "built": 78,
+   "vacancy": 0.5,
+   "density": 11500
+  }
+ ],
+ "space": {
+  "built_up_area_km2": 78,
+  "current_pop": 1500000,
+  "peak_pop": 1510200,
+  "vacancy_rate": 0.5,
+  "landmark": "白银公司矿山遗址",
+  "special": "中国唯一以贵金属命名的城市，主体矿山已闭坑"
+ },
+ "migration": {
+  "destinations": [
+   {
+    "name": "兰州市",
+    "lat": 36.06,
+    "lng": 103.83,
+    "flow": 280000,
+    "reason": "省会经济圈虹吸"
+   },
+   {
+    "name": "西安市",
+    "lat": 34.34,
+    "lng": 108.94,
+    "flow": 80000,
+    "reason": "西北中心城市"
+   },
+   {
+    "name": "乌鲁木齐市",
+    "lat": 43.82,
+    "lng": 87.61,
+    "flow": 50000,
+    "reason": "援疆与就业"
+   },
+   {
+    "name": "北京市",
+    "lat": 39.9,
+    "lng": 116.4,
+    "flow": 45000,
+    "reason": "首都机会"
+   },
+   {
+    "name": "银川市",
+    "lat": 38.49,
+    "lng": 106.23,
+    "flow": 30000,
+    "reason": "邻近省会"
+   }
+  ],
+  "outflow_total": 485000,
+  "inflow_total": 90000,
+  "net_flow": -395000
+ },
+ "achievements": [
+  {
+   "id": "baiyin_first_visit",
+   "name": "铜城往事",
+   "desc": "首次进入白银，见证中国铜城的兴衰",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "baiyin_peak",
+   "name": "铜海巅峰",
+   "desc": "见证白银铜产量突破20万吨的辉煌年代",
+   "condition": "year",
+   "year": 1985
+  },
+  {
+   "id": "baiyin_mine_close",
+   "name": "矿坑之殇",
+   "desc": "目睹白银主体矿山闭坑，城市失去支柱",
+   "condition": "year",
+   "year": 2005
+  },
+  {
+   "id": "baiyin_rebirth",
+   "name": "循环转身",
+   "desc": "见证白银从铜城到循环之城的艰难转型",
+   "condition": "year",
+   "year": 2024
+  },
+  {
+   "id": "baiyin_chain",
+   "name": "循环拼图大师",
+   "desc": "完成白银循环经济产业链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": [
+  {
+   "desc": "2023 GDP约626.6亿元, 常住148.81万(-1.4万), 人均44967元",
+   "url": "http://www.tjcn.org/tjgb/28gs/37904.html",
+   "year": 2023
+  }
+ ],
+ "real_anchors": {
+  "census2020": {
+   "pop": 1510200
+  },
+  "stat2023": {
+   "gdp": 626.6,
+   "pop": 1488100
+  }
+ }
+}

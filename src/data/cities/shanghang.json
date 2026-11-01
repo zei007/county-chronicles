@@ -1,0 +1,711 @@
+{
+ "profile": {
+  "name": "上杭县",
+  "province": "福建省",
+  "prefecture": "县",
+  "area": "2,879 km²",
+  "coordinates": [
+   116.41,
+   25.05
+  ],
+  "tags": [
+   "紫金矿业发源地",
+   "金铜之乡",
+   "红色圣地",
+   "龙岩腹地"
+  ],
+  "description": "闽西山区的千年古邑，紫金山金铜矿的发源地，紫金矿业从这里起步并成长为全球矿业巨头。上杭依托金铜资源优势，走出了一条“资源+资本+技术”的山区崛起之路。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 1986,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "起家期",
+    "start": 1986,
+    "end": 1995,
+    "color": "green"
+   },
+   {
+    "name": "壮盛期",
+    "start": 1996,
+    "end": 2010,
+    "color": "yellow"
+   },
+   {
+    "name": "调整期",
+    "start": 2011,
+    "end": 2016,
+    "color": "red"
+   },
+   {
+    "name": "转型期",
+    "start": 2017,
+    "end": 2024,
+    "color": "teal"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "gold",
+    "label": "黄金产量",
+    "unit": "千克",
+    "max": 10000,
+    "color": "#c9a84c"
+   },
+   {
+    "key": "copper",
+    "label": "铜产量",
+    "unit": "万吨",
+    "max": 20,
+    "color": "#b87333"
+   }
+  ],
+  "spaceType": "built_up",
+  "spaceLabels": {
+   "built": "建成区",
+   "density": "人口密度"
+  },
+  "cityKey": "shanghang",
+  "chainKeys": [
+   "gold",
+   "copper"
+  ],
+  "chainContainerIds": [
+   "goldChain",
+   "copperChain"
+  ],
+  "currentStatus": "金铜之都，资本出海",
+  "transformationAssessment": "从山区贫困县到全球矿业巨头发源地",
+  "transformationDetail": "紫金山金铜矿低品位、大规模开发，催生了紫金矿业。通过香港上市与全球并购，上杭从资源输出地升级为资本与技术输出地。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 1986,
+   "title": "紫金山金铜矿发现",
+   "category": "discovery",
+   "desc": "地质勘查确认紫金山大型金铜矿床，上杭矿业开发序幕拉开",
+   "impact": 10,
+   "pop": 303600,
+   "gold": 0,
+   "copper": 0,
+   "gdp": 0.1,
+   "event": true
+  },
+  {
+   "year": 1993,
+   "title": "紫金矿业公司成立",
+   "category": "peak",
+   "desc": "上杭县矿产公司改组为紫金矿业总公司，开启现代企业运营",
+   "impact": 8,
+   "pop": 314200,
+   "gold": 100,
+   "copper": 0,
+   "gdp": 2,
+   "event": true
+  },
+  {
+   "year": 1993,
+   "title": "紫金山金矿投产",
+   "category": "peak",
+   "desc": "紫金山金矿建成投产，低品位矿体大规模开发成功",
+   "impact": 9,
+   "pop": 314200,
+   "gold": 800,
+   "copper": 0,
+   "gdp": 5,
+   "event": true
+  },
+  {
+   "year": 1998,
+   "title": "股份制改造",
+   "category": "peak",
+   "desc": "紫金矿业完成股份制改造，向资本市场迈出关键一步",
+   "impact": 8,
+   "pop": 317700,
+   "gold": 2000,
+   "copper": 0.5,
+   "gdp": 18,
+   "event": true
+  },
+  {
+   "year": 2000,
+   "title": "铜矿开发启动",
+   "category": "peak",
+   "desc": "紫金山铜矿开发启动，黄金产量跃上新台阶",
+   "impact": 8,
+   "pop": 324800,
+   "gold": 3500,
+   "copper": 1,
+   "gdp": 35,
+   "event": true
+  },
+  {
+   "year": 2003,
+   "title": "香港上市",
+   "category": "peak",
+   "desc": "紫金矿业在香港联交所上市，开启全球资源并购",
+   "impact": 9,
+   "pop": 331800,
+   "gold": 5000,
+   "copper": 3,
+   "gdp": 60,
+   "event": true
+  },
+  {
+   "year": 2008,
+   "title": "金融危机冲击",
+   "category": "decline",
+   "desc": "全球金融危机导致金铜价格暴跌，企业盈利大幅下滑",
+   "impact": 8,
+   "pop": 338900,
+   "gold": 5200,
+   "copper": 4,
+   "gdp": 75,
+   "event": true
+  },
+  {
+   "year": 2010,
+   "title": "绿色矿山建设",
+   "category": "transformation",
+   "desc": "推进绿色矿山与循环经济，提升资源综合利用水平",
+   "impact": 8,
+   "pop": 345900,
+   "gold": 5500,
+   "copper": 5,
+   "gdp": 110,
+   "event": true
+  },
+  {
+   "year": 2013,
+   "title": "金铜产业基地扩能",
+   "category": "transformation",
+   "desc": "上杭金铜精深加工产业园扩能，延伸产业链条",
+   "impact": 8,
+   "pop": 353000,
+   "gold": 5800,
+   "copper": 7,
+   "gdp": 160,
+   "event": true
+  },
+  {
+   "year": 2015,
+   "title": "铜产量突破十万吨",
+   "category": "peak",
+   "desc": "紫金山铜矿及下游冶炼产能释放，铜产量突破10万吨",
+   "impact": 9,
+   "pop": 356500,
+   "gold": 6000,
+   "copper": 10,
+   "gdp": 200,
+   "event": true
+  },
+  {
+   "year": 2018,
+   "title": "智能矿山转型",
+   "category": "transformation",
+   "desc": "数字化采矿、无人驾驶与智能选厂改造提速",
+   "impact": 8,
+   "pop": 360100,
+   "gold": 6200,
+   "copper": 12,
+   "gdp": 260,
+   "event": true
+  },
+  {
+   "year": 2020,
+   "title": "海外项目反哺",
+   "category": "transformation",
+   "desc": "紫金海外铜金项目投产，技术、资本与人才回流上杭",
+   "impact": 8,
+   "pop": 363600,
+   "gold": 6500,
+   "copper": 13,
+   "gdp": 300,
+   "event": true
+  },
+  {
+   "year": 2022,
+   "title": "2022年统计锚点",
+   "category": "peak",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 376400,
+   "gdp": 513.3,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2023,
+   "title": "2023年统计锚点",
+   "category": "peak",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 368000,
+   "gdp": 603.03,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2024,
+   "title": "世界级金铜基地",
+   "category": "transformation",
+   "desc": "上杭打造世界级金铜新材料产业基地，绿色矿业格局成型",
+   "impact": 9,
+   "pop": 376400,
+   "gold": 7000,
+   "copper": 15,
+   "gdp": 556.8,
+   "event": true,
+   "calibrated": true
+  }
+ ],
+ "chains": {
+  "gold": {
+   "name": "黄金产业链",
+   "color": "#c9a84c",
+   "icon": "🥇",
+   "lifecycle": {
+    "birth": 1986,
+    "peak": 2003,
+    "decline": 2008,
+    "collapse": null,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "explore",
+     "name": "地质勘探",
+     "x": 50,
+     "y": 50,
+     "status": "active",
+     "peak": "1980s-1990s",
+     "decline": null
+    },
+    {
+     "id": "openpit",
+     "name": "露天开采",
+     "x": 150,
+     "y": 50,
+     "status": "active",
+     "peak": "1990s-2000s",
+     "decline": "2010s"
+    },
+    {
+     "id": "heap",
+     "name": "堆浸提金",
+     "x": 250,
+     "y": 50,
+     "status": "dying",
+     "peak": "1990s-2010s",
+     "decline": "2020s"
+    },
+    {
+     "id": "cip",
+     "name": "炭浆工艺",
+     "x": 350,
+     "y": 50,
+     "status": "active",
+     "peak": "2000s",
+     "decline": null
+    },
+    {
+     "id": "refine",
+     "name": "精炼铸锭",
+     "x": 450,
+     "y": 50,
+     "status": "active",
+     "peak": "2000s",
+     "decline": null
+    },
+    {
+     "id": "finance",
+     "name": "金融与文化",
+     "x": 550,
+     "y": 50,
+     "status": "emerging",
+     "peak": "2020s",
+     "decline": null
+    }
+   ],
+   "connections": [
+    {
+     "from": "explore",
+     "to": "openpit",
+     "flow": "矿体"
+    },
+    {
+     "from": "openpit",
+     "to": "heap",
+     "flow": "矿石"
+    },
+    {
+     "from": "heap",
+     "to": "cip",
+     "flow": "贵液"
+    },
+    {
+     "from": "cip",
+     "to": "refine",
+     "flow": "金泥"
+    },
+    {
+     "from": "refine",
+     "to": "finance",
+     "flow": "标准金"
+    }
+   ],
+   "employment": {
+    "peak": 10000,
+    "current": 6000
+   }
+  },
+  "copper": {
+   "name": "铜产业链",
+   "color": "#b87333",
+   "icon": "🟤",
+   "lifecycle": {
+    "birth": 2000,
+    "peak": 2015,
+    "decline": null,
+    "collapse": null,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "explore_cu",
+     "name": "铜矿勘探",
+     "x": 50,
+     "y": 200,
+     "status": "active",
+     "peak": "2000s",
+     "decline": null
+    },
+    {
+     "id": "mining_cu",
+     "name": "露天/地下开采",
+     "x": 150,
+     "y": 200,
+     "status": "active",
+     "peak": "2010s",
+     "decline": null
+    },
+    {
+     "id": "flotation",
+     "name": "浮选选矿",
+     "x": 250,
+     "y": 200,
+     "status": "active",
+     "peak": "2010s",
+     "decline": null
+    },
+    {
+     "id": "smelting",
+     "name": "铜冶炼",
+     "x": 350,
+     "y": 200,
+     "status": "growing",
+     "peak": "2010s",
+     "decline": null
+    },
+    {
+     "id": "electrolysis",
+     "name": "电解铜",
+     "x": 450,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "products",
+     "name": "铜加工制品",
+     "x": 550,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    }
+   ],
+   "connections": [
+    {
+     "from": "explore_cu",
+     "to": "mining_cu",
+     "flow": "矿体"
+    },
+    {
+     "from": "mining_cu",
+     "to": "flotation",
+     "flow": "原矿"
+    },
+    {
+     "from": "flotation",
+     "to": "smelting",
+     "flow": "铜精矿"
+    },
+    {
+     "from": "smelting",
+     "to": "electrolysis",
+     "flow": "粗铜"
+    },
+    {
+     "from": "electrolysis",
+     "to": "products",
+     "flow": "阴极铜"
+    }
+   ],
+   "employment": {
+    "peak": 12000,
+    "current": 15000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "grade",
+    "name": "矿石品位下降",
+    "weight": 25,
+    "evidence": "紫金山浅部高品位资源消耗，转入低品位和深部开采",
+    "icon": "⛏️",
+    "selected": false
+   },
+   {
+    "id": "environment",
+    "name": "环保与生态修复压力",
+    "weight": 25,
+    "evidence": "大规模堆浸与尾矿处置带来土壤与水体风险",
+    "icon": "🌱",
+    "selected": false
+   },
+   {
+    "id": "price",
+    "name": "金铜价格波动",
+    "weight": 20,
+    "evidence": "全球大宗商品周期影响企业盈利与税收",
+    "icon": "📉",
+    "selected": false
+   },
+   {
+    "id": "overseas",
+    "name": "海外项目风险",
+    "weight": 20,
+    "evidence": "紫金矿业海外资产面临地缘政治与安全风险",
+    "icon": "🌍",
+    "selected": false
+   },
+   {
+    "id": "land",
+    "name": "山区用地约束",
+    "weight": 10,
+    "evidence": "闽西山地多，工业用地与环保容量有限",
+    "icon": "🏔️",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "zijin",
+    "name": "紫金矿业龙头带动",
+    "weight": 35,
+    "evidence": "全球最大矿业公司之一，资本、技术与人才高度集聚",
+    "icon": "🏆",
+    "selected": false
+   },
+   {
+    "id": "technology",
+    "name": "低品位矿开发技术",
+    "weight": 20,
+    "evidence": "自主研发的堆浸、浮选与冶炼技术领先全球",
+    "icon": "⚗️",
+    "selected": false
+   },
+   {
+    "id": "capital",
+    "name": "资本市场赋能",
+    "weight": 20,
+    "evidence": "A+H上市平台提供持续融资与并购能力",
+    "icon": "💰",
+    "selected": false
+   },
+   {
+    "id": "downstream",
+    "name": "金铜精深加工",
+    "weight": 15,
+    "evidence": "铜箔、铜杆、黄金珠宝等下游产业加速集聚",
+    "icon": "🔧",
+    "selected": false
+   },
+   {
+    "id": "red",
+    "name": "红色旅游资源",
+    "weight": 10,
+    "evidence": "古田会议旧址群带动红色研学与文旅消费",
+    "icon": "🇨🇳",
+    "selected": false
+   }
+  ]
+ },
+ "space_timeline": [
+  {
+   "year": 1986,
+   "old_area": 2,
+   "new_area": 0,
+   "old_pop": 303600,
+   "vacancy": 0
+  },
+  {
+   "year": 1993,
+   "old_area": 4,
+   "new_area": 0,
+   "old_pop": 314200,
+   "vacancy": 0
+  },
+  {
+   "year": 2000,
+   "old_area": 8,
+   "new_area": 0,
+   "old_pop": 324800,
+   "vacancy": 0.05
+  },
+  {
+   "year": 2010,
+   "old_area": 16,
+   "new_area": 0,
+   "old_pop": 345900,
+   "vacancy": 0.08
+  },
+  {
+   "year": 2015,
+   "old_area": 20,
+   "new_area": 0,
+   "old_pop": 356500,
+   "vacancy": 0.1
+  },
+  {
+   "year": 2024,
+   "old_area": 28,
+   "new_area": 0,
+   "old_pop": 367100,
+   "vacancy": 0.12
+  }
+ ],
+ "space": {
+  "old_city": {
+   "name": "上杭老城区",
+   "peak_pop": 367100,
+   "current_pop": 376400,
+   "vacancy": 0.12,
+   "landmark": "临江楼"
+  },
+  "new_city": {
+   "name": "金铜产业园新区",
+   "peak_pop": 0,
+   "current_pop": 42360,
+   "landmark": "紫金山金铜矿科技园"
+  },
+  "distance_km": 15,
+  "built_up_area_km2": 28,
+  "current_pop": 367100,
+  "peak_pop": 367100,
+  "vacancy_rate": 0.12
+ },
+ "migration": {
+  "outflow_total": 35300,
+  "destinations": [
+   {
+    "city": "厦门",
+    "province": "福建",
+    "count": 10600,
+    "reason": "沿海城市就业"
+   },
+   {
+    "city": "福州",
+    "province": "福建",
+    "count": 8500,
+    "reason": "省会就业与教育"
+   },
+   {
+    "city": "泉州",
+    "province": "福建",
+    "count": 7100,
+    "reason": "制造业与经商"
+   },
+   {
+    "city": "龙岩",
+    "province": "福建",
+    "count": 5600,
+    "reason": "区域中心城市就业"
+   },
+   {
+    "city": "其他地区",
+    "province": "全国",
+    "count": 3500,
+    "reason": "外出务工与求学"
+   }
+  ]
+ },
+ "achievements": [
+  {
+   "id": "shanghang_first_visit",
+   "name": "金铜之乡初探",
+   "desc": "首次进入上杭",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "shanghang_discovery",
+   "name": "紫金山发现",
+   "desc": "见证1986年紫金山金铜矿发现",
+   "condition": "year",
+   "year": 1986
+  },
+  {
+   "id": "shanghang_company",
+   "name": "紫金成立",
+   "desc": "见证1993年紫金矿业总公司成立",
+   "condition": "year",
+   "year": 1993
+  },
+  {
+   "id": "shanghang_listing",
+   "name": "香港上市",
+   "desc": "见证2003年紫金矿业香港上市",
+   "condition": "year",
+   "year": 2003
+  },
+  {
+   "id": "shanghang_copper",
+   "name": "铜产量破十万吨",
+   "desc": "见证2015年铜产量突破十万吨",
+   "condition": "year",
+   "year": 2015
+  },
+  {
+   "id": "shanghang_chain",
+   "name": "金铜拼图大师",
+   "desc": "完成上杭黄金-铜产业链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": [
+  {
+   "desc": "2025 GDP 603.03亿; ",
+   "url": "https://www.hongheiku.com/lishishuju/9424.html",
+   "year": 2023
+  }
+ ],
+ "real_anchors": {
+  "census2020": {
+   "pop": 376400
+  },
+  "stat2023": {
+   "gdp": 603.03,
+   "pop": 368000
+  }
+ }
+}

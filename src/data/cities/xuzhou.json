@@ -1,0 +1,735 @@
+{
+ "profile": {
+  "name": "徐州市",
+  "province": "江苏省",
+  "prefecture": "地级市",
+  "area": "11,258 km²",
+  "coordinates": [
+   117.28,
+   34.2
+  ],
+  "tags": [
+   "华东煤都",
+   "五省通衢",
+   "工程机械之都",
+   "两汉文化"
+  ],
+  "description": "苏鲁豫皖四省交界处的交通枢纽，华东第一大煤炭基地。百年煤炭开采支撑了新中国工业体系，也留下了塌陷地与产业单一的阵痛。如今徐州以工程机械、新能源与淮海经济区中心城实现华丽转身。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 1882,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "起家期",
+    "start": 1882,
+    "end": 1948,
+    "color": "green"
+   },
+   {
+    "name": "壮盛期",
+    "start": 1949,
+    "end": 1995,
+    "color": "yellow"
+   },
+   {
+    "name": "调整期",
+    "start": 1996,
+    "end": 2010,
+    "color": "red"
+   },
+   {
+    "name": "转型期",
+    "start": 2011,
+    "end": 2024,
+    "color": "teal"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "coal",
+    "label": "原煤产量",
+    "unit": "万吨",
+    "max": 2500,
+    "color": "#1a1a2e"
+   },
+   {
+    "key": "machinery",
+    "label": "工程机械产值",
+    "unit": "亿元",
+    "max": 2000,
+    "color": "#f97316"
+   }
+  ],
+  "spaceType": "built_up",
+  "spaceLabels": {
+   "built": "建成区",
+   "density": "人口密度"
+  },
+  "cityKey": "xuzhou",
+  "chainKeys": [
+   "coal",
+   "machinery"
+  ],
+  "chainContainerIds": [
+   "coalChain",
+   "machineryChain"
+  ],
+  "currentStatus": "工程机械之都，淮海中心",
+  "transformationAssessment": "从“华东煤都”到“中国工程机械之都”与新能源基地",
+  "transformationDetail": "徐州煤炭开采史逾百年，贾汪、大黄山等矿区支撑华东能源安全。去产能后，徐工集团、宁德时代动力电池、弘元绿能光伏等接续产业崛起，塌陷地修复为潘安湖等生态公园。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 1882,
+   "title": "徐州煤矿近代开采",
+   "category": "discovery",
+   "desc": "洋务运动背景下，徐州贾汪等地开始采用机械开采煤炭",
+   "impact": 7,
+   "pop": 180000,
+   "coal": 0,
+   "machinery": 0,
+   "gdp": 0.02,
+   "event": true
+  },
+  {
+   "year": 1938,
+   "title": "抗战煤田破坏",
+   "category": "decline",
+   "desc": "日军占领与战争破坏使煤矿生产大幅下降",
+   "impact": 6,
+   "pop": 220000,
+   "coal": 50,
+   "machinery": 0,
+   "gdp": 0.1,
+   "event": false
+  },
+  {
+   "year": 1949,
+   "title": "贾汪煤矿恢复生产",
+   "category": "peak",
+   "desc": "新中国成立后贾汪煤矿全面恢复，成为华东能源支柱",
+   "impact": 8,
+   "pop": 380000,
+   "coal": 200,
+   "machinery": 0,
+   "gdp": 0.5,
+   "event": true
+  },
+  {
+   "year": 1953,
+   "title": "徐州矿务局成立",
+   "category": "peak",
+   "desc": "统一管理的徐州矿务局成立，煤炭产量进入高速增长期",
+   "impact": 8,
+   "pop": 480000,
+   "coal": 400,
+   "machinery": 0,
+   "gdp": 1.5,
+   "event": true
+  },
+  {
+   "year": 1970,
+   "title": "煤炭产量突破千万吨",
+   "category": "peak",
+   "desc": "徐州煤炭年产量跃居华东地区首位，支援沪宁工业",
+   "impact": 9,
+   "pop": 720000,
+   "coal": 1200,
+   "machinery": 0,
+   "gdp": 8,
+   "event": true
+  },
+  {
+   "year": 1985,
+   "title": "华东最大煤炭基地",
+   "category": "peak",
+   "desc": "徐州矿区鼎盛时期煤炭产量超过2000万吨，被誉为华东煤都",
+   "impact": 9,
+   "pop": 1300000,
+   "coal": 2200,
+   "machinery": 5,
+   "gdp": 45,
+   "event": true
+  },
+  {
+   "year": 1989,
+   "title": "徐工集团组建",
+   "category": "transformation",
+   "desc": "徐州工程机械集团成立，为后续产业转型埋下种子",
+   "impact": 8,
+   "pop": 1450000,
+   "coal": 2100,
+   "machinery": 15,
+   "gdp": 90,
+   "event": true
+  },
+  {
+   "year": 1997,
+   "title": "亚洲金融危机冲击",
+   "category": "decline",
+   "desc": "煤炭市场低迷，小煤矿亏损，徐州经济增速放缓",
+   "impact": 7,
+   "pop": 1520000,
+   "coal": 1800,
+   "machinery": 40,
+   "gdp": 400,
+   "event": true
+  },
+  {
+   "year": 2001,
+   "title": "关闭小煤矿",
+   "category": "decline",
+   "desc": "安全生产整顿，大批乡镇煤矿关闭，煤炭产量开始回落",
+   "impact": 7,
+   "pop": 1580000,
+   "coal": 1600,
+   "machinery": 80,
+   "gdp": 600,
+   "event": true
+  },
+  {
+   "year": 2008,
+   "title": "工程机械崛起",
+   "category": "transformation",
+   "desc": "徐工集团进入世界工程机械前列，徐州产业结构开始重塑",
+   "impact": 9,
+   "pop": 1760000,
+   "coal": 1400,
+   "machinery": 500,
+   "gdp": 2000,
+   "event": true
+  },
+  {
+   "year": 2011,
+   "title": "列入资源枯竭城市",
+   "category": "decline",
+   "desc": "徐州被纳入全国第三批资源枯竭城市，转型压力加大",
+   "impact": 8,
+   "pop": 1860000,
+   "coal": 1200,
+   "machinery": 900,
+   "gdp": 3200,
+   "event": true
+  },
+  {
+   "year": 2016,
+   "title": "去产能与生态修复",
+   "category": "transformation",
+   "desc": "煤炭去产能加速，潘安湖等采煤塌陷地变生态公园",
+   "impact": 8,
+   "pop": 1880000,
+   "coal": 800,
+   "machinery": 1200,
+   "gdp": 5600,
+   "event": true
+  },
+  {
+   "year": 2020,
+   "title": "淮海经济区中心",
+   "category": "transformation",
+   "desc": "徐州确立淮海经济区中心城市地位，综合交通枢纽优势凸显",
+   "impact": 8,
+   "pop": 9083800,
+   "coal": 600,
+   "machinery": 1600,
+   "gdp": 7319.77,
+   "event": true,
+   "calibrated": true
+  },
+  {
+   "year": 2021,
+   "title": "2021年统计锚点",
+   "category": "transformation",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 9083800,
+   "gdp": 8117.44,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2022,
+   "title": "2022年统计锚点",
+   "category": "peak",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 9083800,
+   "gdp": 8457.84,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2023,
+   "title": "2023年统计锚点",
+   "category": "peak",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 9020000,
+   "gdp": 8900.44,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2024,
+   "title": "新能源与智能制造高地",
+   "category": "transformation",
+   "desc": "工程机械、动力电池、光伏、氢能装备形成产业集群",
+   "impact": 9,
+   "pop": 8929800,
+   "coal": 500,
+   "machinery": 2000,
+   "gdp": 8900,
+   "event": true,
+   "calibrated": true
+  }
+ ],
+ "chains": {
+  "coal": {
+   "name": "煤炭产业链",
+   "color": "#1a1a2e",
+   "icon": "⛏️",
+   "lifecycle": {
+    "birth": 1882,
+    "peak": 1985,
+    "decline": 2001,
+    "collapse": null,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "mine",
+     "name": "井下开采",
+     "x": 50,
+     "y": 50,
+     "status": "dying",
+     "peak": "1950s-1990s",
+     "decline": "2000s"
+    },
+    {
+     "id": "wash",
+     "name": "洗选加工",
+     "x": 150,
+     "y": 50,
+     "status": "dying",
+     "peak": "1970s-2000s",
+     "decline": "2010s"
+    },
+    {
+     "id": "coke",
+     "name": "焦化",
+     "x": 250,
+     "y": 50,
+     "status": "dying",
+     "peak": "1980s-2000s",
+     "decline": "2015s"
+    },
+    {
+     "id": "power",
+     "name": "燃煤发电",
+     "x": 350,
+     "y": 50,
+     "status": "active",
+     "peak": "1990s-2010s",
+     "decline": "2020s"
+    },
+    {
+     "id": "chemical",
+     "name": "煤化工",
+     "x": 450,
+     "y": 50,
+     "status": "active",
+     "peak": "2010s",
+     "decline": null
+    },
+    {
+     "id": "reclaim",
+     "name": "塌陷地治理",
+     "x": 550,
+     "y": 50,
+     "status": "emerging",
+     "peak": "2020s",
+     "decline": null
+    }
+   ],
+   "connections": [
+    {
+     "from": "mine",
+     "to": "wash",
+     "flow": "原煤"
+    },
+    {
+     "from": "wash",
+     "to": "coke",
+     "flow": "精煤"
+    },
+    {
+     "from": "wash",
+     "to": "power",
+     "flow": "动力煤"
+    },
+    {
+     "from": "coke",
+     "to": "chemical",
+     "flow": "焦炉气"
+    },
+    {
+     "from": "mine",
+     "to": "reclaim",
+     "flow": "生态修复"
+    }
+   ],
+   "employment": {
+    "peak": 200000,
+    "current": 40000
+   }
+  },
+  "machinery": {
+   "name": "工程机械产业链",
+   "color": "#f97316",
+   "icon": "🏗️",
+   "lifecycle": {
+    "birth": 1989,
+    "peak": 2024,
+    "decline": null,
+    "collapse": null,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "rd",
+     "name": "研发设计",
+     "x": 50,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "parts",
+     "name": "核心零部件",
+     "x": 150,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "assembly",
+     "name": "整机装配",
+     "x": 250,
+     "y": 200,
+     "status": "active",
+     "peak": "2010s",
+     "decline": null
+    },
+    {
+     "id": "export",
+     "name": "全球出口",
+     "x": 350,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "service",
+     "name": "后市场服务",
+     "x": 450,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "smart",
+     "name": "智能装备",
+     "x": 550,
+     "y": 200,
+     "status": "emerging",
+     "peak": "2030s",
+     "decline": null
+    }
+   ],
+   "connections": [
+    {
+     "from": "rd",
+     "to": "parts",
+     "flow": "技术"
+    },
+    {
+     "from": "parts",
+     "to": "assembly",
+     "flow": "零部件"
+    },
+    {
+     "from": "assembly",
+     "to": "export",
+     "flow": "整机"
+    },
+    {
+     "from": "assembly",
+     "to": "service",
+     "flow": "设备"
+    },
+    {
+     "from": "service",
+     "to": "smart",
+     "flow": "数据"
+    }
+   ],
+   "employment": {
+    "peak": 250000,
+    "current": 250000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "resource",
+    "name": "煤炭资源枯竭",
+    "weight": 30,
+    "evidence": "百年开采后优质煤层枯竭，开采成本上升、安全隐患增加",
+    "icon": "⛏️",
+    "selected": false
+   },
+   {
+    "id": "subsidence",
+    "name": "采煤塌陷与生态负债",
+    "weight": 25,
+    "evidence": "贾汪、潘安湖等区域大面积塌陷，生态修复压力巨大",
+    "icon": "🕳️",
+    "selected": false
+   },
+   {
+    "id": "structure",
+    "name": "产业结构单一",
+    "weight": 20,
+    "evidence": "煤炭及关联产业长期占主导，接续产业培育慢",
+    "icon": "🏭",
+    "selected": false
+   },
+   {
+    "id": "market",
+    "name": "煤炭市场周期性下行",
+    "weight": 15,
+    "evidence": "1997年亚洲金融危机与2012年后煤价持续低迷",
+    "icon": "📉",
+    "selected": false
+   },
+   {
+    "id": "talent",
+    "name": "技术人才流失",
+    "weight": 10,
+    "evidence": "传统矿工老龄化，高端制造与研发人才向苏南上海流动",
+    "icon": "👷",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "xcmg",
+    "name": "徐工集团龙头带动",
+    "weight": 30,
+    "evidence": "徐工跻身全球工程机械前列，带动千亿级产业集群",
+    "icon": "🏗️",
+    "selected": false
+   },
+   {
+    "id": "location",
+    "name": "淮海经济区中心",
+    "weight": 25,
+    "evidence": "四省交界交通枢纽，区域中心城市功能增强",
+    "icon": "🌐",
+    "selected": false
+   },
+   {
+    "id": "ecology",
+    "name": "塌陷地生态转化",
+    "weight": 15,
+    "evidence": "潘安湖、九里湖等塌陷地修复为生态文旅名片",
+    "icon": "🌳",
+    "selected": false
+   },
+   {
+    "id": "new_energy",
+    "name": "新能源产业导入",
+    "weight": 15,
+    "evidence": "动力电池、光伏、氢能等新兴产业加速集聚",
+    "icon": "🔋",
+    "selected": false
+   },
+   {
+    "id": "culture",
+    "name": "两汉文化旅游",
+    "weight": 15,
+    "evidence": "汉文化景区与工业遗产旅游吸引区域客流",
+    "icon": "🏛️",
+    "selected": false
+   }
+  ]
+ },
+ "space_timeline": [
+  {
+   "year": 1882,
+   "old_area": 5,
+   "new_area": 0,
+   "old_pop": 180000,
+   "vacancy": 0
+  },
+  {
+   "year": 1949,
+   "old_area": 22,
+   "new_area": 0,
+   "old_pop": 380000,
+   "vacancy": 0
+  },
+  {
+   "year": 1970,
+   "old_area": 45,
+   "new_area": 0,
+   "old_pop": 720000,
+   "vacancy": 0.05
+  },
+  {
+   "year": 1985,
+   "old_area": 70,
+   "new_area": 0,
+   "old_pop": 1300000,
+   "vacancy": 0.08
+  },
+  {
+   "year": 2011,
+   "old_area": 180,
+   "new_area": 0,
+   "old_pop": 1860000,
+   "vacancy": 0.12
+  },
+  {
+   "year": 2024,
+   "old_area": 260,
+   "new_area": 0,
+   "old_pop": 1980000,
+   "vacancy": 0.1
+  }
+ ],
+ "space": {
+  "old_city": {
+   "name": "徐州老城区",
+   "peak_pop": 9083800,
+   "current_pop": 8929800,
+   "vacancy": 0.1,
+   "landmark": "淮海路-彭城广场商圈"
+  },
+  "new_city": {
+   "name": "新城区与经开区",
+   "peak_pop": 0,
+   "current_pop": 500000,
+   "landmark": "徐州工程机械产业园"
+  },
+  "distance_km": 10,
+  "built_up_area_km2": 260,
+  "current_pop": 8929800,
+  "peak_pop": 9083800,
+  "vacancy_rate": 0.1
+ },
+ "migration": {
+  "outflow_total": 180000,
+  "destinations": [
+   {
+    "city": "南京",
+    "province": "江苏",
+    "count": 50000,
+    "reason": "省会就业与教育"
+   },
+   {
+    "city": "苏州",
+    "province": "江苏",
+    "count": 45000,
+    "reason": "苏南制造业就业"
+   },
+   {
+    "city": "上海",
+    "province": "上海",
+    "count": 40000,
+    "reason": "长三角核心城市机会"
+   },
+   {
+    "city": "无锡",
+    "province": "江苏",
+    "count": 25000,
+    "reason": "邻近城市就业"
+   },
+   {
+    "city": "其他地区",
+    "province": "全国",
+    "count": 20000,
+    "reason": "务工与经商"
+   }
+  ]
+ },
+ "achievements": [
+  {
+   "id": "xuzhou_first_visit",
+   "name": "五省通衢初探",
+   "desc": "首次进入徐州",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "xuzhou_mine",
+   "name": "华东煤都起源",
+   "desc": "见证1882年徐州煤矿近代开采",
+   "condition": "year",
+   "year": 1882
+  },
+  {
+   "id": "xuzhou_peak",
+   "name": "煤炭巅峰",
+   "desc": "见证1985年徐州成为华东最大煤炭基地",
+   "condition": "year",
+   "year": 1985
+  },
+  {
+   "id": "xuzhou_xcmg",
+   "name": "徐工崛起",
+   "desc": "见证1989年徐工集团组建",
+   "condition": "year",
+   "year": 1989
+  },
+  {
+   "id": "xuzhou_ecology",
+   "name": "塌陷地重生",
+   "desc": "见证2016年去产能与生态修复",
+   "condition": "year",
+   "year": 2016
+  },
+  {
+   "id": "xuzhou_chain",
+   "name": "产业转型拼图大师",
+   "desc": "完成徐州煤炭-工程机械产业链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": [
+  {
+   "desc": "2023 GDP 8900.44亿; ",
+   "url": "http://www.tjcn.org/tjgb/10js/37720.html",
+   "year": 2023
+  }
+ ],
+ "real_anchors": {
+  "census2020": {
+   "pop": 9083800
+  },
+  "stat2023": {
+   "gdp": 8900.44,
+   "pop": 9020000
+  }
+ }
+}

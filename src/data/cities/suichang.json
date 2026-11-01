@@ -1,0 +1,701 @@
+{
+ "profile": {
+  "name": "遂昌县",
+  "province": "浙江省",
+  "prefecture": "县",
+  "area": "2,539 km²",
+  "coordinates": [
+   119.27,
+   28.59
+  ],
+  "tags": [
+   "江南金矿",
+   "黄金之乡",
+   "生态康养",
+   "汤显祖故里"
+  ],
+  "description": "浙西南山区的千年古县，唐代以来即有金矿采冶，被誉为“江南金矿”。遂昌金矿国家矿山公园是中国首批国家矿山公园之一，现代黄金产业鼎盛于二十世纪末，如今正向“黄金文化+生态康养+数字矿山”多元转型。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 1976,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "起家期",
+    "start": 1976,
+    "end": 1995,
+    "color": "green"
+   },
+   {
+    "name": "壮盛期",
+    "start": 1996,
+    "end": 2010,
+    "color": "yellow"
+   },
+   {
+    "name": "调整期",
+    "start": 2011,
+    "end": 2018,
+    "color": "red"
+   },
+   {
+    "name": "转型期",
+    "start": 2019,
+    "end": 2024,
+    "color": "teal"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "gold",
+    "label": "黄金产量",
+    "unit": "千克",
+    "max": 8000,
+    "color": "#c9a84c"
+   },
+   {
+    "key": "tourism",
+    "label": "旅游收入",
+    "unit": "亿元",
+    "max": 60,
+    "color": "#22c55e"
+   }
+  ],
+  "spaceType": "built_up",
+  "spaceLabels": {
+   "built": "建成区",
+   "density": "人口密度"
+  },
+  "cityKey": "suichang",
+  "chainKeys": [
+   "gold",
+   "tourism"
+  ],
+  "chainContainerIds": [
+   "goldChain",
+   "tourismChain"
+  ],
+  "currentStatus": "生态康养，金旅融合",
+  "transformationAssessment": "从单一黄金采掘到矿山公园与生态康养融合",
+  "transformationDetail": "遂昌金矿历经千年，现代规模化开采始于二十世纪七十年代。进入新世纪，资源品位下降与生态约束倒逼转型，国家矿山公园、黄金博物馆、生态康养综合体成为城市新名片。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 1976,
+   "title": "遂昌金矿田发现",
+   "category": "discovery",
+   "desc": "浙江第七地质大队发现遂昌金矿田，拉开现代黄金开发序幕",
+   "impact": 10,
+   "pop": 180000,
+   "gold": 0,
+   "tourism": 0,
+   "gdp": 0.05,
+   "event": true
+  },
+  {
+   "year": 1980,
+   "title": "金矿筹建",
+   "category": "peak",
+   "desc": "遂昌金矿开始筹建，浙西南首个现代化黄金矿山呼之欲出",
+   "impact": 7,
+   "pop": 190000,
+   "gold": 0,
+   "tourism": 0,
+   "gdp": 0.2,
+   "event": false
+  },
+  {
+   "year": 1988,
+   "title": "遂昌金矿投产",
+   "category": "peak",
+   "desc": "遂昌金矿正式投产，建成日处理500吨选矿厂",
+   "impact": 8,
+   "pop": 200000,
+   "gold": 500,
+   "tourism": 0,
+   "gdp": 1,
+   "event": true
+  },
+  {
+   "year": 1995,
+   "title": "黄金产量跃升",
+   "category": "peak",
+   "desc": "金矿扩产改造完成，年产黄金突破千两规模",
+   "impact": 8,
+   "pop": 210000,
+   "gold": 1200,
+   "tourism": 0.5,
+   "gdp": 4,
+   "event": true
+  },
+  {
+   "year": 2000,
+   "title": "浙江最大黄金矿山",
+   "category": "peak",
+   "desc": "遂昌金矿扩产成为浙江省产量最大的黄金矿山",
+   "impact": 9,
+   "pop": 212000,
+   "gold": 3000,
+   "tourism": 1,
+   "gdp": 10,
+   "event": true
+  },
+  {
+   "year": 2005,
+   "title": "国家矿山公园获批",
+   "category": "transformation",
+   "desc": "遂昌金矿获批建设国家矿山公园，工业遗产旅游起步",
+   "impact": 8,
+   "pop": 210000,
+   "gold": 4000,
+   "tourism": 3,
+   "gdp": 18,
+   "event": true
+  },
+  {
+   "year": 2008,
+   "title": "金价波动冲击",
+   "category": "decline",
+   "desc": "国际金价大幅波动，开采成本上升，盈利承压",
+   "impact": 7,
+   "pop": 208000,
+   "gold": 3800,
+   "tourism": 4,
+   "gdp": 20,
+   "event": true
+  },
+  {
+   "year": 2010,
+   "title": "浅部资源衰减",
+   "category": "decline",
+   "desc": "经过多年开采，浅部高品位资源逐渐减少，开采深度加大",
+   "impact": 8,
+   "pop": 205000,
+   "gold": 3500,
+   "tourism": 5,
+   "gdp": 22,
+   "event": true
+  },
+  {
+   "year": 2013,
+   "title": "生态修复与旅游融合",
+   "category": "transformation",
+   "desc": "矿山生态修复与金矿旅游同步推进，绿色发展理念落地",
+   "impact": 8,
+   "pop": 202000,
+   "gold": 3000,
+   "tourism": 10,
+   "gdp": 28,
+   "event": true
+  },
+  {
+   "year": 2015,
+   "title": "矿山公园开园",
+   "category": "transformation",
+   "desc": "遂昌金矿国家矿山公园正式开园，成为华东工业旅游名片",
+   "impact": 9,
+   "pop": 200000,
+   "gold": 2800,
+   "tourism": 15,
+   "gdp": 32,
+   "event": true
+  },
+  {
+   "year": 2018,
+   "title": "数字矿山建设",
+   "category": "transformation",
+   "desc": "引入智能采矿与安全监测系统，推进绿色矿山建设",
+   "impact": 7,
+   "pop": 198000,
+   "gold": 2500,
+   "tourism": 22,
+   "gdp": 38,
+   "event": false
+  },
+  {
+   "year": 2022,
+   "title": "黄金文创品牌",
+   "category": "transformation",
+   "desc": "黄金研学、文创产品线上线下一体的金旅融合品牌崛起",
+   "impact": 8,
+   "pop": 194400,
+   "gold": 2200,
+   "tourism": 35,
+   "gdp": 172.75,
+   "event": true,
+   "calibrated": true
+  },
+  {
+   "year": 2023,
+   "title": "2023年统计锚点",
+   "category": "peak",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 194400,
+   "gdp": 181.07,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2024,
+   "title": "生态康养示范区",
+   "category": "transformation",
+   "desc": "依托温泉、森林、矿山公园建成生态康养综合体，金旅融合成型",
+   "impact": 9,
+   "pop": 194000,
+   "gold": 2000,
+   "tourism": 48,
+   "gdp": 194.35,
+   "event": true,
+   "calibrated": true
+  }
+ ],
+ "chains": {
+  "gold": {
+   "name": "黄金产业链",
+   "color": "#c9a84c",
+   "icon": "🥇",
+   "lifecycle": {
+    "birth": 1976,
+    "peak": 2000,
+    "decline": 2010,
+    "collapse": null,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "explore",
+     "name": "地质勘探",
+     "x": 50,
+     "y": 50,
+     "status": "active",
+     "peak": "1970s-1990s",
+     "decline": "2010s"
+    },
+    {
+     "id": "mining",
+     "name": "井下开采",
+     "x": 150,
+     "y": 50,
+     "status": "active",
+     "peak": "1990s-2000s",
+     "decline": "2010s"
+    },
+    {
+     "id": "crush",
+     "name": "破碎磨矿",
+     "x": 250,
+     "y": 50,
+     "status": "active",
+     "peak": "1990s-2000s",
+     "decline": null
+    },
+    {
+     "id": "leach",
+     "name": "氰化浸出",
+     "x": 350,
+     "y": 50,
+     "status": "dying",
+     "peak": "1990s-2010s",
+     "decline": "2020s"
+    },
+    {
+     "id": "smelt",
+     "name": "冶炼精炼",
+     "x": 450,
+     "y": 50,
+     "status": "active",
+     "peak": "2000s",
+     "decline": null
+    },
+    {
+     "id": "culture",
+     "name": "黄金文创",
+     "x": 550,
+     "y": 50,
+     "status": "emerging",
+     "peak": "2020s",
+     "decline": null
+    }
+   ],
+   "connections": [
+    {
+     "from": "explore",
+     "to": "mining",
+     "flow": "矿体"
+    },
+    {
+     "from": "mining",
+     "to": "crush",
+     "flow": "矿石"
+    },
+    {
+     "from": "crush",
+     "to": "leach",
+     "flow": "矿粉"
+    },
+    {
+     "from": "leach",
+     "to": "smelt",
+     "flow": "贵液"
+    },
+    {
+     "from": "smelt",
+     "to": "culture",
+     "flow": "金锭"
+    }
+   ],
+   "employment": {
+    "peak": 5000,
+    "current": 2500
+   }
+  },
+  "tourism": {
+   "name": "矿山旅游产业链",
+   "color": "#22c55e",
+   "icon": "🌿",
+   "lifecycle": {
+    "birth": 2005,
+    "peak": 2024,
+    "decline": null,
+    "collapse": null,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "park",
+     "name": "矿山公园",
+     "x": 50,
+     "y": 200,
+     "status": "active",
+     "peak": "2010s",
+     "decline": null
+    },
+    {
+     "id": "heritage",
+     "name": "矿业遗产",
+     "x": 150,
+     "y": 200,
+     "status": "active",
+     "peak": "2010s",
+     "decline": null
+    },
+    {
+     "id": "trail",
+     "name": "生态步道",
+     "x": 250,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "hotspring",
+     "name": "温泉康养",
+     "x": 350,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "homestay",
+     "name": "民宿集群",
+     "x": 450,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "service",
+     "name": "旅游服务",
+     "x": 550,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    }
+   ],
+   "connections": [
+    {
+     "from": "park",
+     "to": "heritage",
+     "flow": "客流"
+    },
+    {
+     "from": "heritage",
+     "to": "trail",
+     "flow": "体验"
+    },
+    {
+     "from": "trail",
+     "to": "hotspring",
+     "flow": "康养"
+    },
+    {
+     "from": "hotspring",
+     "to": "homestay",
+     "flow": "住宿"
+    },
+    {
+     "from": "homestay",
+     "to": "service",
+     "flow": "服务"
+    }
+   ],
+   "employment": {
+    "peak": 8000,
+    "current": 8000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "resource",
+    "name": "金矿资源衰减",
+    "weight": 30,
+    "evidence": "浅部高品位矿体逐渐减少，开采深度和成本持续上升",
+    "icon": "⛏️",
+    "selected": false
+   },
+   {
+    "id": "cost",
+    "name": "开采成本上升",
+    "weight": 20,
+    "evidence": "深井开采、通风、排水成本增加，利润空间收窄",
+    "icon": "📈",
+    "selected": false
+   },
+   {
+    "id": "price",
+    "name": "金价周期波动",
+    "weight": 20,
+    "evidence": "国际金价波动直接影响矿山盈利与投资决策",
+    "icon": "📉",
+    "selected": false
+   },
+   {
+    "id": "environment",
+    "name": "生态约束收紧",
+    "weight": 20,
+    "evidence": "浙西南生态屏障功能强化，环保标准不断提高",
+    "icon": "🌱",
+    "selected": false
+   },
+   {
+    "id": "single",
+    "name": "产业结构单一",
+    "weight": 10,
+    "evidence": "长期依赖黄金采选，接续产业培育需要时间",
+    "icon": "🏭",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "ecology",
+    "name": "生态资源优势",
+    "weight": 30,
+    "evidence": "森林覆盖率极高，温泉、古道、古村落资源丰富",
+    "icon": "🌳",
+    "selected": false
+   },
+   {
+    "id": "park",
+    "name": "矿山公园品牌",
+    "weight": 25,
+    "evidence": "首批国家矿山公园，黄金文化IP辨识度高",
+    "icon": "🏛️",
+    "selected": false
+   },
+   {
+    "id": "location",
+    "name": "长三角近郊区位",
+    "weight": 20,
+    "evidence": "毗邻杭州、金华、衢州，承接康养与研学客流",
+    "icon": "🌐",
+    "selected": false
+   },
+   {
+    "id": "culture",
+    "name": "汤显祖文化IP",
+    "weight": 15,
+    "evidence": "明代戏曲家汤显祖曾任遂昌知县，文化底蕴深厚",
+    "icon": "🎭",
+    "selected": false
+   },
+   {
+    "id": "digital",
+    "name": "数字矿山技术",
+    "weight": 10,
+    "evidence": "智能采矿、绿色选冶技术延长矿山生命周期",
+    "icon": "💻",
+    "selected": false
+   }
+  ]
+ },
+ "space_timeline": [
+  {
+   "year": 1976,
+   "old_area": 1,
+   "new_area": 0,
+   "old_pop": 180000,
+   "vacancy": 0
+  },
+  {
+   "year": 1988,
+   "old_area": 4,
+   "new_area": 0,
+   "old_pop": 200000,
+   "vacancy": 0
+  },
+  {
+   "year": 1995,
+   "old_area": 7,
+   "new_area": 0,
+   "old_pop": 210000,
+   "vacancy": 0.05
+  },
+  {
+   "year": 2005,
+   "old_area": 12,
+   "new_area": 0,
+   "old_pop": 210000,
+   "vacancy": 0.08
+  },
+  {
+   "year": 2013,
+   "old_area": 16,
+   "new_area": 0,
+   "old_pop": 202000,
+   "vacancy": 0.12
+  },
+  {
+   "year": 2024,
+   "old_area": 22,
+   "new_area": 0,
+   "old_pop": 195000,
+   "vacancy": 0.15
+  }
+ ],
+ "space": {
+  "old_city": {
+   "name": "遂昌老城",
+   "peak_pop": 210000,
+   "current_pop": 194000,
+   "vacancy": 0.15,
+   "landmark": "汤显祖纪念馆"
+  },
+  "new_city": {
+   "name": "金矿文旅新区",
+   "peak_pop": 0,
+   "current_pop": 25000,
+   "landmark": "遂昌金矿国家矿山公园"
+  },
+  "distance_km": 12,
+  "built_up_area_km2": 22,
+  "current_pop": 195000,
+  "peak_pop": 210000,
+  "vacancy_rate": 0.15
+ },
+ "migration": {
+  "outflow_total": 40000,
+  "destinations": [
+   {
+    "city": "杭州",
+    "province": "浙江",
+    "count": 12000,
+    "reason": "省会就业与教育"
+   },
+   {
+    "city": "宁波",
+    "province": "浙江",
+    "count": 8000,
+    "reason": "沿海制造业机会"
+   },
+   {
+    "city": "温州",
+    "province": "浙江",
+    "count": 6000,
+    "reason": "经商与务工"
+   },
+   {
+    "city": "金华",
+    "province": "浙江",
+    "count": 5000,
+    "reason": "邻近城市就业"
+   },
+   {
+    "city": "其他地区",
+    "province": "全国",
+    "count": 9000,
+    "reason": "外出务工与求学"
+   }
+  ]
+ },
+ "achievements": [
+  {
+   "id": "suichang_first_visit",
+   "name": "江南金矿初探",
+   "desc": "首次进入遂昌",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "suichang_discovery",
+   "name": "金矿田发现",
+   "desc": "见证1976年遂昌金矿田发现",
+   "condition": "year",
+   "year": 1976
+  },
+  {
+   "id": "suichang_mine",
+   "name": "遂昌金矿投产",
+   "desc": "见证1988年遂昌金矿正式投产",
+   "condition": "year",
+   "year": 1988
+  },
+  {
+   "id": "suichang_peak",
+   "name": "浙江最大金矿",
+   "desc": "见证2000年遂昌成为浙江最大黄金矿山",
+   "condition": "year",
+   "year": 2000
+  },
+  {
+   "id": "suichang_park",
+   "name": "矿山公园开园",
+   "desc": "见证2015年遂昌金矿国家矿山公园开园",
+   "condition": "year",
+   "year": 2015
+  },
+  {
+   "id": "suichang_chain",
+   "name": "金旅融合拼图大师",
+   "desc": "完成遂昌黄金-旅游产业链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": [
+  {
+   "desc": "2024 GDP 194.35亿; ",
+   "url": "https://tjgb.hongheiku.com/xjtjgb/xj2020/45614.html",
+   "year": 2024
+  }
+ ],
+ "real_anchors": {
+  "census2020": {
+   "pop": 194400
+  },
+  "stat2024": {
+   "gdp": 194.35,
+   "pop": 194000
+  }
+ }
+}

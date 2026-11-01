@@ -1,0 +1,1009 @@
+{
+ "note": "真实数据校准补丁 — 来源: 各市统计公报/七普 (WebSearch 逐城核实), 单位: pop=人, gdp=亿元",
+ "confirmed": {
+  "hegang": {
+   "census2020_pop": 891000,
+   "anchors": [
+    {
+     "year": 2020,
+     "pop": 891000,
+     "gdp": 340
+    },
+    {
+     "year": 2023,
+     "pop": 846000,
+     "gdp": 383.6
+    }
+   ],
+   "gdp_note": "2023 GDP 383.6亿元 (+2.2%), 一产106.2亿/二产125.1亿",
+   "sources": [
+    "http://www.tjcn.org/tjgb/08hlj/38002.html",
+    "鹤岗市第七次全国人口普查公报"
+   ]
+  },
+  "liaoyuan": {
+   "census2020_pop": 996903,
+   "anchors": [
+    {
+     "year": 2020,
+     "pop": 996903,
+     "gdp": 428
+    },
+    {
+     "year": 2023,
+     "pop": 943800,
+     "gdp": 516.88
+    }
+   ],
+   "gdp_note": "2023 GDP 516.88亿元 (+5.7%), 一产54.80亿",
+   "sources": [
+    "辽源市2023年国民经济和社会发展统计公报",
+    "辽源市第七次全国人口普查公报"
+   ]
+  },
+  "fushun": {
+   "census2020_pop": 1739000,
+   "anchors": [
+    {
+     "year": 2020,
+     "pop": 1739000,
+     "gdp": 820
+    },
+    {
+     "year": 2023,
+     "pop": 1780000,
+     "gdp": 949.3
+    }
+   ],
+   "gdp_note": "2023 GDP 949.3亿元(+4.4%); 户籍195.2万; 七普常住173.9万",
+   "sources": [
+    "https://fstjj.fushun.gov.cn/tjgb/011001/20240401/0065ed2f-682d-4dcb-946a-818e6f7f4f50.html"
+   ]
+  },
+  "fuxin": {
+   "census2020_pop": 1647000,
+   "anchors": [
+    {
+     "year": 2020,
+     "pop": 1647000,
+     "gdp": 530
+    },
+    {
+     "year": 2023,
+     "pop": 1620000,
+     "gdp": 602
+    }
+   ],
+   "gdp_note": "2023 GDP 602.0亿元(+4.6%); 户籍176.7万; 七普常住约164.7万",
+   "sources": [
+    "https://www.fuxin.gov.cn/khcs/file/2024-06-14/17183439300074028e4928e7a358a54701901547909736ef.pdf"
+   ]
+  },
+  "datong": {
+   "census2020_pop": 3108000,
+   "anchors": [
+    {
+     "year": 2020,
+     "pop": 3108000,
+     "gdp": 1369.9
+    },
+    {
+     "year": 2023,
+     "pop": 3079000,
+     "gdp": 1871.5
+    }
+   ],
+   "gdp_note": "2023 GDP 1871.5亿元(+5.1%), 常住307.9万(-2.2万), 城镇化74.4%",
+   "sources": [
+    "https://ai.dt.gov.cn/dtszf/tjgb/202404/864b5fa336a541ed84b11df17e59c75e.shtml"
+   ]
+  },
+  "huainan": {
+   "census2020_pop": null,
+   "anchors": [
+    {
+     "year": 2023,
+     "pop": 3016000,
+     "gdp": 1601.6
+    }
+   ],
+   "gdp_note": "2023 GDP 1601.6亿元(+5.1%), 一产152.5/二产657.6; 常住301.6万(-1.1万)",
+   "sources": [
+    "http://www.etmoc.com/Look/Statslisth?Id=7748"
+   ]
+  },
+  "yangquan": {
+   "census2020_pop": 1318500,
+   "anchors": [
+    {
+     "year": 2020,
+     "pop": 1318500,
+     "gdp": 741.5
+    },
+    {
+     "year": 2023,
+     "pop": 1299000,
+     "gdp": 1002.7
+    }
+   ],
+   "gdp_note": "2023 GDP 1002.7亿元(+3.2%), 常住129.9万, 城镇化73.01%",
+   "sources": [
+    "http://www.tjcn.org/tjgb/04sx/37702.html"
+   ]
+  },
+  "baiyin": {
+   "census2020_pop": 1510200,
+   "anchors": [
+    {
+     "year": 2020,
+     "pop": 1510200,
+     "gdp": 497
+    },
+    {
+     "year": 2023,
+     "pop": 1488100,
+     "gdp": 626.6
+    }
+   ],
+   "gdp_note": "2023 GDP约626.6亿元, 常住148.81万(-1.4万), 人均44967元",
+   "sources": [
+    "http://www.tjcn.org/tjgb/28gs/37904.html"
+   ]
+  },
+  "jinchang": {
+   "census2020_pop": 438000,
+   "anchors": [
+    {
+     "year": 2020,
+     "pop": 438000,
+     "gdp": 420
+    },
+    {
+     "year": 2023,
+     "pop": 432000,
+     "gdp": 567.73
+    }
+   ],
+   "gdp_note": "2023 GDP 567.73亿元, 常住43.20万, 城镇化79.83%",
+   "sources": [
+    "2023年金昌市国民经济和社会发展统计公报"
+   ]
+  },
+  "yulin": {
+   "census2020_pop": 3625000,
+   "anchors": [
+    {
+     "year": 2020,
+     "pop": 3625000,
+     "gdp": 4089.66
+    },
+    {
+     "year": 2023,
+     "pop": 3607300,
+     "gdp": 7091.44
+    }
+   ],
+   "gdp_note": "2023 GDP 7091.44亿元(+4.4%), 二产5118.36亿; 常住360.73万",
+   "sources": [
+    "http://www.tjcn.org/tjgb/27sx/37901.html"
+   ]
+  },
+  "daqing": {
+   "census2020_pop": 2785000,
+   "anchors": [
+    {
+     "year": 2020,
+     "pop": 2785000,
+     "gdp": 2680
+    },
+    {
+     "year": 2023,
+     "pop": 2700000,
+     "gdp": 2862.5
+    }
+   ],
+   "gdp_note": "2023 GDP 2862.5亿元(+1.8%); 户籍261.3万; 常住2023末约270万/2024末266.3万",
+   "sources": [
+    "https://www.daqing.gov.cn/daqing/tongjigongbao/202410/c05_357404.shtml"
+   ]
+  },
+  "kelamayi": {
+   "census2020_pop": 490300,
+   "anchors": [
+    {
+     "year": 2010,
+     "pop": 490300,
+     "gdp": 710.2
+    },
+    {
+     "year": 2020,
+     "pop": 490300,
+     "gdp": 886.9
+    },
+    {
+     "year": 2022,
+     "pop": 490300,
+     "gdp": 1188.1
+    },
+    {
+     "year": 2023,
+     "pop": 489000,
+     "gdp": 1260.5
+    }
+   ],
+   "gdp_note": "2023 GDP 1260.5亿; ",
+   "sources": [
+    "https://www.klmy.gov.cn/klmys/tjgb/202404/657c5d877dcf47fd948021980f788f11.shtml",
+    "http://www.tjcn.org/tjgb/31xj/37922.html",
+    "https://www.hongheiku.com/shijirenkou/2474.html",
+    "https://tjgb.hongheiku.com/djs/58985.html"
+   ]
+  },
+  "yumen": {
+   "census2020_pop": 137700,
+   "anchors": [
+    {
+     "year": 2020,
+     "pop": 137700,
+     "gdp": 186.8
+    },
+    {
+     "year": 2021,
+     "pop": 137700,
+     "gdp": 222.5
+    },
+    {
+     "year": 2022,
+     "pop": 137700,
+     "gdp": 245.1
+    },
+    {
+     "year": 2023,
+     "pop": 135700,
+     "gdp": 261.7
+    }
+   ],
+   "gdp_note": "2023 GDP 261.7亿; ",
+   "sources": [
+    "https://tjgb.hongheiku.com/djs/51581.html",
+    "https://tjgb.hongheiku.com/10341.html",
+    "https://www.hongheiku.com/xianjirank/gsxsqrk/8294.html"
+   ]
+  },
+  "geermu": {
+   "census2020_pop": 221900,
+   "anchors": [
+    {
+     "year": 2020,
+     "pop": 221900,
+     "gdp": 305.93
+    },
+    {
+     "year": 2022,
+     "pop": 221900,
+     "gdp": 446.45
+    },
+    {
+     "year": 2023,
+     "pop": 225300,
+     "gdp": 427.45
+    }
+   ],
+   "gdp_note": "2023 GDP 427.45亿; ",
+   "sources": [
+    "http://www.etmoc.com/look/Statslisth?Id=10924",
+    "https://zgrkk.com/reports/15353.html",
+    "https://www.hongheiku.com/xianjirank/qhxsqrk/11169.html"
+   ]
+  },
+  "tangshan": {
+   "census2020_pop": 7718000,
+   "anchors": [
+    {
+     "year": 2010,
+     "pop": 7718000,
+     "gdp": 4469
+    },
+    {
+     "year": 2015,
+     "pop": 7718000,
+     "gdp": 6103
+    },
+    {
+     "year": 2020,
+     "pop": 7718000,
+     "gdp": 7210.9
+    },
+    {
+     "year": 2023,
+     "pop": 7719500,
+     "gdp": 9133.3
+    }
+   ],
+   "gdp_note": "2023 GDP 9133.3亿; ",
+   "sources": [
+    "http://www.etmoc.com/look/Statslisth?Id=9096",
+    "https://www.hongheiku.com/shijirenkou/2045.html",
+    "https://www.stats.gov.cn/zt_18555/zdtjgz/zgrkpc/dqcrkpc/ggl/202302/t20230215_1903999.html",
+    "https://maptable.com/tjgb/2023/%E6%B2%B3%E5%8C%97%E7%9C%81/%E5%94%90%E5%B1%B1%E5%B8%82/report/he-bei-sheng-tang-shan-shi-2023-nian-guo-min-jing-ji-he-she-hui-fa-zhan-tong-ji-gong-bao-2"
+   ]
+  },
+  "xuzhou": {
+   "census2020_pop": 9083800,
+   "anchors": [
+    {
+     "year": 2020,
+     "pop": 9083800,
+     "gdp": 7319.77
+    },
+    {
+     "year": 2021,
+     "pop": 9083800,
+     "gdp": 8117.44
+    },
+    {
+     "year": 2022,
+     "pop": 9083800,
+     "gdp": 8457.84
+    },
+    {
+     "year": 2023,
+     "pop": 9020000,
+     "gdp": 8900.44
+    }
+   ],
+   "gdp_note": "2023 GDP 8900.44亿; ",
+   "sources": [
+    "http://www.tjcn.org/tjgb/10js/37720.html",
+    "https://www.hongheiku.com/lishishuju/9201.html",
+    "https://tjgb.hongheiku.com/11727.html",
+    "http://www.tjcn.org/tjgb/10js/36620.html"
+   ]
+  },
+  "daye": {
+   "census2020_pop": 871200,
+   "anchors": [
+    {
+     "year": 2020,
+     "pop": 871200,
+     "gdp": 647.18
+    },
+    {
+     "year": 2021,
+     "pop": 871200,
+     "gdp": 751.12
+    },
+    {
+     "year": 2022,
+     "pop": 871200,
+     "gdp": 860.79
+    },
+    {
+     "year": 2024,
+     "pop": 871200,
+     "gdp": 930.71
+    },
+    {
+     "year": 2023,
+     "pop": 862400,
+     "gdp": 863.15
+    }
+   ],
+   "gdp_note": "2023 GDP 863.15亿; ",
+   "sources": [
+    "http://www.etmoc.com/look/Statslisth?Id=11040",
+    "https://www.hbdaye.gov.cn/zfxxgk/fdgknr/tjxx/202312/t20231212_1078817.shtml",
+    "https://tjgb.hongheiku.com/xjtjgb/xj2020/47355.html"
+   ]
+  },
+  "lingbao": {
+   "census2020_pop": 656600,
+   "anchors": [
+    {
+     "year": 2020,
+     "pop": 656600,
+     "gdp": 428.7
+    },
+    {
+     "year": 2021,
+     "pop": 656600,
+     "gdp": 465.7
+    },
+    {
+     "year": 2023,
+     "pop": 658500,
+     "gdp": 484.1
+    }
+   ],
+   "gdp_note": "2023 GDP 484.1亿; ",
+   "sources": [
+    "https://www.zgrkk.com/reports/5195.html",
+    "https://www.sohu.com/a/468798961_121123740"
+   ]
+  },
+  "zhaoyuan": {
+   "census2020_pop": 543100,
+   "anchors": [
+    {
+     "year": 2020,
+     "pop": 543100,
+     "gdp": 697.56
+    },
+    {
+     "year": 2021,
+     "pop": 543100,
+     "gdp": 749.42
+    },
+    {
+     "year": 2024,
+     "pop": 543100,
+     "gdp": 916.33
+    },
+    {
+     "year": 2023,
+     "pop": 530800,
+     "gdp": 868.45
+    }
+   ],
+   "gdp_note": "2023 GDP 868.45亿; ",
+   "sources": [
+    "http://www.etmoc.com/look/Statslisth?Id=11475",
+    "https://tjj.yantai.gov.cn/art/2021/6/5/art_117_2876181.html",
+    "https://tjgb.hongheiku.com/xjtjgb/xj2020/60677.html"
+   ]
+  },
+  "dexing": {
+   "census2020_pop": 293600,
+   "anchors": [
+    {
+     "year": 2020,
+     "pop": 293600,
+     "gdp": 165.96
+    },
+    {
+     "year": 2021,
+     "pop": 293600,
+     "gdp": 191.3
+    },
+    {
+     "year": 2022,
+     "pop": 293600,
+     "gdp": 202.06
+    },
+    {
+     "year": 2023,
+     "pop": 289400,
+     "gdp": 206.4
+    }
+   ],
+   "gdp_note": "2023 GDP 206.4亿; ",
+   "sources": [
+    "https://www.dxs.gov.cn/dxstjj/dxstjjtjxx2/202408/d3178b1701554b539cc341b4b1c47b67.shtml",
+    "https://tjgb.hongheiku.com/16631.html",
+    "https://zgrkk.com/reports/11680.html"
+   ]
+  },
+  "dongchuan": {
+   "census2020_pop": 260700,
+   "anchors": [
+    {
+     "year": 2021,
+     "pop": 260700,
+     "gdp": 132.85
+    },
+    {
+     "year": 2022,
+     "pop": 260700,
+     "gdp": 138.2
+    },
+    {
+     "year": 2023,
+     "pop": 256500,
+     "gdp": 140.68
+    }
+   ],
+   "gdp_note": "2023 GDP 140.68亿; ",
+   "sources": [
+    "https://tjgb.hongheiku.com/xjtjgb/xj2020/55262.html",
+    "https://tjgb.hongheiku.com/rkpcgb/25432.html",
+    "http://www.kmdc.gov.cn/c/2024-01-30/6804493.shtml"
+   ]
+  },
+  "gejiu": {
+   "census2020_pop": 419300,
+   "anchors": [
+    {
+     "year": 2022,
+     "pop": 419300,
+     "gdp": 427.89
+    },
+    {
+     "year": 2023,
+     "pop": 414500,
+     "gdp": 417.1
+    }
+   ],
+   "gdp_note": "2023 GDP 417.1亿; ",
+   "sources": [
+    "https://www.hhgj.gov.cn/info/13291/376721.htm",
+    "https://tjgb.hongheiku.com/16096.html",
+    "https://www.hhgj.gov.cn/info/13291/376431.htm"
+   ]
+  },
+  "lengshuijiang": {
+   "census2020_pop": 329900,
+   "anchors": [
+    {
+     "year": 2021,
+     "pop": 329900,
+     "gdp": 257.3
+    },
+    {
+     "year": 2022,
+     "pop": 329900,
+     "gdp": 264.8
+    },
+    {
+     "year": 2023,
+     "pop": 325900,
+     "gdp": 267.8
+    }
+   ],
+   "gdp_note": "2023 GDP 267.8亿; ",
+   "sources": [
+    "https://tjgb.hongheiku.com/xjtjgb/xj2020/46842.html",
+    "https://tjgb.hongheiku.com/12994.html",
+    "http://www.etmoc.com/look/Statslisth?Id=11755"
+   ]
+  },
+  "wanshan": {
+   "census2020_pop": 160600,
+   "anchors": [
+    {
+     "year": 2021,
+     "pop": 160600,
+     "gdp": 86.46
+    },
+    {
+     "year": 2024,
+     "pop": 160600,
+     "gdp": 96.81
+    },
+    {
+     "year": 2023,
+     "pop": 162000,
+     "gdp": 89.2
+    }
+   ],
+   "gdp_note": "2023 GDP 89.2亿; ",
+   "sources": [
+    "https://tjgb.hongheiku.com/xjtjgb/xj2020/53032.html",
+    "http://www.trws.gov.cn/zwgk/zfsj/tjxx/202106/t20210617_83502941.html",
+    "https://tjgb.hongheiku.com/xjtjgb/xj2020/31354.html"
+   ]
+  },
+  "baotou": {
+   "census2020_pop": 2709400,
+   "anchors": [
+    {
+     "year": 2022,
+     "pop": 2709400,
+     "gdp": 3718.9
+    },
+    {
+     "year": 2023,
+     "pop": 2709400,
+     "gdp": 4263.9
+    },
+    {
+     "year": 2024,
+     "pop": 2772100,
+     "gdp": 4711.9
+    }
+   ],
+   "gdp_note": "2024 GDP 4711.9亿; ",
+   "sources": [
+    "http://www.tjcn.org/tjgb/05nmg/37706.html",
+    "https://www.hongheiku.com/shijirenkou/1626.html",
+    "https://www.sohu.com/a/467554204_121106854"
+   ]
+  },
+  "panzhihua": {
+   "census2020_pop": 1212000,
+   "anchors": [
+    {
+     "year": 2000,
+     "pop": 1212000,
+     "gdp": 123.43
+    },
+    {
+     "year": 2015,
+     "pop": 1212000,
+     "gdp": 925.18
+    },
+    {
+     "year": 2023,
+     "pop": 1212000,
+     "gdp": 1303.8
+    },
+    {
+     "year": 2023,
+     "pop": 1218000,
+     "gdp": 1395.24
+    }
+   ],
+   "gdp_note": "2024 GDP 1395.24亿; ",
+   "sources": [
+    "http://tjj.panzhihua.gov.cn/zfxxgk/fdzdgknr_1/tjsj/tjgb/10119214.shtml",
+    "http://tjj.panzhihua.gov.cn/zfxxgk/fdzdgknr_1/tjsj/tjgb/10209742.shtml",
+    "https://gdp.gotohui.com/data-302"
+   ]
+  },
+  "shizuishan": {
+   "census2020_pop": 751400,
+   "anchors": [
+    {
+     "year": 2022,
+     "pop": 751400,
+     "gdp": 693.34
+    },
+    {
+     "year": 2023,
+     "pop": 751400,
+     "gdp": 698.98
+    },
+    {
+     "year": 2023,
+     "pop": 750900,
+     "gdp": 565.53
+    }
+   ],
+   "gdp_note": "2024 GDP 565.53亿; 2024年GDP 565.53亿元为第五次全国经济普查修订基数后口径（名义值低于2023年但实际增长3.2%）；2023年GDP 698.98亿元为当年公报原口径",
+   "sources": [
+    "http://www.tjcn.org/tjgb/30nx/37917.html",
+    "https://www.sohu.com/a/892833371_121106869",
+    "https://tjgb.hongheiku.com/12130.html"
+   ]
+  },
+  "changjiang": {
+   "census2020_pop": 232100,
+   "anchors": [
+    {
+     "year": 2023,
+     "pop": 232100,
+     "gdp": 162.84
+    },
+    {
+     "year": 2024,
+     "pop": 236600,
+     "gdp": 165.19
+    }
+   ],
+   "gdp_note": "2024 GDP 165.19亿; ",
+   "sources": [
+    "https://tjgb.hongheiku.com/xjtjgb/xj2020/52729.html",
+    "https://tjgb.hongheiku.com/xjtjgb/xj2020/60383.html",
+    "https://maptable.com/tjgb/rundata/16190/1629256573-db73cb323101489ab9e9a4a3dcdc8fd6.pdf"
+   ]
+  },
+  "pingguo": {
+   "census2020_pop": 455600,
+   "anchors": [
+    {
+     "year": 2022,
+     "pop": 455600,
+     "gdp": 314.11
+    },
+    {
+     "year": 2023,
+     "pop": 455600,
+     "gdp": 337.33
+    },
+    {
+     "year": 2023,
+     "pop": 450100,
+     "gdp": 336.71
+    }
+   ],
+   "gdp_note": "2024 GDP 336.71亿; ",
+   "sources": [
+    "http://www.etmoc.com/look/Statslisth?Id=9427",
+    "https://www.hongheiku.com/xianjirank/gxxsq/8645.html",
+    "https://tjgb.hongheiku.com/xjtjgb/xj2020/64656.html"
+   ]
+  },
+  "yunfu": {
+   "census2020_pop": 2383400,
+   "anchors": [
+    {
+     "year": 2010,
+     "pop": 2383400,
+     "gdp": 402.03
+    },
+    {
+     "year": 2017,
+     "pop": 2383400,
+     "gdp": 840.03
+    },
+    {
+     "year": 2022,
+     "pop": 2383400,
+     "gdp": 1162.43
+    },
+    {
+     "year": 2023,
+     "pop": 2383400,
+     "gdp": 1207.42
+    },
+    {
+     "year": 2024,
+     "pop": 2397300,
+     "gdp": 1309.19
+    }
+   ],
+   "gdp_note": "2024 GDP 1309.19亿; ",
+   "sources": [
+    "http://www.tjcn.org/tjgb/19gd/37842.html",
+    "https://tjgb.hongheiku.com/xjtjgb/xj2020/60423.html",
+    "https://gdp.gotohui.com/data-68"
+   ]
+  },
+  "suichang": {
+   "census2020_pop": 194400,
+   "anchors": [
+    {
+     "year": 2022,
+     "pop": 194400,
+     "gdp": 172.75
+    },
+    {
+     "year": 2023,
+     "pop": 194400,
+     "gdp": 181.07
+    },
+    {
+     "year": 2024,
+     "pop": 194000,
+     "gdp": 194.35
+    }
+   ],
+   "gdp_note": "2024 GDP 194.35亿; ",
+   "sources": [
+    "https://tjgb.hongheiku.com/xjtjgb/xj2020/45614.html",
+    "https://tjgb.hongheiku.com/xjtjgb/xj2020/58258.html"
+   ]
+  },
+  "shanghang": {
+   "census2020_pop": 376400,
+   "anchors": [
+    {
+     "year": 2022,
+     "pop": 376400,
+     "gdp": 513.3
+    },
+    {
+     "year": 2023,
+     "pop": 376400,
+     "gdp": 526.14
+    },
+    {
+     "year": 2024,
+     "pop": 376400,
+     "gdp": 556.8
+    },
+    {
+     "year": 2023,
+     "pop": 368000,
+     "gdp": 603.03
+    }
+   ],
+   "gdp_note": "2025 GDP 603.03亿; ",
+   "sources": [
+    "https://www.hongheiku.com/lishishuju/9424.html",
+    "https://www.shanghang.gov.cn/bm/tjj/"
+   ]
+  },
+  "wansheng": {
+   "census2020_pop": 235900,
+   "anchors": [
+    {
+     "year": 2022,
+     "pop": 235900,
+     "gdp": 239.5
+    },
+    {
+     "year": 2023,
+     "pop": 235900,
+     "gdp": 261.62
+    },
+    {
+     "year": 2024,
+     "pop": 229000,
+     "gdp": 291.08
+    }
+   ],
+   "gdp_note": "2024 GDP 291.08亿; 万盛经开区发布独立统计公报（重庆市直辖管理，统计上与綦江区分开），无需使用綦江区数据；七普常住人口235,927人",
+   "sources": [
+    "https://ws.cq.gov.cn/bm/tjj/zwgk_70287/fdzdgknr_70290/tjxx_197374/tjgb/202406/t20240613_13289457.html",
+    "https://www.cadz.org.cn/public_html/upload/file/20250829/1756458333113070.pdf"
+   ]
+  },
+  "mozhugongka": {
+   "census2020_pop": 49500,
+   "anchors": [
+    {
+     "year": 2023,
+     "pop": 49500,
+     "gdp": 70.35
+    },
+    {
+     "year": 2024,
+     "pop": 49500,
+     "gdp": 135.19
+    },
+    {
+     "year": 2024,
+     "pop": 51300,
+     "gdp": 196.69
+    }
+   ],
+   "gdp_note": "2025 GDP 196.69亿; 2023年GDP 70.35亿元为2023年公报原口径；据2025年公报注，2021-2023年GDP已按第五次全国经济普查修订，故2024年(135.19亿)与2025年(196.69亿)数值不可与原口径直接比较；七普常住人口49,511人（拉萨市七普公报）",
+   "sources": [
+    "https://www.xzmzgk.gov.cn/mzfkxzf/sjkf/202405/5b6e4bf132654f3d9eb5a64b3836959a.shtml",
+    "https://tjgb.hongheiku.com/xjtjgb/xj2020/66456.html",
+    "https://tjgb.hongheiku.com/xjtjgb/xj2020/78690.html",
+    "https://tjgb.hongheiku.com/12450.html"
+   ]
+  },
+  "pingxiang": {
+   "census2020_pop": null,
+   "anchors": [
+    {
+     "year": 2023,
+     "pop": 1801600,
+     "gdp": 1151.66
+    }
+   ],
+   "gdp_note": "2023 GDP 1151.66亿元(+3.0%), 一产77.71/二产475.44; 常住180.16万(-0.72万)",
+   "sources": [
+    "http://www.tjcn.org/tjgb/14jx/37762.html"
+   ]
+  },
+  "huaibei": {
+   "census2020_pop": 1970000,
+   "anchors": [
+    {
+     "year": 2020,
+     "pop": 1970000,
+     "gdp": null
+    },
+    {
+     "year": 2023,
+     "pop": 1944000,
+     "gdp": 1365.5
+    }
+   ],
+   "gdp_note": "2023 GDP 1365.5亿元(+5.3%), 一产89.7/二产584.9/三产690.9; 常住194.4万; 七普约197.0万",
+   "sources": [
+    "https://tj.huaibei.gov.cn/xwzx/tjgb/index.html"
+   ]
+  },
+  "tongling": {
+   "census2020_pop": null,
+   "anchors": [
+    {
+     "year": 2023,
+     "pop": 1301000,
+     "gdp": 1229.8
+    }
+   ],
+   "gdp_note": "2023 GDP 1229.8亿元(+5.6%), 一产63.5/二产569.2/三产597.1; 常住130.1万(持平)",
+   "sources": [
+    "http://www.tjcn.org/tjgb/12ah/37742.html"
+   ]
+  },
+  "huludao": {
+   "census2020_pop": null,
+   "anchors": [
+    {
+     "year": 2023,
+     "pop": 2337000,
+     "gdp": 911.6
+    }
+   ],
+   "gdp_note": "2023 GDP 911.6亿元(+6.0%), 一产158.0/二产327.4/三产426.2; 常住233.7万(1‰抽样)",
+   "sources": [
+    "http://www.tjcn.org/tjgb/06ln/37958.html"
+   ]
+  },
+  "jiaozuo": {
+   "census2020_pop": null,
+   "anchors": [
+    {
+     "year": 2023,
+     "pop": 3520000,
+     "gdp": 2233.93
+    }
+   ],
+   "gdp_note": "2023 GDP 2233.93亿元(+3.9%), 一产134.51/二产862.10/三产1237.32; 常住352.00万",
+   "sources": [
+    "http://www.tjcn.org/tjgb/16hn/37979.html"
+   ]
+  },
+  "hebi": {
+   "census2020_pop": null,
+   "anchors": [
+    {
+     "year": 2023,
+     "pop": 1568000,
+     "gdp": 1033.17
+    }
+   ],
+   "gdp_note": "2023 GDP 1033.17亿元(+3.1%), 一产74.78/二产543.25/三产415.14; 常住156.8万",
+   "sources": [
+    "http://www.tjcn.org/tjgb/16hn/37790.html"
+   ]
+  },
+  "xinyu": {
+   "census2020_pop": null,
+   "anchors": [
+    {
+     "year": 2023,
+     "pop": 1198500,
+     "gdp": 1261.89
+    }
+   ],
+   "gdp_note": "2023 GDP 1261.89亿元(+2.5%), 一产74.62/二产510.93/三产676.34; 常住119.85万",
+   "sources": [
+    "http://www.tjcn.org/tjgb/14jx/37763.html"
+   ]
+  },
+  "lianyuan": {
+   "census2020_pop": null,
+   "anchors": [
+    {
+     "year": 2023,
+     "pop": 840100,
+     "gdp": 356.3
+    }
+   ],
+   "gdp_note": "2023 GDP 356.3亿元(+4.6%), 一产56.7/二产121.7; 常住84.01万",
+   "sources": [
+    "http://www.etmoc.com/look/Statslisth?Id=11759"
+   ]
+  },
+  "qitaihe": {
+   "census2020_pop": null,
+   "anchors": [
+    {
+     "year": 2022,
+     "pop": null,
+     "gdp": 268.9
+    },
+    {
+     "year": 2023,
+     "pop": 656800,
+     "gdp": null
+    }
+   ],
+   "gdp_note": "2022 GDP 268.9亿元(+5.3%); 2023常住65.68万（检索值，推断级）",
+   "sources": [
+    "http://www.tjcn.org/tjgb/08hlj/37653.html"
+   ]
+  },
+  "shuangyashan": {
+   "census2020_pop": null,
+   "anchors": [
+    {
+     "year": 2022,
+     "pop": 1170000,
+     "gdp": 557.2
+    }
+   ],
+   "gdp_note": "2022 GDP 557.2亿元(+4.4%), 一产206.4/二产157.9/三产192.8; 常住117.0万(5‰抽样)",
+   "sources": [
+    "http://www.tjcn.org/tjgb/08hlj/37652.html"
+   ]
+  }
+ }
+}

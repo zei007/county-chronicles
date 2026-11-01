@@ -1,0 +1,692 @@
+{
+ "profile": {
+  "name": "榆林市",
+  "province": "陕西省",
+  "prefecture": "地级市",
+  "area": "42,920 km²",
+  "coordinates": [
+   109.73,
+   38.28
+  ],
+  "tags": [
+   "能源新都",
+   "煤海气田",
+   "塞上驼城",
+   "西电东送"
+  ],
+  "description": "陕北能源化工基地的核心，晋陕蒙能源金三角重镇。煤炭、天然气、石油资源富集，是新世纪中国能源安全的战略支点，正从“卖资源”向现代煤化工、高端能化、新能源转型。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 1982,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "起家期",
+    "start": 1982,
+    "end": 1997,
+    "color": "green"
+   },
+   {
+    "name": "壮盛期",
+    "start": 1998,
+    "end": 2012,
+    "color": "yellow"
+   },
+   {
+    "name": "调整期",
+    "start": 2013,
+    "end": 2020,
+    "color": "red"
+   },
+   {
+    "name": "转型期",
+    "start": 2021,
+    "end": 2024,
+    "color": "teal"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "coal",
+    "label": "煤炭产量",
+    "unit": "亿吨",
+    "max": 6,
+    "color": "#1a1a2e"
+   },
+   {
+    "key": "gas",
+    "label": "天然气产量",
+    "unit": "亿m³",
+    "max": 250,
+    "color": "#3b82f6"
+   }
+  ],
+  "spaceType": "built_up",
+  "spaceLabels": {
+   "built": "建成区",
+   "density": "人口密度"
+  },
+  "cityKey": "yulin",
+  "chainKeys": [
+   "coal_chemical",
+   "natural_gas"
+  ],
+  "chainContainerIds": [
+   "coalChemicalChain",
+   "gasChain"
+  ],
+  "currentStatus": "能源新都，能化转型",
+  "transformationAssessment": "从“挖煤卖煤”到现代煤化工与新能源基地",
+  "transformationDetail": "榆林煤炭预测储量占全国1/5，天然气储量丰富。新世纪以来依托西电东送、西气东输国家战略快速崛起，但也面临资源依赖、水资源约束与“双碳”转型压力。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 1982,
+   "title": "神府煤田发现",
+   "category": "discovery",
+   "desc": "地质勘探发现神府-东胜大型煤田，榆林能源开发序幕拉开",
+   "impact": 10,
+   "pop": 220000,
+   "coal": 0.01,
+   "gas": 0,
+   "gdp": 0.5,
+   "event": true
+  },
+  {
+   "year": 1988,
+   "title": "榆林地区撤地设市",
+   "category": "peak",
+   "desc": "榆林撤地设市，城市进入快速发展轨道",
+   "impact": 7,
+   "pop": 280000,
+   "coal": 0.05,
+   "gas": 0,
+   "gdp": 5,
+   "event": false
+  },
+  {
+   "year": 1998,
+   "title": "能源金三角崛起",
+   "category": "peak",
+   "desc": "神华、中石油等大型能源企业入驻，煤炭产量突破千万吨",
+   "impact": 8,
+   "pop": 320000,
+   "coal": 0.2,
+   "gas": 1,
+   "gdp": 60,
+   "event": true
+  },
+  {
+   "year": 2002,
+   "title": "西气东输主力气源",
+   "category": "peak",
+   "desc": "长庆气田榆林区块成为西气东输重要气源地",
+   "impact": 9,
+   "pop": 340000,
+   "coal": 0.5,
+   "gas": 30,
+   "gdp": 200,
+   "event": true
+  },
+  {
+   "year": 2005,
+   "title": "亿吨煤都",
+   "category": "peak",
+   "desc": "煤炭年产量突破1亿吨，榆林跻身全国产煤大市前列",
+   "impact": 9,
+   "pop": 350000,
+   "coal": 1.2,
+   "gas": 60,
+   "gdp": 400,
+   "event": true
+  },
+  {
+   "year": 2008,
+   "title": "能源化工基地成型",
+   "category": "peak",
+   "desc": "榆神、榆横工业区启动，煤制油、煤制烯烃项目落地",
+   "impact": 8,
+   "pop": 335000,
+   "coal": 2,
+   "gas": 90,
+   "gdp": 900,
+   "event": true
+  },
+  {
+   "year": 2012,
+   "title": "产量巅峰",
+   "category": "peak",
+   "desc": "煤炭产量突破3亿吨，GDP增速连续多年位居陕西前列",
+   "impact": 10,
+   "pop": 340000,
+   "coal": 3.2,
+   "gas": 120,
+   "gdp": 2200,
+   "event": true
+  },
+  {
+   "year": 2013,
+   "title": "煤价下跌冲击",
+   "category": "decline",
+   "desc": "全国煤炭产能过剩，煤价腰斩，榆林经济增速骤降",
+   "impact": 8,
+   "pop": 338000,
+   "coal": 3.5,
+   "gas": 130,
+   "gdp": 2400,
+   "event": true
+  },
+  {
+   "year": 2016,
+   "title": "去产能阵痛",
+   "category": "decline",
+   "desc": "关闭落后产能煤矿，财政收入下滑，转型压力凸显",
+   "impact": 7,
+   "pop": 340000,
+   "coal": 3.6,
+   "gas": 140,
+   "gdp": 2600,
+   "event": false
+  },
+  {
+   "year": 2019,
+   "title": "现代煤化工升级",
+   "category": "transformation",
+   "desc": "煤制油、煤制乙二醇、高端聚烯烃项目投产，延伸产业链",
+   "impact": 8,
+   "pop": 362000,
+   "coal": 4.6,
+   "gas": 160,
+   "gdp": 4100,
+   "event": true
+  },
+  {
+   "year": 2020,
+   "title": "2020年统计锚点",
+   "category": "transformation",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 3625000,
+   "gdp": 4089.66,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2021,
+   "title": "双碳转型压力",
+   "category": "transformation",
+   "desc": "能耗双控与双碳目标倒逼榆林加快能源结构调整",
+   "impact": 9,
+   "pop": 362000,
+   "coal": 5,
+   "gas": 180,
+   "gdp": 5400,
+   "event": true
+  },
+  {
+   "year": 2023,
+   "title": "2023年统计锚点",
+   "category": "peak",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 3607300,
+   "gdp": 7091.44,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2024,
+   "title": "能源革命创新区",
+   "category": "transformation",
+   "desc": "可再生能源装机突破，氢能、储能、CCUS 示范推进，建设高端能化基地",
+   "impact": 9,
+   "pop": 3571227,
+   "coal": 5.2,
+   "gas": 200,
+   "gdp": 7000,
+   "event": true,
+   "calibrated": true
+  }
+ ],
+ "chains": {
+  "coal_chemical": {
+   "name": "现代煤化工产业链",
+   "color": "#1a1a2e",
+   "icon": "⚗️",
+   "lifecycle": {
+    "birth": 2002,
+    "peak": 2019,
+    "decline": null,
+    "collapse": null,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "mine",
+     "name": "煤矿开采",
+     "x": 50,
+     "y": 50,
+     "status": "active",
+     "peak": "2000s",
+     "decline": null
+    },
+    {
+     "id": "wash",
+     "name": "洗选提质",
+     "x": 150,
+     "y": 50,
+     "status": "active",
+     "peak": "2000s",
+     "decline": null
+    },
+    {
+     "id": "gasification",
+     "name": "煤气化",
+     "x": 250,
+     "y": 50,
+     "status": "growing",
+     "peak": "2010s",
+     "decline": null
+    },
+    {
+     "id": "ft",
+     "name": "煤制油",
+     "x": 350,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "olefin",
+     "name": "煤制烯烃",
+     "x": 450,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "fine",
+     "name": "精细化工",
+     "x": 550,
+     "y": 50,
+     "status": "emerging",
+     "peak": "2030s",
+     "decline": null
+    }
+   ],
+   "connections": [
+    {
+     "from": "mine",
+     "to": "wash",
+     "flow": "原煤"
+    },
+    {
+     "from": "wash",
+     "to": "gasification",
+     "flow": "精煤"
+    },
+    {
+     "from": "gasification",
+     "to": "ft",
+     "flow": "合成气"
+    },
+    {
+     "from": "gasification",
+     "to": "olefin",
+     "flow": "甲醇"
+    },
+    {
+     "from": "olefin",
+     "to": "fine",
+     "flow": "聚烯烃"
+    }
+   ],
+   "employment": {
+    "peak": 120000,
+    "current": 100000
+   }
+  },
+  "natural_gas": {
+   "name": "天然气产业链",
+   "color": "#3b82f6",
+   "icon": "🔥",
+   "lifecycle": {
+    "birth": 1998,
+    "peak": null,
+    "decline": null,
+    "collapse": null,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "explore",
+     "name": "勘探开发",
+     "x": 50,
+     "y": 200,
+     "status": "active",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "gather",
+     "name": "集输处理",
+     "x": 150,
+     "y": 200,
+     "status": "active",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "pipeline",
+     "name": "长输管道",
+     "x": 250,
+     "y": 200,
+     "status": "active",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "lng",
+     "name": "LNG液化",
+     "x": 350,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "city_gas",
+     "name": "城市燃气",
+     "x": 450,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "chemical",
+     "name": "化工利用",
+     "x": 550,
+     "y": 200,
+     "status": "emerging",
+     "peak": "2030s",
+     "decline": null
+    }
+   ],
+   "connections": [
+    {
+     "from": "explore",
+     "to": "gather",
+     "flow": "天然气"
+    },
+    {
+     "from": "gather",
+     "to": "pipeline",
+     "flow": "净化气"
+    },
+    {
+     "from": "gather",
+     "to": "lng",
+     "flow": "原料气"
+    },
+    {
+     "from": "pipeline",
+     "to": "city_gas",
+     "flow": "管道气"
+    },
+    {
+     "from": "pipeline",
+     "to": "chemical",
+     "flow": "工业用气"
+    }
+   ],
+   "employment": {
+    "peak": 80000,
+    "current": 80000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "price",
+    "name": "煤炭价格波动",
+    "weight": 25,
+    "evidence": "2013-2016年煤价腰斩，财政收入高度依赖煤炭",
+    "icon": "📉",
+    "selected": false
+   },
+   {
+    "id": "water",
+    "name": "水资源约束",
+    "weight": 25,
+    "evidence": "年降水量不足400mm，煤化工耗水量大",
+    "icon": "💧",
+    "selected": false
+   },
+   {
+    "id": "carbon",
+    "name": "双碳与能耗双控",
+    "weight": 20,
+    "evidence": "高碳产业面临碳排放约束",
+    "icon": "♻️",
+    "selected": false
+   },
+   {
+    "id": "structure",
+    "name": "产业结构单一",
+    "weight": 20,
+    "evidence": "能源化工占GDP比重过高",
+    "icon": "🏭",
+    "selected": false
+   },
+   {
+    "id": "ecology",
+    "name": "生态脆弱",
+    "weight": 10,
+    "evidence": "毛乌素沙地边缘，采煤沉陷与荒漠化问题",
+    "icon": "🌵",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "resource",
+    "name": "资源优势",
+    "weight": 30,
+    "evidence": "煤炭、天然气、石油储量丰富，成本较低",
+    "icon": "⛽",
+    "selected": false
+   },
+   {
+    "id": "pipeline",
+    "name": "国家战略通道",
+    "weight": 25,
+    "evidence": "西电东送、西气东输、陕京线等国家战略",
+    "icon": "🔗",
+    "selected": false
+   },
+   {
+    "id": "chemical",
+    "name": "现代煤化工升级",
+    "weight": 20,
+    "evidence": "煤制油、煤制烯烃、精细化工延伸价值链",
+    "icon": "⚗️",
+    "selected": false
+   },
+   {
+    "id": "renewable",
+    "name": "风光资源",
+    "weight": 15,
+    "evidence": "沙漠戈壁风光资源丰富，新能源基地起步",
+    "icon": "🌞",
+    "selected": false
+   },
+   {
+    "id": "policy",
+    "name": "能源革命试点",
+    "weight": 10,
+    "evidence": "国家级能源革命创新示范区",
+    "icon": "📜",
+    "selected": false
+   }
+  ]
+ },
+ "space_timeline": [
+  {
+   "year": 1982,
+   "old_area": 6,
+   "new_area": 0,
+   "old_pop": 220000,
+   "vacancy": 0
+  },
+  {
+   "year": 1998,
+   "old_area": 18,
+   "new_area": 0,
+   "old_pop": 320000,
+   "vacancy": 0.05
+  },
+  {
+   "year": 2008,
+   "old_area": 45,
+   "new_area": 0,
+   "old_pop": 335000,
+   "vacancy": 0.08
+  },
+  {
+   "year": 2013,
+   "old_area": 60,
+   "new_area": 0,
+   "old_pop": 338000,
+   "vacancy": 0.1
+  },
+  {
+   "year": 2024,
+   "old_area": 92,
+   "new_area": 0,
+   "old_pop": 365000,
+   "vacancy": 0.12
+  }
+ ],
+ "space": {
+  "old_city": {
+   "name": "榆林老城区",
+   "peak_pop": 3625000,
+   "current_pop": 3571227,
+   "vacancy": 0.12,
+   "landmark": "镇北台"
+  },
+  "new_city": {
+   "name": "榆神工业区",
+   "peak_pop": 0,
+   "current_pop": 120000,
+   "landmark": "榆神煤化工园区"
+  },
+  "distance_km": 60,
+  "built_up_area_km2": 92,
+  "current_pop": 3571227,
+  "peak_pop": 3625000,
+  "vacancy_rate": 0.12
+ },
+ "migration": {
+  "outflow_total": 80000,
+  "destinations": [
+   {
+    "city": "西安",
+    "province": "陕西",
+    "count": 25000,
+    "reason": "省会就业与教育"
+   },
+   {
+    "city": "鄂尔多斯",
+    "province": "内蒙古",
+    "count": 15000,
+    "reason": "邻近能源城市务工"
+   },
+   {
+    "city": "银川",
+    "province": "宁夏",
+    "count": 12000,
+    "reason": "区域中心城市就业"
+   },
+   {
+    "city": "北京",
+    "province": "北京",
+    "count": 15000,
+    "reason": "外出务工"
+   },
+   {
+    "city": "其他地区",
+    "province": "全国",
+    "count": 13000,
+    "reason": "务工与经商"
+   }
+  ]
+ },
+ "achievements": [
+  {
+   "id": "yulin_first_visit",
+   "name": "塞上驼城",
+   "desc": "首次进入榆林",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "yulin_discovery",
+   "name": "煤海发现",
+   "desc": "见证1982年神府煤田发现",
+   "condition": "year",
+   "year": 1982
+  },
+  {
+   "id": "yulin_gas",
+   "name": "西气主力",
+   "desc": "见证2002年长庆气田成为西气东输主力",
+   "condition": "year",
+   "year": 2002
+  },
+  {
+   "id": "yulin_peak",
+   "name": "亿吨煤都",
+   "desc": "见证2005年煤炭产量突破亿吨",
+   "condition": "year",
+   "year": 2005
+  },
+  {
+   "id": "yulin_chemical",
+   "name": "煤化工升级",
+   "desc": "见证2019年现代煤化工项目投产",
+   "condition": "year",
+   "year": 2019
+  },
+  {
+   "id": "yulin_chain",
+   "name": "能源化工拼图大师",
+   "desc": "完成榆林煤化-天然气产业链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": [
+  {
+   "desc": "2023 GDP 7091.44亿元(+4.4%), 二产5118.36亿; 常住360.73万",
+   "url": "http://www.tjcn.org/tjgb/27sx/37901.html",
+   "year": 2023
+  }
+ ],
+ "real_anchors": {
+  "census2020": {
+   "pop": 3625000
+  },
+  "stat2023": {
+   "gdp": 7091.44,
+   "pop": 3607300
+  }
+ }
+}

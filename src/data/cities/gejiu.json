@@ -1,0 +1,816 @@
+{
+ "profile": {
+  "name": "个旧市",
+  "province": "云南省",
+  "prefecture": "红河州代管",
+  "area": "1,587 km²",
+  "coordinates": [
+   103.15,
+   23.36
+  ],
+  "tags": [
+   "中国锡都",
+   "世界锡产量第一",
+   "红河明珠",
+   "矿业名城"
+  ],
+  "description": "世界锡产量最大的城市，中国锡工业的摇篮。1907年设立锡务公司，滇越铁路通车后锡矿走向世界。鼎盛时期年产锡超3万吨，累计产锡超200万吨。2007年被列入国家第二批资源枯竭城市，从'中国锡都'向'文旅锡都'与'高原特色农业'艰难转型。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 1885,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "起家期",
+    "start": 1885,
+    "end": 1950,
+    "color": "green"
+   },
+   {
+    "name": "壮盛期",
+    "start": 1951,
+    "end": 2000,
+    "color": "yellow"
+   },
+   {
+    "name": "转型期",
+    "start": 2001,
+    "end": 2024,
+    "color": "purple"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "tin",
+    "label": "锡产量",
+    "unit": "万吨",
+    "max": 4,
+    "color": "#94a3b8"
+   }
+  ],
+  "spaceType": "built_up",
+  "spaceLabels": {
+   "built": "建成区",
+   "density": "人口密度"
+  },
+  "cityKey": "gejiu",
+  "chainKeys": [
+   "tin",
+   "replacement"
+  ],
+  "chainContainerIds": [
+   "tinChain",
+   "replacementChain"
+  ],
+  "currentStatus": "资源枯竭转型中，文旅锡都",
+  "transformationAssessment": "从'世界锡都'到'文旅锡都'的艰难转身",
+  "transformationDetail": "个旧锡矿累计产锡超200万吨后，主体矿山于2005年闭坑。2007年列入第二批资源枯竭城市。依托老阴山、金湖、锡文化博物馆发展文旅，高原梨、梯田红米等高原特色农业起步。但人口外流严重，城市收缩明显。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 1885,
+   "title": "锡矿发现",
+   "category": "discovery",
+   "desc": "法国地质学家在个旧发现大型锡矿床，开启百年锡业传奇",
+   "impact": 10,
+   "pop": 5000,
+   "tin": 0,
+   "gdp": 0.01,
+   "event": true
+  },
+  {
+   "year": 1895,
+   "title": "华人矿工涌入",
+   "category": "discovery",
+   "desc": "大量广东、广西矿工涌入个旧，土法开采锡矿，形成早期矿业聚落",
+   "impact": 7,
+   "pop": 15000,
+   "tin": 0.1,
+   "gdp": 0.05,
+   "event": false
+  },
+  {
+   "year": 1907,
+   "title": "个旧锡务公司",
+   "category": "peak",
+   "desc": "清政府设立个旧锡务公司，引入西方技术，锡业开始现代化",
+   "impact": 9,
+   "pop": 30000,
+   "tin": 0.5,
+   "gdp": 0.2,
+   "event": true
+  },
+  {
+   "year": 1910,
+   "title": "滇越铁路通车",
+   "category": "peak",
+   "desc": "滇越铁路通车，个旧锡矿经越南海防港远销欧美，'世界锡都'声名鹊起",
+   "impact": 10,
+   "pop": 50000,
+   "tin": 1,
+   "gdp": 0.5,
+   "event": true
+  },
+  {
+   "year": 1915,
+   "title": "产量破万吨",
+   "category": "peak",
+   "desc": "锡年产量突破1万吨，个旧成为世界锡矿贸易中心之一",
+   "impact": 8,
+   "pop": 70000,
+   "tin": 1.2,
+   "gdp": 0.8,
+   "event": true
+  },
+  {
+   "year": 1930,
+   "title": "全球锡供应地",
+   "category": "peak",
+   "desc": "个旧锡产量占全球锡产量的20%以上，'世界锡都'地位确立",
+   "impact": 8,
+   "pop": 100000,
+   "tin": 1.5,
+   "gdp": 1.5,
+   "event": false
+  },
+  {
+   "year": 1940,
+   "title": "抗战锡都",
+   "category": "peak",
+   "desc": "抗战时期，个旧锡矿支撑国民政府外汇收入，战略地位空前重要",
+   "impact": 9,
+   "pop": 120000,
+   "tin": 1.8,
+   "gdp": 2,
+   "event": true
+  },
+  {
+   "year": 1951,
+   "title": "个旧市设立",
+   "category": "peak",
+   "desc": "国务院批准设立个旧市，成为云南省重要的工业城市",
+   "impact": 10,
+   "pop": 150000,
+   "tin": 2,
+   "gdp": 3,
+   "event": true
+  },
+  {
+   "year": 1955,
+   "title": "国有锡矿建设",
+   "category": "peak",
+   "desc": "国家大规模投资锡矿建设，引进苏联技术，产量快速攀升",
+   "impact": 8,
+   "pop": 180000,
+   "tin": 2.5,
+   "gdp": 5,
+   "event": false
+  },
+  {
+   "year": 1960,
+   "title": "产量飙升",
+   "category": "peak",
+   "desc": "年产锡突破2.5万吨，个旧锡业进入黄金时期",
+   "impact": 8,
+   "pop": 200000,
+   "tin": 2.8,
+   "gdp": 8,
+   "event": false
+  },
+  {
+   "year": 1970,
+   "title": "配套完善",
+   "category": "peak",
+   "desc": "矿工城配套建设完善，金湖周边形成城市核心区，被誉为'红河明珠'",
+   "impact": 7,
+   "pop": 250000,
+   "tin": 3,
+   "gdp": 12,
+   "event": false
+  },
+  {
+   "year": 1980,
+   "title": "鼎盛时期",
+   "category": "peak",
+   "desc": "年产锡接近3万吨，累计产锡突破100万吨，城市人口达28万",
+   "impact": 8,
+   "pop": 280000,
+   "tin": 3.2,
+   "gdp": 20,
+   "event": true
+  },
+  {
+   "year": 1985,
+   "title": "优质矿脉枯竭",
+   "category": "decline",
+   "desc": "浅层富矿开采殆尽，开采深度越来越大，成本急剧上升",
+   "impact": 9,
+   "pop": 300000,
+   "tin": 3,
+   "gdp": 30,
+   "event": false
+  },
+  {
+   "year": 1990,
+   "title": "产量下滑",
+   "category": "decline",
+   "desc": "锡产量从3万吨降至2万吨，城市经济增长放缓",
+   "impact": 8,
+   "pop": 310000,
+   "tin": 2.5,
+   "gdp": 40,
+   "event": false
+  },
+  {
+   "year": 1995,
+   "title": "亏损加剧",
+   "category": "decline",
+   "desc": "国有锡矿企业全面亏损，下岗潮冲击城市经济",
+   "impact": 9,
+   "pop": 320000,
+   "tin": 2,
+   "gdp": 50,
+   "event": true
+  },
+  {
+   "year": 2000,
+   "title": "产量腰斩",
+   "category": "decline",
+   "desc": "锡产量跌至不足1万吨，个旧经济跌入谷底",
+   "impact": 10,
+   "pop": 315000,
+   "tin": 1.2,
+   "gdp": 60,
+   "event": true
+  },
+  {
+   "year": 2005,
+   "title": "主体矿山闭坑",
+   "category": "decline",
+   "desc": "个旧锡矿主体矿山正式闭坑，累计产锡超200万吨，'锡都'荣光不再",
+   "impact": 10,
+   "pop": 300000,
+   "tin": 0.5,
+   "gdp": 70,
+   "event": true
+  },
+  {
+   "year": 2007,
+   "title": "资源枯竭城市",
+   "category": "transformation",
+   "desc": "被列入国家第二批资源枯竭城市，转型大幕拉开",
+   "impact": 10,
+   "pop": 290000,
+   "tin": 0.3,
+   "gdp": 80,
+   "event": true
+  },
+  {
+   "year": 2009,
+   "title": "锡文化博物馆",
+   "category": "transformation",
+   "desc": "个旧锡文化博物馆建成开放，工业遗产旅游开始起步",
+   "impact": 6,
+   "pop": 280000,
+   "tin": 0.2,
+   "gdp": 90,
+   "event": false
+  },
+  {
+   "year": 2011,
+   "title": "城市转型规划",
+   "category": "transformation",
+   "desc": "编制城市转型总体规划，确定'文旅锡都+高原特色农业'方向",
+   "impact": 6,
+   "pop": 270000,
+   "tin": 0.15,
+   "gdp": 100,
+   "event": false
+  },
+  {
+   "year": 2013,
+   "title": "高原梨品牌",
+   "category": "transformation",
+   "desc": "个旧高原梨获国家地理标志保护，特色农业产值突破5亿元",
+   "impact": 6,
+   "pop": 260000,
+   "tin": 0.1,
+   "gdp": 120,
+   "event": false
+  },
+  {
+   "year": 2015,
+   "title": "老阴山旅游",
+   "category": "transformation",
+   "desc": "老阴山风景区升级，'锡都夜景'成为云南旅游新名片",
+   "impact": 6,
+   "pop": 250000,
+   "tin": 0.08,
+   "gdp": 150,
+   "event": false
+  },
+  {
+   "year": 2017,
+   "title": "棚户区改造",
+   "category": "transformation",
+   "desc": "大规模棚户区改造启动，改善矿工居住区环境",
+   "impact": 6,
+   "pop": 245000,
+   "tin": 0.05,
+   "gdp": 180,
+   "event": false
+  },
+  {
+   "year": 2020,
+   "title": "人口持续收缩",
+   "category": "decline",
+   "desc": "常住人口降至约45万，较峰值流失超30%，城市收缩趋势加剧",
+   "impact": 8,
+   "pop": 220000,
+   "tin": 0.03,
+   "gdp": 210,
+   "event": true
+  },
+  {
+   "year": 2022,
+   "title": "锡文化申遗",
+   "category": "transformation",
+   "desc": "个旧锡矿工业遗产启动申报国家工业遗产和世界文化遗产预备名单",
+   "impact": 7,
+   "pop": 419300,
+   "tin": 0.02,
+   "gdp": 427.89,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2023,
+   "title": "2023年统计锚点",
+   "category": "peak",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 414500,
+   "gdp": 417.1,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2024,
+   "title": "文旅锡都",
+   "category": "transformation",
+   "desc": "个旧锡矿国家矿山公园正式开园，锡文化旅游线路成熟。但锡产量已不足巅峰期的1%，转型仍在探索中",
+   "impact": 7,
+   "pop": 410355,
+   "tin": 0.01,
+   "gdp": 280,
+   "event": true,
+   "calibrated": true
+  }
+ ],
+ "chains": {
+  "tin": {
+   "name": "锡矿产业链",
+   "color": "#94a3b8",
+   "icon": "⚪",
+   "lifecycle": {
+    "birth": 1885,
+    "peak": 1980,
+    "decline": 1985,
+    "collapse": 2005,
+    "dead": 2024
+   },
+   "nodes": [
+    {
+     "id": "explore",
+     "name": "地质勘探",
+     "status": "dying",
+     "peak": "1900s-1950s",
+     "decline": "1970s"
+    },
+    {
+     "id": "mine",
+     "name": "井下开采",
+     "status": "dying",
+     "peak": "1950s-1980s",
+     "decline": "1990s"
+    },
+    {
+     "id": "wash",
+     "name": "选矿加工",
+     "status": "dying",
+     "peak": "1960s-1990s",
+     "decline": "2000s"
+    },
+    {
+     "id": "smelt",
+     "name": "冶炼提纯",
+     "status": "dying",
+     "peak": "1970s-1990s",
+     "decline": "2000s"
+    },
+    {
+     "id": "cast",
+     "name": "锡材铸造",
+     "status": "dying",
+     "peak": "1980s-2000s",
+     "decline": "2010s"
+    },
+    {
+     "id": "trade",
+     "name": "国际贸易",
+     "status": "dying",
+     "peak": "1910s-1990s",
+     "decline": "2000s"
+    }
+   ],
+   "connections": [
+    {
+     "from": "explore",
+     "to": "mine",
+     "flow": "矿床数据"
+    },
+    {
+     "from": "mine",
+     "to": "wash",
+     "flow": "锡矿石"
+    },
+    {
+     "from": "wash",
+     "to": "smelt",
+     "flow": "锡精矿"
+    },
+    {
+     "from": "smelt",
+     "to": "cast",
+     "flow": "精锡"
+    },
+    {
+     "from": "cast",
+     "to": "trade",
+     "flow": "锡材产品"
+    }
+   ],
+   "employment": {
+    "peak": 60000,
+    "current": 1500
+   }
+  },
+  "replacement": {
+   "name": "接续产业（文旅·高原农业·生态）",
+   "color": "#2ecc71",
+   "icon": "🔄",
+   "lifecycle": {
+    "birth": 2007,
+    "growth": 2013,
+    "peak": null
+   },
+   "nodes": [
+    {
+     "id": "museum",
+     "name": "锡文化博物馆",
+     "status": "emerging",
+     "peak": "2010s-今"
+    },
+    {
+     "id": "park",
+     "name": "矿山公园旅游",
+     "status": "emerging",
+     "peak": "未来"
+    },
+    {
+     "id": "pear",
+     "name": "高原梨种植",
+     "status": "emerging",
+     "peak": "2010s-今"
+    },
+    {
+     "id": "rice",
+     "name": "梯田红米",
+     "status": "emerging",
+     "peak": "未来"
+    },
+    {
+     "id": "lake",
+     "name": "金湖生态",
+     "status": "emerging",
+     "peak": "未来"
+    },
+    {
+     "id": "heritage",
+     "name": "工业遗产申遗",
+     "status": "emerging",
+     "peak": "未来"
+    }
+   ],
+   "connections": [
+    {
+     "from": "museum",
+     "to": "park",
+     "flow": "文旅融合"
+    },
+    {
+     "from": "pear",
+     "to": "rice",
+     "flow": "农业互补"
+    },
+    {
+     "from": "park",
+     "to": "heritage",
+     "flow": "遗产升级"
+    }
+   ],
+   "employment": {
+    "peak": null,
+    "current": 20000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "resource",
+    "name": "锡矿枯竭",
+    "weight": 35,
+    "evidence": "主体矿山累计产锡超200万吨后于2005年闭坑，富矿资源耗尽",
+    "icon": "⚪",
+    "selected": false
+   },
+   {
+    "id": "single",
+    "name": "产业结构单一",
+    "weight": 25,
+    "evidence": "锡业长期占全市工业产值70%以上，接续产业培育极其缓慢",
+    "icon": "🏭",
+    "selected": false
+   },
+   {
+    "id": "pollution",
+    "name": "重金属污染",
+    "weight": 15,
+    "evidence": "百年锡矿冶炼导致土壤和水源重金属超标，金湖水质一度恶化",
+    "icon": "🌫️",
+    "selected": false
+   },
+   {
+    "id": "location",
+    "name": "交通区位劣势",
+    "weight": 10,
+    "evidence": "深处云贵高原，距昆明280公里，物流成本高，人才外流严重",
+    "icon": "🚂",
+    "selected": false
+   },
+   {
+    "id": "policy",
+    "name": "国企改制冲击",
+    "weight": 10,
+    "evidence": "1990年代国有锡矿企业改制，大量职工下岗，城市经济断崖式下跌",
+    "icon": "📜",
+    "selected": false
+   },
+   {
+    "id": "aging",
+    "name": "人口外流+老龄化",
+    "weight": 5,
+    "evidence": "年轻劳动力外流至昆明、玉溪、蒙自，城市活力急剧下降",
+    "icon": "👴",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "culture",
+    "name": "锡文化遗产",
+    "weight": 25,
+    "evidence": "百年锡矿工业遗产独特性强，具备申报世界文化遗产潜力",
+    "icon": "🏛️",
+    "selected": false
+   },
+   {
+    "id": "climate",
+    "name": "高原气候资源",
+    "weight": 20,
+    "evidence": "北纬23°高原气候，适合高原梨、梯田红米等特色农业",
+    "icon": "🌾",
+    "selected": false
+   },
+   {
+    "id": "park",
+    "name": "矿山公园品牌",
+    "weight": 20,
+    "evidence": "个旧锡矿国家矿山公园，独特的矿山景观与湖泊城市风貌",
+    "icon": "🏞️",
+    "selected": false
+   },
+   {
+    "id": "policy",
+    "name": "转型政策支持",
+    "weight": 20,
+    "evidence": "国家第二批资源枯竭城市，持续获得中央专项资金支持",
+    "icon": "💰",
+    "selected": false
+   },
+   {
+    "id": "tourism",
+    "name": "滇越铁路遗产",
+    "weight": 10,
+    "evidence": "滇越铁路百年历史，具备发展铁路遗产旅游的潜力",
+    "icon": "🚂",
+    "selected": false
+   },
+   {
+    "id": "ecology",
+    "name": "生态修复",
+    "weight": 5,
+    "evidence": "金湖治理成效显著，城市绿化率提升，人居环境改善",
+    "icon": "🌲",
+    "selected": false
+   }
+  ]
+ },
+ "space_timeline": [
+  {
+   "year": 1885,
+   "built": 0.2,
+   "vacancy": 0,
+   "density": 3000
+  },
+  {
+   "year": 1910,
+   "built": 2,
+   "vacancy": 0,
+   "density": 25000
+  },
+  {
+   "year": 1930,
+   "built": 5,
+   "vacancy": 0,
+   "density": 20000
+  },
+  {
+   "year": 1950,
+   "built": 10,
+   "vacancy": 0,
+   "density": 15000
+  },
+  {
+   "year": 1970,
+   "built": 18,
+   "vacancy": 0,
+   "density": 13900
+  },
+  {
+   "year": 1980,
+   "built": 25,
+   "vacancy": 0.02,
+   "density": 11200
+  },
+  {
+   "year": 1990,
+   "built": 32,
+   "vacancy": 0.1,
+   "density": 9700
+  },
+  {
+   "year": 2000,
+   "built": 38,
+   "vacancy": 0.2,
+   "density": 8300
+  },
+  {
+   "year": 2005,
+   "built": 42,
+   "vacancy": 0.3,
+   "density": 7100
+  },
+  {
+   "year": 2010,
+   "built": 45,
+   "vacancy": 0.35,
+   "density": 6200
+  },
+  {
+   "year": 2015,
+   "built": 48,
+   "vacancy": 0.4,
+   "density": 5200
+  },
+  {
+   "year": 2020,
+   "built": 50,
+   "vacancy": 0.45,
+   "density": 4400
+  },
+  {
+   "year": 2024,
+   "built": 52,
+   "vacancy": 0.5,
+   "density": 3800
+  }
+ ],
+ "space": {
+  "built_up_area_km2": 52,
+  "current_pop": 410355,
+  "peak_pop": 419300,
+  "vacancy_rate": 0.5,
+  "landmark": "金湖公园",
+  "special": "城市中心天然湖泊，锡都夜景名片"
+ },
+ "migration": {
+  "destinations": [
+   {
+    "name": "昆明市",
+    "lat": 25.04,
+    "lng": 102.71,
+    "flow": 120000,
+    "reason": "省会经济圈虹吸"
+   },
+   {
+    "name": "蒙自市",
+    "lat": 23.36,
+    "lng": 103.4,
+    "flow": 40000,
+    "reason": "州府迁移后崛起"
+   },
+   {
+    "name": "玉溪市",
+    "lat": 24.35,
+    "lng": 102.54,
+    "flow": 25000,
+    "reason": "邻近工业城市"
+   },
+   {
+    "name": "建水县",
+    "lat": 23.62,
+    "lng": 102.82,
+    "flow": 15000,
+    "reason": "邻近文化旅游县"
+   },
+   {
+    "name": "河口县",
+    "lat": 22.51,
+    "lng": 103.94,
+    "flow": 10000,
+    "reason": "边境口岸贸易"
+   }
+  ],
+  "outflow_total": 210000,
+  "inflow_total": 50000,
+  "net_flow": -160000
+ },
+ "achievements": [
+  {
+   "id": "gejiu_first_visit",
+   "name": "锡都往事",
+   "desc": "首次进入个旧，见证世界锡都的兴衰",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "gejiu_peak",
+   "name": "锡海巅峰",
+   "desc": "见证个旧锡产量突破3万吨的辉煌年代",
+   "condition": "year",
+   "year": 1980
+  },
+  {
+   "id": "gejiu_mine_close",
+   "name": "矿山之殇",
+   "desc": "目睹个旧锡矿主体矿山闭坑，锡都荣光不再",
+   "condition": "year",
+   "year": 2005
+  },
+  {
+   "id": "gejiu_rebirth",
+   "name": "文旅转身",
+   "desc": "见证个旧从世界锡都到文旅锡都的艰难转型",
+   "condition": "year",
+   "year": 2024
+  },
+  {
+   "id": "gejiu_chain",
+   "name": "锡业拼图大师",
+   "desc": "完成个旧锡产业链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": [
+  {
+   "desc": "2023 GDP 417.1亿; ",
+   "url": "https://www.hhgj.gov.cn/info/13291/376721.htm",
+   "year": 2023
+  }
+ ],
+ "real_anchors": {
+  "census2020": {
+   "pop": 419300
+  },
+  "stat2023": {
+   "gdp": 417.1,
+   "pop": 414500
+  }
+ }
+}

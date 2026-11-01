@@ -1,0 +1,734 @@
+{
+ "profile": {
+  "name": "珠海市",
+  "province": "广东省",
+  "prefecture": "地级市 · 经济特区",
+  "area": "1,736 km²",
+  "coordinates": [
+   113.57,
+   22.27
+  ],
+  "tags": [
+   "经济特区",
+   "澳珠极点",
+   "滨海旅游",
+   "横琴合作区"
+  ],
+  "description": "珠江口西岸核心城市，毗邻澳门，从边陲渔农县发展为以旅游、会展、跨境金融和高端制造为特色的滨海特区。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 1979,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "建市前夜",
+    "start": 1977,
+    "end": 1979,
+    "color": "gray"
+   },
+   {
+    "name": "特区初创",
+    "start": 1980,
+    "end": 1990,
+    "color": "green"
+   },
+   {
+    "name": "旅游与工业并举",
+    "start": 1991,
+    "end": 1999,
+    "color": "yellow"
+   },
+   {
+    "name": "珠澳融合",
+    "start": 2000,
+    "end": 2014,
+    "color": "teal"
+   },
+   {
+    "name": "深度合作区时代",
+    "start": 2015,
+    "end": 2024,
+    "color": "purple"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "tourism",
+    "label": "接待游客",
+    "unit": "万人次",
+    "max": 5000,
+    "color": "#06b6d4"
+   },
+   {
+    "key": "hitech",
+    "label": "高新技术企业",
+    "unit": "家",
+    "max": 3000,
+    "color": "#8b5cf6"
+   }
+  ],
+  "spaceType": "single_city",
+  "spaceLabels": {
+   "old": "香洲老城",
+   "new": "横琴新区"
+  },
+  "cityKey": "zhuhai",
+  "chainKeys": [
+   "tourism",
+   "cross_border",
+   "hitech"
+  ],
+  "chainContainerIds": [
+   "tourismChain",
+   "crossBorderChain",
+   "hitechChain"
+  ],
+  "currentStatus": "澳珠极点核心，横琴粤澳深度合作区主场",
+  "transformationAssessment": "从渔农县到澳珠极点",
+  "transformationDetail": "珠海依托毗邻澳门的区位优势和生态环境，走出了一条旅游、会展、高新技术与跨境合作并重的发展道路，常住人口突破250万。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 1979,
+   "title": "珠海建市",
+   "category": "discovery",
+   "desc": "撤销珠海县，设立珠海市，为兴办经济特区奠定基础",
+   "impact": 9,
+   "pop": 360000,
+   "gdp": 2,
+   "tourism": 20,
+   "hitech": 0,
+   "event": true
+  },
+  {
+   "year": 1980,
+   "title": "经济特区成立",
+   "category": "discovery",
+   "desc": "珠海成为中国首批四个经济特区之一",
+   "impact": 10,
+   "pop": 380000,
+   "gdp": 2.6,
+   "tourism": 30,
+   "hitech": 0,
+   "event": true
+  },
+  {
+   "year": 1984,
+   "title": "开放沿海城市",
+   "category": "transformation",
+   "desc": "珠海列入全国14个沿海开放城市，外资开始涌入",
+   "impact": 7,
+   "pop": 450000,
+   "gdp": 8,
+   "tourism": 80,
+   "hitech": 0,
+   "event": false
+  },
+  {
+   "year": 1988,
+   "title": "重点工业园区",
+   "category": "transformation",
+   "desc": "三灶、南屏等工业区开发，电子、制药等产业起步",
+   "impact": 6,
+   "pop": 520000,
+   "gdp": 18,
+   "tourism": 150,
+   "hitech": 5,
+   "event": false
+  },
+  {
+   "year": 1990,
+   "title": "机场与港口",
+   "category": "transformation",
+   "desc": "珠海机场选址与九洲港扩建，交通骨架拉开",
+   "impact": 7,
+   "pop": 620000,
+   "gdp": 38,
+   "tourism": 250,
+   "hitech": 10,
+   "event": true
+  },
+  {
+   "year": 1992,
+   "title": "南巡春风带动",
+   "category": "transformation",
+   "desc": "南巡讲话后珠海引进一批大型外资项目，工业提速",
+   "impact": 8,
+   "pop": 700000,
+   "gdp": 65,
+   "tourism": 350,
+   "hitech": 20,
+   "event": false
+  },
+  {
+   "year": 1995,
+   "title": "旅游品牌初显",
+   "category": "peak",
+   "desc": "珠海渔女、长隆前期规划与情侣路成为城市名片",
+   "impact": 7,
+   "pop": 780000,
+   "gdp": 130,
+   "tourism": 500,
+   "hitech": 40,
+   "event": true
+  },
+  {
+   "year": 1999,
+   "title": "澳门回归",
+   "category": "transformation",
+   "desc": "珠澳24小时通关逐步推进，两地人员往来便利化",
+   "impact": 8,
+   "pop": 840000,
+   "gdp": 230,
+   "tourism": 700,
+   "hitech": 80,
+   "event": true
+  },
+  {
+   "year": 2003,
+   "title": "自由行开通",
+   "category": "transformation",
+   "desc": "内地居民港澳自由行带动珠海过境与消费市场",
+   "impact": 7,
+   "pop": 950000,
+   "gdp": 380,
+   "tourism": 1100,
+   "hitech": 120,
+   "event": false
+  },
+  {
+   "year": 2009,
+   "title": "横琴新区",
+   "category": "transformation",
+   "desc": "国务院批复横琴总体发展规划，横琴开发上升为国家战略",
+   "impact": 9,
+   "pop": 1200000,
+   "gdp": 1038,
+   "tourism": 1500,
+   "hitech": 250,
+   "event": true
+  },
+  {
+   "year": 2014,
+   "title": "横琴自贸区",
+   "category": "transformation",
+   "desc": "广东自贸区横琴片区挂牌，跨境金融创新启动",
+   "impact": 8,
+   "pop": 1600000,
+   "gdp": 1857,
+   "tourism": 1800,
+   "hitech": 450,
+   "event": true
+  },
+  {
+   "year": 2015,
+   "title": "长隆开业",
+   "category": "peak",
+   "desc": "珠海长隆海洋王国带动旅游业跨越式增长",
+   "impact": 8,
+   "pop": 1700000,
+   "gdp": 2025,
+   "tourism": 2500,
+   "hitech": 500,
+   "event": true
+  },
+  {
+   "year": 2018,
+   "title": "港珠澳大桥通车",
+   "category": "transformation",
+   "desc": "大桥通车强化珠海作为粤港澳物流枢纽的地位",
+   "impact": 9,
+   "pop": 1900000,
+   "gdp": 2914,
+   "tourism": 3000,
+   "hitech": 700,
+   "event": true
+  },
+  {
+   "year": 2021,
+   "title": "深合区揭牌",
+   "category": "transformation",
+   "desc": "横琴粤澳深度合作区管理机构正式揭牌，琴澳一体化加速",
+   "impact": 10,
+   "pop": 2400000,
+   "gdp": 3882,
+   "tourism": 3500,
+   "hitech": 1100,
+   "event": true
+  },
+  {
+   "year": 2024,
+   "title": "澳珠极点成型",
+   "category": "transformation",
+   "desc": "横琴封关运行，珠澳产业、民生、规则深度衔接",
+   "impact": 9,
+   "pop": 2500000,
+   "gdp": 4500,
+   "tourism": 4200,
+   "hitech": 1500,
+   "event": true
+  }
+ ],
+ "chains": {
+  "tourism": {
+   "name": "滨海旅游链",
+   "color": "#06b6d4",
+   "icon": "🌴",
+   "lifecycle": {
+    "birth": 1980,
+    "peak": 2015,
+    "decline": null
+   },
+   "nodes": [
+    {
+     "id": "scenic",
+     "name": "海岛与情侣路",
+     "x": 50,
+     "y": 50,
+     "status": "active",
+     "peak": "1990s"
+    },
+    {
+     "id": "hotel",
+     "name": "酒店会展",
+     "x": 150,
+     "y": 50,
+     "status": "active",
+     "peak": "2000s"
+    },
+    {
+     "id": "theme_park",
+     "name": "主题乐园",
+     "x": 250,
+     "y": 50,
+     "status": "growing",
+     "peak": "2010s"
+    },
+    {
+     "id": "cruise",
+     "name": "邮轮与跨境游",
+     "x": 350,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s"
+    }
+   ],
+   "connections": [
+    {
+     "from": "scenic",
+     "to": "hotel",
+     "flow": "客流"
+    },
+    {
+     "from": "hotel",
+     "to": "theme_park",
+     "flow": "度假需求"
+    },
+    {
+     "from": "theme_park",
+     "to": "cruise",
+     "flow": "高端消费"
+    }
+   ],
+   "employment": {
+    "peak": 200000,
+    "current": 150000
+   }
+  },
+  "cross_border": {
+   "name": "跨境合作链",
+   "color": "#f59e0b",
+   "icon": "🌉",
+   "lifecycle": {
+    "birth": 1999,
+    "peak": 2021,
+    "decline": null
+   },
+   "nodes": [
+    {
+     "id": "customs",
+     "name": "口岸通关",
+     "x": 50,
+     "y": 50,
+     "status": "active",
+     "peak": "2000s"
+    },
+    {
+     "id": "finance",
+     "name": "跨境金融",
+     "x": 150,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "health",
+     "name": "医疗教育合作",
+     "x": 250,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "employment",
+     "name": "澳人澳企",
+     "x": 350,
+     "y": 50,
+     "status": "growing",
+     "peak": "未来"
+    }
+   ],
+   "connections": [
+    {
+     "from": "customs",
+     "to": "finance",
+     "flow": "人流物流"
+    },
+    {
+     "from": "finance",
+     "to": "health",
+     "flow": "资本与服务"
+    },
+    {
+     "from": "health",
+     "to": "employment",
+     "flow": "制度衔接"
+    }
+   ],
+   "employment": {
+    "peak": null,
+    "current": 80000
+   }
+  },
+  "hitech": {
+   "name": "高端制造链",
+   "color": "#8b5cf6",
+   "icon": "🚀",
+   "lifecycle": {
+    "birth": 1990,
+    "peak": 2015,
+    "decline": null
+   },
+   "nodes": [
+    {
+     "id": "chips",
+     "name": "集成电路",
+     "x": 50,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "aviation",
+     "name": "通用航空",
+     "x": 150,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "biotech",
+     "name": "生物医药",
+     "x": 250,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "new_energy",
+     "name": "新能源",
+     "x": 350,
+     "y": 50,
+     "status": "growing",
+     "peak": "未来"
+    }
+   ],
+   "connections": [
+    {
+     "from": "chips",
+     "to": "aviation",
+     "flow": "航电系统"
+    },
+    {
+     "from": "aviation",
+     "to": "new_energy",
+     "flow": "电动飞行器"
+    },
+    {
+     "from": "biotech",
+     "to": "new_energy",
+     "flow": "材料技术"
+    }
+   ],
+   "employment": {
+    "peak": null,
+    "current": 120000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "scale",
+    "name": "经济体量偏小",
+    "weight": 25,
+    "evidence": "GDP与人口规模在珠三角核心城市中排名靠后",
+    "icon": "📉",
+    "selected": false
+   },
+   {
+    "id": "land",
+    "name": "土地空间受限",
+    "weight": 20,
+    "evidence": "陆域面积小、山体水域占比高，产业承载受限",
+    "icon": "🏔️",
+    "selected": false
+   },
+   {
+    "id": "traffic",
+    "name": "东向通道不足",
+    "weight": 20,
+    "evidence": "长期缺乏直连珠江东岸的跨江通道，承接深圳外溢受限",
+    "icon": "🌉",
+    "selected": false
+   },
+   {
+    "id": "talent",
+    "name": "人才吸引力竞争",
+    "weight": 15,
+    "evidence": "与广深相比，高端人才与企业总部集聚力存在差距",
+    "icon": "👥",
+    "selected": false
+   },
+   {
+    "id": "macau_dependence",
+    "name": "澳门经济波动",
+    "weight": 15,
+    "evidence": "博彩旅游周期影响珠澳跨境消费与合作节奏",
+    "icon": "🎰",
+    "selected": false
+   },
+   {
+    "id": "industry",
+    "name": "制造业根基偏弱",
+    "weight": 5,
+    "evidence": "高端制造集群规模不及深圳、东莞",
+    "icon": "🏭",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "location",
+    "name": "毗邻澳门区位优势",
+    "weight": 25,
+    "evidence": "全国唯一陆路连接港澳的经济特区，横琴承载国家战略",
+    "icon": "🗺️",
+    "selected": false
+   },
+   {
+    "id": "ecology",
+    "name": "生态宜居品牌",
+    "weight": 20,
+    "evidence": "空气质量与城市绿化长期位居全国前列",
+    "icon": "🌿",
+    "selected": false
+   },
+   {
+    "id": "policy",
+    "name": "深合区制度创新",
+    "weight": 25,
+    "evidence": "横琴粤澳深度合作区分线管理、跨境要素流动",
+    "icon": "📜",
+    "selected": false
+   },
+   {
+    "id": "transport",
+    "name": "港珠澳大桥红利",
+    "weight": 15,
+    "evidence": "大桥通车后珠海成为港澳辐射粤西枢纽",
+    "icon": "🚗",
+    "selected": false
+   },
+   {
+    "id": "industry",
+    "name": "特色产业培育",
+    "weight": 10,
+    "evidence": "集成电路、生物医药、新能源、航空航天成集群",
+    "icon": "🚀",
+    "selected": false
+   },
+   {
+    "id": "tourism",
+    "name": "文旅IP打造",
+    "weight": 5,
+    "evidence": "长隆、海岛、情侣路等组成差异化旅游产品",
+    "icon": "🌴",
+    "selected": false
+   }
+  ]
+ },
+ "space_timeline": [
+  {
+   "year": 1979,
+   "built": 5,
+   "vacancy": 0.08
+  },
+  {
+   "year": 1985,
+   "built": 12,
+   "vacancy": 0.07
+  },
+  {
+   "year": 1990,
+   "built": 22,
+   "vacancy": 0.06
+  },
+  {
+   "year": 1995,
+   "built": 35,
+   "vacancy": 0.06
+  },
+  {
+   "year": 2000,
+   "built": 50,
+   "vacancy": 0.05
+  },
+  {
+   "year": 2005,
+   "built": 70,
+   "vacancy": 0.05
+  },
+  {
+   "year": 2010,
+   "built": 95,
+   "vacancy": 0.05
+  },
+  {
+   "year": 2015,
+   "built": 130,
+   "vacancy": 0.05
+  },
+  {
+   "year": 2020,
+   "built": 170,
+   "vacancy": 0.05
+  },
+  {
+   "year": 2024,
+   "built": 200,
+   "vacancy": 0.05
+  }
+ ],
+ "space": {
+  "built_up_area_km2": 200,
+  "peak_pop": 2500000,
+  "current_pop": 2500000,
+  "vacancy_rate": 0.05,
+  "landmark": "横琴粤澳深度合作区"
+ },
+ "migration": {
+  "outflow_total": 200000,
+  "destinations": [
+   {
+    "city": "澳门",
+    "province": "中国澳门",
+    "count": 60000,
+    "reason": "跨境就业与商务往来"
+   },
+   {
+    "city": "广州",
+    "province": "广东",
+    "count": 50000,
+    "reason": "省会资源与职业流动"
+   },
+   {
+    "city": "深圳",
+    "province": "广东",
+    "count": 50000,
+    "reason": "临深城市人才与产业互动"
+   },
+   {
+    "city": "中山",
+    "province": "广东",
+    "count": 25000,
+    "reason": "珠西生活成本与产业配套"
+   },
+   {
+    "city": "其他城市",
+    "province": "全国",
+    "count": 15000,
+    "reason": "求学、创业、退休迁移"
+   }
+  ]
+ },
+ "achievements": [
+  {
+   "id": "zhuhai_first_visit",
+   "name": "百岛之城",
+   "desc": "首次进入珠海，开启滨海特区记忆",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "zhuhai_sez",
+   "name": "特区元年",
+   "desc": "见证1980年珠海经济特区成立",
+   "condition": "year",
+   "year": 1980
+  },
+  {
+   "id": "zhuhai_macau",
+   "name": "濠江相依",
+   "desc": "见证1999年澳门回归后珠澳合作提速",
+   "condition": "year",
+   "year": 1999
+  },
+  {
+   "id": "zhuhai_bridge",
+   "name": "一桥连港澳",
+   "desc": "见证2018年港珠澳大桥通车",
+   "condition": "year",
+   "year": 2018
+  },
+  {
+   "id": "zhuhai_coop",
+   "name": "深度合作区",
+   "desc": "见证2021年横琴粤澳深度合作区揭牌",
+   "condition": "year",
+   "year": 2021
+  },
+  {
+   "id": "zhuhai_chain",
+   "name": "澳珠极点拼图大师",
+   "desc": "完成珠海产业转型链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": {
+  "disclaimer": "本页面数据为教学演示与叙事游戏用途，部分历史节点、经济指标、人口与产业数据经过归一化、近似或综合多源整理，请以国家统计局、各地统计局及官方发布为准。",
+  "references": [
+   {
+    "name": "国家统计局",
+    "url": "https://data.stats.gov.cn/"
+   },
+   {
+    "name": "珠海市人民政府",
+    "url": "https://www.zhuhai.gov.cn/"
+   },
+   {
+    "name": "珠海市统计局",
+    "url": "http://tjj.zhuhai.gov.cn/"
+   },
+   {
+    "name": "百度百科 - 珠海",
+    "url": "https://baike.baidu.com/item/%E7%8F%A0%E6%B5%B7"
+   }
+  ]
+ },
+ "simMode": "growth"
+}

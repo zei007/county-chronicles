@@ -1,0 +1,713 @@
+{
+ "profile": {
+  "name": "辽源市",
+  "province": "吉林省",
+  "prefecture": "地级市",
+  "area": "5,140 km²",
+  "coordinates": [
+   125.14,
+   42.9
+  ],
+  "tags": [
+   "东北煤城",
+   "煤炭基地",
+   "资源枯竭城市",
+   "袜业之都"
+  ],
+  "description": "吉林省中南部因煤而兴的地级市，百年煤炭开采支撑了东北老工业基地。煤炭资源枯竭后，辽源以“中国袜业名城”实现轻工业转型，成为东北资源枯竭城市接续产业培育的样本。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 1909,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "起家期",
+    "start": 1909,
+    "end": 1948,
+    "color": "green"
+   },
+   {
+    "name": "壮盛期",
+    "start": 1949,
+    "end": 1995,
+    "color": "yellow"
+   },
+   {
+    "name": "调整期",
+    "start": 1996,
+    "end": 2008,
+    "color": "red"
+   },
+   {
+    "name": "转型期",
+    "start": 2009,
+    "end": 2024,
+    "color": "teal"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "coal",
+    "label": "原煤产量",
+    "unit": "万吨",
+    "max": 2500,
+    "color": "#1a1a2e"
+   },
+   {
+    "key": "textile",
+    "label": "袜子产量",
+    "unit": "亿双",
+    "max": 50,
+    "color": "#f472b6"
+   }
+  ],
+  "spaceType": "built_up",
+  "spaceLabels": {
+   "built": "建成区",
+   "density": "人口密度"
+  },
+  "cityKey": "liaoyuan",
+  "chainKeys": [
+   "coal",
+   "textile"
+  ],
+  "chainContainerIds": [
+   "coalChain",
+   "textileChain"
+  ],
+  "currentStatus": "袜业名城，绿色转型",
+  "transformationAssessment": "从“东北煤城”到“中国袜业名城”的接续产业转型",
+  "transformationDetail": "辽源煤炭开采逾百年，去产能后职工安置与产业接续压力巨大。依托劳动力与纺织产业基础，东北袜业纺织工业园迅速崛起，袜业产量占全国重要份额。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 1909,
+   "title": "辽源煤田近代开采",
+   "category": "discovery",
+   "desc": "辽源煤田开始近代机械化开采，东北煤城雏形初现",
+   "impact": 8,
+   "pop": 168500,
+   "coal": 0,
+   "textile": 0,
+   "gdp": 0.01,
+   "event": true
+  },
+  {
+   "year": 1927,
+   "title": "西安煤矿公司成立",
+   "category": "peak",
+   "desc": "西安煤矿公司成立，产能快速扩大",
+   "impact": 6,
+   "pop": 303200,
+   "coal": 50,
+   "textile": 0,
+   "gdp": 0.05,
+   "event": false
+  },
+  {
+   "year": 1949,
+   "title": "新中国恢复生产",
+   "category": "peak",
+   "desc": "新中国成立后辽源煤矿迅速恢复，支援全国工业建设",
+   "impact": 8,
+   "pop": 505400,
+   "coal": 300,
+   "textile": 0,
+   "gdp": 0.5,
+   "event": true
+  },
+  {
+   "year": 1952,
+   "title": "辽源矿务局成立",
+   "category": "peak",
+   "desc": "统一管理的辽源矿务局成立，煤炭产量进入高速增长期",
+   "impact": 8,
+   "pop": 606400,
+   "coal": 500,
+   "textile": 0,
+   "gdp": 1,
+   "event": true
+  },
+  {
+   "year": 1960,
+   "title": "原煤产量破千万吨",
+   "category": "peak",
+   "desc": "辽源原煤年产量突破千万吨，成为东北重要煤炭基地",
+   "impact": 9,
+   "pop": 741200,
+   "coal": 1100,
+   "textile": 0,
+   "gdp": 3,
+   "event": true
+  },
+  {
+   "year": 1978,
+   "title": "煤炭工业鼎盛",
+   "category": "peak",
+   "desc": "改革开放初期辽源煤炭工业达到鼎盛，支撑地方财政",
+   "impact": 8,
+   "pop": 842300,
+   "coal": 1800,
+   "textile": 0.1,
+   "gdp": 8,
+   "event": false
+  },
+  {
+   "year": 1997,
+   "title": "煤炭市场低迷",
+   "category": "decline",
+   "desc": "亚洲金融危机与全国煤炭过剩叠加，辽源经济增速放缓",
+   "impact": 8,
+   "pop": 859100,
+   "coal": 1500,
+   "textile": 0.5,
+   "gdp": 18,
+   "event": true
+  },
+  {
+   "year": 2001,
+   "title": "矿井关闭与资源枯竭",
+   "category": "decline",
+   "desc": "优质煤层枯竭，大批矿井关闭，失业与社会问题凸显",
+   "impact": 9,
+   "pop": 869200,
+   "coal": 1200,
+   "textile": 1,
+   "gdp": 20,
+   "event": true
+  },
+  {
+   "year": 2008,
+   "title": "全国首批资源枯竭城市",
+   "category": "decline",
+   "desc": "辽源被列入全国首批资源枯竭城市，获得国家转型政策支持",
+   "impact": 8,
+   "pop": 876000,
+   "coal": 1000,
+   "textile": 2,
+   "gdp": 22,
+   "event": true
+  },
+  {
+   "year": 2008,
+   "title": "袜业产业园建设",
+   "category": "transformation",
+   "desc": "东北袜业纺织工业园建设启动，承接煤炭产业劳动力转移",
+   "impact": 9,
+   "pop": 882700,
+   "coal": 900,
+   "textile": 5,
+   "gdp": 28,
+   "event": true
+  },
+  {
+   "year": 2012,
+   "title": "中国袜业名城授牌",
+   "category": "transformation",
+   "desc": "辽源获“中国袜业名城”称号，袜业成为城市新名片",
+   "impact": 9,
+   "pop": 892800,
+   "coal": 700,
+   "textile": 15,
+   "gdp": 38,
+   "event": true
+  },
+  {
+   "year": 2016,
+   "title": "煤炭去产能与生态修复",
+   "category": "transformation",
+   "desc": "关闭落后煤矿，采煤沉陷区治理与生态修复全面推进",
+   "impact": 8,
+   "pop": 902900,
+   "coal": 500,
+   "textile": 25,
+   "gdp": 48,
+   "event": true
+  },
+  {
+   "year": 2020,
+   "title": "智能袜业与电商",
+   "category": "transformation",
+   "desc": "智能织袜与直播电商融合，袜业产业链数字化升级",
+   "impact": 8,
+   "pop": 996903,
+   "coal": 400,
+   "textile": 35,
+   "gdp": 428,
+   "event": true,
+   "calibrated": true
+  },
+  {
+   "year": 2023,
+   "title": "2023年统计锚点",
+   "category": "peak",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 943800,
+   "gdp": 516.88,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2024,
+   "title": "新材料与轻纺集群",
+   "category": "transformation",
+   "desc": "袜业、新材料、农产品加工形成接续产业集群",
+   "impact": 8,
+   "pop": 916400,
+   "coal": 300,
+   "textile": 45,
+   "gdp": 516.88,
+   "event": true,
+   "calibrated": true
+  }
+ ],
+ "chains": {
+  "coal": {
+   "name": "煤炭产业链",
+   "color": "#1a1a2e",
+   "icon": "⛏️",
+   "lifecycle": {
+    "birth": 1909,
+    "peak": 1978,
+    "decline": 1997,
+    "collapse": null,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "mine",
+     "name": "井下开采",
+     "x": 50,
+     "y": 50,
+     "status": "dying",
+     "peak": "1950s-1980s",
+     "decline": "2000s"
+    },
+    {
+     "id": "wash",
+     "name": "洗选加工",
+     "x": 150,
+     "y": 50,
+     "status": "dying",
+     "peak": "1960s-1990s",
+     "decline": "2000s"
+    },
+    {
+     "id": "coke",
+     "name": "炼焦化工",
+     "x": 250,
+     "y": 50,
+     "status": "dying",
+     "peak": "1970s-1990s",
+     "decline": "2000s"
+    },
+    {
+     "id": "power",
+     "name": "坑口发电",
+     "x": 350,
+     "y": 50,
+     "status": "active",
+     "peak": "1980s-2010s",
+     "decline": "2020s"
+    },
+    {
+     "id": "heat",
+     "name": "城市供热",
+     "x": 450,
+     "y": 50,
+     "status": "active",
+     "peak": "1990s-2010s",
+     "decline": "2020s"
+    },
+    {
+     "id": "reclaim",
+     "name": "沉陷区治理",
+     "x": 550,
+     "y": 50,
+     "status": "emerging",
+     "peak": "2020s",
+     "decline": null
+    }
+   ],
+   "connections": [
+    {
+     "from": "mine",
+     "to": "wash",
+     "flow": "原煤"
+    },
+    {
+     "from": "wash",
+     "to": "coke",
+     "flow": "精煤"
+    },
+    {
+     "from": "wash",
+     "to": "power",
+     "flow": "动力煤"
+    },
+    {
+     "from": "power",
+     "to": "heat",
+     "flow": "余热"
+    },
+    {
+     "from": "mine",
+     "to": "reclaim",
+     "flow": "生态修复"
+    }
+   ],
+   "employment": {
+    "peak": 100000,
+    "current": 15000
+   }
+  },
+  "textile": {
+   "name": "袜业纺织产业链",
+   "color": "#f472b6",
+   "icon": "🧦",
+   "lifecycle": {
+    "birth": 2008,
+    "peak": 2024,
+    "decline": null,
+    "collapse": null,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "yarn",
+     "name": "棉纱包覆",
+     "x": 50,
+     "y": 200,
+     "status": "active",
+     "peak": "2010s",
+     "decline": null
+    },
+    {
+     "id": "knit",
+     "name": "织袜成型",
+     "x": 150,
+     "y": 200,
+     "status": "active",
+     "peak": "2010s",
+     "decline": null
+    },
+    {
+     "id": "dye",
+     "name": "染整定型",
+     "x": 250,
+     "y": 200,
+     "status": "active",
+     "peak": "2010s",
+     "decline": null
+    },
+    {
+     "id": "socks",
+     "name": "成品袜业",
+     "x": 350,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "brand",
+     "name": "品牌运营",
+     "x": 450,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "ecom",
+     "name": "电商出口",
+     "x": 550,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    }
+   ],
+   "connections": [
+    {
+     "from": "yarn",
+     "to": "knit",
+     "flow": "纱线"
+    },
+    {
+     "from": "knit",
+     "to": "dye",
+     "flow": "袜坯"
+    },
+    {
+     "from": "dye",
+     "to": "socks",
+     "flow": "成品袜"
+    },
+    {
+     "from": "socks",
+     "to": "brand",
+     "flow": "品牌袜"
+    },
+    {
+     "from": "brand",
+     "to": "ecom",
+     "flow": "线上销售"
+    }
+   ],
+   "employment": {
+    "peak": 120000,
+    "current": 120000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "depletion",
+    "name": "煤炭资源枯竭",
+    "weight": 35,
+    "evidence": "百年开采后优质煤层枯竭，剩余资源开采成本高",
+    "icon": "⛏️",
+    "selected": false
+   },
+   {
+    "id": "soe",
+    "name": "国企矿务局困境",
+    "weight": 20,
+    "evidence": "辽源矿务局及国有煤矿长期亏损，职工安置压力大",
+    "icon": "🏭",
+    "selected": false
+   },
+   {
+    "id": "pollution",
+    "name": "环境污染与沉陷",
+    "weight": 20,
+    "evidence": "采煤沉陷区面积大，地下水与大气污染严重",
+    "icon": "🌫️",
+    "selected": false
+   },
+   {
+    "id": "single",
+    "name": "产业结构单一",
+    "weight": 15,
+    "evidence": "长期依赖煤炭，轻工业与服务业发展滞后",
+    "icon": "📉",
+    "selected": false
+   },
+   {
+    "id": "outflow",
+    "name": "人口外流",
+    "weight": 10,
+    "evidence": "煤炭去产能导致就业岗位减少，年轻人外流",
+    "icon": "🚶",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "labor",
+    "name": "熟练劳动力储备",
+    "weight": 30,
+    "evidence": "煤炭产业沉淀大量可转岗的产业工人和技术人员",
+    "icon": "👷",
+    "selected": false
+   },
+   {
+    "id": "socks",
+    "name": "袜业产业集群",
+    "weight": 25,
+    "evidence": "东北袜业纺织工业园成为全国重要袜业基地",
+    "icon": "🧦",
+    "selected": false
+   },
+   {
+    "id": "policy",
+    "name": "资源枯竭城市政策",
+    "weight": 20,
+    "evidence": "国家转移支付与产业转型试点政策叠加支持",
+    "icon": "📜",
+    "selected": false
+   },
+   {
+    "id": "location",
+    "name": "东北中部区位",
+    "weight": 15,
+    "evidence": "长吉图、哈大经济带交汇，物流条件逐步改善",
+    "icon": "🌐",
+    "selected": false
+   },
+   {
+    "id": "new_material",
+    "name": "新材料产业导入",
+    "weight": 10,
+    "evidence": "依托化工基础发展精细化工、新材料与新能源配套",
+    "icon": "⚗️",
+    "selected": false
+   }
+  ]
+ },
+ "space_timeline": [
+  {
+   "year": 1909,
+   "old_area": 1,
+   "new_area": 0,
+   "old_pop": 168500,
+   "vacancy": 0
+  },
+  {
+   "year": 1949,
+   "old_area": 4,
+   "new_area": 0,
+   "old_pop": 505400,
+   "vacancy": 0
+  },
+  {
+   "year": 1960,
+   "old_area": 10,
+   "new_area": 0,
+   "old_pop": 741200,
+   "vacancy": 0.05
+  },
+  {
+   "year": 1990,
+   "old_area": 22,
+   "new_area": 0,
+   "old_pop": 859100,
+   "vacancy": 0.08
+  },
+  {
+   "year": 2008,
+   "old_area": 32,
+   "new_area": 0,
+   "old_pop": 882700,
+   "vacancy": 0.15
+  },
+  {
+   "year": 2024,
+   "old_area": 40,
+   "new_area": 0,
+   "old_pop": 916400,
+   "vacancy": 0.12
+  }
+ ],
+ "space": {
+  "old_city": {
+   "name": "辽源老城",
+   "peak_pop": 926500,
+   "current_pop": 916400,
+   "vacancy": 0.12,
+   "landmark": "辽源矿工墓陈列馆"
+  },
+  "new_city": {
+   "name": "东北袜业纺织工业园",
+   "peak_pop": 0,
+   "current_pop": 134800,
+   "landmark": "东北袜业纺织工业园"
+  },
+  "distance_km": 8,
+  "built_up_area_km2": 40,
+  "current_pop": 916400,
+  "peak_pop": 926500,
+  "vacancy_rate": 0.12
+ },
+ "migration": {
+  "outflow_total": 336900,
+  "destinations": [
+   {
+    "city": "长春",
+    "province": "吉林",
+    "count": 117900,
+    "reason": "省会就业与教育"
+   },
+   {
+    "city": "沈阳",
+    "province": "辽宁",
+    "count": 84200,
+    "reason": "东北中心城市就业"
+   },
+   {
+    "city": "吉林",
+    "province": "吉林",
+    "count": 50500,
+    "reason": "工业城市就业"
+   },
+   {
+    "city": "四平",
+    "province": "吉林",
+    "count": 33700,
+    "reason": "邻近城市务工"
+   },
+   {
+    "city": "其他地区",
+    "province": "全国",
+    "count": 50600,
+    "reason": "外出务工与求学"
+   }
+  ]
+ },
+ "achievements": [
+  {
+   "id": "liaoyuan_first_visit",
+   "name": "东北煤城初探",
+   "desc": "首次进入辽源",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "liaoyuan_mine",
+   "name": "煤田近代开采",
+   "desc": "见证1909年辽源煤田近代开采",
+   "condition": "year",
+   "year": 1909
+  },
+  {
+   "id": "liaoyuan_peak",
+   "name": "千万吨煤城",
+   "desc": "见证1960年原煤产量突破千万吨",
+   "condition": "year",
+   "year": 1960
+  },
+  {
+   "id": "liaoyuan_exhausted",
+   "name": "全国首批资源枯竭城市",
+   "desc": "见证2008年辽源列入全国首批资源枯竭城市",
+   "condition": "year",
+   "year": 2008
+  },
+  {
+   "id": "liaoyuan_socks",
+   "name": "袜业名城",
+   "desc": "见证2012年辽源获中国袜业名城称号",
+   "condition": "year",
+   "year": 2012
+  },
+  {
+   "id": "liaoyuan_chain",
+   "name": "煤城轻纺拼图大师",
+   "desc": "完成辽源煤炭-袜业产业链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": [
+  {
+   "desc": "2023 GDP 516.88亿元 (+5.7%), 一产54.80亿",
+   "url": "辽源市2023年国民经济和社会发展统计公报",
+   "year": 2023
+  }
+ ],
+ "real_anchors": {
+  "census2020": {
+   "pop": 996903
+  },
+  "stat2023": {
+   "gdp": 516.88,
+   "pop": 943800
+  }
+ }
+}

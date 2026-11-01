@@ -1,0 +1,33 @@
+# CI — 质量门禁：类型检查 / 引擎平衡回归 / 数据 QA / 生产构建
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  quality-gates:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: 安装依赖
+        run: npm ci
+
+      - name: 类型检查
+        run: npx tsc --noEmit
+
+      - name: 引擎平衡性回归（4资源城+深圳增长 × 4策略 + 挑战星级矩阵）
+        run: node scripts/balance-test.mjs
+
+      - name: 城市数据 QA（含七普 44/44 覆盖断言）
+        run: node scripts/data-qa.mjs
+
+      - name: 生产构建（117 页）
+        run: npm run build

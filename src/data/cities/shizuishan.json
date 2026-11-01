@@ -1,0 +1,713 @@
+{
+ "profile": {
+  "name": "石嘴山市",
+  "province": "宁夏回族自治区",
+  "prefecture": "地级市",
+  "area": "5,310 km²",
+  "coordinates": [
+   106.38,
+   39.02
+  ],
+  "tags": [
+   "塞上煤城",
+   "太西煤",
+   "资源枯竭城市",
+   "硅基材料"
+  ],
+  "description": "贺兰山脚下的塞上煤城，因煤设市、因煤而兴。太西煤以低灰低硫高发热量享誉世界，曾是宁夏工业的摇篮。煤炭资源枯竭后，石嘴山依托硅石资源与绿电优势，向硅基新材料、光伏产业与循环经济转型。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 1956,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "起家期",
+    "start": 1956,
+    "end": 1975,
+    "color": "green"
+   },
+   {
+    "name": "壮盛期",
+    "start": 1976,
+    "end": 1995,
+    "color": "yellow"
+   },
+   {
+    "name": "调整期",
+    "start": 1996,
+    "end": 2008,
+    "color": "red"
+   },
+   {
+    "name": "转型期",
+    "start": 2009,
+    "end": 2024,
+    "color": "teal"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "coal",
+    "label": "原煤产量",
+    "unit": "万吨",
+    "max": 2500,
+    "color": "#1a1a2e"
+   },
+   {
+    "key": "silicon",
+    "label": "工业硅产量",
+    "unit": "万吨",
+    "max": 100,
+    "color": "#64748b"
+   }
+  ],
+  "spaceType": "built_up",
+  "spaceLabels": {
+   "built": "建成区",
+   "density": "人口密度"
+  },
+  "cityKey": "shizuishan",
+  "chainKeys": [
+   "coal",
+   "silicon"
+  ],
+  "chainContainerIds": [
+   "coalChain",
+   "siliconChain"
+  ],
+  "currentStatus": "塞上硅都，绿能转型",
+  "transformationAssessment": "从“塞上煤城”到“西北硅基新材料基地”",
+  "transformationDetail": "石嘴山煤炭开采历史逾六十年，太西煤品牌驰名。进入新世纪，煤炭枯竭与生态约束倒逼转型，当地硅石、电力与产业配套优势催生工业硅、单晶硅、光伏组件等新兴产业集群。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 1956,
+   "title": "石嘴山煤田开发",
+   "category": "discovery",
+   "desc": "贺兰山煤田大规模勘探开发，石嘴山现代工业起步",
+   "impact": 10,
+   "pop": 200900,
+   "coal": 0,
+   "silicon": 0,
+   "gdp": 0.05,
+   "event": true
+  },
+  {
+   "year": 1960,
+   "title": "因煤设市",
+   "category": "peak",
+   "desc": "石嘴山市正式成立，成为宁夏第二个地级市",
+   "impact": 8,
+   "pop": 301400,
+   "coal": 50,
+   "silicon": 0,
+   "gdp": 0.2,
+   "event": true
+  },
+  {
+   "year": 1965,
+   "title": "太西煤享誉全国",
+   "category": "peak",
+   "desc": "太西煤以优质无烟煤特性成为国家重要出口煤",
+   "impact": 8,
+   "pop": 401800,
+   "coal": 300,
+   "silicon": 0,
+   "gdp": 1,
+   "event": true
+  },
+  {
+   "year": 1975,
+   "title": "煤炭产量历史高点",
+   "category": "peak",
+   "desc": "石嘴山煤炭产量达到历史峰值，支撑宁夏能源供应",
+   "impact": 9,
+   "pop": 562500,
+   "coal": 1200,
+   "silicon": 0,
+   "gdp": 4,
+   "event": true
+  },
+  {
+   "year": 1985,
+   "title": "宁夏能源基地核心",
+   "category": "peak",
+   "desc": "石嘴山成为宁夏最大的煤炭、电力和煤化工基地",
+   "impact": 8,
+   "pop": 642900,
+   "coal": 1800,
+   "silicon": 0,
+   "gdp": 10,
+   "event": false
+  },
+  {
+   "year": 1997,
+   "title": "煤炭市场低迷",
+   "category": "decline",
+   "desc": "全国煤炭过剩，石嘴山煤价下跌，财政收入下滑",
+   "impact": 8,
+   "pop": 683100,
+   "coal": 1500,
+   "silicon": 0.1,
+   "gdp": 20,
+   "event": true
+  },
+  {
+   "year": 2008,
+   "title": "全国首批资源枯竭城市",
+   "category": "decline",
+   "desc": "石嘴山被列入全国首批资源枯竭城市，转型压力加大",
+   "impact": 9,
+   "pop": 703200,
+   "coal": 1200,
+   "silicon": 0.5,
+   "gdp": 28,
+   "event": true
+  },
+  {
+   "year": 2008,
+   "title": "金融危机与环保压力",
+   "category": "decline",
+   "desc": "全球金融危机叠加环保限产，传统产业雪上加霜",
+   "impact": 7,
+   "pop": 713200,
+   "coal": 1000,
+   "silicon": 1,
+   "gdp": 32,
+   "event": true
+  },
+  {
+   "year": 2010,
+   "title": "光伏硅材料产业起步",
+   "category": "transformation",
+   "desc": "依托硅石资源发展工业硅、碳化硅等光伏新材料",
+   "impact": 8,
+   "pop": 719200,
+   "coal": 900,
+   "silicon": 3,
+   "gdp": 40,
+   "event": true
+  },
+  {
+   "year": 2013,
+   "title": "氰胺化工与硅基新材料",
+   "category": "transformation",
+   "desc": "氰胺、活性炭与硅基新材料产业链逐步形成",
+   "impact": 8,
+   "pop": 723200,
+   "coal": 800,
+   "silicon": 8,
+   "gdp": 55,
+   "event": true
+  },
+  {
+   "year": 2016,
+   "title": "煤化工延链与循环经济",
+   "category": "transformation",
+   "desc": "现代煤化工、精细化工与循环经济产业园建设提速",
+   "impact": 7,
+   "pop": 727300,
+   "coal": 700,
+   "silicon": 15,
+   "gdp": 70,
+   "event": true
+  },
+  {
+   "year": 2019,
+   "title": "单晶硅工业硅扩能",
+   "category": "transformation",
+   "desc": "单晶硅、工业硅产能快速扩张，成为西北光伏材料重镇",
+   "impact": 9,
+   "pop": 731300,
+   "coal": 600,
+   "silicon": 30,
+   "gdp": 90,
+   "event": true
+  },
+  {
+   "year": 2022,
+   "title": "绿电园区建设",
+   "category": "transformation",
+   "desc": "配套新能源发电的绿电园区投运，降低硅材料用电成本",
+   "impact": 8,
+   "pop": 751400,
+   "coal": 500,
+   "silicon": 50,
+   "gdp": 693.34,
+   "event": true,
+   "calibrated": true
+  },
+  {
+   "year": 2023,
+   "title": "2023年统计锚点",
+   "category": "peak",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 750900,
+   "gdp": 565.53,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2024,
+   "title": "塞上绿能新材料基地",
+   "category": "transformation",
+   "desc": "硅基新材料、光伏组件与氢能装备形成产业集群",
+   "impact": 9,
+   "pop": 739400,
+   "coal": 400,
+   "silicon": 70,
+   "gdp": 565.53,
+   "event": true,
+   "calibrated": true
+  }
+ ],
+ "chains": {
+  "coal": {
+   "name": "煤炭产业链",
+   "color": "#1a1a2e",
+   "icon": "⛏️",
+   "lifecycle": {
+    "birth": 1956,
+    "peak": 1975,
+    "decline": 1997,
+    "collapse": null,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "mine",
+     "name": "井下/露天开采",
+     "x": 50,
+     "y": 50,
+     "status": "dying",
+     "peak": "1960s-1980s",
+     "decline": "2000s"
+    },
+    {
+     "id": "wash",
+     "name": "洗选加工",
+     "x": 150,
+     "y": 50,
+     "status": "dying",
+     "peak": "1970s-1990s",
+     "decline": "2000s"
+    },
+    {
+     "id": "coke",
+     "name": "焦化化工",
+     "x": 250,
+     "y": 50,
+     "status": "dying",
+     "peak": "1980s-2000s",
+     "decline": "2010s"
+    },
+    {
+     "id": "power",
+     "name": "燃煤发电",
+     "x": 350,
+     "y": 50,
+     "status": "active",
+     "peak": "1990s-2010s",
+     "decline": "2020s"
+    },
+    {
+     "id": "chemical",
+     "name": "现代煤化工",
+     "x": 450,
+     "y": 50,
+     "status": "active",
+     "peak": "2010s",
+     "decline": null
+    },
+    {
+     "id": "reclaim",
+     "name": "贺兰山生态修复",
+     "x": 550,
+     "y": 50,
+     "status": "emerging",
+     "peak": "2020s",
+     "decline": null
+    }
+   ],
+   "connections": [
+    {
+     "from": "mine",
+     "to": "wash",
+     "flow": "原煤"
+    },
+    {
+     "from": "wash",
+     "to": "coke",
+     "flow": "精煤"
+    },
+    {
+     "from": "wash",
+     "to": "power",
+     "flow": "动力煤"
+    },
+    {
+     "from": "coke",
+     "to": "chemical",
+     "flow": "焦炉气"
+    },
+    {
+     "from": "mine",
+     "to": "reclaim",
+     "flow": "生态修复"
+    }
+   ],
+   "employment": {
+    "peak": 80000,
+    "current": 15000
+   }
+  },
+  "silicon": {
+   "name": "硅基新材料产业链",
+   "color": "#64748b",
+   "icon": "💎",
+   "lifecycle": {
+    "birth": 2010,
+    "peak": 2024,
+    "decline": null,
+    "collapse": null,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "quartz",
+     "name": "硅石开采",
+     "x": 50,
+     "y": 200,
+     "status": "active",
+     "peak": "2010s",
+     "decline": null
+    },
+    {
+     "id": "metallurgical",
+     "name": "工业硅冶炼",
+     "x": 150,
+     "y": 200,
+     "status": "active",
+     "peak": "2010s",
+     "decline": null
+    },
+    {
+     "id": "polysilicon",
+     "name": "多晶硅",
+     "x": 250,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "monocrystal",
+     "name": "单晶硅棒",
+     "x": 350,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "cells",
+     "name": "电池片",
+     "x": 450,
+     "y": 200,
+     "status": "growing",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "modules",
+     "name": "光伏组件",
+     "x": 550,
+     "y": 200,
+     "status": "emerging",
+     "peak": "2030s",
+     "decline": null
+    }
+   ],
+   "connections": [
+    {
+     "from": "quartz",
+     "to": "metallurgical",
+     "flow": "硅石"
+    },
+    {
+     "from": "metallurgical",
+     "to": "polysilicon",
+     "flow": "工业硅"
+    },
+    {
+     "from": "polysilicon",
+     "to": "monocrystal",
+     "flow": "多晶硅"
+    },
+    {
+     "from": "monocrystal",
+     "to": "cells",
+     "flow": "硅片"
+    },
+    {
+     "from": "cells",
+     "to": "modules",
+     "flow": "电池片"
+    }
+   ],
+   "employment": {
+    "peak": 30000,
+    "current": 50000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "depletion",
+    "name": "煤炭资源枯竭",
+    "weight": 30,
+    "evidence": "贺兰山煤田浅部资源基本枯竭，矿井陆续关闭",
+    "icon": "⛏️",
+    "selected": false
+   },
+   {
+    "id": "environment",
+    "name": "生态与大气污染",
+    "weight": 25,
+    "evidence": "多年燃煤、焦化导致贺兰山生态破坏和大气污染",
+    "icon": "🌫️",
+    "selected": false
+   },
+   {
+    "id": "water",
+    "name": "水资源约束",
+    "weight": 15,
+    "evidence": "西北干旱区，工业用水与生态用水矛盾突出",
+    "icon": "💧",
+    "selected": false
+   },
+   {
+    "id": "talent",
+    "name": "人才流失",
+    "weight": 15,
+    "evidence": "煤炭产业衰退后年轻劳动力和高技能人才外流",
+    "icon": "👷",
+    "selected": false
+   },
+   {
+    "id": "single",
+    "name": "产业结构单一",
+    "weight": 15,
+    "evidence": "长期依赖煤炭和电力，新兴产业起步较晚",
+    "icon": "🏭",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "silicon",
+    "name": "硅石资源优势",
+    "weight": 30,
+    "evidence": "贺兰山地区硅石储量丰富，品质适合光伏硅材料",
+    "icon": "💎",
+    "selected": false
+   },
+   {
+    "id": "power",
+    "name": "绿电与电价优势",
+    "weight": 25,
+    "evidence": "宁夏新能源基地和自备电厂降低硅产业用电成本",
+    "icon": "⚡",
+    "selected": false
+   },
+   {
+    "id": "policy",
+    "name": "资源枯竭城市政策",
+    "weight": 15,
+    "evidence": "国家转移支付与产业转型资金持续支持",
+    "icon": "📜",
+    "selected": false
+   },
+   {
+    "id": "location",
+    "name": "西北能源走廊",
+    "weight": 15,
+    "evidence": "毗邻内蒙古、甘肃能源基地，物流与产业配套完善",
+    "icon": "🌐",
+    "selected": false
+   },
+   {
+    "id": "taixi",
+    "name": "太西煤品牌与技术",
+    "weight": 15,
+    "evidence": "活性炭、碳化硅等煤基材料技术积累深厚",
+    "icon": "⛏️",
+    "selected": false
+   }
+  ]
+ },
+ "space_timeline": [
+  {
+   "year": 1956,
+   "old_area": 2,
+   "new_area": 0,
+   "old_pop": 200900,
+   "vacancy": 0
+  },
+  {
+   "year": 1975,
+   "old_area": 12,
+   "new_area": 0,
+   "old_pop": 562500,
+   "vacancy": 0
+  },
+  {
+   "year": 1990,
+   "old_area": 22,
+   "new_area": 0,
+   "old_pop": 663000,
+   "vacancy": 0.05
+  },
+  {
+   "year": 2008,
+   "old_area": 32,
+   "new_area": 0,
+   "old_pop": 703200,
+   "vacancy": 0.08
+  },
+  {
+   "year": 2016,
+   "old_area": 40,
+   "new_area": 0,
+   "old_pop": 727300,
+   "vacancy": 0.15
+  },
+  {
+   "year": 2024,
+   "old_area": 48,
+   "new_area": 0,
+   "old_pop": 739400,
+   "vacancy": 0.12
+  }
+ ],
+ "space": {
+  "old_city": {
+   "name": "石嘴山老城区",
+   "peak_pop": 743300,
+   "current_pop": 739400,
+   "vacancy": 0.12,
+   "landmark": "石嘴山煤矿博物馆"
+  },
+  "new_city": {
+   "name": "宁夏光伏新材料产业园",
+   "peak_pop": 0,
+   "current_pop": 100500,
+   "landmark": "石嘴山单晶硅生产基地"
+  },
+  "distance_km": 12,
+  "built_up_area_km2": 48,
+  "current_pop": 739400,
+  "peak_pop": 743300,
+  "vacancy_rate": 0.12
+ },
+ "migration": {
+  "outflow_total": 140600,
+  "destinations": [
+   {
+    "city": "银川",
+    "province": "宁夏",
+    "count": 50200,
+    "reason": "首府就业与教育"
+   },
+   {
+    "city": "吴忠",
+    "province": "宁夏",
+    "count": 24100,
+    "reason": "邻近城市务工"
+   },
+   {
+    "city": "中卫",
+    "province": "宁夏",
+    "count": 20090,
+    "reason": "新能源产业就业"
+   },
+   {
+    "city": "呼和浩特",
+    "province": "内蒙古",
+    "count": 16070,
+    "reason": "区域中心城市就业"
+   },
+   {
+    "city": "其他地区",
+    "province": "全国",
+    "count": 30140,
+    "reason": "外出务工与求学"
+   }
+  ]
+ },
+ "achievements": [
+  {
+   "id": "shizuishan_first_visit",
+   "name": "塞上煤城初探",
+   "desc": "首次进入石嘴山",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "shizuishan_discovery",
+   "name": "贺兰山煤田开发",
+   "desc": "见证1956年石嘴山煤田开发",
+   "condition": "year",
+   "year": 1956
+  },
+  {
+   "id": "shizuishan_city",
+   "name": "因煤设市",
+   "desc": "见证1960年石嘴山市成立",
+   "condition": "year",
+   "year": 1960
+  },
+  {
+   "id": "shizuishan_exhausted",
+   "name": "全国首批资源枯竭城市",
+   "desc": "见证2008年石嘴山列入全国首批资源枯竭城市",
+   "condition": "year",
+   "year": 2008
+  },
+  {
+   "id": "shizuishan_silicon",
+   "name": "塞上硅都",
+   "desc": "见证2019年单晶硅工业硅扩能",
+   "condition": "year",
+   "year": 2019
+  },
+  {
+   "id": "shizuishan_chain",
+   "name": "煤硅转型拼图大师",
+   "desc": "完成石嘴山煤炭-硅基新材料产业链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": [
+  {
+   "desc": "2024 GDP 565.53亿; 2024年GDP 565.53亿元为第五次全国经济普查修订基数后口径（名义值低于2023年但实际增长3.2%）；2023年GDP 698.98亿元为当年公报原口径",
+   "url": "http://www.tjcn.org/tjgb/30nx/37917.html",
+   "year": 2023
+  }
+ ],
+ "real_anchors": {
+  "census2020": {
+   "pop": 751400
+  },
+  "stat2023": {
+   "gdp": 565.53,
+   "pop": 750900
+  }
+ }
+}

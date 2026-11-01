@@ -1,0 +1,711 @@
+{
+ "profile": {
+  "name": "冷水江市",
+  "province": "湖南省",
+  "prefecture": "娄底市代管",
+  "area": "439 km²",
+  "coordinates": [
+   111.43,
+   27.69
+  ],
+  "tags": [
+   "世界锑都",
+   "锡矿山",
+   "资源枯竭",
+   "环境修复"
+  ],
+  "description": "湘中腹地的锑矿之城，因1897年锡矿山锑矿发现而崛起，曾供应全球30%以上的锑金属。百年开采导致资源枯竭、重金属污染严重，是中国矿业城市环境治理的极端样本。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 1897,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "起家期",
+    "start": 1897,
+    "end": 1949,
+    "color": "green"
+   },
+   {
+    "name": "壮盛期",
+    "start": 1950,
+    "end": 1990,
+    "color": "yellow"
+   },
+   {
+    "name": "衰败期",
+    "start": 1991,
+    "end": 2015,
+    "color": "red"
+   },
+   {
+    "name": "修复期",
+    "start": 2016,
+    "end": 2024,
+    "color": "teal"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "antimony",
+    "label": "锑产量",
+    "unit": "万吨",
+    "max": 5,
+    "color": "#4a5568"
+   }
+  ],
+  "spaceType": "built_up",
+  "spaceLabels": {
+   "built": "建成区",
+   "density": "人口密度"
+  },
+  "cityKey": "lengshuijiang",
+  "chainKeys": [
+   "antimony",
+   "replacement"
+  ],
+  "chainContainerIds": [
+   "antimonyChain",
+   "replacementChain"
+  ],
+  "currentStatus": "世界锑都，环境修复中",
+  "transformationAssessment": "从矿业毒城到生态修复样本",
+  "transformationDetail": "冷水江百年锑矿开采导致严重重金属污染，锡矿山已成为全国矿山环境修复标杆。光电子和新材料产业起步，但体量尚小，修复期将漫长。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 1897,
+   "title": "锑矿发现",
+   "category": "discovery",
+   "desc": "锡矿山发现世界第一大锑矿，开启百年开采史",
+   "impact": 10,
+   "pop": 100,
+   "antimony": 0.01,
+   "gdp": 0.01,
+   "event": true
+  },
+  {
+   "year": 1908,
+   "title": "华昌公司",
+   "category": "discovery",
+   "desc": "华昌矿业公司成立，锡矿山锑矿进入工业化开采",
+   "impact": 8,
+   "pop": 1000,
+   "antimony": 0.1,
+   "gdp": 0.1,
+   "event": true
+  },
+  {
+   "year": 1920,
+   "title": "产量跃升",
+   "category": "peak",
+   "desc": "年产量突破5000吨，占全球产量一半以上",
+   "impact": 8,
+   "pop": 5000,
+   "antimony": 0.5,
+   "gdp": 0.3,
+   "event": false
+  },
+  {
+   "year": 1949,
+   "title": "新中国接管",
+   "category": "peak",
+   "desc": "锡矿山解放，锑矿收归国有，成为国家重点战略资源基地",
+   "impact": 8,
+   "pop": 15000,
+   "antimony": 1,
+   "gdp": 0.5,
+   "event": true
+  },
+  {
+   "year": 1950,
+   "title": "苏联援建",
+   "category": "peak",
+   "desc": "列入156项重点工程，扩建冶炼厂，产能大幅提升",
+   "impact": 9,
+   "pop": 30000,
+   "antimony": 1.5,
+   "gdp": 1,
+   "event": true
+  },
+  {
+   "year": 1960,
+   "title": "产量巅峰",
+   "category": "peak",
+   "desc": "年产锑突破3万吨，锡矿山成为全球最大锑矿产地",
+   "impact": 9,
+   "pop": 60000,
+   "antimony": 3,
+   "gdp": 3,
+   "event": true
+  },
+  {
+   "year": 1970,
+   "title": "持续繁荣",
+   "category": "peak",
+   "desc": "锑矿维持高产，配套冶炼、化工产业完善",
+   "impact": 7,
+   "pop": 150000,
+   "antimony": 2.5,
+   "gdp": 5,
+   "event": false
+  },
+  {
+   "year": 1980,
+   "title": "全盛时期",
+   "category": "peak",
+   "desc": "锡矿山矿业局鼎盛，城市配套成熟，人口达峰值",
+   "impact": 7,
+   "pop": 300000,
+   "antimony": 2,
+   "gdp": 8,
+   "event": false
+  },
+  {
+   "year": 1990,
+   "title": "品位下滑",
+   "category": "decline",
+   "desc": "高品位锑矿耗尽，开采成本激增，锑价暴跌",
+   "impact": 8,
+   "pop": 320000,
+   "antimony": 1.5,
+   "gdp": 12,
+   "event": true
+  },
+  {
+   "year": 1995,
+   "title": "污染爆发",
+   "category": "decline",
+   "desc": "百年冶炼导致砷、锑污染严重，被媒体称为'世界最大砷污染区'",
+   "impact": 10,
+   "pop": 330000,
+   "antimony": 1.2,
+   "gdp": 18,
+   "event": true
+  },
+  {
+   "year": 2000,
+   "title": "资源警报",
+   "category": "decline",
+   "desc": "锑矿可采储量急剧下降，大量矿井关闭",
+   "impact": 8,
+   "pop": 340000,
+   "antimony": 0.8,
+   "gdp": 25,
+   "event": false
+  },
+  {
+   "year": 2005,
+   "title": "产业崩塌",
+   "category": "decline",
+   "desc": "锑矿产量跌至不足巅峰期的三分之一，大量工人下岗",
+   "impact": 9,
+   "pop": 350000,
+   "antimony": 0.5,
+   "gdp": 40,
+   "event": true
+  },
+  {
+   "year": 2009,
+   "title": "冷水江设市",
+   "category": "decline",
+   "desc": "从锡矿山矿区升格为县级市，试图以行政升级带动转型",
+   "impact": 6,
+   "pop": 360000,
+   "antimony": 0.3,
+   "gdp": 60,
+   "event": true
+  },
+  {
+   "year": 2011,
+   "title": "枯竭城市",
+   "category": "decline",
+   "desc": "列入第三批资源枯竭城市，重金属污染问题引起中央关注",
+   "impact": 10,
+   "pop": 370000,
+   "antimony": 0.2,
+   "gdp": 100,
+   "event": true
+  },
+  {
+   "year": 2015,
+   "title": "治理攻坚",
+   "category": "transformation",
+   "desc": "国家投入数十亿元治理砷污染，关闭淘汰落后产能",
+   "impact": 9,
+   "pop": 360000,
+   "antimony": 0.15,
+   "gdp": 150,
+   "event": true
+  },
+  {
+   "year": 2018,
+   "title": "矿山复绿",
+   "category": "transformation",
+   "desc": "锡矿山百年废渣堆开始大规模复绿，工矿旅游起步",
+   "impact": 7,
+   "pop": 350000,
+   "antimony": 0.1,
+   "gdp": 200,
+   "event": true
+  },
+  {
+   "year": 2020,
+   "title": "七普数据",
+   "category": "decline",
+   "desc": "常住人口约34.8万，城市人口增长停滞",
+   "impact": 6,
+   "pop": 348000,
+   "antimony": 0.08,
+   "gdp": 230,
+   "event": true
+  },
+  {
+   "year": 2021,
+   "title": "2021年统计锚点",
+   "category": "transformation",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 329900,
+   "gdp": 257.3,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2022,
+   "title": "2022年统计锚点",
+   "category": "peak",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 329900,
+   "gdp": 264.8,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2023,
+   "title": "生态修复",
+   "category": "transformation",
+   "desc": "砷污染治理取得阶段性成果，矿山公园基本建成",
+   "impact": 7,
+   "pop": 325900,
+   "antimony": 0.05,
+   "gdp": 267.8,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2024,
+   "title": "锑都新生",
+   "category": "transformation",
+   "desc": "锑产量仅占巅峰期2%，但矿山旅游和环境修复成为新名片",
+   "impact": 8,
+   "pop": 335000,
+   "antimony": 0.03,
+   "gdp": 280,
+   "event": true
+  }
+ ],
+ "chains": {
+  "antimony": {
+   "name": "锑矿产业链",
+   "color": "#4a5568",
+   "icon": "⚒️",
+   "lifecycle": {
+    "birth": 1897,
+    "peak": 1960,
+    "decline": 1990,
+    "collapse": 2005,
+    "dead": 2024
+   },
+   "nodes": [
+    {
+     "id": "mine",
+     "name": "井下开采",
+     "status": "dead",
+     "peak": "1950s-1970s",
+     "decline": "1990s"
+    },
+    {
+     "id": "smelt",
+     "name": "火法冶炼",
+     "status": "dead",
+     "peak": "1960s-1990s",
+     "decline": "2000s"
+    },
+    {
+     "id": "refine",
+     "name": "精炼提纯",
+     "status": "dying",
+     "peak": "1980s-2000s",
+     "decline": "2010s"
+    },
+    {
+     "id": "alloy",
+     "name": "合金制造",
+     "status": "dying",
+     "peak": "1990s",
+     "decline": "2010s"
+    },
+    {
+     "id": "chemical",
+     "name": "阻燃化工",
+     "status": "dying",
+     "peak": "2000s",
+     "decline": "2020s"
+    },
+    {
+     "id": "export",
+     "name": "外贸出口",
+     "status": "dead",
+     "peak": "1980s-2000s",
+     "decline": "2010s"
+    }
+   ],
+   "connections": [
+    {
+     "from": "mine",
+     "to": "smelt",
+     "flow": "锑矿石"
+    },
+    {
+     "from": "smelt",
+     "to": "refine",
+     "flow": "粗锑"
+    },
+    {
+     "from": "refine",
+     "to": "alloy",
+     "flow": "精锑"
+    },
+    {
+     "from": "refine",
+     "to": "chemical",
+     "flow": "锑化工品"
+    },
+    {
+     "from": "refine",
+     "to": "export",
+     "flow": "出口锑"
+    }
+   ],
+   "employment": {
+    "peak": 50000,
+    "current": 2000
+   }
+  },
+  "replacement": {
+   "name": "接续产业（修复·旅游·深加工）",
+   "color": "#2ecc71",
+   "icon": "🔄",
+   "lifecycle": {
+    "birth": 2015,
+    "growth": 2018,
+    "peak": null
+   },
+   "nodes": [
+    {
+     "id": "tourism",
+     "name": "矿山公园旅游",
+     "status": "growing",
+     "peak": "未来"
+    },
+    {
+     "id": "green",
+     "name": "生态修复产业",
+     "status": "growing",
+     "peak": "未来"
+    },
+    {
+     "id": "service",
+     "name": "服务业",
+     "status": "growing",
+     "peak": "未来"
+    },
+    {
+     "id": "tech",
+     "name": "锑深加工",
+     "status": "emerging",
+     "peak": "未来"
+    }
+   ],
+   "connections": [
+    {
+     "from": "green",
+     "to": "tourism",
+     "flow": "景观基础"
+    },
+    {
+     "from": "tech",
+     "to": "service",
+     "flow": "产业配套"
+    }
+   ],
+   "employment": {
+    "peak": null,
+    "current": 8000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "resource",
+    "name": "资源枯竭",
+    "weight": 35,
+    "evidence": "锑矿品位从20%降至1%以下，可采储量几乎耗尽",
+    "icon": "⛏️",
+    "selected": false
+   },
+   {
+    "id": "pollution",
+    "name": "重金属污染",
+    "weight": 25,
+    "evidence": "百年冶炼导致砷、锑污染，被媒体称为'世界最大砷污染区'",
+    "icon": "☠️",
+    "selected": false
+   },
+   {
+    "id": "single",
+    "name": "产业结构单一",
+    "weight": 15,
+    "evidence": "锑矿占工业产值80%以上，无替代产业",
+    "icon": "🏭",
+    "selected": false
+   },
+   {
+    "id": "policy",
+    "name": "环保风暴+去产能",
+    "weight": 10,
+    "evidence": "2015年后大量冶炼厂关停，环保标准急剧收紧",
+    "icon": "📜",
+    "selected": false
+   },
+   {
+    "id": "space",
+    "name": "城市空间极小",
+    "weight": 8,
+    "evidence": "面积仅439km²，山区地形限制扩张",
+    "icon": "🏔️",
+    "selected": false
+   },
+   {
+    "id": "talent",
+    "name": "人才外流",
+    "weight": 7,
+    "evidence": "年轻人向长沙、娄底、广州流失",
+    "icon": "👥",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "tourism",
+    "name": "矿山公园旅游",
+    "weight": 30,
+    "evidence": "锡矿山百年工业遗产+生态修复景观，独特IP",
+    "icon": "🏛️",
+    "selected": false
+   },
+   {
+    "id": "green",
+    "name": "环境修复产业",
+    "weight": 20,
+    "evidence": "国家重金属污染治理示范区，修复技术输出",
+    "icon": "🌿",
+    "selected": false
+   },
+   {
+    "id": "policy",
+    "name": "国家政策支持",
+    "weight": 20,
+    "evidence": "资源枯竭城市转型+重金属污染治理专项资金",
+    "icon": "💰",
+    "selected": false
+   },
+   {
+    "id": "location",
+    "name": "长株潭辐射",
+    "weight": 20,
+    "evidence": "距离长沙2小时车程，承接产业转移",
+    "icon": "🌐",
+    "selected": false
+   },
+   {
+    "id": "antimony",
+    "name": "锑深加工",
+    "weight": 10,
+    "evidence": "锑系阻燃剂、光伏玻璃澄清剂等高附加值产业",
+    "icon": "🔥",
+    "selected": false
+   }
+  ]
+ },
+ "space_timeline": [
+  {
+   "year": 1897,
+   "built": 0.1,
+   "vacancy": 0,
+   "density": 500
+  },
+  {
+   "year": 1949,
+   "built": 1,
+   "vacancy": 0,
+   "density": 15000
+  },
+  {
+   "year": 1960,
+   "built": 5,
+   "vacancy": 0,
+   "density": 12000
+  },
+  {
+   "year": 1970,
+   "built": 10,
+   "vacancy": 0,
+   "density": 15000
+  },
+  {
+   "year": 1980,
+   "built": 18,
+   "vacancy": 0.05,
+   "density": 16600
+  },
+  {
+   "year": 1990,
+   "built": 25,
+   "vacancy": 0.1,
+   "density": 12800
+  },
+  {
+   "year": 2000,
+   "built": 30,
+   "vacancy": 0.15,
+   "density": 11300
+  },
+  {
+   "year": 2009,
+   "built": 35,
+   "vacancy": 0.2,
+   "density": 10200
+  },
+  {
+   "year": 2015,
+   "built": 38,
+   "vacancy": 0.25,
+   "density": 9470
+  },
+  {
+   "year": 2020,
+   "built": 40,
+   "vacancy": 0.3,
+   "density": 8700
+  },
+  {
+   "year": 2024,
+   "built": 42,
+   "vacancy": 0.35,
+   "density": 7980
+  }
+ ],
+ "space": {
+  "built_up_area_km2": 42,
+  "current_pop": 335000,
+  "peak_pop": 370000,
+  "vacancy_rate": 0.35,
+  "housing_price_rank": "湖南省县级市中等",
+  "landmark": "锡矿山矿山公园"
+ },
+ "migration": {
+  "outflow_total": 55000,
+  "destinations": [
+   {
+    "city": "长沙",
+    "province": "湖南",
+    "count": 18000,
+    "reason": "省会就业"
+   },
+   {
+    "city": "娄底",
+    "province": "湖南",
+    "count": 12000,
+    "reason": "就近务工"
+   },
+   {
+    "city": "广州",
+    "province": "广东",
+    "count": 10000,
+    "reason": "珠三角务工"
+   },
+   {
+    "city": "深圳",
+    "province": "广东",
+    "count": 8000,
+    "reason": "制造业就业"
+   },
+   {
+    "city": "其他地区",
+    "province": "全国",
+    "count": 7000,
+    "reason": "外出务工与经商"
+   }
+  ]
+ },
+ "achievements": [
+  {
+   "id": "lengshuijiang_first_visit",
+   "name": "世界锑都",
+   "desc": "首次进入冷水江，探访锡矿山",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "lengshuijiang_mine",
+   "name": "锑矿开发",
+   "desc": "见证1897年锡矿山锑矿开采起步",
+   "condition": "year",
+   "year": 1897
+  },
+  {
+   "id": "lengshuijiang_pollution",
+   "name": "砷污染警示",
+   "desc": "见证2011年砷污染事件引发全国关注",
+   "condition": "year",
+   "year": 2011
+  },
+  {
+   "id": "lengshuijiang_park",
+   "name": "矿山公园",
+   "desc": "见证锡矿山生态修复与矿山公园建设",
+   "condition": "year",
+   "year": 2023
+  },
+  {
+   "id": "lengshuijiang_chain",
+   "name": "锑都拼图大师",
+   "desc": "完成冷水江锑矿产业链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": [
+  {
+   "desc": "2023 GDP 267.8亿; ",
+   "url": "https://tjgb.hongheiku.com/xjtjgb/xj2020/46842.html",
+   "year": 2023
+  }
+ ],
+ "real_anchors": {
+  "census2020": {
+   "pop": 329900
+  },
+  "stat2023": {
+   "gdp": 267.8,
+   "pop": 325900
+  }
+ }
+}

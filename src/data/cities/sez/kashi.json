@@ -1,0 +1,700 @@
+{
+ "profile": {
+  "name": "喀什市",
+  "province": "新疆维吾尔自治区",
+  "prefecture": "地级市 · 经济特区",
+  "area": "1,056 km²",
+  "coordinates": [
+   75.98,
+   39.47
+  ],
+  "tags": [
+   "经济特区",
+   "丝路明珠",
+   "中巴经济走廊",
+   "南疆门户"
+  ],
+  "description": "中国最西端的城市之一，2010年与霍尔果斯一同被批准设立经济特区，依托中巴经济走廊和面向中亚、南亚的区位，打造区域性商贸物流中心和产业承接基地。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 2010,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "开发前奏",
+    "start": 2008,
+    "end": 2009,
+    "color": "gray"
+   },
+   {
+    "name": "特区设立",
+    "start": 2010,
+    "end": 2013,
+    "color": "green"
+   },
+   {
+    "name": "新城与园区",
+    "start": 2014,
+    "end": 2017,
+    "color": "yellow"
+   },
+   {
+    "name": "一带一路 gateway",
+    "start": 2018,
+    "end": 2021,
+    "color": "teal"
+   },
+   {
+    "name": "高质量发展",
+    "start": 2022,
+    "end": 2024,
+    "color": "purple"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "trade",
+    "label": "外贸进出口总额",
+    "unit": "亿元",
+    "max": 1000,
+    "color": "#f59e0b"
+   },
+   {
+    "key": "manufacturing",
+    "label": "规上工业总产值",
+    "unit": "亿元",
+    "max": 800,
+    "color": "#3b82f6"
+   }
+  ],
+  "spaceType": "single_city",
+  "spaceLabels": {
+   "old": "喀什老城",
+   "new": "喀什东城"
+  },
+  "cityKey": "kashi",
+  "chainKeys": [
+   "border_trade",
+   "manufacturing_transfer",
+   "cultural_tourism"
+  ],
+  "chainContainerIds": [
+   "borderTradeChain",
+   "manufacturingChain",
+   "cultureChain"
+  ],
+  "currentStatus": "南疆区域中心城市，中巴经济走廊重要节点",
+  "transformationAssessment": "从边陲古城到开放门户",
+  "transformationDetail": "喀什特区通过东部产业转移、综合保税物流和国际巴扎品牌，加快从传统商贸古城向现代边境经济特区转型，常住人口突破80万。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 2010,
+   "title": "经济特区设立",
+   "category": "discovery",
+   "desc": "中央批准设立喀什经济开发区，赋予特区政策",
+   "impact": 10,
+   "pop": 350000,
+   "gdp": 20,
+   "trade": 8,
+   "manufacturing": 5,
+   "event": true
+  },
+  {
+   "year": 2011,
+   "title": "新一轮对口援疆",
+   "category": "transformation",
+   "desc": "19省市对口支援新疆，深圳等沿海城市重点支援喀什",
+   "impact": 8,
+   "pop": 370000,
+   "gdp": 26,
+   "trade": 12,
+   "manufacturing": 8,
+   "event": true
+  },
+  {
+   "year": 2012,
+   "title": "综合保税区规划",
+   "category": "transformation",
+   "desc": "喀什综合保税区获批筹建，为外向型产业提供平台",
+   "impact": 7,
+   "pop": 400000,
+   "gdp": 34,
+   "trade": 20,
+   "manufacturing": 12,
+   "event": false
+  },
+  {
+   "year": 2013,
+   "title": "中巴经济走廊提出",
+   "category": "transformation",
+   "desc": "一带一路倡议将中巴经济走廊列为旗舰项目，喀什成为北线起点",
+   "impact": 9,
+   "pop": 430000,
+   "gdp": 45,
+   "trade": 30,
+   "manufacturing": 18,
+   "event": true
+  },
+  {
+   "year": 2014,
+   "title": "喀什东城建设",
+   "category": "transformation",
+   "desc": "喀什特区东城区基础设施和产业园区大规模建设",
+   "impact": 7,
+   "pop": 470000,
+   "gdp": 58,
+   "trade": 45,
+   "manufacturing": 28,
+   "event": false
+  },
+  {
+   "year": 2015,
+   "title": "综合保税区封关运营",
+   "category": "transformation",
+   "desc": "喀什综合保税区正式封关运营，边贸与保税加工起步",
+   "impact": 8,
+   "pop": 510000,
+   "gdp": 75,
+   "trade": 65,
+   "manufacturing": 40,
+   "event": true
+  },
+  {
+   "year": 2016,
+   "title": "产业转移入园",
+   "category": "peak",
+   "desc": "沿海电子组装、纺织服装企业向喀什经开区转移落地",
+   "impact": 7,
+   "pop": 550000,
+   "gdp": 95,
+   "trade": 85,
+   "manufacturing": 60,
+   "event": true
+  },
+  {
+   "year": 2018,
+   "title": "国际贸易物流通道拓展",
+   "category": "transformation",
+   "desc": "喀什至中亚、南亚公路铁路物流网络加密，跨境电商试点启动",
+   "impact": 8,
+   "pop": 610000,
+   "gdp": 125,
+   "trade": 130,
+   "manufacturing": 90,
+   "event": false
+  },
+  {
+   "year": 2019,
+   "title": "脱贫与稳岗扩就业",
+   "category": "transformation",
+   "desc": "劳动密集型产业吸纳本地就业，脱贫攻坚与产业培育并行",
+   "impact": 7,
+   "pop": 660000,
+   "gdp": 145,
+   "trade": 160,
+   "manufacturing": 120,
+   "event": false
+  },
+  {
+   "year": 2020,
+   "title": "疫情冲击边贸",
+   "category": "decline",
+   "desc": "全球疫情导致口岸通关受限，外贸与旅游业短期承压",
+   "impact": 6,
+   "pop": 700000,
+   "gdp": 155,
+   "trade": 140,
+   "manufacturing": 135,
+   "event": true
+  },
+  {
+   "year": 2022,
+   "title": "中巴走廊纵深推进",
+   "category": "transformation",
+   "desc": "喀什至伊斯兰堡物流通道恢复扩容，冷链与跨境电商提速",
+   "impact": 8,
+   "pop": 760000,
+   "gdp": 195,
+   "trade": 220,
+   "manufacturing": 180,
+   "event": true
+  },
+  {
+   "year": 2023,
+   "title": "自贸试验区联动发展",
+   "category": "transformation",
+   "desc": "新疆自贸区喀什片区揭牌，制度创新与国际合作深化",
+   "impact": 9,
+   "pop": 790000,
+   "gdp": 220,
+   "trade": 300,
+   "manufacturing": 220,
+   "event": true
+  },
+  {
+   "year": 2024,
+   "title": "南疆开放高地成型",
+   "category": "transformation",
+   "desc": "喀什外贸与产业规模持续扩大，成为南疆面向中亚的重要枢纽",
+   "impact": 9,
+   "pop": 820000,
+   "gdp": 250,
+   "trade": 380,
+   "manufacturing": 270,
+   "event": true
+  }
+ ],
+ "chains": {
+  "border_trade": {
+   "name": "边境贸易链",
+   "color": "#f59e0b",
+   "icon": "🏺",
+   "lifecycle": {
+    "birth": 2010,
+    "peak": 2024,
+    "decline": null
+   },
+   "nodes": [
+    {
+     "id": "bazaar",
+     "name": "国际大巴扎",
+     "x": 50,
+     "y": 50,
+     "status": "active",
+     "peak": "2010s"
+    },
+    {
+     "id": "customs",
+     "name": "口岸通关",
+     "x": 150,
+     "y": 50,
+     "status": "active",
+     "peak": "2010s"
+    },
+    {
+     "id": "bonded",
+     "name": "保税物流",
+     "x": 250,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "cross_border",
+     "name": "跨境电商",
+     "x": 350,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s"
+    }
+   ],
+   "connections": [
+    {
+     "from": "bazaar",
+     "to": "customs",
+     "flow": "商品集散"
+    },
+    {
+     "from": "customs",
+     "to": "bonded",
+     "flow": "进出口货物"
+    },
+    {
+     "from": "bonded",
+     "to": "cross_border",
+     "flow": "渠道延伸"
+    }
+   ],
+   "employment": {
+    "peak": null,
+    "current": 80000
+   }
+  },
+  "manufacturing_transfer": {
+   "name": "产业承接链",
+   "color": "#3b82f6",
+   "icon": "🏭",
+   "lifecycle": {
+    "birth": 2014,
+    "peak": 2023,
+    "decline": null
+   },
+   "nodes": [
+    {
+     "id": "textile",
+     "name": "纺织服装",
+     "x": 50,
+     "y": 50,
+     "status": "active",
+     "peak": "2010s"
+    },
+    {
+     "id": "electronics",
+     "name": "电子组装",
+     "x": 150,
+     "y": 50,
+     "status": "active",
+     "peak": "2020s"
+    },
+    {
+     "id": "home",
+     "name": "家居建材",
+     "x": 250,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "new_material",
+     "name": "新材料",
+     "x": 350,
+     "y": 50,
+     "status": "growing",
+     "peak": "未来"
+    }
+   ],
+   "connections": [
+    {
+     "from": "textile",
+     "to": "electronics",
+     "flow": "劳动力共享"
+    },
+    {
+     "from": "electronics",
+     "to": "home",
+     "flow": "本地配套"
+    },
+    {
+     "from": "home",
+     "to": "new_material",
+     "flow": "产业升级"
+    }
+   ],
+   "employment": {
+    "peak": null,
+    "current": 150000
+   }
+  },
+  "cultural_tourism": {
+   "name": "文化旅游链",
+   "color": "#ec4899",
+   "icon": "🕌",
+   "lifecycle": {
+    "birth": 2010,
+    "peak": 2019,
+    "decline": 2020
+   },
+   "nodes": [
+    {
+     "id": "old_city",
+     "name": "喀什古城",
+     "x": 50,
+     "y": 50,
+     "status": "active",
+     "peak": "2010s"
+    },
+    {
+     "id": "silk_road",
+     "name": "丝路风情",
+     "x": 150,
+     "y": 50,
+     "status": "active",
+     "peak": "2010s"
+    },
+    {
+     "id": "food",
+     "name": "美食民俗",
+     "x": 250,
+     "y": 50,
+     "status": "active",
+     "peak": "2020s"
+    },
+    {
+     "id": "cross_border_tour",
+     "name": "跨境旅游",
+     "x": 350,
+     "y": 50,
+     "status": "growing",
+     "peak": "未来"
+    }
+   ],
+   "connections": [
+    {
+     "from": "old_city",
+     "to": "silk_road",
+     "flow": "文化IP"
+    },
+    {
+     "from": "silk_road",
+     "to": "food",
+     "flow": "游客消费"
+    },
+    {
+     "from": "food",
+     "to": "cross_border_tour",
+     "flow": "线路延伸"
+    }
+   ],
+   "employment": {
+    "peak": 120000,
+    "current": 100000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "remoteness",
+    "name": "地理偏远",
+    "weight": 25,
+    "evidence": "距内地市场遥远，物流成本高，运输时效长",
+    "icon": "🏔️",
+    "selected": false
+   },
+   {
+    "id": "industry_base",
+    "name": "工业基础薄弱",
+    "weight": 20,
+    "evidence": "本地配套能力不足，产业链短，附加值较低",
+    "icon": "🏭",
+    "selected": false
+   },
+   {
+    "id": "talent",
+    "name": "人才与技术短缺",
+    "weight": 15,
+    "evidence": "高端管理与技术人才难以长期留存",
+    "icon": "👥",
+    "selected": false
+   },
+   {
+    "id": "water",
+    "name": "水资源与生态约束",
+    "weight": 15,
+    "evidence": "塔克拉玛干沙漠边缘，水资源承载力有限",
+    "icon": "💧",
+    "selected": false
+   },
+   {
+    "id": "stability",
+    "name": "安全与稳定成本",
+    "weight": 15,
+    "evidence": "边疆地区维稳与反恐曾长期占用大量公共资源",
+    "icon": "🛡️",
+    "selected": false
+   },
+   {
+    "id": "border",
+    "name": "边境局势波动",
+    "weight": 10,
+    "evidence": "中亚邻国政局与口岸通关效率影响边贸",
+    "icon": "🌊",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "policy",
+    "name": "经济特区与援疆政策",
+    "weight": 25,
+    "evidence": "特区税收优惠、对口援疆资金与产业援疆持续注入",
+    "icon": "📜",
+    "selected": false
+   },
+   {
+    "id": "location",
+    "name": "中巴经济走廊起点",
+    "weight": 25,
+    "evidence": "一带一路旗舰项目使喀什成为连接中亚、南亚的陆路枢纽",
+    "icon": "🗺️",
+    "selected": false
+   },
+   {
+    "id": "cost",
+    "name": "要素成本优势",
+    "weight": 15,
+    "evidence": "土地、劳动力成本低于东部沿海，适合劳动密集型产业",
+    "icon": "💰",
+    "selected": false
+   },
+   {
+    "id": "transfer",
+    "name": "沿海产业转移",
+    "weight": 15,
+    "evidence": "纺织、电子组装等东部产业向西部梯度转移",
+    "icon": "🚚",
+    "selected": false
+   },
+   {
+    "id": "culture",
+    "name": "文化旅游资源",
+    "weight": 10,
+    "evidence": "喀什古城与丝路文化吸引国内外游客",
+    "icon": "🕌",
+    "selected": false
+   },
+   {
+    "id": "market",
+    "name": "中亚南亚市场",
+    "weight": 10,
+    "evidence": "周边国家近10亿人口的消费与基建需求",
+    "icon": "🌏",
+    "selected": false
+   }
+  ]
+ },
+ "space_timeline": [
+  {
+   "year": 2010,
+   "built": 25,
+   "vacancy": 0.08
+  },
+  {
+   "year": 2013,
+   "built": 40,
+   "vacancy": 0.07
+  },
+  {
+   "year": 2015,
+   "built": 55,
+   "vacancy": 0.06
+  },
+  {
+   "year": 2017,
+   "built": 75,
+   "vacancy": 0.06
+  },
+  {
+   "year": 2019,
+   "built": 95,
+   "vacancy": 0.05
+  },
+  {
+   "year": 2021,
+   "built": 120,
+   "vacancy": 0.06
+  },
+  {
+   "year": 2023,
+   "built": 150,
+   "vacancy": 0.05
+  },
+  {
+   "year": 2024,
+   "built": 170,
+   "vacancy": 0.05
+  }
+ ],
+ "space": {
+  "built_up_area_km2": 170,
+  "peak_pop": 820000,
+  "current_pop": 820000,
+  "vacancy_rate": 0.05,
+  "landmark": "喀什经济开发区与东城新区"
+ },
+ "migration": {
+  "outflow_total": 180000,
+  "destinations": [
+   {
+    "city": "乌鲁木齐",
+    "province": "新疆",
+    "count": 60000,
+    "reason": "省会资源与职业流动"
+   },
+   {
+    "city": "阿克苏",
+    "province": "新疆",
+    "count": 30000,
+    "reason": "南疆内部商贸与就业"
+   },
+   {
+    "city": "深圳",
+    "province": "广东",
+    "count": 25000,
+    "reason": "援疆干部与经商往来"
+   },
+   {
+    "city": "中亚",
+    "province": "吉尔吉斯斯坦/乌兹别克斯坦",
+    "count": 35000,
+    "reason": "边贸经商与劳务"
+   },
+   {
+    "city": "其他城市",
+    "province": "全国",
+    "count": 30000,
+    "reason": "求学、创业、婚姻迁移"
+   }
+  ]
+ },
+ "achievements": [
+  {
+   "id": "kashi_first_visit",
+   "name": "丝路古城",
+   "desc": "首次进入喀什，开启西域特区记忆",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "kashi_sez",
+   "name": "特区设立",
+   "desc": "见证2010年喀什经济特区获批",
+   "condition": "year",
+   "year": 2010
+  },
+  {
+   "id": "kashi_aid",
+   "name": "援疆助力",
+   "desc": "见证2011年新一轮对口援疆启动",
+   "condition": "year",
+   "year": 2011
+  },
+  {
+   "id": "kashi_corridor",
+   "name": "走廊起点",
+   "desc": "见证2013年中巴经济走廊提出",
+   "condition": "year",
+   "year": 2013
+  },
+  {
+   "id": "kashi_ftz",
+   "name": "自贸联动",
+   "desc": "见证2023年新疆自贸区喀什片区揭牌",
+   "condition": "year",
+   "year": 2023
+  },
+  {
+   "id": "kashi_chain",
+   "name": "西域门户拼图大师",
+   "desc": "完成喀什产业转型链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": {
+  "disclaimer": "本页面数据为教学演示与叙事游戏用途，部分历史节点、经济指标、人口与产业数据经过归一化、近似或综合多源整理，请以国家统计局、各地统计局及官方发布为准。",
+  "references": [
+   {
+    "name": "国家统计局",
+    "url": "https://data.stats.gov.cn/"
+   },
+   {
+    "name": "喀什地区行政公署",
+    "url": "https://www.kashi.gov.cn/"
+   },
+   {
+    "name": "新疆维吾尔自治区统计局",
+    "url": "https://tjj.xinjiang.gov.cn/"
+   },
+   {
+    "name": "百度百科 - 喀什经济特区",
+    "url": "https://baike.baidu.com/item/%E5%96%80%E4%BB%80%E7%BB%8F%E6%B5%8E%E7%89%B9%E5%8C%BA"
+   }
+  ]
+ },
+ "simMode": "growth"
+}

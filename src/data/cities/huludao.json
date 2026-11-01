@@ -1,0 +1,626 @@
+{
+ "profile": {
+  "name": "葫芦岛市",
+  "province": "辽宁省",
+  "prefecture": "地级市",
+  "area": "10,415 km²",
+  "coordinates": [
+   120.84,
+   40.71
+  ],
+  "tags": [
+   "中国锌都",
+   "锦西",
+   "环渤海工业带",
+   "核电新篇"
+  ],
+  "description": "辽西走廊咽喉，葫芦岛锌厂始建于一九三〇年代，曾为亚洲最大锌冶炼企业；锦西石化等老工业与造船业共同构成环渤海工业重镇。1989 年升格地级市，有色金属与石化主业随资源与市场周期起落，正向精细化工与清洁能源转型。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 1937,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "起家期",
+    "start": 1937,
+    "end": 1965,
+    "color": "green"
+   },
+   {
+    "name": "壮盛期",
+    "start": 1966,
+    "end": 2005,
+    "color": "yellow"
+   },
+   {
+    "name": "调整期",
+    "start": 2006,
+    "end": 2017,
+    "color": "red"
+   },
+   {
+    "name": "转型期",
+    "start": 2018,
+    "end": 2024,
+    "color": "teal"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "zinc",
+    "label": "锌产量",
+    "unit": "万吨",
+    "max": 40,
+    "color": "#7c8ea0"
+   },
+   {
+    "key": "refine",
+    "label": "原油加工量",
+    "unit": "万吨",
+    "max": 800,
+    "color": "#0ea5e9"
+   }
+  ],
+  "spaceType": "built_up",
+  "spaceLabels": {
+   "built": "建成区",
+   "density": "人口密度"
+  },
+  "cityKey": "huludao",
+  "chainKeys": [
+   "zinc",
+   "refine"
+  ],
+  "chainContainerIds": [
+   "zincChain",
+   "refineChain"
+  ],
+  "currentStatus": "辽西老工业基地转型城市",
+  "transformationAssessment": "从有色冶金到精细化工与清洁能源",
+  "transformationDetail": "葫芦岛（旧称锦西）因港而兴、因厂设市。锌冶炼伴随环保与原料约束多次限产搬迁，石化装置老化倒逼升级。近年依托徐大堡核电与精细化工园区寻找新支点，老工业城市在渤海湾重新落子。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 1937,
+   "title": "锌厂始建",
+   "category": "discovery",
+   "desc": "日据时期在锦西建设制炼所，葫芦岛锌厂的前身开工",
+   "impact": 8,
+   "event": true,
+   "pop": 60000,
+   "zinc": 0.2,
+   "refine": 0,
+   "gdp": 0.1
+  },
+  {
+   "year": 1948,
+   "title": "辽西解放",
+   "category": "peak",
+   "desc": "辽沈战役后工厂回到人民手中，迅速恢复生产",
+   "impact": 8,
+   "event": true,
+   "pop": 120000,
+   "zinc": 0.6,
+   "refine": 2,
+   "gdp": 0.3
+  },
+  {
+   "year": 1959,
+   "title": "锦西石化扩建",
+   "category": "peak",
+   "desc": "炼油装置扩能，锦西成为辽西能源化工支点",
+   "impact": 7,
+   "event": true,
+   "pop": 400000,
+   "zinc": 2,
+   "refine": 40,
+   "gdp": 3
+  },
+  {
+   "year": 1989,
+   "title": "升格地级市",
+   "category": "peak",
+   "desc": "撤锦西市设葫芦岛市，辖县扩容开启港口工业城市时代",
+   "impact": 9,
+   "event": true,
+   "pop": 2400000,
+   "zinc": 18,
+   "refine": 260,
+   "gdp": 52
+  },
+  {
+   "year": 1998,
+   "title": "产量高峰",
+   "category": "peak",
+   "desc": "电解锌产量跻身全国前列，'中国锌都'叫响",
+   "impact": 8,
+   "event": true,
+   "pop": 2600000,
+   "zinc": 33,
+   "refine": 380,
+   "gdp": 176
+  },
+  {
+   "year": 2008,
+   "title": "周期与环保夹击",
+   "category": "decline",
+   "desc": "全球金融危机叠加环保标准收紧，锌冶炼开工率下滑",
+   "impact": 8,
+   "event": true,
+   "pop": 2680000,
+   "zinc": 26,
+   "refine": 450,
+   "gdp": 456
+  },
+  {
+   "year": 2013,
+   "title": "渤海综合治理",
+   "category": "decline",
+   "desc": "渤海湾生态治理攻坚，沿海工业排污门槛大幅提高",
+   "impact": 7,
+   "event": true,
+   "pop": 2670000,
+   "zinc": 20,
+   "refine": 500,
+   "gdp": 725
+  },
+  {
+   "year": 2017,
+   "title": "老厂搬迁改造",
+   "category": "decline",
+   "desc": "城区锌冶炼产能启动搬迁升级，城区化工企业退城入园",
+   "impact": 8,
+   "event": true,
+   "pop": 2640000,
+   "zinc": 15,
+   "refine": 560,
+   "gdp": 700
+  },
+  {
+   "year": 2020,
+   "title": "七普人口",
+   "category": "decline",
+   "desc": "常住人口 243.4 万，十年间人口净流出近 20 万",
+   "impact": 8,
+   "event": true,
+   "pop": 2434000,
+   "zinc": 14,
+   "refine": 600,
+   "gdp": 820
+  },
+  {
+   "year": 2022,
+   "title": "核电开工",
+   "category": "transformation",
+   "desc": "徐大堡核电项目推进，清洁能源基地写入城市未来",
+   "impact": 8,
+   "event": true,
+   "pop": 2390000,
+   "zinc": 16,
+   "refine": 660,
+   "gdp": 871
+  },
+  {
+   "year": 2023,
+   "title": "2023年统计锚点",
+   "category": "transformation",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 2337000,
+   "gdp": 911.6,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2024,
+   "title": "精细化工转身",
+   "category": "transformation",
+   "desc": "沿海精细化工园区投产，锌基新材料与船舶海工并进",
+   "impact": 7,
+   "event": true,
+   "pop": 2360000,
+   "zinc": 17,
+   "refine": 690,
+   "gdp": 935
+  }
+ ],
+ "chains": {
+  "zinc": {
+   "name": "锌冶金产业链",
+   "color": "#7c8ea0",
+   "icon": "⚗️",
+   "lifecycle": {
+    "birth": 1937,
+    "peak": 1998,
+    "decline": 2008,
+    "collapse": 2017,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "concentrate",
+     "name": "锌精矿",
+     "x": 50,
+     "y": 50,
+     "status": "dying",
+     "peak": "1950s-1990s",
+     "decline": "2000s"
+    },
+    {
+     "id": "roast",
+     "name": "焙烧",
+     "x": 150,
+     "y": 50,
+     "status": "declining",
+     "peak": "1970s-2000s",
+     "decline": "2010s"
+    },
+    {
+     "id": "electro",
+     "name": "湿法电解",
+     "x": 250,
+     "y": 50,
+     "status": "declining",
+     "peak": "1990s",
+     "decline": "2010s"
+    },
+    {
+     "id": "alloy",
+     "name": "锌基合金",
+     "x": 350,
+     "y": 50,
+     "status": "declining",
+     "peak": "2000s",
+     "decline": "2020s"
+    },
+    {
+     "id": "newmat",
+     "name": "锌基新材料",
+     "x": 450,
+     "y": 50,
+     "status": "emerging",
+     "peak": "2020s",
+     "decline": null
+    }
+   ],
+   "connections": [
+    {
+     "from": "concentrate",
+     "to": "roast",
+     "flow": "矿砂"
+    },
+    {
+     "from": "roast",
+     "to": "electro",
+     "flow": "焙砂"
+    },
+    {
+     "from": "electro",
+     "to": "alloy",
+     "flow": "锌锭"
+    },
+    {
+     "from": "alloy",
+     "to": "newmat",
+     "flow": "升级"
+    }
+   ],
+   "employment": {
+    "peak": 50000,
+    "current": 8000
+   }
+  },
+  "refine": {
+   "name": "石化精细化工链",
+   "color": "#0ea5e9",
+   "icon": "🛢️",
+   "lifecycle": {
+    "birth": 1950,
+    "peak": 2024,
+    "decline": null,
+    "collapse": null,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "crude",
+     "name": "原油加工",
+     "x": 50,
+     "y": 200,
+     "status": "active",
+     "peak": "1990s-2020s",
+     "decline": null
+    },
+    {
+     "id": "olefin",
+     "name": "烯烃芳烃",
+     "x": 150,
+     "y": 200,
+     "status": "growing",
+     "peak": "2010s-2020s",
+     "decline": null
+    },
+    {
+     "id": "fine",
+     "name": "精细化工",
+     "x": 250,
+     "y": 200,
+     "status": "emerging",
+     "peak": "2020s",
+     "decline": null
+    },
+    {
+     "id": "ship",
+     "name": "船舶海工",
+     "x": 350,
+     "y": 200,
+     "status": "active",
+     "peak": "2000s-2010s",
+     "decline": null
+    },
+    {
+     "id": "nuclear",
+     "name": "核电能源",
+     "x": 450,
+     "y": 200,
+     "status": "emerging",
+     "peak": "2020s",
+     "decline": null
+    }
+   ],
+   "connections": [
+    {
+     "from": "crude",
+     "to": "olefin",
+     "flow": "原料"
+    },
+    {
+     "from": "olefin",
+     "to": "fine",
+     "flow": "下游"
+    },
+    {
+     "from": "crude",
+     "to": "ship",
+     "flow": "燃油涂料"
+    },
+    {
+     "from": "nuclear",
+     "to": "fine",
+     "flow": "绿电"
+    }
+   ],
+   "employment": {
+    "peak": 60000,
+    "current": 40000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "resource",
+    "name": "有色资源外依",
+    "weight": 26,
+    "evidence": "本地无自有锌矿，原料长期依赖进口与外购",
+    "icon": "⛏️",
+    "selected": false
+   },
+   {
+    "id": "env",
+    "name": "环保标准升级",
+    "weight": 24,
+    "evidence": "渤海治理与大气攻坚使老冶炼装置难以达标",
+    "icon": "🌫️",
+    "selected": false
+   },
+   {
+    "id": "age",
+    "name": "装备老化",
+    "weight": 20,
+    "evidence": "三线前建成的装置服役超半个世纪，改造欠账大",
+    "icon": "🏚️",
+    "selected": false
+   },
+   {
+    "id": "outflow",
+    "name": "人口外流",
+    "weight": 18,
+    "evidence": "东北普遍现象，十年常住人口下降近两成",
+    "icon": "🚉",
+    "selected": false
+   },
+   {
+    "id": "market",
+    "name": "价格周期",
+    "weight": 12,
+    "evidence": "锌价与油价双周期叠加，波动放大亏损",
+    "icon": "📉",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "nuclear",
+    "name": "徐大堡核电",
+    "weight": 30,
+    "evidence": "中俄合作核电项目落地，清洁能源基地打开增量",
+    "icon": "☢️",
+    "selected": false
+   },
+   {
+    "id": "port",
+    "name": "港口区位",
+    "weight": 22,
+    "evidence": "葫芦岛港与绥中港连接东北腹地与环渤海航线",
+    "icon": "⚓",
+    "selected": false
+   },
+   {
+    "id": "fine",
+    "name": "精细化工升级",
+    "weight": 20,
+    "evidence": "退城入园后向高附加值精细品延伸",
+    "icon": "⚗️",
+    "selected": false
+   },
+   {
+    "id": "tourism",
+    "name": "滨海文旅",
+    "weight": 18,
+    "evidence": "兴城古城与海滨浴场构成辽西旅游带",
+    "icon": "🏖️",
+    "selected": false
+   },
+   {
+    "id": "ship",
+    "name": "船舶海工底盘",
+    "weight": 10,
+    "evidence": "渤海造船厂等军工船坞保持产业底盘",
+    "icon": "🚢",
+    "selected": false
+   }
+  ]
+ },
+ "space_timeline": [
+  {
+   "year": 1937,
+   "built": 0.6,
+   "vacant": 0,
+   "density": 7000
+  },
+  {
+   "year": 1959,
+   "built": 6,
+   "vacant": 0,
+   "density": 10000
+  },
+  {
+   "year": 1989,
+   "built": 30,
+   "vacant": 0.03,
+   "density": 9000
+  },
+  {
+   "year": 2005,
+   "built": 55,
+   "vacant": 0.1,
+   "density": 7500
+  },
+  {
+   "year": 2017,
+   "built": 78,
+   "vacant": 0.2,
+   "density": 6000
+  },
+  {
+   "year": 2024,
+   "built": 88,
+   "vacant": 0.24,
+   "density": 5200
+  }
+ ],
+ "space": {
+  "built_up_area_km2": 88,
+  "current_pop": 2360000,
+  "peak_pop": 2680000,
+  "vacancy_rate": 0.24,
+  "housing_price_rank": "辽宁省内偏低",
+  "landmark": "兴城古城"
+ },
+ "migration": {
+  "outflow_total": 260000,
+  "destinations": [
+   {
+    "city": "沈阳",
+    "province": "辽宁",
+    "count": 70000,
+    "reason": "省会就业"
+   },
+   {
+    "city": "大连",
+    "province": "辽宁",
+    "count": 45000,
+    "reason": "沿海制造业"
+   },
+   {
+    "city": "北京",
+    "province": "北京",
+    "count": 40000,
+    "reason": "京津冀务工"
+   },
+   {
+    "city": "秦皇岛",
+    "province": "河北",
+    "count": 20000,
+    "reason": "邻近就业"
+   },
+   {
+    "city": "其他地区",
+    "province": "全国",
+    "count": 85000,
+    "reason": "务工定居"
+   }
+  ]
+ },
+ "achievements": [
+  {
+   "id": "huludao_first_visit",
+   "name": "葫芦岛初见",
+   "desc": "首次进入葫芦岛市",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "huludao_y1937",
+   "name": "锌厂始建",
+   "desc": "见证1937年锌厂始建",
+   "condition": "year",
+   "year": 1937
+  },
+  {
+   "id": "huludao_y1948",
+   "name": "辽西解放",
+   "desc": "见证1948年辽西解放",
+   "condition": "year",
+   "year": 1948
+  },
+  {
+   "id": "huludao_y1989",
+   "name": "升格地级市",
+   "desc": "见证1989年升格地级市",
+   "condition": "year",
+   "year": 1989
+  },
+  {
+   "id": "huludao_chain",
+   "name": "中国锌都拼图大师",
+   "desc": "完成葫芦岛市产业链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": [
+  {
+   "desc": "2023 GDP 911.6亿元(+6.0%), 一产158.0/二产327.4/三产426.2; 常住233.7万(1‰抽样)",
+   "url": "http://www.tjcn.org/tjgb/06ln/37958.html",
+   "year": 2023
+  },
+  {
+   "desc": "七普常住人口2434194人（2020-11-01，辽宁省第七次全国人口普查公报·第二号）",
+   "url": "https://tjj.ln.gov.cn/tjj/tjsj/tjgb/rkpcgb/2023110818030081821/index.shtml"
+  }
+ ],
+ "real_anchors": {
+  "stat2023": {
+   "gdp": 911.6,
+   "pop": 2337000
+  },
+  "census2020": {
+   "pop": 2434194
+  }
+ }
+}

@@ -1,0 +1,719 @@
+{
+ "profile": {
+  "name": "格尔木市",
+  "province": "青海省",
+  "prefecture": "海西蒙古族藏族自治州代管",
+  "area": "119,167 km²",
+  "coordinates": [
+   94.9,
+   36.4
+  ],
+  "tags": [
+   "中国盐湖城",
+   "锂都",
+   "青藏门户",
+   "天空之镜"
+  ],
+  "description": "青藏高原上的新兴资源型城市，因青藏公路、兰青铁路和察尔汗盐湖而兴。格尔木坐拥世界第二大盐湖——察尔汗盐湖，钾、锂、镁、硼资源储量惊人，是中国钾肥工业和新能源电池材料的重要基地。作为年轻的城市，格尔木正站在传统盐湖化工与新能源材料产业交汇的十字路口。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 1954,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "起家期",
+    "start": 1954,
+    "end": 1975,
+    "color": "green"
+   },
+   {
+    "name": "壮盛期",
+    "start": 1976,
+    "end": 2010,
+    "color": "yellow"
+   },
+   {
+    "name": "调整期",
+    "start": 2011,
+    "end": 2018,
+    "color": "red"
+   },
+   {
+    "name": "转型期",
+    "start": 2019,
+    "end": 2024,
+    "color": "teal"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "potash",
+    "label": "钾肥产量",
+    "unit": "万吨",
+    "max": 800,
+    "color": "#e9d8fd"
+   },
+   {
+    "key": "lithium",
+    "label": "碳酸锂产量",
+    "unit": "万吨",
+    "max": 10,
+    "color": "#38b2ac"
+   }
+  ],
+  "spaceType": "built_up",
+  "spaceLabels": {
+   "built": "建成区",
+   "density": "人口密度"
+  },
+  "cityKey": "geermu",
+  "chainKeys": [
+   "salt_lake",
+   "new_energy"
+  ],
+  "chainContainerIds": [
+   "saltLakeChain",
+   "newEnergyChain"
+  ],
+  "currentStatus": "中国盐湖城，新能源材料基地",
+  "transformationAssessment": "从'钾肥基地'到'盐湖资源综合利用+锂电材料'的升级",
+  "transformationDetail": "格尔木因青藏公路通车和盐湖资源开发而设市。察尔汗盐湖氯化钾储量占全国97%以上，支撑中国钾肥自给。近年来随着新能源汽车爆发，盐湖提锂成为新增长极，但生态脆弱、水资源约束和产业链延伸不足仍是挑战。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 1954,
+   "title": "青藏公路通车",
+   "category": "discovery",
+   "desc": "青藏公路通车，格尔木成为进藏物资转运枢纽",
+   "impact": 9,
+   "pop": 2000,
+   "potash": 0,
+   "lithium": 0,
+   "gdp": 0.01,
+   "event": true
+  },
+  {
+   "year": 1956,
+   "title": "格尔木设县",
+   "category": "discovery",
+   "desc": "设立格尔木县（后改市），城市雏形初现",
+   "impact": 7,
+   "pop": 10000,
+   "potash": 0,
+   "lithium": 0,
+   "gdp": 0.02,
+   "event": false
+  },
+  {
+   "year": 1958,
+   "title": "察尔汗盐湖开发",
+   "category": "discovery",
+   "desc": "发现察尔汗盐湖巨大钾盐资源，国家决定建设钾肥生产基地",
+   "impact": 9,
+   "pop": 30000,
+   "potash": 0,
+   "lithium": 0,
+   "gdp": 0.05,
+   "event": true
+  },
+  {
+   "year": 1965,
+   "title": "钾肥厂筹建",
+   "category": "peak",
+   "desc": "青海钾肥厂筹建，开启中国钾肥工业新篇章",
+   "impact": 8,
+   "pop": 50000,
+   "potash": 5,
+   "lithium": 0,
+   "gdp": 0.3,
+   "event": true
+  },
+  {
+   "year": 1970,
+   "title": "一期工程",
+   "category": "peak",
+   "desc": "青海钾肥厂一期工程投产，年产钾肥20万吨",
+   "impact": 8,
+   "pop": 80000,
+   "potash": 20,
+   "lithium": 0,
+   "gdp": 1,
+   "event": true
+  },
+  {
+   "year": 1980,
+   "title": "扩产改造",
+   "category": "peak",
+   "desc": "钾肥生产规模扩大，技术不断改进",
+   "impact": 6,
+   "pop": 120000,
+   "potash": 80,
+   "lithium": 0,
+   "gdp": 3,
+   "event": false
+  },
+  {
+   "year": 1989,
+   "title": "青海钾肥厂二期",
+   "category": "peak",
+   "desc": "二期工程投产，年产能力提升至100万吨",
+   "impact": 8,
+   "pop": 150000,
+   "potash": 120,
+   "lithium": 0,
+   "gdp": 6,
+   "event": true
+  },
+  {
+   "year": 1996,
+   "title": "盐湖集团成立",
+   "category": "peak",
+   "desc": "青海盐湖工业集团成立，成为中国最大钾肥生产企业",
+   "impact": 7,
+   "pop": 180000,
+   "potash": 200,
+   "lithium": 0,
+   "gdp": 12,
+   "event": true
+  },
+  {
+   "year": 2000,
+   "title": "百万吨钾肥",
+   "category": "peak",
+   "desc": "中国首个百万吨级钾肥项目在格尔木投产，钾肥自给率大幅提升",
+   "impact": 9,
+   "pop": 200000,
+   "potash": 350,
+   "lithium": 0,
+   "gdp": 20,
+   "event": true
+  },
+  {
+   "year": 2006,
+   "title": "青藏铁路通车",
+   "category": "peak",
+   "desc": "青藏铁路格尔木至拉萨段通车，物流条件历史性改善",
+   "impact": 8,
+   "pop": 220000,
+   "potash": 450,
+   "lithium": 0.05,
+   "gdp": 45,
+   "event": true
+  },
+  {
+   "year": 2010,
+   "title": "钾肥稳产",
+   "category": "peak",
+   "desc": "钾肥年产量稳定在500万吨左右，占全国总产量80%以上",
+   "impact": 7,
+   "pop": 240000,
+   "potash": 500,
+   "lithium": 0.1,
+   "gdp": 80,
+   "event": false
+  },
+  {
+   "year": 2015,
+   "title": "盐湖提锂兴起",
+   "category": "transformation",
+   "desc": "新能源汽车产业爆发，格尔木盐湖提锂项目快速上马",
+   "impact": 9,
+   "pop": 250000,
+   "potash": 550,
+   "lithium": 1.5,
+   "gdp": 120,
+   "event": true
+  },
+  {
+   "year": 2017,
+   "title": "锂业巨头入驻",
+   "category": "transformation",
+   "desc": "比亚迪、宁德时代等企业在格尔木布局锂电材料产业链",
+   "impact": 8,
+   "pop": 255000,
+   "potash": 580,
+   "lithium": 3,
+   "gdp": 150,
+   "event": true
+  },
+  {
+   "year": 2019,
+   "title": "盐湖综合利用",
+   "category": "transformation",
+   "desc": "镁锂钾硼综合开发利用项目推进，盐湖资源价值深度挖掘",
+   "impact": 7,
+   "pop": 260000,
+   "potash": 600,
+   "lithium": 5,
+   "gdp": 180,
+   "event": false
+  },
+  {
+   "year": 2020,
+   "title": "2020年统计锚点",
+   "category": "peak",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 221900,
+   "gdp": 305.93,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2021,
+   "title": "绿电锂电",
+   "category": "transformation",
+   "desc": "依托青海丰富光伏风电资源，打造零碳锂电材料基地",
+   "impact": 7,
+   "pop": 265000,
+   "potash": 620,
+   "lithium": 7,
+   "gdp": 220,
+   "event": true
+  },
+  {
+   "year": 2022,
+   "title": "2022年统计锚点",
+   "category": "peak",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 221900,
+   "gdp": 446.45,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2023,
+   "title": "2023年统计锚点",
+   "category": "transformation",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 225300,
+   "gdp": 427.45,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2024,
+   "title": "锂钾双轮",
+   "category": "transformation",
+   "desc": "钾肥年产量约650万吨，碳酸锂产量约8万吨，盐湖资源综合利用格局初步形成",
+   "impact": 8,
+   "pop": 270000,
+   "potash": 650,
+   "lithium": 8,
+   "gdp": 280,
+   "event": true
+  }
+ ],
+ "chains": {
+  "salt_lake": {
+   "name": "盐湖资源产业链",
+   "color": "#e9d8fd",
+   "icon": "🧂",
+   "lifecycle": {
+    "birth": 1958,
+    "peak": 2000,
+    "decline": null,
+    "collapse": null,
+    "dead": null
+   },
+   "nodes": [
+    {
+     "id": "explore",
+     "name": "盐湖勘探",
+     "status": "mature",
+     "peak": "1960s-1980s",
+     "decline": null
+    },
+    {
+     "id": "potash",
+     "name": "钾肥生产",
+     "status": "mature",
+     "peak": "1990s-今",
+     "decline": null
+    },
+    {
+     "id": "lithium",
+     "name": "碳酸锂/氢氧化锂",
+     "status": "emerging",
+     "peak": "2010s-今",
+     "decline": null
+    },
+    {
+     "id": "magnesium",
+     "name": "镁系材料",
+     "status": "emerging",
+     "peak": "未来",
+     "decline": null
+    },
+    {
+     "id": "boron",
+     "name": "硼酸/硼砂",
+     "status": "emerging",
+     "peak": "未来",
+     "decline": null
+    },
+    {
+     "id": "brine",
+     "name": "卤水循环利用",
+     "status": "emerging",
+     "peak": "未来",
+     "decline": null
+    }
+   ],
+   "connections": [
+    {
+     "from": "explore",
+     "to": "potash",
+     "flow": "钾资源"
+    },
+    {
+     "from": "explore",
+     "to": "lithium",
+     "flow": "锂资源"
+    },
+    {
+     "from": "explore",
+     "to": "magnesium",
+     "flow": "镁资源"
+    },
+    {
+     "from": "explore",
+     "to": "boron",
+     "flow": "硼资源"
+    },
+    {
+     "from": "potash",
+     "to": "brine",
+     "flow": "老卤回收"
+    },
+    {
+     "from": "lithium",
+     "to": "brine",
+     "flow": "尾卤回收"
+    }
+   ],
+   "employment": {
+    "peak": 30000,
+    "current": 45000
+   }
+  },
+  "new_energy": {
+   "name": "接续产业（锂电材料·清洁能源·高原旅游）",
+   "color": "#2ecc71",
+   "icon": "🔄",
+   "lifecycle": {
+    "birth": 2015,
+    "growth": 2019,
+    "peak": null
+   },
+   "nodes": [
+    {
+     "id": "cathode",
+     "name": "正极材料",
+     "status": "emerging",
+     "peak": "2010s-今"
+    },
+    {
+     "id": "battery",
+     "name": "动力电池",
+     "status": "emerging",
+     "peak": "未来"
+    },
+    {
+     "id": "recycle",
+     "name": "电池回收",
+     "status": "emerging",
+     "peak": "未来"
+    },
+    {
+     "id": "pv",
+     "name": "光伏发电",
+     "status": "emerging",
+     "peak": "未来"
+    },
+    {
+     "id": "wind",
+     "name": "风力发电",
+     "status": "emerging",
+     "peak": "未来"
+    },
+    {
+     "id": "tourism",
+     "name": "茶卡盐湖/察尔汗旅游",
+     "status": "emerging",
+     "peak": "未来"
+    }
+   ],
+   "connections": [
+    {
+     "from": "cathode",
+     "to": "battery",
+     "flow": "产业链延伸"
+    },
+    {
+     "from": "battery",
+     "to": "recycle",
+     "flow": "循环利用"
+    },
+    {
+     "from": "pv",
+     "to": "battery",
+     "flow": "绿电储能"
+    },
+    {
+     "from": "wind",
+     "to": "battery",
+     "flow": "绿电储能"
+    }
+   ],
+   "employment": {
+    "peak": null,
+    "current": 20000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "water",
+    "name": "水资源约束",
+    "weight": 30,
+    "evidence": "柴达木盆地极端干旱，盐湖开发高度依赖有限淡水资源",
+    "icon": "💧",
+    "selected": false
+   },
+   {
+    "id": "single",
+    "name": "钾肥依赖",
+    "weight": 25,
+    "evidence": "钾肥长期占工业产值主导，锂业尚处培育期",
+    "icon": "🏭",
+    "selected": false
+   },
+   {
+    "id": "environment",
+    "name": "生态脆弱",
+    "weight": 20,
+    "evidence": "青藏高原生态敏感，盐湖开发环境容量有限",
+    "icon": "🌫️",
+    "selected": false
+   },
+   {
+    "id": "location",
+    "name": "区位偏远",
+    "weight": 15,
+    "evidence": "距主要锂电消费市场遥远，物流成本高",
+    "icon": "🚂",
+    "selected": false
+   },
+   {
+    "id": "price",
+    "name": "锂价波动",
+    "weight": 10,
+    "evidence": "碳酸锂价格周期性强，影响项目投资收益",
+    "icon": "📉",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "resource",
+    "name": "战略资源优势",
+    "weight": 35,
+    "evidence": "察尔汗盐湖钾、锂、镁、硼资源储量巨大，国家战略地位突出",
+    "icon": "💎",
+    "selected": false
+   },
+   {
+    "id": "market",
+    "name": "新能源市场",
+    "weight": 25,
+    "evidence": "动力电池和储能需求爆发，盐湖提锂成本优势明显",
+    "icon": "🔋",
+    "selected": false
+   },
+   {
+    "id": "energy",
+    "name": "绿电优势",
+    "weight": 20,
+    "evidence": "青海光伏风电资源丰富，可打造零碳锂电材料基地",
+    "icon": "☀️",
+    "selected": false
+   },
+   {
+    "id": "traffic",
+    "name": "交通枢纽",
+    "weight": 10,
+    "evidence": "青藏铁路、青藏公路、格库铁路交汇，进藏物资集散中心",
+    "icon": "🚄",
+    "selected": false
+   },
+   {
+    "id": "tourism",
+    "name": "高原旅游",
+    "weight": 10,
+    "evidence": "察尔汗盐湖、昆仑山、可可西里等独特旅游资源",
+    "icon": "🏜️",
+    "selected": false
+   }
+  ]
+ },
+ "space_timeline": [
+  {
+   "year": 1954,
+   "built": 0.1,
+   "vacancy": 0,
+   "density": 200
+  },
+  {
+   "year": 1965,
+   "built": 2,
+   "vacancy": 0,
+   "density": 25000
+  },
+  {
+   "year": 1980,
+   "built": 8,
+   "vacancy": 0.02,
+   "density": 15000
+  },
+  {
+   "year": 2000,
+   "built": 20,
+   "vacancy": 0.05,
+   "density": 10000
+  },
+  {
+   "year": 2010,
+   "built": 32,
+   "vacancy": 0.1,
+   "density": 7500
+  },
+  {
+   "year": 2017,
+   "built": 42,
+   "vacancy": 0.15,
+   "density": 6100
+  },
+  {
+   "year": 2020,
+   "built": 48,
+   "vacancy": 0.18,
+   "density": 5400
+  },
+  {
+   "year": 2024,
+   "built": 54,
+   "vacancy": 0.2,
+   "density": 5000
+  }
+ ],
+ "space": {
+  "built_up_area_km2": 54,
+  "current_pop": 270000,
+  "peak_pop": 280000,
+  "vacancy_rate": 0.2,
+  "landmark": "察尔汗盐湖",
+  "special": "世界第二大盐湖，中国最大的可溶性钾镁盐矿床"
+ },
+ "migration": {
+  "destinations": [
+   {
+    "name": "西宁市",
+    "lat": 36.62,
+    "lng": 101.78,
+    "flow": 50000,
+    "reason": "青海省会"
+   },
+   {
+    "name": "兰州市",
+    "lat": 36.06,
+    "lng": 103.84,
+    "flow": 35000,
+    "reason": "西北枢纽"
+   },
+   {
+    "name": "成都市",
+    "lat": 30.57,
+    "lng": 104.07,
+    "flow": 25000,
+    "reason": "西南中心"
+   },
+   {
+    "name": "西安市",
+    "lat": 34.34,
+    "lng": 108.93,
+    "flow": 20000,
+    "reason": "西北中心"
+   },
+   {
+    "name": "拉萨市",
+    "lat": 29.65,
+    "lng": 91.12,
+    "flow": 15000,
+    "reason": "藏区中心"
+   }
+  ],
+  "outflow_total": 145000,
+  "inflow_total": 60000,
+  "net_flow": -85000
+ },
+ "achievements": [
+  {
+   "id": "geermu_first_visit",
+   "name": "盐湖之城",
+   "desc": "首次进入格尔木，探秘中国盐湖城",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "geermu_road",
+   "name": "青藏门户",
+   "desc": "见证青藏公路通车，格尔木成为进藏枢纽",
+   "condition": "year",
+   "year": 1954
+  },
+  {
+   "id": "geermu_potash",
+   "name": "钾肥自给",
+   "desc": "见证中国首个百万吨级钾肥项目投产",
+   "condition": "year",
+   "year": 2000
+  },
+  {
+   "id": "geermu_lithium",
+   "name": "锂都崛起",
+   "desc": "见证格尔木盐湖提锂产业爆发",
+   "condition": "year",
+   "year": 2015
+  },
+  {
+   "id": "geermu_chain",
+   "name": "盐湖拼图大师",
+   "desc": "完成格尔木盐湖产业链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": [
+  {
+   "desc": "2023 GDP 427.45亿; ",
+   "url": "http://www.etmoc.com/look/Statslisth?Id=10924",
+   "year": 2023
+  }
+ ],
+ "real_anchors": {
+  "census2020": {
+   "pop": 221900
+  },
+  "stat2023": {
+   "gdp": 427.45,
+   "pop": 225300
+  }
+ }
+}

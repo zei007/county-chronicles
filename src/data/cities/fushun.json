@@ -1,0 +1,714 @@
+{
+ "profile": {
+  "name": "抚顺市",
+  "province": "辽宁省",
+  "prefecture": "省辖地级市",
+  "area": "11,272 km²",
+  "coordinates": [
+   123.92,
+   41.88
+  ],
+  "tags": [
+   "煤都",
+   "雷锋城",
+   "石化新城",
+   "西露天矿"
+  ],
+  "description": "新中国首批中央直辖市之一，素有'煤都'之称。抚顺煤矿开采史逾百年，西露天矿曾是世界第三、亚洲最大的露天煤矿。伴随煤炭资源枯竭，抚顺从单一煤都转向石化、新材料、生态旅游多元发展，雷锋纪念馆与红河峡谷漂流成为城市新符号。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 1901,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "起家期",
+    "start": 1901,
+    "end": 1948,
+    "color": "green"
+   },
+   {
+    "name": "壮盛期",
+    "start": 1949,
+    "end": 1995,
+    "color": "yellow"
+   },
+   {
+    "name": "调整期",
+    "start": 1996,
+    "end": 2010,
+    "color": "red"
+   },
+   {
+    "name": "转型期",
+    "start": 2011,
+    "end": 2024,
+    "color": "teal"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "coal",
+    "label": "煤炭产量",
+    "unit": "万吨",
+    "max": 1500,
+    "color": "#1a1a2e"
+   }
+  ],
+  "spaceType": "built_up",
+  "spaceLabels": {
+   "built": "建成区",
+   "density": "人口密度"
+  },
+  "cityKey": "fushun",
+  "chainKeys": [
+   "coal",
+   "replacement"
+  ],
+  "chainContainerIds": [
+   "coalChain",
+   "replacementChain"
+  ],
+  "currentStatus": "石化基地与生态修复并行",
+  "transformationAssessment": "从'煤都'到'石化新城+生态旅游'的复合转型",
+  "transformationDetail": "抚顺煤炭产量曾占全国十分之一，西露天矿累计采煤约2.8亿吨。2000年后浅部资源枯竭，城市依托抚顺石化、精细化工、新材料和生态治理探索多元转型，但人口外流与财政压力仍大。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 1901,
+   "title": "抚顺煤矿开办",
+   "category": "discovery",
+   "desc": "清政府批准开采抚顺煤矿，近代煤都雏形初现",
+   "impact": 9,
+   "pop": 12000,
+   "coal": 5,
+   "gdp": 0.02,
+   "event": true
+  },
+  {
+   "year": 1905,
+   "title": "日俄争夺",
+   "category": "discovery",
+   "desc": "日俄战争后日本攫取抚顺煤矿，大规模掠夺式开采",
+   "impact": 7,
+   "pop": 25000,
+   "coal": 30,
+   "gdp": 0.1,
+   "event": false
+  },
+  {
+   "year": 1920,
+   "title": "千金寨矿区",
+   "category": "peak",
+   "desc": "千金寨成为繁华矿工城，抚顺人口快速聚集",
+   "impact": 6,
+   "pop": 120000,
+   "coal": 200,
+   "gdp": 0.8,
+   "event": false
+  },
+  {
+   "year": 1937,
+   "title": "西露天矿投产",
+   "category": "peak",
+   "desc": "西露天矿正式投产，后成为世界第三、亚洲最大露天煤矿",
+   "impact": 10,
+   "pop": 350000,
+   "coal": 600,
+   "gdp": 2.5,
+   "event": true
+  },
+  {
+   "year": 1949,
+   "title": "新中国煤都",
+   "category": "peak",
+   "desc": "抚顺成为国家重点煤炭工业基地，支援全国工业化",
+   "impact": 9,
+   "pop": 700000,
+   "coal": 800,
+   "gdp": 4,
+   "event": true
+  },
+  {
+   "year": 1954,
+   "title": "中央直辖市",
+   "category": "peak",
+   "desc": "抚顺曾设为中央直辖市，后划归辽宁省管辖",
+   "impact": 8,
+   "pop": 950000,
+   "coal": 1050,
+   "gdp": 7,
+   "event": true
+  },
+  {
+   "year": 1965,
+   "title": "产量巅峰",
+   "category": "peak",
+   "desc": "煤炭产量突破1300万吨，占全国煤炭产量十分之一",
+   "impact": 8,
+   "pop": 1300000,
+   "coal": 1350,
+   "gdp": 15,
+   "event": false
+  },
+  {
+   "year": 1975,
+   "title": "石化崛起",
+   "category": "peak",
+   "desc": "抚顺石油化工公司发展壮大，形成煤-油-化一体化产业格局",
+   "impact": 7,
+   "pop": 1800000,
+   "coal": 1200,
+   "gdp": 28,
+   "event": false
+  },
+  {
+   "year": 1985,
+   "title": "资源衰减",
+   "category": "decline",
+   "desc": "浅部优质煤层逐渐枯竭，开采深度加大、成本上升",
+   "impact": 7,
+   "pop": 2200000,
+   "coal": 1000,
+   "gdp": 45,
+   "event": false
+  },
+  {
+   "year": 1995,
+   "title": "产量下滑",
+   "category": "decline",
+   "desc": "煤炭年产量跌破800万吨，下岗职工增多，城市经济增速放缓",
+   "impact": 8,
+   "pop": 2250000,
+   "coal": 700,
+   "gdp": 60,
+   "event": true
+  },
+  {
+   "year": 2001,
+   "title": "资源枯竭预警",
+   "category": "decline",
+   "desc": "抚顺被列入全国资源枯竭城市转型试点名单，转型压力陡增",
+   "impact": 8,
+   "pop": 2230000,
+   "coal": 500,
+   "gdp": 75,
+   "event": true
+  },
+  {
+   "year": 2012,
+   "title": "生态修复工程",
+   "category": "transformation",
+   "desc": "西露天矿综合治理与生态修复工程启动，矿坑变景区规划出炉",
+   "impact": 7,
+   "pop": 2130000,
+   "coal": 200,
+   "gdp": 110,
+   "event": false
+  },
+  {
+   "year": 2017,
+   "title": "石化产业升级",
+   "category": "transformation",
+   "desc": "抚顺石化千万吨炼油、百万吨乙烯项目推进，精细化工集群成型",
+   "impact": 7,
+   "pop": 2080000,
+   "coal": 150,
+   "gdp": 150,
+   "event": true
+  },
+  {
+   "year": 2019,
+   "title": "西露天矿退煤闭坑",
+   "category": "decline",
+   "desc": "西露天矿因煤炭资源枯竭于2019年6月正式退煤闭坑，百年矿坑进入生态修复阶段",
+   "impact": 10,
+   "pop": 1750000,
+   "coal": 120,
+   "gdp": 170,
+   "event": true
+  },
+  {
+   "year": 2020,
+   "title": "2020年统计锚点",
+   "category": "peak",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 1739000,
+   "gdp": 820,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2021,
+   "title": "矿坑地质公园",
+   "category": "transformation",
+   "desc": "西露天矿列入矿山地质环境治理示范工程，工业旅游与生态修复并行",
+   "impact": 6,
+   "pop": 2050000,
+   "coal": 120,
+   "gdp": 180,
+   "event": false
+  },
+  {
+   "year": 2023,
+   "title": "2023年统计锚点",
+   "category": "peak",
+   "desc": "依据统计公报/人口普查插入的校准数据点（非事件）",
+   "impact": 1,
+   "pop": 1780000,
+   "gdp": 949.3,
+   "event": false,
+   "calibrated": true
+  },
+  {
+   "year": 2024,
+   "title": "复合转型",
+   "category": "transformation",
+   "desc": "煤炭产量降至约100万吨，石化、新材料、生态旅游成为经济支柱，城市继续探索可持续转型路径",
+   "impact": 7,
+   "pop": 1730000,
+   "coal": 100,
+   "gdp": 949.3,
+   "event": true,
+   "calibrated": true
+  }
+ ],
+ "chains": {
+  "coal": {
+   "name": "煤炭产业链",
+   "color": "#1a1a2e",
+   "icon": "⛏️",
+   "lifecycle": {
+    "birth": 1901,
+    "peak": 1965,
+    "decline": 1985,
+    "collapse": 2019,
+    "dead": 2024
+   },
+   "nodes": [
+    {
+     "id": "explore",
+     "name": "地质勘探",
+     "status": "dying",
+     "peak": "1930s",
+     "decline": "1980s"
+    },
+    {
+     "id": "opencast",
+     "name": "西露天开采",
+     "status": "dead",
+     "peak": "1937-2019",
+     "decline": "2000s"
+    },
+    {
+     "id": "underground",
+     "name": "井工开采",
+     "status": "dying",
+     "peak": "1950s-1990s",
+     "decline": "2010s"
+    },
+    {
+     "id": "wash",
+     "name": "洗选加工",
+     "status": "dying",
+     "peak": "1960s-1990s",
+     "decline": "2010s"
+    },
+    {
+     "id": "coke",
+     "name": "焦化制气",
+     "status": "declining",
+     "peak": "1980s-2000s",
+     "decline": "2010s"
+    },
+    {
+     "id": "power",
+     "name": "坑口火电",
+     "status": "declining",
+     "peak": "1990s-2010s",
+     "decline": "2020s"
+    }
+   ],
+   "connections": [
+    {
+     "from": "explore",
+     "to": "opencast",
+     "flow": "勘探数据"
+    },
+    {
+     "from": "explore",
+     "to": "underground",
+     "flow": "井田数据"
+    },
+    {
+     "from": "opencast",
+     "to": "wash",
+     "flow": "原煤"
+    },
+    {
+     "from": "underground",
+     "to": "wash",
+     "flow": "原煤"
+    },
+    {
+     "from": "wash",
+     "to": "coke",
+     "flow": "炼焦煤"
+    },
+    {
+     "from": "wash",
+     "to": "power",
+     "flow": "动力煤"
+    }
+   ],
+   "employment": {
+    "peak": 150000,
+    "current": 8000
+   }
+  },
+  "replacement": {
+   "name": "接续产业（石化·新材料·生态旅游）",
+   "color": "#2ecc71",
+   "icon": "🔄",
+   "lifecycle": {
+    "birth": 2008,
+    "growth": 2017,
+    "peak": null
+   },
+   "nodes": [
+    {
+     "id": "petro",
+     "name": "石油化工",
+     "status": "emerging",
+     "peak": "2010s-今"
+    },
+    {
+     "id": "chemical",
+     "name": "精细化工",
+     "status": "emerging",
+     "peak": "未来"
+    },
+    {
+     "id": "material",
+     "name": "碳素新材料",
+     "status": "emerging",
+     "peak": "未来"
+    },
+    {
+     "id": "park",
+     "name": "西露天矿地质公园",
+     "status": "emerging",
+     "peak": "未来"
+    },
+    {
+     "id": "tourism",
+     "name": "红河峡谷漂流",
+     "status": "emerging",
+     "peak": "未来"
+    },
+    {
+     "id": "leifeng",
+     "name": "雷锋红色旅游",
+     "status": "emerging",
+     "peak": "未来"
+    }
+   ],
+   "connections": [
+    {
+     "from": "petro",
+     "to": "chemical",
+     "flow": "产业链延伸"
+    },
+    {
+     "from": "chemical",
+     "to": "material",
+     "flow": "高端化升级"
+    },
+    {
+     "from": "park",
+     "to": "tourism",
+     "flow": "生态旅游融合"
+    },
+    {
+     "from": "leifeng",
+     "to": "tourism",
+     "flow": "文旅联动"
+    }
+   ],
+   "employment": {
+    "peak": null,
+    "current": 45000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "resource",
+    "name": "煤炭枯竭",
+    "weight": 35,
+    "evidence": "西露天矿累计采煤约2.8亿吨后于2019年退煤闭坑，浅部资源耗尽",
+    "icon": "⛏️",
+    "selected": false
+   },
+   {
+    "id": "single",
+    "name": "产业结构单一",
+    "weight": 25,
+    "evidence": "煤炭及关联产业长期占工业主导，接续产业培育缓慢",
+    "icon": "🏭",
+    "selected": false
+   },
+   {
+    "id": "policy",
+    "name": "体制转型冲击",
+    "weight": 15,
+    "evidence": "1990年代国企改革带来大规模下岗，社会负担沉重",
+    "icon": "📜",
+    "selected": false
+   },
+   {
+    "id": "environment",
+    "name": "采煤沉陷",
+    "weight": 10,
+    "evidence": "百年开采形成大面积采煤沉陷区与矸石山，生态修复成本高",
+    "icon": "🌫️",
+    "selected": false
+   },
+   {
+    "id": "location",
+    "name": "区位与人才流失",
+    "weight": 10,
+    "evidence": "沈阳、大连虹吸效应明显，青年人口外流",
+    "icon": "🚂",
+    "selected": false
+   },
+   {
+    "id": "aging",
+    "name": "老龄化加剧",
+    "weight": 5,
+    "evidence": "矿区退休职工集中，老龄化率高于全国平均",
+    "icon": "👴",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "petro",
+    "name": "石化产业基础",
+    "weight": 30,
+    "evidence": "抚顺石化千万吨炼油、百万吨乙烯项目构成转型支柱",
+    "icon": "🛢️",
+    "selected": false
+   },
+   {
+    "id": "material",
+    "name": "新材料集群",
+    "weight": 20,
+    "evidence": "碳素、碳纤维、精细化工新材料产业加速集聚",
+    "icon": "🔬",
+    "selected": false
+   },
+   {
+    "id": "park",
+    "name": "西露天矿治理",
+    "weight": 20,
+    "evidence": "世界级露天矿坑生态修复，打造工业旅游与地质科普基地",
+    "icon": "🏞️",
+    "selected": false
+   },
+   {
+    "id": "policy",
+    "name": "转型试点政策",
+    "weight": 15,
+    "evidence": "全国资源枯竭城市转型试点，获得中央转移支付支持",
+    "icon": "💰",
+    "selected": false
+   },
+   {
+    "id": "culture",
+    "name": "红色文旅资源",
+    "weight": 10,
+    "evidence": "雷锋纪念馆、战犯管理所等红色文化资源丰富",
+    "icon": "⭐",
+    "selected": false
+   },
+   {
+    "id": "ecology",
+    "name": "生态屏障",
+    "weight": 5,
+    "evidence": "大伙房水库水源地上游，生态价值凸显",
+    "icon": "🌲",
+    "selected": false
+   }
+  ]
+ },
+ "space_timeline": [
+  {
+   "year": 1901,
+   "built": 0.5,
+   "vacancy": 0,
+   "density": 2000
+  },
+  {
+   "year": 1930,
+   "built": 4,
+   "vacancy": 0,
+   "density": 22000
+  },
+  {
+   "year": 1950,
+   "built": 12,
+   "vacancy": 0,
+   "density": 35000
+  },
+  {
+   "year": 1965,
+   "built": 30,
+   "vacancy": 0.02,
+   "density": 42000
+  },
+  {
+   "year": 1980,
+   "built": 55,
+   "vacancy": 0.05,
+   "density": 40000
+  },
+  {
+   "year": 1995,
+   "built": 75,
+   "vacancy": 0.15,
+   "density": 30000
+  },
+  {
+   "year": 2008,
+   "built": 85,
+   "vacancy": 0.25,
+   "density": 25000
+  },
+  {
+   "year": 2015,
+   "built": 92,
+   "vacancy": 0.3,
+   "density": 23000
+  },
+  {
+   "year": 2020,
+   "built": 98,
+   "vacancy": 0.35,
+   "density": 19000
+  },
+  {
+   "year": 2024,
+   "built": 102,
+   "vacancy": 0.38,
+   "density": 17000
+  }
+ ],
+ "space": {
+  "built_up_area_km2": 102,
+  "current_pop": 1730000,
+  "peak_pop": 2250000,
+  "vacancy_rate": 0.38,
+  "landmark": "西露天矿",
+  "special": "世界第三、亚洲最大露天煤矿遗址，矿坑长6.6公里"
+ },
+ "migration": {
+  "destinations": [
+   {
+    "name": "沈阳市",
+    "lat": 41.8,
+    "lng": 123.4,
+    "flow": 280000,
+    "reason": "省会经济圈虹吸"
+   },
+   {
+    "name": "大连市",
+    "lat": 38.9,
+    "lng": 121.6,
+    "flow": 90000,
+    "reason": "港口城市就业"
+   },
+   {
+    "name": "北京市",
+    "lat": 39.9,
+    "lng": 116.4,
+    "flow": 70000,
+    "reason": "首都机会"
+   },
+   {
+    "name": "天津市",
+    "lat": 39.1,
+    "lng": 117.2,
+    "flow": 50000,
+    "reason": "渤海经济圈"
+   },
+   {
+    "name": "鞍山市",
+    "lat": 41.1,
+    "lng": 122.9,
+    "flow": 40000,
+    "reason": "钢铁工业联动"
+   }
+  ],
+  "outflow_total": 530000,
+  "inflow_total": 100000,
+  "net_flow": -430000
+ },
+ "achievements": [
+  {
+   "id": "fushun_first_visit",
+   "name": "煤都往事",
+   "desc": "首次进入抚顺，见证百年煤都的兴衰",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "fushun_peak",
+   "name": "共和国煤都",
+   "desc": "见证抚顺煤炭产量突破1300万吨的辉煌年代",
+   "condition": "year",
+   "year": 1965
+  },
+  {
+   "id": "fushun_close",
+   "name": "矿坑停采",
+   "desc": "目睹西露天矿因资源枯竭停止煤炭生产",
+   "condition": "year",
+   "year": 2019
+  },
+  {
+   "id": "fushun_rebirth",
+   "name": "石化新城",
+   "desc": "见证抚顺从单一煤都向石化新城转型",
+   "condition": "year",
+   "year": 2024
+  },
+  {
+   "id": "fushun_chain",
+   "name": "煤都拼图大师",
+   "desc": "完成抚顺煤炭产业链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": [
+  {
+   "desc": "2023 GDP 949.3亿元(+4.4%); 户籍195.2万; 七普常住173.9万",
+   "url": "https://fstjj.fushun.gov.cn/tjgb/011001/20240401/0065ed2f-682d-4dcb-946a-818e6f7f4f50.html",
+   "year": 2023
+  }
+ ],
+ "real_anchors": {
+  "census2020": {
+   "pop": 1739000
+  },
+  "stat2023": {
+   "gdp": 949.3,
+   "pop": 1780000
+  }
+ }
+}

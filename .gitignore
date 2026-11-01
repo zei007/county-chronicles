@@ -1,0 +1,17 @@
+node_modules
+.next
+out
+build
+*.tsbuildinfo
+next-env.d.ts
+.DS_Store
+
+# 运行时玩家数据（排行榜含玩家昵称，不入库；目录以 .gitkeep 保留）
+data-store/*
+!data-store/.gitkeep
+
+# 本地环境与部署产物
+.env
+.env.*
+.vercel
+*.zip

@@ -1,0 +1,674 @@
+{
+ "profile": {
+  "name": "上海自贸区·临港新片区",
+  "province": "上海市",
+  "prefecture": "直辖市 · 自贸试验区",
+  "area": "873 km²（临港新片区）",
+  "coordinates": [
+   121.8,
+   30.85
+  ],
+  "tags": [
+   "首个自贸试验区",
+   "临港新片区",
+   "国际金融中心",
+   "科技创新高地"
+  ],
+  "description": "2013年中国首个自由贸易试验区在上海设立，2019年临港新片区揭牌，依托全球最大的集装箱港口与金融、科创资源，上海自贸区从制度创新试验田成长为集成电路、人工智能、生物医药与新能源汽车的先进制造高地。"
+ },
+ "config": {
+  "timeRange": {
+   "start": 2013,
+   "end": 2024
+  },
+  "phases": [
+   {
+    "name": "保税区积淀",
+    "start": 2009,
+    "end": 2012,
+    "color": "gray"
+   },
+   {
+    "name": "自贸区成立",
+    "start": 2013,
+    "end": 2014,
+    "color": "green"
+   },
+   {
+    "name": "扩区深化",
+    "start": 2015,
+    "end": 2018,
+    "color": "yellow"
+   },
+   {
+    "name": "临港新片区",
+    "start": 2019,
+    "end": 2020,
+    "color": "teal"
+   },
+   {
+    "name": "科创与先进制造高地",
+    "start": 2021,
+    "end": 2024,
+    "color": "purple"
+   }
+  ],
+  "primaryIndicators": [
+   {
+    "key": "throughput",
+    "label": "集装箱吞吐量",
+    "unit": "万TEU",
+    "max": 6000,
+    "color": "#0ea5e9"
+   },
+   {
+    "key": "hitech",
+    "label": "高新技术企业",
+    "unit": "家",
+    "max": 30000,
+    "color": "#10b981"
+   }
+  ],
+  "spaceType": "single_city",
+  "spaceLabels": {
+   "old": "外高桥保税区",
+   "new": "临港新片区"
+  },
+  "cityKey": "shanghai",
+  "chainKeys": [
+   "trade_shipping",
+   "ic_ai_biotech",
+   "new_energy_vehicle"
+  ],
+  "chainContainerIds": [
+   "tradeChain",
+   "icChain",
+   "nevChain"
+  ],
+  "currentStatus": "全国改革开放排头兵与科技创新高地",
+  "transformationAssessment": "从传统保税区到自贸区与临港科创高地",
+  "transformationDetail": "上海自贸区以制度创新为核心，形成可复制可推广的负面清单、国际贸易单一窗口等经验；临港新片区聚焦集成电路、人工智能、生物医药与新能源汽车，规上工业总产值突破4000亿元，成为全球科创资源配置的重要节点。",
+  "reportStamp": "ARCHIVED"
+ },
+ "timeline": [
+  {
+   "year": 2013,
+   "title": "首个自贸区成立",
+   "category": "discovery",
+   "desc": "中国（上海）自由贸易试验区正式挂牌，开启新一轮制度型开放试验",
+   "impact": 10,
+   "pop": 24150000,
+   "gdp": 21818,
+   "throughput": 3362,
+   "hitech": 5140,
+   "event": true
+  },
+  {
+   "year": 2014,
+   "title": "负面清单与投资便利化",
+   "category": "transformation",
+   "desc": "全国首张外商投资准入负面清单发布，商事制度改革与投资便利化措施落地",
+   "impact": 8,
+   "pop": 24260000,
+   "gdp": 23568,
+   "throughput": 3529,
+   "hitech": 4700,
+   "event": true
+  },
+  {
+   "year": 2015,
+   "title": "自贸区扩区",
+   "category": "transformation",
+   "desc": "上海自贸区扩展至陆家嘴、金桥、张江片区，金融与科技创新功能增强",
+   "impact": 9,
+   "pop": 24150000,
+   "gdp": 25123,
+   "throughput": 3654,
+   "hitech": 5500,
+   "event": true
+  },
+  {
+   "year": 2016,
+   "title": "金改40条深化",
+   "category": "transformation",
+   "desc": "自贸试验区金融开放创新试点方案推进，自由贸易账户体系扩容",
+   "impact": 7,
+   "pop": 24197000,
+   "gdp": 28178,
+   "throughput": 3713,
+   "hitech": 6400,
+   "event": false
+  },
+  {
+   "year": 2017,
+   "title": "进口博览会落地",
+   "category": "peak",
+   "desc": "首届中国国际进口博览会宣布在上海举办，国际贸易中心功能进一步凸显",
+   "impact": 9,
+   "pop": 24183300,
+   "gdp": 30633,
+   "throughput": 4023,
+   "hitech": 7600,
+   "event": true
+  },
+  {
+   "year": 2018,
+   "title": "扩大开放100条",
+   "category": "transformation",
+   "desc": "上海发布扩大开放100条，汽车、金融、文化等领域开放提速",
+   "impact": 8,
+   "pop": 24237800,
+   "gdp": 32680,
+   "throughput": 4201,
+   "hitech": 9200,
+   "event": false
+  },
+  {
+   "year": 2019,
+   "title": "临港新片区揭牌",
+   "category": "discovery",
+   "desc": "上海自贸试验区临港新片区揭牌，聚焦特殊经济功能区建设",
+   "impact": 10,
+   "pop": 24281400,
+   "gdp": 38155,
+   "throughput": 4330,
+   "hitech": 11000,
+   "event": true
+  },
+  {
+   "year": 2020,
+   "title": "特斯拉上海工厂交付",
+   "category": "transformation",
+   "desc": "特斯拉上海超级工厂实现整车出口，临港新能源汽车产业链快速成型",
+   "impact": 9,
+   "pop": 24870800,
+   "gdp": 38701,
+   "throughput": 4350,
+   "hitech": 12800,
+   "event": true
+  },
+  {
+   "year": 2021,
+   "title": "临港工业总产值跃升",
+   "category": "peak",
+   "desc": "临港新片区规上工业总产值突破2500亿元，集成电路与新能源汽车双轮驱动",
+   "impact": 8,
+   "pop": 24894300,
+   "gdp": 43214,
+   "throughput": 4703,
+   "hitech": 20000,
+   "event": true
+  },
+  {
+   "year": 2022,
+   "title": "疫情下的供应链扰动",
+   "category": "decline",
+   "desc": "上海全域静态管理对港口航运、汽车与电子产业链造成短期冲击",
+   "impact": 7,
+   "pop": 24750000,
+   "gdp": 44652,
+   "throughput": 4730,
+   "hitech": 17800,
+   "event": true
+  },
+  {
+   "year": 2023,
+   "title": "科创走廊加速",
+   "category": "transformation",
+   "desc": "长三角G60科创走廊与临港世界级产业集群建设提速，高新技术企业持续集聚",
+   "impact": 8,
+   "pop": 24870000,
+   "gdp": 47218,
+   "throughput": 4916,
+   "hitech": 21000,
+   "event": false
+  },
+  {
+   "year": 2024,
+   "title": "高质量发展新台阶",
+   "category": "peak",
+   "desc": "上海GDP突破5.39万亿元，临港规上工业总产值约4230亿元，集装箱吞吐量保持全球第一",
+   "impact": 10,
+   "pop": 24802600,
+   "gdp": 53926.71,
+   "throughput": 5150,
+   "hitech": 24500,
+   "event": true
+  }
+ ],
+ "chains": {
+  "trade_shipping": {
+   "name": "国际贸易/航运链",
+   "color": "#0ea5e9",
+   "icon": "🚢",
+   "lifecycle": {
+    "birth": 2013,
+    "peak": 2024,
+    "decline": null
+   },
+   "nodes": [
+    {
+     "id": "bonded",
+     "name": "保税区",
+     "x": 50,
+     "y": 50,
+     "status": "active",
+     "peak": "2010s"
+    },
+    {
+     "id": "single_window",
+     "name": "单一窗口",
+     "x": 150,
+     "y": 50,
+     "status": "active",
+     "peak": "2010s-2020s"
+    },
+    {
+     "id": "cross_border",
+     "name": "跨境电商",
+     "x": 250,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "int_trade",
+     "name": "国际中转集拼",
+     "x": 350,
+     "y": 50,
+     "status": "growing",
+     "peak": "未来"
+    }
+   ],
+   "connections": [
+    {
+     "from": "bonded",
+     "to": "single_window",
+     "flow": "通关便利"
+    },
+    {
+     "from": "single_window",
+     "to": "cross_border",
+     "flow": "贸易数字化"
+    },
+    {
+     "from": "cross_border",
+     "to": "int_trade",
+     "flow": "全球资源配置"
+    }
+   ],
+   "employment": {
+    "peak": null,
+    "current": 250000
+   }
+  },
+  "ic_ai_biotech": {
+   "name": "集成电路/人工智能/生物医药科创链",
+   "color": "#10b981",
+   "icon": "🧬",
+   "lifecycle": {
+    "birth": 2019,
+    "peak": 2024,
+    "decline": null
+   },
+   "nodes": [
+    {
+     "id": "ic",
+     "name": "集成电路",
+     "x": 50,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "ai",
+     "name": "人工智能",
+     "x": 150,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "biotech",
+     "name": "生物医药",
+     "x": 250,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "rnd",
+     "name": "研发转化",
+     "x": 350,
+     "y": 50,
+     "status": "growing",
+     "peak": "未来"
+    }
+   ],
+   "connections": [
+    {
+     "from": "ic",
+     "to": "ai",
+     "flow": "算力芯片"
+    },
+    {
+     "from": "ai",
+     "to": "biotech",
+     "flow": "AI制药"
+    },
+    {
+     "from": "biotech",
+     "to": "rnd",
+     "flow": "临床转化"
+    }
+   ],
+   "employment": {
+    "peak": null,
+    "current": 320000
+   }
+  },
+  "new_energy_vehicle": {
+   "name": "新能源汽车链",
+   "color": "#f59e0b",
+   "icon": "🚗",
+   "lifecycle": {
+    "birth": 2019,
+    "peak": 2024,
+    "decline": null
+   },
+   "nodes": [
+    {
+     "id": "battery",
+     "name": "动力电池",
+     "x": 50,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "vehicle",
+     "name": "整车制造",
+     "x": 150,
+     "y": 50,
+     "status": "active",
+     "peak": "2020s"
+    },
+    {
+     "id": "autonomous",
+     "name": "智能驾驶",
+     "x": 250,
+     "y": 50,
+     "status": "growing",
+     "peak": "2020s"
+    },
+    {
+     "id": "export",
+     "name": "整车出口",
+     "x": 350,
+     "y": 50,
+     "status": "growing",
+     "peak": "未来"
+    }
+   ],
+   "connections": [
+    {
+     "from": "battery",
+     "to": "vehicle",
+     "flow": "核心部件"
+    },
+    {
+     "from": "vehicle",
+     "to": "autonomous",
+     "flow": "智能升级"
+    },
+    {
+     "from": "autonomous",
+     "to": "export",
+     "flow": "全球市场"
+    }
+   ],
+   "employment": {
+    "peak": null,
+    "current": 150000
+   }
+  }
+ },
+ "diagnosis": {
+  "decline_factors": [
+   {
+    "id": "cost",
+    "name": "土地与要素成本高企",
+    "weight": 25,
+    "evidence": "上海商务、用工、研发成本全国前列，制造环节外迁压力持续",
+    "icon": "🏔️",
+    "selected": false
+   },
+   {
+    "id": "housing",
+    "name": "高房价挤出效应",
+    "weight": 20,
+    "evidence": "居住成本高企削弱对青年人才和初创企业的吸引力",
+    "icon": "🏠",
+    "selected": false
+   },
+   {
+    "id": "supply_chain",
+    "name": "供应链外部扰动",
+    "weight": 15,
+    "evidence": "疫情、贸易摩擦与全球航运波动影响港口和制造业运行",
+    "icon": "📉",
+    "selected": false
+   },
+   {
+    "id": "regional_competition",
+    "name": "区域竞争加剧",
+    "weight": 15,
+    "evidence": "苏州、杭州、合肥等城市争夺科创产业与高端人才",
+    "icon": "⚔️",
+    "selected": false
+   },
+   {
+    "id": "aging",
+    "name": "人口老龄化与劳动力结构",
+    "weight": 15,
+    "evidence": "常住人口增速放缓，老龄化加深影响消费与劳动力供给",
+    "icon": "👥",
+    "selected": false
+   },
+   {
+    "id": "institutional",
+    "name": "制度创新边际递减",
+    "weight": 10,
+    "evidence": "早期政策红利逐步普及，需向更高水平制度型开放突破",
+    "icon": "📜",
+    "selected": false
+   }
+  ],
+  "rebirth_factors": [
+   {
+    "id": "institution",
+    "name": "制度创新先发优势",
+    "weight": 25,
+    "evidence": "负面清单、单一窗口、自由贸易账户等经验全国复制推广",
+    "icon": "📜",
+    "selected": false
+   },
+   {
+    "id": "port",
+    "name": "国际航运中心地位",
+    "weight": 20,
+    "evidence": "上海港集装箱吞吐量连续多年全球第一，航运服务能级持续提升",
+    "icon": "🚢",
+    "selected": false
+   },
+   {
+    "id": "finance",
+    "name": "国际金融中心功能",
+    "weight": 20,
+    "evidence": "资本市场、跨境金融、离岸业务为科创与贸易提供资金支撑",
+    "icon": "💰",
+    "selected": false
+   },
+   {
+    "id": "innovation",
+    "name": "科技创新资源集聚",
+    "weight": 15,
+    "evidence": "张江科学城、临港实验室与高新技术企业形成创新生态",
+    "icon": "💡",
+    "selected": false
+   },
+   {
+    "id": "talent",
+    "name": "海内外人才流入",
+    "weight": 10,
+    "evidence": "国际化程度高，海内外高端人才与海归持续集聚",
+    "icon": "🌉",
+    "selected": false
+   },
+   {
+    "id": "greater_bay",
+    "name": "长三角一体化协同",
+    "weight": 10,
+    "evidence": "G60科创走廊、产业链分工与一体化市场拓展发展空间",
+    "icon": "🌐",
+    "selected": false
+   }
+  ]
+ },
+ "space_timeline": [
+  {
+   "year": 2013,
+   "built": 28,
+   "vacancy": 0.05
+  },
+  {
+   "year": 2015,
+   "built": 95,
+   "vacancy": 0.06
+  },
+  {
+   "year": 2017,
+   "built": 180,
+   "vacancy": 0.06
+  },
+  {
+   "year": 2019,
+   "built": 320,
+   "vacancy": 0.07
+  },
+  {
+   "year": 2021,
+   "built": 480,
+   "vacancy": 0.06
+  },
+  {
+   "year": 2024,
+   "built": 650,
+   "vacancy": 0.05
+  }
+ ],
+ "space": {
+  "built_up_area_km2": 650,
+  "peak_pop": 24802600,
+  "current_pop": 24802600,
+  "vacancy_rate": 0.05,
+  "landmark": "临港新片区滴水湖"
+ },
+ "migration": {
+  "outflow_total": 450000,
+  "destinations": [
+   {
+    "city": "苏州",
+    "province": "江苏",
+    "count": 120000,
+    "reason": "制造业外溢与成本承接"
+   },
+   {
+    "city": "杭州",
+    "province": "浙江",
+    "count": 100000,
+    "reason": "数字经济与创业机会"
+   },
+   {
+    "city": "南京",
+    "province": "江苏",
+    "count": 60000,
+    "reason": "区域联动与人才流动"
+   },
+   {
+    "city": "合肥",
+    "province": "安徽",
+    "count": 50000,
+    "reason": "新兴产业与科教资源"
+   },
+   {
+    "city": "其他城市",
+    "province": "全国/海外",
+    "count": 120000,
+    "reason": "求学、创业、退休迁移"
+   }
+  ]
+ },
+ "achievements": [
+  {
+   "id": "shanghai_first_visit",
+   "name": "浦江之畔",
+   "desc": "首次进入上海自贸区·临港新片区",
+   "condition": "visit",
+   "year": null
+  },
+  {
+   "id": "shanghai_ftz",
+   "name": "自贸元年",
+   "desc": "见证2013年中国首个自贸区在上海设立",
+   "condition": "year",
+   "year": 2013
+  },
+  {
+   "id": "shanghai_expansion",
+   "name": "扩区深化",
+   "desc": "见证2015年上海自贸区扩区至陆家嘴、金桥、张江",
+   "condition": "year",
+   "year": 2015
+  },
+  {
+   "id": "shanghai_lingang",
+   "name": "临港新片区",
+   "desc": "见证2019年临港新片区揭牌",
+   "condition": "year",
+   "year": 2019
+  },
+  {
+   "id": "shanghai_tesla",
+   "name": "特斯拉速度",
+   "desc": "见证2020年特斯拉上海工厂交付",
+   "condition": "year",
+   "year": 2020
+  },
+  {
+   "id": "shanghai_chain",
+   "name": "浦江产业拼图大师",
+   "desc": "完成上海产业转型链拼图，匹配度≥80%",
+   "condition": "chain",
+   "year": null
+  }
+ ],
+ "sources": {
+  "disclaimer": "本页面数据为教学演示与叙事游戏用途，部分历史节点、经济指标、人口与产业数据经过归一化、近似或综合多源整理，请以国家统计局、上海市统计局、上海自贸区及临港新片区官方发布为准。",
+  "references": [
+   {
+    "name": "上海市人民政府",
+    "url": "https://www.shanghai.gov.cn/"
+   },
+   {
+    "name": "上海市统计局",
+    "url": "https://tjj.sh.gov.cn/"
+   },
+   {
+    "name": "上海自贸区临港新片区管委会",
+    "url": "https://www.lingang.gov.cn/"
+   }
+  ]
+ },
+ "simMode": "growth"
+}
